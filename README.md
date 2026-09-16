@@ -37,7 +37,7 @@
 
 網站使用相對路徑，支援 `https://帳號.github.io/儲存庫名稱/`。不需要執行建置。更新上述檔案並提交後，Pages 會重新發布。
 
-原始碼儲存庫：https://github.com/eilleenlan/word-club 。目前已完成本機預覽，GitHub Pages 尚未啟用。紀錄不跨裝置同步，同一瀏覽器共用紀錄。
+原始碼儲存庫：https://github.com/eilleenlan/word-club 。正式網站：https://eilleenlan.github.io/word-club/ 。GitHub Pages 已啟用，使用 main 分支根目錄，推送更新後會自動重新發布。紀錄不跨裝置同步，同一瀏覽器共用紀錄。
 
 ## 發音回歸檢查
 
