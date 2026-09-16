@@ -1,0 +1,6 @@
+.tools/
+.audio-work/
+word-club-github-pages.zip
+# Superseded pronunciation from the early prototype.
+audio/this.ogg
+__pycache__/

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173c54">
+  <meta name="description" content="跟著學校課本，聽發音、練拼字，一次學會一個英文單字。">
+  <title>小小拼字所 · Word Club</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23173c54'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Arial' font-size='42' font-weight='bold' fill='%23ffda63'%3EW%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="words.js" defer></script>
+  <script src="practice.js" defer></script>
+  <script src="speech.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="小小拼字所首頁"><span class="brand-icon">W<span>✦</span></span><span>小小拼字所<small>WORD CLUB</small></span></a>
+    <span class="header-note">每天一點點，單字記牢牢。</span>
+  </header>
+  <main id="main">
+    <section id="home" aria-labelledby="home-title">
+      <div class="intro"><span class="eyebrow">LET’S PRACTICE</span><h1 id="home-title">今天，一起練拼字！<span class="spark">✦</span></h1><p>選好年級與單元，從你正在學的單字開始。</p></div>
+      <div class="workspace">
+        <aside class="setup-panel">
+          <div class="step-label"><span>01</span><h2>我是幾年級？</h2></div>
+          <div class="grades" role="group" aria-label="選擇年級">
+            <button class="grade selected" data-grade="1" aria-pressed="true"><b>1</b>一年級<span>已加入 4 個單元</span></button>
+            <button class="grade" data-grade="5" aria-pressed="false"><b>5</b>五年級<span>等待加入課本單字</span></button>
+            <button class="grade" data-grade="6" aria-pressed="false"><b>6</b>六年級<span>等待加入課本單字</span></button>
+          </div>
+          <div class="settings"><div class="step-label"><span>02</span><h2>今天怎麼練？</h2></div>
+            <fieldset><legend>拼字難度</legend><label class="choice"><input type="radio" name="mode" value="guided" checked><span><strong>字母提示</strong><small>看第一個字母，慢慢拼出來</small></span></label><label class="choice"><input type="radio" name="mode" value="challenge"><span><strong>完整拼字</strong><small>聽發音，試著自己拼出來</small></span></label></fieldset>
+            <label class="shuffle"><input id="shuffle" type="checkbox" checked>打亂題目順序</label>
+          </div>
+          <p class="local-note">練習紀錄只存在這個瀏覽器，<br>換裝置不會同步。</p>
+        </aside>
+        <div class="units-panel"><div class="units-heading"><div><div class="step-label"><span>03</span><h2>選好範圍，開始練習</h2></div><p id="book-label">一年級 · My School — Book 1</p></div><span class="book-tag">課本單字</span></div>
+          <div id="practice-modes" class="practice-modes" role="group" aria-label="練習方式"><button id="single-mode" aria-pressed="true">單課練習</button><button id="mixed-mode" aria-pressed="false">綜合練習</button><button id="cross-mode" aria-pressed="false">跨年級練習</button></div>
+          <section id="mixed-panel" class="mixed-panel" hidden aria-labelledby="mixed-title"><div class="mixed-heading"><h3 id="mixed-title">把學過的單字，一起複習</h3><div><button id="select-all" class="text-button">全選</button><button id="clear-selection" class="text-button">清除</button></div></div><p class="mixed-description">勾選已學過的單元，這次會練到範圍內的每個單字。</p><div id="mixed-units" class="mixed-units"></div><div class="mixed-summary" aria-live="polite"><strong id="mixed-count"></strong><span id="mixed-history"></span></div><p class="mixed-audio-note">一年級四課共 40 題，皆已加入教材錄音。</p><button id="start-mixed" class="primary">開始綜合練習 →</button></section>
+          <div id="units" class="units-grid"></div><div class="how-to"><span class="how-icon">Aa</span><p><strong>聽一聽 → 拼一拼 → 再挑戰</strong><br>答錯也沒關係，最後可以再練一次。</p></div></div>
+      </div>
+    </section>
+    <section id="quiz" class="quiz-view" hidden aria-labelledby="quiz-title">
+      <div class="quiz-top"><button id="exit" class="text-button">← 回單元選單</button><span id="quiz-mode" class="pill"></span></div>
+      <div class="quiz-heading"><h1 id="quiz-title"></h1><span id="counter"></span></div>
+      <p id="quiz-scope" class="practice-scope" hidden></p>
+      <progress id="progress" value="0" max="10" aria-label="本次練習進度"></progress>
+      <div class="question-card">
+        <span id="question-type" class="eyebrow">聽發音，拼出英文</span><h2 id="meaning"></h2><p id="context" class="context"></p>
+        <button id="speak" class="sound-button" type="button"><span aria-hidden="true">♫</span> 聽英文發音</button><label class="slow"><input id="slow" type="checkbox">慢慢唸（0.65×）</label>
+        <div class="voice-setting"><label for="voice">英文聲音</label><select id="voice"><option value="">推薦聲音（優先真人錄音）</option></select><small>切換聲音或語速，就會重新唸一次。</small></div>
+        <p id="speech-status" class="speech-status" role="status"></p>
+        <div id="letter-hint" class="letter-hint" aria-label="字母提示"></div>
+        <form id="answer-form"><label class="answer-label" for="answer">你的拼字<span id="space-note"></span></label><input id="answer" type="text" placeholder="在這裡輸入英文" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" enterkeyhint="done" required><div id="feedback" class="feedback" role="status" aria-live="polite"></div><button id="check" class="primary" type="submit">確認答案 <span>↵</span></button></form>
+        <button id="next" class="primary" hidden>下一題 →</button>
+        <div class="question-actions"><button id="hint" class="text-button">給我提示</button><button id="reveal" class="text-button">看答案，再學一次</button></div>
+      </div><p class="encouragement">每一次練習，都離學會更近一點。</p>
+    </section>
+    <section id="results" class="results-view" hidden aria-labelledby="results-title"><div class="result-mark" aria-hidden="true">★</div><span class="eyebrow">NICE PRACTICE!</span><h1 id="results-title" tabindex="-1">你完成這次練習了！</h1><p id="result-message"></p><div class="result-stats"><div><strong id="completed-count"></strong><span>完成題數</span></div><div><strong id="correct-count"></strong><span>第一次就答對</span></div><div><strong id="review-count"></strong><span>再練更熟悉</span></div></div><div id="review-list"></div><p id="result-speech-status" class="speech-status" role="status"></p><div class="result-buttons"><button id="review" class="primary">再練一次錯題</button><button id="back" class="secondary">回單元選單</button></div></section>
+  </main>
+  <footer><span>小小拼字所 <span class="footer-dot">·</span> 一次一個單字，一點一滴進步。</span><span>學習內容：My School · Book 1 · <a href="audio-credits.html" target="_blank" rel="noopener">發音來源</a></span></footer>
+  <p id="storage-status" class="storage-status" role="status" hidden></p>
+</body>
+</html>
