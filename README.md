@@ -64,3 +64,7 @@
 依家長提供的《My Country - Book 4》U1、U2 單字表加入兩課；city／cities 按錄音分開，提供單複數提示，因此 U1 為 16 題、U2 為 15 題。Taiwan、Taipei、Pacific Ocean 保留課本大小寫，片語不拆字。
 
 31 段教材錄音位於 `audio/grade4/unit1/`、`audio/grade4/unit2/`，發布時需一併上傳。四年級綜合兩課共 31 題、跨年級全選共 71 題。手機上的四個年級選項以兩欄顯示。
+
+## 網址分享預覽
+
+首頁含靜態 Open Graph 與 Twitter Card 資訊。分享圖片為 `assets/share-card.png`（1200 × 630），設計來源為 `assets/share-card.html`；發布時需一併上傳 PNG。圖片與 metadata 使用正式 GitHub Pages 網址；社群服務需等上線後才能抓取，舊卡片可能受平台快取影響。
