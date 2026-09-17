@@ -1,6 +1,6 @@
 /* 課本來源：使用者提供的 My School - Book 1, Appendix - Sight Words, p.45。
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–2, p.13。
-   六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–2, p.18。
+   六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–4, pp.18–19。
    四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
    三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
    二年級來源：使用者提供的 All About Me - Book 2, Unit 1–2 單字表。
@@ -767,6 +767,184 @@ globalThis.WORD_UNITS = [
     [
       "now",
       "現在"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u3",
+  "number": "03",
+  "title": "守護瀕危動物",
+  "subtitle": "endangered, habitat, conserve…",
+  "words": [
+    [
+      "endangered",
+      "瀕臨絕種的"
+    ],
+    [
+      "species",
+      "物種"
+    ],
+    [
+      "about",
+      "關於，大約"
+    ],
+    [
+      "habitat",
+      "棲息地"
+    ],
+    [
+      "destruction",
+      "破壞"
+    ],
+    [
+      "poison",
+      "毒"
+    ],
+    [
+      "list",
+      "名單，清單"
+    ],
+    [
+      "become",
+      "變成"
+    ],
+    [
+      "boycott",
+      "抵制"
+    ],
+    [
+      "protest",
+      "抗議"
+    ],
+    [
+      "conserve",
+      "保存、節約"
+    ],
+    [
+      "resource",
+      "資源"
+    ],
+    [
+      "avoid",
+      "避免"
+    ],
+    [
+      "learn",
+      "學習"
+    ],
+    [
+      "sentence",
+      "句子"
+    ],
+    [
+      "why",
+      "為什麼"
+    ],
+    [
+      "human",
+      "人類"
+    ],
+    [
+      "develop",
+      "發展"
+    ],
+    [
+      "per year",
+      "每一年"
+    ],
+    [
+      "period",
+      "時期、期間"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u4",
+  "number": "04",
+  "title": "回收與環境保護",
+  "subtitle": "recycle, tie up, reuse…",
+  "words": [
+    [
+      "recycle",
+      "回收"
+    ],
+    [
+      "plastic",
+      "塑膠"
+    ],
+    [
+      "metal",
+      "金屬"
+    ],
+    [
+      "glass",
+      "玻璃"
+    ],
+    [
+      "paper",
+      "紙"
+    ],
+    [
+      "sort",
+      "分類"
+    ],
+    [
+      "sweep",
+      "掃"
+    ],
+    [
+      "tie up",
+      "綁起來"
+    ],
+    [
+      "carry",
+      "背、攜帶"
+    ],
+    [
+      "pick up",
+      "撿起來"
+    ],
+    [
+      "important",
+      "重要的"
+    ],
+    [
+      "air",
+      "空氣"
+    ],
+    [
+      "healthy",
+      "健康的"
+    ],
+    [
+      "oil",
+      "石油"
+    ],
+    [
+      "forest",
+      "森林"
+    ],
+    [
+      "waste",
+      "浪費"
+    ],
+    [
+      "reduce",
+      "減少"
+    ],
+    [
+      "reuse",
+      "重複使用"
+    ],
+    [
+      "harmful",
+      "有害的"
+    ],
+    [
+      "products",
+      "產品"
     ]
   ]
 }

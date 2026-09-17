@@ -48,15 +48,15 @@ test('real grade 5 range includes 160 supplied questions and grade 5 alone has 4
   assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 160);
   assert.equal(s.eligible(WORD_UNITS, 5, false).length, 2);
   assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 40);
-  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 2);
+  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 4);
 });
 
-test('grade 6 includes 41 new prompts, full phrases and separate verb tenses', () => {
+test('grade 6 includes 81 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 201);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 241);
   const own = s.build(WORD_UNITS, 6, false, selected);
-  assert.equal(own.words.length, 41);
+  assert.equal(own.words.length, 81);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
   assert.equal(WORD_UNITS.find(u => u.grade === 6 && u.id === 'u1').words.length, 21);
 });
@@ -101,4 +101,12 @@ test('grade 2 has 22 textbook prompts, distinct forms and all six grades are rep
   assert.deepEqual([...new Set(WORD_UNITS.map(u => u.grade))].sort(), [1,2,3,4,5,6]);
   assert.equal(WORD_UNITS.find(u => u.grade === 2 && u.id === 'u1').words.length, 12);
   for (const word of ['foot','feet','have','has']) assert.ok(own.words.find(w => w[0] === word)[2]);
+});
+
+test('grade 6 units 3 and 4 provide 40 textbook prompts and complete phrases', () => {
+  const selected = new Set(['g6:u3','g6:u4']);
+  const result = s.build(WORD_UNITS, 6, false, selected);
+  assert.equal(result.count, 2); assert.equal(result.words.length, 40);
+  for (const word of ['per year','tie up','pick up','products']) assert.ok(result.words.some(w => w[0] === word));
+  assert.equal(s.build(WORD_UNITS, 5, true, selected), null);
 });
