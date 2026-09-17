@@ -1,5 +1,6 @@
 /* 課本來源：使用者提供的 My School - Book 1, Appendix - Sight Words, p.45。
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–2, p.13。
+   六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–2, p.18。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
@@ -197,6 +198,191 @@ globalThis.WORD_UNITS = [
     [
       "types",
       "類型"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u1",
+  "number": "01",
+  "title": "探索恐龍世界",
+  "subtitle": "dinosaur, fossil, grow up…",
+  "words": [
+    [
+      "dinosaur",
+      "恐龍"
+    ],
+    [
+      "pictures",
+      "相片，圖片"
+    ],
+    [
+      "fossil",
+      "化石"
+    ],
+    [
+      "amount",
+      "總計，總數"
+    ],
+    [
+      "million",
+      "百萬"
+    ],
+    [
+      "since",
+      "自……以來"
+    ],
+    [
+      "ago",
+      "之前"
+    ],
+    [
+      "grow up",
+      "長大"
+    ],
+    [
+      "nearly",
+      "接近"
+    ],
+    [
+      "horn",
+      "角"
+    ],
+    [
+      "plants",
+      "植物"
+    ],
+    [
+      "bone",
+      "骨頭"
+    ],
+    [
+      "bony",
+      "多骨的，瘦的"
+    ],
+    [
+      "below",
+      "在下"
+    ],
+    [
+      "above",
+      "在上面"
+    ],
+    [
+      "scientist",
+      "科學家"
+    ],
+    [
+      "extinct",
+      "滅絕的"
+    ],
+    [
+      "cause",
+      "造成"
+    ],
+    [
+      "die",
+      "死亡",
+      "本題練習動詞原形。"
+    ],
+    [
+      "died",
+      "死亡",
+      "本題練習 die 的過去式。"
+    ],
+    [
+      "hit",
+      "碰撞，打",
+      "本課練習過去式；拼法與原形相同。"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u2",
+  "number": "02",
+  "title": "天氣與衣著",
+  "subtitle": "enough, rain shower, plenty of…",
+  "words": [
+    [
+      "enough",
+      "足夠"
+    ],
+    [
+      "business",
+      "生意，事業"
+    ],
+    [
+      "promise",
+      "允諾，約定"
+    ],
+    [
+      "storm",
+      "風暴"
+    ],
+    [
+      "hotel",
+      "旅館"
+    ],
+    [
+      "listen",
+      "聽"
+    ],
+    [
+      "rainstorm",
+      "暴風雨"
+    ],
+    [
+      "typhoon",
+      "颱風"
+    ],
+    [
+      "rain shower",
+      "陣雨"
+    ],
+    [
+      "several",
+      "幾個；數個"
+    ],
+    [
+      "plenty of",
+      "豐富；充沛"
+    ],
+    [
+      "a lot of",
+      "多量；大量"
+    ],
+    [
+      "thunder",
+      "雷；雷聲"
+    ],
+    [
+      "lightning",
+      "閃電"
+    ],
+    [
+      "tornado",
+      "龍捲風"
+    ],
+    [
+      "flood",
+      "水災"
+    ],
+    [
+      "drought",
+      "旱災"
+    ],
+    [
+      "a little",
+      "少量；小量"
+    ],
+    [
+      "none",
+      "沒有任何（人／事／物）"
+    ],
+    [
+      "begin",
+      "開始"
     ]
   ]
 }

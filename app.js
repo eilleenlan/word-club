@@ -30,7 +30,7 @@
     const currentUnits = scope.eligible(units, grade, false);
     if (!currentUnits.length) { $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的單字還沒加入</h3><p>可以先用「跨年級練習」複習已加入的低年級單字。</p><button id="choose-cross" class="secondary">開始跨年級複習</button></div>'; $('choose-cross').onclick = () => setPracticeMode('cross'); }
     document.querySelectorAll('.grade').forEach(button => { const count = scope.eligible(units, Number(button.dataset.grade), false).length; button.querySelector('span').textContent = count ? `已加入 ${count} 個單元` : '等待加入課本單字'; });
-    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : grade === 5 ? ' · Our World — Book 5' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
+    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : grade === 5 ? ' · Our World — Book 5' : grade === 6 ? ' · Our Planet — Book 6' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
     currentUnits.forEach((unit, i) => {
       const card = document.createElement('article'); card.className = 'unit-card';
       const saved = history[scope.singleId(unit)];

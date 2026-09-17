@@ -48,5 +48,15 @@ test('real grade 5 range includes 80 supplied questions and grade 5 alone has 40
   assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 80);
   assert.equal(s.eligible(WORD_UNITS, 5, false).length, 2);
   assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 40);
-  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 0);
+  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 2);
+});
+
+test('grade 6 includes 41 new prompts, full phrases and separate verb tenses', () => {
+  const available = s.eligible(WORD_UNITS, 6, true);
+  const selected = new Set(available.map(s.unitKey));
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 121);
+  const own = s.build(WORD_UNITS, 6, false, selected);
+  assert.equal(own.words.length, 41);
+  for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
+  assert.equal(WORD_UNITS.find(u => u.grade === 6 && u.id === 'u1').words.length, 21);
 });
