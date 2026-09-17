@@ -2,6 +2,7 @@
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–2, p.13。
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–2, p.18。
    四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
+   三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
@@ -528,6 +529,132 @@ globalThis.WORD_UNITS = [
     [
       "beautifully",
       "美麗地"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u1",
+  "number": "01",
+  "title": "我的社區",
+  "subtitle": "next to, bookstore, post office…",
+  "words": [
+    [
+      "next to",
+      "在……旁邊"
+    ],
+    [
+      "in front of",
+      "在……前面"
+    ],
+    [
+      "between",
+      "在……中間"
+    ],
+    [
+      "behind",
+      "在……後面"
+    ],
+    [
+      "across from",
+      "在……對面"
+    ],
+    [
+      "bookstore",
+      "書局"
+    ],
+    [
+      "park",
+      "公園"
+    ],
+    [
+      "bakery",
+      "麵包店"
+    ],
+    [
+      "supermarket",
+      "超級市場"
+    ],
+    [
+      "post office",
+      "郵局"
+    ],
+    [
+      "restaurant",
+      "餐廳"
+    ],
+    [
+      "movie theater",
+      "電影院"
+    ],
+    [
+      "convenience store",
+      "便利商店"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u2",
+  "number": "02",
+  "title": "認識各種職業",
+  "subtitle": "doctor, police officer, teacher…",
+  "words": [
+    [
+      "doctor",
+      "醫生"
+    ],
+    [
+      "work",
+      "工作"
+    ],
+    [
+      "hospital",
+      "醫院"
+    ],
+    [
+      "police officer",
+      "警察"
+    ],
+    [
+      "care",
+      "照顧"
+    ],
+    [
+      "clerk",
+      "店員，辦事員"
+    ],
+    [
+      "cashier",
+      "收銀員"
+    ],
+    [
+      "waiter",
+      "男服務生"
+    ],
+    [
+      "waitress",
+      "女服務生"
+    ],
+    [
+      "fire fighter",
+      "消防員"
+    ],
+    [
+      "fire station",
+      "消防局"
+    ],
+    [
+      "police station",
+      "警察局"
+    ],
+    [
+      "nurse",
+      "護士"
+    ],
+    [
+      "teacher",
+      "老師"
     ]
   ]
 }
