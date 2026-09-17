@@ -18,7 +18,6 @@
     return selections.get(id);
   }
   const speaker = new WordSpeaker({ onStatus: message => { ($('results').hidden ? $('speech-status') : $('result-speech-status')).textContent = message; } });
-  const normalize = value => value.trim().replace(/\s+/g, ' ').toLowerCase();
   try { const saved = JSON.parse(localStorage.getItem(key) || '{}'); if (saved && typeof saved === 'object' && !Array.isArray(saved)) history = saved; } catch { storageNotice(); }
   function storageNotice() { $('storage-status').textContent = '這個瀏覽器暫時無法儲存紀錄，仍然可以繼續練習。'; $('storage-status').hidden = false; }
   function show(view) { for (const id of ['home', 'quiz', 'results']) $(id).hidden = id !== view; window.scrollTo({ top: 0, behavior: 'instant' }); }
@@ -30,7 +29,7 @@
     const currentUnits = scope.eligible(units, grade, false);
     if (!currentUnits.length) { $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的單字還沒加入</h3><p>可以先用「跨年級練習」複習已加入的低年級單字。</p><button id="choose-cross" class="secondary">開始跨年級複習</button></div>'; $('choose-cross').onclick = () => setPracticeMode('cross'); }
     document.querySelectorAll('.grade').forEach(button => { const count = scope.eligible(units, Number(button.dataset.grade), false).length; button.querySelector('span').textContent = count ? `已加入 ${count} 個單元` : '等待加入課本單字'; });
-    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : grade === 5 ? ' · Our World — Book 5' : grade === 6 ? ' · Our Planet — Book 6' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
+    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : grade === 4 ? ' · My Country — Book 4' : grade === 5 ? ' · Our World — Book 5' : grade === 6 ? ' · Our Planet — Book 6' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
     currentUnits.forEach((unit, i) => {
       const card = document.createElement('article'); card.className = 'unit-card';
       const saved = history[scope.singleId(unit)];
@@ -160,11 +159,23 @@
   }
   function submitAnswer() {
     if (!session || session.resolved) return;
-    if (!normalize($('answer').value)) { $('feedback').textContent = '先輸入你的拼字，再按確認。'; $('answer').focus(); return; }
-    if (normalize($('answer').value) === normalize(current()[0])) {
+    const verdict = scope.checkAnswer($('answer').value, current()[0]);
+    if (verdict === 'empty') { $('feedback').textContent = '先輸入你的拼字，再按確認。'; $('answer').focus(); return; }
+    if (verdict === 'correct') {
       if (session.attempts === 0 && !session.helped) session.firstCorrect++;
       $('answer').value = current()[0]; $('feedback').textContent = session.attempts > 0 || session.helped ? `答對了！${current()[0]}，再練一次會更熟悉。` : `★ 答對了！${current()[0]}`; resolve(true);
-    } else { session.attempts++; markMissed(); $('feedback').className = 'feedback retry'; $('feedback').textContent = '還差一點點！看看字母提示，再試一次。'; $('letter-hint').textContent = hintText(current()[0]); $('answer').setAttribute('aria-invalid', 'true'); $('answer').focus(); $('answer').select(); }
+    } else {
+      session.attempts++; markMissed(); $('feedback').className = 'feedback retry';
+      if (verdict === 'case') {
+        $('feedback').textContent = current()[0] === 'I am'
+          ? '字母拼對了！表示「我」的 I 要大寫，am 用小寫。請修正後再確認。'
+          : '字母拼對了！請檢查大小寫：專有名詞每個字的字首要大寫，其餘字母用小寫。修正後再確認。';
+      } else {
+        $('feedback').textContent = '還差一點點！看看字母提示，再試一次。';
+        $('letter-hint').textContent = hintText(current()[0]);
+      }
+      $('answer').setAttribute('aria-invalid', 'true'); $('answer').focus(); $('answer').select();
+    }
   }
   function finish() {
     cancelSpeech(); show('results'); $('completed-count').textContent = session.words.length; $('correct-count').textContent = session.firstCorrect; $('review-count').textContent = session.missed.length;

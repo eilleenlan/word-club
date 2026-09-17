@@ -5,6 +5,15 @@
   const unitKey = unit => `g${gradeOf(unit)}:${unit.id}`;
   const singleId = unit => gradeOf(unit) === 1 ? unit.id : unitKey(unit);
   const gradeName = grade => `${labels[grade]}年級`;
+  function checkAnswer(value, expected) {
+    const answer = value.trim().replace(/\s+/g, ' ');
+    const target = expected.trim().replace(/\s+/g, ' ');
+    if (!answer) return 'empty';
+    if (answer.toLowerCase() !== target.toLowerCase()) return 'spelling';
+    // Capital letters in textbook entries mark required capitalization (names or I).
+    if (/[A-Z]/.test(target) && answer !== target) return 'case';
+    return 'correct';
+  }
   function eligible(all, grade, cross) {
     return all.filter(unit => gradeOf(unit) >= 1 && (cross ? gradeOf(unit) <= grade : gradeOf(unit) === grade)).sort((a, b) => gradeOf(a) - gradeOf(b) || a.number.localeCompare(b.number, undefined, { numeric: true }));
   }
@@ -24,5 +33,5 @@
       range: chosen.map(unit => `${cross ? gradeName(gradeOf(unit)) + ' ' : ''}Unit ${unit.number}`).join('、'), words
     };
   }
-  globalThis.PracticeScope = { gradeOf, unitKey, singleId, gradeName, eligible, build };
+  globalThis.PracticeScope = { gradeOf, unitKey, singleId, gradeName, eligible, build, checkAnswer };
 })();

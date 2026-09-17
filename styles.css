@@ -23,3 +23,5 @@
 .mixed-actions .mixed-summary{margin:0 0 8px}.mixed-actions .mixed-audio-note{margin:8px 0 12px}
 .mixed-choice span{overflow-wrap:anywhere}.word-list li{flex-wrap:wrap}.unit-card h3{overflow-wrap:anywhere}
 @media(max-width:650px){.mixed-units{max-height:48vh}.mixed-actions{padding-bottom:env(safe-area-inset-bottom)}.grade-details>summary{padding-left:44px;font-size:14px}.grade-selection-count{font-size:12px}.grade-unit-choices{padding-inline:8px}.mixed-actions .mixed-summary strong{font-size:15px}}
+
+@media(max-width:650px){.grades{grid-template-columns:repeat(2,minmax(0,1fr))}.grade{display:grid;grid-template-columns:32px minmax(0,1fr);text-align:left;column-gap:9px;row-gap:3px;padding:12px 10px}.grade b{grid-row:span 2}.grade span{margin:0}.grade b{align-self:center}}

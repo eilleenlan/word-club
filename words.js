@@ -1,6 +1,7 @@
 /* 課本來源：使用者提供的 My School - Book 1, Appendix - Sight Words, p.45。
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–2, p.13。
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–2, p.18。
+   四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
@@ -383,6 +384,150 @@ globalThis.WORD_UNITS = [
     [
       "begin",
       "開始"
+    ]
+  ]
+},
+{
+  "grade": 4,
+  "id": "u1",
+  "number": "01",
+  "title": "認識臺灣",
+  "subtitle": "Taiwan, Pacific Ocean, cities…",
+  "words": [
+    [
+      "Taiwan",
+      "台灣"
+    ],
+    [
+      "island",
+      "島嶼"
+    ],
+    [
+      "ocean",
+      "海洋"
+    ],
+    [
+      "Pacific Ocean",
+      "太平洋"
+    ],
+    [
+      "strait",
+      "海峽"
+    ],
+    [
+      "Taipei",
+      "台北"
+    ],
+    [
+      "national park",
+      "國家公園"
+    ],
+    [
+      "near",
+      "接近"
+    ],
+    [
+      "here",
+      "這裡"
+    ],
+    [
+      "located",
+      "位在"
+    ],
+    [
+      "far from",
+      "離……很遠"
+    ],
+    [
+      "city",
+      "城市",
+      "本題練習單數。"
+    ],
+    [
+      "cities",
+      "城市",
+      "本題練習 city 的複數。"
+    ],
+    [
+      "live in",
+      "住在"
+    ],
+    [
+      "capital",
+      "首都"
+    ],
+    [
+      "center",
+      "中心"
+    ]
+  ]
+},
+{
+  "grade": 4,
+  "id": "u2",
+  "number": "02",
+  "title": "順益原住民博物館",
+  "subtitle": "catch, carefully, beautifully…",
+  "words": [
+    [
+      "catch",
+      "抓"
+    ],
+    [
+      "hunt",
+      "打獵"
+    ],
+    [
+      "carve",
+      "雕刻"
+    ],
+    [
+      "dig",
+      "挖"
+    ],
+    [
+      "dance",
+      "跳舞"
+    ],
+    [
+      "sew",
+      "縫"
+    ],
+    [
+      "quickly",
+      "很快地"
+    ],
+    [
+      "carefully",
+      "小心地"
+    ],
+    [
+      "carelessly",
+      "不小心地"
+    ],
+    [
+      "slowly",
+      "很慢地"
+    ],
+    [
+      "happily",
+      "快樂地"
+    ],
+    [
+      "quietly",
+      "安靜地"
+    ],
+    [
+      "skillfully",
+      "熟練地"
+    ],
+    [
+      "loudly",
+      "大聲地"
+    ],
+    [
+      "beautifully",
+      "美麗地"
     ]
   ]
 }

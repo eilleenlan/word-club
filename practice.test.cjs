@@ -43,9 +43,9 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range includes 80 supplied questions and grade 5 alone has 40', () => {
+test('real grade 5 range includes 111 supplied questions and grade 5 alone has 40', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 80);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 111);
   assert.equal(s.eligible(WORD_UNITS, 5, false).length, 2);
   assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 40);
   assert.equal(s.eligible(WORD_UNITS, 6, false).length, 2);
@@ -54,9 +54,31 @@ test('real grade 5 range includes 80 supplied questions and grade 5 alone has 40
 test('grade 6 includes 41 new prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 121);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 152);
   const own = s.build(WORD_UNITS, 6, false, selected);
   assert.equal(own.words.length, 41);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
   assert.equal(WORD_UNITS.find(u => u.grade === 6 && u.id === 'u1').words.length, 21);
+});
+
+test('grade 4 has 31 textbook prompts and its cumulative range excludes grades 5 and 6', () => {
+  const selected = new Set(WORD_UNITS.map(s.unitKey));
+  const own = s.build(WORD_UNITS, 4, false, selected);
+  assert.equal(own.words.length, 31);
+  assert.equal(s.build(WORD_UNITS, 4, true, selected).words.length, 71);
+  for (const word of ['Taiwan','Taipei','Pacific Ocean','national park','far from','live in','city','cities']) assert.ok(own.words.some(w => w[0] === word));
+  assert.equal(WORD_UNITS.find(u => u.grade === 4 && u.id === 'u1').words.length, 16);
+});
+
+test('proper names and I require textbook case while whitespace remains forgiving', () => {
+  for (const [answer, target, verdict] of [
+    ['taiwan','Taiwan','case'], ['TAIWAN','Taiwan','case'], ['Taiwan','Taiwan','correct'],
+    ['taipei','Taipei','case'], ['Taipei','Taipei','correct'],
+    ['Pacific ocean','Pacific Ocean','case'], ['pacific Ocean','Pacific Ocean','case'],
+    ['  Pacific   Ocean  ','Pacific Ocean','correct'], ['PacificOcean','Pacific Ocean','spelling'],
+    ['i am','I am','case'], ['I AM','I am','case'], [' I  am ','I am','correct'],
+    ['ISLAND','island','correct'], ['National Park','national park','correct'],
+    ['Taiwn','Taiwan','spelling'], ['   ','Taiwan','empty']
+  ]) assert.equal(s.checkAnswer(answer, target), verdict, `${answer} => ${target}`);
+  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ['I am','Pacific Ocean','Taipei','Taiwan']);
 });
