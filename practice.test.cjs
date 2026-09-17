@@ -43,18 +43,18 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range includes 160 supplied questions and grade 5 alone has 40', () => {
+test('real grade 5 range includes 200 supplied questions and grade 5 alone has 80', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 160);
-  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 2);
-  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 40);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 200);
+  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 4);
+  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 80);
   assert.equal(s.eligible(WORD_UNITS, 6, false).length, 4);
 });
 
 test('grade 6 includes 81 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 241);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 281);
   const own = s.build(WORD_UNITS, 6, false, selected);
   assert.equal(own.words.length, 81);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
@@ -80,7 +80,7 @@ test('proper names and I require textbook case while whitespace remains forgivin
     ['ISLAND','island','correct'], ['National Park','national park','correct'],
     ['Taiwn','Taiwan','spelling'], ['   ','Taiwan','empty']
   ]) assert.equal(s.checkAnswer(answer, target), verdict, `${answer} => ${target}`);
-  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ['I am','Pacific Ocean','Taipei','Taiwan']);
+  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ['China','Egypt','England','France','I am','India','Pacific Ocean','Taipei','Taiwan','the United States']);
 });
 
 test('grade 3 has 27 textbook prompts, preserves phrases and excludes higher grades', () => {
@@ -109,4 +109,16 @@ test('grade 6 units 3 and 4 provide 40 textbook prompts and complete phrases', (
   assert.equal(result.count, 2); assert.equal(result.words.length, 40);
   for (const word of ['per year','tie up','pick up','products']) assert.ok(result.words.some(w => w[0] === word));
   assert.equal(s.build(WORD_UNITS, 5, true, selected), null);
+});
+
+test('grade 5 new units preserve country case and contractions', () => {
+  const result = s.build(WORD_UNITS, 5, false, new Set(['g5:u3','g5:u4']));
+  assert.equal(result.words.length, 40);
+  assert.equal(s.checkAnswer('the united states','the United States'),'case');
+  assert.equal(s.checkAnswer('The United States','the United States'),'case');
+  assert.equal(s.checkAnswer('the United States','the United States'),'correct');
+  assert.equal(s.checkAnswer('egypt','Egypt'),'case');
+  assert.equal(s.checkAnswer('won’t',"won't"),'correct');
+  assert.equal(s.checkAnswer("won't","won't"),'correct');
+  assert.equal(s.checkAnswer('wont',"won't"),'spelling');
 });

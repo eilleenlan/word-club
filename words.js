@@ -1,5 +1,5 @@
 /* 課本來源：使用者提供的 My School - Book 1, Appendix - Sight Words, p.45。
-   五年級來源：使用者提供的 Our World - Book 5, Unit 1–2, p.13。
+   五年級來源：使用者提供的 Our World - Book 5, Unit 1–4, pp.13–14。
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–4, pp.18–19。
    四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
    三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
@@ -945,6 +945,187 @@ globalThis.WORD_UNITS = [
     [
       "products",
       "產品"
+    ]
+  ]
+},
+{
+  "grade": 5,
+  "id": "u3",
+  "number": "03",
+  "title": "認識世界各地的筆友",
+  "subtitle": "pen pal, Egypt, the United States…",
+  "words": [
+    [
+      "pen pal",
+      "筆友"
+    ],
+    [
+      "envelope",
+      "信封"
+    ],
+    [
+      "already",
+      "已經"
+    ],
+    [
+      "right",
+      "對的"
+    ],
+    [
+      "letter",
+      "信件"
+    ],
+    [
+      "never",
+      "從未……"
+    ],
+    [
+      "fun",
+      "有趣的"
+    ],
+    [
+      "the United States",
+      "美國",
+      "the 用小寫，United 和 States 的字首要大寫。"
+    ],
+    [
+      "Egypt",
+      "埃及"
+    ],
+    [
+      "England",
+      "英國"
+    ],
+    [
+      "China",
+      "中國"
+    ],
+    [
+      "France",
+      "法國"
+    ],
+    [
+      "India",
+      "印度"
+    ],
+    [
+      "often",
+      "常常"
+    ],
+    [
+      "late",
+      "遲，晚"
+    ],
+    [
+      "seldom",
+      "很少"
+    ],
+    [
+      "sometimes",
+      "有時候"
+    ],
+    [
+      "usually",
+      "通常"
+    ],
+    [
+      "always",
+      "總是"
+    ],
+    [
+      "forward",
+      "向前",
+      "look forward to 表示「期待」。"
+    ]
+  ]
+},
+{
+  "grade": 5,
+  "id": "u4",
+  "number": "04",
+  "title": "著名景點",
+  "subtitle": "famous, postcard, won't…",
+  "words": [
+    [
+      "famous",
+      "有名的"
+    ],
+    [
+      "postcard",
+      "明信片"
+    ],
+    [
+      "when",
+      "何時"
+    ],
+    [
+      "will",
+      "要……，想要"
+    ],
+    [
+      "dinner",
+      "晚餐"
+    ],
+    [
+      "breakfast",
+      "早餐"
+    ],
+    [
+      "lunch",
+      "午餐"
+    ],
+    [
+      "later",
+      "以後；較晚地"
+    ],
+    [
+      "tonight",
+      "今晚"
+    ],
+    [
+      "tomorrow night",
+      "明天晚上"
+    ],
+    [
+      "next",
+      "下一次的"
+    ],
+    [
+      "someday",
+      "將來有一天"
+    ],
+    [
+      "won't",
+      "將不",
+      "will not 的縮寫，記得加上撇號。"
+    ],
+    [
+      "century",
+      "世紀"
+    ],
+    [
+      "around",
+      "四處，到處"
+    ],
+    [
+      "world",
+      "世界"
+    ],
+    [
+      "delivery",
+      "投遞"
+    ],
+    [
+      "problem",
+      "問題"
+    ],
+    [
+      "cost",
+      "花費"
+    ],
+    [
+      "suggest",
+      "建議"
     ]
   ]
 }

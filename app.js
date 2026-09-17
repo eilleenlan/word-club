@@ -129,7 +129,7 @@
     $('quiz-mode').textContent = session.mode === 'guided' ? '字母提示' : '完整拼字'; show('quiz'); renderQuestion(); speakCurrent();
   }
   function current() { return session.words[session.index]; }
-  function hintText(word) { return word.split(' ').map(part => part[0] + ' _'.repeat(part.length - 1)).join('   /   '); }
+  function hintText(word) { return word.split(' ').map(part => [...part].map((letter, i) => /[A-Za-z]/.test(letter) ? (i === 0 ? letter : '_') : letter).join(' ')).join('   /   '); }
   function renderQuestion() {
     const word = current(); session.attempts = 0; session.helped = false; session.resolved = false;
     $('counter').textContent = `${session.index + 1} / ${session.words.length}`; $('progress').max = session.words.length; $('progress').value = session.index;
@@ -169,7 +169,7 @@
       if (verdict === 'case') {
         $('feedback').textContent = current()[0] === 'I am'
           ? '字母拼對了！表示「我」的 I 要大寫，am 用小寫。請修正後再確認。'
-          : '字母拼對了！請檢查大小寫：專有名詞每個字的字首要大寫，其餘字母用小寫。修正後再確認。';
+          : current()[0] === 'the United States' ? '字母拼對了！the 用小寫，United 和 States 的字首要大寫。請修正後再確認。' : '字母拼對了！請依課本檢查專有名詞的大小寫，修正後再確認。';
       } else {
         $('feedback').textContent = '還差一點點！看看字母提示，再試一次。';
         $('letter-hint').textContent = hintText(current()[0]);
@@ -204,7 +204,7 @@
   $('voice').onchange = () => { if (session && !$('quiz').hidden) speakCurrent(); };
   updateVoices();
   if ('speechSynthesis' in window) speechSynthesis.addEventListener('voiceschanged', updateVoices);
-  $('hint').onclick = () => { if (!session || session.resolved) return; session.helped = true; markMissed(); $('letter-hint').textContent = hintText(current()[0]); $('feedback').className = 'feedback'; $('feedback').textContent = `共有 ${current()[0].replace(/ /g, '').length} 個字母${current()[0].includes(' ') ? '，／ 表示單字之間的空格' : ''}。你可以的！`; $('answer').focus(); };
+  $('hint').onclick = () => { if (!session || session.resolved) return; session.helped = true; markMissed(); $('letter-hint').textContent = hintText(current()[0]); $('feedback').className = 'feedback'; $('feedback').textContent = `共有 ${current()[0].replace(/[^A-Za-z]/g, '').length} 個字母${current()[0].includes(' ') ? '，／ 表示單字之間的空格' : ''}。你可以的！`; $('answer').focus(); };
   $('reveal').onclick = () => { if (!session || session.resolved) return; markMissed(); $('answer').value = current()[0]; $('letter-hint').textContent = current()[0]; $('feedback').textContent = `一起記住：${current()[0]}。這一題會放進最後的複習。`; resolve(false); speakCurrent(); };
   $('next').onclick = () => { if (!session?.resolved) return; if (++session.index < session.words.length) { cancelSpeech(); renderQuestion(); speakCurrent(); } else finish(); };
   $('exit').onclick = () => { if (confirm('要回到單元選單嗎？這次尚未完成的練習不會儲存。')) home(); };

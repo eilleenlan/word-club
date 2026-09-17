@@ -6,8 +6,8 @@
   const singleId = unit => gradeOf(unit) === 1 ? unit.id : unitKey(unit);
   const gradeName = grade => `${labels[grade]}年級`;
   function checkAnswer(value, expected) {
-    const answer = value.trim().replace(/\s+/g, ' ');
-    const target = expected.trim().replace(/\s+/g, ' ');
+    const answer = value.trim().replace(/[’‘]/g, "'").replace(/\s+/g, ' ');
+    const target = expected.trim().replace(/[’‘]/g, "'").replace(/\s+/g, ' ');
     if (!answer) return 'empty';
     if (answer.toLowerCase() !== target.toLowerCase()) return 'spelling';
     // Capital letters in textbook entries mark required capitalization (names or I).
