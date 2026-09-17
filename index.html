@@ -26,7 +26,7 @@
           <div class="step-label"><span>01</span><h2>我是幾年級？</h2></div>
           <div class="grades" role="group" aria-label="選擇年級">
             <button class="grade selected" data-grade="1" aria-pressed="true"><b>1</b>一年級<span>已加入 4 個單元</span></button>
-            <button class="grade" data-grade="5" aria-pressed="false"><b>5</b>五年級<span>等待加入課本單字</span></button>
+            <button class="grade" data-grade="5" aria-pressed="false"><b>5</b>五年級<span>已加入 2 個單元</span></button>
             <button class="grade" data-grade="6" aria-pressed="false"><b>6</b>六年級<span>等待加入課本單字</span></button>
           </div>
           <div class="settings"><div class="step-label"><span>02</span><h2>今天怎麼練？</h2></div>
@@ -37,7 +37,7 @@
         </aside>
         <div class="units-panel"><div class="units-heading"><div><div class="step-label"><span>03</span><h2>選好範圍，開始練習</h2></div><p id="book-label">一年級 · My School — Book 1</p></div><span class="book-tag">課本單字</span></div>
           <div id="practice-modes" class="practice-modes" role="group" aria-label="練習方式"><button id="single-mode" aria-pressed="true">單課練習</button><button id="mixed-mode" aria-pressed="false">綜合練習</button><button id="cross-mode" aria-pressed="false">跨年級練習</button></div>
-          <section id="mixed-panel" class="mixed-panel" hidden aria-labelledby="mixed-title"><div class="mixed-heading"><h3 id="mixed-title">把學過的單字，一起複習</h3><div><button id="select-all" class="text-button">全選</button><button id="clear-selection" class="text-button">清除</button></div></div><p class="mixed-description">勾選已學過的單元，這次會練到範圍內的每個單字。</p><div id="mixed-units" class="mixed-units"></div><div class="mixed-summary" aria-live="polite"><strong id="mixed-count"></strong><span id="mixed-history"></span></div><p class="mixed-audio-note">一年級四課共 40 題，皆已加入教材錄音。</p><button id="start-mixed" class="primary">開始綜合練習 →</button></section>
+          <section id="mixed-panel" class="mixed-panel" hidden aria-labelledby="mixed-title"><div class="mixed-heading"><h3 id="mixed-title">把學過的單字，一起複習</h3><div><button id="select-all" class="text-button">全選</button><button id="clear-selection" class="text-button">清除</button></div></div><p class="mixed-description">勾選已學過的單元，這次會練到範圍內的每個單字。</p><div id="mixed-units" class="mixed-units"></div><div class="mixed-actions"><div class="mixed-summary" role="status" aria-live="polite" aria-atomic="true"><strong id="mixed-count"></strong><span id="mixed-history"></span></div><p class="mixed-audio-note">已加入的單元皆有教材錄音；只會練習勾選範圍。</p><button id="start-mixed" class="primary">開始綜合練習 →</button></div></section>
           <div id="units" class="units-grid"></div><div class="how-to"><span class="how-icon">Aa</span><p><strong>聽一聽 → 拼一拼 → 再挑戰</strong><br>答錯也沒關係，最後可以再練一次。</p></div></div>
       </div>
     </section>
@@ -59,7 +59,7 @@
     </section>
     <section id="results" class="results-view" hidden aria-labelledby="results-title"><div class="result-mark" aria-hidden="true">★</div><span class="eyebrow">NICE PRACTICE!</span><h1 id="results-title" tabindex="-1">你完成這次練習了！</h1><p id="result-message"></p><div class="result-stats"><div><strong id="completed-count"></strong><span>完成題數</span></div><div><strong id="correct-count"></strong><span>第一次就答對</span></div><div><strong id="review-count"></strong><span>再練更熟悉</span></div></div><div id="review-list"></div><p id="result-speech-status" class="speech-status" role="status"></p><div class="result-buttons"><button id="review" class="primary">再練一次錯題</button><button id="back" class="secondary">回單元選單</button></div></section>
   </main>
-  <footer><span>小小拼字所 <span class="footer-dot">·</span> 一次一個單字，一點一滴進步。</span><span>學習內容：My School · Book 1 · <a href="audio-credits.html" target="_blank" rel="noopener">發音來源</a></span></footer>
+  <footer><span>小小拼字所 <span class="footer-dot">·</span> 一次一個單字，一點一滴進步。</span><span>學習內容：My School · Book 1／Our World · Book 5 · <a href="audio-credits.html" target="_blank" rel="noopener">發音來源</a></span></footer>
   <p id="storage-status" class="storage-status" role="status" hidden></p>
 </body>
 </html>

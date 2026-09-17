@@ -5,7 +5,7 @@ const allowed = new Set(['index.html', 'styles.css', 'words.js', 'app.js', 'spee
 allowed.add('practice.js');
 require('./words.js');
 for (const unit of globalThis.WORD_UNITS) {
-  if (unit.grade === 1) for (const word of unit.words) allowed.add(`audio/unit${Number(unit.number)}/${word[0].toLowerCase().replace(/ /g, '-')}.mp3`);
+  for (const word of unit.words) allowed.add(`audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word[0].toLowerCase().replace(/ /g, '-')}.mp3`);
 }
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.ogg': 'audio/ogg', '.mp3': 'audio/mpeg' };
 http.createServer((req, res) => {

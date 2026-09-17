@@ -7,6 +7,7 @@
   let practiceMode = 'single';
   const scope = globalThis.PracticeScope;
   const selections = new Map();
+  const expandedGrades = new Map();
   const eligibleUnits = () => scope.eligible(units, grade, practiceMode === 'cross');
   function selectedUnits() {
     const id = `${practiceMode}:${grade}`;
@@ -29,12 +30,12 @@
     const currentUnits = scope.eligible(units, grade, false);
     if (!currentUnits.length) { $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的單字還沒加入</h3><p>可以先用「跨年級練習」複習已加入的低年級單字。</p><button id="choose-cross" class="secondary">開始跨年級複習</button></div>'; $('choose-cross').onclick = () => setPracticeMode('cross'); }
     document.querySelectorAll('.grade').forEach(button => { const count = scope.eligible(units, Number(button.dataset.grade), false).length; button.querySelector('span').textContent = count ? `已加入 ${count} 個單元` : '等待加入課本單字'; });
-    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
+    $('book-label').textContent = `${scope.gradeName(grade)}${grade === 1 ? ' · My School — Book 1' : grade === 5 ? ' · Our World — Book 5' : currentUnits.length ? ' · 課本單字' : ' · 本年級單字尚未加入'}`;
     currentUnits.forEach((unit, i) => {
       const card = document.createElement('article'); card.className = 'unit-card';
       const saved = history[scope.singleId(unit)];
       const count = Number.isInteger(saved?.best) && saved.best >= 0 && saved.best <= unit.words.length ? saved.best : null;
-      card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${unit.number}</span><span class="unit-symbol" aria-hidden="true">${['Hi', 'We', 'Aa', '✦'][i]}</span></div><h3>${unit.title}</h3><p class="unit-subtitle">${unit.subtitle}</p><div class="unit-meta"><span>${unit.words.length} 個單字與片語</span><span class="saved">${count === null ? '還沒開始練習' : `★ 最佳初次答對 ${count}/${unit.words.length}`}</span></div><button class="start-unit" aria-label="開始 Unit ${unit.number} ${unit.title}">開始練習 <span aria-hidden="true">→</span></button></div><details><summary>看看本課單字</summary><ul class="word-list"></ul></details>`;
+      card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${unit.number}</span><span class="unit-symbol" aria-hidden="true">${['Hi', 'We', 'Aa', '✦'][i % 4]}</span></div><h3>${unit.title}</h3><p class="unit-subtitle">${unit.subtitle}</p><div class="unit-meta"><span>${unit.words.length} 個單字與片語</span><span class="saved">${count === null ? '還沒開始練習' : `★ 最佳初次答對 ${count}/${unit.words.length}`}</span></div><button class="start-unit" aria-label="開始 Unit ${unit.number} ${unit.title}">開始練習 <span aria-hidden="true">→</span></button></div><details><summary>看看本課單字</summary><ul class="word-list"></ul></details>`;
       const list = card.querySelector('ul');
       unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
       card.querySelector('button').onclick = () => start({ ...unit, id: scope.singleId(unit) });
@@ -47,8 +48,16 @@
   }
   function updateMixedSummary() {
     const unit = mixedUnit();
-    $('mixed-count').textContent = unit ? `已選 ${unit.count} 課 · 共 ${unit.words.length} 題` : '請至少選擇一個已加入的單元';
+    $('mixed-count').textContent = unit ? `已選 ${unit.count} 課 · 共 ${unit.words.length} 個單字與片語` : '請至少選擇一個已加入的單元';
     $('start-mixed').disabled = !unit;
+    document.querySelectorAll('.grade-group').forEach(group => {
+      const available = scope.eligible(units, Number(group.dataset.grade), false);
+      const count = available.filter(item => selectedUnits().has(scope.unitKey(item))).length;
+      group.querySelector('.grade-selection-count').textContent = `已選 ${count}／${available.length} 課`;
+      const toggle = group.querySelector('.grade-select-all');
+      toggle.checked = count === available.length;
+      toggle.indeterminate = count > 0 && count < available.length;
+    });
     const saved = unit && history[unit.id];
     $('mixed-history').textContent = saved && Number.isInteger(saved.best) && saved.total === unit.words.length ? `★ 這個範圍最佳初次答對 ${saved.best}/${saved.total}` : '';
   }
@@ -62,17 +71,43 @@
     document.querySelector('.mixed-description').textContent = missing.length ? `尚未加入：${missing.map(scope.gradeName).join('、')}。目前只會練習下方已加入的單字。` : '勾選要複習的單元，練習已加入且勾選的全部單字。';
     grades.forEach(g => {
       const available = scope.eligible(units, g, false);
-      if (cross || !available.length) {
-        const heading = document.createElement('h4'); heading.className = 'range-grade-title'; heading.textContent = `${scope.gradeName(g)} · ${available.length ? `已加入 ${available.length} 課` : '尚未加入單字'}`; $('mixed-units').append(heading);
+      let container = $('mixed-units');
+      if (!available.length) {
+        const empty = document.createElement('p'); empty.className = 'grade-unavailable';
+        empty.textContent = `${scope.gradeName(g)} · 尚未加入單字`;
+        container.append(empty); return;
+      }
+      if (cross) {
+        const group = document.createElement('div'); group.className = 'grade-group'; group.dataset.grade = g;
+        const allLabel = document.createElement('label'); allLabel.className = 'grade-check-label';
+        const all = document.createElement('input'); all.type = 'checkbox'; all.className = 'grade-select-all';
+        all.setAttribute('aria-label', `全選${scope.gradeName(g)}已加入的單元`);
+        allLabel.append(all);
+        const details = document.createElement('details'); details.className = 'grade-details';
+        const expansionKey = `${grade}:${g}`;
+        details.open = expandedGrades.has(expansionKey) ? expandedGrades.get(expansionKey) : g === grade;
+        details.ontoggle = () => expandedGrades.set(expansionKey, details.open);
+        const summary = document.createElement('summary');
+        const name = document.createElement('strong'); name.textContent = scope.gradeName(g);
+        const count = document.createElement('span'); count.className = 'grade-selection-count';
+        const loaded = document.createElement('small'); loaded.textContent = `已加入 ${available.length}／${g === 6 ? 8 : 10} 課`;
+        summary.append(name, count, loaded);
+        const choices = document.createElement('div'); choices.className = 'grade-unit-choices';
+        details.append(summary, choices); group.append(allLabel, details); container.append(group); container = choices;
+        all.onchange = () => {
+          available.forEach(item => { const id = scope.unitKey(item); if (all.checked) selectedUnits().add(id); else selectedUnits().delete(id); });
+          choices.querySelectorAll('input').forEach(input => { input.checked = all.checked; });
+          updateMixedSummary();
+        };
       }
       available.forEach(unit => {
-      const label = document.createElement('label'); label.className = 'mixed-choice';
-      const id = scope.unitKey(unit);
-      const checkbox = document.createElement('input'); checkbox.type = 'checkbox'; checkbox.value = id; checkbox.checked = selectedUnits().has(id);
-      checkbox.onchange = () => { if (checkbox.checked) selectedUnits().add(id); else selectedUnits().delete(id); updateMixedSummary(); };
-      const title = document.createElement('span'); title.textContent = `Unit ${unit.number} · ${unit.title}`;
-      const count = document.createElement('small'); count.textContent = `${unit.words.length} 題`;
-      label.append(checkbox, title, count); $('mixed-units').append(label);
+        const label = document.createElement('label'); label.className = 'mixed-choice';
+        const id = scope.unitKey(unit);
+        const checkbox = document.createElement('input'); checkbox.type = 'checkbox'; checkbox.value = id; checkbox.checked = selectedUnits().has(id);
+        checkbox.onchange = () => { if (checkbox.checked) selectedUnits().add(id); else selectedUnits().delete(id); updateMixedSummary(); };
+        const title = document.createElement('span'); title.textContent = `Unit ${unit.number} · ${unit.title}`;
+        const count = document.createElement('small'); count.textContent = `${unit.words.length} 題`;
+        label.append(checkbox, title, count); container.append(label);
       });
     });
     updateMixedSummary();

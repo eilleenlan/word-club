@@ -43,8 +43,10 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range has only the 40 supplied grade 1 questions, no invented data', () => {
+test('real grade 5 range includes 80 supplied questions and grade 5 alone has 40', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 40);
-  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 0);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 80);
+  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 2);
+  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 40);
+  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 0);
 });

@@ -8,6 +8,8 @@
     ['whose', 'yellow', 'green', 'color', 'red', 'orange', 'white', 'pink', 'blue', 'black']
   ];
   const recordings = Object.fromEntries(recordingGroups.flatMap((words, i) => words.map(word => [word, `audio/unit${i + 1}/${word.replace(/ /g, '-')}.mp3`])));
+  const grade5Recordings = [["continent", "the largest", "the smallest", "the deepest", "the farthest", "the closest", "the tallest", "the biggest", "the oldest", "the longest", "the youngest", "the widest", "the newest", "the hottest", "the cheapest", "the coldest", "the fastest", "the slowest", "the most expensive", "cover"], ["myself", "report", "mine", "follow", "kilometer", "millimeter", "meter", "yourself", "himself", "herself", "itself", "ourselves", "themselves", "yourselves", "alligator", "crocodile", "confused", "kinds", "bottom", "types"]];
+  grade5Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade5/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
   class WordSpeaker {
     constructor({ synth = globalThis.speechSynthesis, Utterance = globalThis.SpeechSynthesisUtterance, makeAudio = source => new Audio(source), onStatus = () => {} } = {}) {
       this.synth = synth; this.Utterance = Utterance; this.makeAudio = makeAudio; this.onStatus = onStatus; this.token = 0;

@@ -62,12 +62,12 @@ test('all eight Unit 1 prompts use their own supplied recording, including phras
   }
   assert.equal(calls.length, 0);
 });
-test('all 40 supplied questions map to separate textbook audio files at both speeds', async () => {
+test('all 80 supplied questions map to separate textbook audio files at both speeds', async () => {
   require('./words.js');
   const { player, clips, calls } = setup();
   const sources = new Set();
   for (const unit of WORD_UNITS) for (const [word] of unit.words) {
-    const expected = `audio/unit${Number(unit.number)}/${word.toLowerCase().replace(/ /g, '-')}.mp3`;
+    const expected = `audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word.toLowerCase().replace(/ /g, '-')}.mp3`;
     for (const slow of [false, true]) {
       await player.speak(word, { slow });
       assert.equal(clips.at(-1).source, expected);
@@ -76,5 +76,5 @@ test('all 40 supplied questions map to separate textbook audio files at both spe
     assert.ok(require('node:fs').statSync(expected).size > 1000);
     sources.add(expected);
   }
-  assert.equal(sources.size, 40); assert.equal(calls.length, 0);
+  assert.equal(sources.size, 80); assert.equal(calls.length, 0);
 });
