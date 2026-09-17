@@ -3,6 +3,7 @@
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–2, p.18。
    四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
    三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
+   二年級來源：使用者提供的 All About Me - Book 2, Unit 1–2 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
@@ -655,6 +656,117 @@ globalThis.WORD_UNITS = [
     [
       "teacher",
       "老師"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u1",
+  "number": "01",
+  "title": "認識我的身體",
+  "subtitle": "finger, foot, feet…",
+  "words": [
+    [
+      "finger",
+      "手指頭"
+    ],
+    [
+      "thumb",
+      "大拇頭"
+    ],
+    [
+      "body",
+      "身體"
+    ],
+    [
+      "foot",
+      "腳",
+      "本題練習單數，指一隻腳。"
+    ],
+    [
+      "feet",
+      "腳",
+      "本題練習 foot 的複數。"
+    ],
+    [
+      "toe",
+      "腳趾"
+    ],
+    [
+      "leg",
+      "腳",
+      "指腿部，與 foot（腳掌）不同。"
+    ],
+    [
+      "back",
+      "背"
+    ],
+    [
+      "arm",
+      "手臂"
+    ],
+    [
+      "hand",
+      "手"
+    ],
+    [
+      "have",
+      "有",
+      "搭配 I、you、we、they。例：I ____ two hands."
+    ],
+    [
+      "has",
+      "有",
+      "搭配 he、she、it。例：She ____ two hands."
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u2",
+  "number": "02",
+  "title": "認識我的臉",
+  "subtitle": "eye, ear, mouth…",
+  "words": [
+    [
+      "eye",
+      "眼睛"
+    ],
+    [
+      "ear",
+      "耳朵"
+    ],
+    [
+      "hair",
+      "頭髮"
+    ],
+    [
+      "mouth",
+      "嘴巴"
+    ],
+    [
+      "nose",
+      "鼻子"
+    ],
+    [
+      "big",
+      "大的"
+    ],
+    [
+      "little",
+      "小的"
+    ],
+    [
+      "short",
+      "短的"
+    ],
+    [
+      "long",
+      "長的"
+    ],
+    [
+      "now",
+      "現在"
     ]
   ]
 }

@@ -16,6 +16,8 @@
   grade4Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade4/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
   const grade3Recordings = [["next to", "in front of", "between", "behind", "across from", "bookstore", "park", "bakery", "supermarket", "post office", "restaurant", "movie theater", "convenience store"], ["doctor", "work", "hospital", "police officer", "care", "clerk", "cashier", "waiter", "waitress", "fire fighter", "fire station", "police station", "nurse", "teacher"]];
   grade3Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade3/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
+  const grade2Recordings = [["finger", "thumb", "body", "foot", "feet", "toe", "leg", "back", "arm", "hand", "have", "has"], ["eye", "ear", "hair", "mouth", "nose", "big", "little", "short", "long", "now"]];
+  grade2Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade2/unit${i + 1}/${word}.mp3`; }));
   class WordSpeaker {
     constructor({ synth = globalThis.speechSynthesis, Utterance = globalThis.SpeechSynthesisUtterance, makeAudio = source => new Audio(source), onStatus = () => {} } = {}) {
       this.synth = synth; this.Utterance = Utterance; this.makeAudio = makeAudio; this.onStatus = onStatus; this.token = 0;

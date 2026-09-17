@@ -62,7 +62,7 @@ test('all eight Unit 1 prompts use their own supplied recording, including phras
   }
   assert.equal(calls.length, 0);
 });
-test('all 179 supplied questions map to separate textbook audio files at both speeds', async () => {
+test('all 201 supplied questions map to separate textbook audio files at both speeds', async () => {
   require('./words.js');
   const { player, clips, calls } = setup();
   const sources = new Set();
@@ -76,5 +76,5 @@ test('all 179 supplied questions map to separate textbook audio files at both sp
     assert.ok(require('node:fs').statSync(expected).size > 1000);
     sources.add(expected);
   }
-  assert.equal(sources.size, 179); assert.equal(calls.length, 0);
+  assert.equal(sources.size, 201); assert.equal(calls.length, 0);
 });
