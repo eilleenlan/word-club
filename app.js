@@ -17,12 +17,14 @@
     }
     return selections.get(id);
   }
-  const speaker = new WordSpeaker({ onStatus: message => { ($('results').hidden ? $('speech-status') : $('result-speech-status')).textContent = message; } });
+  const speaker = new WordSpeaker({ onStatus: message => { (!$('home').hidden ? $('home-speech-status') : $('results').hidden ? $('speech-status') : $('result-speech-status')).textContent = message; } });
   try { const saved = JSON.parse(localStorage.getItem(key) || '{}'); if (saved && typeof saved === 'object' && !Array.isArray(saved)) history = saved; } catch { storageNotice(); }
   function storageNotice() { $('storage-status').textContent = '這個瀏覽器暫時無法儲存紀錄，仍然可以繼續練習。'; $('storage-status').hidden = false; }
   function show(view) { for (const id of ['home', 'quiz', 'results']) $(id).hidden = id !== view; window.scrollTo({ top: 0, behavior: 'instant' }); }
   function cancelSpeech() { speaker.cancel(); }
   function renderUnits() {
+    cancelSpeech();
+    $('home-speech-status').textContent = '';
     $('mixed-panel').hidden = practiceMode === 'single';
     $('units').hidden = practiceMode !== 'single';
     $('units').replaceChildren();
@@ -34,9 +36,9 @@
       const card = document.createElement('article'); card.className = 'unit-card';
       const saved = history[scope.singleId(unit)];
       const count = Number.isInteger(saved?.best) && saved.best >= 0 && saved.best <= unit.words.length ? saved.best : null;
-      card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${unit.number}</span><span class="unit-symbol" aria-hidden="true">${['Hi', 'We', 'Aa', '✦'][i % 4]}</span></div><h3>${unit.title}</h3><p class="unit-subtitle">${unit.subtitle}</p><div class="unit-meta"><span>${unit.words.length} 個單字與片語</span><span class="saved">${count === null ? '還沒開始練習' : `★ 最佳初次答對 ${count}/${unit.words.length}`}</span></div><button class="start-unit" aria-label="開始 Unit ${unit.number} ${unit.title}">開始練習 <span aria-hidden="true">→</span></button></div><details><summary>看看本課單字</summary><ul class="word-list"></ul></details>`;
+      card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${unit.number}</span><span class="unit-symbol" aria-hidden="true">${['Hi', 'We', 'Aa', '✦'][i % 4]}</span></div><h3>${unit.title}</h3><p class="unit-subtitle">${unit.subtitle}</p><div class="unit-meta"><span>${unit.words.length} 個單字與片語</span><span class="saved">${count === null ? '還沒開始練習' : `★ 最佳初次答對 ${count}/${unit.words.length}`}</span></div><button class="start-unit" aria-label="開始 Unit ${unit.number} ${unit.title}">開始練習 <span aria-hidden="true">→</span></button></div><details><summary>看看本課單字</summary><p class="word-list-help">點英文單字即可聽發音 ♫</p><ul class="word-list"></ul></details>`;
       const list = card.querySelector('ul');
-      unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
+      unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('button'); en.type = 'button'; en.className = 'word-list-speak'; en.textContent = word[0]; en.setAttribute('aria-label', `聽 ${word[0]} 的發音`); en.onclick = () => { $('home-speech-status').textContent = `正在播放 ${word[0]}…`; void speaker.speak(word[0], { recording: word.audio }); }; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
       card.querySelector('button').onclick = () => start({ ...unit, id: scope.singleId(unit) });
       $('units').append(card);
     });
@@ -142,8 +144,8 @@
     $('check').hidden = false; $('next').hidden = true; $('hint').disabled = false; $('reveal').disabled = false;
     $('next').textContent = session.index === session.words.length - 1 ? '看看練習成果 ★' : '下一題 →'; $('answer').focus();
   }
-  function speak(text) {
-    void speaker.speak(text, { slow: $('slow').checked, voiceURI: $('voice').value });
+  function speak(word) {
+    void speaker.speak(word[0], { slow: $('slow').checked, voiceURI: $('voice').value, recording: word.audio });
   }
   function updateVoices() {
     const selected = $('voice').value;
@@ -151,7 +153,7 @@
     speaker.voices().forEach(voice => $('voice').add(new Option(`${voice.name}（${voice.lang}）`, voice.voiceURI)));
     if ([...$('voice').options].some(option => option.value === selected)) $('voice').value = selected;
   }
-  function speakCurrent() { if (session) speak(current()[0]); }
+  function speakCurrent() { if (session) speak(current()); }
   function markMissed() { if (!session.missed.includes(current())) session.missed.push(current()); }
   function resolve(correct) {
     session.resolved = true; $('answer').readOnly = true; $('answer').removeAttribute('aria-invalid'); $('check').hidden = true; $('next').hidden = false; $('hint').disabled = true; $('reveal').disabled = true; $('progress').value = session.index + 1;
@@ -185,7 +187,7 @@
     $('review').hidden = session.missed.length === 0; $('review-list').replaceChildren();
     if (session.missed.length) {
       const list = document.createElement('div'); list.className = 'review-words'; const heading = document.createElement('h2'); heading.textContent = '再熟悉一下這些單字'; list.append(heading);
-      session.missed.forEach(word => { const row = document.createElement('div'); row.className = 'review-word'; const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; const button = document.createElement('button'); button.textContent = '♫'; button.setAttribute('aria-label', `聽 ${word[0]} 的發音`); button.onclick = () => speak(word[0]); row.append(en, zh, button); list.append(row); }); $('review-list').append(list);
+      session.missed.forEach(word => { const row = document.createElement('div'); row.className = 'review-word'; const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; const button = document.createElement('button'); button.textContent = '♫'; button.setAttribute('aria-label', `聽 ${word[0]} 的發音`); button.onclick = () => speak(word); row.append(en, zh, button); list.append(row); }); $('review-list').append(list);
     }
     if (!session.review) { const previous = history[session.unit.id]; history[session.unit.id] = { best: Math.max(Number.isInteger(previous?.best) ? Math.min(previous.best, session.words.length) : 0, session.firstCorrect), total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
     $('results-title').focus();
@@ -203,7 +205,7 @@
   $('slow').onchange = () => { if (session && !$('quiz').hidden) speakCurrent(); };
   $('voice').onchange = () => { if (session && !$('quiz').hidden) speakCurrent(); };
   updateVoices();
-  if ('speechSynthesis' in window) speechSynthesis.addEventListener('voiceschanged', updateVoices);
+  if (window.speechSynthesis) window.speechSynthesis.addEventListener('voiceschanged', updateVoices);
   $('hint').onclick = () => { if (!session || session.resolved) return; session.helped = true; markMissed(); $('letter-hint').textContent = hintText(current()[0]); $('feedback').className = 'feedback'; $('feedback').textContent = `共有 ${current()[0].replace(/[^A-Za-z]/g, '').length} 個字母${current()[0].includes(' ') ? '，／ 表示單字之間的空格' : ''}。你可以的！`; $('answer').focus(); };
   $('reveal').onclick = () => { if (!session || session.resolved) return; markMissed(); $('answer').value = current()[0]; $('letter-hint').textContent = current()[0]; $('feedback').textContent = `一起記住：${current()[0]}。這一題會放進最後的複習。`; resolve(false); speakCurrent(); };
   $('next').onclick = () => { if (!session?.resolved) return; if (++session.index < session.words.length) { cancelSpeech(); renderQuestion(); speakCurrent(); } else finish(); };

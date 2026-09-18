@@ -62,19 +62,33 @@ test('all eight Unit 1 prompts use their own supplied recording, including phras
   }
   assert.equal(calls.length, 0);
 });
-test('all 281 supplied questions map to separate textbook audio files at both speeds', async () => {
+test('all other 321 prompts keep their lesson recordings at both speeds', async () => {
   require('./words.js');
   const { player, clips, calls } = setup();
   const sources = new Set();
-  for (const unit of WORD_UNITS) for (const [word] of unit.words) {
+  for (const unit of WORD_UNITS) for (const prompt of unit.words) {
+    const [word] = prompt;
+    if (word === 'mountain') continue;
     const expected = `audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word.toLowerCase().replace(/ /g, '-')}.mp3`;
     for (const slow of [false, true]) {
-      await player.speak(word, { slow });
+      await player.speak(word, { slow, recording: prompt.audio });
       assert.equal(clips.at(-1).source, expected);
       assert.equal(clips.at(-1).playbackRate, slow ? 0.65 : 1);
     }
     assert.ok(require('node:fs').statSync(expected).size > 1000);
     sources.add(expected);
   }
-  assert.equal(sources.size, 281); assert.equal(calls.length, 0);
+  assert.equal(sources.size, 321); assert.equal(calls.length, 0);
+});
+
+test('mountain replacement plays even without speech synthesis, at both speeds', async () => {
+ const {player,clips,calls,statuses}=setup(); player.synth=undefined; player.Utterance=undefined;
+ for(const slow of [false,true]) {
+  await player.speak('mountain',{slow,recording:'audio/grade4/unit3/mountain.mp3'});
+  assert.equal(clips.at(-1).source,'audio/overrides/mountain.mp3');
+  assert.equal(clips.at(-1).playbackRate,slow?.65:1);
+  assert.match(statuses.at(-1),/英文示範音檔/);
+ }
+ assert.equal(calls.length,0);
+ assert.ok(require('node:fs').statSync('audio/overrides/mountain.mp3').size>1000);
 });

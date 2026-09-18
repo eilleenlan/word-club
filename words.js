@@ -1,7 +1,7 @@
 /* 課本來源：使用者提供的 My School - Book 1, Appendix - Sight Words, p.45。
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–4, pp.13–14。
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–4, pp.18–19。
-   四年級來源：使用者提供的 My Country - Book 4, Unit 1–2 單字表。
+   四年級來源：使用者提供的 My Country - Book 4, Unit 1–4 單字表。
    三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
    二年級來源：使用者提供的 All About Me - Book 2, Unit 1–2 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
@@ -1128,5 +1128,214 @@ globalThis.WORD_UNITS = [
       "建議"
     ]
   ]
+},
+{
+  "grade": 4,
+  "id": "u3",
+  "number": "03",
+  "title": "週末出遊",
+  "subtitle": "weekend, hot spring, museum…",
+  "words": [
+    [
+      "weekend",
+      "週末"
+    ],
+    [
+      "market",
+      "市場"
+    ],
+    [
+      "nothing",
+      "什麼也沒有"
+    ],
+    [
+      "special",
+      "特別的"
+    ],
+    [
+      "stay",
+      "留在"
+    ],
+    [
+      "beach",
+      "海灘"
+    ],
+    [
+      "hot spring",
+      "溫泉"
+    ],
+    [
+      "aquarium",
+      "水族館"
+    ],
+    [
+      "temple",
+      "廟宇"
+    ],
+    [
+      "mountain",
+      "山"
+    ],
+    [
+      "museum",
+      "博物館，美術館"
+    ],
+    [
+      "amusement park",
+      "遊樂園"
+    ],
+    [
+      "department store",
+      "百貨公司"
+    ],
+    [
+      "both",
+      "兩者都"
+    ],
+    [
+      "hope",
+      "希望"
+    ]
+  ]
+},
+{
+  "grade": 4,
+  "id": "u4",
+  "number": "04",
+  "title": "澎湖之旅",
+  "subtitle": "try, tried, sandcastle…",
+  "words": [
+    [
+      "try",
+      "嘗試，努力",
+      "本題練習動詞原形。"
+    ],
+    [
+      "tried",
+      "嘗試，努力",
+      "本題練習 try 的過去式。"
+    ],
+    [
+      "go",
+      "去",
+      "本題練習動詞原形。"
+    ],
+    [
+      "went",
+      "去",
+      "本題練習 go 的過去式。"
+    ],
+    [
+      "bring",
+      "帶來",
+      "本題練習動詞原形。"
+    ],
+    [
+      "brought",
+      "帶來",
+      "本題練習 bring 的過去式。"
+    ],
+    [
+      "take",
+      "拿",
+      "本題練習動詞原形。"
+    ],
+    [
+      "took",
+      "拿",
+      "本題練習 take 的過去式。"
+    ],
+    [
+      "build",
+      "建",
+      "本題練習動詞原形。"
+    ],
+    [
+      "built",
+      "建",
+      "本題練習 build 的過去式。"
+    ],
+    [
+      "sandcastle",
+      "沙堡"
+    ],
+    [
+      "catch",
+      "抓到",
+      "本題練習動詞原形。"
+    ],
+    [
+      "caught",
+      "抓到",
+      "本題練習 catch 的過去式。"
+    ],
+    [
+      "collect",
+      "收集",
+      "本題練習動詞原形。"
+    ],
+    [
+      "collected",
+      "收集",
+      "本題練習 collect 的過去式。"
+    ],
+    [
+      "seashell",
+      "貝殼"
+    ],
+    [
+      "see",
+      "看到",
+      "本題練習動詞原形。"
+    ],
+    [
+      "saw",
+      "看到",
+      "本題練習 see 的過去式。"
+    ],
+    [
+      "cave",
+      "洞穴"
+    ],
+    [
+      "visit",
+      "拜訪",
+      "本題練習動詞原形。"
+    ],
+    [
+      "visited",
+      "拜訪",
+      "本題練習 visit 的過去式。"
+    ],
+    [
+      "give",
+      "給",
+      "本題練習動詞原形。"
+    ],
+    [
+      "gave",
+      "給",
+      "本題練習 give 的過去式。"
+    ],
+    [
+      "like",
+      "喜歡",
+      "本題練習動詞原形。"
+    ],
+    [
+      "liked",
+      "喜歡",
+      "本題練習 like 的過去式。"
+    ],
+    [
+      "place",
+      "地方"
+    ]
+  ]
 }
 ];
+
+// Keep each prompt attached to its own lesson recording, including repeated words.
+for (const unit of globalThis.WORD_UNITS) {
+  for (const word of unit.words) word.audio = `audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word[0].toLowerCase().replace(/ /g, '-')}.mp3`;
+}

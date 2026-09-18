@@ -12,7 +12,7 @@
   grade5Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade5/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
   const grade6Recordings = [["dinosaur", "pictures", "fossil", "amount", "million", "since", "ago", "grow up", "nearly", "horn", "plants", "bone", "bony", "below", "above", "scientist", "extinct", "cause", "die", "died", "hit"], ["enough", "business", "promise", "storm", "hotel", "listen", "rainstorm", "typhoon", "rain shower", "several", "plenty of", "a lot of", "thunder", "lightning", "tornado", "flood", "drought", "a little", "none", "begin"], ["endangered", "species", "about", "habitat", "destruction", "poison", "list", "become", "boycott", "protest", "conserve", "resource", "avoid", "learn", "sentence", "why", "human", "develop", "per year", "period"], ["recycle", "plastic", "metal", "glass", "paper", "sort", "sweep", "tie up", "carry", "pick up", "important", "air", "healthy", "oil", "forest", "waste", "reduce", "reuse", "harmful", "products"]];
   grade6Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade6/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
-  const grade4Recordings = [["taiwan", "island", "ocean", "pacific ocean", "strait", "taipei", "national park", "near", "here", "located", "far from", "city", "cities", "live in", "capital", "center"], ["catch", "hunt", "carve", "dig", "dance", "sew", "quickly", "carefully", "carelessly", "slowly", "happily", "quietly", "skillfully", "loudly", "beautifully"]];
+  const grade4Recordings = [["taiwan", "island", "ocean", "pacific ocean", "strait", "taipei", "national park", "near", "here", "located", "far from", "city", "cities", "live in", "capital", "center"], ["catch", "hunt", "carve", "dig", "dance", "sew", "quickly", "carefully", "carelessly", "slowly", "happily", "quietly", "skillfully", "loudly", "beautifully"], ["weekend", "market", "nothing", "special", "stay", "beach", "hot spring", "aquarium", "temple", "mountain", "museum", "amusement park", "department store", "both", "hope"], ["try", "tried", "go", "went", "bring", "brought", "take", "took", "build", "built", "sandcastle", "catch", "caught", "collect", "collected", "seashell", "see", "saw", "cave", "visit", "visited", "give", "gave", "like", "liked", "place"]];
   grade4Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade4/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
   const grade3Recordings = [["next to", "in front of", "between", "behind", "across from", "bookstore", "park", "bakery", "supermarket", "post office", "restaurant", "movie theater", "convenience store"], ["doctor", "work", "hospital", "police officer", "care", "clerk", "cashier", "waiter", "waitress", "fire fighter", "fire station", "police station", "nurse", "teacher"]];
   grade3Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade3/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
@@ -42,18 +42,20 @@
         this.synth.addEventListener?.('voiceschanged', changed);
       });
     }
-    async speak(text, { slow = false, voiceURI = '' } = {}) {
+    async speak(text, { slow = false, voiceURI = '', recording = '' } = {}) {
       this.cancel(); const token = this.token;
       const rate = slow ? 0.65 : 1;
       const speedLabel = slow ? '慢速 0.65×' : '正常 1×';
       let fallback = '';
-      if (!voiceURI && recordings[text.toLowerCase()]) {
-        const clip = this.makeAudio(recordings[text.toLowerCase()]); this.audio = clip;
+      const replacement = text.trim().toLowerCase() === 'mountain';
+      const source = replacement ? 'audio/overrides/mountain.mp3' : recording || recordings[text.toLowerCase()];
+      if (!voiceURI && source) {
+        const clip = this.makeAudio(source); this.audio = clip;
         clip.playbackRate = rate; clip.preservesPitch = true;
         try {
           await clip.play();
           if (token !== this.token) { clip.pause(); return; }
-          this.onStatus(`教材錄音 · ${speedLabel}`);
+          this.onStatus(`${replacement ? "英文示範音檔" : "教材錄音"} · ${speedLabel}`);
           clip.onended = () => { if (token === this.token) this.audio = null; };
           clip.onerror = () => { if (token === this.token) { this.audio = null; this.onStatus('錄音播放中斷，請再按發音，或從選單改用裝置聲音。'); } };
           return;
