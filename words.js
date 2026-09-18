@@ -2,8 +2,8 @@
    五年級來源：使用者提供的 Our World - Book 5, Unit 1–4, pp.13–14。
    六年級來源：使用者提供的 Our Planet - Book 6, Unit 1–4, pp.18–19。
    四年級來源：使用者提供的 My Country - Book 4, Unit 1–4 單字表。
-   三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–2 單字表。
-   二年級來源：使用者提供的 All About Me - Book 2, Unit 1–2 單字表。
+   三年級來源：使用者提供的 My Neighborhood - Book 3, Unit 1–4 單字表。
+   二年級來源：使用者提供的 All About Me - Book 2, Unit 1–4 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
@@ -1330,6 +1330,244 @@ globalThis.WORD_UNITS = [
     [
       "place",
       "地方"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u3",
+  "number": "03",
+  "title": "地址與電話號碼",
+  "subtitle": "address, phone, district…",
+  "words": [
+    [
+      "address",
+      "地址"
+    ],
+    [
+      "phone",
+      "電話"
+    ],
+    [
+      "number",
+      "號碼"
+    ],
+    [
+      "floor",
+      "樓層"
+    ],
+    [
+      "alley",
+      "弄"
+    ],
+    [
+      "lane",
+      "巷"
+    ],
+    [
+      "road",
+      "路"
+    ],
+    [
+      "district",
+      "區"
+    ],
+    [
+      "city",
+      "城市"
+    ],
+    [
+      "street",
+      "街"
+    ],
+    [
+      "country",
+      "國家"
+    ],
+    [
+      "north",
+      "北"
+    ],
+    [
+      "south",
+      "南"
+    ],
+    [
+      "east",
+      "東"
+    ],
+    [
+      "west",
+      "西"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u4",
+  "number": "04",
+  "title": "去公園玩",
+  "subtitle": "swimming pool, picnic, every day…",
+  "words": [
+    [
+      "meet",
+      "見面"
+    ],
+    [
+      "swimming pool",
+      "游泳池"
+    ],
+    [
+      "swim",
+      "游泳"
+    ],
+    [
+      "field",
+      "球場",
+      "通常指足球場等較大的戶外場地，字首是 f。"
+    ],
+    [
+      "court",
+      "球場",
+      "通常指籃球場、網球場等有界線的場地，字首是 c。"
+    ],
+    [
+      "playground",
+      "遊戲場地"
+    ],
+    [
+      "feed",
+      "餵"
+    ],
+    [
+      "picnic",
+      "野餐"
+    ],
+    [
+      "tomorrow",
+      "明天"
+    ],
+    [
+      "walk",
+      "走路"
+    ],
+    [
+      "fly",
+      "飛"
+    ],
+    [
+      "study",
+      "唸書"
+    ],
+    [
+      "every day",
+      "每天"
+    ],
+    [
+      "thing",
+      "事，物"
+    ],
+    [
+      "all",
+      "所有的"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u3",
+  "number": "03",
+  "title": "我的衣物",
+  "subtitle": "coat, shorts, glasses…",
+  "words": [
+    [
+      "coat",
+      "外套"
+    ],
+    [
+      "shirt",
+      "襯衫"
+    ],
+    [
+      "pants",
+      "褲子"
+    ],
+    [
+      "shorts",
+      "短褲"
+    ],
+    [
+      "skirt",
+      "裙子"
+    ],
+    [
+      "socks",
+      "襪子"
+    ],
+    [
+      "shoes",
+      "鞋子"
+    ],
+    [
+      "dress",
+      "洋裝"
+    ],
+    [
+      "sweater",
+      "毛衣"
+    ],
+    [
+      "glasses",
+      "眼鏡"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u4",
+  "number": "04",
+  "title": "感覺與情緒",
+  "subtitle": "tired, happy, thirsty…",
+  "words": [
+    [
+      "tired",
+      "疲倦的"
+    ],
+    [
+      "happy",
+      "快樂的"
+    ],
+    [
+      "sad",
+      "悲傷的"
+    ],
+    [
+      "bored",
+      "無聊的"
+    ],
+    [
+      "angry",
+      "生氣的"
+    ],
+    [
+      "crazy",
+      "瘋狂的"
+    ],
+    [
+      "hungry",
+      "肚子餓的"
+    ],
+    [
+      "thirsty",
+      "口渴的"
+    ],
+    [
+      "sick",
+      "生病的"
+    ],
+    [
+      "scared",
+      "害怕的"
     ]
   ]
 }
