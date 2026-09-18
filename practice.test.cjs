@@ -149,3 +149,18 @@ test('grade 2 clothing and feelings match textbook forms and per-lesson audio', 
  assert.equal(s.checkAnswer('glass','glasses'),'spelling');
  assert.equal(fresh.words.find(w=>w[0]==='thirsty').audio,'audio/grade2/unit4/thirsty.mp3');
 });
+
+test('random rounds obey grade defaults, limits, scope, source references and separate history', () => {
+ assert.deepEqual([1,2,3,4,5,6].map(s.defaultRoundSize),[20,20,25,25,30,30]);
+ const pool=s.build(WORD_UNITS,6,true,new Set(WORD_UNITS.map(s.unitKey)));
+ const original=[...pool.words];
+ const first=s.sample(pool,30,[],()=>0.5), second=s.sample(pool,30,first.words,()=>0.5);
+ assert.equal(first.words.length,30); assert.equal(new Set(first.words).size,30);
+ assert.ok(first.words.every(w=>pool.words.includes(w)&&w.audio));
+ assert.ok(second.words.some(w=>!first.words.includes(w)));
+ assert.deepEqual(pool.words,original);
+ assert.notEqual(first.id,pool.id); assert.notEqual(first.id,s.sample(pool,20).id);
+ const tiny=s.build(WORD_UNITS,1,true,new Set(['g1:u1']));
+ assert.equal(s.sample(tiny,30).words.length,8);
+ assert.ok(s.sample(tiny,20).words.every(w=>tiny.words.includes(w)));
+});

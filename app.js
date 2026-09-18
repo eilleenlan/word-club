@@ -8,6 +8,9 @@
   const scope = globalThis.PracticeScope;
   const selections = new Map();
   const expandedGrades = new Map();
+  const roundSizes = new Map();
+  const previousRounds = new Map();
+  const roundSize = () => roundSizes.get(grade) || scope.defaultRoundSize(grade);
   const eligibleUnits = () => scope.eligible(units, grade, practiceMode === 'cross');
   function selectedUnits() {
     const id = `${practiceMode}:${grade}`;
@@ -49,7 +52,7 @@
   }
   function updateMixedSummary() {
     const unit = mixedUnit();
-    $('mixed-count').textContent = unit ? `已選 ${unit.count} 課 · 共 ${unit.words.length} 個單字與片語` : '請至少選擇一個已加入的單元';
+    $('mixed-count').textContent = unit ? `已選 ${unit.count} 課 · 題庫 ${unit.words.length} 題${unit.cross ? ` · 本輪抽 ${Math.min(roundSize(), unit.words.length)} 題` : ''}` : '請至少選擇一個已加入的單元';
     $('start-mixed').disabled = !unit;
     document.querySelectorAll('.grade-group').forEach(group => {
       const available = scope.eligible(units, Number(group.dataset.grade), false);
@@ -59,17 +62,23 @@
       toggle.checked = count === available.length;
       toggle.indeterminate = count > 0 && count < available.length;
     });
-    const saved = unit && history[unit.id];
-    $('mixed-history').textContent = saved && Number.isInteger(saved.best) && saved.total === unit.words.length ? `★ 這個範圍最佳初次答對 ${saved.best}/${saved.total}` : '';
+    const saved = unit && history[unit.cross ? scope.roundId(unit, roundSize()) : unit.id];
+    const total = unit && (unit.cross ? Math.min(roundSize(), unit.words.length) : unit.words.length);
+    $('mixed-history').textContent = saved && saved.total === total ? (unit.cross && Number.isInteger(saved.last) ? `上次隨機練習初次答對 ${saved.last}/${saved.total}` : !unit.cross && Number.isInteger(saved.best) ? `★ 這個範圍最佳初次答對 ${saved.best}/${saved.total}` : '') : '';
+
   }
   function renderMixed() {
     $('mixed-units').replaceChildren();
     const cross = practiceMode === 'cross';
+    $('round-options').hidden = !cross;
+    $('round-size').value = String(roundSize());
+    $('shuffle').disabled = cross;
+    $('shuffle').closest('label').title = cross ? '跨年級練習會自動隨機抽題與排序' : '';
     $('mixed-title').textContent = cross ? `拼字競賽 · ${grade === 1 ? '一年級' : `一至${scope.gradeName(grade)}`}` : '把學過的單字，一起複習';
-    $('start-mixed').textContent = cross ? '開始跨年級練習 →' : '開始綜合練習 →';
+    $('start-mixed').textContent = cross ? '隨機抽題，開始練習 →' : '開始綜合練習 →';
     const grades = cross ? Array.from({ length: grade }, (_, i) => i + 1) : [grade];
     const missing = grades.filter(g => !scope.eligible(units, g, false).length);
-    document.querySelector('.mixed-description').textContent = missing.length ? `尚未加入：${missing.map(scope.gradeName).join('、')}。目前只會練習下方已加入的單字。` : '勾選要複習的單元，練習已加入且勾選的全部單字。';
+    document.querySelector('.mixed-description').textContent = missing.length ? `尚未加入：${missing.map(scope.gradeName).join('、')}。目前只會練習下方已加入的單字。` : cross ? '勾選已學過的單元，每次從範圍內抽一小輪練習；題庫不足時只出現有題目。' : '勾選要複習的單元，練習已加入且勾選的全部單字。';
     grades.forEach(g => {
       const available = scope.eligible(units, g, false);
       let container = $('mixed-units');
@@ -127,7 +136,7 @@
     session = { unit, words: $('shuffle').checked ? shuffled(words) : [...words], index: 0, missed: [], firstCorrect: 0, review, mode: document.querySelector('input[name="mode"]:checked').value };
     $('quiz-title').textContent = unit.mixed ? `${unit.title}${review ? ' · 錯題再挑戰' : ''}` : `Unit ${unit.number} · ${review ? '錯題再挑戰' : unit.title}`;
     $('quiz-scope').hidden = !unit.mixed;
-    $('quiz-scope').textContent = unit.mixed ? `練習範圍：${unit.range}` : '';
+    $('quiz-scope').textContent = unit.mixed ? `${unit.sampled ? `本輪 ${words.length} 題 · 題庫 ${unit.poolSize} 題。` : ''}練習範圍：${unit.range}` : '';
     $('quiz-mode').textContent = session.mode === 'guided' ? '字母提示' : '完整拼字'; show('quiz'); renderQuestion(); speakCurrent();
   }
   function current() { return session.words[session.index]; }
@@ -189,7 +198,8 @@
       const list = document.createElement('div'); list.className = 'review-words'; const heading = document.createElement('h2'); heading.textContent = '再熟悉一下這些單字'; list.append(heading);
       session.missed.forEach(word => { const row = document.createElement('div'); row.className = 'review-word'; const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; const button = document.createElement('button'); button.textContent = '♫'; button.setAttribute('aria-label', `聽 ${word[0]} 的發音`); button.onclick = () => speak(word); row.append(en, zh, button); list.append(row); }); $('review-list').append(list);
     }
-    if (!session.review) { const previous = history[session.unit.id]; history[session.unit.id] = { best: Math.max(Number.isInteger(previous?.best) ? Math.min(previous.best, session.words.length) : 0, session.firstCorrect), total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
+    if (!session.review && session.unit.sampled) { history[session.unit.id] = { last: session.firstCorrect, total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
+    if (!session.review && !session.unit.sampled) { const previous = history[session.unit.id]; history[session.unit.id] = { best: Math.max(Number.isInteger(previous?.best) ? Math.min(previous.best, session.words.length) : 0, session.firstCorrect), total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
     $('results-title').focus();
   }
   function home() { cancelSpeech(); session = null; show('home'); renderUnits(); document.querySelector('.grade.selected').focus(); }
@@ -199,7 +209,15 @@
   $('cross-mode').onclick = () => setPracticeMode('cross');
   $('select-all').onclick = () => { eligibleUnits().forEach(unit => selectedUnits().add(scope.unitKey(unit))); renderMixed(); };
   $('clear-selection').onclick = () => { selectedUnits().clear(); renderMixed(); };
-  $('start-mixed').onclick = () => { const unit = mixedUnit(); if (unit) start(unit); };
+  $('round-size').onchange = () => { roundSizes.set(grade, Number($('round-size').value)); updateMixedSummary(); };
+  $('start-mixed').onclick = () => {
+    const unit = mixedUnit(); if (!unit) return;
+    if (!unit.cross) { start(unit); return; }
+    const id = scope.roundId(unit, roundSize());
+    const round = scope.sample(unit, roundSize(), previousRounds.get(id));
+    previousRounds.set(id, round.words);
+    start(round);
+  };
   $('answer-form').onsubmit = event => { event.preventDefault(); submitAnswer(); };
   $('speak').onclick = speakCurrent;
   $('slow').onchange = () => { if (session && !$('quiz').hidden) speakCurrent(); };

@@ -33,5 +33,21 @@
       range: chosen.map(unit => `${cross ? gradeName(gradeOf(unit)) + ' ' : ''}Unit ${unit.number}`).join('、'), words
     };
   }
-  globalThis.PracticeScope = { gradeOf, unitKey, singleId, gradeName, eligible, build, checkAnswer };
+  const defaultRoundSize = grade => grade <= 2 ? 20 : grade <= 4 ? 25 : 30;
+  const roundId = (unit, size) => `random:${size}:${unit.id}`;
+  function sample(unit, size, previous = [], random = Math.random) {
+    if (!unit || !Number.isInteger(size) || size < 1) throw new Error('Invalid practice round');
+    const pool = [...unit.words];
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    const words = pool.slice(0, size);
+    // When there are spare questions, consecutive rounds must not have identical sets.
+    if (pool.length > words.length && previous.length === words.length && words.every(word => previous.includes(word))) {
+      words[words.length - 1] = pool[words.length];
+    }
+    return { ...unit, id: roundId(unit, size), title: '跨年級隨機練習', sampled: true, poolSize: unit.words.length, words };
+  }
+  globalThis.PracticeScope = { gradeOf, unitKey, singleId, gradeName, eligible, build, checkAnswer, defaultRoundSize, roundId, sample };
 })();
