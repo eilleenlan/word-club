@@ -43,6 +43,7 @@
       const list = card.querySelector('ul');
       unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('button'); en.type = 'button'; en.className = 'word-list-speak'; en.textContent = word[0]; en.setAttribute('aria-label', `聽 ${word[0]} 的發音`); en.onclick = () => { $('home-speech-status').textContent = `正在播放 ${word[0]}…`; void speaker.speak(word[0], { recording: word.audio }); }; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
       card.querySelector('button').onclick = () => start({ ...unit, id: scope.singleId(unit) });
+      if (grade === 1 && unit.id === 'u1') { const link = document.createElement('a'); link.href = 'cloze.html'; link.className = 'cloze-entry'; link.textContent = '句子克漏字 · 10 題二選一 →'; card.querySelector('.unit-main').append(link); }
       $('units').append(card);
     });
     renderMixed();

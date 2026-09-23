@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const allowed = new Set(['index.html', 'styles.css', 'words.js', 'app.js', 'speech.js', 'audio/this.ogg', 'audio-credits.html']);
 allowed.add('practice.js');
+for (const name of ['cloze.html', 'cloze.css', 'cloze.js', 'cloze-data.js']) allowed.add(name);
 allowed.add('audio/overrides/mountain.mp3');
 allowed.add('assets/share-card.png');
 require('./words.js');
