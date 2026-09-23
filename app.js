@@ -5,6 +5,7 @@
   const key = 'word-club-progress-v1';
   let grade = 1, session = null, history = {};
   let practiceMode = 'single';
+  let activity = new URLSearchParams(location.search).get('activity') === 'cloze' ? 'cloze' : 'spelling';
   const scope = globalThis.PracticeScope;
   const selections = new Map();
   const expandedGrades = new Map();
@@ -28,6 +29,19 @@
   function renderUnits() {
     cancelSpeech();
     $('home-speech-status').textContent = '';
+    const cloze = activity === 'cloze';
+    $('spelling-settings').hidden = cloze;
+    $('cloze-mode-note').hidden = !cloze;
+    $('practice-modes').hidden = cloze;
+    document.querySelector('.book-tag').textContent = cloze ? '句子克漏字' : '課本單字';
+    document.querySelector('.how-to strong').textContent = cloze ? '讀一讀 → 選一選 → 再挑戰' : '聽一聽 → 拼一拼 → 再挑戰';
+    document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (g === 1 ? '克漏字已加入 1 個單元' : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
+    if (cloze) {
+      $('mixed-panel').hidden = true; $('units').hidden = false;
+      $('book-label').textContent = `${scope.gradeName(grade)} · 句子克漏字`;
+      $('units').innerHTML = grade === 1 ? '<article class="unit-card"><div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT 01</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>認識新朋友</h3><p class="unit-subtitle">I am、She is、We are<br>打招呼與介紹名字</p><div class="unit-meta"><span>10 題 · 每題二選一</span></div><a class="start-unit cloze-start-link" href="cloze.html">開始克漏字練習 →</a></div></article>' : '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1。可以選一年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+      return;
+    }
     $('mixed-panel').hidden = practiceMode === 'single';
     $('units').hidden = practiceMode !== 'single';
     $('units').replaceChildren();
@@ -43,7 +57,6 @@
       const list = card.querySelector('ul');
       unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('button'); en.type = 'button'; en.className = 'word-list-speak'; en.textContent = word[0]; en.setAttribute('aria-label', `聽 ${word[0]} 的發音`); en.onclick = () => { $('home-speech-status').textContent = `正在播放 ${word[0]}…`; void speaker.speak(word[0], { recording: word.audio }); }; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
       card.querySelector('button').onclick = () => start({ ...unit, id: scope.singleId(unit) });
-      if (grade === 1 && unit.id === 'u1') { const link = document.createElement('a'); link.href = 'cloze.html'; link.className = 'cloze-entry'; link.textContent = '句子克漏字 · 10 題二選一 →'; card.querySelector('.unit-main').append(link); }
       $('units').append(card);
     });
     renderMixed();
@@ -232,6 +245,7 @@
   $('back').onclick = home;
   $('review').onclick = () => { const { unit, missed } = session; start(unit, missed, true); };
   window.addEventListener('pagehide', cancelSpeech);
+  document.querySelectorAll('input[name="activity"]').forEach(input => { input.checked = input.value === activity; input.onchange = () => { activity = input.value; renderUnits(); }; });
   renderUnits();
   if (document.modelContext?.registerTool) {
     try { Promise.resolve(document.modelContext.registerTool({ name: 'start_spelling_unit', description: '選擇已加入的單元並開始拼字練習，會重設目前尚未完成的練習。', inputSchema: { type: 'object', properties: { unit: { type: 'string', enum: units.map(scope.singleId) } }, required: ['unit'], additionalProperties: false }, annotations: { readOnlyHint: false }, execute(input) { const unit = units.find(u => scope.singleId(u) === input?.unit); if (!unit) throw new Error('找不到這個單元'); chooseGrade(scope.gradeOf(unit)); start({ ...unit, id: scope.singleId(unit) }); return { unit: scope.singleId(unit), questions: unit.words.length, view: 'quiz' }; } })).catch(() => {}); } catch { /* Optional browser API. */ }
