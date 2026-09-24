@@ -1069,6 +1069,97 @@ globalThis.CLOZE_LESSONS = [
         "context": ""
       }
     ]
+  },
+  {
+    "id": "g6-u1-v1",
+    "grade": 6,
+    "unit": 1,
+    "mode": "typed",
+    "title": "恐龍與時間用法",
+    "description": "自行拼字：課本單字、詞形、since／for／ago 與最高級。",
+    "source": "參考 2026 年六年級 U1 考卷編寫，並非原考卷。",
+    "questions": [
+      {
+        "id": "above",
+        "sentence": "The third floor is ____ the second floor.",
+        "answer": "above",
+        "context": "填入本課表示「在……上方」的單字，字首 a。",
+        "translation": "三樓在二樓上方。",
+        "explanation": "above 表示位置在上方。"
+      },
+      {
+        "id": "nearly",
+        "sentence": "The animals were ____ extinct.",
+        "answer": "nearly",
+        "context": "填入本課表示「幾乎」的單字，字首 n。",
+        "translation": "這些動物曾經幾乎滅絕。",
+        "explanation": "nearly 表示「幾乎」，nearly extinct 是幾乎滅絕。"
+      },
+      {
+        "id": "amount",
+        "sentence": "They spent a large ____ of time helping the animals.",
+        "answer": "amount",
+        "context": "填入本課表示「量」的單數名詞，字首 a。",
+        "translation": "他們花了大量時間幫助這些動物。",
+        "explanation": "a large amount of time 表示大量時間；time 在這裡是不可數名詞。"
+      },
+      {
+        "id": "bones",
+        "sentence": "The dog ate the meat off the ____.",
+        "answer": "bones",
+        "context": "填入 bone 的複數，表示不只一根骨頭。",
+        "translation": "狗吃掉了骨頭上的肉。",
+        "explanation": "bone 的複數是 bones。"
+      },
+      {
+        "id": "died",
+        "sentence": "Many plants ____ last winter.",
+        "answer": "died",
+        "context": "填入 die 的過去式；時間是去年冬天。",
+        "translation": "許多植物在去年冬天死亡。",
+        "explanation": "die 的過去式是 died，last winter 表示過去時間。"
+      },
+      {
+        "id": "grows",
+        "sentence": "She wants to be a scientist when she ____.",
+        "answer": "grows up",
+        "context": "用 grow up 的適當形式填入兩個字；主詞是 she。",
+        "translation": "她長大後想成為科學家。",
+        "explanation": "when 子句用現在式表達未來，she 搭配 grows up。"
+      },
+      {
+        "id": "ago",
+        "sentence": "They visited Egypt two months ____.",
+        "answer": "ago",
+        "context": "填入表示「……以前」的時間用字。",
+        "translation": "他們兩個月前去過埃及。",
+        "explanation": "過去式搭配 two months ago，表示兩個月以前。"
+      },
+      {
+        "id": "since",
+        "sentence": "I have collected stamps ____ 2020.",
+        "answer": "since",
+        "context": "從 since／for 的用法判斷，填入一個字。",
+        "translation": "我從 2020 年起就一直收集郵票。",
+        "explanation": "since 接開始的時間點，這裡是 2020 年。"
+      },
+      {
+        "id": "for",
+        "sentence": "He has been at the beach ____ ten minutes.",
+        "answer": "for",
+        "context": "從 since／for 的用法判斷，填入一個字。",
+        "translation": "他已經在海灘待了十分鐘。",
+        "explanation": "for 接一段時間，ten minutes 是十分鐘的期間。"
+      },
+      {
+        "id": "heaviest",
+        "sentence": "Of the three dinosaurs, this one was the ____.",
+        "answer": "heaviest",
+        "context": "填入 heavy 的最高級，表示三隻之中最重的。",
+        "translation": "這隻是三隻恐龍中最重的。",
+        "explanation": "heavy 變最高級時，y 改為 i 再加 est，成為 heaviest。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

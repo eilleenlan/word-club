@@ -43,10 +43,10 @@
       const lessons = globalThis.CLOZE_LESSONS.filter(item => item.grade === grade);
       for (const lesson of lessons) {
         const card = document.createElement('article'); card.className = 'unit-card';
-        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.questions.length} 題 · 每題${lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
+        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.questions.length} 題 · 每題${lesson.mode === 'typed' ? '填空拼字' : lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
         $('units').append(card);
       }
-      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4。可以選一年級或二年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4、六年級 U1。可以選已開放的年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
 
       return;
     }
