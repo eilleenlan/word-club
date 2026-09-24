@@ -1076,7 +1076,7 @@ globalThis.CLOZE_LESSONS = [
     "unit": 1,
     "mode": "typed",
     "title": "恐龍與時間用法",
-    "description": "自行拼字：課本單字、詞形、since／for／ago 與最高級。",
+    "description": "涵蓋整課 21 個單字與詞形，另有 4 題詞形與文法延伸；可隨機抽 10 題或練完整題庫。",
     "source": "參考 2026 年六年級 U1 考卷編寫，並非原考卷。",
     "questions": [
       {
@@ -1158,8 +1158,130 @@ globalThis.CLOZE_LESSONS = [
         "context": "填入 heavy 的最高級，表示三隻之中最重的。",
         "translation": "這隻是三隻恐龍中最重的。",
         "explanation": "heavy 變最高級時，y 改為 i 再加 est，成為 heaviest。"
+      },
+      {
+        "id": "vocab-dinosaur",
+        "answer": "dinosaur",
+        "sentence": "A T. rex was a ____.",
+        "context": "恐龍；填入本課單數名詞。",
+        "translation": "暴龍是一種恐龍。",
+        "explanation": "這題使用 dinosaur，表示「恐龍」。"
+      },
+      {
+        "id": "vocab-pictures",
+        "answer": "pictures",
+        "sentence": "We took many ____ at the museum.",
+        "context": "圖片、相片；填入本課 p 開頭的複數名詞。",
+        "translation": "我們在博物館拍了許多相片。",
+        "explanation": "這題使用 pictures，表示「圖片、相片」。"
+      },
+      {
+        "id": "vocab-fossil",
+        "answer": "fossil",
+        "sentence": "The scientist found a ____ in the rock.",
+        "context": "化石；填入本課單數名詞。",
+        "translation": "科學家在岩石中找到一塊化石。",
+        "explanation": "這題使用 fossil，表示「化石」。"
+      },
+      {
+        "id": "vocab-million",
+        "answer": "million",
+        "sentence": "Over one ____ people watched the video.",
+        "context": "百萬；填入一個字。",
+        "translation": "超過一百萬人看了這部影片。",
+        "explanation": "這題使用 million，表示「百萬」。"
+      },
+      {
+        "id": "vocab-grow-up",
+        "answer": "grow up",
+        "sentence": "I want to be a scientist when I ____.",
+        "context": "長大；填入本課兩字片語，主詞是 I。",
+        "translation": "我長大後想當科學家。",
+        "explanation": "這題使用 grow up，表示「長大」。"
+      },
+      {
+        "id": "vocab-horn",
+        "answer": "horn",
+        "sentence": "The animal has one ____ on its head.",
+        "context": "角；填入本課單數名詞。",
+        "translation": "這隻動物的頭上有一隻角。",
+        "explanation": "這題使用 horn，表示「角」。"
+      },
+      {
+        "id": "vocab-plants",
+        "answer": "plants",
+        "sentence": "These dinosaurs ate ____ instead of meat.",
+        "context": "植物；填入本課複數名詞。",
+        "translation": "這些恐龍吃植物而不吃肉。",
+        "explanation": "這題使用 plants，表示「植物」。"
+      },
+      {
+        "id": "vocab-bone",
+        "answer": "bone",
+        "sentence": "The dog found a ____ in the garden.",
+        "context": "骨頭；填入單數，前面已有 a。",
+        "translation": "狗在花園裡找到一根骨頭。",
+        "explanation": "這題使用 bone，表示「骨頭」。"
+      },
+      {
+        "id": "vocab-bony",
+        "answer": "bony",
+        "sentence": "This fish is very ____. It has many bones.",
+        "context": "多骨的；填入本課形容詞。",
+        "translation": "這條魚很多骨頭。",
+        "explanation": "這題使用 bony，表示「多骨的」。"
+      },
+      {
+        "id": "vocab-below",
+        "answer": "below",
+        "sentence": "The first floor is ____ the second floor.",
+        "context": "在……下方；填入本課 b 開頭的單字。",
+        "translation": "一樓在二樓下方。",
+        "explanation": "這題使用 below，表示「在……下方」。"
+      },
+      {
+        "id": "vocab-scientist",
+        "answer": "scientist",
+        "sentence": "She studies fossils. She is a ____.",
+        "context": "科學家；填入本課單數名詞。",
+        "translation": "她研究化石。她是一位科學家。",
+        "explanation": "這題使用 scientist，表示「科學家」。"
+      },
+      {
+        "id": "vocab-extinct",
+        "answer": "extinct",
+        "sentence": "The dodo is ____. None are alive today.",
+        "context": "滅絕的；填入本課形容詞。",
+        "translation": "渡渡鳥已滅絕，現在沒有活著的渡渡鳥。",
+        "explanation": "這題使用 extinct，表示「滅絕的」。"
+      },
+      {
+        "id": "vocab-cause",
+        "answer": "cause",
+        "sentence": "Big storms can ____ damage.",
+        "context": "造成；can 後使用動詞原形。",
+        "translation": "大風暴可能造成損害。",
+        "explanation": "這題使用 cause，表示「造成」。"
+      },
+      {
+        "id": "vocab-die",
+        "answer": "die",
+        "sentence": "Plants may ____ without water.",
+        "context": "死亡；may 後使用動詞原形。",
+        "translation": "植物沒有水可能會死亡。",
+        "explanation": "這題使用 die，表示「死亡」。"
+      },
+      {
+        "id": "vocab-hit",
+        "answer": "hit",
+        "sentence": "The ball ____ the wall yesterday.",
+        "context": "碰撞、打；填入 hit 的過去式。",
+        "translation": "球昨天撞到牆壁。",
+        "explanation": "這題使用 hit，表示「碰撞、打」。hit 的過去式拼法與原形相同。"
       }
-    ]
+    ],
+    "rounds": true,
+    "revision": 2
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

@@ -5,3 +5,5 @@
 #cloze-options.three-options{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:480px){#cloze-options.three-options{grid-template-columns:1fr}#cloze-options.three-options button{min-height:54px;padding:10px}}
 
 #cloze-input-form{text-align:left}#cloze-input{display:block;width:100%;padding:14px;margin:10px 0;border:2px solid var(--line);border-radius:10px;font:inherit;font-size:23px;color:var(--ink)}#cloze-letter-hint{overflow-wrap:anywhere;color:var(--blue)}
+
+#cloze-round-settings{margin:18px 0;padding:14px;background:#edf3ff;border-radius:12px}#cloze-round-size{display:block;width:100%;margin-top:8px;padding:12px;font:inherit;border:1px solid var(--line);border-radius:8px}#cloze-round-summary{font-size:14px}

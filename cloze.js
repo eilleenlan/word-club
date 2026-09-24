@@ -14,12 +14,33 @@
  $('cloze-source').textContent = lesson.source;
  $('cloze-unit-pill').textContent = `${gradeName} U${lesson.unit} · ${choiceLabel}`;
  const key = `word-club-cloze:${lesson.id}`;
- let session;
+ let session, previousRound = [];
+ const roundMode = () => lesson.rounds ? $('cloze-round-size').value : 'all';
+ const recordKey = () => lesson.rounds ? `${key}:r${lesson.revision}:${roundMode()}` : key;
+ $('cloze-round-settings').hidden = !lesson.rounds;
  function shuffle(items) { const result=[...items]; for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result; }
  function show(view) { for(const name of ['home','quiz','result']) $('cloze-'+name).hidden=name!==view;window.scrollTo({top:0,behavior:'instant'}); }
- function stored() { try {return JSON.parse(localStorage.getItem(key)||'null');}catch{$('cloze-storage').hidden=false;return null;} }
- function home() {session=null;show('home');const record=stored();$('cloze-history').textContent=record&&Number.isInteger(record.best)&&record.total===lesson.questions.length?`完整練習最佳成績：${record.best} / ${record.total}`:'';$('cloze-start').focus();}
- function start(questions=lesson.questions,review=false) {session={questions:shuffle(questions),index:0,correct:0,missed:[],review,resolved:false};show('quiz');render();}
+ function stored() { try {return JSON.parse(localStorage.getItem(recordKey())||'null');}catch{$('cloze-storage').hidden=false;return null;} }
+ function updateSummary() {
+  const count=roundMode()==='all'?lesson.questions.length:Math.min(10,lesson.questions.length);
+  $('cloze-round-summary').textContent=`題庫 ${lesson.questions.length} 題 · 本輪 ${count} 題。隨機抽題不保證一輪涵蓋每個單字。`;
+  const record=stored();
+  $('cloze-history').textContent=record&&record.total===count?(roundMode()==='10'&&Number.isInteger(record.last)?`上次隨機練習：${record.last} / ${count}`:Number.isInteger(record.best)?`完整練習最佳成績：${record.best} / ${count}`:''):'';
+ }
+ function home() {session=null;show('home');updateSummary();$('cloze-start').focus();}
+ function start(questions,review=false) {
+  let selected;
+  if(review) selected=shuffle(questions);
+  else {selected=shuffle(lesson.questions);if(roundMode()==='10'){
+    const rest=selected.slice(10);selected=selected.slice(0,10);
+    if(rest.length&&previousRound.length===selected.length&&selected.every(q=>previousRound.includes(q)))selected[selected.length-1]=rest[0];
+    previousRound=selected;
+  }}
+  session={questions:selected,index:0,correct:0,missed:[],review,resolved:false,key:recordKey(),random:roundMode()==='10'};
+  $('cloze-again').textContent=session.random?'再抽 10 題':`再練完整 ${lesson.questions.length} 題`;
+  show('quiz');render();
+ }
+ $('cloze-round-size').onchange=updateSummary;
  function render() {
   const q=session.questions[session.index];session.resolved=false;session.helped=false;
   $('cloze-title').textContent=session.review?'錯題再挑戰':'句子克漏字';
@@ -53,7 +74,8 @@
   $('cloze-result-message').textContent=session.missed.length?'看看這些句子，再練一次會更熟悉。':'每一題都答對了！';
   $('cloze-review').hidden=!session.missed.length;$('cloze-review-list').replaceChildren();
   const list=document.createElement('ul');for(const q of session.missed){const li=document.createElement('li');li.textContent=q.sentence.replace('____',q.answer);const explanation=document.createElement('small');explanation.textContent=q.explanation;li.append(explanation);list.append(li);}$('cloze-review-list').append(list);
-  if(!session.review){const record=stored();const best=Number.isInteger(record?.best)&&record.total===lesson.questions.length?Math.max(0,Math.min(record.best,lesson.questions.length)):0;try{localStorage.setItem(key,JSON.stringify({best:Math.max(best,session.correct),total:lesson.questions.length}));}catch{$('cloze-storage').hidden=false;}}
+  if(!session.review){const record=stored();const total=session.questions.length;const best=Number.isInteger(record?.best)&&record.total===total?Math.max(0,Math.min(record.best,total)):0;try{localStorage.setItem(session.key,JSON.stringify(session.random?{last:session.correct,total}:{best:Math.max(best,session.correct),total}));}catch{$('cloze-storage').hidden=false;}}
+
   $('cloze-result-title').focus();
  }
  $('cloze-input-form').onsubmit=event=>{event.preventDefault();if(!session||session.resolved)return;if(!$('cloze-input').value.trim()){$('cloze-feedback').textContent='請先輸入答案。';return;}answer($('cloze-input').value);};
