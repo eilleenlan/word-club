@@ -35,7 +35,7 @@
     $('practice-modes').hidden = cloze;
     document.querySelector('.book-tag').textContent = cloze ? '句子克漏字' : '課本單字';
     document.querySelector('.how-to strong').textContent = cloze ? '讀一讀 → 選一選 → 再挑戰' : '聽一聽 → 拼一拼 → 再挑戰';
-    document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (g === 1 ? `克漏字已加入 ${globalThis.CLOZE_LESSONS.filter(item => item.grade === g).length} 個單元` : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
+    document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (globalThis.CLOZE_LESSONS.some(item => item.grade === g) ? `克漏字已加入 ${globalThis.CLOZE_LESSONS.filter(item => item.grade === g).length} 個單元` : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
     if (cloze) {
       $('mixed-panel').hidden = true; $('units').hidden = false;
       $('book-label').textContent = `${scope.gradeName(grade)} · 句子克漏字`;
@@ -43,10 +43,10 @@
       const lessons = globalThis.CLOZE_LESSONS.filter(item => item.grade === grade);
       for (const lesson of lessons) {
         const card = document.createElement('article'); card.className = 'unit-card';
-        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.questions.length} 題 · 每題二選一</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
+        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.questions.length} 題 · 每題${lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
         $('units').append(card);
       }
-      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4。可以選一年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4。可以選一年級或二年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
 
       return;
     }
@@ -254,7 +254,9 @@
   $('review').onclick = () => { const { unit, missed } = session; start(unit, missed, true); };
   window.addEventListener('pagehide', cancelSpeech);
   document.querySelectorAll('input[name="activity"]').forEach(input => { input.checked = input.value === activity; input.onchange = () => { activity = input.value; renderUnits(); }; });
-  renderUnits();
+  const requestedGrade = Number(new URLSearchParams(location.search).get('grade'));
+  if (activity === 'cloze' && Number.isInteger(requestedGrade) && requestedGrade >= 1 && requestedGrade <= 6) chooseGrade(requestedGrade);
+  else renderUnits();
   if (document.modelContext?.registerTool) {
     try { Promise.resolve(document.modelContext.registerTool({ name: 'start_spelling_unit', description: '選擇已加入的單元並開始拼字練習，會重設目前尚未完成的練習。', inputSchema: { type: 'object', properties: { unit: { type: 'string', enum: units.map(scope.singleId) } }, required: ['unit'], additionalProperties: false }, annotations: { readOnlyHint: false }, execute(input) { const unit = units.find(u => scope.singleId(u) === input?.unit); if (!unit) throw new Error('找不到這個單元'); chooseGrade(scope.gradeOf(unit)); start({ ...unit, id: scope.singleId(unit) }); return { unit: scope.singleId(unit), questions: unit.words.length, view: 'quiz' }; } })).catch(() => {}); } catch { /* Optional browser API. */ }
   }

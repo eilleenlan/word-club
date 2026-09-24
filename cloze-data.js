@@ -509,6 +509,566 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "問顏色時，順序是 What color is it?"
       }
     ]
+  },
+  {
+    "id": "g2-u1-v1",
+    "grade": 2,
+    "unit": 1,
+    "title": "我的身體",
+    "description": "練習身體部位、have／has、數量問答與 can／can’t。",
+    "source": "參考 2023 年二年級 U1 考卷編寫；尚未依今年度考卷核對。",
+    "questions": [
+      {
+        "id": "have",
+        "sentence": "I ____ two hands.",
+        "options": [
+          "have",
+          "has",
+          "am"
+        ],
+        "answer": "have",
+        "translation": "我有兩隻手。",
+        "explanation": "I 要搭配 have，表示「我有」。",
+        "context": ""
+      },
+      {
+        "id": "has",
+        "sentence": "He ____ two arms.",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": "has",
+        "translation": "他有兩隻手臂。",
+        "explanation": "He 表示第三人稱單數，這裡要用 has 表示「有」。",
+        "context": ""
+      },
+      {
+        "id": "cat",
+        "sentence": "The cat ____ one head.",
+        "options": [
+          "have",
+          "has",
+          "are"
+        ],
+        "answer": "has",
+        "translation": "這隻貓有一個頭。",
+        "explanation": "The cat 是單數，表示牠「有」時用 has。",
+        "context": ""
+      },
+      {
+        "id": "do",
+        "sentence": "How many thumbs ____ you have?",
+        "options": [
+          "do",
+          "does",
+          "has"
+        ],
+        "answer": "do",
+        "translation": "你有幾根大拇指？",
+        "explanation": "主詞是 you，詢問數量時用 How many ... do you have?",
+        "context": ""
+      },
+      {
+        "id": "does",
+        "sentence": "How many elbows ____ Amy have?",
+        "options": [
+          "do",
+          "does",
+          "is"
+        ],
+        "answer": "does",
+        "translation": "Amy 有幾個手肘？",
+        "explanation": "Amy 是第三人稱單數，問句用 does，後面的動詞保留原形 have。",
+        "context": ""
+      },
+      {
+        "id": "base-have",
+        "sentence": "How many arms does he ____?",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": "have",
+        "translation": "他有幾隻手臂？",
+        "explanation": "前面已經有 does，後面的動詞要用原形 have。",
+        "context": ""
+      },
+      {
+        "id": "feet",
+        "sentence": "I have two ____.",
+        "options": [
+          "foot",
+          "feet",
+          "foots"
+        ],
+        "answer": "feet",
+        "translation": "我有兩隻腳。",
+        "explanation": "foot 的複數是 feet，two 後面用 feet。",
+        "context": ""
+      },
+      {
+        "id": "clap",
+        "sentence": "I can clap my ____.",
+        "options": [
+          "hands",
+          "back",
+          "body"
+        ],
+        "answer": "hands",
+        "translation": "我會拍手。",
+        "explanation": "clap my hands 是「拍手」。",
+        "context": "情境：你把兩手合在一起拍手。"
+      },
+      {
+        "id": "can",
+        "sentence": "Can you wash your face? Yes, I ____.",
+        "options": [
+          "can",
+          "do",
+          "am"
+        ],
+        "answer": "can",
+        "translation": "你會洗臉嗎？會，我會。",
+        "explanation": "Can you ...? 的肯定簡答是 Yes, I can.",
+        "context": ""
+      },
+      {
+        "id": "cannot",
+        "sentence": "I ____ move it.",
+        "options": [
+          "can",
+          "can’t",
+          "am"
+        ],
+        "answer": "can’t",
+        "translation": "我不能移動它。",
+        "explanation": "can’t 是 cannot 的縮寫，表示「不能」。",
+        "context": "情境：你試著移動桌上的物品，但完全移不動。"
+      }
+    ]
+  },
+  {
+    "id": "g2-u2-v1",
+    "grade": 2,
+    "unit": 2,
+    "title": "我的臉",
+    "description": "練習臉部特徵、長短大小，以及 Do／Does 問答。",
+    "source": "參考 2023 年二年級 U2 考卷編寫；尚未依今年度考卷核對。",
+    "questions": [
+      {
+        "id": "does",
+        "sentence": "____ it have big ears?",
+        "options": [
+          "Does",
+          "Do",
+          "Is"
+        ],
+        "answer": "Does",
+        "translation": "牠有大耳朵嗎？",
+        "explanation": "主詞是 it，詢問有沒有時用 Does it have ...?",
+        "context": ""
+      },
+      {
+        "id": "negative",
+        "sentence": "Does it have a long tail? No, it ____.",
+        "options": [
+          "doesn’t",
+          "don’t",
+          "isn’t"
+        ],
+        "answer": "doesn’t",
+        "translation": "牠有長尾巴嗎？不，牠沒有。",
+        "explanation": "Does it have ...? 的否定簡答是 No, it doesn’t.",
+        "context": "情境：這隻狗的尾巴很短。"
+      },
+      {
+        "id": "has",
+        "sentence": "It ____ small ears.",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": "has",
+        "translation": "牠有小耳朵。",
+        "explanation": "It 是第三人稱單數，這裡用 has 表示「有」。",
+        "context": ""
+      },
+      {
+        "id": "do",
+        "sentence": "____ Molly and Billy have thick hair?",
+        "options": [
+          "Do",
+          "Does",
+          "Is"
+        ],
+        "answer": "Do",
+        "translation": "Molly 和 Billy 的頭髮濃密嗎？",
+        "explanation": "Molly and Billy 是兩個人，問句用 Do ... have ...?",
+        "context": ""
+      },
+      {
+        "id": "base",
+        "sentence": "Does Amy ____ curly hair?",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": "have",
+        "translation": "Amy 有捲髮嗎？",
+        "explanation": "前面已經有 Does，後面的動詞保留原形 have。",
+        "context": ""
+      },
+      {
+        "id": "yes",
+        "sentence": "Does she have big eyes? Yes, she ____.",
+        "options": [
+          "does",
+          "do",
+          "has"
+        ],
+        "answer": "does",
+        "translation": "她有大眼睛嗎？是的，她有。",
+        "explanation": "Does she ...? 的肯定簡答是 Yes, she does.",
+        "context": ""
+      },
+      {
+        "id": "short",
+        "sentence": "My legs are not long. They are ____.",
+        "options": [
+          "short",
+          "big",
+          "curly"
+        ],
+        "answer": "short",
+        "translation": "我的腿不長。它們很短。",
+        "explanation": "short 表示「短的」，與 long「長的」相對。",
+        "context": "情境：這隻小狗正在介紹牠短短的腿。"
+      },
+      {
+        "id": "small",
+        "sentence": "Its eyes are not big. They are ____.",
+        "options": [
+          "small",
+          "long",
+          "thick"
+        ],
+        "answer": "small",
+        "translation": "牠的眼睛不大。它們很小。",
+        "explanation": "small 是「小的」，與 big「大的」相對。",
+        "context": "情境：你要描述這隻小狗的眼睛很小。"
+      },
+      {
+        "id": "color",
+        "sentence": "What color is her hair? It is ____.",
+        "options": [
+          "black",
+          "curly",
+          "long"
+        ],
+        "answer": "black",
+        "translation": "她的頭髮是什麼顏色？是黑色的。",
+        "explanation": "What color 問顏色；black 是顏色，curly 是捲曲的，long 是長的。",
+        "context": ""
+      },
+      {
+        "id": "kind",
+        "sentence": "What kind of hair do you have? I have ____ hair.",
+        "options": [
+          "curly",
+          "ears",
+          "nose"
+        ],
+        "answer": "curly",
+        "translation": "你有什麼樣的頭髮？我有捲髮。",
+        "explanation": "curly hair 是「捲髮」；ears 和 nose 是身體部位。",
+        "context": "情境：你的頭髮是捲捲的。"
+      }
+    ]
+  },
+  {
+    "id": "g2-u3-v1",
+    "grade": 2,
+    "unit": 3,
+    "title": "我的衣物",
+    "description": "練習衣物單複數、These／Those、is／are 與所有格。",
+    "source": "參考 2023 年二年級 U3 考卷編寫；尚未依今年度考卷核對。",
+    "questions": [
+      {
+        "id": "pants-are",
+        "sentence": "My new pants ____ brown.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": "are",
+        "translation": "我的新褲子是棕色的。",
+        "explanation": "pants 是複數形式，要搭配 are。",
+        "context": ""
+      },
+      {
+        "id": "these",
+        "sentence": "____ socks are yellow.",
+        "options": [
+          "These",
+          "This",
+          "That"
+        ],
+        "answer": "These",
+        "translation": "這些襪子是黃色的。",
+        "explanation": "socks 是複數，用 These 指「這些」，搭配 are。",
+        "context": "情境：你指著手邊的襪子，介紹「這些襪子」。"
+      },
+      {
+        "id": "sweater-is",
+        "sentence": "What color ____ your new sweater?",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ],
+        "answer": "is",
+        "translation": "你的新毛衣是什麼顏色？",
+        "explanation": "sweater 是單數，詢問顏色時用 What color is ...?",
+        "context": ""
+      },
+      {
+        "id": "dress",
+        "sentence": "That ____ is too small.",
+        "options": [
+          "dress",
+          "shorts",
+          "pants"
+        ],
+        "answer": "dress",
+        "translation": "那件洋裝太小了。",
+        "explanation": "That 和 is 搭配單數 dress；shorts 和 pants 是複數形式。",
+        "context": "情境：你正在介紹遠處那件太小的洋裝。"
+      },
+      {
+        "id": "her",
+        "sentence": "Amy’s old dress is dirty. ____ new dress is clean.",
+        "options": [
+          "Her",
+          "She",
+          "He"
+        ],
+        "answer": "Her",
+        "translation": "Amy 的舊洋裝很髒。她的新洋裝很乾淨。",
+        "explanation": "Her 表示「她的」，放在 new dress 前面。",
+        "context": "情境：Amy 是一個女孩。"
+      },
+      {
+        "id": "those",
+        "sentence": "These pants are dirty, but ____ pants are clean.",
+        "options": [
+          "those",
+          "that",
+          "this"
+        ],
+        "answer": "those",
+        "translation": "這些褲子很髒，但那些褲子很乾淨。",
+        "explanation": "those 指遠處的複數物品，搭配 pants。",
+        "context": "情境：近處的褲子很髒，遠處的那些褲子很乾淨。"
+      },
+      {
+        "id": "that",
+        "sentence": "This hat is red, but ____ hat is black.",
+        "options": [
+          "that",
+          "those",
+          "these"
+        ],
+        "answer": "that",
+        "translation": "這頂帽子是紅色的，但那頂帽子是黑色的。",
+        "explanation": "that 指遠處的一個物品，搭配單數 hat。",
+        "context": "情境：手邊的帽子是紅色的，遠處那頂是黑色的。"
+      },
+      {
+        "id": "short-answer",
+        "sentence": "Are those your socks? No, they ____.",
+        "options": [
+          "aren’t",
+          "isn’t",
+          "don’t"
+        ],
+        "answer": "aren’t",
+        "translation": "那些是你的襪子嗎？不，不是。",
+        "explanation": "Are those ...? 用 they 回答，否定簡答是 No, they aren’t.",
+        "context": "情境：那些襪子不是你的。"
+      },
+      {
+        "id": "shoes",
+        "sentence": "She wears a pair of ____.",
+        "options": [
+          "shoes",
+          "coat",
+          "dress"
+        ],
+        "answer": "shoes",
+        "translation": "她穿著一雙鞋子。",
+        "explanation": "a pair of shoes 是「一雙鞋子」，shoes 保留複數。",
+        "context": "情境：她把鞋子穿在腳上。"
+      },
+      {
+        "id": "clean",
+        "sentence": "His new pants are ____.",
+        "options": [
+          "clean",
+          "dirty",
+          "small"
+        ],
+        "answer": "clean",
+        "translation": "他的新褲子很乾淨。",
+        "explanation": "情境指出舊褲子很髒，新褲子很乾淨，所以選 clean。",
+        "context": "情境：Eric 的舊褲子很髒，新褲子則很乾淨，而且大小剛好。"
+      }
+    ]
+  },
+  {
+    "id": "g2-u4-v1",
+    "grade": 2,
+    "unit": 4,
+    "title": "感覺與情緒",
+    "description": "練習感受、情緒、be 動詞問答與縮寫。",
+    "source": "參考 2023 年二年級 U4 考卷編寫；尚未依今年度考卷核對。",
+    "questions": [
+      {
+        "id": "tired",
+        "sentence": "Now they are ____.",
+        "options": [
+          "tired",
+          "bored",
+          "cold"
+        ],
+        "answer": "tired",
+        "translation": "現在他們很累。",
+        "explanation": "tired 表示「疲倦的」。",
+        "context": "情境：Billy 和 Eric 打了很久的籃球，現在需要坐下來休息。"
+      },
+      {
+        "id": "thirsty",
+        "sentence": "I feel ____. I want some water.",
+        "options": [
+          "thirsty",
+          "hungry",
+          "angry"
+        ],
+        "answer": "thirsty",
+        "translation": "我覺得口渴。我想喝水。",
+        "explanation": "想喝水時，可以說 I feel thirsty.",
+        "context": "情境：你的嘴巴很乾，想喝水。"
+      },
+      {
+        "id": "hungry",
+        "sentence": "I feel ____. I want some food.",
+        "options": [
+          "hungry",
+          "cold",
+          "bored"
+        ],
+        "answer": "hungry",
+        "translation": "我覺得肚子餓。我想吃點東西。",
+        "explanation": "hungry 表示「肚子餓的」。",
+        "context": "情境：你還沒吃午餐，肚子餓了。"
+      },
+      {
+        "id": "they",
+        "sentence": "Are Eric and Amy bored? No, ____ not.",
+        "options": [
+          "they’re",
+          "he’s",
+          "she’s"
+        ],
+        "answer": "they’re",
+        "translation": "Eric 和 Amy 覺得無聊嗎？不，他們不覺得無聊。",
+        "explanation": "Eric 和 Amy 是兩個人，用 they are 的縮寫 they’re 回答。",
+        "context": ""
+      },
+      {
+        "id": "she",
+        "sentence": "Is Amy scared? No, ____ not.",
+        "options": [
+          "she’s",
+          "they’re",
+          "I’m"
+        ],
+        "answer": "she’s",
+        "translation": "Amy 害怕嗎？不，她不害怕。",
+        "explanation": "Amy 是女孩，用 she is 的縮寫 she’s 回答。",
+        "context": "情境：Amy 是一個女孩。"
+      },
+      {
+        "id": "im",
+        "sentence": "Are you angry? Yes, ____ angry.",
+        "options": [
+          "I’m",
+          "you’re",
+          "he’s"
+        ],
+        "answer": "I’m",
+        "translation": "你生氣嗎？是的，我很生氣。",
+        "explanation": "別人問你 Are you ...?，回答自己時用 I am，縮寫是 I’m。",
+        "context": "情境：朋友問你生不生氣，你回答自己很生氣。"
+      },
+      {
+        "id": "is",
+        "sentence": "____ Billy scared?",
+        "options": [
+          "Is",
+          "Does",
+          "Are"
+        ],
+        "answer": "Is",
+        "translation": "Billy 害怕嗎？",
+        "explanation": "scared 是形容詞，Billy 是單數，問句用 Is Billy scared?",
+        "context": ""
+      },
+      {
+        "id": "are",
+        "sentence": "My dogs ____ happy.",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "answer": "are",
+        "translation": "我的狗狗們很開心。",
+        "explanation": "dogs 是複數，搭配 are。",
+        "context": ""
+      },
+      {
+        "id": "cold",
+        "sentence": "I am cold. Put ____ your jacket.",
+        "options": [
+          "on",
+          "off",
+          "up"
+        ],
+        "answer": "on",
+        "translation": "我很冷。穿上你的外套。",
+        "explanation": "Put on 表示「穿上」；覺得冷時可以穿上外套。",
+        "context": ""
+      },
+      {
+        "id": "sad",
+        "sentence": "We are sad. Cheer ____!",
+        "options": [
+          "up",
+          "off",
+          "on"
+        ],
+        "answer": "up",
+        "translation": "我們很難過。振作起來！",
+        "explanation": "Cheer up! 是鼓勵別人「振作起來！」的說法。",
+        "context": ""
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

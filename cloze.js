@@ -1,11 +1,15 @@
 (() => {
  'use strict';
  const $ = id => document.getElementById(id), lesson = globalThis.CLOZE_LESSONS.find(item => item.id === new URLSearchParams(location.search).get('lesson')) || globalThis.CLOZE_LESSONS[0];
- document.title = `一年級 U${lesson.unit} 句子克漏字 · 小小拼字所`;
- $('cloze-lesson-label').textContent = `一年級 Unit ${lesson.unit} · ${lesson.title}`;
+ const gradeName = ['', '一', '二', '三', '四', '五', '六'][lesson.grade] + '年級';
+ const choiceLabel = lesson.questions[0].options.length === 3 ? '三選一' : '二選一';
+ $('cloze-format').textContent = `${lesson.questions.length} 題 · 每題${choiceLabel}`;
+ document.querySelectorAll('a[href="./?activity=cloze"]').forEach(link => link.href = `./?activity=cloze&grade=${lesson.grade}`);
+ document.title = `${gradeName} U${lesson.unit} 句子克漏字 · 小小拼字所`;
+ $('cloze-lesson-label').textContent = `${gradeName} Unit ${lesson.unit} · ${lesson.title}`;
  $('cloze-lesson-description').textContent = lesson.description;
  $('cloze-source').textContent = lesson.source;
- $('cloze-unit-pill').textContent = `一年級 U${lesson.unit} · 二選一`;
+ $('cloze-unit-pill').textContent = `${gradeName} U${lesson.unit} · ${choiceLabel}`;
  const key = `word-club-cloze:${lesson.id}`;
  let session;
  function shuffle(items) { const result=[...items]; for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result; }
@@ -21,6 +25,7 @@
   $('cloze-context').textContent=q.context || ''; $('cloze-context').hidden=!q.context;
   $('cloze-sentence').textContent=q.sentence;$('cloze-chinese').textContent=q.translation;$('cloze-translation').open=false;
   $('cloze-feedback').replaceChildren();$('cloze-next').hidden=true;$('cloze-next').textContent=session.index===session.questions.length-1?'看看練習結果 →':'下一題 →';
+  $('cloze-options').classList.toggle('three-options', q.options.length === 3);
   $('cloze-options').replaceChildren();
   for(const option of shuffle(q.options)){const button=document.createElement('button');button.type='button';button.textContent=option;button.onclick=()=>answer(option);$('cloze-options').append(button);}
   $('cloze-title').focus();
