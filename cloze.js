@@ -14,6 +14,12 @@
  $('cloze-source').textContent = lesson.source;
  $('cloze-unit-pill').textContent = `${gradeName} U${lesson.unit} · ${choiceLabel}`;
  const key = `word-club-cloze:${lesson.id}`;
+ const targets = [...new Set(lesson.questions.map(q => q.target || q.id))];
+ const fullCount = lesson.variants ? targets.length : lesson.questions.length;
+ const rotationKey = `${key}:variants:r${lesson.revision || 1}`;
+ let rotation = {};
+ if (lesson.variants) {try { const saved=JSON.parse(localStorage.getItem(rotationKey)||'{}'); if(saved && typeof saved==='object' && !Array.isArray(saved)) rotation=saved; } catch { $('cloze-storage').hidden=false; }}
+ if (lesson.variants) $('cloze-round-size').querySelector('option[value="all"]').textContent=`整課練習（${fullCount} 個目標各一題）`;
  let session, previousRound = [];
  const roundMode = () => lesson.rounds ? $('cloze-round-size').value : 'all';
  const recordKey = () => lesson.rounds ? `${key}:r${lesson.revision}:${roundMode()}` : key;
@@ -22,8 +28,8 @@
  function show(view) { for(const name of ['home','quiz','result']) $('cloze-'+name).hidden=name!==view;window.scrollTo({top:0,behavior:'instant'}); }
  function stored() { try {return JSON.parse(localStorage.getItem(recordKey())||'null');}catch{$('cloze-storage').hidden=false;return null;} }
  function updateSummary() {
-  const count=roundMode()==='all'?lesson.questions.length:Math.min(10,lesson.questions.length);
-  $('cloze-round-summary').textContent=`題庫 ${lesson.questions.length} 題 · 本輪 ${count} 題。隨機抽題不保證一輪涵蓋每個單字。`;
+  const count=roundMode()==='all'?fullCount:Math.min(10,fullCount);
+  $('cloze-round-summary').textContent=lesson.variants ? `${fullCount} 個練習目標 · ${lesson.questions.length} 種情境 · 本輪 ${count} 題，每個目標一題。情境輪替記錄保存在此瀏覽器。` : `題庫 ${lesson.questions.length} 題 · 本輪 ${count} 題。隨機抽題不保證一輪涵蓋每個單字。`;
   const record=stored();
   $('cloze-history').textContent=record&&record.total===count?(roundMode()==='10'&&Number.isInteger(record.last)?`上次隨機練習：${record.last} / ${count}`:Number.isInteger(record.best)?`完整練習最佳成績：${record.best} / ${count}`:''):'';
  }
@@ -31,13 +37,26 @@
  function start(questions,review=false) {
   let selected;
   if(review) selected=shuffle(questions);
+  else if(lesson.variants) {
+    let words=shuffle(targets);
+    if(roundMode()==='10') {const rest=words.slice(10);words=words.slice(0,10);if(rest.length&&previousRound.length===words.length&&words.every(w=>previousRound.includes(w)))words[words.length-1]=rest[0];}
+    previousRound=words;
+    selected=words.map(target=>{
+      const variants=lesson.questions.filter(q=>q.target===target);
+      const saved=rotation[target] || {};
+      let remaining=Array.isArray(saved.remaining)?saved.remaining.filter(id=>variants.some(q=>q.id===id)):[];
+      if(!remaining.length){remaining=shuffle(variants.map(q=>q.id));if(remaining.length>1 && remaining[0]===saved.last)[remaining[0],remaining[1]]=[remaining[1],remaining[0]];}
+      const id=remaining.shift();rotation[target]={remaining,last:id};return variants.find(q=>q.id===id);
+    });
+    try {localStorage.setItem(rotationKey,JSON.stringify(rotation));}catch{$('cloze-storage').hidden=false;}
+  }
   else {selected=shuffle(lesson.questions);if(roundMode()==='10'){
     const rest=selected.slice(10);selected=selected.slice(0,10);
     if(rest.length&&previousRound.length===selected.length&&selected.every(q=>previousRound.includes(q)))selected[selected.length-1]=rest[0];
     previousRound=selected;
   }}
   session={questions:selected,index:0,correct:0,missed:[],review,resolved:false,key:recordKey(),random:roundMode()==='10'};
-  $('cloze-again').textContent=session.random?'再抽 10 題':`再練完整 ${lesson.questions.length} 題`;
+  $('cloze-again').textContent=session.random?'再抽 10 題':`再練完整 ${fullCount} 題`;
   show('quiz');render();
  }
  $('cloze-round-size').onchange=updateSummary;
