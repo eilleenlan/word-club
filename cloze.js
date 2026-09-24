@@ -1,6 +1,11 @@
 (() => {
  'use strict';
- const $ = id => document.getElementById(id), lesson = globalThis.CLOZE_LESSON;
+ const $ = id => document.getElementById(id), lesson = globalThis.CLOZE_LESSONS.find(item => item.id === new URLSearchParams(location.search).get('lesson')) || globalThis.CLOZE_LESSONS[0];
+ document.title = `一年級 U${lesson.unit} 句子克漏字 · 小小拼字所`;
+ $('cloze-lesson-label').textContent = `一年級 Unit ${lesson.unit} · ${lesson.title}`;
+ $('cloze-lesson-description').textContent = lesson.description;
+ $('cloze-source').textContent = lesson.source;
+ $('cloze-unit-pill').textContent = `一年級 U${lesson.unit} · 二選一`;
  const key = `word-club-cloze:${lesson.id}`;
  let session;
  function shuffle(items) { const result=[...items]; for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result; }
@@ -13,6 +18,7 @@
   $('cloze-title').textContent=session.review?'錯題再挑戰':'句子克漏字';
   $('cloze-counter').textContent=`${session.index+1} / ${session.questions.length}`;
   $('cloze-progress').max=session.questions.length;$('cloze-progress').value=session.index;
+  $('cloze-context').textContent=q.context || ''; $('cloze-context').hidden=!q.context;
   $('cloze-sentence').textContent=q.sentence;$('cloze-chinese').textContent=q.translation;$('cloze-translation').open=false;
   $('cloze-feedback').replaceChildren();$('cloze-next').hidden=true;$('cloze-next').textContent=session.index===session.questions.length-1?'看看練習結果 →':'下一題 →';
   $('cloze-options').replaceChildren();

@@ -35,11 +35,19 @@
     $('practice-modes').hidden = cloze;
     document.querySelector('.book-tag').textContent = cloze ? '句子克漏字' : '課本單字';
     document.querySelector('.how-to strong').textContent = cloze ? '讀一讀 → 選一選 → 再挑戰' : '聽一聽 → 拼一拼 → 再挑戰';
-    document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (g === 1 ? '克漏字已加入 1 個單元' : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
+    document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (g === 1 ? `克漏字已加入 ${globalThis.CLOZE_LESSONS.filter(item => item.grade === g).length} 個單元` : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
     if (cloze) {
       $('mixed-panel').hidden = true; $('units').hidden = false;
       $('book-label').textContent = `${scope.gradeName(grade)} · 句子克漏字`;
-      $('units').innerHTML = grade === 1 ? '<article class="unit-card"><div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT 01</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>認識新朋友</h3><p class="unit-subtitle">I am、She is、We are<br>打招呼與介紹名字</p><div class="unit-meta"><span>10 題 · 每題二選一</span></div><a class="start-unit cloze-start-link" href="cloze.html">開始克漏字練習 →</a></div></article>' : '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1。可以選一年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+      $('units').replaceChildren();
+      const lessons = globalThis.CLOZE_LESSONS.filter(item => item.grade === grade);
+      for (const lesson of lessons) {
+        const card = document.createElement('article'); card.className = 'unit-card';
+        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.questions.length} 題 · 每題二選一</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
+        $('units').append(card);
+      }
+      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4。可以選一年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+
       return;
     }
     $('mixed-panel').hidden = practiceMode === 'single';
