@@ -1,0 +1,7 @@
+/* Keep each target tied to its lesson; distribute mixed rounds across lessons. */
+(function(){
+ const eligible=(lessons,grade,cross)=>lessons.filter(l=>cross?l.grade<=grade:l.grade===grade);
+ function combine(lessons,grade,cross,ids){const chosen=eligible(lessons,grade,cross).filter(l=>ids.includes(l.id));if(!chosen.length)return null;return {id:(cross?'cross':'mixed')+':g'+grade+':'+chosen.map(l=>l.id).sort().join('+'),grade,unit:'',mixed:true,rounds:true,variants:true,revision:chosen.map(l=>l.revision).join('-'),title:cross?'跨年級克漏字':'綜合克漏字',description:'從勾選單元平均分配題目，每個目標每輪至多出一次。保留原年級的作答方式。',source:chosen.map(l=>`${l.grade} 年級 U${l.unit}：${l.source}`).join('；'),questions:chosen.flatMap(l=>l.questions.map(q=>({...q,id:l.id+':'+q.id,target:l.id+':'+(q.target||q.id),origin:l.id,originTarget:q.target||q.id,originId:q.id,revision:l.revision,grade:l.grade,unit:l.unit,mode:l.mode}))) };}
+ function sample(targets,questions,count,shuffle){const groups=new Map();for(const target of targets){const q=questions.find(q=>q.target===target);const key=q.origin||'single';if(!groups.has(key))groups.set(key,[]);groups.get(key).push(target);}const queues=shuffle([...groups.values()]).map(shuffle),result=[];while(result.length<count&&queues.some(q=>q.length))for(const q of queues){if(q.length&&result.length<count)result.push(q.pop());}return shuffle(result);}
+ globalThis.ClozeScope={eligible,combine,sample};
+})();

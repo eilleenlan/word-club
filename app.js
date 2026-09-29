@@ -32,7 +32,8 @@
     const cloze = activity === 'cloze';
     $('spelling-settings').hidden = cloze;
     $('cloze-mode-note').hidden = !cloze;
-    $('practice-modes').hidden = cloze;
+    $('practice-modes').hidden = false;
+    if ($('cloze-mixed')) $('cloze-mixed').hidden=true;
     document.querySelector('.book-tag').textContent = cloze ? '句子克漏字' : '課本單字';
     document.querySelector('.how-to strong').textContent = cloze ? '讀一讀 → 選一選 → 再挑戰' : '聽一聽 → 拼一拼 → 再挑戰';
     document.querySelectorAll('.grade').forEach(button => { const g = Number(button.dataset.grade); const count = scope.eligible(units, g, false).length; button.querySelector('span').textContent = cloze ? (globalThis.CLOZE_LESSONS.some(item => item.grade === g) ? `克漏字已加入 ${globalThis.CLOZE_LESSONS.filter(item => item.grade === g).length} 個單元` : '克漏字題目準備中') : `已加入 ${count} 個單元`; });
@@ -40,10 +41,11 @@
       $('mixed-panel').hidden = true; $('units').hidden = false;
       $('book-label').textContent = `${scope.gradeName(grade)} · 句子克漏字`;
       $('units').replaceChildren();
+      if (practiceMode !== 'single') { renderClozeMixed(); return; }
       const lessons = globalThis.CLOZE_LESSONS.filter(item => item.grade === grade);
       for (const lesson of lessons) {
         const card = document.createElement('article'); card.className = 'unit-card';
-        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.variants ? `${new Set(lesson.questions.map(q => q.target)).size} 個目標 · ${lesson.questions.length} 種情境` : `${lesson.questions.length} 題`} · 每題${lesson.mode === 'typed' ? '填空拼字' : lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">開始克漏字練習 →</a></div>`;
+        card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.variants ? `${new Set(lesson.questions.map(q => q.target)).size} 個目標 · ${lesson.questions.length} 種情境` : `${lesson.questions.length} 題`} · 每題${lesson.mode === 'typed' ? '填空拼字' : lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">選擇範圍與開始練習 →</a></div>`;
         $('units').append(card);
       }
       if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4、五年級 U1～U2、六年級 U1。可以選已開放的年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
@@ -64,10 +66,28 @@
       card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${unit.number}</span><span class="unit-symbol" aria-hidden="true">${['Hi', 'We', 'Aa', '✦'][i % 4]}</span></div><h3>${unit.title}</h3><p class="unit-subtitle">${unit.subtitle}</p><div class="unit-meta"><span>${unit.words.length} 個單字與片語</span><span class="saved">${count === null ? '還沒開始練習' : `★ 最佳初次答對 ${count}/${unit.words.length}`}</span></div><button class="start-unit" aria-label="開始 Unit ${unit.number} ${unit.title}">開始練習 <span aria-hidden="true">→</span></button></div><details><summary>看看本課單字</summary><p class="word-list-help">點英文單字即可聽發音 ♫</p><ul class="word-list"></ul></details>`;
       const list = card.querySelector('ul');
       unit.words.forEach(word => { const li = document.createElement('li'); const en = document.createElement('button'); en.type = 'button'; en.className = 'word-list-speak'; en.textContent = word[0]; en.setAttribute('aria-label', `聽 ${word[0]} 的發音`); en.onclick = () => { $('home-speech-status').textContent = `正在播放 ${word[0]}…`; void speaker.speak(word[0], { recording: word.audio }); }; const zh = document.createElement('span'); zh.textContent = word[1]; li.append(en, zh); list.append(li); });
-      card.querySelector('button').onclick = () => start({ ...unit, id: scope.singleId(unit) });
+      const startButton=card.querySelector('.start-unit');
+      const picker=makePracticePicker(card.querySelector('.unit-main'),unit.words.map((w,i)=>({id:String(i),label:w[0]+' · '+w[1]})),ids=>{startButton.disabled=!ids.length;});
+      startButton.onclick=()=>{const ids=picker.values();if(!ids.length)return;const words=ids.map(i=>unit.words[Number(i)]);start({...unit,words,id:scope.singleId(unit)+(words.length===unit.words.length?'':':selected:'+ids.join(','))});};
       $('units').append(card);
     });
     renderMixed();
+  }
+  const clozeSelections=new Map();
+  function renderClozeMixed(){
+    $('units').hidden=true;
+    let panel=$('cloze-mixed');if(!panel){panel=document.createElement('div');panel.id='cloze-mixed';panel.className='cloze-mixed-panel';$('units').before(panel);}panel.hidden=false;panel.replaceChildren();
+    const cross=practiceMode==='cross',available=ClozeScope.eligible(CLOZE_LESSONS,grade,cross),key=grade+':'+practiceMode;
+    if(!clozeSelections.has(key))clozeSelections.set(key,new Set(available.map(l=>l.id)));
+    const selected=clozeSelections.get(key);const heading=document.createElement('h3');heading.textContent=cross?'跨年級克漏字':'綜合克漏字';
+    const note=document.createElement('p');note.textContent='勾選已學過的單元，下一步可選 10 題、20 題或全部目標。每題保留原年級的選項或填空方式。';panel.append(heading,note);
+    const controls=document.createElement('div');const all=document.createElement('button'),clear=document.createElement('button');all.textContent='全選';clear.textContent='清除';all.type=clear.type='button';controls.append(all,clear);panel.append(controls);
+    const list=document.createElement('div');list.className='picker-list';const inputs=[];
+    for(const l of available){const label=document.createElement('label'),input=document.createElement('input');input.type='checkbox';input.checked=selected.has(l.id);input.onchange=()=>{input.checked?selected.add(l.id):selected.delete(l.id);update();};label.append(input,document.createTextNode(scope.gradeName(l.grade)+' U'+l.unit+' · '+l.title));list.append(label);inputs.push(input);}panel.append(list);
+    const status=document.createElement('p');status.setAttribute('role','status');const button=document.createElement('button');button.className='primary';button.textContent='選好了，設定本輪練習 →';panel.append(status,button);
+    function update(){const chosen=available.filter(l=>selected.has(l.id));button.disabled=!chosen.length;status.textContent=chosen.length?'已選 '+chosen.length+' 個單元':'請至少選一個單元；尚未建立題庫的課程不會出題。';}
+    all.onclick=()=>{available.forEach(l=>selected.add(l.id));inputs.forEach(i=>i.checked=true);update();};clear.onclick=()=>{selected.clear();inputs.forEach(i=>i.checked=false);update();};
+    button.onclick=()=>{const ids=available.filter(l=>selected.has(l.id)).map(l=>l.id);if(ids.length)location.href='cloze.html?mode='+practiceMode+'&grade='+grade+'&lessons='+encodeURIComponent(ids.join(','));};update();
   }
   function mixedUnit() {
     return scope.build(units, grade, practiceMode === 'cross', selectedUnits());

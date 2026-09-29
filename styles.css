@@ -33,3 +33,11 @@
 
 
 .activity-choice{border-bottom:1px solid var(--line);padding-bottom:12px}.activity-choice .choice{border:1px solid var(--line);border-radius:10px;margin:8px 0;padding:12px;background:white}.activity-choice .choice:has(input:checked){background:#edf3ff;border-color:#9cb9ed}.cloze-start-link{display:block;text-decoration:none;text-align:center}
+.practice-picker { margin: 16px 0; padding: 12px; border: 1px solid #d5e0ee; border-radius: 12px; }
+.practice-picker > label { display: inline-flex; align-items:center; gap:6px; margin:12px 12px 12px 0; }
+.picker-list { display: grid; gap: 8px; margin:12px 0; max-height:320px; overflow:auto; }
+.picker-list label { display:flex; align-items:flex-start; gap:10px; padding:10px; background:#f3f6fb; border-radius:8px; overflow-wrap:anywhere; }
+.picker-list input { flex:0 0 auto; margin-top:4px; }
+.practice-picker button,.cloze-mixed-panel > div > button { padding:8px 14px; margin-right:8px; }
+.cloze-mixed-panel { background:white; padding:24px; border:1px solid #d5e0ee; border-radius:18px; }
+.practice-picker summary { cursor:pointer; }
