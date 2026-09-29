@@ -194,3 +194,11 @@ mountain 改用本機 Microsoft Zira Desktop（en-US）匯出的英文示範 MP3
 ## 五年級 U4（2025 Quiz 4）
 
 參考混合考卷中的 U4 Dialogue、SW 與 GR，重新編寫 20 個單字與片語各 3 種情境，共 60 題；不將 U3 閱讀题混入本課。採填空，涵蓋旅遊、用餐、時間、will／won't 及建議用語，保留 tomorrow night 兩字、won't 撇號與 cost 原形／過去式。自動加入綜合及跨年級範圍。本課使用 g5-u4-v1:r1；目前共 13 課、185 個目標、555 種情境。
+
+## 四年級 U1（2025 Worksheet）
+
+依課本 16 個目標新編 48 題（三種情境／目標），採填空拼字；city、cities 分開練習，Pacific Ocean、national park、far from、live in 保留完整片語。参考 worksheet 的地理、位置與居住用語，附明確中文語意。支援自選範圍、10／20 題（不足則使用現有 16 個目標）、整課與混合練習，紀錄使用 g4-u1-v1:r1。現有克漏字共 14 課、201 個目標、603 種情境。
+
+## 四年級 U2（2025 Worksheet）
+
+新增 15 個單字各 3 種情境，共 45 題，採填空拼字。動詞以原形情境練習，副詞提供明確中文語意，區分 carefully／carelessly 並保留 skillfully 美式拼法。支援自選、情境輪替、整課 15 題及混合練習，紀錄使用 g4-u2-v1:r1。目前共 15 課、216 個目標、648 種情境。

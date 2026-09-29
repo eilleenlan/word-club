@@ -6248,6 +6248,871 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Our teachers suggest visiting the science museum. 我們的老師們建議參觀科學博物館。"
       }
     ]
+  },
+  {
+    "id": "g4-u1-v1",
+    "grade": 4,
+    "unit": 1,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "認識臺灣與地理位置",
+    "description": "16 個單字與片語，每個目標 3 種情境，共 48 題。練習地理、位置與居住用語；city 和 cities 分開練習，可自選範圍。",
+    "source": "參考家長提供的 2025 年四年級 U1 worksheet 與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "Taiwan-1",
+        "target": "Taiwan",
+        "answer": "Taiwan",
+        "sentence": "We visited Taipei during our trip to ____.",
+        "translation": "我們到台灣旅行時參觀了台北。",
+        "context": "請填本課用語：台灣（字首大寫）。",
+        "explanation": "We visited Taipei during our trip to Taiwan. 我們到台灣旅行時參觀了台北。"
+      },
+      {
+        "id": "Taiwan-2",
+        "target": "Taiwan",
+        "answer": "Taiwan",
+        "sentence": "My friend sent me a postcard from ____.",
+        "translation": "朋友從台灣寄了一張明信片給我。",
+        "context": "請填本課用語：台灣（字首大寫）。",
+        "explanation": "My friend sent me a postcard from Taiwan. 朋友從台灣寄了一張明信片給我。"
+      },
+      {
+        "id": "Taiwan-3",
+        "target": "Taiwan",
+        "answer": "Taiwan",
+        "sentence": "This map of ____ shows many mountains.",
+        "translation": "這張台灣地圖標出了許多山脈。",
+        "context": "請填本課用語：台灣（字首大寫）。",
+        "explanation": "This map of Taiwan shows many mountains. 這張台灣地圖標出了許多山脈。"
+      },
+      {
+        "id": "island-1",
+        "target": "island",
+        "answer": "island",
+        "sentence": "An ____ has water all around it.",
+        "translation": "島嶼的四周都是水。",
+        "context": "請填本課用語：島嶼（單數）。",
+        "explanation": "An island has water all around it. 島嶼的四周都是水。"
+      },
+      {
+        "id": "island-2",
+        "target": "island",
+        "answer": "island",
+        "sentence": "We took a boat to a small ____.",
+        "translation": "我們搭船到一座小島。",
+        "context": "請填本課用語：島嶼（單數）。",
+        "explanation": "We took a boat to a small island. 我們搭船到一座小島。"
+      },
+      {
+        "id": "island-3",
+        "target": "island",
+        "answer": "island",
+        "sentence": "There is only one village on this ____.",
+        "translation": "這座島上只有一個村莊。",
+        "context": "請填本課用語：島嶼（單數）。",
+        "explanation": "There is only one village on this island. 這座島上只有一個村莊。"
+      },
+      {
+        "id": "ocean-1",
+        "target": "ocean",
+        "answer": "ocean",
+        "sentence": "Whales swim in the ____.",
+        "translation": "鯨魚在海洋裡游泳。",
+        "context": "請填本課用語：海洋（單數）。",
+        "explanation": "Whales swim in the ocean. 鯨魚在海洋裡游泳。"
+      },
+      {
+        "id": "ocean-2",
+        "target": "ocean",
+        "answer": "ocean",
+        "sentence": "We watched the waves of the ____ from the beach.",
+        "translation": "我們從海灘看海洋的波浪。",
+        "context": "請填本課用語：海洋（單數）。",
+        "explanation": "We watched the waves of the ocean from the beach. 我們從海灘看海洋的波浪。"
+      },
+      {
+        "id": "ocean-3",
+        "target": "ocean",
+        "answer": "ocean",
+        "sentence": "The ____ is much larger than this lake.",
+        "translation": "海洋比這座湖大得多。",
+        "context": "請填本課用語：海洋（單數）。",
+        "explanation": "The ocean is much larger than this lake. 海洋比這座湖大得多。"
+      },
+      {
+        "id": "Pacific-Ocean-1",
+        "target": "Pacific Ocean",
+        "answer": "Pacific Ocean",
+        "sentence": "The ____ lies between Asia and the Americas.",
+        "translation": "太平洋位於亞洲與美洲之間。",
+        "context": "請填本課用語：太平洋（兩個字，兩字字首大寫）。",
+        "explanation": "The Pacific Ocean lies between Asia and the Americas. 太平洋位於亞洲與美洲之間。"
+      },
+      {
+        "id": "Pacific-Ocean-2",
+        "target": "Pacific Ocean",
+        "answer": "Pacific Ocean",
+        "sentence": "Hawaii is in the ____.",
+        "translation": "夏威夷位於太平洋。",
+        "context": "請填本課用語：太平洋（兩個字，兩字字首大寫）。",
+        "explanation": "Hawaii is in the Pacific Ocean. 夏威夷位於太平洋。"
+      },
+      {
+        "id": "Pacific-Ocean-3",
+        "target": "Pacific Ocean",
+        "answer": "Pacific Ocean",
+        "sentence": "Our ship sailed across the ____.",
+        "translation": "我們的船航行穿越太平洋。",
+        "context": "請填本課用語：太平洋（兩個字，兩字字首大寫）。",
+        "explanation": "Our ship sailed across the Pacific Ocean. 我們的船航行穿越太平洋。"
+      },
+      {
+        "id": "strait-1",
+        "target": "strait",
+        "answer": "strait",
+        "sentence": "A ____ is a narrow area of water connecting two larger bodies of water.",
+        "translation": "海峽是連接兩片較大水域的狹窄水域。",
+        "context": "請填本課用語：海峽（單數，小寫）。",
+        "explanation": "A strait is a narrow area of water connecting two larger bodies of water. 海峽是連接兩片較大水域的狹窄水域。"
+      },
+      {
+        "id": "strait-2",
+        "target": "strait",
+        "answer": "strait",
+        "sentence": "The ship passed through a narrow ____ between two islands.",
+        "translation": "船穿過兩座島之間的一道狹窄海峽。",
+        "context": "請填本課用語：海峽（單數，小寫）。",
+        "explanation": "The ship passed through a narrow strait between two islands. 船穿過兩座島之間的一道狹窄海峽。"
+      },
+      {
+        "id": "strait-3",
+        "target": "strait",
+        "answer": "strait",
+        "sentence": "We could see the other side of the ____ from the shore.",
+        "translation": "我們從岸邊可以看到海峽的另一邊。",
+        "context": "請填本課用語：海峽（單數，小寫）。",
+        "explanation": "We could see the other side of the strait from the shore. 我們從岸邊可以看到海峽的另一邊。"
+      },
+      {
+        "id": "Taipei-1",
+        "target": "Taipei",
+        "answer": "Taipei",
+        "sentence": "We saw Taipei 101 during our visit to ____.",
+        "translation": "我們到台北遊玩時看到了台北一〇一。",
+        "context": "請填本課用語：台北（字首大寫）。",
+        "explanation": "We saw Taipei 101 during our visit to Taipei. 我們到台北遊玩時看到了台北一〇一。"
+      },
+      {
+        "id": "Taipei-2",
+        "target": "Taipei",
+        "answer": "Taipei",
+        "sentence": "My aunt lives in ____ and often takes the MRT.",
+        "translation": "阿姨住在台北，常常搭捷運。",
+        "context": "請填本課用語：台北（字首大寫）。",
+        "explanation": "My aunt lives in Taipei and often takes the MRT. 阿姨住在台北，常常搭捷運。"
+      },
+      {
+        "id": "Taipei-3",
+        "target": "Taipei",
+        "answer": "Taipei",
+        "sentence": "I bought a train ticket to ____.",
+        "translation": "我買了一張到台北的火車票。",
+        "context": "請填本課用語：台北（字首大寫）。",
+        "explanation": "I bought a train ticket to Taipei. 我買了一張到台北的火車票。"
+      },
+      {
+        "id": "national-park-1",
+        "target": "national park",
+        "answer": "national park",
+        "sentence": "We followed a hiking trail in the ____.",
+        "translation": "我們沿著國家公園裡的步道健行。",
+        "context": "請填本課用語：國家公園（兩個字，小寫）。",
+        "explanation": "We followed a hiking trail in the national park. 我們沿著國家公園裡的步道健行。"
+      },
+      {
+        "id": "national-park-2",
+        "target": "national park",
+        "answer": "national park",
+        "sentence": "The ranger works in a ____ and helps protect wildlife.",
+        "translation": "這位巡護員在國家公園工作，協助保護野生動物。",
+        "context": "請填本課用語：國家公園（兩個字，小寫）。",
+        "explanation": "The ranger works in a national park and helps protect wildlife. 這位巡護員在國家公園工作，協助保護野生動物。"
+      },
+      {
+        "id": "national-park-3",
+        "target": "national park",
+        "answer": "national park",
+        "sentence": "Please do not pick flowers in this ____.",
+        "translation": "請不要採摘這座國家公園裡的花朵。",
+        "context": "請填本課用語：國家公園（兩個字，小寫）。",
+        "explanation": "Please do not pick flowers in this national park. 請不要採摘這座國家公園裡的花朵。"
+      },
+      {
+        "id": "near-1",
+        "target": "near",
+        "answer": "near",
+        "sentence": "The library is ____ my house, just a short walk away.",
+        "translation": "圖書館靠近我家，走一下就到了。",
+        "context": "請填本課用語：靠近（本課用語）。",
+        "explanation": "The library is near my house, just a short walk away. 圖書館靠近我家，走一下就到了。"
+      },
+      {
+        "id": "near-2",
+        "target": "near",
+        "answer": "near",
+        "sentence": "Please sit ____ me so we can read together.",
+        "translation": "請坐在我旁邊，這樣我們可以一起看書。",
+        "context": "請填本課用語：靠近（本課用語）。",
+        "explanation": "Please sit near me so we can read together. 請坐在我旁邊，這樣我們可以一起看書。"
+      },
+      {
+        "id": "near-3",
+        "target": "near",
+        "answer": "near",
+        "sentence": "There is a bus stop ____ the school gate.",
+        "translation": "學校大門附近有一個公車站。",
+        "context": "請填本課用語：靠近（本課用語）。",
+        "explanation": "There is a bus stop near the school gate. 學校大門附近有一個公車站。"
+      },
+      {
+        "id": "here-1",
+        "target": "here",
+        "answer": "here",
+        "sentence": "Please put your bag ____, beside my chair.",
+        "translation": "請把包包放在這裡，我的椅子旁邊。",
+        "context": "請填本課用語：這裡。",
+        "explanation": "Please put your bag here, beside my chair. 請把包包放在這裡，我的椅子旁邊。"
+      },
+      {
+        "id": "here-2",
+        "target": "here",
+        "answer": "here",
+        "sentence": "Come ____ and look at this map with me.",
+        "translation": "到這裡來，和我一起看這張地圖。",
+        "context": "請填本課用語：這裡。",
+        "explanation": "Come here and look at this map with me. 到這裡來，和我一起看這張地圖。"
+      },
+      {
+        "id": "here-3",
+        "target": "here",
+        "answer": "here",
+        "sentence": "We will wait ____ until the bus arrives.",
+        "translation": "我們會在這裡等到公車來。",
+        "context": "請填本課用語：這裡。",
+        "explanation": "We will wait here until the bus arrives. 我們會在這裡等到公車來。"
+      },
+      {
+        "id": "located-1",
+        "target": "located",
+        "answer": "located",
+        "sentence": "The museum is ____ beside the river.",
+        "translation": "博物館位在河邊。",
+        "context": "請填本課用語：位在（填入 be 動詞後的本課用語）。",
+        "explanation": "The museum is located beside the river. 博物館位在河邊。"
+      },
+      {
+        "id": "located-2",
+        "target": "located",
+        "answer": "located",
+        "sentence": "Our classroom is ____ on the second floor.",
+        "translation": "我們的教室位在二樓。",
+        "context": "請填本課用語：位在（填入 be 動詞後的本課用語）。",
+        "explanation": "Our classroom is located on the second floor. 我們的教室位在二樓。"
+      },
+      {
+        "id": "located-3",
+        "target": "located",
+        "answer": "located",
+        "sentence": "The hotel is ____ across from the station.",
+        "translation": "飯店位在車站對面。",
+        "context": "請填本課用語：位在（填入 be 動詞後的本課用語）。",
+        "explanation": "The hotel is located across from the station. 飯店位在車站對面。"
+      },
+      {
+        "id": "far-from-1",
+        "target": "far from",
+        "answer": "far from",
+        "sentence": "My grandparents live ____ our house, so we take a long train ride to visit them.",
+        "translation": "祖父母住得離我家很遠，所以我們搭很久的火車去看他們。",
+        "context": "請填本課用語：離……很遠（兩個字）。",
+        "explanation": "My grandparents live far from our house, so we take a long train ride to visit them. 祖父母住得離我家很遠，所以我們搭很久的火車去看他們。"
+      },
+      {
+        "id": "far-from-2",
+        "target": "far from",
+        "answer": "far from",
+        "sentence": "The campsite is ____ the city. It takes three hours to get there.",
+        "translation": "營地離城市很遠，要花三小時才能到。",
+        "context": "請填本課用語：離……很遠（兩個字）。",
+        "explanation": "The campsite is far from the city. It takes three hours to get there. 營地離城市很遠，要花三小時才能到。"
+      },
+      {
+        "id": "far-from-3",
+        "target": "far from",
+        "answer": "far from",
+        "sentence": "The airport is ____ our hotel, so we must leave early.",
+        "translation": "機場離飯店很遠，所以我們必須早點出發。",
+        "context": "請填本課用語：離……很遠（兩個字）。",
+        "explanation": "The airport is far from our hotel, so we must leave early. 機場離飯店很遠，所以我們必須早點出發。"
+      },
+      {
+        "id": "city-1",
+        "target": "city",
+        "answer": "city",
+        "sentence": "This ____ has many tall buildings.",
+        "translation": "這座城市有許多高樓。",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "This city has many tall buildings. 這座城市有許多高樓。"
+      },
+      {
+        "id": "city-2",
+        "target": "city",
+        "answer": "city",
+        "sentence": "We will spend one day exploring the ____.",
+        "translation": "我們將花一天探索這座城市。",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "We will spend one day exploring the city. 我們將花一天探索這座城市。"
+      },
+      {
+        "id": "city-3",
+        "target": "city",
+        "answer": "city",
+        "sentence": "My cousin moved to a different ____ last year.",
+        "translation": "我的表親去年搬到另一座城市。",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "My cousin moved to a different city last year. 我的表親去年搬到另一座城市。"
+      },
+      {
+        "id": "cities-1",
+        "target": "cities",
+        "answer": "cities",
+        "sentence": "We visited three ____ during our trip.",
+        "translation": "我們旅行時造訪了三座城市。",
+        "context": "請填本課用語：城市（複數，注意字尾變化）。",
+        "explanation": "We visited three cities during our trip. 我們旅行時造訪了三座城市。"
+      },
+      {
+        "id": "cities-2",
+        "target": "cities",
+        "answer": "cities",
+        "sentence": "Many ____ have busy train stations.",
+        "translation": "許多城市有繁忙的火車站。",
+        "context": "請填本課用語：城市（複數，注意字尾變化）。",
+        "explanation": "Many cities have busy train stations. 許多城市有繁忙的火車站。"
+      },
+      {
+        "id": "cities-3",
+        "target": "cities",
+        "answer": "cities",
+        "sentence": "These two ____ are connected by a railway.",
+        "translation": "這兩座城市由一條鐵路連接。",
+        "context": "請填本課用語：城市（複數，注意字尾變化）。",
+        "explanation": "These two cities are connected by a railway. 這兩座城市由一條鐵路連接。"
+      },
+      {
+        "id": "live-in-1",
+        "target": "live in",
+        "answer": "live in",
+        "sentence": "I ____ a small town near the sea.",
+        "translation": "我住在海邊的一個小鎮。",
+        "context": "請填本課用語：住在（兩個字，主詞搭配原形）。",
+        "explanation": "I live in a small town near the sea. 我住在海邊的一個小鎮。"
+      },
+      {
+        "id": "live-in-2",
+        "target": "live in",
+        "answer": "live in",
+        "sentence": "Do you ____ an apartment or a house?",
+        "translation": "你住在公寓還是獨棟房屋？",
+        "context": "請填本課用語：住在（兩個字，主詞搭配原形）。",
+        "explanation": "Do you live in an apartment or a house? 你住在公寓還是獨棟房屋？"
+      },
+      {
+        "id": "live-in-3",
+        "target": "live in",
+        "answer": "live in",
+        "sentence": "Many people ____ this neighborhood.",
+        "translation": "許多人住在這個社區。",
+        "context": "請填本課用語：住在（兩個字，主詞搭配原形）。",
+        "explanation": "Many people live in this neighborhood. 許多人住在這個社區。"
+      },
+      {
+        "id": "capital-1",
+        "target": "capital",
+        "answer": "capital",
+        "sentence": "Tokyo is the ____ of Japan.",
+        "translation": "東京是日本的首都。",
+        "context": "請填本課用語：首都（本課名詞）。",
+        "explanation": "Tokyo is the capital of Japan. 東京是日本的首都。"
+      },
+      {
+        "id": "capital-2",
+        "target": "capital",
+        "answer": "capital",
+        "sentence": "Paris is the ____ of France.",
+        "translation": "巴黎是法國的首都。",
+        "context": "請填本課用語：首都（本課名詞）。",
+        "explanation": "Paris is the capital of France. 巴黎是法國的首都。"
+      },
+      {
+        "id": "capital-3",
+        "target": "capital",
+        "answer": "capital",
+        "sentence": "What is the ____ of England?",
+        "translation": "英格蘭的首都是哪裡？",
+        "context": "請填本課用語：首都（本課名詞）。",
+        "explanation": "What is the capital of England? 英格蘭的首都是哪裡？"
+      },
+      {
+        "id": "center-1",
+        "target": "center",
+        "answer": "center",
+        "sentence": "Draw a dot in the ____ of the circle.",
+        "translation": "在圓的中心畫一個點。",
+        "context": "請填本課用語：中心（使用課本美式拼法）。",
+        "explanation": "Draw a dot in the center of the circle. 在圓的中心畫一個點。"
+      },
+      {
+        "id": "center-2",
+        "target": "center",
+        "answer": "center",
+        "sentence": "The fountain is in the ____ of the square.",
+        "translation": "噴水池位在廣場中心。",
+        "context": "請填本課用語：中心（使用課本美式拼法）。",
+        "explanation": "The fountain is in the center of the square. 噴水池位在廣場中心。"
+      },
+      {
+        "id": "center-3",
+        "target": "center",
+        "answer": "center",
+        "sentence": "Put the bowl in the ____ of the table.",
+        "translation": "把碗放在桌子中央。",
+        "context": "請填本課用語：中心（使用課本美式拼法）。",
+        "explanation": "Put the bowl in the center of the table. 把碗放在桌子中央。"
+      }
+    ]
+  },
+  {
+    "id": "g4-u2-v1",
+    "grade": 4,
+    "unit": 2,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "動作與做事的方式",
+    "description": "15 個單字，每個目標 3 種情境，共 45 題。練習動作與副詞，分辨 carefully／carelessly；可自選範圍。",
+    "source": "參考家長提供的 2025 年四年級 U2 worksheet 與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "catch-1",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "Can you ____ the ball with both hands?",
+        "translation": "你能用雙手接住球嗎？",
+        "context": "請填本課用語：抓住、接住（動詞原形）。",
+        "explanation": "Can you catch the ball with both hands? 你能用雙手接住球嗎？"
+      },
+      {
+        "id": "catch-2",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "The cat tried to ____ a mouse.",
+        "translation": "貓試著抓一隻老鼠。",
+        "context": "請填本課用語：抓住、接住（動詞原形）。",
+        "explanation": "The cat tried to catch a mouse. 貓試著抓一隻老鼠。"
+      },
+      {
+        "id": "catch-3",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "We watched the frog ____ a fly.",
+        "translation": "我們看著青蛙抓住一隻蒼蠅。",
+        "context": "請填本課用語：抓住、接住（動詞原形）。",
+        "explanation": "We watched the frog catch a fly. 我們看著青蛙抓住一隻蒼蠅。"
+      },
+      {
+        "id": "hunt-1",
+        "target": "hunt",
+        "answer": "hunt",
+        "sentence": "Some owls ____ at night.",
+        "translation": "有些貓頭鷹在夜間獵食。",
+        "context": "請填本課用語：打獵、獵捕（動詞原形）。",
+        "explanation": "Some owls hunt at night. 有些貓頭鷹在夜間獵食。"
+      },
+      {
+        "id": "hunt-2",
+        "target": "hunt",
+        "answer": "hunt",
+        "sentence": "Lions often ____ together for food.",
+        "translation": "獅子常常一起獵食。",
+        "context": "請填本課用語：打獵、獵捕（動詞原形）。",
+        "explanation": "Lions often hunt together for food. 獅子常常一起獵食。"
+      },
+      {
+        "id": "hunt-3",
+        "target": "hunt",
+        "answer": "hunt",
+        "sentence": "People must not ____ wild animals in this park.",
+        "translation": "人們不得在這座公園裡獵捕野生動物。",
+        "context": "請填本課用語：打獵、獵捕（動詞原形）。",
+        "explanation": "People must not hunt wild animals in this park. 人們不得在這座公園裡獵捕野生動物。"
+      },
+      {
+        "id": "carve-1",
+        "target": "carve",
+        "answer": "carve",
+        "sentence": "He can ____ a bird out of wood.",
+        "translation": "他可以用木頭雕刻出一隻鳥。",
+        "context": "請填本課用語：雕刻（動詞原形）。",
+        "explanation": "He can carve a bird out of wood. 他可以用木頭雕刻出一隻鳥。"
+      },
+      {
+        "id": "carve-2",
+        "target": "carve",
+        "answer": "carve",
+        "sentence": "We will ____ a face on the pumpkin.",
+        "translation": "我們將在南瓜上刻出一張臉。",
+        "context": "請填本課用語：雕刻（動詞原形）。",
+        "explanation": "We will carve a face on the pumpkin. 我們將在南瓜上刻出一張臉。"
+      },
+      {
+        "id": "carve-3",
+        "target": "carve",
+        "answer": "carve",
+        "sentence": "The artist wants to ____ a small fish from this piece of wood.",
+        "translation": "藝術家想用這塊木頭雕出一條小魚。",
+        "context": "請填本課用語：雕刻（動詞原形）。",
+        "explanation": "The artist wants to carve a small fish from this piece of wood. 藝術家想用這塊木頭雕出一條小魚。"
+      },
+      {
+        "id": "dig-1",
+        "target": "dig",
+        "answer": "dig",
+        "sentence": "Please ____ a hole for the young tree.",
+        "translation": "請挖一個洞來種小樹。",
+        "context": "請填本課用語：挖（動詞原形）。",
+        "explanation": "Please dig a hole for the young tree. 請挖一個洞來種小樹。"
+      },
+      {
+        "id": "dig-2",
+        "target": "dig",
+        "answer": "dig",
+        "sentence": "The dog likes to ____ in the garden.",
+        "translation": "這隻狗喜歡在花園裡挖土。",
+        "context": "請填本課用語：挖（動詞原形）。",
+        "explanation": "The dog likes to dig in the garden. 這隻狗喜歡在花園裡挖土。"
+      },
+      {
+        "id": "dig-3",
+        "target": "dig",
+        "answer": "dig",
+        "sentence": "We use a shovel to ____ in the sand.",
+        "translation": "我們用鏟子挖沙。",
+        "context": "請填本課用語：挖（動詞原形）。",
+        "explanation": "We use a shovel to dig in the sand. 我們用鏟子挖沙。"
+      },
+      {
+        "id": "dance-1",
+        "target": "dance",
+        "answer": "dance",
+        "sentence": "They will ____ together at the party.",
+        "translation": "他們將在派對上一起跳舞。",
+        "context": "請填本課用語：跳舞（動詞原形）。",
+        "explanation": "They will dance together at the party. 他們將在派對上一起跳舞。"
+      },
+      {
+        "id": "dance-2",
+        "target": "dance",
+        "answer": "dance",
+        "sentence": "My sister wants to learn how to ____.",
+        "translation": "妹妹想學跳舞。",
+        "context": "請填本課用語：跳舞（動詞原形）。",
+        "explanation": "My sister wants to learn how to dance. 妹妹想學跳舞。"
+      },
+      {
+        "id": "dance-3",
+        "target": "dance",
+        "answer": "dance",
+        "sentence": "Can you ____ to this music?",
+        "translation": "你能跟著這段音樂跳舞嗎？",
+        "context": "請填本課用語：跳舞（動詞原形）。",
+        "explanation": "Can you dance to this music? 你能跟著這段音樂跳舞嗎？"
+      },
+      {
+        "id": "sew-1",
+        "target": "sew",
+        "answer": "sew",
+        "sentence": "Grandma will ____ a button on my shirt.",
+        "translation": "奶奶將在我的襯衫上縫一顆鈕扣。",
+        "context": "請填本課用語：縫（動詞原形）。",
+        "explanation": "Grandma will sew a button on my shirt. 奶奶將在我的襯衫上縫一顆鈕扣。"
+      },
+      {
+        "id": "sew-2",
+        "target": "sew",
+        "answer": "sew",
+        "sentence": "I want to ____ a small bag for my friend.",
+        "translation": "我想縫一個小包包給朋友。",
+        "context": "請填本課用語：縫（動詞原形）。",
+        "explanation": "I want to sew a small bag for my friend. 我想縫一個小包包給朋友。"
+      },
+      {
+        "id": "sew-3",
+        "target": "sew",
+        "answer": "sew",
+        "sentence": "Can you ____ these two pieces of cloth together?",
+        "translation": "你能把這兩塊布縫在一起嗎？",
+        "context": "請填本課用語：縫（動詞原形）。",
+        "explanation": "Can you sew these two pieces of cloth together? 你能把這兩塊布縫在一起嗎？"
+      },
+      {
+        "id": "quickly-1",
+        "target": "quickly",
+        "answer": "quickly",
+        "sentence": "We walked ____ to get out of the rain.",
+        "translation": "我們快步走開躲雨。",
+        "context": "請填本課用語：快速地（副詞）。",
+        "explanation": "We walked quickly to get out of the rain. 我們快步走開躲雨。"
+      },
+      {
+        "id": "quickly-2",
+        "target": "quickly",
+        "answer": "quickly",
+        "sentence": "She finished the puzzle ____, in only two minutes.",
+        "translation": "她很快地完成拼圖，只花了兩分鐘。",
+        "context": "請填本課用語：快速地（副詞）。",
+        "explanation": "She finished the puzzle quickly, in only two minutes. 她很快地完成拼圖，只花了兩分鐘。"
+      },
+      {
+        "id": "quickly-3",
+        "target": "quickly",
+        "answer": "quickly",
+        "sentence": "The rabbit ran ____ across the field.",
+        "translation": "兔子快速跑過田野。",
+        "context": "請填本課用語：快速地（副詞）。",
+        "explanation": "The rabbit ran quickly across the field. 兔子快速跑過田野。"
+      },
+      {
+        "id": "carefully-1",
+        "target": "carefully",
+        "answer": "carefully",
+        "sentence": "Carry the glass ____ so it does not break.",
+        "translation": "小心拿玻璃杯，別讓它破掉。",
+        "context": "請填本課用語：小心地、仔細地（副詞）。",
+        "explanation": "Carry the glass carefully so it does not break. 小心拿玻璃杯，別讓它破掉。"
+      },
+      {
+        "id": "carefully-2",
+        "target": "carefully",
+        "answer": "carefully",
+        "sentence": "Read the instructions ____ before you begin.",
+        "translation": "開始之前，請仔細閱讀說明。",
+        "context": "請填本課用語：小心地、仔細地（副詞）。",
+        "explanation": "Read the instructions carefully before you begin. 開始之前，請仔細閱讀說明。"
+      },
+      {
+        "id": "carefully-3",
+        "target": "carefully",
+        "answer": "carefully",
+        "sentence": "She checked each answer ____ before handing in her work.",
+        "translation": "她交作業前仔細檢查了每個答案。",
+        "context": "請填本課用語：小心地、仔細地（副詞）。",
+        "explanation": "She checked each answer carefully before handing in her work. 她交作業前仔細檢查了每個答案。"
+      },
+      {
+        "id": "carelessly-1",
+        "target": "carelessly",
+        "answer": "carelessly",
+        "sentence": "He packed his bag ____ and forgot his notebook.",
+        "translation": "他粗心地整理書包，忘了帶筆記本。",
+        "context": "請填本課用語：粗心地、不小心地（副詞）。",
+        "explanation": "He packed his bag carelessly and forgot his notebook. 他粗心地整理書包，忘了帶筆記本。"
+      },
+      {
+        "id": "carelessly-2",
+        "target": "carelessly",
+        "answer": "carelessly",
+        "sentence": "She wrote the address ____ and missed a number.",
+        "translation": "她粗心地寫地址，漏掉了一個數字。",
+        "context": "請填本課用語：粗心地、不小心地（副詞）。",
+        "explanation": "She wrote the address carelessly and missed a number. 她粗心地寫地址，漏掉了一個數字。"
+      },
+      {
+        "id": "carelessly-3",
+        "target": "carelessly",
+        "answer": "carelessly",
+        "sentence": "He put the cup down ____, and it fell off the table.",
+        "translation": "他不小心地放下杯子，杯子從桌上掉下來。",
+        "context": "請填本課用語：粗心地、不小心地（副詞）。",
+        "explanation": "He put the cup down carelessly, and it fell off the table. 他不小心地放下杯子，杯子從桌上掉下來。"
+      },
+      {
+        "id": "slowly-1",
+        "target": "slowly",
+        "answer": "slowly",
+        "sentence": "The snail moved ____ across the leaf.",
+        "translation": "蝸牛緩慢爬過葉子。",
+        "context": "請填本課用語：緩慢地（副詞）。",
+        "explanation": "The snail moved slowly across the leaf. 蝸牛緩慢爬過葉子。"
+      },
+      {
+        "id": "slowly-2",
+        "target": "slowly",
+        "answer": "slowly",
+        "sentence": "Please speak ____ so I can understand each word.",
+        "translation": "請慢慢說，讓我能聽懂每個字。",
+        "context": "請填本課用語：緩慢地（副詞）。",
+        "explanation": "Please speak slowly so I can understand each word. 請慢慢說，讓我能聽懂每個字。"
+      },
+      {
+        "id": "slowly-3",
+        "target": "slowly",
+        "answer": "slowly",
+        "sentence": "Grandpa walked ____ up the steep hill.",
+        "translation": "爺爺緩慢走上陡峭的山坡。",
+        "context": "請填本課用語：緩慢地（副詞）。",
+        "explanation": "Grandpa walked slowly up the steep hill. 爺爺緩慢走上陡峭的山坡。"
+      },
+      {
+        "id": "happily-1",
+        "target": "happily",
+        "answer": "happily",
+        "sentence": "The children smiled ____ when they saw the presents.",
+        "translation": "孩子們看到禮物時開心地笑了。",
+        "context": "請填本課用語：快樂地（副詞）。",
+        "explanation": "The children smiled happily when they saw the presents. 孩子們看到禮物時開心地笑了。"
+      },
+      {
+        "id": "happily-2",
+        "target": "happily",
+        "answer": "happily",
+        "sentence": "The puppy played ____ with its new toy.",
+        "translation": "小狗開心地玩著新玩具。",
+        "context": "請填本課用語：快樂地（副詞）。",
+        "explanation": "The puppy played happily with its new toy. 小狗開心地玩著新玩具。"
+      },
+      {
+        "id": "happily-3",
+        "target": "happily",
+        "answer": "happily",
+        "sentence": "She waved ____ when her best friend arrived.",
+        "translation": "好朋友到來時，她開心地揮手。",
+        "context": "請填本課用語：快樂地（副詞）。",
+        "explanation": "She waved happily when her best friend arrived. 好朋友到來時，她開心地揮手。"
+      },
+      {
+        "id": "quietly-1",
+        "target": "quietly",
+        "answer": "quietly",
+        "sentence": "We entered the room ____ because the baby was asleep.",
+        "translation": "因為寶寶睡著了，我們安靜地走進房間。",
+        "context": "請填本課用語：安靜地（副詞）。",
+        "explanation": "We entered the room quietly because the baby was asleep. 因為寶寶睡著了，我們安靜地走進房間。"
+      },
+      {
+        "id": "quietly-2",
+        "target": "quietly",
+        "answer": "quietly",
+        "sentence": "Please talk ____ in the library.",
+        "translation": "在圖書館裡請輕聲說話。",
+        "context": "請填本課用語：安靜地（副詞）。",
+        "explanation": "Please talk quietly in the library. 在圖書館裡請輕聲說話。"
+      },
+      {
+        "id": "quietly-3",
+        "target": "quietly",
+        "answer": "quietly",
+        "sentence": "He closed the door ____ so he would not wake anyone.",
+        "translation": "他輕輕關門，以免吵醒任何人。",
+        "context": "請填本課用語：安靜地（副詞）。",
+        "explanation": "He closed the door quietly so he would not wake anyone. 他輕輕關門，以免吵醒任何人。"
+      },
+      {
+        "id": "skillfully-1",
+        "target": "skillfully",
+        "answer": "skillfully",
+        "sentence": "The artist carved the wood ____.",
+        "translation": "藝術家熟練地雕刻木頭。",
+        "context": "請填本課用語：熟練地（副詞，使用課本美式拼法）。",
+        "explanation": "The artist carved the wood skillfully. 藝術家熟練地雕刻木頭。"
+      },
+      {
+        "id": "skillfully-2",
+        "target": "skillfully",
+        "answer": "skillfully",
+        "sentence": "After years of practice, she plays the violin ____.",
+        "translation": "經過多年練習，她熟練地演奏小提琴。",
+        "context": "請填本課用語：熟練地（副詞，使用課本美式拼法）。",
+        "explanation": "After years of practice, she plays the violin skillfully. 經過多年練習，她熟練地演奏小提琴。"
+      },
+      {
+        "id": "skillfully-3",
+        "target": "skillfully",
+        "answer": "skillfully",
+        "sentence": "The cook cut the vegetables ____.",
+        "translation": "廚師熟練地切菜。",
+        "context": "請填本課用語：熟練地（副詞，使用課本美式拼法）。",
+        "explanation": "The cook cut the vegetables skillfully. 廚師熟練地切菜。"
+      },
+      {
+        "id": "loudly-1",
+        "target": "loudly",
+        "answer": "loudly",
+        "sentence": "The crowd cheered ____ when the team won.",
+        "translation": "球隊獲勝時，觀眾大聲歡呼。",
+        "context": "請填本課用語：大聲地（副詞）。",
+        "explanation": "The crowd cheered loudly when the team won. 球隊獲勝時，觀眾大聲歡呼。"
+      },
+      {
+        "id": "loudly-2",
+        "target": "loudly",
+        "answer": "loudly",
+        "sentence": "He called my name ____ so I could hear him across the playground.",
+        "translation": "他大聲叫我的名字，讓操場另一端的我聽見。",
+        "context": "請填本課用語：大聲地（副詞）。",
+        "explanation": "He called my name loudly so I could hear him across the playground. 他大聲叫我的名字，讓操場另一端的我聽見。"
+      },
+      {
+        "id": "loudly-3",
+        "target": "loudly",
+        "answer": "loudly",
+        "sentence": "The dog barked ____ at the stranger.",
+        "translation": "狗對陌生人大聲吠叫。",
+        "context": "請填本課用語：大聲地（副詞）。",
+        "explanation": "The dog barked loudly at the stranger. 狗對陌生人大聲吠叫。"
+      },
+      {
+        "id": "beautifully-1",
+        "target": "beautifully",
+        "answer": "beautifully",
+        "sentence": "She sang ____ at the school concert.",
+        "translation": "她在學校音樂會上優美地歌唱。",
+        "context": "請填本課用語：優美地、美麗地（副詞）。",
+        "explanation": "She sang beautifully at the school concert. 她在學校音樂會上優美地歌唱。"
+      },
+      {
+        "id": "beautifully-2",
+        "target": "beautifully",
+        "answer": "beautifully",
+        "sentence": "They decorated the room ____ with flowers.",
+        "translation": "他們用花把房間布置得很漂亮。",
+        "context": "請填本課用語：優美地、美麗地（副詞）。",
+        "explanation": "They decorated the room beautifully with flowers. 他們用花把房間布置得很漂亮。"
+      },
+      {
+        "id": "beautifully-3",
+        "target": "beautifully",
+        "answer": "beautifully",
+        "sentence": "The dancers moved ____ across the stage.",
+        "translation": "舞者們在舞台上優美地移動。",
+        "context": "請填本課用語：優美地、美麗地（副詞）。",
+        "explanation": "The dancers moved beautifully across the stage. 舞者們在舞台上優美地移動。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
