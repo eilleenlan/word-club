@@ -7113,6 +7113,1141 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "The dancers moved beautifully across the stage. 舞者們在舞台上優美地移動。"
       }
     ]
+  },
+  {
+    "id": "g4-u3-v1",
+    "grade": 4,
+    "unit": 3,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "週末出遊",
+    "description": "15 個單字與片語，每個目標 3 種情境，共 45 題。練習出遊地點、週末活動與希望的表達；可自選範圍。",
+    "source": "參考家長提供的 2025 年四年級 U3 worksheet 與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "weekend-1",
+        "target": "weekend",
+        "answer": "weekend",
+        "sentence": "We will visit our cousins this ____.",
+        "translation": "我們這個週末將拜訪表兄弟姊妹。",
+        "context": "請填本課用語：週末（單數）。",
+        "explanation": "We will visit our cousins this weekend. 我們這個週末將拜訪表兄弟姊妹。"
+      },
+      {
+        "id": "weekend-2",
+        "target": "weekend",
+        "answer": "weekend",
+        "sentence": "I like to sleep a little longer on the ____.",
+        "translation": "我喜歡週末多睡一點。",
+        "context": "請填本課用語：週末（單數）。",
+        "explanation": "I like to sleep a little longer on the weekend. 我喜歡週末多睡一點。"
+      },
+      {
+        "id": "weekend-3",
+        "target": "weekend",
+        "answer": "weekend",
+        "sentence": "What are your plans for the ____?",
+        "translation": "你週末有什麼計畫？",
+        "context": "請填本課用語：週末（單數）。",
+        "explanation": "What are your plans for the weekend? 你週末有什麼計畫？"
+      },
+      {
+        "id": "market-1",
+        "target": "market",
+        "answer": "market",
+        "sentence": "We bought fresh vegetables at the ____.",
+        "translation": "我們在市場買了新鮮蔬菜。",
+        "context": "請填本課用語：市場（單數，小寫）。",
+        "explanation": "We bought fresh vegetables at the market. 我們在市場買了新鮮蔬菜。"
+      },
+      {
+        "id": "market-2",
+        "target": "market",
+        "answer": "market",
+        "sentence": "The ____ is full of people buying food.",
+        "translation": "市場裡滿是買食物的人。",
+        "context": "請填本課用語：市場（單數，小寫）。",
+        "explanation": "The market is full of people buying food. 市場裡滿是買食物的人。"
+      },
+      {
+        "id": "market-3",
+        "target": "market",
+        "answer": "market",
+        "sentence": "My uncle sells fruit at a ____ near our house.",
+        "translation": "叔叔在我家附近的一個市場賣水果。",
+        "context": "請填本課用語：市場（單數，小寫）。",
+        "explanation": "My uncle sells fruit at a market near our house. 叔叔在我家附近的一個市場賣水果。"
+      },
+      {
+        "id": "nothing-1",
+        "target": "nothing",
+        "answer": "nothing",
+        "sentence": "The box is empty. There is ____ inside.",
+        "translation": "盒子是空的，裡面什麼也沒有。",
+        "context": "請填本課用語：什麼也沒有。",
+        "explanation": "The box is empty. There is nothing inside. 盒子是空的，裡面什麼也沒有。"
+      },
+      {
+        "id": "nothing-2",
+        "target": "nothing",
+        "answer": "nothing",
+        "sentence": "I looked in my bag, but I found ____.",
+        "translation": "我看了包包裡面，但什麼也沒找到。",
+        "context": "請填本課用語：什麼也沒有。",
+        "explanation": "I looked in my bag, but I found nothing. 我看了包包裡面，但什麼也沒找到。"
+      },
+      {
+        "id": "nothing-3",
+        "target": "nothing",
+        "answer": "nothing",
+        "sentence": "There is ____ on the plate because I ate all the food.",
+        "translation": "盤子上什麼也沒有，因為我把食物都吃完了。",
+        "context": "請填本課用語：什麼也沒有。",
+        "explanation": "There is nothing on the plate because I ate all the food. 盤子上什麼也沒有，因為我把食物都吃完了。"
+      },
+      {
+        "id": "special-1",
+        "target": "special",
+        "answer": "special",
+        "sentence": "We made a ____ card for Grandma's birthday.",
+        "translation": "我們為奶奶的生日做了一張特別的卡片。",
+        "context": "請填本課用語：特別的。",
+        "explanation": "We made a special card for Grandma's birthday. 我們為奶奶的生日做了一張特別的卡片。"
+      },
+      {
+        "id": "special-2",
+        "target": "special",
+        "answer": "special",
+        "sentence": "Today is a ____ day because it is our first class trip.",
+        "translation": "今天是特別的一天，因為這是我們第一次班級旅行。",
+        "context": "請填本課用語：特別的。",
+        "explanation": "Today is a special day because it is our first class trip. 今天是特別的一天，因為這是我們第一次班級旅行。"
+      },
+      {
+        "id": "special-3",
+        "target": "special",
+        "answer": "special",
+        "sentence": "The chef made a ____ meal to welcome our guests.",
+        "translation": "主廚做了一頓特別的餐點歡迎客人。",
+        "context": "請填本課用語：特別的。",
+        "explanation": "The chef made a special meal to welcome our guests. 主廚做了一頓特別的餐點歡迎客人。"
+      },
+      {
+        "id": "stay-1",
+        "target": "stay",
+        "answer": "stay",
+        "sentence": "Please ____ inside until the rain stops.",
+        "translation": "請留在室內，直到雨停。",
+        "context": "請填本課用語：留在（動詞原形）。",
+        "explanation": "Please stay inside until the rain stops. 請留在室內，直到雨停。"
+      },
+      {
+        "id": "stay-2",
+        "target": "stay",
+        "answer": "stay",
+        "sentence": "We will ____ at a hotel for two nights.",
+        "translation": "我們將在飯店住兩晚。",
+        "context": "請填本課用語：留在（動詞原形）。",
+        "explanation": "We will stay at a hotel for two nights. 我們將在飯店住兩晚。"
+      },
+      {
+        "id": "stay-3",
+        "target": "stay",
+        "answer": "stay",
+        "sentence": "I want to ____ here and finish my drawing.",
+        "translation": "我想留在這裡把畫畫完。",
+        "context": "請填本課用語：留在（動詞原形）。",
+        "explanation": "I want to stay here and finish my drawing. 我想留在這裡把畫畫完。"
+      },
+      {
+        "id": "beach-1",
+        "target": "beach",
+        "answer": "beach",
+        "sentence": "We built a sandcastle on the ____.",
+        "translation": "我們在海灘上堆沙堡。",
+        "context": "請填本課用語：海灘（單數）。",
+        "explanation": "We built a sandcastle on the beach. 我們在海灘上堆沙堡。"
+      },
+      {
+        "id": "beach-2",
+        "target": "beach",
+        "answer": "beach",
+        "sentence": "The children collected shells on the ____.",
+        "translation": "孩子們在海灘上撿貝殼。",
+        "context": "請填本課用語：海灘（單數）。",
+        "explanation": "The children collected shells on the beach. 孩子們在海灘上撿貝殼。"
+      },
+      {
+        "id": "beach-3",
+        "target": "beach",
+        "answer": "beach",
+        "sentence": "Let's walk along the ____ and listen to the waves.",
+        "translation": "我們沿著海灘走，聽聽海浪聲吧。",
+        "context": "請填本課用語：海灘（單數）。",
+        "explanation": "Let's walk along the beach and listen to the waves. 我們沿著海灘走，聽聽海浪聲吧。"
+      },
+      {
+        "id": "hot-spring-1",
+        "target": "hot spring",
+        "answer": "hot spring",
+        "sentence": "Warm water comes out of the ground at this ____.",
+        "translation": "這處溫泉有溫暖的水從地底湧出。",
+        "context": "請填本課用語：溫泉（兩個字，單數）。",
+        "explanation": "Warm water comes out of the ground at this hot spring. 這處溫泉有溫暖的水從地底湧出。"
+      },
+      {
+        "id": "hot-spring-2",
+        "target": "hot spring",
+        "answer": "hot spring",
+        "sentence": "We enjoyed a warm bath at the ____ in winter.",
+        "translation": "冬天我們在溫泉享受溫暖的泡湯。",
+        "context": "請填本課用語：溫泉（兩個字，單數）。",
+        "explanation": "We enjoyed a warm bath at the hot spring in winter. 冬天我們在溫泉享受溫暖的泡湯。"
+      },
+      {
+        "id": "hot-spring-3",
+        "target": "hot spring",
+        "answer": "hot spring",
+        "sentence": "There is a natural ____ near the village.",
+        "translation": "村莊附近有一處天然溫泉。",
+        "context": "請填本課用語：溫泉（兩個字，單數）。",
+        "explanation": "There is a natural hot spring near the village. 村莊附近有一處天然溫泉。"
+      },
+      {
+        "id": "aquarium-1",
+        "target": "aquarium",
+        "answer": "aquarium",
+        "sentence": "We watched colorful fish swim at the ____.",
+        "translation": "我們在水族館看色彩繽紛的魚游泳。",
+        "context": "請填本課用語：水族館（單數）。",
+        "explanation": "We watched colorful fish swim at the aquarium. 我們在水族館看色彩繽紛的魚游泳。"
+      },
+      {
+        "id": "aquarium-2",
+        "target": "aquarium",
+        "answer": "aquarium",
+        "sentence": "Our class visited an ____ to learn about sea animals.",
+        "translation": "我們班參觀水族館，認識海洋動物。",
+        "context": "請填本課用語：水族館（單數）。",
+        "explanation": "Our class visited an aquarium to learn about sea animals. 我們班參觀水族館，認識海洋動物。"
+      },
+      {
+        "id": "aquarium-3",
+        "target": "aquarium",
+        "answer": "aquarium",
+        "sentence": "The ____ has a large tank full of sharks.",
+        "translation": "這座水族館有一個養了許多鯊魚的大水槽。",
+        "context": "請填本課用語：水族館（單數）。",
+        "explanation": "The aquarium has a large tank full of sharks. 這座水族館有一個養了許多鯊魚的大水槽。"
+      },
+      {
+        "id": "temple-1",
+        "target": "temple",
+        "answer": "temple",
+        "sentence": "People came to the ____ to pray.",
+        "translation": "人們到廟宇祈禱。",
+        "context": "請填本課用語：廟宇（單數）。",
+        "explanation": "People came to the temple to pray. 人們到廟宇祈禱。"
+      },
+      {
+        "id": "temple-2",
+        "target": "temple",
+        "answer": "temple",
+        "sentence": "We saw a stone lion outside the ____.",
+        "translation": "我們在廟宇外看見一隻石獅。",
+        "context": "請填本課用語：廟宇（單數）。",
+        "explanation": "We saw a stone lion outside the temple. 我們在廟宇外看見一隻石獅。"
+      },
+      {
+        "id": "temple-3",
+        "target": "temple",
+        "answer": "temple",
+        "sentence": "This old ____ has a beautiful roof.",
+        "translation": "這座古老的廟宇有美麗的屋頂。",
+        "context": "請填本課用語：廟宇（單數）。",
+        "explanation": "This old temple has a beautiful roof. 這座古老的廟宇有美麗的屋頂。"
+      },
+      {
+        "id": "mountain-1",
+        "target": "mountain",
+        "answer": "mountain",
+        "sentence": "We climbed the ____ to see the sunrise.",
+        "translation": "我們爬上山看日出。",
+        "context": "請填本課用語：山（單數，小寫）。",
+        "explanation": "We climbed the mountain to see the sunrise. 我們爬上山看日出。"
+      },
+      {
+        "id": "mountain-2",
+        "target": "mountain",
+        "answer": "mountain",
+        "sentence": "There is snow on top of that ____.",
+        "translation": "那座山的山頂有雪。",
+        "context": "請填本課用語：山（單數，小寫）。",
+        "explanation": "There is snow on top of that mountain. 那座山的山頂有雪。"
+      },
+      {
+        "id": "mountain-3",
+        "target": "mountain",
+        "answer": "mountain",
+        "sentence": "The village is at the foot of a ____.",
+        "translation": "村莊位在一座山的山腳下。",
+        "context": "請填本課用語：山（單數，小寫）。",
+        "explanation": "The village is at the foot of a mountain. 村莊位在一座山的山腳下。"
+      },
+      {
+        "id": "museum-1",
+        "target": "museum",
+        "answer": "museum",
+        "sentence": "The ____ has a collection of old coins.",
+        "translation": "這座博物館收藏了古錢幣。",
+        "context": "請填本課用語：博物館（單數）。",
+        "explanation": "The museum has a collection of old coins. 這座博物館收藏了古錢幣。"
+      },
+      {
+        "id": "museum-2",
+        "target": "museum",
+        "answer": "museum",
+        "sentence": "We saw dinosaur bones in the ____.",
+        "translation": "我們在博物館看到恐龍骨頭。",
+        "context": "請填本課用語：博物館（單數）。",
+        "explanation": "We saw dinosaur bones in the museum. 我們在博物館看到恐龍骨頭。"
+      },
+      {
+        "id": "museum-3",
+        "target": "museum",
+        "answer": "museum",
+        "sentence": "The guide showed us ancient tools at the ____.",
+        "translation": "導覽員在博物館向我們展示古代工具。",
+        "context": "請填本課用語：博物館（單數）。",
+        "explanation": "The guide showed us ancient tools at the museum. 導覽員在博物館向我們展示古代工具。"
+      },
+      {
+        "id": "amusement-park-1",
+        "target": "amusement park",
+        "answer": "amusement park",
+        "sentence": "We rode a roller coaster at the ____.",
+        "translation": "我們在遊樂園搭雲霄飛車。",
+        "context": "請填本課用語：遊樂園（兩個字，單數）。",
+        "explanation": "We rode a roller coaster at the amusement park. 我們在遊樂園搭雲霄飛車。"
+      },
+      {
+        "id": "amusement-park-2",
+        "target": "amusement park",
+        "answer": "amusement park",
+        "sentence": "The ____ has a big Ferris wheel.",
+        "translation": "這座遊樂園有一個大摩天輪。",
+        "context": "請填本課用語：遊樂園（兩個字，單數）。",
+        "explanation": "The amusement park has a big Ferris wheel. 這座遊樂園有一個大摩天輪。"
+      },
+      {
+        "id": "amusement-park-3",
+        "target": "amusement park",
+        "answer": "amusement park",
+        "sentence": "My family spent the day enjoying rides at an ____.",
+        "translation": "我們全家在一座遊樂園玩了一整天的遊樂設施。",
+        "context": "請填本課用語：遊樂園（兩個字，單數）。",
+        "explanation": "My family spent the day enjoying rides at an amusement park. 我們全家在一座遊樂園玩了一整天的遊樂設施。"
+      },
+      {
+        "id": "department-store-1",
+        "target": "department store",
+        "answer": "department store",
+        "sentence": "We bought clothes and kitchen tools at the ____.",
+        "translation": "我們在百貨公司買了衣服和廚房用品。",
+        "context": "請填本課用語：百貨公司（兩個字，單數，小寫）。",
+        "explanation": "We bought clothes and kitchen tools at the department store. 我們在百貨公司買了衣服和廚房用品。"
+      },
+      {
+        "id": "department-store-2",
+        "target": "department store",
+        "answer": "department store",
+        "sentence": "The toy section is on the fifth floor of this ____.",
+        "translation": "這家百貨公司的玩具區在五樓。",
+        "context": "請填本課用語：百貨公司（兩個字，單數，小寫）。",
+        "explanation": "The toy section is on the fifth floor of this department store. 這家百貨公司的玩具區在五樓。"
+      },
+      {
+        "id": "department-store-3",
+        "target": "department store",
+        "answer": "department store",
+        "sentence": "This ____ sells many kinds of goods on different floors.",
+        "translation": "這家百貨公司在不同樓層販售各式商品。",
+        "context": "請填本課用語：百貨公司（兩個字，單數，小寫）。",
+        "explanation": "This department store sells many kinds of goods on different floors. 這家百貨公司在不同樓層販售各式商品。"
+      },
+      {
+        "id": "both-1",
+        "target": "both",
+        "answer": "both",
+        "sentence": "My brother and I ____ enjoy hiking.",
+        "translation": "我和哥哥都喜歡健行。",
+        "context": "請填本課用語：兩者都（小寫）。",
+        "explanation": "My brother and I both enjoy hiking. 我和哥哥都喜歡健行。"
+      },
+      {
+        "id": "both-2",
+        "target": "both",
+        "answer": "both",
+        "sentence": "These two bags are ____ blue.",
+        "translation": "這兩個包包都是藍色的。",
+        "context": "請填本課用語：兩者都（小寫）。",
+        "explanation": "These two bags are both blue. 這兩個包包都是藍色的。"
+      },
+      {
+        "id": "both-3",
+        "target": "both",
+        "answer": "both",
+        "sentence": "You can use ____ hands to carry the heavy box.",
+        "translation": "你可以用雙手搬這個重箱子。",
+        "context": "請填本課用語：兩者都（小寫）。",
+        "explanation": "You can use both hands to carry the heavy box. 你可以用雙手搬這個重箱子。"
+      },
+      {
+        "id": "hope-1",
+        "target": "hope",
+        "answer": "hope",
+        "sentence": "I ____ the weather will be sunny tomorrow.",
+        "translation": "我希望明天天氣晴朗。",
+        "context": "請填本課用語：希望（動詞原形）。",
+        "explanation": "I hope the weather will be sunny tomorrow. 我希望明天天氣晴朗。"
+      },
+      {
+        "id": "hope-2",
+        "target": "hope",
+        "answer": "hope",
+        "sentence": "We ____ to see you again soon.",
+        "translation": "我們希望很快能再見到你。",
+        "context": "請填本課用語：希望（動詞原形）。",
+        "explanation": "We hope to see you again soon. 我們希望很快能再見到你。"
+      },
+      {
+        "id": "hope-3",
+        "target": "hope",
+        "answer": "hope",
+        "sentence": "They ____ their team will win the game.",
+        "translation": "他們希望自己的球隊贏得比賽。",
+        "context": "請填本課用語：希望（動詞原形）。",
+        "explanation": "They hope their team will win the game. 他們希望自己的球隊贏得比賽。"
+      }
+    ]
+  },
+  {
+    "id": "g4-u4-v1",
+    "grade": 4,
+    "unit": 4,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "澎湖之旅與過去的活動",
+    "description": "26 個單字與詞形，每個目標 3 種情境，共 78 題。原形與過去式分開練習，包含 Did 問句後用原形；可自選範圍。",
+    "source": "參考家長提供的 2025 年四年級 U4 worksheet 與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "try-1",
+        "target": "try",
+        "answer": "try",
+        "sentence": "Please ____ this new game.",
+        "translation": "請試試這個新遊戲。",
+        "context": "請填本課用語：嘗試。本題練習動詞原形。",
+        "explanation": "Please try this new game. 請試試這個新遊戲。本題練習動詞原形。"
+      },
+      {
+        "id": "try-2",
+        "target": "try",
+        "answer": "try",
+        "sentence": "I want to ____ making a kite.",
+        "translation": "我想嘗試做風箏。",
+        "context": "請填本課用語：嘗試。本題練習動詞原形。",
+        "explanation": "I want to try making a kite. 我想嘗試做風箏。本題練習動詞原形。"
+      },
+      {
+        "id": "try-3",
+        "target": "try",
+        "answer": "try",
+        "sentence": "We can ____ again tomorrow.",
+        "translation": "我們明天可以再試一次。",
+        "context": "請填本課用語：嘗試。本題練習動詞原形。",
+        "explanation": "We can try again tomorrow. 我們明天可以再試一次。本題練習動詞原形。"
+      },
+      {
+        "id": "tried-1",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "I ____ to open the box yesterday.",
+        "translation": "我昨天試著打開盒子。",
+        "context": "請填本課用語：try 的過去式。本題練習 try 的過去式。",
+        "explanation": "I tried to open the box yesterday. 我昨天試著打開盒子。本題練習 try 的過去式。"
+      },
+      {
+        "id": "tried-2",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "She ____ a new sport last week.",
+        "translation": "她上週嘗試了一項新運動。",
+        "context": "請填本課用語：try 的過去式。本題練習 try 的過去式。",
+        "explanation": "She tried a new sport last week. 她上週嘗試了一項新運動。本題練習 try 的過去式。"
+      },
+      {
+        "id": "tried-3",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "We ____ to call you last night.",
+        "translation": "我們昨晚試著打電話給你。",
+        "context": "請填本課用語：try 的過去式。本題練習 try 的過去式。",
+        "explanation": "We tried to call you last night. 我們昨晚試著打電話給你。本題練習 try 的過去式。"
+      },
+      {
+        "id": "go-1",
+        "target": "go",
+        "answer": "go",
+        "sentence": "We will ____ to the zoo tomorrow.",
+        "translation": "我們明天將去動物園。",
+        "context": "請填本課用語：去。本題練習動詞原形。",
+        "explanation": "We will go to the zoo tomorrow. 我們明天將去動物園。本題練習動詞原形。"
+      },
+      {
+        "id": "go-2",
+        "target": "go",
+        "answer": "go",
+        "sentence": "Did you ____ to the library yesterday?",
+        "translation": "你昨天有去圖書館嗎？",
+        "context": "請填本課用語：去。本題練習動詞原形。",
+        "explanation": "Did you go to the library yesterday? 你昨天有去圖書館嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "go-3",
+        "target": "go",
+        "answer": "go",
+        "sentence": "I want to ____ home before dark.",
+        "translation": "我想在天黑前回家。",
+        "context": "請填本課用語：去。本題練習動詞原形。",
+        "explanation": "I want to go home before dark. 我想在天黑前回家。本題練習動詞原形。"
+      },
+      {
+        "id": "went-1",
+        "target": "went",
+        "answer": "went",
+        "sentence": "We ____ to the farm last Sunday.",
+        "translation": "我們上週日去了農場。",
+        "context": "請填本課用語：go 的過去式。本題練習 go 的過去式。",
+        "explanation": "We went to the farm last Sunday. 我們上週日去了農場。本題練習 go 的過去式。"
+      },
+      {
+        "id": "went-2",
+        "target": "went",
+        "answer": "went",
+        "sentence": "He ____ home early yesterday.",
+        "translation": "他昨天提早回家了。",
+        "context": "請填本課用語：go 的過去式。本題練習 go 的過去式。",
+        "explanation": "He went home early yesterday. 他昨天提早回家了。本題練習 go 的過去式。"
+      },
+      {
+        "id": "went-3",
+        "target": "went",
+        "answer": "went",
+        "sentence": "My family ____ camping last month.",
+        "translation": "我們全家上個月去露營。",
+        "context": "請填本課用語：go 的過去式。本題練習 go 的過去式。",
+        "explanation": "My family went camping last month. 我們全家上個月去露營。本題練習 go 的過去式。"
+      },
+      {
+        "id": "bring-1",
+        "target": "bring",
+        "answer": "bring",
+        "sentence": "Please ____ your notebook to class.",
+        "translation": "請帶筆記本來上課。",
+        "context": "請填本課用語：帶來。本題練習動詞原形。",
+        "explanation": "Please bring your notebook to class. 請帶筆記本來上課。本題練習動詞原形。"
+      },
+      {
+        "id": "bring-2",
+        "target": "bring",
+        "answer": "bring",
+        "sentence": "Can you ____ some water for us?",
+        "translation": "你能帶些水給我們嗎？",
+        "context": "請填本課用語：帶來。本題練習動詞原形。",
+        "explanation": "Can you bring some water for us? 你能帶些水給我們嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "bring-3",
+        "target": "bring",
+        "answer": "bring",
+        "sentence": "Did she ____ her camera yesterday?",
+        "translation": "她昨天有帶相機來嗎？",
+        "context": "請填本課用語：帶來。本題練習動詞原形。",
+        "explanation": "Did she bring her camera yesterday? 她昨天有帶相機來嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "brought-1",
+        "target": "brought",
+        "answer": "brought",
+        "sentence": "She ____ some fruit to our picnic yesterday.",
+        "translation": "她昨天帶了一些水果來野餐。",
+        "context": "請填本課用語：bring 的過去式。本題練習 bring 的過去式。",
+        "explanation": "She brought some fruit to our picnic yesterday. 她昨天帶了一些水果來野餐。本題練習 bring 的過去式。"
+      },
+      {
+        "id": "brought-2",
+        "target": "brought",
+        "answer": "brought",
+        "sentence": "Dad ____ a map on our trip last week.",
+        "translation": "爸爸上週旅行時帶了地圖。",
+        "context": "請填本課用語：bring 的過去式。本題練習 bring 的過去式。",
+        "explanation": "Dad brought a map on our trip last week. 爸爸上週旅行時帶了地圖。本題練習 bring 的過去式。"
+      },
+      {
+        "id": "brought-3",
+        "target": "brought",
+        "answer": "brought",
+        "sentence": "My friend ____ me a book last night.",
+        "translation": "朋友昨晚帶了一本書給我。",
+        "context": "請填本課用語：bring 的過去式。本題練習 bring 的過去式。",
+        "explanation": "My friend brought me a book last night. 朋友昨晚帶了一本書給我。本題練習 bring 的過去式。"
+      },
+      {
+        "id": "take-1",
+        "target": "take",
+        "answer": "take",
+        "sentence": "Please ____ this letter to your teacher.",
+        "translation": "請把這封信拿給老師。",
+        "context": "請填本課用語：拿、帶走（依句意）。本題練習動詞原形。",
+        "explanation": "Please take this letter to your teacher. 請把這封信拿給老師。本題練習動詞原形。"
+      },
+      {
+        "id": "take-2",
+        "target": "take",
+        "answer": "take",
+        "sentence": "You can ____ one cookie from the plate.",
+        "translation": "你可以從盤子裡拿一塊餅乾。",
+        "context": "請填本課用語：拿、帶走（依句意）。本題練習動詞原形。",
+        "explanation": "You can take one cookie from the plate. 你可以從盤子裡拿一塊餅乾。本題練習動詞原形。"
+      },
+      {
+        "id": "take-3",
+        "target": "take",
+        "answer": "take",
+        "sentence": "Did you ____ any photos at the park yesterday?",
+        "translation": "你昨天在公園有拍照嗎？",
+        "context": "請填本課用語：拿、帶走（依句意）。本題練習動詞原形。",
+        "explanation": "Did you take any photos at the park yesterday? 你昨天在公園有拍照嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "took-1",
+        "target": "took",
+        "answer": "took",
+        "sentence": "I ____ my umbrella with me yesterday.",
+        "translation": "我昨天帶了雨傘。",
+        "context": "請填本課用語：take 的過去式。本題練習 take 的過去式。",
+        "explanation": "I took my umbrella with me yesterday. 我昨天帶了雨傘。本題練習 take 的過去式。"
+      },
+      {
+        "id": "took-2",
+        "target": "took",
+        "answer": "took",
+        "sentence": "She ____ a photo of the lake last Sunday.",
+        "translation": "她上週日拍了一張湖的照片。",
+        "context": "請填本課用語：take 的過去式。本題練習 take 的過去式。",
+        "explanation": "She took a photo of the lake last Sunday. 她上週日拍了一張湖的照片。本題練習 take 的過去式。"
+      },
+      {
+        "id": "took-3",
+        "target": "took",
+        "answer": "took",
+        "sentence": "He ____ two apples from the basket yesterday.",
+        "translation": "他昨天從籃子裡拿了兩顆蘋果。",
+        "context": "請填本課用語：take 的過去式。本題練習 take 的過去式。",
+        "explanation": "He took two apples from the basket yesterday. 他昨天從籃子裡拿了兩顆蘋果。本題練習 take 的過去式。"
+      },
+      {
+        "id": "build-1",
+        "target": "build",
+        "answer": "build",
+        "sentence": "We want to ____ a tree house.",
+        "translation": "我們想蓋一間樹屋。",
+        "context": "請填本課用語：建造。本題練習動詞原形。",
+        "explanation": "We want to build a tree house. 我們想蓋一間樹屋。本題練習動詞原形。"
+      },
+      {
+        "id": "build-2",
+        "target": "build",
+        "answer": "build",
+        "sentence": "Can you ____ a tower with these blocks?",
+        "translation": "你能用這些積木蓋一座塔嗎？",
+        "context": "請填本課用語：建造。本題練習動詞原形。",
+        "explanation": "Can you build a tower with these blocks? 你能用這些積木蓋一座塔嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "build-3",
+        "target": "build",
+        "answer": "build",
+        "sentence": "Did they ____ a bridge here last year?",
+        "translation": "他們去年有在這裡建橋嗎？",
+        "context": "請填本課用語：建造。本題練習動詞原形。",
+        "explanation": "Did they build a bridge here last year? 他們去年有在這裡建橋嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "built-1",
+        "target": "built",
+        "answer": "built",
+        "sentence": "They ____ a new school last year.",
+        "translation": "他們去年蓋了一所新學校。",
+        "context": "請填本課用語：build 的過去式。本題練習 build 的過去式。",
+        "explanation": "They built a new school last year. 他們去年蓋了一所新學校。本題練習 build 的過去式。"
+      },
+      {
+        "id": "built-2",
+        "target": "built",
+        "answer": "built",
+        "sentence": "We ____ a toy house yesterday.",
+        "translation": "我們昨天蓋了一間玩具屋。",
+        "context": "請填本課用語：build 的過去式。本題練習 build 的過去式。",
+        "explanation": "We built a toy house yesterday. 我們昨天蓋了一間玩具屋。本題練習 build 的過去式。"
+      },
+      {
+        "id": "built-3",
+        "target": "built",
+        "answer": "built",
+        "sentence": "My uncle ____ this boat ten years ago.",
+        "translation": "叔叔十年前造了這艘船。",
+        "context": "請填本課用語：build 的過去式。本題練習 build 的過去式。",
+        "explanation": "My uncle built this boat ten years ago. 叔叔十年前造了這艘船。本題練習 build 的過去式。"
+      },
+      {
+        "id": "sandcastle-1",
+        "target": "sandcastle",
+        "answer": "sandcastle",
+        "sentence": "We used wet sand to make a ____.",
+        "translation": "我們用濕沙做了一座沙堡。",
+        "context": "請填本課用語：沙堡（單數）。",
+        "explanation": "We used wet sand to make a sandcastle. 我們用濕沙做了一座沙堡。"
+      },
+      {
+        "id": "sandcastle-2",
+        "target": "sandcastle",
+        "answer": "sandcastle",
+        "sentence": "The wave washed away our ____.",
+        "translation": "海浪沖走了我們的沙堡。",
+        "context": "請填本課用語：沙堡（單數）。",
+        "explanation": "The wave washed away our sandcastle. 海浪沖走了我們的沙堡。"
+      },
+      {
+        "id": "sandcastle-3",
+        "target": "sandcastle",
+        "answer": "sandcastle",
+        "sentence": "This ____ has four small towers.",
+        "translation": "這座沙堡有四座小塔。",
+        "context": "請填本課用語：沙堡（單數）。",
+        "explanation": "This sandcastle has four small towers. 這座沙堡有四座小塔。"
+      },
+      {
+        "id": "catch-1",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "Can you ____ the ball I throw?",
+        "translation": "你能接住我丟的球嗎？",
+        "context": "請填本課用語：抓住、接住。本題練習動詞原形。",
+        "explanation": "Can you catch the ball I throw? 你能接住我丟的球嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "catch-2",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "The cat wants to ____ a mouse.",
+        "translation": "貓想抓一隻老鼠。",
+        "context": "請填本課用語：抓住、接住。本題練習動詞原形。",
+        "explanation": "The cat wants to catch a mouse. 貓想抓一隻老鼠。本題練習動詞原形。"
+      },
+      {
+        "id": "catch-3",
+        "target": "catch",
+        "answer": "catch",
+        "sentence": "Did he ____ a fish yesterday?",
+        "translation": "他昨天有抓到魚嗎？",
+        "context": "請填本課用語：抓住、接住。本題練習動詞原形。",
+        "explanation": "Did he catch a fish yesterday? 他昨天有抓到魚嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "caught-1",
+        "target": "caught",
+        "answer": "caught",
+        "sentence": "She ____ the ball with one hand yesterday.",
+        "translation": "她昨天用單手接住了球。",
+        "context": "請填本課用語：catch 的過去式。本題練習 catch 的過去式。",
+        "explanation": "She caught the ball with one hand yesterday. 她昨天用單手接住了球。本題練習 catch 的過去式。"
+      },
+      {
+        "id": "caught-2",
+        "target": "caught",
+        "answer": "caught",
+        "sentence": "The frog ____ a fly this morning.",
+        "translation": "青蛙今天早上抓到了一隻蒼蠅。",
+        "context": "請填本課用語：catch 的過去式。本題練習 catch 的過去式。",
+        "explanation": "The frog caught a fly this morning. 青蛙今天早上抓到了一隻蒼蠅。本題練習 catch 的過去式。"
+      },
+      {
+        "id": "caught-3",
+        "target": "caught",
+        "answer": "caught",
+        "sentence": "We ____ three fish last Saturday.",
+        "translation": "我們上週六抓到了三條魚。",
+        "context": "請填本課用語：catch 的過去式。本題練習 catch 的過去式。",
+        "explanation": "We caught three fish last Saturday. 我們上週六抓到了三條魚。本題練習 catch 的過去式。"
+      },
+      {
+        "id": "collect-1",
+        "target": "collect",
+        "answer": "collect",
+        "sentence": "I like to ____ stamps.",
+        "translation": "我喜歡收集郵票。",
+        "context": "請填本課用語：收集。本題練習動詞原形。",
+        "explanation": "I like to collect stamps. 我喜歡收集郵票。本題練習動詞原形。"
+      },
+      {
+        "id": "collect-2",
+        "target": "collect",
+        "answer": "collect",
+        "sentence": "We will ____ fallen leaves for our art project.",
+        "translation": "我們將收集落葉做美術作業。",
+        "context": "請填本課用語：收集。本題練習動詞原形。",
+        "explanation": "We will collect fallen leaves for our art project. 我們將收集落葉做美術作業。本題練習動詞原形。"
+      },
+      {
+        "id": "collect-3",
+        "target": "collect",
+        "answer": "collect",
+        "sentence": "Did you ____ any stones on your trip?",
+        "translation": "你旅行時有收集石頭嗎？",
+        "context": "請填本課用語：收集。本題練習動詞原形。",
+        "explanation": "Did you collect any stones on your trip? 你旅行時有收集石頭嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "collected-1",
+        "target": "collected",
+        "answer": "collected",
+        "sentence": "We ____ colorful leaves yesterday.",
+        "translation": "我們昨天收集了色彩繽紛的葉子。",
+        "context": "請填本課用語：collect 的過去式。本題練習 collect 的過去式。",
+        "explanation": "We collected colorful leaves yesterday. 我們昨天收集了色彩繽紛的葉子。本題練習 collect 的過去式。"
+      },
+      {
+        "id": "collected-2",
+        "target": "collected",
+        "answer": "collected",
+        "sentence": "She ____ old coins when she was young.",
+        "translation": "她年輕時收集古錢幣。",
+        "context": "請填本課用語：collect 的過去式。本題練習 collect 的過去式。",
+        "explanation": "She collected old coins when she was young. 她年輕時收集古錢幣。本題練習 collect 的過去式。"
+      },
+      {
+        "id": "collected-3",
+        "target": "collected",
+        "answer": "collected",
+        "sentence": "The students ____ empty bottles last Friday.",
+        "translation": "學生們上週五收集了空瓶子。",
+        "context": "請填本課用語：collect 的過去式。本題練習 collect 的過去式。",
+        "explanation": "The students collected empty bottles last Friday. 學生們上週五收集了空瓶子。本題練習 collect 的過去式。"
+      },
+      {
+        "id": "seashell-1",
+        "target": "seashell",
+        "answer": "seashell",
+        "sentence": "I found a small ____ in the sand.",
+        "translation": "我在沙裡發現了一個小貝殼。",
+        "context": "請填本課用語：貝殼（單數）。",
+        "explanation": "I found a small seashell in the sand. 我在沙裡發現了一個小貝殼。"
+      },
+      {
+        "id": "seashell-2",
+        "target": "seashell",
+        "answer": "seashell",
+        "sentence": "This ____ came from the beach.",
+        "translation": "這個貝殼來自海灘。",
+        "context": "請填本課用語：貝殼（單數）。",
+        "explanation": "This seashell came from the beach. 這個貝殼來自海灘。"
+      },
+      {
+        "id": "seashell-3",
+        "target": "seashell",
+        "answer": "seashell",
+        "sentence": "She drew a picture of a ____ with a beautiful pattern.",
+        "translation": "她畫了一個花紋美麗的貝殼。",
+        "context": "請填本課用語：貝殼（單數）。",
+        "explanation": "She drew a picture of a seashell with a beautiful pattern. 她畫了一個花紋美麗的貝殼。"
+      },
+      {
+        "id": "see-1",
+        "target": "see",
+        "answer": "see",
+        "sentence": "Can you ____ the boat on the lake?",
+        "translation": "你能看到湖上的船嗎？",
+        "context": "請填本課用語：看到。本題練習動詞原形。",
+        "explanation": "Can you see the boat on the lake? 你能看到湖上的船嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "see-2",
+        "target": "see",
+        "answer": "see",
+        "sentence": "Did you ____ the rainbow yesterday?",
+        "translation": "你昨天有看到彩虹嗎？",
+        "context": "請填本課用語：看到。本題練習動詞原形。",
+        "explanation": "Did you see the rainbow yesterday? 你昨天有看到彩虹嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "see-3",
+        "target": "see",
+        "answer": "see",
+        "sentence": "We hope to ____ dolphins on our trip.",
+        "translation": "我們希望旅行時能看到海豚。",
+        "context": "請填本課用語：看到。本題練習動詞原形。",
+        "explanation": "We hope to see dolphins on our trip. 我們希望旅行時能看到海豚。本題練習動詞原形。"
+      },
+      {
+        "id": "saw-1",
+        "target": "saw",
+        "answer": "saw",
+        "sentence": "I ____ a rainbow after the rain yesterday.",
+        "translation": "我昨天雨後看到了彩虹。",
+        "context": "請填本課用語：see 的過去式。本題練習 see 的過去式。",
+        "explanation": "I saw a rainbow after the rain yesterday. 我昨天雨後看到了彩虹。本題練習 see 的過去式。"
+      },
+      {
+        "id": "saw-2",
+        "target": "saw",
+        "answer": "saw",
+        "sentence": "They ____ monkeys at the zoo last week.",
+        "translation": "他們上週在動物園看到了猴子。",
+        "context": "請填本課用語：see 的過去式。本題練習 see 的過去式。",
+        "explanation": "They saw monkeys at the zoo last week. 他們上週在動物園看到了猴子。本題練習 see 的過去式。"
+      },
+      {
+        "id": "saw-3",
+        "target": "saw",
+        "answer": "saw",
+        "sentence": "She ____ her teacher at the market this morning.",
+        "translation": "她今天早上在市場看到了老師。",
+        "context": "請填本課用語：see 的過去式。本題練習 see 的過去式。",
+        "explanation": "She saw her teacher at the market this morning. 她今天早上在市場看到了老師。本題練習 see 的過去式。"
+      },
+      {
+        "id": "cave-1",
+        "target": "cave",
+        "answer": "cave",
+        "sentence": "The bats flew out of the ____.",
+        "translation": "蝙蝠從洞穴飛出來。",
+        "context": "請填本課用語：洞穴（單數，小寫）。",
+        "explanation": "The bats flew out of the cave. 蝙蝠從洞穴飛出來。"
+      },
+      {
+        "id": "cave-2",
+        "target": "cave",
+        "answer": "cave",
+        "sentence": "It was dark inside the ____, so we used a flashlight.",
+        "translation": "洞穴裡很暗，所以我們用了手電筒。",
+        "context": "請填本課用語：洞穴（單數，小寫）。",
+        "explanation": "It was dark inside the cave, so we used a flashlight. 洞穴裡很暗，所以我們用了手電筒。"
+      },
+      {
+        "id": "cave-3",
+        "target": "cave",
+        "answer": "cave",
+        "sentence": "We found a ____ in the side of the hill.",
+        "translation": "我們在山坡側面發現了一個洞穴。",
+        "context": "請填本課用語：洞穴（單數，小寫）。",
+        "explanation": "We found a cave in the side of the hill. 我們在山坡側面發現了一個洞穴。"
+      },
+      {
+        "id": "visit-1",
+        "target": "visit",
+        "answer": "visit",
+        "sentence": "We will ____ our grandparents tomorrow.",
+        "translation": "我們明天將拜訪祖父母。",
+        "context": "請填本課用語：拜訪、參觀。本題練習動詞原形。",
+        "explanation": "We will visit our grandparents tomorrow. 我們明天將拜訪祖父母。本題練習動詞原形。"
+      },
+      {
+        "id": "visit-2",
+        "target": "visit",
+        "answer": "visit",
+        "sentence": "I want to ____ the science museum.",
+        "translation": "我想參觀科學博物館。",
+        "context": "請填本課用語：拜訪、參觀。本題練習動詞原形。",
+        "explanation": "I want to visit the science museum. 我想參觀科學博物館。本題練習動詞原形。"
+      },
+      {
+        "id": "visit-3",
+        "target": "visit",
+        "answer": "visit",
+        "sentence": "Did you ____ your aunt last weekend?",
+        "translation": "你上週末有拜訪阿姨嗎？",
+        "context": "請填本課用語：拜訪、參觀。本題練習動詞原形。",
+        "explanation": "Did you visit your aunt last weekend? 你上週末有拜訪阿姨嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "visited-1",
+        "target": "visited",
+        "answer": "visited",
+        "sentence": "We ____ our cousins last month.",
+        "translation": "我們上個月拜訪了表兄弟姊妹。",
+        "context": "請填本課用語：visit 的過去式。本題練習 visit 的過去式。",
+        "explanation": "We visited our cousins last month. 我們上個月拜訪了表兄弟姊妹。本題練習 visit 的過去式。"
+      },
+      {
+        "id": "visited-2",
+        "target": "visited",
+        "answer": "visited",
+        "sentence": "She ____ the art museum yesterday.",
+        "translation": "她昨天參觀了美術館。",
+        "context": "請填本課用語：visit 的過去式。本題練習 visit 的過去式。",
+        "explanation": "She visited the art museum yesterday. 她昨天參觀了美術館。本題練習 visit 的過去式。"
+      },
+      {
+        "id": "visited-3",
+        "target": "visited",
+        "answer": "visited",
+        "sentence": "My family ____ an old temple last summer.",
+        "translation": "我們全家去年夏天參觀了一座古廟。",
+        "context": "請填本課用語：visit 的過去式。本題練習 visit 的過去式。",
+        "explanation": "My family visited an old temple last summer. 我們全家去年夏天參觀了一座古廟。本題練習 visit 的過去式。"
+      },
+      {
+        "id": "give-1",
+        "target": "give",
+        "answer": "give",
+        "sentence": "Please ____ this card to Grandpa.",
+        "translation": "請把這張卡片給爺爺。",
+        "context": "請填本課用語：給。本題練習動詞原形。",
+        "explanation": "Please give this card to Grandpa. 請把這張卡片給爺爺。本題練習動詞原形。"
+      },
+      {
+        "id": "give-2",
+        "target": "give",
+        "answer": "give",
+        "sentence": "I will ____ you a call tonight.",
+        "translation": "我今晚會打電話給你。",
+        "context": "請填本課用語：給。本題練習動詞原形。",
+        "explanation": "I will give you a call tonight. 我今晚會打電話給你。本題練習動詞原形。"
+      },
+      {
+        "id": "give-3",
+        "target": "give",
+        "answer": "give",
+        "sentence": "Did he ____ you a present yesterday?",
+        "translation": "他昨天有給你禮物嗎？",
+        "context": "請填本課用語：給。本題練習動詞原形。",
+        "explanation": "Did he give you a present yesterday? 他昨天有給你禮物嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "gave-1",
+        "target": "gave",
+        "answer": "gave",
+        "sentence": "Mom ____ me a new bag last week.",
+        "translation": "媽媽上週給了我一個新包包。",
+        "context": "請填本課用語：give 的過去式。本題練習 give 的過去式。",
+        "explanation": "Mom gave me a new bag last week. 媽媽上週給了我一個新包包。本題練習 give 的過去式。"
+      },
+      {
+        "id": "gave-2",
+        "target": "gave",
+        "answer": "gave",
+        "sentence": "He ____ his sister a flower yesterday.",
+        "translation": "他昨天給了妹妹一朵花。",
+        "context": "請填本課用語：give 的過去式。本題練習 give 的過去式。",
+        "explanation": "He gave his sister a flower yesterday. 他昨天給了妹妹一朵花。本題練習 give 的過去式。"
+      },
+      {
+        "id": "gave-3",
+        "target": "gave",
+        "answer": "gave",
+        "sentence": "The teacher ____ us some advice this morning.",
+        "translation": "老師今天早上給了我們一些建議。",
+        "context": "請填本課用語：give 的過去式。本題練習 give 的過去式。",
+        "explanation": "The teacher gave us some advice this morning. 老師今天早上給了我們一些建議。本題練習 give 的過去式。"
+      },
+      {
+        "id": "like-1",
+        "target": "like",
+        "answer": "like",
+        "sentence": "I ____ reading books about animals.",
+        "translation": "我喜歡讀動物的書。",
+        "context": "請填本課用語：喜歡。本題練習動詞原形。",
+        "explanation": "I like reading books about animals. 我喜歡讀動物的書。本題練習動詞原形。"
+      },
+      {
+        "id": "like-2",
+        "target": "like",
+        "answer": "like",
+        "sentence": "Do you ____ this song?",
+        "translation": "你喜歡這首歌嗎？",
+        "context": "請填本課用語：喜歡。本題練習動詞原形。",
+        "explanation": "Do you like this song? 你喜歡這首歌嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "like-3",
+        "target": "like",
+        "answer": "like",
+        "sentence": "Did she ____ the movie yesterday?",
+        "translation": "她喜歡昨天那部電影嗎？",
+        "context": "請填本課用語：喜歡。本題練習動詞原形。",
+        "explanation": "Did she like the movie yesterday? 她喜歡昨天那部電影嗎？本題練習動詞原形。"
+      },
+      {
+        "id": "liked-1",
+        "target": "liked",
+        "answer": "liked",
+        "sentence": "I ____ toy trains when I was little.",
+        "translation": "我小時候喜歡玩具火車。",
+        "context": "請填本課用語：like 的過去式。本題練習 like 的過去式。",
+        "explanation": "I liked toy trains when I was little. 我小時候喜歡玩具火車。本題練習 like 的過去式。"
+      },
+      {
+        "id": "liked-2",
+        "target": "liked",
+        "answer": "liked",
+        "sentence": "She ____ the soup we made yesterday.",
+        "translation": "她喜歡我們昨天煮的湯。",
+        "context": "請填本課用語：like 的過去式。本題練習 like 的過去式。",
+        "explanation": "She liked the soup we made yesterday. 她喜歡我們昨天煮的湯。本題練習 like 的過去式。"
+      },
+      {
+        "id": "liked-3",
+        "target": "liked",
+        "answer": "liked",
+        "sentence": "We ____ our old school very much.",
+        "translation": "我們很喜歡以前的學校。",
+        "context": "請填本課用語：like 的過去式。本題練習 like 的過去式。",
+        "explanation": "We liked our old school very much. 我們很喜歡以前的學校。本題練習 like 的過去式。"
+      },
+      {
+        "id": "place-1",
+        "target": "place",
+        "answer": "place",
+        "sentence": "This is a good ____ for a picnic.",
+        "translation": "這是一個適合野餐的地方。",
+        "context": "請填本課用語：地方（單數）。",
+        "explanation": "This is a good place for a picnic. 這是一個適合野餐的地方。"
+      },
+      {
+        "id": "place-2",
+        "target": "place",
+        "answer": "place",
+        "sentence": "Let's find a quiet ____ to read.",
+        "translation": "我們找個安靜的地方讀書吧。",
+        "context": "請填本課用語：地方（單數）。",
+        "explanation": "Let's find a quiet place to read. 我們找個安靜的地方讀書吧。"
+      },
+      {
+        "id": "place-3",
+        "target": "place",
+        "answer": "place",
+        "sentence": "What is your favorite ____ to play?",
+        "translation": "你最喜歡在哪個地方玩？",
+        "context": "請填本課用語：地方（單數）。",
+        "explanation": "What is your favorite place to play? 你最喜歡在哪個地方玩？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

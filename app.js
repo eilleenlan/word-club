@@ -48,7 +48,7 @@
         card.innerHTML = `<div class="unit-main"><div class="unit-top"><span class="unit-number">UNIT ${String(lesson.unit).padStart(2,'0')}</span><span class="unit-symbol" aria-hidden="true">Aa</span></div><h3>${lesson.title}</h3><p class="unit-subtitle">${lesson.description}</p><div class="unit-meta"><span>${lesson.variants ? `${new Set(lesson.questions.map(q => q.target)).size} 個目標 · ${lesson.questions.length} 種情境` : `${lesson.questions.length} 題`} · 每題${lesson.mode === 'typed' ? '填空拼字' : lesson.questions[0].options.length === 3 ? '三選一' : '二選一'}</span></div><a class="start-unit cloze-start-link" href="cloze.html?lesson=${encodeURIComponent(lesson.id)}">選擇範圍與開始練習 →</a></div>`;
         $('units').append(card);
       }
-      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4、四年級 U1～U2、五年級 U1～U4、六年級 U1。可以選已開放的年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
+      if (!lessons.length) $('units').innerHTML = '<div class="empty"><span class="eyebrow">COMING NEXT</span><h3>這個年級的克漏字題目準備中</h3><p>目前開放一年級 U1～U4、二年級 U1～U4、四年級 U1～U4、五年級 U1～U4、六年級 U1。可以選已開放的年級試試，或切換「單字拼字」練習本年級單字。</p></div>';
 
       return;
     }
