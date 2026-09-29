@@ -5140,6 +5140,1114 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "types 是 type 的複數；這題指定 t 開頭，與 kinds 區分。"
       }
     ]
+  },
+  {
+    "id": "g5-u3-v1",
+    "grade": 5,
+    "unit": 3,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "認識世界各地的筆友",
+    "description": "20 個單字與片語，每個目標 3 種情境，共 60 題。練習書信、國家名稱及頻率副詞；可自選範圍。",
+    "source": "參考家長提供的 2025 年五年級 U3 SW Worksheet 與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "pen-pal-1",
+        "target": "pen pal",
+        "answer": "pen pal",
+        "sentence": "My ____ lives far away, so we write to each other.",
+        "translation": "我的筆友住得很遠，所以我們互相寫信。",
+        "context": "請填本課用語：筆友（兩個字）。",
+        "explanation": "My pen pal lives far away, so we write to each other. 我的筆友住得很遠，所以我們互相寫信。"
+      },
+      {
+        "id": "pen-pal-2",
+        "target": "pen pal",
+        "answer": "pen pal",
+        "sentence": "I told my ____ about my school in a letter.",
+        "translation": "我在信裡告訴筆友關於我學校的事。",
+        "context": "請填本課用語：筆友（兩個字）。",
+        "explanation": "I told my pen pal about my school in a letter. 我在信裡告訴筆友關於我學校的事。"
+      },
+      {
+        "id": "pen-pal-3",
+        "target": "pen pal",
+        "answer": "pen pal",
+        "sentence": "Would you like a ____ from another country?",
+        "translation": "你想要一位來自另一個國家的筆友嗎？",
+        "context": "請填本課用語：筆友（兩個字）。",
+        "explanation": "Would you like a pen pal from another country? 你想要一位來自另一個國家的筆友嗎？"
+      },
+      {
+        "id": "envelope-1",
+        "target": "envelope",
+        "answer": "envelope",
+        "sentence": "Please write the address on the ____.",
+        "translation": "請把地址寫在信封上。",
+        "context": "請填本課用語：信封（單數）。",
+        "explanation": "Please write the address on the envelope. 請把地址寫在信封上。"
+      },
+      {
+        "id": "envelope-2",
+        "target": "envelope",
+        "answer": "envelope",
+        "sentence": "She put a stamp on the ____ before sending it.",
+        "translation": "她寄出信封前，在上面貼了一張郵票。",
+        "context": "請填本課用語：信封（單數）。",
+        "explanation": "She put a stamp on the envelope before sending it. 她寄出信封前，在上面貼了一張郵票。"
+      },
+      {
+        "id": "envelope-3",
+        "target": "envelope",
+        "answer": "envelope",
+        "sentence": "There is a birthday card inside this ____.",
+        "translation": "這個信封裡有一張生日卡片。",
+        "context": "請填本課用語：信封（單數）。",
+        "explanation": "There is a birthday card inside this envelope. 這個信封裡有一張生日卡片。"
+      },
+      {
+        "id": "already-1",
+        "target": "already",
+        "answer": "already",
+        "sentence": "You do not need to wash the cups. I have ____ washed them.",
+        "translation": "你不必洗杯子了，我已經洗好了。",
+        "context": "請填本課用語：已經。",
+        "explanation": "You do not need to wash the cups. I have already washed them. 你不必洗杯子了，我已經洗好了。"
+      },
+      {
+        "id": "already-2",
+        "target": "already",
+        "answer": "already",
+        "sentence": "The movie has ____ started. Please be quiet.",
+        "translation": "電影已經開始了，請安靜。",
+        "context": "請填本課用語：已經。",
+        "explanation": "The movie has already started. Please be quiet. 電影已經開始了，請安靜。"
+      },
+      {
+        "id": "already-3",
+        "target": "already",
+        "answer": "already",
+        "sentence": "I have ____ read this book, so I will choose another one.",
+        "translation": "我已經讀過這本書，所以我要選另一本。",
+        "context": "請填本課用語：已經。",
+        "explanation": "I have already read this book, so I will choose another one. 我已經讀過這本書，所以我要選另一本。"
+      },
+      {
+        "id": "right-1",
+        "target": "right",
+        "answer": "right",
+        "sentence": "Two plus three is five. Your answer is ____.",
+        "translation": "二加三等於五，你的答案是對的。",
+        "context": "請填本課用語：正確的、對的。",
+        "explanation": "Two plus three is five. Your answer is right. 二加三等於五，你的答案是對的。"
+      },
+      {
+        "id": "right-2",
+        "target": "right",
+        "answer": "right",
+        "sentence": "You are ____. We should look both ways before crossing.",
+        "translation": "你說得對，過馬路前應該左右看。",
+        "context": "請填本課用語：正確的、對的。",
+        "explanation": "You are right. We should look both ways before crossing. 你說得對，過馬路前應該左右看。"
+      },
+      {
+        "id": "right-3",
+        "target": "right",
+        "answer": "right",
+        "sentence": "Check the map to make sure this is the ____ way.",
+        "translation": "查看地圖，確認這是正確的路。",
+        "context": "請填本課用語：正確的、對的。",
+        "explanation": "Check the map to make sure this is the right way. 查看地圖，確認這是正確的路。"
+      },
+      {
+        "id": "letter-1",
+        "target": "letter",
+        "answer": "letter",
+        "sentence": "Grandpa sent me a ____ about his trip.",
+        "translation": "爺爺寄給我一封關於他旅行的信。",
+        "context": "請填本課用語：信件（單數）。",
+        "explanation": "Grandpa sent me a letter about his trip. 爺爺寄給我一封關於他旅行的信。"
+      },
+      {
+        "id": "letter-2",
+        "target": "letter",
+        "answer": "letter",
+        "sentence": "I wrote a ____ to thank my teacher.",
+        "translation": "我寫了一封信感謝老師。",
+        "context": "請填本課用語：信件（單數）。",
+        "explanation": "I wrote a letter to thank my teacher. 我寫了一封信感謝老師。"
+      },
+      {
+        "id": "letter-3",
+        "target": "letter",
+        "answer": "letter",
+        "sentence": "She read the ____ from her friend and smiled.",
+        "translation": "她讀了朋友寄來的信，笑了。",
+        "context": "請填本課用語：信件（單數）。",
+        "explanation": "She read the letter from her friend and smiled. 她讀了朋友寄來的信，笑了。"
+      },
+      {
+        "id": "never-1",
+        "target": "never",
+        "answer": "never",
+        "sentence": "I have ____ ridden a horse. This will be my first time.",
+        "translation": "我從未騎過馬，這將是第一次。",
+        "context": "請填本課用語：從未、從不。",
+        "explanation": "I have never ridden a horse. This will be my first time. 我從未騎過馬，這將是第一次。"
+      },
+      {
+        "id": "never-2",
+        "target": "never",
+        "answer": "never",
+        "sentence": "He ____ eats peanuts because they make him sick.",
+        "translation": "他從不吃花生，因為花生會讓他不舒服。",
+        "context": "請填本課用語：從未、從不。",
+        "explanation": "He never eats peanuts because they make him sick. 他從不吃花生，因為花生會讓他不舒服。"
+      },
+      {
+        "id": "never-3",
+        "target": "never",
+        "answer": "never",
+        "sentence": "We have ____ been to that museum before.",
+        "translation": "我們以前從未去過那間博物館。",
+        "context": "請填本課用語：從未、從不。",
+        "explanation": "We have never been to that museum before. 我們以前從未去過那間博物館。"
+      },
+      {
+        "id": "fun-1",
+        "target": "fun",
+        "answer": "fun",
+        "sentence": "This is a ____ game. We all enjoy playing it.",
+        "translation": "這是個有趣的遊戲，我們都喜歡玩。",
+        "context": "請填本課用語：有趣的。",
+        "explanation": "This is a fun game. We all enjoy playing it. 這是個有趣的遊戲，我們都喜歡玩。"
+      },
+      {
+        "id": "fun-2",
+        "target": "fun",
+        "answer": "fun",
+        "sentence": "The teacher planned a ____ activity for our class.",
+        "translation": "老師為我們班安排了一個有趣的活動。",
+        "context": "請填本課用語：有趣的。",
+        "explanation": "The teacher planned a fun activity for our class. 老師為我們班安排了一個有趣的活動。"
+      },
+      {
+        "id": "fun-3",
+        "target": "fun",
+        "answer": "fun",
+        "sentence": "What a ____ trip! I want to go again.",
+        "translation": "多麼有趣的旅行！我想再去一次。",
+        "context": "請填本課用語：有趣的。",
+        "explanation": "What a fun trip! I want to go again. 多麼有趣的旅行！我想再去一次。"
+      },
+      {
+        "id": "the-United-States-1",
+        "target": "the United States",
+        "answer": "the United States",
+        "sentence": "My cousin lives in New York, a city in ____.",
+        "translation": "我的表親住在美國的一座城市紐約。",
+        "context": "請填本課用語：美國（三個字；the 小寫，United、States 字首大寫）。",
+        "explanation": "My cousin lives in New York, a city in the United States. 我的表親住在美國的一座城市紐約。"
+      },
+      {
+        "id": "the-United-States-2",
+        "target": "the United States",
+        "answer": "the United States",
+        "sentence": "Washington, D.C. is the capital of ____.",
+        "translation": "華盛頓特區是美國的首都。",
+        "context": "請填本課用語：美國（三個字；the 小寫，United、States 字首大寫）。",
+        "explanation": "Washington, D.C. is the capital of the United States. 華盛頓特區是美國的首都。"
+      },
+      {
+        "id": "the-United-States-3",
+        "target": "the United States",
+        "answer": "the United States",
+        "sentence": "We visited Los Angeles during our trip to ____.",
+        "translation": "我們去美國旅行時參觀了洛杉磯。",
+        "context": "請填本課用語：美國（三個字；the 小寫，United、States 字首大寫）。",
+        "explanation": "We visited Los Angeles during our trip to the United States. 我們去美國旅行時參觀了洛杉磯。"
+      },
+      {
+        "id": "Egypt-1",
+        "target": "Egypt",
+        "answer": "Egypt",
+        "sentence": "Cairo is the capital of ____.",
+        "translation": "開羅是埃及的首都。",
+        "context": "請填本課用語：埃及（字首大寫）。",
+        "explanation": "Cairo is the capital of Egypt. 開羅是埃及的首都。"
+      },
+      {
+        "id": "Egypt-2",
+        "target": "Egypt",
+        "answer": "Egypt",
+        "sentence": "We learned about the ancient pyramids in ____.",
+        "translation": "我們學習了埃及古代金字塔的知識。",
+        "context": "請填本課用語：埃及（字首大寫）。",
+        "explanation": "We learned about the ancient pyramids in Egypt. 我們學習了埃及古代金字塔的知識。"
+      },
+      {
+        "id": "Egypt-3",
+        "target": "Egypt",
+        "answer": "Egypt",
+        "sentence": "My aunt took a boat trip on the Nile in ____.",
+        "translation": "阿姨在埃及搭船遊尼羅河。",
+        "context": "請填本課用語：埃及（字首大寫）。",
+        "explanation": "My aunt took a boat trip on the Nile in Egypt. 阿姨在埃及搭船遊尼羅河。"
+      },
+      {
+        "id": "England-1",
+        "target": "England",
+        "answer": "England",
+        "sentence": "London is a city in ____.",
+        "translation": "倫敦是英格蘭的一座城市。",
+        "context": "請填本課用語：英格蘭（字首大寫；英國的一部分）。",
+        "explanation": "London is a city in England. 倫敦是英格蘭的一座城市。"
+      },
+      {
+        "id": "England-2",
+        "target": "England",
+        "answer": "England",
+        "sentence": "My friend lives in Manchester, a city in ____.",
+        "translation": "我的朋友住在英格蘭的一座城市曼徹斯特。",
+        "context": "請填本課用語：英格蘭（字首大寫；英國的一部分）。",
+        "explanation": "My friend lives in Manchester, a city in England. 我的朋友住在英格蘭的一座城市曼徹斯特。"
+      },
+      {
+        "id": "England-3",
+        "target": "England",
+        "answer": "England",
+        "sentence": "We visited Oxford during our trip to ____.",
+        "translation": "我們去英格蘭旅行時參觀了牛津。",
+        "context": "請填本課用語：英格蘭（字首大寫；英國的一部分）。",
+        "explanation": "We visited Oxford during our trip to England. 我們去英格蘭旅行時參觀了牛津。"
+      },
+      {
+        "id": "China-1",
+        "target": "China",
+        "answer": "China",
+        "sentence": "Beijing is the capital of ____.",
+        "translation": "北京是中國的首都。",
+        "context": "請填本課用語：中國（字首大寫）。",
+        "explanation": "Beijing is the capital of China. 北京是中國的首都。"
+      },
+      {
+        "id": "China-2",
+        "target": "China",
+        "answer": "China",
+        "sentence": "My uncle visited the Great Wall in ____.",
+        "translation": "叔叔參觀了中國的長城。",
+        "context": "請填本課用語：中國（字首大寫）。",
+        "explanation": "My uncle visited the Great Wall in China. 叔叔參觀了中國的長城。"
+      },
+      {
+        "id": "China-3",
+        "target": "China",
+        "answer": "China",
+        "sentence": "Shanghai is a large city in ____.",
+        "translation": "上海是中國的一座大城市。",
+        "context": "請填本課用語：中國（字首大寫）。",
+        "explanation": "Shanghai is a large city in China. 上海是中國的一座大城市。"
+      },
+      {
+        "id": "France-1",
+        "target": "France",
+        "answer": "France",
+        "sentence": "Paris is the capital of ____.",
+        "translation": "巴黎是法國的首都。",
+        "context": "請填本課用語：法國（字首大寫）。",
+        "explanation": "Paris is the capital of France. 巴黎是法國的首都。"
+      },
+      {
+        "id": "France-2",
+        "target": "France",
+        "answer": "France",
+        "sentence": "We visited the Louvre Museum in ____.",
+        "translation": "我們參觀了法國的羅浮宮。",
+        "context": "請填本課用語：法國（字首大寫）。",
+        "explanation": "We visited the Louvre Museum in France. 我們參觀了法國的羅浮宮。"
+      },
+      {
+        "id": "France-3",
+        "target": "France",
+        "answer": "France",
+        "sentence": "My friend sent me a postcard from Lyon, a city in ____.",
+        "translation": "朋友從法國的一座城市里昂寄明信片給我。",
+        "context": "請填本課用語：法國（字首大寫）。",
+        "explanation": "My friend sent me a postcard from Lyon, a city in France. 朋友從法國的一座城市里昂寄明信片給我。"
+      },
+      {
+        "id": "India-1",
+        "target": "India",
+        "answer": "India",
+        "sentence": "New Delhi is the capital of ____.",
+        "translation": "新德里是印度的首都。",
+        "context": "請填本課用語：印度（字首大寫）。",
+        "explanation": "New Delhi is the capital of India. 新德里是印度的首都。"
+      },
+      {
+        "id": "India-2",
+        "target": "India",
+        "answer": "India",
+        "sentence": "Mumbai is a large city in ____.",
+        "translation": "孟買是印度的一座大城市。",
+        "context": "請填本課用語：印度（字首大寫）。",
+        "explanation": "Mumbai is a large city in India. 孟買是印度的一座大城市。"
+      },
+      {
+        "id": "India-3",
+        "target": "India",
+        "answer": "India",
+        "sentence": "My classmate brought a map of ____ to show us where New Delhi is.",
+        "translation": "同學帶了一張印度地圖，讓我們看新德里在哪裡。",
+        "context": "請填本課用語：印度（字首大寫）。",
+        "explanation": "My classmate brought a map of India to show us where New Delhi is. 同學帶了一張印度地圖，讓我們看新德里在哪裡。"
+      },
+      {
+        "id": "often-1",
+        "target": "often",
+        "answer": "often",
+        "sentence": "We ____ visit the library because we love books.",
+        "translation": "我們常常去圖書館，因為我們愛看書。",
+        "context": "請填本課用語：常常（頻率副詞）。",
+        "explanation": "We often visit the library because we love books. 我們常常去圖書館，因為我們愛看書。"
+      },
+      {
+        "id": "often-2",
+        "target": "often",
+        "answer": "often",
+        "sentence": "How ____ do you practice the piano?",
+        "translation": "你多久練一次鋼琴？",
+        "context": "請填本課用語：常常（頻率副詞）。",
+        "explanation": "How often do you practice the piano? 你多久練一次鋼琴？"
+      },
+      {
+        "id": "often-3",
+        "target": "often",
+        "answer": "often",
+        "sentence": "She ____ calls her grandmother after dinner.",
+        "translation": "她常常在晚餐後打電話給奶奶。",
+        "context": "請填本課用語：常常（頻率副詞）。",
+        "explanation": "She often calls her grandmother after dinner. 她常常在晚餐後打電話給奶奶。"
+      },
+      {
+        "id": "late-1",
+        "target": "late",
+        "answer": "late",
+        "sentence": "The class started at eight, but I arrived at eight ten. I was ____.",
+        "translation": "課八點開始，但我八點十分才到，我遲到了。",
+        "context": "請填本課用語：遲到、晚。",
+        "explanation": "The class started at eight, but I arrived at eight ten. I was late. 課八點開始，但我八點十分才到，我遲到了。"
+      },
+      {
+        "id": "late-2",
+        "target": "late",
+        "answer": "late",
+        "sentence": "Hurry up, or we will be ____ for the bus.",
+        "translation": "快一點，否則我們會來不及搭公車。",
+        "context": "請填本課用語：遲到、晚。",
+        "explanation": "Hurry up, or we will be late for the bus. 快一點，否則我們會來不及搭公車。"
+      },
+      {
+        "id": "late-3",
+        "target": "late",
+        "answer": "late",
+        "sentence": "He stayed up ____ to finish his project.",
+        "translation": "他熬到很晚才完成專題。",
+        "context": "請填本課用語：遲到、晚。",
+        "explanation": "He stayed up late to finish his project. 他熬到很晚才完成專題。"
+      },
+      {
+        "id": "seldom-1",
+        "target": "seldom",
+        "answer": "seldom",
+        "sentence": "I ____ watch television; I prefer reading.",
+        "translation": "我很少看電視，我比較喜歡閱讀。",
+        "context": "請填本課用語：很少（頻率副詞）。",
+        "explanation": "I seldom watch television; I prefer reading. 我很少看電視，我比較喜歡閱讀。"
+      },
+      {
+        "id": "seldom-2",
+        "target": "seldom",
+        "answer": "seldom",
+        "sentence": "She ____ takes a taxi because she likes walking.",
+        "translation": "她很少搭計程車，因為她喜歡走路。",
+        "context": "請填本課用語：很少（頻率副詞）。",
+        "explanation": "She seldom takes a taxi because she likes walking. 她很少搭計程車，因為她喜歡走路。"
+      },
+      {
+        "id": "seldom-3",
+        "target": "seldom",
+        "answer": "seldom",
+        "sentence": "We ____ eat at restaurants; we cook at home most days.",
+        "translation": "我們很少在餐廳吃飯，大多數日子都在家煮。",
+        "context": "請填本課用語：很少（頻率副詞）。",
+        "explanation": "We seldom eat at restaurants; we cook at home most days. 我們很少在餐廳吃飯，大多數日子都在家煮。"
+      },
+      {
+        "id": "sometimes-1",
+        "target": "sometimes",
+        "answer": "sometimes",
+        "sentence": "We ____ have a picnic when the weather is nice.",
+        "translation": "天氣好時，我們有時候會野餐。",
+        "context": "請填本課用語：有時候（頻率副詞）。",
+        "explanation": "We sometimes have a picnic when the weather is nice. 天氣好時，我們有時候會野餐。"
+      },
+      {
+        "id": "sometimes-2",
+        "target": "sometimes",
+        "answer": "sometimes",
+        "sentence": "I ____ draw pictures after finishing my homework.",
+        "translation": "做完功課後，我有時候會畫畫。",
+        "context": "請填本課用語：有時候（頻率副詞）。",
+        "explanation": "I sometimes draw pictures after finishing my homework. 做完功課後，我有時候會畫畫。"
+      },
+      {
+        "id": "sometimes-3",
+        "target": "sometimes",
+        "answer": "sometimes",
+        "sentence": "Dad ____ rides his bike to work, but not every day.",
+        "translation": "爸爸有時候騎腳踏車上班，但不是每天。",
+        "context": "請填本課用語：有時候（頻率副詞）。",
+        "explanation": "Dad sometimes rides his bike to work, but not every day. 爸爸有時候騎腳踏車上班，但不是每天。"
+      },
+      {
+        "id": "usually-1",
+        "target": "usually",
+        "answer": "usually",
+        "sentence": "I ____ walk to school, but today I am taking the bus.",
+        "translation": "我通常走路上學，但今天搭公車。",
+        "context": "請填本課用語：通常（頻率副詞）。",
+        "explanation": "I usually walk to school, but today I am taking the bus. 我通常走路上學，但今天搭公車。"
+      },
+      {
+        "id": "usually-2",
+        "target": "usually",
+        "answer": "usually",
+        "sentence": "She ____ eats breakfast at home, but today she is eating at a cafe.",
+        "translation": "她通常在家吃早餐，但今天在咖啡館吃。",
+        "context": "請填本課用語：通常（頻率副詞）。",
+        "explanation": "She usually eats breakfast at home, but today she is eating at a cafe. 她通常在家吃早餐，但今天在咖啡館吃。"
+      },
+      {
+        "id": "usually-3",
+        "target": "usually",
+        "answer": "usually",
+        "sentence": "We ____ play outside after school unless it rains.",
+        "translation": "我們放學後通常在外面玩，除非下雨。",
+        "context": "請填本課用語：通常（頻率副詞）。",
+        "explanation": "We usually play outside after school unless it rains. 我們放學後通常在外面玩，除非下雨。"
+      },
+      {
+        "id": "always-1",
+        "target": "always",
+        "answer": "always",
+        "sentence": "He ____ brushes his teeth before bed, every single night.",
+        "translation": "他每天晚上睡前總是刷牙。",
+        "context": "請填本課用語：總是、每次都（頻率副詞）。",
+        "explanation": "He always brushes his teeth before bed, every single night. 他每天晚上睡前總是刷牙。"
+      },
+      {
+        "id": "always-2",
+        "target": "always",
+        "answer": "always",
+        "sentence": "She ____ wears a helmet when riding her bike, without exception.",
+        "translation": "她騎腳踏車時總是戴安全帽，沒有例外。",
+        "context": "請填本課用語：總是、每次都（頻率副詞）。",
+        "explanation": "She always wears a helmet when riding her bike, without exception. 她騎腳踏車時總是戴安全帽，沒有例外。"
+      },
+      {
+        "id": "always-3",
+        "target": "always",
+        "answer": "always",
+        "sentence": "I ____ check my bag before leaving home. I do it every day.",
+        "translation": "我出門前總是檢查書包，每天都這樣做。",
+        "context": "請填本課用語：總是、每次都（頻率副詞）。",
+        "explanation": "I always check my bag before leaving home. I do it every day. 我出門前總是檢查書包，每天都這樣做。"
+      },
+      {
+        "id": "forward-1",
+        "target": "forward",
+        "answer": "forward",
+        "sentence": "I look ____ to seeing my cousins this weekend.",
+        "translation": "我期待這週末見到表兄弟姊妹。",
+        "context": "請填本課用語：填入 look ___ to 中表示期待的字。",
+        "explanation": "I look forward to seeing my cousins this weekend. 我期待這週末見到表兄弟姊妹。"
+      },
+      {
+        "id": "forward-2",
+        "target": "forward",
+        "answer": "forward",
+        "sentence": "We look ____ to the school trip next month.",
+        "translation": "我們期待下個月的校外教學。",
+        "context": "請填本課用語：填入 look ___ to 中表示期待的字。",
+        "explanation": "We look forward to the school trip next month. 我們期待下個月的校外教學。"
+      },
+      {
+        "id": "forward-3",
+        "target": "forward",
+        "answer": "forward",
+        "sentence": "She looks ____ to learning new songs in music class.",
+        "translation": "她期待在音樂課學新歌。",
+        "context": "請填本課用語：填入 look ___ to 中表示期待的字。",
+        "explanation": "She looks forward to learning new songs in music class. 她期待在音樂課學新歌。"
+      }
+    ]
+  },
+  {
+    "id": "g5-u4-v1",
+    "grade": 5,
+    "unit": 4,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "著名景點與旅行計畫",
+    "description": "20 個單字與片語，每個目標 3 種情境，共 60 題。練習旅行、時間用語及 will／won’t 未來式；可自選範圍。",
+    "source": "參考家長提供的 2025 年五年級 Quiz 4 中 U4 Dialogue、SW 與 GR，以及本課單字，重新編寫情境；未納入 U3 閱讀題。",
+    "questions": [
+      {
+        "id": "famous-1",
+        "target": "famous",
+        "answer": "famous",
+        "sentence": "Many tourists visit this ____ castle every year.",
+        "translation": "每年有許多遊客參觀這座有名的城堡。",
+        "context": "請填本課用語：有名的。",
+        "explanation": "Many tourists visit this famous castle every year. 每年有許多遊客參觀這座有名的城堡。"
+      },
+      {
+        "id": "famous-2",
+        "target": "famous",
+        "answer": "famous",
+        "sentence": "The town is ____ for its delicious noodles.",
+        "translation": "這個城鎮以美味的麵聞名。",
+        "context": "請填本課用語：有名的。",
+        "explanation": "The town is famous for its delicious noodles. 這個城鎮以美味的麵聞名。"
+      },
+      {
+        "id": "famous-3",
+        "target": "famous",
+        "answer": "famous",
+        "sentence": "She hopes to become a ____ writer someday.",
+        "translation": "她希望將來有一天成為有名的作家。",
+        "context": "請填本課用語：有名的。",
+        "explanation": "She hopes to become a famous writer someday. 她希望將來有一天成為有名的作家。"
+      },
+      {
+        "id": "postcard-1",
+        "target": "postcard",
+        "answer": "postcard",
+        "sentence": "I bought a ____ with a picture of the lake on it.",
+        "translation": "我買了一張上面有湖泊照片的明信片。",
+        "context": "請填本課用語：明信片（單數）。",
+        "explanation": "I bought a postcard with a picture of the lake on it. 我買了一張上面有湖泊照片的明信片。"
+      },
+      {
+        "id": "postcard-2",
+        "target": "postcard",
+        "answer": "postcard",
+        "sentence": "Please send me a ____ when you visit London.",
+        "translation": "你去倫敦時，請寄一張明信片給我。",
+        "context": "請填本課用語：明信片（單數）。",
+        "explanation": "Please send me a postcard when you visit London. 你去倫敦時，請寄一張明信片給我。"
+      },
+      {
+        "id": "postcard-3",
+        "target": "postcard",
+        "answer": "postcard",
+        "sentence": "He wrote a short message on the back of the ____.",
+        "translation": "他在明信片背面寫了一段簡短留言。",
+        "context": "請填本課用語：明信片（單數）。",
+        "explanation": "He wrote a short message on the back of the postcard. 他在明信片背面寫了一段簡短留言。"
+      },
+      {
+        "id": "when-1",
+        "target": "when",
+        "answer": "when",
+        "sentence": "Do you know ____ the museum will open?",
+        "translation": "你知道博物館何時會開門嗎？",
+        "context": "請填本課用語：何時（小寫）。",
+        "explanation": "Do you know when the museum will open? 你知道博物館何時會開門嗎？"
+      },
+      {
+        "id": "when-2",
+        "target": "when",
+        "answer": "when",
+        "sentence": "Please tell me ____ you will arrive.",
+        "translation": "請告訴我你何時會到。",
+        "context": "請填本課用語：何時（小寫）。",
+        "explanation": "Please tell me when you will arrive. 請告訴我你何時會到。"
+      },
+      {
+        "id": "when-3",
+        "target": "when",
+        "answer": "when",
+        "sentence": "I wonder ____ our next school trip will be.",
+        "translation": "我想知道我們下次的校外教學會在何時。",
+        "context": "請填本課用語：何時（小寫）。",
+        "explanation": "I wonder when our next school trip will be. 我想知道我們下次的校外教學會在何時。"
+      },
+      {
+        "id": "will-1",
+        "target": "will",
+        "answer": "will",
+        "sentence": "I ____ visit my aunt next Sunday.",
+        "translation": "我下週日將會拜訪阿姨。",
+        "context": "請填本課用語：將會（未來式助動詞，不使用縮寫）。",
+        "explanation": "I will visit my aunt next Sunday. 我下週日將會拜訪阿姨。"
+      },
+      {
+        "id": "will-2",
+        "target": "will",
+        "answer": "will",
+        "sentence": "They ____ take the train to the city tomorrow.",
+        "translation": "他們明天將會搭火車進城。",
+        "context": "請填本課用語：將會（未來式助動詞，不使用縮寫）。",
+        "explanation": "They will take the train to the city tomorrow. 他們明天將會搭火車進城。"
+      },
+      {
+        "id": "will-3",
+        "target": "will",
+        "answer": "will",
+        "sentence": "She ____ send you the photos after the trip.",
+        "translation": "她旅行後將會把照片寄給你。",
+        "context": "請填本課用語：將會（未來式助動詞，不使用縮寫）。",
+        "explanation": "She will send you the photos after the trip. 她旅行後將會把照片寄給你。"
+      },
+      {
+        "id": "dinner-1",
+        "target": "dinner",
+        "answer": "dinner",
+        "sentence": "We will have ____ at seven in the evening.",
+        "translation": "我們晚上七點將吃晚餐。",
+        "context": "請填本課用語：晚餐。",
+        "explanation": "We will have dinner at seven in the evening. 我們晚上七點將吃晚餐。"
+      },
+      {
+        "id": "dinner-2",
+        "target": "dinner",
+        "answer": "dinner",
+        "sentence": "Dad is cooking ____ for us after work.",
+        "translation": "爸爸下班後正在為我們煮晚餐。",
+        "context": "請填本課用語：晚餐。",
+        "explanation": "Dad is cooking dinner for us after work. 爸爸下班後正在為我們煮晚餐。"
+      },
+      {
+        "id": "dinner-3",
+        "target": "dinner",
+        "answer": "dinner",
+        "sentence": "After ____, we will take a short walk before bed.",
+        "translation": "吃完晚餐後，我們睡前會散步一下。",
+        "context": "請填本課用語：晚餐。",
+        "explanation": "After dinner, we will take a short walk before bed. 吃完晚餐後，我們睡前會散步一下。"
+      },
+      {
+        "id": "breakfast-1",
+        "target": "breakfast",
+        "answer": "breakfast",
+        "sentence": "I eat ____ before going to school in the morning.",
+        "translation": "我早上上學前吃早餐。",
+        "context": "請填本課用語：早餐。",
+        "explanation": "I eat breakfast before going to school in the morning. 我早上上學前吃早餐。"
+      },
+      {
+        "id": "breakfast-2",
+        "target": "breakfast",
+        "answer": "breakfast",
+        "sentence": "The hotel serves ____ from seven to nine in the morning.",
+        "translation": "飯店早上七點到九點供應早餐。",
+        "context": "請填本課用語：早餐。",
+        "explanation": "The hotel serves breakfast from seven to nine in the morning. 飯店早上七點到九點供應早餐。"
+      },
+      {
+        "id": "breakfast-3",
+        "target": "breakfast",
+        "answer": "breakfast",
+        "sentence": "She had eggs and toast for ____ this morning.",
+        "translation": "她今天早餐吃了蛋和烤吐司。",
+        "context": "請填本課用語：早餐。",
+        "explanation": "She had eggs and toast for breakfast this morning. 她今天早餐吃了蛋和烤吐司。"
+      },
+      {
+        "id": "lunch-1",
+        "target": "lunch",
+        "answer": "lunch",
+        "sentence": "We will have ____ at noon.",
+        "translation": "我們中午將吃午餐。",
+        "context": "請填本課用語：午餐。",
+        "explanation": "We will have lunch at noon. 我們中午將吃午餐。"
+      },
+      {
+        "id": "lunch-2",
+        "target": "lunch",
+        "answer": "lunch",
+        "sentence": "I packed a sandwich for my ____ at school.",
+        "translation": "我準備了一個三明治，當作在學校吃的午餐。",
+        "context": "請填本課用語：午餐。",
+        "explanation": "I packed a sandwich for my lunch at school. 我準備了一個三明治，當作在學校吃的午餐。"
+      },
+      {
+        "id": "lunch-3",
+        "target": "lunch",
+        "answer": "lunch",
+        "sentence": "The students return to class after ____ in the middle of the day.",
+        "translation": "學生們中午吃完午餐後回教室上課。",
+        "context": "請填本課用語：午餐。",
+        "explanation": "The students return to class after lunch in the middle of the day. 學生們中午吃完午餐後回教室上課。"
+      },
+      {
+        "id": "later-1",
+        "target": "later",
+        "answer": "later",
+        "sentence": "I am busy now. I will call you ____.",
+        "translation": "我現在很忙，稍後會打給你。",
+        "context": "請填本課用語：稍後、較晚地。",
+        "explanation": "I am busy now. I will call you later. 我現在很忙，稍後會打給你。"
+      },
+      {
+        "id": "later-2",
+        "target": "later",
+        "answer": "later",
+        "sentence": "Please finish your homework first. You can play ____.",
+        "translation": "請先做完功課，稍後可以玩。",
+        "context": "請填本課用語：稍後、較晚地。",
+        "explanation": "Please finish your homework first. You can play later. 請先做完功課，稍後可以玩。"
+      },
+      {
+        "id": "later-3",
+        "target": "later",
+        "answer": "later",
+        "sentence": "We will visit the gift shop ____; first, let's see the animals.",
+        "translation": "我們稍後再去禮品店，先看動物吧。",
+        "context": "請填本課用語：稍後、較晚地。",
+        "explanation": "We will visit the gift shop later; first, let's see the animals. 我們稍後再去禮品店，先看動物吧。"
+      },
+      {
+        "id": "tonight-1",
+        "target": "tonight",
+        "answer": "tonight",
+        "sentence": "We will watch the stars ____ after dinner.",
+        "translation": "我們今晚晚餐後將看星星。",
+        "context": "請填本課用語：今晚。",
+        "explanation": "We will watch the stars tonight after dinner. 我們今晚晚餐後將看星星。"
+      },
+      {
+        "id": "tonight-2",
+        "target": "tonight",
+        "answer": "tonight",
+        "sentence": "It is still morning, but I am excited about the concert ____.",
+        "translation": "現在還是早上，但我很期待今晚的演唱會。",
+        "context": "請填本課用語：今晚。",
+        "explanation": "It is still morning, but I am excited about the concert tonight. 現在還是早上，但我很期待今晚的演唱會。"
+      },
+      {
+        "id": "tonight-3",
+        "target": "tonight",
+        "answer": "tonight",
+        "sentence": "I will pack my bag ____ before going to bed.",
+        "translation": "我今晚睡前會整理行李。",
+        "context": "請填本課用語：今晚。",
+        "explanation": "I will pack my bag tonight before going to bed. 我今晚睡前會整理行李。"
+      },
+      {
+        "id": "tomorrow-night-1",
+        "target": "tomorrow night",
+        "answer": "tomorrow night",
+        "sentence": "We will watch a movie ____, after dinner tomorrow.",
+        "translation": "我們明天晚上，也就是明天晚餐後，將看電影。",
+        "context": "請填本課用語：明天晚上（兩個字）。",
+        "explanation": "We will watch a movie tomorrow night, after dinner tomorrow. 我們明天晚上，也就是明天晚餐後，將看電影。"
+      },
+      {
+        "id": "tomorrow-night-2",
+        "target": "tomorrow night",
+        "answer": "tomorrow night",
+        "sentence": "Today is Monday. The party will be on Tuesday evening, so it is ____.",
+        "translation": "今天是星期一，派對在星期二晚上，所以是在明天晚上。",
+        "context": "請填本課用語：明天晚上（兩個字）。",
+        "explanation": "Today is Monday. The party will be on Tuesday evening, so it is tomorrow night. 今天是星期一，派對在星期二晚上，所以是在明天晚上。"
+      },
+      {
+        "id": "tomorrow-night-3",
+        "target": "tomorrow night",
+        "answer": "tomorrow night",
+        "sentence": "My uncle will arrive ____, not this evening.",
+        "translation": "叔叔明天晚上才會到，不是今天晚上。",
+        "context": "請填本課用語：明天晚上（兩個字）。",
+        "explanation": "My uncle will arrive tomorrow night, not this evening. 叔叔明天晚上才會到，不是今天晚上。"
+      },
+      {
+        "id": "next-1",
+        "target": "next",
+        "answer": "next",
+        "sentence": "We will visit the museum ____ week.",
+        "translation": "我們下週將參觀博物館。",
+        "context": "請填本課用語：下一個、接下來的。",
+        "explanation": "We will visit the museum next week. 我們下週將參觀博物館。"
+      },
+      {
+        "id": "next-2",
+        "target": "next",
+        "answer": "next",
+        "sentence": "Our ____ stop will be the train station.",
+        "translation": "我們下一站將是火車站。",
+        "context": "請填本課用語：下一個、接下來的。",
+        "explanation": "Our next stop will be the train station. 我們下一站將是火車站。"
+      },
+      {
+        "id": "next-3",
+        "target": "next",
+        "answer": "next",
+        "sentence": "I hope to see you again ____ month.",
+        "translation": "我希望下個月再見到你。",
+        "context": "請填本課用語：下一個、接下來的。",
+        "explanation": "I hope to see you again next month. 我希望下個月再見到你。"
+      },
+      {
+        "id": "someday-1",
+        "target": "someday",
+        "answer": "someday",
+        "sentence": "I hope to travel to the moon ____.",
+        "translation": "我希望將來有一天能到月球旅行。",
+        "context": "請填本課用語：將來有一天（不確定的未來日期）。",
+        "explanation": "I hope to travel to the moon someday. 我希望將來有一天能到月球旅行。"
+      },
+      {
+        "id": "someday-2",
+        "target": "someday",
+        "answer": "someday",
+        "sentence": "She dreams of opening her own cafe ____.",
+        "translation": "她夢想將來有一天開自己的咖啡館。",
+        "context": "請填本課用語：將來有一天（不確定的未來日期）。",
+        "explanation": "She dreams of opening her own cafe someday. 她夢想將來有一天開自己的咖啡館。"
+      },
+      {
+        "id": "someday-3",
+        "target": "someday",
+        "answer": "someday",
+        "sentence": "We want to visit every continent ____, but we have no date yet.",
+        "translation": "我們想將來有一天走遍每一洲，但還沒有訂日期。",
+        "context": "請填本課用語：將來有一天（不確定的未來日期）。",
+        "explanation": "We want to visit every continent someday, but we have no date yet. 我們想將來有一天走遍每一洲，但還沒有訂日期。"
+      },
+      {
+        "id": "won't-1",
+        "target": "won't",
+        "answer": "won't",
+        "sentence": "I ____ go swimming tomorrow because I am sick.",
+        "translation": "我明天不會去游泳，因為我生病了。",
+        "context": "請填本課用語：將不（will not 的縮寫，包含撇號）。",
+        "explanation": "I won't go swimming tomorrow because I am sick. 我明天不會去游泳，因為我生病了。"
+      },
+      {
+        "id": "won't-2",
+        "target": "won't",
+        "answer": "won't",
+        "sentence": "The shop ____ open on Sunday, so let's go on Monday.",
+        "translation": "店家星期日不會開門，我們星期一再去吧。",
+        "context": "請填本課用語：將不（will not 的縮寫，包含撇號）。",
+        "explanation": "The shop won't open on Sunday, so let's go on Monday. 店家星期日不會開門，我們星期一再去吧。"
+      },
+      {
+        "id": "won't-3",
+        "target": "won't",
+        "answer": "won't",
+        "sentence": "They ____ join our trip because they have to work.",
+        "translation": "他們不會參加我們的旅行，因為他們必須工作。",
+        "context": "請填本課用語：將不（will not 的縮寫，包含撇號）。",
+        "explanation": "They won't join our trip because they have to work. 他們不會參加我們的旅行，因為他們必須工作。"
+      },
+      {
+        "id": "century-1",
+        "target": "century",
+        "answer": "century",
+        "sentence": "One ____ is one hundred years.",
+        "translation": "一個世紀是一百年。",
+        "context": "請填本課用語：世紀（單數）。",
+        "explanation": "One century is one hundred years. 一個世紀是一百年。"
+      },
+      {
+        "id": "century-2",
+        "target": "century",
+        "answer": "century",
+        "sentence": "The old bridge was built more than a ____ ago.",
+        "translation": "這座老橋建於一個多世紀以前。",
+        "context": "請填本課用語：世紀（單數）。",
+        "explanation": "The old bridge was built more than a century ago. 這座老橋建於一個多世紀以前。"
+      },
+      {
+        "id": "century-3",
+        "target": "century",
+        "answer": "century",
+        "sentence": "We are living in the twenty-first ____.",
+        "translation": "我們生活在二十一世紀。",
+        "context": "請填本課用語：世紀（單數）。",
+        "explanation": "We are living in the twenty-first century. 我們生活在二十一世紀。"
+      },
+      {
+        "id": "around-1",
+        "target": "around",
+        "answer": "around",
+        "sentence": "The guide will show us ____ the town.",
+        "translation": "導覽員將帶我們到鎮上各處看看。",
+        "context": "請填本課用語：四處、到處（本課用語）。",
+        "explanation": "The guide will show us around the town. 導覽員將帶我們到鎮上各處看看。"
+      },
+      {
+        "id": "around-2",
+        "target": "around",
+        "answer": "around",
+        "sentence": "We walked ____ the market to look at the different stalls.",
+        "translation": "我們在市場各處走走，看看不同攤位。",
+        "context": "請填本課用語：四處、到處（本課用語）。",
+        "explanation": "We walked around the market to look at the different stalls. 我們在市場各處走走，看看不同攤位。"
+      },
+      {
+        "id": "around-3",
+        "target": "around",
+        "answer": "around",
+        "sentence": "The children looked ____ the room for the missing key.",
+        "translation": "孩子們在房間裡到處找遺失的鑰匙。",
+        "context": "請填本課用語：四處、到處（本課用語）。",
+        "explanation": "The children looked around the room for the missing key. 孩子們在房間裡到處找遺失的鑰匙。"
+      },
+      {
+        "id": "world-1",
+        "target": "world",
+        "answer": "world",
+        "sentence": "People all over the ____ enjoy music.",
+        "translation": "世界各地的人都喜歡音樂。",
+        "context": "請填本課用語：世界。",
+        "explanation": "People all over the world enjoy music. 世界各地的人都喜歡音樂。"
+      },
+      {
+        "id": "world-2",
+        "target": "world",
+        "answer": "world",
+        "sentence": "I want to learn about different cultures in the ____.",
+        "translation": "我想認識世界上不同的文化。",
+        "context": "請填本課用語：世界。",
+        "explanation": "I want to learn about different cultures in the world. 我想認識世界上不同的文化。"
+      },
+      {
+        "id": "world-3",
+        "target": "world",
+        "answer": "world",
+        "sentence": "This map shows many countries of the ____.",
+        "translation": "這張地圖標出了世界上許多國家。",
+        "context": "請填本課用語：世界。",
+        "explanation": "This map shows many countries of the world. 這張地圖標出了世界上許多國家。"
+      },
+      {
+        "id": "delivery-1",
+        "target": "delivery",
+        "answer": "delivery",
+        "sentence": "This restaurant offers home ____ if you cannot pick up your food.",
+        "translation": "如果你無法取餐，這家餐廳提供送餐到府服務。",
+        "context": "請填本課用語：配送、投遞（名詞）。",
+        "explanation": "This restaurant offers home delivery if you cannot pick up your food. 如果你無法取餐，這家餐廳提供送餐到府服務。"
+      },
+      {
+        "id": "delivery-2",
+        "target": "delivery",
+        "answer": "delivery",
+        "sentence": "We are waiting for the ____ of our new desk.",
+        "translation": "我們正在等待新書桌送達。",
+        "context": "請填本課用語：配送、投遞（名詞）。",
+        "explanation": "We are waiting for the delivery of our new desk. 我們正在等待新書桌送達。"
+      },
+      {
+        "id": "delivery-3",
+        "target": "delivery",
+        "answer": "delivery",
+        "sentence": "Please write your address clearly for the ____ of the package.",
+        "translation": "請寫清楚地址，以便包裹投遞。",
+        "context": "請填本課用語：配送、投遞（名詞）。",
+        "explanation": "Please write your address clearly for the delivery of the package. 請寫清楚地址，以便包裹投遞。"
+      },
+      {
+        "id": "problem-1",
+        "target": "problem",
+        "answer": "problem",
+        "sentence": "There is a ____ with my bike. The wheel will not turn.",
+        "translation": "我的腳踏車出了問題，輪子轉不動。",
+        "context": "請填本課用語：問題（單數）。",
+        "explanation": "There is a problem with my bike. The wheel will not turn. 我的腳踏車出了問題，輪子轉不動。"
+      },
+      {
+        "id": "problem-2",
+        "target": "problem",
+        "answer": "problem",
+        "sentence": "We need to solve this ____ before the trip.",
+        "translation": "我們需要在旅行前解決這個問題。",
+        "context": "請填本課用語：問題（單數）。",
+        "explanation": "We need to solve this problem before the trip. 我們需要在旅行前解決這個問題。"
+      },
+      {
+        "id": "problem-3",
+        "target": "problem",
+        "answer": "problem",
+        "sentence": "If you have a ____ with your ticket, ask at the desk.",
+        "translation": "如果你的票有問題，請到櫃台詢問。",
+        "context": "請填本課用語：問題（單數）。",
+        "explanation": "If you have a problem with your ticket, ask at the desk. 如果你的票有問題，請到櫃台詢問。"
+      },
+      {
+        "id": "cost-1",
+        "target": "cost",
+        "answer": "cost",
+        "sentence": "How much will the train ticket ____?",
+        "translation": "火車票將花多少錢？",
+        "context": "請填本課用語：花費（動詞，依句意使用本課形式）。",
+        "explanation": "How much will the train ticket cost? 火車票將花多少錢？ cost 的原形與過去式拼法相同。"
+      },
+      {
+        "id": "cost-2",
+        "target": "cost",
+        "answer": "cost",
+        "sentence": "These two notebooks ____ fifty dollars in total.",
+        "translation": "這兩本筆記本總共花費五十元。",
+        "context": "請填本課用語：花費（動詞，依句意使用本課形式）。",
+        "explanation": "These two notebooks cost fifty dollars in total. 這兩本筆記本總共花費五十元。 cost 的原形與過去式拼法相同。"
+      },
+      {
+        "id": "cost-3",
+        "target": "cost",
+        "answer": "cost",
+        "sentence": "The meal ____ us six hundred dollars yesterday.",
+        "translation": "昨天那頓飯花了我們六百元。",
+        "context": "請填本課用語：花費（動詞，依句意使用本課形式）。",
+        "explanation": "The meal cost us six hundred dollars yesterday. 昨天那頓飯花了我們六百元。 cost 的原形與過去式拼法相同。"
+      },
+      {
+        "id": "suggest-1",
+        "target": "suggest",
+        "answer": "suggest",
+        "sentence": "I ____ taking an umbrella because it may rain.",
+        "translation": "我建議帶雨傘，因為可能會下雨。",
+        "context": "請填本課用語：建議（動詞原形）。",
+        "explanation": "I suggest taking an umbrella because it may rain. 我建議帶雨傘，因為可能會下雨。"
+      },
+      {
+        "id": "suggest-2",
+        "target": "suggest",
+        "answer": "suggest",
+        "sentence": "What do you ____ we do this afternoon?",
+        "translation": "你建議我們今天下午做什麼？",
+        "context": "請填本課用語：建議（動詞原形）。",
+        "explanation": "What do you suggest we do this afternoon? 你建議我們今天下午做什麼？"
+      },
+      {
+        "id": "suggest-3",
+        "target": "suggest",
+        "answer": "suggest",
+        "sentence": "Our teachers ____ visiting the science museum.",
+        "translation": "我們的老師們建議參觀科學博物館。",
+        "context": "請填本課用語：建議（動詞原形）。",
+        "explanation": "Our teachers suggest visiting the science museum. 我們的老師們建議參觀科學博物館。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
