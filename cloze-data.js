@@ -8248,6 +8248,1601 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "What is your favorite place to play? 你最喜歡在哪個地方玩？"
       }
     ]
+  },
+  {
+    "id": "g3-u1-v1",
+    "grade": 3,
+    "unit": 1,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "我的社區與地點方位",
+    "description": "13 個單字與片語，每個目標 3 種情境，共 39 題。練習社區地點、方位及正在前往的地點；可自選範圍。",
+    "source": "參考家長提供的 2024 年三年級 U1 考卷與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "next-to-1",
+        "target": "next to",
+        "answer": "next to",
+        "sentence": "My desk is ____ the window.",
+        "translation": "我的書桌在窗戶旁邊。",
+        "context": "請填本課用語：在……旁邊（兩個字）。",
+        "explanation": "My desk is next to the window. 我的書桌在窗戶旁邊。"
+      },
+      {
+        "id": "next-to-2",
+        "target": "next to",
+        "answer": "next to",
+        "sentence": "The bakery is ____ the bookstore.",
+        "translation": "麵包店在書局旁邊。",
+        "context": "請填本課用語：在……旁邊（兩個字）。",
+        "explanation": "The bakery is next to the bookstore. 麵包店在書局旁邊。"
+      },
+      {
+        "id": "next-to-3",
+        "target": "next to",
+        "answer": "next to",
+        "sentence": "Please sit ____ me on the bus.",
+        "translation": "在公車上請坐在我旁邊。",
+        "context": "請填本課用語：在……旁邊（兩個字）。",
+        "explanation": "Please sit next to me on the bus. 在公車上請坐在我旁邊。"
+      },
+      {
+        "id": "in-front-of-1",
+        "target": "in front of",
+        "answer": "in front of",
+        "sentence": "The bus stops ____ our school.",
+        "translation": "公車停在我們學校前面。",
+        "context": "請填本課用語：在……前面（三個字）。",
+        "explanation": "The bus stops in front of our school. 公車停在我們學校前面。"
+      },
+      {
+        "id": "in-front-of-2",
+        "target": "in front of",
+        "answer": "in front of",
+        "sentence": "There is a tree ____ the house.",
+        "translation": "房子前面有一棵樹。",
+        "context": "請填本課用語：在……前面（三個字）。",
+        "explanation": "There is a tree in front of the house. 房子前面有一棵樹。"
+      },
+      {
+        "id": "in-front-of-3",
+        "target": "in front of",
+        "answer": "in front of",
+        "sentence": "The teacher is standing ____ the class.",
+        "translation": "老師站在全班同學前面。",
+        "context": "請填本課用語：在……前面（三個字）。",
+        "explanation": "The teacher is standing in front of the class. 老師站在全班同學前面。"
+      },
+      {
+        "id": "between-1",
+        "target": "between",
+        "answer": "between",
+        "sentence": "The ball is ____ the two chairs.",
+        "translation": "球在兩張椅子中間。",
+        "context": "請填本課用語：在兩者中間。",
+        "explanation": "The ball is between the two chairs. 球在兩張椅子中間。"
+      },
+      {
+        "id": "between-2",
+        "target": "between",
+        "answer": "between",
+        "sentence": "Our school is ____ the park and the library.",
+        "translation": "我們的學校在公園和圖書館中間。",
+        "context": "請填本課用語：在兩者中間。",
+        "explanation": "Our school is between the park and the library. 我們的學校在公園和圖書館中間。"
+      },
+      {
+        "id": "between-3",
+        "target": "between",
+        "answer": "between",
+        "sentence": "I sit ____ Amy and Ben.",
+        "translation": "我坐在 Amy 和 Ben 中間。",
+        "context": "請填本課用語：在兩者中間。",
+        "explanation": "I sit between Amy and Ben. 我坐在 Amy 和 Ben 中間。"
+      },
+      {
+        "id": "behind-1",
+        "target": "behind",
+        "answer": "behind",
+        "sentence": "The dog is hiding ____ the sofa.",
+        "translation": "狗躲在沙發後面。",
+        "context": "請填本課用語：在……後面。",
+        "explanation": "The dog is hiding behind the sofa. 狗躲在沙發後面。"
+      },
+      {
+        "id": "behind-2",
+        "target": "behind",
+        "answer": "behind",
+        "sentence": "There is a garden ____ our house.",
+        "translation": "我們家後面有一座花園。",
+        "context": "請填本課用語：在……後面。",
+        "explanation": "There is a garden behind our house. 我們家後面有一座花園。"
+      },
+      {
+        "id": "behind-3",
+        "target": "behind",
+        "answer": "behind",
+        "sentence": "A boy is standing ____ me in line.",
+        "translation": "一個男孩排在我後面。",
+        "context": "請填本課用語：在……後面。",
+        "explanation": "A boy is standing behind me in line. 一個男孩排在我後面。"
+      },
+      {
+        "id": "across-from-1",
+        "target": "across from",
+        "answer": "across from",
+        "sentence": "The bank is ____ the bakery, on the other side of the street.",
+        "translation": "銀行在麵包店對面，也就是街道另一邊。",
+        "context": "請填本課用語：在……對面（兩個字）。",
+        "explanation": "The bank is across from the bakery, on the other side of the street. 銀行在麵包店對面，也就是街道另一邊。"
+      },
+      {
+        "id": "across-from-2",
+        "target": "across from",
+        "answer": "across from",
+        "sentence": "Our house is ____ the park.",
+        "translation": "我們家在公園對面。",
+        "context": "請填本課用語：在……對面（兩個字）。",
+        "explanation": "Our house is across from the park. 我們家在公園對面。"
+      },
+      {
+        "id": "across-from-3",
+        "target": "across from",
+        "answer": "across from",
+        "sentence": "The bus stop is ____ the supermarket.",
+        "translation": "公車站在超市對面。",
+        "context": "請填本課用語：在……對面（兩個字）。",
+        "explanation": "The bus stop is across from the supermarket. 公車站在超市對面。"
+      },
+      {
+        "id": "bookstore-1",
+        "target": "bookstore",
+        "answer": "bookstore",
+        "sentence": "I am going to the ____ to buy a storybook.",
+        "translation": "我正要去書局買故事書。",
+        "context": "請填本課用語：書局（單數）。",
+        "explanation": "I am going to the bookstore to buy a storybook. 我正要去書局買故事書。"
+      },
+      {
+        "id": "bookstore-2",
+        "target": "bookstore",
+        "answer": "bookstore",
+        "sentence": "She works at a ____ that sells many children's books.",
+        "translation": "她在一家賣許多童書的書局工作。",
+        "context": "請填本課用語：書局（單數）。",
+        "explanation": "She works at a bookstore that sells many children's books. 她在一家賣許多童書的書局工作。"
+      },
+      {
+        "id": "bookstore-3",
+        "target": "bookstore",
+        "answer": "bookstore",
+        "sentence": "We found a new comic book at the ____.",
+        "translation": "我們在書局找到一本新漫畫書。",
+        "context": "請填本課用語：書局（單數）。",
+        "explanation": "We found a new comic book at the bookstore. 我們在書局找到一本新漫畫書。"
+      },
+      {
+        "id": "park-1",
+        "target": "park",
+        "answer": "park",
+        "sentence": "We are going to the ____ to play on the swings.",
+        "translation": "我們正要去公園盪鞦韆。",
+        "context": "請填本課用語：公園（單數）。",
+        "explanation": "We are going to the park to play on the swings. 我們正要去公園盪鞦韆。"
+      },
+      {
+        "id": "park-2",
+        "target": "park",
+        "answer": "park",
+        "sentence": "There are trees and benches in the ____.",
+        "translation": "公園裡有樹和長椅。",
+        "context": "請填本課用語：公園（單數）。",
+        "explanation": "There are trees and benches in the park. 公園裡有樹和長椅。"
+      },
+      {
+        "id": "park-3",
+        "target": "park",
+        "answer": "park",
+        "sentence": "Grandpa takes a walk in the ____ every morning.",
+        "translation": "爺爺每天早上在公園散步。",
+        "context": "請填本課用語：公園（單數）。",
+        "explanation": "Grandpa takes a walk in the park every morning. 爺爺每天早上在公園散步。"
+      },
+      {
+        "id": "bakery-1",
+        "target": "bakery",
+        "answer": "bakery",
+        "sentence": "He is going to the ____ to buy fresh bread.",
+        "translation": "他正要去麵包店買新鮮麵包。",
+        "context": "請填本課用語：麵包店（單數）。",
+        "explanation": "He is going to the bakery to buy fresh bread. 他正要去麵包店買新鮮麵包。"
+      },
+      {
+        "id": "bakery-2",
+        "target": "bakery",
+        "answer": "bakery",
+        "sentence": "The ____ near our home makes delicious cakes.",
+        "translation": "我們家附近的麵包店做的蛋糕很好吃。",
+        "context": "請填本課用語：麵包店（單數）。",
+        "explanation": "The bakery near our home makes delicious cakes. 我們家附近的麵包店做的蛋糕很好吃。"
+      },
+      {
+        "id": "bakery-3",
+        "target": "bakery",
+        "answer": "bakery",
+        "sentence": "I can smell the bread outside the ____.",
+        "translation": "我在麵包店外面聞得到麵包香。",
+        "context": "請填本課用語：麵包店（單數）。",
+        "explanation": "I can smell the bread outside the bakery. 我在麵包店外面聞得到麵包香。"
+      },
+      {
+        "id": "supermarket-1",
+        "target": "supermarket",
+        "answer": "supermarket",
+        "sentence": "We are going to the ____ to buy food for the week.",
+        "translation": "我們正要去超市買一週要吃的食物。",
+        "context": "請填本課用語：超級市場（單數）。",
+        "explanation": "We are going to the supermarket to buy food for the week. 我們正要去超市買一週要吃的食物。"
+      },
+      {
+        "id": "supermarket-2",
+        "target": "supermarket",
+        "answer": "supermarket",
+        "sentence": "Mom pushed a shopping cart through the ____.",
+        "translation": "媽媽推著購物車走過超市。",
+        "context": "請填本課用語：超級市場（單數）。",
+        "explanation": "Mom pushed a shopping cart through the supermarket. 媽媽推著購物車走過超市。"
+      },
+      {
+        "id": "supermarket-3",
+        "target": "supermarket",
+        "answer": "supermarket",
+        "sentence": "This ____ sells fruit, milk, and vegetables.",
+        "translation": "這家超市販售水果、牛奶和蔬菜。",
+        "context": "請填本課用語：超級市場（單數）。",
+        "explanation": "This supermarket sells fruit, milk, and vegetables. 這家超市販售水果、牛奶和蔬菜。"
+      },
+      {
+        "id": "post-office-1",
+        "target": "post office",
+        "answer": "post office",
+        "sentence": "Dad is going to the ____ to mail a letter.",
+        "translation": "爸爸正要去郵局寄信。",
+        "context": "請填本課用語：郵局（兩個字）。",
+        "explanation": "Dad is going to the post office to mail a letter. 爸爸正要去郵局寄信。"
+      },
+      {
+        "id": "post-office-2",
+        "target": "post office",
+        "answer": "post office",
+        "sentence": "You can buy stamps at the ____.",
+        "translation": "你可以在郵局買郵票。",
+        "context": "請填本課用語：郵局（兩個字）。",
+        "explanation": "You can buy stamps at the post office. 你可以在郵局買郵票。"
+      },
+      {
+        "id": "post-office-3",
+        "target": "post office",
+        "answer": "post office",
+        "sentence": "The ____ is closed, so we cannot mail our package now.",
+        "translation": "郵局關門了，所以我們現在不能寄包裹。",
+        "context": "請填本課用語：郵局（兩個字）。",
+        "explanation": "The post office is closed, so we cannot mail our package now. 郵局關門了，所以我們現在不能寄包裹。"
+      },
+      {
+        "id": "restaurant-1",
+        "target": "restaurant",
+        "answer": "restaurant",
+        "sentence": "We are going to a ____ for dinner.",
+        "translation": "我們正要去餐廳吃晚餐。",
+        "context": "請填本課用語：餐廳（單數）。",
+        "explanation": "We are going to a restaurant for dinner. 我們正要去餐廳吃晚餐。"
+      },
+      {
+        "id": "restaurant-2",
+        "target": "restaurant",
+        "answer": "restaurant",
+        "sentence": "The waiter brought our food to the table at the ____.",
+        "translation": "服務生在餐廳把餐點端到我們桌上。",
+        "context": "請填本課用語：餐廳（單數）。",
+        "explanation": "The waiter brought our food to the table at the restaurant. 服務生在餐廳把餐點端到我們桌上。"
+      },
+      {
+        "id": "restaurant-3",
+        "target": "restaurant",
+        "answer": "restaurant",
+        "sentence": "This ____ serves hot soup and noodles.",
+        "translation": "這家餐廳供應熱湯和麵。",
+        "context": "請填本課用語：餐廳（單數）。",
+        "explanation": "This restaurant serves hot soup and noodles. 這家餐廳供應熱湯和麵。"
+      },
+      {
+        "id": "movie-theater-1",
+        "target": "movie theater",
+        "answer": "movie theater",
+        "sentence": "They are going to the ____ to watch a film.",
+        "translation": "他們正要去電影院看電影。",
+        "context": "請填本課用語：電影院（兩個字，使用課本美式拼法）。",
+        "explanation": "They are going to the movie theater to watch a film. 他們正要去電影院看電影。"
+      },
+      {
+        "id": "movie-theater-2",
+        "target": "movie theater",
+        "answer": "movie theater",
+        "sentence": "We bought tickets at the ____.",
+        "translation": "我們在電影院買了票。",
+        "context": "請填本課用語：電影院（兩個字，使用課本美式拼法）。",
+        "explanation": "We bought tickets at the movie theater. 我們在電影院買了票。"
+      },
+      {
+        "id": "movie-theater-3",
+        "target": "movie theater",
+        "answer": "movie theater",
+        "sentence": "The ____ has a big screen and many seats.",
+        "translation": "電影院有大銀幕和許多座位。",
+        "context": "請填本課用語：電影院（兩個字，使用課本美式拼法）。",
+        "explanation": "The movie theater has a big screen and many seats. 電影院有大銀幕和許多座位。"
+      },
+      {
+        "id": "convenience-store-1",
+        "target": "convenience store",
+        "answer": "convenience store",
+        "sentence": "I am going to the ____ to buy a drink.",
+        "translation": "我正要去便利商店買飲料。",
+        "context": "請填本課用語：便利商店（兩個字）。",
+        "explanation": "I am going to the convenience store to buy a drink. 我正要去便利商店買飲料。"
+      },
+      {
+        "id": "convenience-store-2",
+        "target": "convenience store",
+        "answer": "convenience store",
+        "sentence": "The small ____ near our home is open all night.",
+        "translation": "我們家附近的小便利商店整夜營業。",
+        "context": "請填本課用語：便利商店（兩個字）。",
+        "explanation": "The small convenience store near our home is open all night. 我們家附近的小便利商店整夜營業。"
+      },
+      {
+        "id": "convenience-store-3",
+        "target": "convenience store",
+        "answer": "convenience store",
+        "sentence": "She bought a snack at the ____ on her way home.",
+        "translation": "她回家途中在便利商店買了點心。",
+        "context": "請填本課用語：便利商店（兩個字）。",
+        "explanation": "She bought a snack at the convenience store on her way home. 她回家途中在便利商店買了點心。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u2-v1",
+    "grade": 3,
+    "unit": 2,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "職業與工作場所",
+    "description": "14 個單字與片語，每個目標 3 種情境，共 42 題。練習職業、工作場所及工作內容，包含 does 後用 work 原形；可自選範圍。",
+    "source": "參考家長提供的 2024 年三年級 U2 考卷與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "doctor-1",
+        "target": "doctor",
+        "answer": "doctor",
+        "sentence": "The ____ checked my throat when I was sick.",
+        "translation": "我生病時，醫生檢查了我的喉嚨。",
+        "context": "請填本課用語：醫生（單數）。",
+        "explanation": "The doctor checked my throat when I was sick. 我生病時，醫生檢查了我的喉嚨。"
+      },
+      {
+        "id": "doctor-2",
+        "target": "doctor",
+        "answer": "doctor",
+        "sentence": "My uncle is a ____. He helps sick people get better.",
+        "translation": "叔叔是一位醫生，他幫助病人恢復健康。",
+        "context": "請填本課用語：醫生（單數）。",
+        "explanation": "My uncle is a doctor. He helps sick people get better. 叔叔是一位醫生，他幫助病人恢復健康。"
+      },
+      {
+        "id": "doctor-3",
+        "target": "doctor",
+        "answer": "doctor",
+        "sentence": "You should see a ____ if you feel very sick.",
+        "translation": "如果你覺得很不舒服，應該去看醫生。",
+        "context": "請填本課用語：醫生（單數）。",
+        "explanation": "You should see a doctor if you feel very sick. 如果你覺得很不舒服，應該去看醫生。"
+      },
+      {
+        "id": "work-1",
+        "target": "work",
+        "answer": "work",
+        "sentence": "Where does your father ____?",
+        "translation": "你的爸爸在哪裡工作？",
+        "context": "請填本課用語：工作（動詞原形）。",
+        "explanation": "Where does your father work? 你的爸爸在哪裡工作？"
+      },
+      {
+        "id": "work-2",
+        "target": "work",
+        "answer": "work",
+        "sentence": "They ____ in a bookstore.",
+        "translation": "他們在書局工作。",
+        "context": "請填本課用語：工作（動詞原形）。",
+        "explanation": "They work in a bookstore. 他們在書局工作。"
+      },
+      {
+        "id": "work-3",
+        "target": "work",
+        "answer": "work",
+        "sentence": "Do you ____ in this hospital?",
+        "translation": "你在這間醫院工作嗎？",
+        "context": "請填本課用語：工作（動詞原形）。",
+        "explanation": "Do you work in this hospital? 你在這間醫院工作嗎？"
+      },
+      {
+        "id": "hospital-1",
+        "target": "hospital",
+        "answer": "hospital",
+        "sentence": "The ambulance took the sick man to the ____.",
+        "translation": "救護車把生病的男子送到醫院。",
+        "context": "請填本課用語：醫院（單數）。",
+        "explanation": "The ambulance took the sick man to the hospital. 救護車把生病的男子送到醫院。"
+      },
+      {
+        "id": "hospital-2",
+        "target": "hospital",
+        "answer": "hospital",
+        "sentence": "My aunt works at a ____ with many doctors.",
+        "translation": "阿姨在一間有許多醫生的醫院工作。",
+        "context": "請填本課用語：醫院（單數）。",
+        "explanation": "My aunt works at a hospital with many doctors. 阿姨在一間有許多醫生的醫院工作。"
+      },
+      {
+        "id": "hospital-3",
+        "target": "hospital",
+        "answer": "hospital",
+        "sentence": "We visited Grandpa in the ____ yesterday.",
+        "translation": "我們昨天到醫院探望爺爺。",
+        "context": "請填本課用語：醫院（單數）。",
+        "explanation": "We visited Grandpa in the hospital yesterday. 我們昨天到醫院探望爺爺。"
+      },
+      {
+        "id": "police-officer-1",
+        "target": "police officer",
+        "answer": "police officer",
+        "sentence": "The ____ helped the lost child find her parents.",
+        "translation": "警察幫迷路的孩子找到父母。",
+        "context": "請填本課用語：警察（兩個字，單數）。",
+        "explanation": "The police officer helped the lost child find her parents. 警察幫迷路的孩子找到父母。"
+      },
+      {
+        "id": "police-officer-2",
+        "target": "police officer",
+        "answer": "police officer",
+        "sentence": "My father is a ____. He helps keep people safe.",
+        "translation": "爸爸是一位警察，他幫忙維護大家的安全。",
+        "context": "請填本課用語：警察（兩個字，單數）。",
+        "explanation": "My father is a police officer. He helps keep people safe. 爸爸是一位警察，他幫忙維護大家的安全。"
+      },
+      {
+        "id": "police-officer-3",
+        "target": "police officer",
+        "answer": "police officer",
+        "sentence": "A ____ stopped the traffic so we could cross safely.",
+        "translation": "一位警察讓車輛停下，使我們能安全過馬路。",
+        "context": "請填本課用語：警察（兩個字，單數）。",
+        "explanation": "A police officer stopped the traffic so we could cross safely. 一位警察讓車輛停下，使我們能安全過馬路。"
+      },
+      {
+        "id": "care-1",
+        "target": "care",
+        "answer": "care",
+        "sentence": "Doctors take ____ of sick people.",
+        "translation": "醫生照顧生病的人。",
+        "context": "請填本課用語：照顧（填入 take ___ of 的本課用語）。",
+        "explanation": "Doctors take care of sick people. 醫生照顧生病的人。"
+      },
+      {
+        "id": "care-2",
+        "target": "care",
+        "answer": "care",
+        "sentence": "Who takes ____ of your cat when you travel?",
+        "translation": "你旅行時，誰照顧你的貓？",
+        "context": "請填本課用語：照顧（填入 take ___ of 的本課用語）。",
+        "explanation": "Who takes care of your cat when you travel? 你旅行時，誰照顧你的貓？"
+      },
+      {
+        "id": "care-3",
+        "target": "care",
+        "answer": "care",
+        "sentence": "I help take ____ of my little brother.",
+        "translation": "我幫忙照顧弟弟。",
+        "context": "請填本課用語：照顧（填入 take ___ of 的本課用語）。",
+        "explanation": "I help take care of my little brother. 我幫忙照顧弟弟。"
+      },
+      {
+        "id": "clerk-1",
+        "target": "clerk",
+        "answer": "clerk",
+        "sentence": "Ask the ____ where the pencils are in the store.",
+        "translation": "問店員店裡的鉛筆放在哪裡。",
+        "context": "請填本課用語：店員（單數）。",
+        "explanation": "Ask the clerk where the pencils are in the store. 問店員店裡的鉛筆放在哪裡。"
+      },
+      {
+        "id": "clerk-2",
+        "target": "clerk",
+        "answer": "clerk",
+        "sentence": "The ____ helped me find a shirt in my size.",
+        "translation": "店員幫我找到適合我尺寸的襯衫。",
+        "context": "請填本課用語：店員（單數）。",
+        "explanation": "The clerk helped me find a shirt in my size. 店員幫我找到適合我尺寸的襯衫。"
+      },
+      {
+        "id": "clerk-3",
+        "target": "clerk",
+        "answer": "clerk",
+        "sentence": "A ____ is putting new books on the store shelves.",
+        "translation": "一位店員正在把新書放到店裡的架上。",
+        "context": "請填本課用語：店員（單數）。",
+        "explanation": "A clerk is putting new books on the store shelves. 一位店員正在把新書放到店裡的架上。"
+      },
+      {
+        "id": "cashier-1",
+        "target": "cashier",
+        "answer": "cashier",
+        "sentence": "I paid the ____ for my groceries.",
+        "translation": "我付錢給收銀員，買了日用品和食物。",
+        "context": "請填本課用語：收銀員（單數）。",
+        "explanation": "I paid the cashier for my groceries. 我付錢給收銀員，買了日用品和食物。"
+      },
+      {
+        "id": "cashier-2",
+        "target": "cashier",
+        "answer": "cashier",
+        "sentence": "The ____ gave me my change and a receipt.",
+        "translation": "收銀員把找零和收據給我。",
+        "context": "請填本課用語：收銀員（單數）。",
+        "explanation": "The cashier gave me my change and a receipt. 收銀員把找零和收據給我。"
+      },
+      {
+        "id": "cashier-3",
+        "target": "cashier",
+        "answer": "cashier",
+        "sentence": "A ____ counts money at the checkout counter.",
+        "translation": "收銀員在結帳櫃台數錢。",
+        "context": "請填本課用語：收銀員（單數）。",
+        "explanation": "A cashier counts money at the checkout counter. 收銀員在結帳櫃台數錢。"
+      },
+      {
+        "id": "waiter-1",
+        "target": "waiter",
+        "answer": "waiter",
+        "sentence": "The ____ brought our food. We thanked him.",
+        "translation": "男服務生端來餐點，我們向他道謝。",
+        "context": "請填本課用語：男服務生（單數）。",
+        "explanation": "The waiter brought our food. We thanked him. 男服務生端來餐點，我們向他道謝。"
+      },
+      {
+        "id": "waiter-2",
+        "target": "waiter",
+        "answer": "waiter",
+        "sentence": "My brother is a ____ at a restaurant.",
+        "translation": "哥哥是一家餐廳的男服務生。",
+        "context": "請填本課用語：男服務生（單數）。",
+        "explanation": "My brother is a waiter at a restaurant. 哥哥是一家餐廳的男服務生。"
+      },
+      {
+        "id": "waiter-3",
+        "target": "waiter",
+        "answer": "waiter",
+        "sentence": "We asked the ____ to bring more water, and he did.",
+        "translation": "我們請男服務生多拿一些水，他照做了。",
+        "context": "請填本課用語：男服務生（單數）。",
+        "explanation": "We asked the waiter to bring more water, and he did. 我們請男服務生多拿一些水，他照做了。"
+      },
+      {
+        "id": "waitress-1",
+        "target": "waitress",
+        "answer": "waitress",
+        "sentence": "The ____ gave us menus. She was very friendly.",
+        "translation": "女服務生給我們菜單，她非常親切。",
+        "context": "請填本課用語：女服務生（單數）。",
+        "explanation": "The waitress gave us menus. She was very friendly. 女服務生給我們菜單，她非常親切。"
+      },
+      {
+        "id": "waitress-2",
+        "target": "waitress",
+        "answer": "waitress",
+        "sentence": "My sister works as a ____ in a cafe.",
+        "translation": "姊姊在咖啡館當女服務生。",
+        "context": "請填本課用語：女服務生（單數）。",
+        "explanation": "My sister works as a waitress in a cafe. 姊姊在咖啡館當女服務生。"
+      },
+      {
+        "id": "waitress-3",
+        "target": "waitress",
+        "answer": "waitress",
+        "sentence": "We thanked the ____ after she served our lunch.",
+        "translation": "女服務生送上午餐後，我們向她道謝。",
+        "context": "請填本課用語：女服務生（單數）。",
+        "explanation": "We thanked the waitress after she served our lunch. 女服務生送上午餐後，我們向她道謝。"
+      },
+      {
+        "id": "fire-fighter-1",
+        "target": "fire fighter",
+        "answer": "fire fighter",
+        "sentence": "The ____ used a hose to put out the fire.",
+        "translation": "消防員用水管滅火。",
+        "context": "請填本課用語：消防員（依課本拼法填兩個字）。",
+        "explanation": "The fire fighter used a hose to put out the fire. 消防員用水管滅火。"
+      },
+      {
+        "id": "fire-fighter-2",
+        "target": "fire fighter",
+        "answer": "fire fighter",
+        "sentence": "My uncle is a ____. He helps people during fires.",
+        "translation": "叔叔是一位消防員，他在火災時幫助人們。",
+        "context": "請填本課用語：消防員（依課本拼法填兩個字）。",
+        "explanation": "My uncle is a fire fighter. He helps people during fires. 叔叔是一位消防員，他在火災時幫助人們。"
+      },
+      {
+        "id": "fire-fighter-3",
+        "target": "fire fighter",
+        "answer": "fire fighter",
+        "sentence": "A ____ climbed the ladder to rescue the cat.",
+        "translation": "一位消防員爬上梯子救貓。",
+        "context": "請填本課用語：消防員（依課本拼法填兩個字）。",
+        "explanation": "A fire fighter climbed the ladder to rescue the cat. 一位消防員爬上梯子救貓。"
+      },
+      {
+        "id": "fire-station-1",
+        "target": "fire station",
+        "answer": "fire station",
+        "sentence": "The fire trucks are parked at the ____.",
+        "translation": "消防車停在消防局。",
+        "context": "請填本課用語：消防局（兩個字）。",
+        "explanation": "The fire trucks are parked at the fire station. 消防車停在消防局。"
+      },
+      {
+        "id": "fire-station-2",
+        "target": "fire station",
+        "answer": "fire station",
+        "sentence": "Our class visited a ____ to learn about fire safety.",
+        "translation": "我們班參觀消防局，學習消防安全。",
+        "context": "請填本課用語：消防局（兩個字）。",
+        "explanation": "Our class visited a fire station to learn about fire safety. 我們班參觀消防局，學習消防安全。"
+      },
+      {
+        "id": "fire-station-3",
+        "target": "fire station",
+        "answer": "fire station",
+        "sentence": "The firefighters returned to the ____ after putting out the fire.",
+        "translation": "消防員滅火後回到消防局。",
+        "context": "請填本課用語：消防局（兩個字）。",
+        "explanation": "The firefighters returned to the fire station after putting out the fire. 消防員滅火後回到消防局。"
+      },
+      {
+        "id": "police-station-1",
+        "target": "police station",
+        "answer": "police station",
+        "sentence": "We went to the ____ to report a stolen bike.",
+        "translation": "我們去警察局報案，說腳踏車被偷了。",
+        "context": "請填本課用語：警察局（兩個字）。",
+        "explanation": "We went to the police station to report a stolen bike. 我們去警察局報案，說腳踏車被偷了。"
+      },
+      {
+        "id": "police-station-2",
+        "target": "police station",
+        "answer": "police station",
+        "sentence": "The police officers are meeting at the ____.",
+        "translation": "警察們正在警察局開會。",
+        "context": "請填本課用語：警察局（兩個字）。",
+        "explanation": "The police officers are meeting at the police station. 警察們正在警察局開會。"
+      },
+      {
+        "id": "police-station-3",
+        "target": "police station",
+        "answer": "police station",
+        "sentence": "She took the wallet she found to the ____.",
+        "translation": "她把撿到的錢包送到警察局。",
+        "context": "請填本課用語：警察局（兩個字）。",
+        "explanation": "She took the wallet she found to the police station. 她把撿到的錢包送到警察局。"
+      },
+      {
+        "id": "nurse-1",
+        "target": "nurse",
+        "answer": "nurse",
+        "sentence": "The ____ checked my temperature at the hospital.",
+        "translation": "護理師在醫院量了我的體溫。",
+        "context": "請填本課用語：護理師（單數）。",
+        "explanation": "The nurse checked my temperature at the hospital. 護理師在醫院量了我的體溫。"
+      },
+      {
+        "id": "nurse-2",
+        "target": "nurse",
+        "answer": "nurse",
+        "sentence": "My mother is a ____ who cares for patients.",
+        "translation": "媽媽是一位照顧病人的護理師。",
+        "context": "請填本課用語：護理師（單數）。",
+        "explanation": "My mother is a nurse who cares for patients. 媽媽是一位照顧病人的護理師。"
+      },
+      {
+        "id": "nurse-3",
+        "target": "nurse",
+        "answer": "nurse",
+        "sentence": "The ____ helped the doctor change the bandage.",
+        "translation": "護理師幫醫生更換繃帶。",
+        "context": "請填本課用語：護理師（單數）。",
+        "explanation": "The nurse helped the doctor change the bandage. 護理師幫醫生更換繃帶。"
+      },
+      {
+        "id": "teacher-1",
+        "target": "teacher",
+        "answer": "teacher",
+        "sentence": "Our ____ helps us learn new words at school.",
+        "translation": "老師在學校幫我們學習新單字。",
+        "context": "請填本課用語：老師（單數）。",
+        "explanation": "Our teacher helps us learn new words at school. 老師在學校幫我們學習新單字。"
+      },
+      {
+        "id": "teacher-2",
+        "target": "teacher",
+        "answer": "teacher",
+        "sentence": "The ____ wrote a question on the classroom board.",
+        "translation": "老師在教室的黑板上寫了一個問題。",
+        "context": "請填本課用語：老師（單數）。",
+        "explanation": "The teacher wrote a question on the classroom board. 老師在教室的黑板上寫了一個問題。"
+      },
+      {
+        "id": "teacher-3",
+        "target": "teacher",
+        "answer": "teacher",
+        "sentence": "I asked my ____ for help with my homework.",
+        "translation": "我請老師幫忙解答功課的問題。",
+        "context": "請填本課用語：老師（單數）。",
+        "explanation": "I asked my teacher for help with my homework. 我請老師幫忙解答功課的問題。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u3-v1",
+    "grade": 3,
+    "unit": 3,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "地址、電話與方位",
+    "description": "15 個單字，每個目標 3 種情境，共 45 題。練習地址、電話、居住地與東西南北；可自選範圍。",
+    "source": "參考家長提供的 2024 年三年級 U3 考卷與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "address-1",
+        "target": "address",
+        "answer": "address",
+        "sentence": "Please write your ____ on the envelope.",
+        "translation": "請在信封上寫你的地址。",
+        "context": "請填本課用語：地址（單數）。",
+        "explanation": "Please write your address on the envelope. 請在信封上寫你的地址。"
+      },
+      {
+        "id": "address-2",
+        "target": "address",
+        "answer": "address",
+        "sentence": "I need your ____ so I can send you a card.",
+        "translation": "我需要你的地址，才能寄卡片給你。",
+        "context": "請填本課用語：地址（單數）。",
+        "explanation": "I need your address so I can send you a card. 我需要你的地址，才能寄卡片給你。"
+      },
+      {
+        "id": "address-3",
+        "target": "address",
+        "answer": "address",
+        "sentence": "Does she know the ____ of your new home?",
+        "translation": "她知道你新家的地址嗎？",
+        "context": "請填本課用語：地址（單數）。",
+        "explanation": "Does she know the address of your new home? 她知道你新家的地址嗎？"
+      },
+      {
+        "id": "phone-1",
+        "target": "phone",
+        "answer": "phone",
+        "sentence": "My ____ is ringing. I need to answer it.",
+        "translation": "我的電話響了，我需要接聽。",
+        "context": "請填本課用語：電話（單數）。",
+        "explanation": "My phone is ringing. I need to answer it. 我的電話響了，我需要接聽。"
+      },
+      {
+        "id": "phone-2",
+        "target": "phone",
+        "answer": "phone",
+        "sentence": "Can I use your ____ to call my mother?",
+        "translation": "我可以用你的電話打給媽媽嗎？",
+        "context": "請填本課用語：電話（單數）。",
+        "explanation": "Can I use your phone to call my mother? 我可以用你的電話打給媽媽嗎？"
+      },
+      {
+        "id": "phone-3",
+        "target": "phone",
+        "answer": "phone",
+        "sentence": "Please tell me your ____ number.",
+        "translation": "請告訴我你的電話號碼。",
+        "context": "請填本課用語：電話（單數）。",
+        "explanation": "Please tell me your phone number. 請告訴我你的電話號碼。"
+      },
+      {
+        "id": "number-1",
+        "target": "number",
+        "answer": "number",
+        "sentence": "What is the ____ on your classroom door?",
+        "translation": "你教室門上的號碼是多少？",
+        "context": "請填本課用語：號碼（單數）。",
+        "explanation": "What is the number on your classroom door? 你教室門上的號碼是多少？"
+      },
+      {
+        "id": "number-2",
+        "target": "number",
+        "answer": "number",
+        "sentence": "Write your student ____ beside your name.",
+        "translation": "在名字旁邊寫上你的學號。",
+        "context": "請填本課用語：號碼（單數）。",
+        "explanation": "Write your student number beside your name. 在名字旁邊寫上你的學號。"
+      },
+      {
+        "id": "number-3",
+        "target": "number",
+        "answer": "number",
+        "sentence": "I forgot the bus ____. Is it 12 or 15?",
+        "translation": "我忘了公車號碼，是十二還是十五？",
+        "context": "請填本課用語：號碼（單數）。",
+        "explanation": "I forgot the bus number. Is it 12 or 15? 我忘了公車號碼，是十二還是十五？"
+      },
+      {
+        "id": "floor-1",
+        "target": "floor",
+        "answer": "floor",
+        "sentence": "My grandparents live on the third ____.",
+        "translation": "祖父母住在三樓。",
+        "context": "請填本課用語：樓層（單數）。",
+        "explanation": "My grandparents live on the third floor. 祖父母住在三樓。"
+      },
+      {
+        "id": "floor-2",
+        "target": "floor",
+        "answer": "floor",
+        "sentence": "Which ____ is your classroom on?",
+        "translation": "你的教室在幾樓？",
+        "context": "請填本課用語：樓層（單數）。",
+        "explanation": "Which floor is your classroom on? 你的教室在幾樓？"
+      },
+      {
+        "id": "floor-3",
+        "target": "floor",
+        "answer": "floor",
+        "sentence": "The toy shop is on the second ____.",
+        "translation": "玩具店在二樓。",
+        "context": "請填本課用語：樓層（單數）。",
+        "explanation": "The toy shop is on the second floor. 玩具店在二樓。"
+      },
+      {
+        "id": "alley-1",
+        "target": "alley",
+        "answer": "alley",
+        "sentence": "Our house is in a small ____ off the lane.",
+        "translation": "我們家在巷子旁的一條小弄裡。",
+        "context": "請填本課用語：弄（單數，依本課地址用語填寫）。",
+        "explanation": "Our house is in a small alley off the lane. 我們家在巷子旁的一條小弄裡。"
+      },
+      {
+        "id": "alley-2",
+        "target": "alley",
+        "answer": "alley",
+        "sentence": "The ____ is too narrow for a large truck.",
+        "translation": "這條弄太窄，大卡車開不進去。",
+        "context": "請填本課用語：弄（單數，依本課地址用語填寫）。",
+        "explanation": "The alley is too narrow for a large truck. 這條弄太窄，大卡車開不進去。"
+      },
+      {
+        "id": "alley-3",
+        "target": "alley",
+        "answer": "alley",
+        "sentence": "There are three houses in this ____.",
+        "translation": "這條弄裡有三間房子。",
+        "context": "請填本課用語：弄（單數，依本課地址用語填寫）。",
+        "explanation": "There are three houses in this alley. 這條弄裡有三間房子。"
+      },
+      {
+        "id": "lane-1",
+        "target": "lane",
+        "answer": "lane",
+        "sentence": "We live in a quiet ____ near the school.",
+        "translation": "我們住在學校附近一條安靜的巷子裡。",
+        "context": "請填本課用語：巷（單數，依本課地址用語填寫）。",
+        "explanation": "We live in a quiet lane near the school. 我們住在學校附近一條安靜的巷子裡。"
+      },
+      {
+        "id": "lane-2",
+        "target": "lane",
+        "answer": "lane",
+        "sentence": "Turn into the ____ beside the bakery.",
+        "translation": "轉進麵包店旁邊的巷子。",
+        "context": "請填本課用語：巷（單數，依本課地址用語填寫）。",
+        "explanation": "Turn into the lane beside the bakery. 轉進麵包店旁邊的巷子。"
+      },
+      {
+        "id": "lane-3",
+        "target": "lane",
+        "answer": "lane",
+        "sentence": "This ____ connects the road to a small park.",
+        "translation": "這條巷子連接道路和一座小公園。",
+        "context": "請填本課用語：巷（單數，依本課地址用語填寫）。",
+        "explanation": "This lane connects the road to a small park. 這條巷子連接道路和一座小公園。"
+      },
+      {
+        "id": "road-1",
+        "target": "road",
+        "answer": "road",
+        "sentence": "The ____ to the village goes through the mountains.",
+        "translation": "通往村莊的路穿過山區。",
+        "context": "請填本課用語：路（單數，依本課用語填寫）。",
+        "explanation": "The road to the village goes through the mountains. 通往村莊的路穿過山區。"
+      },
+      {
+        "id": "road-2",
+        "target": "road",
+        "answer": "road",
+        "sentence": "Which ____ does your uncle live on?",
+        "translation": "你的叔叔住在哪條路上？",
+        "context": "請填本課用語：路（單數，依本課用語填寫）。",
+        "explanation": "Which road does your uncle live on? 你的叔叔住在哪條路上？"
+      },
+      {
+        "id": "road-3",
+        "target": "road",
+        "answer": "road",
+        "sentence": "We followed the ____ to the lake.",
+        "translation": "我們沿著路走到湖邊。",
+        "context": "請填本課用語：路（單數，依本課用語填寫）。",
+        "explanation": "We followed the road to the lake. 我們沿著路走到湖邊。"
+      },
+      {
+        "id": "district-1",
+        "target": "district",
+        "answer": "district",
+        "sentence": "Which ____ of the city do you live in?",
+        "translation": "你住在這座城市的哪一區？",
+        "context": "請填本課用語：區（單數）。",
+        "explanation": "Which district of the city do you live in? 你住在這座城市的哪一區？"
+      },
+      {
+        "id": "district-2",
+        "target": "district",
+        "answer": "district",
+        "sentence": "Our school is in the same ____ as the museum.",
+        "translation": "我們的學校和博物館位在同一區。",
+        "context": "請填本課用語：區（單數）。",
+        "explanation": "Our school is in the same district as the museum. 我們的學校和博物館位在同一區。"
+      },
+      {
+        "id": "district-3",
+        "target": "district",
+        "answer": "district",
+        "sentence": "This ____ has many parks and libraries.",
+        "translation": "這一區有許多公園和圖書館。",
+        "context": "請填本課用語：區（單數）。",
+        "explanation": "This district has many parks and libraries. 這一區有許多公園和圖書館。"
+      },
+      {
+        "id": "city-1",
+        "target": "city",
+        "answer": "city",
+        "sentence": "My cousin lives in a busy ____ with many tall buildings.",
+        "translation": "我的表親住在一座有許多高樓的繁忙城市。",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "My cousin lives in a busy city with many tall buildings. 我的表親住在一座有許多高樓的繁忙城市。"
+      },
+      {
+        "id": "city-2",
+        "target": "city",
+        "answer": "city",
+        "sentence": "Which ____ is your new school in?",
+        "translation": "你的新學校在哪一座城市？",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "Which city is your new school in? 你的新學校在哪一座城市？"
+      },
+      {
+        "id": "city-3",
+        "target": "city",
+        "answer": "city",
+        "sentence": "We took a train to another ____ last weekend.",
+        "translation": "我們上週末搭火車去了另一座城市。",
+        "context": "請填本課用語：城市（單數）。",
+        "explanation": "We took a train to another city last weekend. 我們上週末搭火車去了另一座城市。"
+      },
+      {
+        "id": "street-1",
+        "target": "street",
+        "answer": "street",
+        "sentence": "There are many shops on this ____.",
+        "translation": "這條街上有許多商店。",
+        "context": "請填本課用語：街（單數，依本課用語填寫）。",
+        "explanation": "There are many shops on this street. 這條街上有許多商店。"
+      },
+      {
+        "id": "street-2",
+        "target": "street",
+        "answer": "street",
+        "sentence": "Look both ways before you cross the ____.",
+        "translation": "過街前要左右看。",
+        "context": "請填本課用語：街（單數，依本課用語填寫）。",
+        "explanation": "Look both ways before you cross the street. 過街前要左右看。"
+      },
+      {
+        "id": "street-3",
+        "target": "street",
+        "answer": "street",
+        "sentence": "My friend lives on the same ____ as I do.",
+        "translation": "我的朋友和我住在同一條街上。",
+        "context": "請填本課用語：街（單數，依本課用語填寫）。",
+        "explanation": "My friend lives on the same street as I do. 我的朋友和我住在同一條街上。"
+      },
+      {
+        "id": "country-1",
+        "target": "country",
+        "answer": "country",
+        "sentence": "Which ____ is your pen pal from?",
+        "translation": "你的筆友來自哪個國家？",
+        "context": "請填本課用語：國家（單數）。",
+        "explanation": "Which country is your pen pal from? 你的筆友來自哪個國家？"
+      },
+      {
+        "id": "country-2",
+        "target": "country",
+        "answer": "country",
+        "sentence": "Japan is a ____ in Asia.",
+        "translation": "日本是亞洲的一個國家。",
+        "context": "請填本課用語：國家（單數）。",
+        "explanation": "Japan is a country in Asia. 日本是亞洲的一個國家。"
+      },
+      {
+        "id": "country-3",
+        "target": "country",
+        "answer": "country",
+        "sentence": "We learned about a different ____ in class today.",
+        "translation": "我們今天在課堂上認識了另一個國家。",
+        "context": "請填本課用語：國家（單數）。",
+        "explanation": "We learned about a different country in class today. 我們今天在課堂上認識了另一個國家。"
+      },
+      {
+        "id": "north-1",
+        "target": "north",
+        "answer": "north",
+        "sentence": "On this map, ____ is at the top.",
+        "translation": "在這張地圖上，北方在上方。",
+        "context": "請填本課用語：北、北方（小寫）。",
+        "explanation": "On this map, north is at the top. 在這張地圖上，北方在上方。"
+      },
+      {
+        "id": "north-2",
+        "target": "north",
+        "answer": "north",
+        "sentence": "The library is ____ of the park.",
+        "translation": "圖書館在公園的北方。",
+        "context": "請填本課用語：北、北方（小寫）。",
+        "explanation": "The library is north of the park. 圖書館在公園的北方。"
+      },
+      {
+        "id": "north-3",
+        "target": "north",
+        "answer": "north",
+        "sentence": "We drove ____ to visit our cousins.",
+        "translation": "我們往北開車去看表兄弟姊妹。",
+        "context": "請填本課用語：北、北方（小寫）。",
+        "explanation": "We drove north to visit our cousins. 我們往北開車去看表兄弟姊妹。"
+      },
+      {
+        "id": "south-1",
+        "target": "south",
+        "answer": "south",
+        "sentence": "On this map, ____ is at the bottom.",
+        "translation": "在這張地圖上，南方在下方。",
+        "context": "請填本課用語：南、南方（小寫）。",
+        "explanation": "On this map, south is at the bottom. 在這張地圖上，南方在下方。"
+      },
+      {
+        "id": "south-2",
+        "target": "south",
+        "answer": "south",
+        "sentence": "The farm is ____ of our town.",
+        "translation": "農場在我們城鎮的南方。",
+        "context": "請填本課用語：南、南方（小寫）。",
+        "explanation": "The farm is south of our town. 農場在我們城鎮的南方。"
+      },
+      {
+        "id": "south-3",
+        "target": "south",
+        "answer": "south",
+        "sentence": "Some birds fly ____ when winter comes.",
+        "translation": "冬天來臨時，有些鳥會往南飛。",
+        "context": "請填本課用語：南、南方（小寫）。",
+        "explanation": "Some birds fly south when winter comes. 冬天來臨時，有些鳥會往南飛。"
+      },
+      {
+        "id": "east-1",
+        "target": "east",
+        "answer": "east",
+        "sentence": "The sun rises in the ____.",
+        "translation": "太陽從東方升起。",
+        "context": "請填本課用語：東、東方（小寫）。",
+        "explanation": "The sun rises in the east. 太陽從東方升起。"
+      },
+      {
+        "id": "east-2",
+        "target": "east",
+        "answer": "east",
+        "sentence": "The beach is ____ of the village.",
+        "translation": "海灘在村莊的東方。",
+        "context": "請填本課用語：東、東方（小寫）。",
+        "explanation": "The beach is east of the village. 海灘在村莊的東方。"
+      },
+      {
+        "id": "east-3",
+        "target": "east",
+        "answer": "east",
+        "sentence": "Go ____ from the station to find the museum.",
+        "translation": "從車站向東走，就能找到博物館。",
+        "context": "請填本課用語：東、東方（小寫）。",
+        "explanation": "Go east from the station to find the museum. 從車站向東走，就能找到博物館。"
+      },
+      {
+        "id": "west-1",
+        "target": "west",
+        "answer": "west",
+        "sentence": "The sun sets in the ____.",
+        "translation": "太陽在西方落下。",
+        "context": "請填本課用語：西、西方（小寫）。",
+        "explanation": "The sun sets in the west. 太陽在西方落下。"
+      },
+      {
+        "id": "west-2",
+        "target": "west",
+        "answer": "west",
+        "sentence": "The hospital is ____ of the school.",
+        "translation": "醫院在學校的西方。",
+        "context": "請填本課用語：西、西方（小寫）。",
+        "explanation": "The hospital is west of the school. 醫院在學校的西方。"
+      },
+      {
+        "id": "west-3",
+        "target": "west",
+        "answer": "west",
+        "sentence": "We traveled ____ to reach the lake.",
+        "translation": "我們向西旅行到達湖邊。",
+        "context": "請填本課用語：西、西方（小寫）。",
+        "explanation": "We traveled west to reach the lake. 我們向西旅行到達湖邊。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u4-v1",
+    "grade": 3,
+    "unit": 4,
+    "mode": "typed",
+    "rounds": true,
+    "revision": 1,
+    "variants": true,
+    "title": "公園活動與明日計畫",
+    "description": "15 個單字與片語，每個目標 3 種情境，共 45 題。練習公園活動、日常習慣及明日計畫，分辨 field／court；可自選範圍。",
+    "source": "參考家長提供的 2024 年三年級 U4 考卷與本課單字，重新編寫情境，並非原卷。",
+    "questions": [
+      {
+        "id": "meet-1",
+        "target": "meet",
+        "answer": "meet",
+        "sentence": "Let's ____ at the park gate at ten.",
+        "translation": "我們十點在公園門口見面吧。",
+        "context": "請填本課用語：見面（動詞原形）。",
+        "explanation": "Let's meet at the park gate at ten. 我們十點在公園門口見面吧。"
+      },
+      {
+        "id": "meet-2",
+        "target": "meet",
+        "answer": "meet",
+        "sentence": "I am going to ____ my cousins tomorrow.",
+        "translation": "我明天打算和表兄弟姊妹見面。",
+        "context": "請填本課用語：見面（動詞原形）。",
+        "explanation": "I am going to meet my cousins tomorrow. 我明天打算和表兄弟姊妹見面。"
+      },
+      {
+        "id": "meet-3",
+        "target": "meet",
+        "answer": "meet",
+        "sentence": "Where do you want to ____ after school?",
+        "translation": "放學後你想在哪裡見面？",
+        "context": "請填本課用語：見面（動詞原形）。",
+        "explanation": "Where do you want to meet after school? 放學後你想在哪裡見面？"
+      },
+      {
+        "id": "swimming-pool-1",
+        "target": "swimming pool",
+        "answer": "swimming pool",
+        "sentence": "We are going to the ____ to swim tomorrow.",
+        "translation": "我們明天打算去游泳池游泳。",
+        "context": "請填本課用語：游泳池（兩個字）。",
+        "explanation": "We are going to the swimming pool to swim tomorrow. 我們明天打算去游泳池游泳。"
+      },
+      {
+        "id": "swimming-pool-2",
+        "target": "swimming pool",
+        "answer": "swimming pool",
+        "sentence": "The ____ has a shallow area for young children.",
+        "translation": "游泳池有一個給小朋友使用的淺水區。",
+        "context": "請填本課用語：游泳池（兩個字）。",
+        "explanation": "The swimming pool has a shallow area for young children. 游泳池有一個給小朋友使用的淺水區。"
+      },
+      {
+        "id": "swimming-pool-3",
+        "target": "swimming pool",
+        "answer": "swimming pool",
+        "sentence": "Please take a shower before entering the ____.",
+        "translation": "進入游泳池前請先淋浴。",
+        "context": "請填本課用語：游泳池（兩個字）。",
+        "explanation": "Please take a shower before entering the swimming pool. 進入游泳池前請先淋浴。"
+      },
+      {
+        "id": "swim-1",
+        "target": "swim",
+        "answer": "swim",
+        "sentence": "Can you ____ across the pool?",
+        "translation": "你能游到游泳池另一邊嗎？",
+        "context": "請填本課用語：游泳（動詞原形）。",
+        "explanation": "Can you swim across the pool? 你能游到游泳池另一邊嗎？"
+      },
+      {
+        "id": "swim-2",
+        "target": "swim",
+        "answer": "swim",
+        "sentence": "She is going to ____ with her sister tomorrow.",
+        "translation": "她明天打算和姊姊一起游泳。",
+        "context": "請填本課用語：游泳（動詞原形）。",
+        "explanation": "She is going to swim with her sister tomorrow. 她明天打算和姊姊一起游泳。"
+      },
+      {
+        "id": "swim-3",
+        "target": "swim",
+        "answer": "swim",
+        "sentence": "I ____ at the pool every Saturday.",
+        "translation": "我每週六在游泳池游泳。",
+        "context": "請填本課用語：游泳（動詞原形）。",
+        "explanation": "I swim at the pool every Saturday. 我每週六在游泳池游泳。"
+      },
+      {
+        "id": "field-1",
+        "target": "field",
+        "answer": "field",
+        "sentence": "The children play soccer on the ____.",
+        "translation": "孩子們在球場上踢足球。",
+        "context": "請填本課用語：球場（足球、棒球等戶外場地）。",
+        "explanation": "The children play soccer on the field. 孩子們在球場上踢足球。"
+      },
+      {
+        "id": "field-2",
+        "target": "field",
+        "answer": "field",
+        "sentence": "We are going to the baseball ____ tomorrow.",
+        "translation": "我們明天打算去棒球場。",
+        "context": "請填本課用語：球場（足球、棒球等戶外場地）。",
+        "explanation": "We are going to the baseball field tomorrow. 我們明天打算去棒球場。"
+      },
+      {
+        "id": "field-3",
+        "target": "field",
+        "answer": "field",
+        "sentence": "The soccer ____ is covered with green grass.",
+        "translation": "足球場上鋪滿綠草。",
+        "context": "請填本課用語：球場（足球、棒球等戶外場地）。",
+        "explanation": "The soccer field is covered with green grass. 足球場上鋪滿綠草。"
+      },
+      {
+        "id": "court-1",
+        "target": "court",
+        "answer": "court",
+        "sentence": "She is going to the tennis ____ tomorrow.",
+        "translation": "她明天打算去網球場。",
+        "context": "請填本課用語：球場（籃球、網球等有界線的場地）。",
+        "explanation": "She is going to the tennis court tomorrow. 她明天打算去網球場。"
+      },
+      {
+        "id": "court-2",
+        "target": "court",
+        "answer": "court",
+        "sentence": "The basketball ____ is next to the school.",
+        "translation": "籃球場在學校旁邊。",
+        "context": "請填本課用語：球場（籃球、網球等有界線的場地）。",
+        "explanation": "The basketball court is next to the school. 籃球場在學校旁邊。"
+      },
+      {
+        "id": "court-3",
+        "target": "court",
+        "answer": "court",
+        "sentence": "Two players are practicing on the tennis ____.",
+        "translation": "兩位球員正在網球場上練習。",
+        "context": "請填本課用語：球場（籃球、網球等有界線的場地）。",
+        "explanation": "Two players are practicing on the tennis court. 兩位球員正在網球場上練習。"
+      },
+      {
+        "id": "playground-1",
+        "target": "playground",
+        "answer": "playground",
+        "sentence": "The ____ has swings and a slide.",
+        "translation": "遊樂場有鞦韆和溜滑梯。",
+        "context": "請填本課用語：遊戲場地、遊樂場（單數）。",
+        "explanation": "The playground has swings and a slide. 遊樂場有鞦韆和溜滑梯。"
+      },
+      {
+        "id": "playground-2",
+        "target": "playground",
+        "answer": "playground",
+        "sentence": "We are going to the ____ after lunch.",
+        "translation": "我們午餐後打算去遊樂場。",
+        "context": "請填本課用語：遊戲場地、遊樂場（單數）。",
+        "explanation": "We are going to the playground after lunch. 我們午餐後打算去遊樂場。"
+      },
+      {
+        "id": "playground-3",
+        "target": "playground",
+        "answer": "playground",
+        "sentence": "The children are playing together at the ____.",
+        "translation": "孩子們正在遊樂場一起玩。",
+        "context": "請填本課用語：遊戲場地、遊樂場（單數）。",
+        "explanation": "The children are playing together at the playground. 孩子們正在遊樂場一起玩。"
+      },
+      {
+        "id": "feed-1",
+        "target": "feed",
+        "answer": "feed",
+        "sentence": "I ____ my cat before school every day.",
+        "translation": "我每天上學前餵貓。",
+        "context": "請填本課用語：餵（動詞原形）。",
+        "explanation": "I feed my cat before school every day. 我每天上學前餵貓。"
+      },
+      {
+        "id": "feed-2",
+        "target": "feed",
+        "answer": "feed",
+        "sentence": "Please do not ____ the wild birds.",
+        "translation": "請不要餵野鳥。",
+        "context": "請填本課用語：餵（動詞原形）。",
+        "explanation": "Please do not feed the wild birds. 請不要餵野鳥。"
+      },
+      {
+        "id": "feed-3",
+        "target": "feed",
+        "answer": "feed",
+        "sentence": "She is going to ____ the fish tomorrow morning.",
+        "translation": "她明天早上打算餵魚。",
+        "context": "請填本課用語：餵（動詞原形）。",
+        "explanation": "She is going to feed the fish tomorrow morning. 她明天早上打算餵魚。"
+      },
+      {
+        "id": "picnic-1",
+        "target": "picnic",
+        "answer": "picnic",
+        "sentence": "We are going to have a ____ by the lake.",
+        "translation": "我們打算在湖邊野餐。",
+        "context": "請填本課用語：野餐（名詞，單數）。",
+        "explanation": "We are going to have a picnic by the lake. 我們打算在湖邊野餐。"
+      },
+      {
+        "id": "picnic-2",
+        "target": "picnic",
+        "answer": "picnic",
+        "sentence": "Mom packed sandwiches for our ____.",
+        "translation": "媽媽為我們的野餐準備了三明治。",
+        "context": "請填本課用語：野餐（名詞，單數）。",
+        "explanation": "Mom packed sandwiches for our picnic. 媽媽為我們的野餐準備了三明治。"
+      },
+      {
+        "id": "picnic-3",
+        "target": "picnic",
+        "answer": "picnic",
+        "sentence": "Let's bring a blanket to the ____.",
+        "translation": "我們帶一條毯子去野餐吧。",
+        "context": "請填本課用語：野餐（名詞，單數）。",
+        "explanation": "Let's bring a blanket to the picnic. 我們帶一條毯子去野餐吧。"
+      },
+      {
+        "id": "tomorrow-1",
+        "target": "tomorrow",
+        "answer": "tomorrow",
+        "sentence": "Today is Monday, so ____ is Tuesday.",
+        "translation": "今天是星期一，所以明天是星期二。",
+        "context": "請填本課用語：明天。",
+        "explanation": "Today is Monday, so tomorrow is Tuesday. 今天是星期一，所以明天是星期二。"
+      },
+      {
+        "id": "tomorrow-2",
+        "target": "tomorrow",
+        "answer": "tomorrow",
+        "sentence": "We are going to visit Grandma ____.",
+        "translation": "我們明天打算拜訪奶奶。",
+        "context": "請填本課用語：明天。",
+        "explanation": "We are going to visit Grandma tomorrow. 我們明天打算拜訪奶奶。"
+      },
+      {
+        "id": "tomorrow-3",
+        "target": "tomorrow",
+        "answer": "tomorrow",
+        "sentence": "I will finish this drawing ____, not today.",
+        "translation": "我明天才會完成這幅畫，不是今天。",
+        "context": "請填本課用語：明天。",
+        "explanation": "I will finish this drawing tomorrow, not today. 我明天才會完成這幅畫，不是今天。"
+      },
+      {
+        "id": "walk-1",
+        "target": "walk",
+        "answer": "walk",
+        "sentence": "I ____ to school every morning.",
+        "translation": "我每天早上走路上學。",
+        "context": "請填本課用語：走路、步行（動詞原形）。",
+        "explanation": "I walk to school every morning. 我每天早上走路上學。"
+      },
+      {
+        "id": "walk-2",
+        "target": "walk",
+        "answer": "walk",
+        "sentence": "We are going to ____ around the lake tomorrow.",
+        "translation": "我們明天打算沿著湖散步。",
+        "context": "請填本課用語：走路、步行（動詞原形）。",
+        "explanation": "We are going to walk around the lake tomorrow. 我們明天打算沿著湖散步。"
+      },
+      {
+        "id": "walk-3",
+        "target": "walk",
+        "answer": "walk",
+        "sentence": "Please ____ slowly on the wet path.",
+        "translation": "請在濕滑的小路上慢慢走。",
+        "context": "請填本課用語：走路、步行（動詞原形）。",
+        "explanation": "Please walk slowly on the wet path. 請在濕滑的小路上慢慢走。"
+      },
+      {
+        "id": "fly-1",
+        "target": "fly",
+        "answer": "fly",
+        "sentence": "We are going to ____ a kite tomorrow.",
+        "translation": "我們明天打算放風箏。",
+        "context": "請填本課用語：飛、放風箏的「放」（動詞原形）。",
+        "explanation": "We are going to fly a kite tomorrow. 我們明天打算放風箏。"
+      },
+      {
+        "id": "fly-2",
+        "target": "fly",
+        "answer": "fly",
+        "sentence": "Birds can ____ high in the sky.",
+        "translation": "鳥可以在天空中飛得很高。",
+        "context": "請填本課用語：飛、放風箏的「放」（動詞原形）。",
+        "explanation": "Birds can fly high in the sky. 鳥可以在天空中飛得很高。"
+      },
+      {
+        "id": "fly-3",
+        "target": "fly",
+        "answer": "fly",
+        "sentence": "I want to learn how to ____ this kite.",
+        "translation": "我想學怎麼放這隻風箏。",
+        "context": "請填本課用語：飛、放風箏的「放」（動詞原形）。",
+        "explanation": "I want to learn how to fly this kite. 我想學怎麼放這隻風箏。"
+      },
+      {
+        "id": "study-1",
+        "target": "study",
+        "answer": "study",
+        "sentence": "I am going to ____ for the test tonight.",
+        "translation": "我今晚打算為考試唸書。",
+        "context": "請填本課用語：唸書、研讀（動詞原形）。",
+        "explanation": "I am going to study for the test tonight. 我今晚打算為考試唸書。"
+      },
+      {
+        "id": "study-2",
+        "target": "study",
+        "answer": "study",
+        "sentence": "We ____ English together after school.",
+        "translation": "我們放學後一起研讀英文。",
+        "context": "請填本課用語：唸書、研讀（動詞原形）。",
+        "explanation": "We study English together after school. 我們放學後一起研讀英文。"
+      },
+      {
+        "id": "study-3",
+        "target": "study",
+        "answer": "study",
+        "sentence": "Where do you like to ____ when you need a quiet place?",
+        "translation": "需要安靜的地方時，你喜歡在哪裡唸書？",
+        "context": "請填本課用語：唸書、研讀（動詞原形）。",
+        "explanation": "Where do you like to study when you need a quiet place? 需要安靜的地方時，你喜歡在哪裡唸書？"
+      },
+      {
+        "id": "every-day-1",
+        "target": "every day",
+        "answer": "every day",
+        "sentence": "I brush my teeth ____.",
+        "translation": "我每天刷牙。",
+        "context": "請填本課用語：每天（兩個字）。",
+        "explanation": "I brush my teeth every day. 我每天刷牙。"
+      },
+      {
+        "id": "every-day-2",
+        "target": "every day",
+        "answer": "every day",
+        "sentence": "He takes his dog for a walk ____.",
+        "translation": "他每天帶狗散步。",
+        "context": "請填本課用語：每天（兩個字）。",
+        "explanation": "He takes his dog for a walk every day. 他每天帶狗散步。"
+      },
+      {
+        "id": "every-day-3",
+        "target": "every day",
+        "answer": "every day",
+        "sentence": "We read for ten minutes ____, from Monday to Sunday.",
+        "translation": "我們每天讀十分鐘的書，從星期一到星期日都一樣。",
+        "context": "請填本課用語：每天（兩個字）。",
+        "explanation": "We read for ten minutes every day, from Monday to Sunday. 我們每天讀十分鐘的書，從星期一到星期日都一樣。"
+      },
+      {
+        "id": "thing-1",
+        "target": "thing",
+        "answer": "thing",
+        "sentence": "What is that round ____ on the table?",
+        "translation": "桌上那個圓圓的東西是什麼？",
+        "context": "請填本課用語：事、物（單數）。",
+        "explanation": "What is that round thing on the table? 桌上那個圓圓的東西是什麼？"
+      },
+      {
+        "id": "thing-2",
+        "target": "thing",
+        "answer": "thing",
+        "sentence": "The first ____ I do in the morning is wash my face.",
+        "translation": "我早上做的第一件事是洗臉。",
+        "context": "請填本課用語：事、物（單數）。",
+        "explanation": "The first thing I do in the morning is wash my face. 我早上做的第一件事是洗臉。"
+      },
+      {
+        "id": "thing-3",
+        "target": "thing",
+        "answer": "thing",
+        "sentence": "Please put one ____ in the box at a time.",
+        "translation": "請一次放一樣東西進盒子。",
+        "context": "請填本課用語：事、物（單數）。",
+        "explanation": "Please put one thing in the box at a time. 請一次放一樣東西進盒子。"
+      },
+      {
+        "id": "all-1",
+        "target": "all",
+        "answer": "all",
+        "sentence": "I put ____ my books in the bag. None are left on the desk.",
+        "translation": "我把所有的書放進包裡，桌上一本也沒留下。",
+        "context": "請填本課用語：所有的、全部的（小寫）。",
+        "explanation": "I put all my books in the bag. None are left on the desk. 我把所有的書放進包裡，桌上一本也沒留下。"
+      },
+      {
+        "id": "all-2",
+        "target": "all",
+        "answer": "all",
+        "sentence": "The teacher gave ____ the children a sticker.",
+        "translation": "老師給所有孩子各一張貼紙。",
+        "context": "請填本課用語：所有的、全部的（小寫）。",
+        "explanation": "The teacher gave all the children a sticker. 老師給所有孩子各一張貼紙。"
+      },
+      {
+        "id": "all-3",
+        "target": "all",
+        "answer": "all",
+        "sentence": "We finished ____ our homework before dinner.",
+        "translation": "我們晚餐前完成了全部功課。",
+        "context": "請填本課用語：所有的、全部的（小寫）。",
+        "explanation": "We finished all our homework before dinner. 我們晚餐前完成了全部功課。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
