@@ -232,3 +232,15 @@ mountain 改用本機 Microsoft Zira Desktop（en-US）匯出的英文示範 MP3
 依單字表加入 where、at、on、classroom、group、tell、go、it、there are、there is 共 10 個目標。使用家長提供的 `37 U5 Places in Our School-4 SW.mp3` 切成 `audio/unit5/` 的 10 段真人發音，依本機語音辨識時間加前後留白，來源原檔未改動。切分紀錄及來源雜湊保存在本機 `.audio-work/unit5-cuts.json`。
 
 U1～U5 綜合考卷僅作相关句型參考（年份未提供），新編 U5 的 30 題二選一，每個單字／句型目標 3 種情境。句首 Where、It、There is、There are 使用大寫，拼字題則保留單字表小寫。單元紀錄 g1-u5-v1:r1；支援自選、綜合與跨年級，既有單課紀錄保留。現在克漏字共 22 課、324 個目標、972 種情境。
+
+## 二年級 U5 單字、音檔與 Quiz
+
+新增 December、month、January～November 共 13 個單字，月份字首大寫。使用家長提供的 `38 U5 My Birthday -7 SW.mp3`，依本機辨識時間切為 `audio/grade2/unit5/` 的 13 段教材錄音；來源雜湊與時間紀錄位於本機 `.audio-work/grade2-unit5-cuts.json`，原檔不改動。
+
+參考 U5 Quiz（年份未註明）新編 39 題三選一，每個目標 3 種情境，涵蓋生日日期、月份序位、前後月份及 month。日期數字保留在句中，專注月份辨識。支援自選、整課 13 題、綜合與跨年級，紀錄 g2-u5-v1:r1。單元卡片使用 🎂。目前克漏字共 23 課、337 個目標、1,011 種情境。
+
+## 三年級 U5 單字、音檔與 Quiz
+
+新增 15 個目標（星期、date、運動、friend、practice、parents），星期字首大寫；practice 同時練習單字表名詞及 Quiz 動詞用法。家長提供的 `32 U5 Days of the Week -6 SW.mp3` 切為 `audio/grade3/unit5/` 的 15 段教材錄音，時間與來源雜湊存於本機 `.audio-work/grade3-unit5-cuts.json`，原檔未改動。
+
+新編 45 題填空，每個目標 3 種情境，支援自選、整課 15 題與混合練習，紀錄 g3-u5-v1:r1。Quiz 年份未提供，沒有套用其他單元年份；卡片使用 📅。目前克漏字共 24 課、352 個目標、1,056 種情境。

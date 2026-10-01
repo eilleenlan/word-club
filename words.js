@@ -7,6 +7,136 @@
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
 {
+  "grade": 3,
+  "id": "u5",
+  "number": "05",
+  "title": "星期與活動計畫",
+  "subtitle": "Wednesday, tennis, practice…",
+  "words": [
+    [
+      "Wednesday",
+      "星期三"
+    ],
+    [
+      "Saturday",
+      "星期六"
+    ],
+    [
+      "date",
+      "日期"
+    ],
+    [
+      "Sunday",
+      "星期日"
+    ],
+    [
+      "Monday",
+      "星期一"
+    ],
+    [
+      "Tuesday",
+      "星期二"
+    ],
+    [
+      "Thursday",
+      "星期四"
+    ],
+    [
+      "Friday",
+      "星期五"
+    ],
+    [
+      "tennis",
+      "網球"
+    ],
+    [
+      "basketball",
+      "籃球"
+    ],
+    [
+      "baseball",
+      "棒球"
+    ],
+    [
+      "friend",
+      "朋友"
+    ],
+    [
+      "practice",
+      "練習"
+    ],
+    [
+      "parents",
+      "父母"
+    ],
+    [
+      "soccer",
+      "足球"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u5",
+  "number": "05",
+  "title": "我的生日",
+  "subtitle": "December, month, January…",
+  "words": [
+    [
+      "December",
+      "十二月"
+    ],
+    [
+      "month",
+      "月"
+    ],
+    [
+      "January",
+      "一月"
+    ],
+    [
+      "February",
+      "二月"
+    ],
+    [
+      "March",
+      "三月"
+    ],
+    [
+      "April",
+      "四月"
+    ],
+    [
+      "May",
+      "五月"
+    ],
+    [
+      "June",
+      "六月"
+    ],
+    [
+      "July",
+      "七月"
+    ],
+    [
+      "August",
+      "八月"
+    ],
+    [
+      "September",
+      "九月"
+    ],
+    [
+      "October",
+      "十月"
+    ],
+    [
+      "November",
+      "十一月"
+    ]
+  ]
+},
+{
   "grade": 1,
   "id": "u5",
   "number": "05",

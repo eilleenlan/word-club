@@ -10246,6 +10246,984 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "There is one bag on the chair. 椅子上有一個包包。 單數用 There is。"
       }
     ]
+  },
+  {
+    "id": "g2-u5-v1",
+    "grade": 2,
+    "unit": 5,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "我的生日與月份",
+    "description": "13 個單字目標，各 3 種情境，共 39 題三選一。練習生日日期、月份順序及 month；可自選範圍。",
+    "source": "依家長提供的二年級 U5 單字表與 Quiz 新編情境，考卷年份未註明。",
+    "questions": [
+      {
+        "id": "january-1",
+        "target": "January",
+        "answer": "January",
+        "options": [
+          "January",
+          "February",
+          "August"
+        ],
+        "sentence": "My birthday is on ____ 8th.",
+        "translation": "我的生日是一月八日。",
+        "context": "情境：我的生日是一月八日。",
+        "explanation": "My birthday is on January 8th. 我的生日是一月八日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "january-2",
+        "target": "January",
+        "answer": "January",
+        "options": [
+          "January",
+          "March",
+          "September"
+        ],
+        "sentence": "____ is the first month of the year.",
+        "translation": "一月是一年中的第一個月。",
+        "context": "選出正確的月份。",
+        "explanation": "January is the first month of the year. 一月是一年中的第一個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "january-3",
+        "target": "January",
+        "answer": "January",
+        "options": [
+          "January",
+          "April",
+          "October"
+        ],
+        "sentence": "The month after December is ____.",
+        "translation": "十二月的下一個月是一月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after December is January. 十二月的下一個月是一月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "february-1",
+        "target": "February",
+        "answer": "February",
+        "options": [
+          "February",
+          "March",
+          "September"
+        ],
+        "sentence": "The party is on ____ 3rd.",
+        "translation": "派對在二月三日。",
+        "context": "情境：派對在二月三日。",
+        "explanation": "The party is on February 3rd. 派對在二月三日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "february-2",
+        "target": "February",
+        "answer": "February",
+        "options": [
+          "February",
+          "April",
+          "October"
+        ],
+        "sentence": "____ is the second month of the year.",
+        "translation": "二月是一年中的第二個月。",
+        "context": "選出正確的月份。",
+        "explanation": "February is the second month of the year. 二月是一年中的第二個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "february-3",
+        "target": "February",
+        "answer": "February",
+        "options": [
+          "February",
+          "May",
+          "November"
+        ],
+        "sentence": "The month after January is ____.",
+        "translation": "一月的下一個月是二月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after January is February. 一月的下一個月是二月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "march-1",
+        "target": "March",
+        "answer": "March",
+        "options": [
+          "March",
+          "April",
+          "October"
+        ],
+        "sentence": "Our school trip is on ____ 12th.",
+        "translation": "我們的校外教學在三月十二日。",
+        "context": "情境：我們的校外教學在三月十二日。",
+        "explanation": "Our school trip is on March 12th. 我們的校外教學在三月十二日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "march-2",
+        "target": "March",
+        "answer": "March",
+        "options": [
+          "March",
+          "May",
+          "November"
+        ],
+        "sentence": "____ is the third month of the year.",
+        "translation": "三月是一年中的第三個月。",
+        "context": "選出正確的月份。",
+        "explanation": "March is the third month of the year. 三月是一年中的第三個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "march-3",
+        "target": "March",
+        "answer": "March",
+        "options": [
+          "March",
+          "June",
+          "December"
+        ],
+        "sentence": "The month after February is ____.",
+        "translation": "二月的下一個月是三月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after February is March. 二月的下一個月是三月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "april-1",
+        "target": "April",
+        "answer": "April",
+        "options": [
+          "April",
+          "May",
+          "November"
+        ],
+        "sentence": "The picnic is on ____ 6th.",
+        "translation": "野餐在四月六日。",
+        "context": "情境：野餐在四月六日。",
+        "explanation": "The picnic is on April 6th. 野餐在四月六日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "april-2",
+        "target": "April",
+        "answer": "April",
+        "options": [
+          "April",
+          "June",
+          "December"
+        ],
+        "sentence": "____ is the fourth month of the year.",
+        "translation": "四月是一年中的第四個月。",
+        "context": "選出正確的月份。",
+        "explanation": "April is the fourth month of the year. 四月是一年中的第四個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "april-3",
+        "target": "April",
+        "answer": "April",
+        "options": [
+          "April",
+          "July",
+          "January"
+        ],
+        "sentence": "The month after March is ____.",
+        "translation": "三月的下一個月是四月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after March is April. 三月的下一個月是四月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "may-1",
+        "target": "May",
+        "answer": "May",
+        "options": [
+          "May",
+          "June",
+          "December"
+        ],
+        "sentence": "Mom's birthday is on ____ 21st.",
+        "translation": "媽媽的生日是五月二十一日。",
+        "context": "情境：媽媽的生日是五月二十一日。",
+        "explanation": "Mom's birthday is on May 21st. 媽媽的生日是五月二十一日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "may-2",
+        "target": "May",
+        "answer": "May",
+        "options": [
+          "May",
+          "July",
+          "January"
+        ],
+        "sentence": "____ is the fifth month of the year.",
+        "translation": "五月是一年中的第五個月。",
+        "context": "選出正確的月份。",
+        "explanation": "May is the fifth month of the year. 五月是一年中的第五個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "may-3",
+        "target": "May",
+        "answer": "May",
+        "options": [
+          "May",
+          "August",
+          "February"
+        ],
+        "sentence": "The month after April is ____.",
+        "translation": "四月的下一個月是五月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after April is May. 四月的下一個月是五月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "june-1",
+        "target": "June",
+        "answer": "June",
+        "options": [
+          "June",
+          "July",
+          "January"
+        ],
+        "sentence": "The concert is on ____ 9th.",
+        "translation": "音樂會在六月九日。",
+        "context": "情境：音樂會在六月九日。",
+        "explanation": "The concert is on June 9th. 音樂會在六月九日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "june-2",
+        "target": "June",
+        "answer": "June",
+        "options": [
+          "June",
+          "August",
+          "February"
+        ],
+        "sentence": "____ is the sixth month of the year.",
+        "translation": "六月是一年中的第六個月。",
+        "context": "選出正確的月份。",
+        "explanation": "June is the sixth month of the year. 六月是一年中的第六個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "june-3",
+        "target": "June",
+        "answer": "June",
+        "options": [
+          "June",
+          "September",
+          "March"
+        ],
+        "sentence": "The month after May is ____.",
+        "translation": "五月的下一個月是六月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after May is June. 五月的下一個月是六月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "july-1",
+        "target": "July",
+        "answer": "July",
+        "options": [
+          "July",
+          "August",
+          "February"
+        ],
+        "sentence": "We will visit Grandma on ____ 15th.",
+        "translation": "我們將在七月十五日拜訪奶奶。",
+        "context": "情境：我們將在七月十五日拜訪奶奶。",
+        "explanation": "We will visit Grandma on July 15th. 我們將在七月十五日拜訪奶奶。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "july-2",
+        "target": "July",
+        "answer": "July",
+        "options": [
+          "July",
+          "September",
+          "March"
+        ],
+        "sentence": "____ is the seventh month of the year.",
+        "translation": "七月是一年中的第七個月。",
+        "context": "選出正確的月份。",
+        "explanation": "July is the seventh month of the year. 七月是一年中的第七個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "july-3",
+        "target": "July",
+        "answer": "July",
+        "options": [
+          "July",
+          "October",
+          "April"
+        ],
+        "sentence": "The month after June is ____.",
+        "translation": "六月的下一個月是七月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after June is July. 六月的下一個月是七月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "august-1",
+        "target": "August",
+        "answer": "August",
+        "options": [
+          "August",
+          "September",
+          "March"
+        ],
+        "sentence": "The swimming lesson is on ____ 7th.",
+        "translation": "游泳課在八月七日。",
+        "context": "情境：游泳課在八月七日。",
+        "explanation": "The swimming lesson is on August 7th. 游泳課在八月七日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "august-2",
+        "target": "August",
+        "answer": "August",
+        "options": [
+          "August",
+          "October",
+          "April"
+        ],
+        "sentence": "____ is the eighth month of the year.",
+        "translation": "八月是一年中的第八個月。",
+        "context": "選出正確的月份。",
+        "explanation": "August is the eighth month of the year. 八月是一年中的第八個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "august-3",
+        "target": "August",
+        "answer": "August",
+        "options": [
+          "August",
+          "November",
+          "May"
+        ],
+        "sentence": "The month after July is ____.",
+        "translation": "七月的下一個月是八月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after July is August. 七月的下一個月是八月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "september-1",
+        "target": "September",
+        "answer": "September",
+        "options": [
+          "September",
+          "October",
+          "April"
+        ],
+        "sentence": "The class party is on ____ 18th.",
+        "translation": "班級派對在九月十八日。",
+        "context": "情境：班級派對在九月十八日。",
+        "explanation": "The class party is on September 18th. 班級派對在九月十八日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "september-2",
+        "target": "September",
+        "answer": "September",
+        "options": [
+          "September",
+          "November",
+          "May"
+        ],
+        "sentence": "____ is the ninth month of the year.",
+        "translation": "九月是一年中的第九個月。",
+        "context": "選出正確的月份。",
+        "explanation": "September is the ninth month of the year. 九月是一年中的第九個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "september-3",
+        "target": "September",
+        "answer": "September",
+        "options": [
+          "September",
+          "December",
+          "June"
+        ],
+        "sentence": "The month after August is ____.",
+        "translation": "八月的下一個月是九月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after August is September. 八月的下一個月是九月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "october-1",
+        "target": "October",
+        "answer": "October",
+        "options": [
+          "October",
+          "November",
+          "May"
+        ],
+        "sentence": "The game is on ____ 17th.",
+        "translation": "比賽在十月十七日。",
+        "context": "情境：比賽在十月十七日。",
+        "explanation": "The game is on October 17th. 比賽在十月十七日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "october-2",
+        "target": "October",
+        "answer": "October",
+        "options": [
+          "October",
+          "December",
+          "June"
+        ],
+        "sentence": "____ is the tenth month of the year.",
+        "translation": "十月是一年中的第十個月。",
+        "context": "選出正確的月份。",
+        "explanation": "October is the tenth month of the year. 十月是一年中的第十個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "october-3",
+        "target": "October",
+        "answer": "October",
+        "options": [
+          "October",
+          "January",
+          "July"
+        ],
+        "sentence": "The month after September is ____.",
+        "translation": "九月的下一個月是十月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after September is October. 九月的下一個月是十月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "november-1",
+        "target": "November",
+        "answer": "November",
+        "options": [
+          "November",
+          "December",
+          "June"
+        ],
+        "sentence": "Dad's birthday is on ____ 10th.",
+        "translation": "爸爸的生日是十一月十日。",
+        "context": "情境：爸爸的生日是十一月十日。",
+        "explanation": "Dad's birthday is on November 10th. 爸爸的生日是十一月十日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "november-2",
+        "target": "November",
+        "answer": "November",
+        "options": [
+          "November",
+          "January",
+          "July"
+        ],
+        "sentence": "____ is the eleventh month of the year.",
+        "translation": "十一月是一年中的第十一個月。",
+        "context": "選出正確的月份。",
+        "explanation": "November is the eleventh month of the year. 十一月是一年中的第十一個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "november-3",
+        "target": "November",
+        "answer": "November",
+        "options": [
+          "November",
+          "February",
+          "August"
+        ],
+        "sentence": "The month after October is ____.",
+        "translation": "十月的下一個月是十一月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after October is November. 十月的下一個月是十一月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "december-1",
+        "target": "December",
+        "answer": "December",
+        "options": [
+          "December",
+          "January",
+          "July"
+        ],
+        "sentence": "The school show is on ____ 20th.",
+        "translation": "學校表演在十二月二十日。",
+        "context": "情境：學校表演在十二月二十日。",
+        "explanation": "The school show is on December 20th. 學校表演在十二月二十日。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "december-2",
+        "target": "December",
+        "answer": "December",
+        "options": [
+          "December",
+          "February",
+          "August"
+        ],
+        "sentence": "____ is the twelfth month of the year.",
+        "translation": "十二月是一年中的第十二個月。",
+        "context": "選出正確的月份。",
+        "explanation": "December is the twelfth month of the year. 十二月是一年中的第十二個月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "december-3",
+        "target": "December",
+        "answer": "December",
+        "options": [
+          "December",
+          "March",
+          "September"
+        ],
+        "sentence": "The month after November is ____.",
+        "translation": "十一月的下一個月是十二月。",
+        "context": "選出正確的月份。",
+        "explanation": "The month after November is December. 十一月的下一個月是十二月。 月份英文的字首要大寫。"
+      },
+      {
+        "id": "month-1",
+        "target": "month",
+        "answer": "month",
+        "options": [
+          "month",
+          "day",
+          "year"
+        ],
+        "sentence": "There are twelve months in a year. January is the first ____.",
+        "translation": "一年有十二個月，一月是第一個月。",
+        "context": "情境：一年有十二個月，一月是第一個月。",
+        "explanation": "There are twelve months in a year. January is the first month. month 是「月」，day 是「天」，year 是「年」。"
+      },
+      {
+        "id": "month-2",
+        "target": "month",
+        "answer": "month",
+        "options": [
+          "month",
+          "day",
+          "year"
+        ],
+        "sentence": "Which ____ is your birthday in?",
+        "translation": "你的生日在哪一個月？",
+        "context": "情境：你的生日在哪一個月？",
+        "explanation": "Which month is your birthday in? month 是「月」，day 是「天」，year 是「年」。"
+      },
+      {
+        "id": "month-3",
+        "target": "month",
+        "answer": "month",
+        "options": [
+          "month",
+          "day",
+          "year"
+        ],
+        "sentence": "December is the last ____ of the year.",
+        "translation": "十二月是一年中的最後一個月。",
+        "context": "情境：十二月是一年中的最後一個月。",
+        "explanation": "December is the last month of the year. month 是「月」，day 是「天」，year 是「年」。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u5-v1",
+    "grade": 3,
+    "unit": 5,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "星期與活動計畫",
+    "description": "15 個單字，每個目標 3 種情境，共 45 題。練習星期、日期、運動與活動計畫；可自選範圍。",
+    "source": "依家長提供的三年級 U5 單字表與 Quiz 新編情境，考卷年份未註明。",
+    "questions": [
+      {
+        "id": "wednesday-1",
+        "target": "Wednesday",
+        "answer": "Wednesday",
+        "sentence": "Today is Tuesday. Tomorrow is ____.",
+        "translation": "今天星期二，明天星期三。",
+        "context": "請填本課用語：星期三（字首大寫）。",
+        "explanation": "Today is Tuesday. Tomorrow is Wednesday. 今天星期二，明天星期三。"
+      },
+      {
+        "id": "wednesday-2",
+        "target": "Wednesday",
+        "answer": "Wednesday",
+        "sentence": "Our music lesson is on ____.",
+        "translation": "我們的音樂課在星期三。",
+        "context": "請填本課用語：星期三（字首大寫）。",
+        "explanation": "Our music lesson is on Wednesday. 我們的音樂課在星期三。"
+      },
+      {
+        "id": "wednesday-3",
+        "target": "Wednesday",
+        "answer": "Wednesday",
+        "sentence": "____ comes between Tuesday and Thursday.",
+        "translation": "星期三在星期二和星期四之間。",
+        "context": "請填本課用語：星期三（字首大寫）。",
+        "explanation": "Wednesday comes between Tuesday and Thursday. 星期三在星期二和星期四之間。"
+      },
+      {
+        "id": "saturday-1",
+        "target": "Saturday",
+        "answer": "Saturday",
+        "sentence": "Today is Friday. Tomorrow is ____.",
+        "translation": "今天星期五，明天星期六。",
+        "context": "請填本課用語：星期六（字首大寫）。",
+        "explanation": "Today is Friday. Tomorrow is Saturday. 今天星期五，明天星期六。"
+      },
+      {
+        "id": "saturday-2",
+        "target": "Saturday",
+        "answer": "Saturday",
+        "sentence": "We are going to the park on ____.",
+        "translation": "我們星期六打算去公園。",
+        "context": "請填本課用語：星期六（字首大寫）。",
+        "explanation": "We are going to the park on Saturday. 我們星期六打算去公園。"
+      },
+      {
+        "id": "saturday-3",
+        "target": "Saturday",
+        "answer": "Saturday",
+        "sentence": "The day before Sunday is ____.",
+        "translation": "星期日前一天是星期六。",
+        "context": "請填本課用語：星期六（字首大寫）。",
+        "explanation": "The day before Sunday is Saturday. 星期日前一天是星期六。"
+      },
+      {
+        "id": "date-1",
+        "target": "date",
+        "answer": "date",
+        "sentence": "What is the ____ today? It is May 6th.",
+        "translation": "今天幾月幾日？五月六日。",
+        "context": "請填本課用語：日期。",
+        "explanation": "What is the date today? It is May 6th. 今天幾月幾日？五月六日。"
+      },
+      {
+        "id": "date-2",
+        "target": "date",
+        "answer": "date",
+        "sentence": "Please write the ____ at the top of your homework.",
+        "translation": "請把日期寫在作業最上方。",
+        "context": "請填本課用語：日期。",
+        "explanation": "Please write the date at the top of your homework. 請把日期寫在作業最上方。"
+      },
+      {
+        "id": "date-3",
+        "target": "date",
+        "answer": "date",
+        "sentence": "Do you know the ____ of the class trip?",
+        "translation": "你知道班級旅行的日期嗎？",
+        "context": "請填本課用語：日期。",
+        "explanation": "Do you know the date of the class trip? 你知道班級旅行的日期嗎？"
+      },
+      {
+        "id": "sunday-1",
+        "target": "Sunday",
+        "answer": "Sunday",
+        "sentence": "Today is Saturday. Tomorrow is ____.",
+        "translation": "今天星期六，明天星期日。",
+        "context": "請填本課用語：星期日（字首大寫）。",
+        "explanation": "Today is Saturday. Tomorrow is Sunday. 今天星期六，明天星期日。"
+      },
+      {
+        "id": "sunday-2",
+        "target": "Sunday",
+        "answer": "Sunday",
+        "sentence": "We are going to visit Grandma on ____.",
+        "translation": "我們星期日打算拜訪奶奶。",
+        "context": "請填本課用語：星期日（字首大寫）。",
+        "explanation": "We are going to visit Grandma on Sunday. 我們星期日打算拜訪奶奶。"
+      },
+      {
+        "id": "sunday-3",
+        "target": "Sunday",
+        "answer": "Sunday",
+        "sentence": "The day before Monday is ____.",
+        "translation": "星期一的前一天是星期日。",
+        "context": "請填本課用語：星期日（字首大寫）。",
+        "explanation": "The day before Monday is Sunday. 星期一的前一天是星期日。"
+      },
+      {
+        "id": "monday-1",
+        "target": "Monday",
+        "answer": "Monday",
+        "sentence": "Today is Sunday. Tomorrow is ____.",
+        "translation": "今天星期日，明天星期一。",
+        "context": "請填本課用語：星期一（字首大寫）。",
+        "explanation": "Today is Sunday. Tomorrow is Monday. 今天星期日，明天星期一。"
+      },
+      {
+        "id": "monday-2",
+        "target": "Monday",
+        "answer": "Monday",
+        "sentence": "I have a piano lesson on ____.",
+        "translation": "我星期一有鋼琴課。",
+        "context": "請填本課用語：星期一（字首大寫）。",
+        "explanation": "I have a piano lesson on Monday. 我星期一有鋼琴課。"
+      },
+      {
+        "id": "monday-3",
+        "target": "Monday",
+        "answer": "Monday",
+        "sentence": "____ comes between Sunday and Tuesday.",
+        "translation": "星期一在星期日和星期二之間。",
+        "context": "請填本課用語：星期一（字首大寫）。",
+        "explanation": "Monday comes between Sunday and Tuesday. 星期一在星期日和星期二之間。"
+      },
+      {
+        "id": "tuesday-1",
+        "target": "Tuesday",
+        "answer": "Tuesday",
+        "sentence": "Today is Monday. Tomorrow is ____.",
+        "translation": "今天星期一，明天星期二。",
+        "context": "請填本課用語：星期二（字首大寫）。",
+        "explanation": "Today is Monday. Tomorrow is Tuesday. 今天星期一，明天星期二。"
+      },
+      {
+        "id": "tuesday-2",
+        "target": "Tuesday",
+        "answer": "Tuesday",
+        "sentence": "She is going to swim on ____.",
+        "translation": "她星期二打算游泳。",
+        "context": "請填本課用語：星期二（字首大寫）。",
+        "explanation": "She is going to swim on Tuesday. 她星期二打算游泳。"
+      },
+      {
+        "id": "tuesday-3",
+        "target": "Tuesday",
+        "answer": "Tuesday",
+        "sentence": "The day before Wednesday is ____.",
+        "translation": "星期三的前一天是星期二。",
+        "context": "請填本課用語：星期二（字首大寫）。",
+        "explanation": "The day before Wednesday is Tuesday. 星期三的前一天是星期二。"
+      },
+      {
+        "id": "thursday-1",
+        "target": "Thursday",
+        "answer": "Thursday",
+        "sentence": "Today is Wednesday. Tomorrow is ____.",
+        "translation": "今天星期三，明天星期四。",
+        "context": "請填本課用語：星期四（字首大寫）。",
+        "explanation": "Today is Wednesday. Tomorrow is Thursday. 今天星期三，明天星期四。"
+      },
+      {
+        "id": "thursday-2",
+        "target": "Thursday",
+        "answer": "Thursday",
+        "sentence": "We are going to read together on ____.",
+        "translation": "我們星期四打算一起閱讀。",
+        "context": "請填本課用語：星期四（字首大寫）。",
+        "explanation": "We are going to read together on Thursday. 我們星期四打算一起閱讀。"
+      },
+      {
+        "id": "thursday-3",
+        "target": "Thursday",
+        "answer": "Thursday",
+        "sentence": "____ comes between Wednesday and Friday.",
+        "translation": "星期四在星期三和星期五之間。",
+        "context": "請填本課用語：星期四（字首大寫）。",
+        "explanation": "Thursday comes between Wednesday and Friday. 星期四在星期三和星期五之間。"
+      },
+      {
+        "id": "friday-1",
+        "target": "Friday",
+        "answer": "Friday",
+        "sentence": "Today is Saturday. Yesterday was ____.",
+        "translation": "今天星期六，昨天星期五。",
+        "context": "請填本課用語：星期五（字首大寫）。",
+        "explanation": "Today is Saturday. Yesterday was Friday. 今天星期六，昨天星期五。"
+      },
+      {
+        "id": "friday-2",
+        "target": "Friday",
+        "answer": "Friday",
+        "sentence": "The school show is on ____.",
+        "translation": "學校表演在星期五。",
+        "context": "請填本課用語：星期五（字首大寫）。",
+        "explanation": "The school show is on Friday. 學校表演在星期五。"
+      },
+      {
+        "id": "friday-3",
+        "target": "Friday",
+        "answer": "Friday",
+        "sentence": "____ comes between Thursday and Saturday.",
+        "translation": "星期五在星期四和星期六之間。",
+        "context": "請填本課用語：星期五（字首大寫）。",
+        "explanation": "Friday comes between Thursday and Saturday. 星期五在星期四和星期六之間。"
+      },
+      {
+        "id": "tennis-1",
+        "target": "tennis",
+        "answer": "tennis",
+        "sentence": "We use rackets to play ____.",
+        "translation": "我們用球拍打網球。",
+        "context": "請填本課用語：網球。",
+        "explanation": "We use rackets to play tennis. 我們用球拍打網球。"
+      },
+      {
+        "id": "tennis-2",
+        "target": "tennis",
+        "answer": "tennis",
+        "sentence": "She is going to play ____ on the court tomorrow.",
+        "translation": "她明天打算在球場打網球。",
+        "context": "請填本課用語：網球。",
+        "explanation": "She is going to play tennis on the court tomorrow. 她明天打算在球場打網球。"
+      },
+      {
+        "id": "tennis-3",
+        "target": "tennis",
+        "answer": "tennis",
+        "sentence": "He hit the ball over the net during the ____ game.",
+        "translation": "他在網球比賽中把球擊過網子。",
+        "context": "請填本課用語：網球。",
+        "explanation": "He hit the ball over the net during the tennis game. 他在網球比賽中把球擊過網子。"
+      },
+      {
+        "id": "basketball-1",
+        "target": "basketball",
+        "answer": "basketball",
+        "sentence": "We are going to play ____ after school.",
+        "translation": "我們放學後打算打籃球。",
+        "context": "請填本課用語：籃球。",
+        "explanation": "We are going to play basketball after school. 我們放學後打算打籃球。"
+      },
+      {
+        "id": "basketball-2",
+        "target": "basketball",
+        "answer": "basketball",
+        "sentence": "She threw the ball into the hoop during the ____ game.",
+        "translation": "她在籃球比賽中把球投進籃框。",
+        "context": "請填本課用語：籃球。",
+        "explanation": "She threw the ball into the hoop during the basketball game. 她在籃球比賽中把球投進籃框。"
+      },
+      {
+        "id": "basketball-3",
+        "target": "basketball",
+        "answer": "basketball",
+        "sentence": "He likes to bounce the ball when he plays ____.",
+        "translation": "他打籃球時喜歡運球。",
+        "context": "請填本課用語：籃球。",
+        "explanation": "He likes to bounce the ball when he plays basketball. 他打籃球時喜歡運球。"
+      },
+      {
+        "id": "baseball-1",
+        "target": "baseball",
+        "answer": "baseball",
+        "sentence": "He hit the ball with a bat in the ____ game.",
+        "translation": "他在棒球比賽中用球棒擊球。",
+        "context": "請填本課用語：棒球。",
+        "explanation": "He hit the ball with a bat in the baseball game. 他在棒球比賽中用球棒擊球。"
+      },
+      {
+        "id": "baseball-2",
+        "target": "baseball",
+        "answer": "baseball",
+        "sentence": "We are going to play ____ on the field tomorrow.",
+        "translation": "我們明天打算在球場打棒球。",
+        "context": "請填本課用語：棒球。",
+        "explanation": "We are going to play baseball on the field tomorrow. 我們明天打算在球場打棒球。"
+      },
+      {
+        "id": "baseball-3",
+        "target": "baseball",
+        "answer": "baseball",
+        "sentence": "She wears a glove to catch the ball when she plays ____.",
+        "translation": "她打棒球時戴手套接球。",
+        "context": "請填本課用語：棒球。",
+        "explanation": "She wears a glove to catch the ball when she plays baseball. 她打棒球時戴手套接球。"
+      },
+      {
+        "id": "friend-1",
+        "target": "friend",
+        "answer": "friend",
+        "sentence": "My best ____ likes the same games as I do.",
+        "translation": "我最好的朋友和我喜歡一樣的遊戲。",
+        "context": "請填本課用語：朋友（單數）。",
+        "explanation": "My best friend likes the same games as I do. 我最好的朋友和我喜歡一樣的遊戲。"
+      },
+      {
+        "id": "friend-2",
+        "target": "friend",
+        "answer": "friend",
+        "sentence": "I am going to meet a ____ at the park.",
+        "translation": "我打算在公園和一位朋友見面。",
+        "context": "請填本課用語：朋友（單數）。",
+        "explanation": "I am going to meet a friend at the park. 我打算在公園和一位朋友見面。"
+      },
+      {
+        "id": "friend-3",
+        "target": "friend",
+        "answer": "friend",
+        "sentence": "She made a new ____ at school.",
+        "translation": "她在學校交了一位新朋友。",
+        "context": "請填本課用語：朋友（單數）。",
+        "explanation": "She made a new friend at school. 她在學校交了一位新朋友。"
+      },
+      {
+        "id": "practice-1",
+        "target": "practice",
+        "answer": "practice",
+        "sentence": "You should ____ reading English every day.",
+        "translation": "你應該每天練習讀英文。",
+        "context": "請填本課用語：練習（依句意作動詞原形或名詞）。",
+        "explanation": "You should practice reading English every day. 你應該每天練習讀英文。"
+      },
+      {
+        "id": "practice-2",
+        "target": "practice",
+        "answer": "practice",
+        "sentence": "We have soccer ____ after school.",
+        "translation": "我們放學後有足球練習。",
+        "context": "請填本課用語：練習（依句意作動詞原形或名詞）。",
+        "explanation": "We have soccer practice after school. 我們放學後有足球練習。"
+      },
+      {
+        "id": "practice-3",
+        "target": "practice",
+        "answer": "practice",
+        "sentence": "I am going to ____ the piano tonight.",
+        "translation": "我今晚打算練鋼琴。",
+        "context": "請填本課用語：練習（依句意作動詞原形或名詞）。",
+        "explanation": "I am going to practice the piano tonight. 我今晚打算練鋼琴。"
+      },
+      {
+        "id": "parents-1",
+        "target": "parents",
+        "answer": "parents",
+        "sentence": "My ____ are my mother and father.",
+        "translation": "我的父母就是我的媽媽和爸爸。",
+        "context": "請填本課用語：父母（複數）。",
+        "explanation": "My parents are my mother and father. 我的父母就是我的媽媽和爸爸。"
+      },
+      {
+        "id": "parents-2",
+        "target": "parents",
+        "answer": "parents",
+        "sentence": "Her ____ are coming to the school show.",
+        "translation": "她的父母要來看學校表演。",
+        "context": "請填本課用語：父母（複數）。",
+        "explanation": "Her parents are coming to the school show. 她的父母要來看學校表演。"
+      },
+      {
+        "id": "parents-3",
+        "target": "parents",
+        "answer": "parents",
+        "sentence": "I am going to visit the museum with my ____.",
+        "translation": "我打算和父母一起參觀博物館。",
+        "context": "請填本課用語：父母（複數）。",
+        "explanation": "I am going to visit the museum with my parents. 我打算和父母一起參觀博物館。"
+      },
+      {
+        "id": "soccer-1",
+        "target": "soccer",
+        "answer": "soccer",
+        "sentence": "We kick the ball when we play ____.",
+        "translation": "我們踢球來玩足球。",
+        "context": "請填本課用語：足球（課本美式用語）。",
+        "explanation": "We kick the ball when we play soccer. 我們踢球來玩足球。"
+      },
+      {
+        "id": "soccer-2",
+        "target": "soccer",
+        "answer": "soccer",
+        "sentence": "They are going to play ____ tomorrow afternoon.",
+        "translation": "他們明天下午打算踢足球。",
+        "context": "請填本課用語：足球（課本美式用語）。",
+        "explanation": "They are going to play soccer tomorrow afternoon. 他們明天下午打算踢足球。"
+      },
+      {
+        "id": "soccer-3",
+        "target": "soccer",
+        "answer": "soccer",
+        "sentence": "He kicked the ball into the goal during the ____ game.",
+        "translation": "他在足球比賽中把球踢進球門。",
+        "context": "請填本課用語：足球（課本美式用語）。",
+        "explanation": "He kicked the ball into the goal during the soccer game. 他在足球比賽中把球踢進球門。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
