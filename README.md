@@ -226,3 +226,9 @@ mountain 改用本機 Microsoft Zira Desktop（en-US）匯出的英文示範 MP3
 ## 三年級 U4（2024 Quiz）
 
 新增 15 個單字與片語各 3 種情境，共 45 題，採填空拼字。涵蓋公園活動、日常習慣與 be going to 計畫句型，field 用足球／棒球場，court 用籃球／網球場，every day 保留兩字。支援自選、整課 15 題及混合練習，紀錄使用 g3-u4-v1:r1。目前共 21 課、314 個目標、942 種情境；混合每輪 20 題時最多涵蓋 20 課。
+
+## 一年級 U5 單字、教材音檔與克漏字
+
+依單字表加入 where、at、on、classroom、group、tell、go、it、there are、there is 共 10 個目標。使用家長提供的 `37 U5 Places in Our School-4 SW.mp3` 切成 `audio/unit5/` 的 10 段真人發音，依本機語音辨識時間加前後留白，來源原檔未改動。切分紀錄及來源雜湊保存在本機 `.audio-work/unit5-cuts.json`。
+
+U1～U5 綜合考卷僅作相关句型參考（年份未提供），新編 U5 的 30 題二選一，每個單字／句型目標 3 種情境。句首 Where、It、There is、There are 使用大寫，拼字題則保留單字表小寫。單元紀錄 g1-u5-v1:r1；支援自選、綜合與跨年級，既有單課紀錄保留。現在克漏字共 22 課、324 個目標、972 種情境。

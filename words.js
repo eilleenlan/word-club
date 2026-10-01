@@ -6,6 +6,55 @@
    二年級來源：使用者提供的 All About Me - Book 2, Unit 1–4 單字表。
    每組資料依序為：英文、課本中文、可選的補充提示。 */
 globalThis.WORD_UNITS = [
+{
+  "grade": 1,
+  "id": "u5",
+  "number": "05",
+  "title": "學校裡的地方",
+  "subtitle": "where, classroom, there are…",
+  "words": [
+    [
+      "where",
+      "哪裡"
+    ],
+    [
+      "at",
+      "在，於"
+    ],
+    [
+      "on",
+      "在……之上"
+    ],
+    [
+      "classroom",
+      "教室"
+    ],
+    [
+      "group",
+      "組"
+    ],
+    [
+      "tell",
+      "告訴"
+    ],
+    [
+      "go",
+      "去"
+    ],
+    [
+      "it",
+      "它"
+    ],
+    [
+      "there are",
+      "有……（複數）"
+    ],
+    [
+      "there is",
+      "有……（單數）"
+    ]
+  ]
+},
   { grade: 1, id: 'u1', number: '01', title: '認識你和我', subtitle: 'this, name, I am…', words: [
     ['this', '這個', '用來指近處的人或東西。例：____ is a book.'],
     ['the', '這個', '課本中文為「這個」；放在名詞前，指特定的人或東西。例：Open ____ book.'],

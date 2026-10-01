@@ -9843,6 +9843,409 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "We finished all our homework before dinner. 我們晚餐前完成了全部功課。"
       }
     ]
+  },
+  {
+    "id": "g1-u5-v1",
+    "grade": 1,
+    "unit": 5,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "學校裡的地方",
+    "description": "10 個單字與句型目標，各 3 種情境，共 30 題二選一。練習位置問答、教室及 There is／There are；可自選範圍。",
+    "source": "依家長提供的一年級 U5 單字表及 U1～U5 綜合考卷中的相關句型新編；未提供單獨 U5 考卷，考卷年份未註明。",
+    "questions": [
+      {
+        "id": "where-1",
+        "target": "where",
+        "answer": "Where",
+        "options": [
+          "Where",
+          "Who"
+        ],
+        "sentence": "____ is Ben? He is at school.",
+        "translation": "Ben 在哪裡？他在學校。",
+        "context": "情境：Ben 在哪裡？他在學校。",
+        "explanation": "Where is Ben? He is at school. Ben 在哪裡？他在學校。"
+      },
+      {
+        "id": "where-2",
+        "target": "where",
+        "answer": "Where",
+        "options": [
+          "Where",
+          "Who"
+        ],
+        "sentence": "____ is my pen? It is on the desk.",
+        "translation": "我的筆在哪裡？它在桌上。",
+        "context": "情境：我的筆在哪裡？它在桌上。",
+        "explanation": "Where is my pen? It is on the desk. 我的筆在哪裡？它在桌上。"
+      },
+      {
+        "id": "where-3",
+        "target": "where",
+        "answer": "Where",
+        "options": [
+          "Where",
+          "Who"
+        ],
+        "sentence": "____ are the girls? They are in the classroom.",
+        "translation": "女孩們在哪裡？她們在教室裡。",
+        "context": "情境：女孩們在哪裡？她們在教室裡。",
+        "explanation": "Where are the girls? They are in the classroom. 女孩們在哪裡？她們在教室裡。"
+      },
+      {
+        "id": "at-1",
+        "target": "at",
+        "answer": "at",
+        "options": [
+          "at",
+          "on"
+        ],
+        "sentence": "I am ____ school.",
+        "translation": "我在學校。",
+        "context": "情境：我在學校。",
+        "explanation": "I am at school. 我在學校。"
+      },
+      {
+        "id": "at-2",
+        "target": "at",
+        "answer": "at",
+        "options": [
+          "at",
+          "on"
+        ],
+        "sentence": "She is ____ home.",
+        "translation": "她在家。",
+        "context": "情境：她在家。",
+        "explanation": "She is at home. 她在家。"
+      },
+      {
+        "id": "at-3",
+        "target": "at",
+        "answer": "at",
+        "options": [
+          "at",
+          "on"
+        ],
+        "sentence": "We are ____ the school gate.",
+        "translation": "我們在學校大門口。",
+        "context": "情境：我們在學校大門口。",
+        "explanation": "We are at the school gate. 我們在學校大門口。"
+      },
+      {
+        "id": "on-1",
+        "target": "on",
+        "answer": "on",
+        "options": [
+          "on",
+          "at"
+        ],
+        "sentence": "The book is ____ the desk.",
+        "translation": "書在桌上。",
+        "context": "情境：書在桌上。",
+        "explanation": "The book is on the desk. 書在桌上。"
+      },
+      {
+        "id": "on-2",
+        "target": "on",
+        "answer": "on",
+        "options": [
+          "on",
+          "at"
+        ],
+        "sentence": "My bag is ____ the chair.",
+        "translation": "我的包包在椅子上。",
+        "context": "情境：我的包包在椅子上。",
+        "explanation": "My bag is on the chair. 我的包包在椅子上。"
+      },
+      {
+        "id": "on-3",
+        "target": "on",
+        "answer": "on",
+        "options": [
+          "on",
+          "at"
+        ],
+        "sentence": "The pen is ____ the notebook.",
+        "translation": "筆在筆記本上。",
+        "context": "情境：筆在筆記本上。",
+        "explanation": "The pen is on the notebook. 筆在筆記本上。"
+      },
+      {
+        "id": "classroom-1",
+        "target": "classroom",
+        "answer": "classroom",
+        "options": [
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "We learn in our ____.",
+        "translation": "我們在教室裡學習。",
+        "context": "情境：我們在教室裡學習。",
+        "explanation": "We learn in our classroom. 我們在教室裡學習。"
+      },
+      {
+        "id": "classroom-2",
+        "target": "classroom",
+        "answer": "classroom",
+        "options": [
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "Our ____ has many desks.",
+        "translation": "我們的教室有許多書桌。",
+        "context": "情境：我們的教室有許多書桌。",
+        "explanation": "Our classroom has many desks. 我們的教室有許多書桌。"
+      },
+      {
+        "id": "classroom-3",
+        "target": "classroom",
+        "answer": "classroom",
+        "options": [
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "The teacher is in the ____.",
+        "translation": "老師在教室裡。",
+        "context": "情境：老師在教室裡。",
+        "explanation": "The teacher is in the classroom. 老師在教室裡。"
+      },
+      {
+        "id": "group-1",
+        "target": "group",
+        "answer": "group",
+        "options": [
+          "group",
+          "desk"
+        ],
+        "sentence": "I am in your ____.",
+        "translation": "我和你同一組。",
+        "context": "情境：我和你同一組。",
+        "explanation": "I am in your group. 我和你同一組。"
+      },
+      {
+        "id": "group-2",
+        "target": "group",
+        "answer": "group",
+        "options": [
+          "group",
+          "desk"
+        ],
+        "sentence": "There are three students in our ____.",
+        "translation": "我們這一組有三位學生。",
+        "context": "情境：我們這一組有三位學生。",
+        "explanation": "There are three students in our group. 我們這一組有三位學生。"
+      },
+      {
+        "id": "group-3",
+        "target": "group",
+        "answer": "group",
+        "options": [
+          "group",
+          "desk"
+        ],
+        "sentence": "This ____ has four children.",
+        "translation": "這一組有四位孩子。",
+        "context": "情境：這一組有四位孩子。",
+        "explanation": "This group has four children. 這一組有四位孩子。"
+      },
+      {
+        "id": "tell-1",
+        "target": "tell",
+        "answer": "tell",
+        "options": [
+          "tell",
+          "go"
+        ],
+        "sentence": "Please ____ me your name.",
+        "translation": "請告訴我你的名字。",
+        "context": "情境：請告訴我你的名字。",
+        "explanation": "Please tell me your name. 請告訴我你的名字。"
+      },
+      {
+        "id": "tell-2",
+        "target": "tell",
+        "answer": "tell",
+        "options": [
+          "tell",
+          "go"
+        ],
+        "sentence": "Can you ____ me where Ben is?",
+        "translation": "你可以告訴我 Ben 在哪裡嗎？",
+        "context": "情境：你可以告訴我 Ben 在哪裡嗎？",
+        "explanation": "Can you tell me where Ben is? 你可以告訴我 Ben 在哪裡嗎？"
+      },
+      {
+        "id": "tell-3",
+        "target": "tell",
+        "answer": "tell",
+        "options": [
+          "tell",
+          "go"
+        ],
+        "sentence": "Please ____ the teacher.",
+        "translation": "請告訴老師。",
+        "context": "情境：請告訴老師。",
+        "explanation": "Please tell the teacher. 請告訴老師。"
+      },
+      {
+        "id": "go-1",
+        "target": "go",
+        "answer": "go",
+        "options": [
+          "go",
+          "tell"
+        ],
+        "sentence": "Let's ____ to school.",
+        "translation": "我們去學校吧。",
+        "context": "情境：我們去學校吧。",
+        "explanation": "Let's go to school. 我們去學校吧。"
+      },
+      {
+        "id": "go-2",
+        "target": "go",
+        "answer": "go",
+        "options": [
+          "go",
+          "tell"
+        ],
+        "sentence": "I ____ home after school.",
+        "translation": "我放學後回家。",
+        "context": "情境：我放學後回家。",
+        "explanation": "I go home after school. 我放學後回家。"
+      },
+      {
+        "id": "go-3",
+        "target": "go",
+        "answer": "go",
+        "options": [
+          "go",
+          "tell"
+        ],
+        "sentence": "Please ____ to your classroom.",
+        "translation": "請去你的教室。",
+        "context": "情境：請去你的教室。",
+        "explanation": "Please go to your classroom. 請去你的教室。"
+      },
+      {
+        "id": "it-1",
+        "target": "it",
+        "answer": "It",
+        "options": [
+          "It",
+          "They"
+        ],
+        "sentence": "This is my bag. ____ is blue.",
+        "translation": "這是我的包包，它是藍色的。",
+        "context": "情境：這是我的包包，它是藍色的。",
+        "explanation": "This is my bag. It is blue. 這是我的包包，它是藍色的。"
+      },
+      {
+        "id": "it-2",
+        "target": "it",
+        "answer": "It",
+        "options": [
+          "It",
+          "They"
+        ],
+        "sentence": "Look at the book. ____ is new.",
+        "translation": "看看這本書，它是新的。",
+        "context": "情境：看看這本書，它是新的。",
+        "explanation": "Look at the book. It is new. 看看這本書，它是新的。"
+      },
+      {
+        "id": "it-3",
+        "target": "it",
+        "answer": "It",
+        "options": [
+          "It",
+          "They"
+        ],
+        "sentence": "That is a pen. ____ is on the desk.",
+        "translation": "那是一枝筆，它在桌上。",
+        "context": "情境：那是一枝筆，它在桌上。",
+        "explanation": "That is a pen. It is on the desk. 那是一枝筆，它在桌上。"
+      },
+      {
+        "id": "there-are-1",
+        "target": "there are",
+        "answer": "There are",
+        "options": [
+          "There are",
+          "There is"
+        ],
+        "sentence": "____ two books on the desk.",
+        "translation": "桌上有兩本書。",
+        "context": "情境：桌上有兩本書。",
+        "explanation": "There are two books on the desk. 桌上有兩本書。 複數用 There are。"
+      },
+      {
+        "id": "there-are-2",
+        "target": "there are",
+        "answer": "There are",
+        "options": [
+          "There are",
+          "There is"
+        ],
+        "sentence": "____ three girls in the classroom.",
+        "translation": "教室裡有三個女孩。",
+        "context": "情境：教室裡有三個女孩。",
+        "explanation": "There are three girls in the classroom. 教室裡有三個女孩。 複數用 There are。"
+      },
+      {
+        "id": "there-are-3",
+        "target": "there are",
+        "answer": "There are",
+        "options": [
+          "There are",
+          "There is"
+        ],
+        "sentence": "____ four chairs here.",
+        "translation": "這裡有四張椅子。",
+        "context": "情境：這裡有四張椅子。",
+        "explanation": "There are four chairs here. 這裡有四張椅子。 複數用 There are。"
+      },
+      {
+        "id": "there-is-1",
+        "target": "there is",
+        "answer": "There is",
+        "options": [
+          "There is",
+          "There are"
+        ],
+        "sentence": "____ a pen on the desk.",
+        "translation": "桌上有一枝筆。",
+        "context": "情境：桌上有一枝筆。",
+        "explanation": "There is a pen on the desk. 桌上有一枝筆。 單數用 There is。"
+      },
+      {
+        "id": "there-is-2",
+        "target": "there is",
+        "answer": "There is",
+        "options": [
+          "There is",
+          "There are"
+        ],
+        "sentence": "____ a teacher in the classroom.",
+        "translation": "教室裡有一位老師。",
+        "context": "情境：教室裡有一位老師。",
+        "explanation": "There is a teacher in the classroom. 教室裡有一位老師。 單數用 There is。"
+      },
+      {
+        "id": "there-is-3",
+        "target": "there is",
+        "answer": "There is",
+        "options": [
+          "There is",
+          "There are"
+        ],
+        "sentence": "____ one bag on the chair.",
+        "translation": "椅子上有一個包包。",
+        "context": "情境：椅子上有一個包包。",
+        "explanation": "There is one bag on the chair. 椅子上有一個包包。 單數用 There is。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
