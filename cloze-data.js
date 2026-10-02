@@ -11224,6 +11224,560 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "He kicked the ball into the goal during the soccer game. 他在足球比賽中把球踢進球門。"
       }
     ]
+  },
+  {
+    "id": "g6-u2-v1",
+    "grade": 6,
+    "unit": 2,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "天氣與衣著",
+    "description": "練習天氣、生活用語與數量表達。20 個單字與片語，每個有 3 種情境，共 60 題；每輪每個目標選一題。",
+    "source": "參考家長提供的 2023 年六年級 U2 考卷與課本單字，新編天氣、生活及數量表達情境，並非原卷。",
+    "questions": [
+      {
+        "id": "enough-1",
+        "target": "enough",
+        "answer": "enough",
+        "sentence": "We have ____ chairs for all twelve guests.",
+        "translation": "我們有足夠的椅子給全部十二位客人。",
+        "context": "請填本課用語：足夠。",
+        "explanation": "We have enough chairs for all twelve guests. 我們有足夠的椅子給全部十二位客人。"
+      },
+      {
+        "id": "enough-2",
+        "target": "enough",
+        "answer": "enough",
+        "sentence": "Do you have ____ time to finish the picture?",
+        "translation": "你有足夠的時間完成這幅畫嗎？",
+        "context": "請填本課用語：足夠。",
+        "explanation": "Do you have enough time to finish the picture? 你有足夠的時間完成這幅畫嗎？"
+      },
+      {
+        "id": "enough-3",
+        "target": "enough",
+        "answer": "enough",
+        "sentence": "This bag is not big ____ for my boots.",
+        "translation": "這個袋子不夠大，裝不下我的靴子。",
+        "context": "請填本課用語：足夠。",
+        "explanation": "This bag is not big enough for my boots. 這個袋子不夠大，裝不下我的靴子。"
+      },
+      {
+        "id": "business-1",
+        "target": "business",
+        "answer": "business",
+        "sentence": "My aunt runs a small ____ selling bread.",
+        "translation": "我阿姨經營一間賣麵包的小店。",
+        "context": "請填本課用語：生意，事業。",
+        "explanation": "My aunt runs a small business selling bread. 我阿姨經營一間賣麵包的小店。"
+      },
+      {
+        "id": "business-2",
+        "target": "business",
+        "answer": "business",
+        "sentence": "He wants to start a bike repair ____.",
+        "translation": "他想開一家修理腳踏車的店。",
+        "context": "請填本課用語：生意，事業。",
+        "explanation": "He wants to start a bike repair business. 他想開一家修理腳踏車的店。"
+      },
+      {
+        "id": "business-3",
+        "target": "business",
+        "answer": "business",
+        "sentence": "The family flower ____ is open every day.",
+        "translation": "這家家庭花店每天都有營業。",
+        "context": "請填本課用語：生意，事業。",
+        "explanation": "The family flower business is open every day. 這家家庭花店每天都有營業。"
+      },
+      {
+        "id": "promise-1",
+        "target": "promise",
+        "answer": "promise",
+        "sentence": "I ____ to return your umbrella tomorrow.",
+        "translation": "我答應明天歸還你的雨傘。",
+        "context": "請填本課用語：允諾，約定。",
+        "explanation": "I promise to return your umbrella tomorrow. 我答應明天歸還你的雨傘。"
+      },
+      {
+        "id": "promise-2",
+        "target": "promise",
+        "answer": "promise",
+        "sentence": "Please keep your ____ to help me clean the room.",
+        "translation": "請遵守你幫我打掃房間的承諾。",
+        "context": "請填本課用語：允諾，約定。",
+        "explanation": "Please keep your promise to help me clean the room. 請遵守你幫我打掃房間的承諾。"
+      },
+      {
+        "id": "promise-3",
+        "target": "promise",
+        "answer": "promise",
+        "sentence": "Can you ____ to call when you arrive?",
+        "translation": "你能答應到達時打電話嗎？",
+        "context": "請填本課用語：允諾，約定。",
+        "explanation": "Can you promise to call when you arrive? 你能答應到達時打電話嗎？"
+      },
+      {
+        "id": "storm-1",
+        "target": "storm",
+        "answer": "storm",
+        "sentence": "We stayed indoors during the ____.",
+        "translation": "風暴期間我們待在室內。",
+        "context": "請填表示「風暴」的單字，以 s 開頭。",
+        "explanation": "We stayed indoors during the storm. 風暴期間我們待在室內。"
+      },
+      {
+        "id": "storm-2",
+        "target": "storm",
+        "answer": "storm",
+        "sentence": "The ____ damaged the roof of our house.",
+        "translation": "風暴損壞了我們家的屋頂。",
+        "context": "請填表示「風暴」的單字，以 s 開頭。",
+        "explanation": "The storm damaged the roof of our house. 風暴損壞了我們家的屋頂。"
+      },
+      {
+        "id": "storm-3",
+        "target": "storm",
+        "answer": "storm",
+        "sentence": "After the ____, we picked up branches in the yard.",
+        "translation": "風暴過後，我們撿起院子裡的樹枝。",
+        "context": "請填表示「風暴」的單字，以 s 開頭。",
+        "explanation": "After the storm, we picked up branches in the yard. 風暴過後，我們撿起院子裡的樹枝。"
+      },
+      {
+        "id": "hotel-1",
+        "target": "hotel",
+        "answer": "hotel",
+        "sentence": "We booked a room at a ____ near the station.",
+        "translation": "我們在車站附近的一家旅館訂了房間。",
+        "context": "請填本課用語：旅館。",
+        "explanation": "We booked a room at a hotel near the station. 我們在車站附近的一家旅館訂了房間。"
+      },
+      {
+        "id": "hotel-2",
+        "target": "hotel",
+        "answer": "hotel",
+        "sentence": "The ____ serves breakfast at seven.",
+        "translation": "這家旅館七點供應早餐。",
+        "context": "請填本課用語：旅館。",
+        "explanation": "The hotel serves breakfast at seven. 這家旅館七點供應早餐。"
+      },
+      {
+        "id": "hotel-3",
+        "target": "hotel",
+        "answer": "hotel",
+        "sentence": "Please leave the room key at the ____ desk.",
+        "translation": "請把房間鑰匙留在旅館櫃檯。",
+        "context": "請填本課用語：旅館。",
+        "explanation": "Please leave the room key at the hotel desk. 請把房間鑰匙留在旅館櫃檯。"
+      },
+      {
+        "id": "listen-1",
+        "target": "listen",
+        "answer": "listen",
+        "sentence": "Please ____ to the weather report.",
+        "translation": "請聽氣象報告。",
+        "context": "請填本課用語：聽。",
+        "explanation": "Please listen to the weather report. 請聽氣象報告。"
+      },
+      {
+        "id": "listen-2",
+        "target": "listen",
+        "answer": "listen",
+        "sentence": "I like to ____ to music on the bus.",
+        "translation": "我喜歡在公車上聽音樂。",
+        "context": "請填本課用語：聽。",
+        "explanation": "I like to listen to music on the bus. 我喜歡在公車上聽音樂。"
+      },
+      {
+        "id": "listen-3",
+        "target": "listen",
+        "answer": "listen",
+        "sentence": "Close your eyes and ____ to the birds.",
+        "translation": "閉上眼睛，聽鳥兒的聲音。",
+        "context": "請填本課用語：聽。",
+        "explanation": "Close your eyes and listen to the birds. 閉上眼睛，聽鳥兒的聲音。"
+      },
+      {
+        "id": "rainstorm-1",
+        "target": "rainstorm",
+        "answer": "rainstorm",
+        "sentence": "A heavy ____ kept us inside all afternoon.",
+        "translation": "一場猛烈的暴風雨讓我們整個下午都待在室內。",
+        "context": "請填表示「暴風雨」的單字，以 r 開頭。",
+        "explanation": "A heavy rainstorm kept us inside all afternoon. 一場猛烈的暴風雨讓我們整個下午都待在室內。"
+      },
+      {
+        "id": "rainstorm-2",
+        "target": "rainstorm",
+        "answer": "rainstorm",
+        "sentence": "We closed every window before the ____ arrived.",
+        "translation": "暴風雨來臨前，我們關上每一扇窗。",
+        "context": "請填表示「暴風雨」的單字，以 r 開頭。",
+        "explanation": "We closed every window before the rainstorm arrived. 暴風雨來臨前，我們關上每一扇窗。"
+      },
+      {
+        "id": "rainstorm-3",
+        "target": "rainstorm",
+        "answer": "rainstorm",
+        "sentence": "Our picnic was canceled because of the ____.",
+        "translation": "我們的野餐因為暴風雨而取消。",
+        "context": "請填表示「暴風雨」的單字，以 r 開頭。",
+        "explanation": "Our picnic was canceled because of the rainstorm. 我們的野餐因為暴風雨而取消。"
+      },
+      {
+        "id": "typhoon-1",
+        "target": "typhoon",
+        "answer": "typhoon",
+        "sentence": "The weather report says a ____ is coming toward Taiwan.",
+        "translation": "氣象報告說有一個颱風正朝臺灣接近。",
+        "context": "請填本課用語：颱風。",
+        "explanation": "The weather report says a typhoon is coming toward Taiwan. 氣象報告說有一個颱風正朝臺灣接近。"
+      },
+      {
+        "id": "typhoon-2",
+        "target": "typhoon",
+        "answer": "typhoon",
+        "sentence": "Our flight was canceled because of the ____.",
+        "translation": "我們的航班因為颱風而取消。",
+        "context": "請填本課用語：颱風。",
+        "explanation": "Our flight was canceled because of the typhoon. 我們的航班因為颱風而取消。"
+      },
+      {
+        "id": "typhoon-3",
+        "target": "typhoon",
+        "answer": "typhoon",
+        "sentence": "We brought the flowerpots indoors before the ____.",
+        "translation": "颱風來臨前，我們把花盆搬進室內。",
+        "context": "請填本課用語：颱風。",
+        "explanation": "We brought the flowerpots indoors before the typhoon. 颱風來臨前，我們把花盆搬進室內。"
+      },
+      {
+        "id": "rain-shower-1",
+        "target": "rain shower",
+        "answer": "rain shower",
+        "sentence": "A short ____ interrupted our walk, but the sun soon came out.",
+        "translation": "短暫的陣雨打斷了我們的散步，但太陽很快又出來了。",
+        "context": "請填本課用語：陣雨。",
+        "explanation": "A short rain shower interrupted our walk, but the sun soon came out. 短暫的陣雨打斷了我們的散步，但太陽很快又出來了。"
+      },
+      {
+        "id": "rain-shower-2",
+        "target": "rain shower",
+        "answer": "rain shower",
+        "sentence": "We waited under a roof for the ____ to pass.",
+        "translation": "我們在屋簷下等待陣雨過去。",
+        "context": "請填本課用語：陣雨。",
+        "explanation": "We waited under a roof for the rain shower to pass. 我們在屋簷下等待陣雨過去。"
+      },
+      {
+        "id": "rain-shower-3",
+        "target": "rain shower",
+        "answer": "rain shower",
+        "sentence": "The afternoon ____ lasted only ten minutes.",
+        "translation": "下午的陣雨只持續了十分鐘。",
+        "context": "請填本課用語：陣雨。",
+        "explanation": "The afternoon rain shower lasted only ten minutes. 下午的陣雨只持續了十分鐘。"
+      },
+      {
+        "id": "several-1",
+        "target": "several",
+        "answer": "several",
+        "sentence": "I borrowed ____ books about weather from the library.",
+        "translation": "我從圖書館借了幾本關於天氣的書。",
+        "context": "請填本課用語：幾個；數個。",
+        "explanation": "I borrowed several books about weather from the library. 我從圖書館借了幾本關於天氣的書。"
+      },
+      {
+        "id": "several-2",
+        "target": "several",
+        "answer": "several",
+        "sentence": "We waited ____ minutes for the bus.",
+        "translation": "我們等了幾分鐘的公車。",
+        "context": "請填本課用語：幾個；數個。",
+        "explanation": "We waited several minutes for the bus. 我們等了幾分鐘的公車。"
+      },
+      {
+        "id": "several-3",
+        "target": "several",
+        "answer": "several",
+        "sentence": "____ students helped carry the boxes upstairs.",
+        "translation": "幾位學生幫忙把箱子搬上樓。",
+        "context": "請填本課用語：幾個；數個。",
+        "explanation": "several students helped carry the boxes upstairs. 幾位學生幫忙把箱子搬上樓。"
+      },
+      {
+        "id": "plenty-of-1",
+        "target": "plenty of",
+        "answer": "plenty of",
+        "sentence": "There is ____ food for everyone at the party.",
+        "translation": "派對上有充足的食物供每個人享用。",
+        "context": "請填三字片語，表示「充足的」，以 p 開頭。",
+        "explanation": "There is plenty of food for everyone at the party. 派對上有充足的食物供每個人享用。"
+      },
+      {
+        "id": "plenty-of-2",
+        "target": "plenty of",
+        "answer": "plenty of",
+        "sentence": "We have ____ time, so there is no need to hurry.",
+        "translation": "我們有充裕的時間，所以不必匆忙。",
+        "context": "請填三字片語，表示「充足的」，以 p 開頭。",
+        "explanation": "We have plenty of time, so there is no need to hurry. 我們有充裕的時間，所以不必匆忙。"
+      },
+      {
+        "id": "plenty-of-3",
+        "target": "plenty of",
+        "answer": "plenty of",
+        "sentence": "The garden has ____ space for children to play.",
+        "translation": "花園有充足的空間讓孩子們玩耍。",
+        "context": "請填三字片語，表示「充足的」，以 p 開頭。",
+        "explanation": "The garden has plenty of space for children to play. 花園有充足的空間讓孩子們玩耍。"
+      },
+      {
+        "id": "a-lot-of-1",
+        "target": "a lot of",
+        "answer": "a lot of",
+        "sentence": "There are ____ cars on the road this morning.",
+        "translation": "今天早上路上有很多車。",
+        "context": "請填三字片語，表示「很多」，以 a 開頭。",
+        "explanation": "There are a lot of cars on the road this morning. 今天早上路上有很多車。"
+      },
+      {
+        "id": "a-lot-of-2",
+        "target": "a lot of",
+        "answer": "a lot of",
+        "sentence": "She drinks ____ water after basketball practice.",
+        "translation": "她在籃球練習後喝很多水。",
+        "context": "請填三字片語，表示「很多」，以 a 開頭。",
+        "explanation": "She drinks a lot of water after basketball practice. 她在籃球練習後喝很多水。"
+      },
+      {
+        "id": "a-lot-of-3",
+        "target": "a lot of",
+        "answer": "a lot of",
+        "sentence": "We took ____ pictures during our trip.",
+        "translation": "我們在旅行中拍了很多照片。",
+        "context": "請填三字片語，表示「很多」，以 a 開頭。",
+        "explanation": "We took a lot of pictures during our trip. 我們在旅行中拍了很多照片。"
+      },
+      {
+        "id": "thunder-1",
+        "target": "thunder",
+        "answer": "thunder",
+        "sentence": "We heard loud ____ while we were eating dinner.",
+        "translation": "我們吃晚餐時聽到響亮的雷聲。",
+        "context": "請填本課用語：雷；雷聲。",
+        "explanation": "We heard loud thunder while we were eating dinner. 我們吃晚餐時聽到響亮的雷聲。"
+      },
+      {
+        "id": "thunder-2",
+        "target": "thunder",
+        "answer": "thunder",
+        "sentence": "The sound of ____ woke the baby.",
+        "translation": "雷聲吵醒了寶寶。",
+        "context": "請填本課用語：雷；雷聲。",
+        "explanation": "The sound of thunder woke the baby. 雷聲吵醒了寶寶。"
+      },
+      {
+        "id": "thunder-3",
+        "target": "thunder",
+        "answer": "thunder",
+        "sentence": "My dog hides under the bed when it hears ____.",
+        "translation": "我的狗聽到雷聲時會躲到床底下。",
+        "context": "請填本課用語：雷；雷聲。",
+        "explanation": "My dog hides under the bed when it hears thunder. 我的狗聽到雷聲時會躲到床底下。"
+      },
+      {
+        "id": "lightning-1",
+        "target": "lightning",
+        "answer": "lightning",
+        "sentence": "A flash of ____ lit up the dark sky.",
+        "translation": "一道閃電照亮了漆黑的天空。",
+        "context": "請填本課用語：閃電。",
+        "explanation": "A flash of lightning lit up the dark sky. 一道閃電照亮了漆黑的天空。"
+      },
+      {
+        "id": "lightning-2",
+        "target": "lightning",
+        "answer": "lightning",
+        "sentence": "We watched the ____ through the closed window.",
+        "translation": "我們透過關著的窗戶看閃電。",
+        "context": "請填本課用語：閃電。",
+        "explanation": "We watched the lightning through the closed window. 我們透過關著的窗戶看閃電。"
+      },
+      {
+        "id": "lightning-3",
+        "target": "lightning",
+        "answer": "lightning",
+        "sentence": "The photographer took a picture of ____ above the hills.",
+        "translation": "攝影師拍了一張山丘上方閃電的照片。",
+        "context": "請填本課用語：閃電。",
+        "explanation": "The photographer took a picture of lightning above the hills. 攝影師拍了一張山丘上方閃電的照片。"
+      },
+      {
+        "id": "tornado-1",
+        "target": "tornado",
+        "answer": "tornado",
+        "sentence": "The news showed a ____ lifting a car off the ground.",
+        "translation": "新聞播出龍捲風把一輛車捲離地面的畫面。",
+        "context": "請填本課用語：龍捲風。",
+        "explanation": "The news showed a tornado lifting a car off the ground. 新聞播出龍捲風把一輛車捲離地面的畫面。"
+      },
+      {
+        "id": "tornado-2",
+        "target": "tornado",
+        "answer": "tornado",
+        "sentence": "The ____ left a path of damaged buildings.",
+        "translation": "龍捲風經過的路上留下了受損的建築物。",
+        "context": "請填本課用語：龍捲風。",
+        "explanation": "The tornado left a path of damaged buildings. 龍捲風經過的路上留下了受損的建築物。"
+      },
+      {
+        "id": "tornado-3",
+        "target": "tornado",
+        "answer": "tornado",
+        "sentence": "Our class watched a video about a ____.",
+        "translation": "我們班看了一部關於龍捲風的影片。",
+        "context": "請填本課用語：龍捲風。",
+        "explanation": "Our class watched a video about a tornado. 我們班看了一部關於龍捲風的影片。"
+      },
+      {
+        "id": "flood-1",
+        "target": "flood",
+        "answer": "flood",
+        "sentence": "The ____ covered the streets with water.",
+        "translation": "水災使街道被水淹沒。",
+        "context": "請填本課用語：水災。",
+        "explanation": "The flood covered the streets with water. 水災使街道被水淹沒。"
+      },
+      {
+        "id": "flood-2",
+        "target": "flood",
+        "answer": "flood",
+        "sentence": "Many families left their homes during the ____.",
+        "translation": "許多家庭在水災期間離開住家。",
+        "context": "請填本課用語：水災。",
+        "explanation": "Many families left their homes during the flood. 許多家庭在水災期間離開住家。"
+      },
+      {
+        "id": "flood-3",
+        "target": "flood",
+        "answer": "flood",
+        "sentence": "Volunteers cleaned the school after the ____.",
+        "translation": "志工在水災過後清理學校。",
+        "context": "請填本課用語：水災。",
+        "explanation": "Volunteers cleaned the school after the flood. 志工在水災過後清理學校。"
+      },
+      {
+        "id": "drought-1",
+        "target": "drought",
+        "answer": "drought",
+        "sentence": "The long ____ left the fields dry.",
+        "translation": "長期的旱災讓田地乾枯。",
+        "context": "請填本課用語：旱災。",
+        "explanation": "The long drought left the fields dry. 長期的旱災讓田地乾枯。"
+      },
+      {
+        "id": "drought-2",
+        "target": "drought",
+        "answer": "drought",
+        "sentence": "Farmers worried about their crops during the ____.",
+        "translation": "農民在旱災期間擔心他們的作物。",
+        "context": "請填本課用語：旱災。",
+        "explanation": "Farmers worried about their crops during the drought. 農民在旱災期間擔心他們的作物。"
+      },
+      {
+        "id": "drought-3",
+        "target": "drought",
+        "answer": "drought",
+        "sentence": "The town saved water because of the ____.",
+        "translation": "這個城鎮因為旱災而節約用水。",
+        "context": "請填本課用語：旱災。",
+        "explanation": "The town saved water because of the drought. 這個城鎮因為旱災而節約用水。"
+      },
+      {
+        "id": "a-little-1",
+        "target": "a little",
+        "answer": "a little",
+        "sentence": "Please add ____ milk to my tea.",
+        "translation": "請在我的茶裡加少量牛奶。",
+        "context": "請填本課用語：少量；小量。",
+        "explanation": "Please add a little milk to my tea. 請在我的茶裡加少量牛奶。"
+      },
+      {
+        "id": "a-little-2",
+        "target": "a little",
+        "answer": "a little",
+        "sentence": "There is only ____ juice left in the bottle.",
+        "translation": "瓶子裡只剩少量果汁。",
+        "context": "請填本課用語：少量；小量。",
+        "explanation": "There is only a little juice left in the bottle. 瓶子裡只剩少量果汁。"
+      },
+      {
+        "id": "a-little-3",
+        "target": "a little",
+        "answer": "a little",
+        "sentence": "I need ____ help with this math problem.",
+        "translation": "這道數學題我需要一點幫忙。",
+        "context": "請填本課用語：少量；小量。",
+        "explanation": "I need a little help with this math problem. 這道數學題我需要一點幫忙。"
+      },
+      {
+        "id": "none-1",
+        "target": "none",
+        "answer": "none",
+        "sentence": "I looked for clean towels, but there were ____.",
+        "translation": "我找乾淨的毛巾，但一條也沒有。",
+        "context": "請填本課用語：沒有任何（人／事／物）。",
+        "explanation": "I looked for clean towels, but there were none. 我找乾淨的毛巾，但一條也沒有。"
+      },
+      {
+        "id": "none-2",
+        "target": "none",
+        "answer": "none",
+        "sentence": "How many cookies are left? There are ____.",
+        "translation": "還剩幾塊餅乾？一塊也沒有。",
+        "context": "請填本課用語：沒有任何（人／事／物）。",
+        "explanation": "How many cookies are left? There are none. 還剩幾塊餅乾？一塊也沒有。"
+      },
+      {
+        "id": "none-3",
+        "target": "none",
+        "answer": "none",
+        "sentence": "We invited five friends, but ____ could come.",
+        "translation": "我們邀請了五位朋友，但沒有任何人能來。",
+        "context": "請填本課用語：沒有任何（人／事／物）。",
+        "explanation": "We invited five friends, but none could come. 我們邀請了五位朋友，但沒有任何人能來。"
+      },
+      {
+        "id": "begin-1",
+        "target": "begin",
+        "answer": "begin",
+        "sentence": "The movie will ____ at six thirty.",
+        "translation": "電影將在六點半開始。",
+        "context": "請填本課用語：開始。",
+        "explanation": "The movie will begin at six thirty. 電影將在六點半開始。"
+      },
+      {
+        "id": "begin-2",
+        "target": "begin",
+        "answer": "begin",
+        "sentence": "Please turn to page ten before we ____.",
+        "translation": "我們開始之前，請翻到第十頁。",
+        "context": "請填本課用語：開始。",
+        "explanation": "Please turn to page ten before we begin. 我們開始之前，請翻到第十頁。"
+      },
+      {
+        "id": "begin-3",
+        "target": "begin",
+        "answer": "begin",
+        "sentence": "Let us ____ our meeting with a short story.",
+        "translation": "讓我們用一個短故事開始會議。",
+        "context": "請填本課用語：開始。",
+        "explanation": "Let us begin our meeting with a short story. 讓我們用一個短故事開始會議。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
