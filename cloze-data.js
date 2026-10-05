@@ -11778,6 +11778,1114 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Let us begin our meeting with a short story. 讓我們用一個短故事開始會議。"
       }
     ]
+  },
+  {
+    "id": "g6-u3-v1",
+    "grade": 6,
+    "unit": 3,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "守護瀕危動物",
+    "description": "20 個課本單字與片語，每個 3 種新編情境，共 60 題；每輪每個目標選一題。",
+    "source": "參考家長提供的 2023 年六年級 U3 單字 worksheet 與課本詞彙重新編寫；答案依句意與文法核對，未直接採用手寫答案。",
+    "questions": [
+      {
+        "id": "endangered-1",
+        "target": "endangered",
+        "answer": "endangered",
+        "sentence": "The zoo raises money to protect ____ animals.",
+        "translation": "動物園募款保護瀕危動物。",
+        "context": "請填本課用語：瀕臨絕種的。",
+        "explanation": "The zoo raises money to protect endangered animals. 動物園募款保護瀕危動物。"
+      },
+      {
+        "id": "endangered-2",
+        "target": "endangered",
+        "answer": "endangered",
+        "sentence": "Our class made posters about ____ birds.",
+        "translation": "我們班製作了關於瀕危鳥類的海報。",
+        "context": "請填本課用語：瀕臨絕種的。",
+        "explanation": "Our class made posters about endangered birds. 我們班製作了關於瀕危鳥類的海報。"
+      },
+      {
+        "id": "endangered-3",
+        "target": "endangered",
+        "answer": "endangered",
+        "sentence": "The book explains how to help ____ species.",
+        "translation": "這本書解釋如何幫助瀕危物種。",
+        "context": "請填本課用語：瀕臨絕種的。",
+        "explanation": "The book explains how to help endangered species. 這本書解釋如何幫助瀕危物種。"
+      },
+      {
+        "id": "species-1",
+        "target": "species",
+        "answer": "species",
+        "sentence": "Many different ____ of birds live in this park.",
+        "translation": "許多不同物種的鳥類住在這座公園。",
+        "context": "請填本課用語：物種。",
+        "explanation": "Many different species of birds live in this park. 許多不同物種的鳥類住在這座公園。"
+      },
+      {
+        "id": "species-2",
+        "target": "species",
+        "answer": "species",
+        "sentence": "The scientist is studying a new ____ of insect.",
+        "translation": "這位科學家正在研究一個新的昆蟲物種。",
+        "context": "請填本課用語：物種。",
+        "explanation": "The scientist is studying a new species of insect. 這位科學家正在研究一個新的昆蟲物種。"
+      },
+      {
+        "id": "species-3",
+        "target": "species",
+        "answer": "species",
+        "sentence": "How many ____ of fish can you find in this picture?",
+        "translation": "你能在這張圖片中找到多少種魚？",
+        "context": "請填本課用語：物種。",
+        "explanation": "How many species of fish can you find in this picture? 你能在這張圖片中找到多少種魚？"
+      },
+      {
+        "id": "about-1",
+        "target": "about",
+        "answer": "about",
+        "sentence": "We read a story ____ a lost dog.",
+        "translation": "我們讀了一個關於走失狗狗的故事。",
+        "context": "請填本課用語：關於，大約。",
+        "explanation": "We read a story about a lost dog. 我們讀了一個關於走失狗狗的故事。"
+      },
+      {
+        "id": "about-2",
+        "target": "about",
+        "answer": "about",
+        "sentence": "The trip takes ____ two hours, but it may take longer.",
+        "translation": "這趟旅程大約花兩小時，但可能更久。",
+        "context": "請填本課用語：關於，大約。",
+        "explanation": "The trip takes about two hours, but it may take longer. 這趟旅程大約花兩小時，但可能更久。"
+      },
+      {
+        "id": "about-3",
+        "target": "about",
+        "answer": "about",
+        "sentence": "Tell me ____ your visit to the zoo.",
+        "translation": "告訴我關於你去動物園的事。",
+        "context": "請填本課用語：關於，大約。",
+        "explanation": "Tell me about your visit to the zoo. 告訴我關於你去動物園的事。"
+      },
+      {
+        "id": "habitat-1",
+        "target": "habitat",
+        "answer": "habitat",
+        "sentence": "The river is the natural ____ of these fish.",
+        "translation": "這條河是這些魚的自然棲息地。",
+        "context": "請填本課用語：棲息地。",
+        "explanation": "The river is the natural habitat of these fish. 這條河是這些魚的自然棲息地。"
+      },
+      {
+        "id": "habitat-2",
+        "target": "habitat",
+        "answer": "habitat",
+        "sentence": "Building a road here could damage the animals’ ____.",
+        "translation": "在這裡蓋路可能破壞動物的棲息地。",
+        "context": "請填本課用語：棲息地。",
+        "explanation": "Building a road here could damage the animals’ habitat. 在這裡蓋路可能破壞動物的棲息地。"
+      },
+      {
+        "id": "habitat-3",
+        "target": "habitat",
+        "answer": "habitat",
+        "sentence": "We drew a frog in its wetland ____.",
+        "translation": "我們畫了一隻在濕地棲息地裡的青蛙。",
+        "context": "請填本課用語：棲息地。",
+        "explanation": "We drew a frog in its wetland habitat. 我們畫了一隻在濕地棲息地裡的青蛙。"
+      },
+      {
+        "id": "destruction-1",
+        "target": "destruction",
+        "answer": "destruction",
+        "sentence": "The fire caused the ____ of several houses.",
+        "translation": "這場火災造成數棟房屋的毀壞。",
+        "context": "請填本課用語：破壞。",
+        "explanation": "The fire caused the destruction of several houses. 這場火災造成數棟房屋的毀壞。"
+      },
+      {
+        "id": "destruction-2",
+        "target": "destruction",
+        "answer": "destruction",
+        "sentence": "People planted trees after the ____ of the forest.",
+        "translation": "森林遭到破壞後，人們種了樹。",
+        "context": "請填本課用語：破壞。",
+        "explanation": "People planted trees after the destruction of the forest. 森林遭到破壞後，人們種了樹。"
+      },
+      {
+        "id": "destruction-3",
+        "target": "destruction",
+        "answer": "destruction",
+        "sentence": "The report describes the ____ caused by the storm.",
+        "translation": "這份報告描述了風暴造成的破壞。",
+        "context": "請填本課用語：破壞。",
+        "explanation": "The report describes the destruction caused by the storm. 這份報告描述了風暴造成的破壞。"
+      },
+      {
+        "id": "poison-1",
+        "target": "poison",
+        "answer": "poison",
+        "sentence": "Keep this bottle of ____ away from children.",
+        "translation": "讓這瓶毒物遠離兒童。",
+        "context": "請填本課用語：毒。",
+        "explanation": "Keep this bottle of poison away from children. 讓這瓶毒物遠離兒童。"
+      },
+      {
+        "id": "poison-2",
+        "target": "poison",
+        "answer": "poison",
+        "sentence": "In the story, the villain puts ____ in a drink.",
+        "translation": "故事裡，壞人在飲料中放毒。",
+        "context": "請填本課用語：毒。",
+        "explanation": "In the story, the villain puts poison in a drink. 故事裡，壞人在飲料中放毒。"
+      },
+      {
+        "id": "poison-3",
+        "target": "poison",
+        "answer": "poison",
+        "sentence": "The label warns that the box contains ____.",
+        "translation": "標籤警告盒子裡含有毒物。",
+        "context": "請填本課用語：毒。",
+        "explanation": "The label warns that the box contains poison. 標籤警告盒子裡含有毒物。"
+      },
+      {
+        "id": "list-1",
+        "target": "list",
+        "answer": "list",
+        "sentence": "Please write a ____ of things to bring on the trip.",
+        "translation": "請寫一份旅行要帶的物品清單。",
+        "context": "請填本課用語：名單，清單。",
+        "explanation": "Please write a list of things to bring on the trip. 請寫一份旅行要帶的物品清單。"
+      },
+      {
+        "id": "list-2",
+        "target": "list",
+        "answer": "list",
+        "sentence": "Is your name on the team ____?",
+        "translation": "你的名字在隊伍名單上嗎？",
+        "context": "請填本課用語：名單，清單。",
+        "explanation": "Is your name on the team list? 你的名字在隊伍名單上嗎？"
+      },
+      {
+        "id": "list-3",
+        "target": "list",
+        "answer": "list",
+        "sentence": "I checked the shopping ____ before leaving home.",
+        "translation": "我出門前檢查了購物清單。",
+        "context": "請填本課用語：名單，清單。",
+        "explanation": "I checked the shopping list before leaving home. 我出門前檢查了購物清單。"
+      },
+      {
+        "id": "become-1",
+        "target": "become",
+        "answer": "become",
+        "sentence": "She hopes to ____ a scientist one day.",
+        "translation": "她希望有一天成為科學家。",
+        "context": "請填本課用語：變成。",
+        "explanation": "She hopes to become a scientist one day. 她希望有一天成為科學家。"
+      },
+      {
+        "id": "become-2",
+        "target": "become",
+        "answer": "become",
+        "sentence": "The sky may ____ dark before the storm.",
+        "translation": "風暴來臨前，天空可能變暗。",
+        "context": "請填本課用語：變成。",
+        "explanation": "The sky may become dark before the storm. 風暴來臨前，天空可能變暗。"
+      },
+      {
+        "id": "become-3",
+        "target": "become",
+        "answer": "become",
+        "sentence": "With practice, you can ____ a better swimmer.",
+        "translation": "透過練習，你可以成為更好的游泳者。",
+        "context": "請填本課用語：變成。",
+        "explanation": "With practice, you can become a better swimmer. 透過練習，你可以成為更好的游泳者。"
+      },
+      {
+        "id": "boycott-1",
+        "target": "boycott",
+        "answer": "boycott",
+        "sentence": "The students decided to ____ the shop until it stopped selling fur.",
+        "translation": "學生決定抵制那間店，直到它停止販售皮草。",
+        "context": "請填本課用語：抵制。",
+        "explanation": "The students decided to boycott the shop until it stopped selling fur. 學生決定抵制那間店，直到它停止販售皮草。"
+      },
+      {
+        "id": "boycott-2",
+        "target": "boycott",
+        "answer": "boycott",
+        "sentence": "Some families ____ products made from endangered animals.",
+        "translation": "有些家庭抵制用瀕危動物製成的產品。",
+        "context": "請填本課用語：抵制。",
+        "explanation": "Some families boycott products made from endangered animals. 有些家庭抵制用瀕危動物製成的產品。"
+      },
+      {
+        "id": "boycott-3",
+        "target": "boycott",
+        "answer": "boycott",
+        "sentence": "The group asked people to ____ the company by refusing to buy its goods.",
+        "translation": "這個團體請大家拒買商品來抵制那家公司。",
+        "context": "請填本課用語：抵制。",
+        "explanation": "The group asked people to boycott the company by refusing to buy its goods. 這個團體請大家拒買商品來抵制那家公司。"
+      },
+      {
+        "id": "protest-1",
+        "target": "protest",
+        "answer": "protest",
+        "sentence": "People gathered outside city hall to ____ against the plan.",
+        "translation": "人們聚集在市政府外抗議這項計畫。",
+        "context": "請填本課用語：抗議。",
+        "explanation": "People gathered outside city hall to protest against the plan. 人們聚集在市政府外抗議這項計畫。"
+      },
+      {
+        "id": "protest-2",
+        "target": "protest",
+        "answer": "protest",
+        "sentence": "The students held signs to ____ against cutting down the trees.",
+        "translation": "學生舉牌抗議砍樹。",
+        "context": "請填本課用語：抗議。",
+        "explanation": "The students held signs to protest against cutting down the trees. 學生舉牌抗議砍樹。"
+      },
+      {
+        "id": "protest-3",
+        "target": "protest",
+        "answer": "protest",
+        "sentence": "Residents plan to ____ against the new factory.",
+        "translation": "居民計畫抗議新工廠。",
+        "context": "請填本課用語：抗議。",
+        "explanation": "Residents plan to protest against the new factory. 居民計畫抗議新工廠。"
+      },
+      {
+        "id": "conserve-1",
+        "target": "conserve",
+        "answer": "conserve",
+        "sentence": "Turn off the tap to ____ water.",
+        "translation": "關上水龍頭以節約用水。",
+        "context": "請填本課用語：保存、節約。",
+        "explanation": "Turn off the tap to conserve water. 關上水龍頭以節約用水。"
+      },
+      {
+        "id": "conserve-2",
+        "target": "conserve",
+        "answer": "conserve",
+        "sentence": "We turn off unused lights to ____ energy.",
+        "translation": "我們關掉不用的燈來節約能源。",
+        "context": "請填本課用語：保存、節約。",
+        "explanation": "We turn off unused lights to conserve energy. 我們關掉不用的燈來節約能源。"
+      },
+      {
+        "id": "conserve-3",
+        "target": "conserve",
+        "answer": "conserve",
+        "sentence": "The park asks visitors to help ____ natural resources.",
+        "translation": "公園請遊客幫忙保存自然資源。",
+        "context": "請填本課用語：保存、節約。",
+        "explanation": "The park asks visitors to help conserve natural resources. 公園請遊客幫忙保存自然資源。"
+      },
+      {
+        "id": "resource-1",
+        "target": "resource",
+        "answer": "resource",
+        "sentence": "Clean water is a valuable natural ____.",
+        "translation": "乾淨的水是珍貴的自然資源。",
+        "context": "請填本課用語：資源。本題使用單數形式。",
+        "explanation": "Clean water is a valuable natural resource. 乾淨的水是珍貴的自然資源。"
+      },
+      {
+        "id": "resource-2",
+        "target": "resource",
+        "answer": "resource",
+        "sentence": "The library is a useful ____ for our school project.",
+        "translation": "圖書館是我們學校專題的實用資源。",
+        "context": "請填本課用語：資源。本題使用單數形式。",
+        "explanation": "The library is a useful resource for our school project. 圖書館是我們學校專題的實用資源。"
+      },
+      {
+        "id": "resource-3",
+        "target": "resource",
+        "answer": "resource",
+        "sentence": "We should use this limited ____ carefully.",
+        "translation": "我們應該謹慎使用這項有限的資源。",
+        "context": "請填本課用語：資源。本題使用單數形式。",
+        "explanation": "We should use this limited resource carefully. 我們應該謹慎使用這項有限的資源。"
+      },
+      {
+        "id": "avoid-1",
+        "target": "avoid",
+        "answer": "avoid",
+        "sentence": "Please ____ stepping on the young plants.",
+        "translation": "請避免踩到幼苗。",
+        "context": "請填本課用語：避免。",
+        "explanation": "Please avoid stepping on the young plants. 請避免踩到幼苗。"
+      },
+      {
+        "id": "avoid-2",
+        "target": "avoid",
+        "answer": "avoid",
+        "sentence": "We left early to ____ the heavy traffic.",
+        "translation": "我們提早出發以避開壅塞的交通。",
+        "context": "請填本課用語：避免。",
+        "explanation": "We left early to avoid the heavy traffic. 我們提早出發以避開壅塞的交通。"
+      },
+      {
+        "id": "avoid-3",
+        "target": "avoid",
+        "answer": "avoid",
+        "sentence": "You should ____ making too much noise near the animals.",
+        "translation": "你應避免在動物附近製造太多噪音。",
+        "context": "請填本課用語：避免。",
+        "explanation": "You should avoid making too much noise near the animals. 你應避免在動物附近製造太多噪音。"
+      },
+      {
+        "id": "learn-1",
+        "target": "learn",
+        "answer": "learn",
+        "sentence": "We want to ____ how to care for injured birds.",
+        "translation": "我們想學習如何照顧受傷的鳥。",
+        "context": "請填本課用語：學習。",
+        "explanation": "We want to learn how to care for injured birds. 我們想學習如何照顧受傷的鳥。"
+      },
+      {
+        "id": "learn-2",
+        "target": "learn",
+        "answer": "learn",
+        "sentence": "You can ____ new words by reading every day.",
+        "translation": "你可以透過每天閱讀學習新單字。",
+        "context": "請填本課用語：學習。",
+        "explanation": "You can learn new words by reading every day. 你可以透過每天閱讀學習新單字。"
+      },
+      {
+        "id": "learn-3",
+        "target": "learn",
+        "answer": "learn",
+        "sentence": "My sister wants to ____ to play the guitar.",
+        "translation": "我姊姊想學彈吉他。",
+        "context": "請填本課用語：學習。",
+        "explanation": "My sister wants to learn to play the guitar. 我姊姊想學彈吉他。"
+      },
+      {
+        "id": "sentence-1",
+        "target": "sentence",
+        "answer": "sentence",
+        "sentence": "Please write a ____ using the word forest.",
+        "translation": "請用 forest 這個字寫一個句子。",
+        "context": "請填本課用語：句子。",
+        "explanation": "Please write a sentence using the word forest. 請用 forest 這個字寫一個句子。"
+      },
+      {
+        "id": "sentence-2",
+        "target": "sentence",
+        "answer": "sentence",
+        "sentence": "The first ____ of the story is very short.",
+        "translation": "故事的第一個句子很短。",
+        "context": "請填本課用語：句子。",
+        "explanation": "The first sentence of the story is very short. 故事的第一個句子很短。"
+      },
+      {
+        "id": "sentence-3",
+        "target": "sentence",
+        "answer": "sentence",
+        "sentence": "Read the whole ____ before you fill in the blank.",
+        "translation": "填空前先讀完整個句子。",
+        "context": "請填本課用語：句子。",
+        "explanation": "Read the whole sentence before you fill in the blank. 填空前先讀完整個句子。"
+      },
+      {
+        "id": "why-1",
+        "target": "why",
+        "answer": "why",
+        "sentence": "Do you know ____ the park is closed today?",
+        "translation": "你知道公園今天為什麼關閉嗎？",
+        "context": "請填本課用語：為什麼。",
+        "explanation": "Do you know why the park is closed today? 你知道公園今天為什麼關閉嗎？"
+      },
+      {
+        "id": "why-2",
+        "target": "why",
+        "answer": "why",
+        "sentence": "Please explain ____ you chose this book.",
+        "translation": "請解釋你為什麼選這本書。",
+        "context": "請填本課用語：為什麼。",
+        "explanation": "Please explain why you chose this book. 請解釋你為什麼選這本書。"
+      },
+      {
+        "id": "why-3",
+        "target": "why",
+        "answer": "why",
+        "sentence": "I wonder ____ the dog is barking.",
+        "translation": "我想知道狗為什麼在叫。",
+        "context": "請填本課用語：為什麼。",
+        "explanation": "I wonder why the dog is barking. 我想知道狗為什麼在叫。"
+      },
+      {
+        "id": "human-1",
+        "target": "human",
+        "answer": "human",
+        "sentence": "The robot has a face that looks ____.",
+        "translation": "這個機器人的臉看起來像人類。",
+        "context": "請填本課用語：人類。本題使用單數形式。",
+        "explanation": "The robot has a face that looks human. 這個機器人的臉看起來像人類。"
+      },
+      {
+        "id": "human-2",
+        "target": "human",
+        "answer": "human",
+        "sentence": "A ____ being needs food and water to live.",
+        "translation": "人類需要食物和水才能生存。",
+        "context": "請填本課用語：人類。本題使用單數形式。",
+        "explanation": "A human being needs food and water to live. 人類需要食物和水才能生存。"
+      },
+      {
+        "id": "human-3",
+        "target": "human",
+        "answer": "human",
+        "sentence": "The museum has a display about ____ history.",
+        "translation": "博物館有一個關於人類歷史的展覽。",
+        "context": "請填本課用語：人類。本題使用單數形式。",
+        "explanation": "The museum has a display about human history. 博物館有一個關於人類歷史的展覽。"
+      },
+      {
+        "id": "develop-1",
+        "target": "develop",
+        "answer": "develop",
+        "sentence": "Reading every day can help you ____ your language skills.",
+        "translation": "每天閱讀可以幫助你發展語言能力。",
+        "context": "請填本課用語：發展。",
+        "explanation": "Reading every day can help you develop your language skills. 每天閱讀可以幫助你發展語言能力。"
+      },
+      {
+        "id": "develop-2",
+        "target": "develop",
+        "answer": "develop",
+        "sentence": "The team will ____ a new plan to clean the river.",
+        "translation": "團隊將擬定一個清理河川的新計畫。",
+        "context": "請填本課用語：發展。",
+        "explanation": "The team will develop a new plan to clean the river. 團隊將擬定一個清理河川的新計畫。"
+      },
+      {
+        "id": "develop-3",
+        "target": "develop",
+        "answer": "develop",
+        "sentence": "We need time to ____ our ideas for the poster.",
+        "translation": "我們需要時間發展海報的構想。",
+        "context": "請填本課用語：發展。",
+        "explanation": "We need time to develop our ideas for the poster. 我們需要時間發展海報的構想。"
+      },
+      {
+        "id": "per-year-1",
+        "target": "per year",
+        "answer": "per year",
+        "sentence": "Our club plants fifty trees ____.",
+        "translation": "我們的社團每年種五十棵樹。",
+        "context": "請填本課用語：每一年。",
+        "explanation": "Our club plants fifty trees per year. 我們的社團每年種五十棵樹。"
+      },
+      {
+        "id": "per-year-2",
+        "target": "per year",
+        "answer": "per year",
+        "sentence": "The magazine publishes twelve issues ____.",
+        "translation": "這本雜誌每年出版十二期。",
+        "context": "請填本課用語：每一年。",
+        "explanation": "The magazine publishes twelve issues per year. 這本雜誌每年出版十二期。"
+      },
+      {
+        "id": "per-year-3",
+        "target": "per year",
+        "answer": "per year",
+        "sentence": "The family takes two camping trips ____.",
+        "translation": "這個家庭每年露營兩次。",
+        "context": "請填本課用語：每一年。",
+        "explanation": "The family takes two camping trips per year. 這個家庭每年露營兩次。"
+      },
+      {
+        "id": "period-1",
+        "target": "period",
+        "answer": "period",
+        "sentence": "There was a long ____ of dry weather last summer.",
+        "translation": "去年夏天有很長一段乾燥的天氣。",
+        "context": "請填本課用語：時期、期間。",
+        "explanation": "There was a long period of dry weather last summer. 去年夏天有很長一段乾燥的天氣。"
+      },
+      {
+        "id": "period-2",
+        "target": "period",
+        "answer": "period",
+        "sentence": "We studied this ____ of history in class.",
+        "translation": "我們在課堂上學了這段歷史時期。",
+        "context": "請填本課用語：時期、期間。",
+        "explanation": "We studied this period of history in class. 我們在課堂上學了這段歷史時期。"
+      },
+      {
+        "id": "period-3",
+        "target": "period",
+        "answer": "period",
+        "sentence": "The library will be closed for a short ____ during repairs.",
+        "translation": "圖書館維修期間將短暫關閉。",
+        "context": "請填本課用語：時期、期間。",
+        "explanation": "The library will be closed for a short period during repairs. 圖書館維修期間將短暫關閉。"
+      }
+    ]
+  },
+  {
+    "id": "g6-u4-v1",
+    "grade": 6,
+    "unit": 4,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "回收與環境保護",
+    "description": "20 個課本單字與片語，每個 3 種新編情境，共 60 題；每輪每個目標選一題。",
+    "source": "參考家長提供的 2023 年六年級 U4 單字 worksheet 與課本詞彙重新編寫；答案依句意與文法核對，未直接採用手寫答案。",
+    "questions": [
+      {
+        "id": "recycle-1",
+        "target": "recycle",
+        "answer": "recycle",
+        "sentence": "We ____ empty cans at school.",
+        "translation": "我們在學校回收空罐子。",
+        "context": "請填本課用語：回收。",
+        "explanation": "We recycle empty cans at school. 我們在學校回收空罐子。"
+      },
+      {
+        "id": "recycle-2",
+        "target": "recycle",
+        "answer": "recycle",
+        "sentence": "Where can I ____ this old newspaper?",
+        "translation": "我可以在哪裡回收這份舊報紙？",
+        "context": "請填本課用語：回收。",
+        "explanation": "Where can I recycle this old newspaper? 我可以在哪裡回收這份舊報紙？"
+      },
+      {
+        "id": "recycle-3",
+        "target": "recycle",
+        "answer": "recycle",
+        "sentence": "The town has a place to ____ used bottles.",
+        "translation": "這個城鎮有回收用過的瓶子的地方。",
+        "context": "請填本課用語：回收。",
+        "explanation": "The town has a place to recycle used bottles. 這個城鎮有回收用過的瓶子的地方。"
+      },
+      {
+        "id": "plastic-1",
+        "target": "plastic",
+        "answer": "plastic",
+        "sentence": "This ____ bag is light and waterproof.",
+        "translation": "這個塑膠袋輕巧又防水。",
+        "context": "請填本課用語：塑膠。",
+        "explanation": "This plastic bag is light and waterproof. 這個塑膠袋輕巧又防水。"
+      },
+      {
+        "id": "plastic-2",
+        "target": "plastic",
+        "answer": "plastic",
+        "sentence": "The toy is made of ____, not wood.",
+        "translation": "這個玩具是塑膠做的，不是木頭。",
+        "context": "請填本課用語：塑膠。",
+        "explanation": "The toy is made of plastic, not wood. 這個玩具是塑膠做的，不是木頭。"
+      },
+      {
+        "id": "plastic-3",
+        "target": "plastic",
+        "answer": "plastic",
+        "sentence": "We brought reusable cups instead of ____ ones.",
+        "translation": "我們帶了可重複使用的杯子，沒有用塑膠杯。",
+        "context": "請填本課用語：塑膠。",
+        "explanation": "We brought reusable cups instead of plastic ones. 我們帶了可重複使用的杯子，沒有用塑膠杯。"
+      },
+      {
+        "id": "metal-1",
+        "target": "metal",
+        "answer": "metal",
+        "sentence": "The spoon is made of ____.",
+        "translation": "這把湯匙是金屬製的。",
+        "context": "請填本課用語：金屬。",
+        "explanation": "The spoon is made of metal. 這把湯匙是金屬製的。"
+      },
+      {
+        "id": "metal-2",
+        "target": "metal",
+        "answer": "metal",
+        "sentence": "We put the old ____ cans in a separate bin.",
+        "translation": "我們把舊金屬罐放進另一個桶子。",
+        "context": "請填本課用語：金屬。",
+        "explanation": "We put the old metal cans in a separate bin. 我們把舊金屬罐放進另一個桶子。"
+      },
+      {
+        "id": "metal-3",
+        "target": "metal",
+        "answer": "metal",
+        "sentence": "The gate is made of strong ____.",
+        "translation": "這扇大門是堅固的金屬製成的。",
+        "context": "請填本課用語：金屬。",
+        "explanation": "The gate is made of strong metal. 這扇大門是堅固的金屬製成的。"
+      },
+      {
+        "id": "glass-1",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "Be careful with this ____ bottle; it may break.",
+        "translation": "小心這個玻璃瓶，它可能會破。",
+        "context": "請填本課用語：玻璃。",
+        "explanation": "Be careful with this glass bottle; it may break. 小心這個玻璃瓶，它可能會破。"
+      },
+      {
+        "id": "glass-2",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "We can see through the clear ____ in the window.",
+        "translation": "我們可以透過窗戶的透明玻璃看到外面。",
+        "context": "請填本課用語：玻璃。",
+        "explanation": "We can see through the clear glass in the window. 我們可以透過窗戶的透明玻璃看到外面。"
+      },
+      {
+        "id": "glass-3",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "The vase is made of blue ____.",
+        "translation": "這個花瓶是藍色玻璃做的。",
+        "context": "請填本課用語：玻璃。",
+        "explanation": "The vase is made of blue glass. 這個花瓶是藍色玻璃做的。"
+      },
+      {
+        "id": "paper-1",
+        "target": "paper",
+        "answer": "paper",
+        "sentence": "Please write your name on this piece of ____.",
+        "translation": "請把你的名字寫在這張紙上。",
+        "context": "請填本課用語：紙。",
+        "explanation": "Please write your name on this piece of paper. 請把你的名字寫在這張紙上。"
+      },
+      {
+        "id": "paper-2",
+        "target": "paper",
+        "answer": "paper",
+        "sentence": "Use both sides of the ____ when you draw.",
+        "translation": "畫畫時請使用紙的兩面。",
+        "context": "請填本課用語：紙。",
+        "explanation": "Use both sides of the paper when you draw. 畫畫時請使用紙的兩面。"
+      },
+      {
+        "id": "paper-3",
+        "target": "paper",
+        "answer": "paper",
+        "sentence": "We folded the ____ into a small boat.",
+        "translation": "我們把紙折成一艘小船。",
+        "context": "請填本課用語：紙。",
+        "explanation": "We folded the paper into a small boat. 我們把紙折成一艘小船。"
+      },
+      {
+        "id": "sort-1",
+        "target": "sort",
+        "answer": "sort",
+        "sentence": "Please ____ the bottles by color.",
+        "translation": "請依顏色分類瓶子。",
+        "context": "請填本課用語：分類。",
+        "explanation": "Please sort the bottles by color. 請依顏色分類瓶子。"
+      },
+      {
+        "id": "sort-2",
+        "target": "sort",
+        "answer": "sort",
+        "sentence": "We ____ our garbage before putting it in the bins.",
+        "translation": "我們把垃圾分類後才放進桶子。",
+        "context": "請填本課用語：分類。",
+        "explanation": "We sort our garbage before putting it in the bins. 我們把垃圾分類後才放進桶子。"
+      },
+      {
+        "id": "sort-3",
+        "target": "sort",
+        "answer": "sort",
+        "sentence": "Can you ____ these books into two groups?",
+        "translation": "你能把這些書分成兩組嗎？",
+        "context": "請填本課用語：分類。",
+        "explanation": "Can you sort these books into two groups? 你能把這些書分成兩組嗎？"
+      },
+      {
+        "id": "sweep-1",
+        "target": "sweep",
+        "answer": "sweep",
+        "sentence": "Please ____ the floor after lunch.",
+        "translation": "午餐後請掃地。",
+        "context": "請填本課用語：掃。",
+        "explanation": "Please sweep the floor after lunch. 午餐後請掃地。"
+      },
+      {
+        "id": "sweep-2",
+        "target": "sweep",
+        "answer": "sweep",
+        "sentence": "I use a broom to ____ the leaves off the path.",
+        "translation": "我用掃把把小路上的葉子掃掉。",
+        "context": "請填本課用語：掃。",
+        "explanation": "I use a broom to sweep the leaves off the path. 我用掃把把小路上的葉子掃掉。"
+      },
+      {
+        "id": "sweep-3",
+        "target": "sweep",
+        "answer": "sweep",
+        "sentence": "We need to ____ the classroom before we leave.",
+        "translation": "我們離開前需要掃教室。",
+        "context": "請填本課用語：掃。",
+        "explanation": "We need to sweep the classroom before we leave. 我們離開前需要掃教室。"
+      },
+      {
+        "id": "tie-up-1",
+        "target": "tie up",
+        "answer": "tie up",
+        "sentence": "Use this string to ____ the bundle of newspapers.",
+        "translation": "用這條繩子綁起這捆報紙。",
+        "context": "請填本課用語：綁起來。",
+        "explanation": "Use this string to tie up the bundle of newspapers. 用這條繩子綁起這捆報紙。"
+      },
+      {
+        "id": "tie-up-2",
+        "target": "tie up",
+        "answer": "tie up",
+        "sentence": "Please ____ the bag before you carry it outside.",
+        "translation": "請先把袋子綁好，再拿到外面。",
+        "context": "請填本課用語：綁起來。",
+        "explanation": "Please tie up the bag before you carry it outside. 請先把袋子綁好，再拿到外面。"
+      },
+      {
+        "id": "tie-up-3",
+        "target": "tie up",
+        "answer": "tie up",
+        "sentence": "Can you ____ these sticks with a rope?",
+        "translation": "你能用繩子把這些棍子綁起來嗎？",
+        "context": "請填本課用語：綁起來。",
+        "explanation": "Can you tie up these sticks with a rope? 你能用繩子把這些棍子綁起來嗎？"
+      },
+      {
+        "id": "carry-1",
+        "target": "carry",
+        "answer": "carry",
+        "sentence": "Can you help me ____ this heavy box?",
+        "translation": "你能幫我搬這個重箱子嗎？",
+        "context": "請填本課用語：背、攜帶。",
+        "explanation": "Can you help me carry this heavy box? 你能幫我搬這個重箱子嗎？"
+      },
+      {
+        "id": "carry-2",
+        "target": "carry",
+        "answer": "carry",
+        "sentence": "I always ____ a water bottle in my bag.",
+        "translation": "我總是在袋子裡帶一個水壺。",
+        "context": "請填本課用語：背、攜帶。",
+        "explanation": "I always carry a water bottle in my bag. 我總是在袋子裡帶一個水壺。"
+      },
+      {
+        "id": "carry-3",
+        "target": "carry",
+        "answer": "carry",
+        "sentence": "We use a basket to ____ the vegetables home.",
+        "translation": "我們用籃子把蔬菜帶回家。",
+        "context": "請填本課用語：背、攜帶。",
+        "explanation": "We use a basket to carry the vegetables home. 我們用籃子把蔬菜帶回家。"
+      },
+      {
+        "id": "pick-up-1",
+        "target": "pick up",
+        "answer": "pick up",
+        "sentence": "Please ____ the pencil on the floor.",
+        "translation": "請撿起地板上的鉛筆。",
+        "context": "請填本課用語：撿起來。",
+        "explanation": "Please pick up the pencil on the floor. 請撿起地板上的鉛筆。"
+      },
+      {
+        "id": "pick-up-2",
+        "target": "pick up",
+        "answer": "pick up",
+        "sentence": "We will ____ litter on the beach this weekend.",
+        "translation": "我們這個週末將撿拾海灘上的垃圾。",
+        "context": "請填本課用語：撿起來。",
+        "explanation": "We will pick up litter on the beach this weekend. 我們這個週末將撿拾海灘上的垃圾。"
+      },
+      {
+        "id": "pick-up-3",
+        "target": "pick up",
+        "answer": "pick up",
+        "sentence": "Can you ____ that empty bottle beside your chair?",
+        "translation": "你能撿起椅子旁的那個空瓶子嗎？",
+        "context": "請填本課用語：撿起來。",
+        "explanation": "Can you pick up that empty bottle beside your chair? 你能撿起椅子旁的那個空瓶子嗎？"
+      },
+      {
+        "id": "important-1",
+        "target": "important",
+        "answer": "important",
+        "sentence": "It is ____ to follow the safety rules.",
+        "translation": "遵守安全規則很重要。",
+        "context": "請填本課用語：重要的。",
+        "explanation": "It is important to follow the safety rules. 遵守安全規則很重要。"
+      },
+      {
+        "id": "important-2",
+        "target": "important",
+        "answer": "important",
+        "sentence": "Please keep this ____ letter in a safe place.",
+        "translation": "請把這封重要的信放在安全的地方。",
+        "context": "請填本課用語：重要的。",
+        "explanation": "Please keep this important letter in a safe place. 請把這封重要的信放在安全的地方。"
+      },
+      {
+        "id": "important-3",
+        "target": "important",
+        "answer": "important",
+        "sentence": "Clean water is ____ for everyone.",
+        "translation": "乾淨的水對每個人都很重要。",
+        "context": "請填本課用語：重要的。",
+        "explanation": "Clean water is important for everyone. 乾淨的水對每個人都很重要。"
+      },
+      {
+        "id": "air-1",
+        "target": "air",
+        "answer": "air",
+        "sentence": "Open the window to let fresh ____ into the room.",
+        "translation": "打開窗戶讓新鮮空氣進入房間。",
+        "context": "請填本課用語：空氣。",
+        "explanation": "Open the window to let fresh air into the room. 打開窗戶讓新鮮空氣進入房間。"
+      },
+      {
+        "id": "air-2",
+        "target": "air",
+        "answer": "air",
+        "sentence": "The ____ in the room feels warm.",
+        "translation": "房間裡的空氣感覺很暖。",
+        "context": "請填本課用語：空氣。",
+        "explanation": "The air in the room feels warm. 房間裡的空氣感覺很暖。"
+      },
+      {
+        "id": "air-3",
+        "target": "air",
+        "answer": "air",
+        "sentence": "We pumped ____ into the bicycle tire.",
+        "translation": "我們把空氣打進腳踏車輪胎。",
+        "context": "請填本課用語：空氣。",
+        "explanation": "We pumped air into the bicycle tire. 我們把空氣打進腳踏車輪胎。"
+      },
+      {
+        "id": "healthy-1",
+        "target": "healthy",
+        "answer": "healthy",
+        "sentence": "Eating different kinds of food helps us stay ____.",
+        "translation": "吃不同種類的食物幫助我們維持健康。",
+        "context": "請填本課用語：健康的。",
+        "explanation": "Eating different kinds of food helps us stay healthy. 吃不同種類的食物幫助我們維持健康。"
+      },
+      {
+        "id": "healthy-2",
+        "target": "healthy",
+        "answer": "healthy",
+        "sentence": "The doctor said the baby was ____.",
+        "translation": "醫生說寶寶很健康。",
+        "context": "請填本課用語：健康的。",
+        "explanation": "The doctor said the baby was healthy. 醫生說寶寶很健康。"
+      },
+      {
+        "id": "healthy-3",
+        "target": "healthy",
+        "answer": "healthy",
+        "sentence": "My grandfather stays ____ by walking every day.",
+        "translation": "我爺爺每天走路來維持健康。",
+        "context": "請填本課用語：健康的。",
+        "explanation": "My grandfather stays healthy by walking every day. 我爺爺每天走路來維持健康。"
+      },
+      {
+        "id": "oil-1",
+        "target": "oil",
+        "answer": "oil",
+        "sentence": "The ship carries ____ from one port to another.",
+        "translation": "這艘船把石油從一個港口運到另一個港口。",
+        "context": "請填本課用語：石油。",
+        "explanation": "The ship carries oil from one port to another. 這艘船把石油從一個港口運到另一個港口。"
+      },
+      {
+        "id": "oil-2",
+        "target": "oil",
+        "answer": "oil",
+        "sentence": "The workers found ____ deep under the ground.",
+        "translation": "工人在地底深處發現石油。",
+        "context": "請填本課用語：石油。",
+        "explanation": "The workers found oil deep under the ground. 工人在地底深處發現石油。"
+      },
+      {
+        "id": "oil-3",
+        "target": "oil",
+        "answer": "oil",
+        "sentence": "The company stores ____ in large tanks.",
+        "translation": "這家公司把石油儲存在大型儲存槽裡。",
+        "context": "請填本課用語：石油。",
+        "explanation": "The company stores oil in large tanks. 這家公司把石油儲存在大型儲存槽裡。"
+      },
+      {
+        "id": "forest-1",
+        "target": "forest",
+        "answer": "forest",
+        "sentence": "We walked through a ____ full of tall trees.",
+        "translation": "我們走過一片滿是高大樹木的森林。",
+        "context": "請填本課用語：森林。",
+        "explanation": "We walked through a forest full of tall trees. 我們走過一片滿是高大樹木的森林。"
+      },
+      {
+        "id": "forest-2",
+        "target": "forest",
+        "answer": "forest",
+        "sentence": "Many birds live in the ____ near our village.",
+        "translation": "許多鳥住在我們村莊附近的森林裡。",
+        "context": "請填本課用語：森林。",
+        "explanation": "Many birds live in the forest near our village. 許多鳥住在我們村莊附近的森林裡。"
+      },
+      {
+        "id": "forest-3",
+        "target": "forest",
+        "answer": "forest",
+        "sentence": "The path leads into a quiet ____.",
+        "translation": "這條小路通往一座安靜的森林。",
+        "context": "請填本課用語：森林。",
+        "explanation": "The path leads into a quiet forest. 這條小路通往一座安靜的森林。"
+      },
+      {
+        "id": "waste-1",
+        "target": "waste",
+        "answer": "waste",
+        "sentence": "Do not ____ food; take only what you can eat.",
+        "translation": "不要浪費食物，只拿你吃得完的份量。",
+        "context": "請填本課用語：浪費。",
+        "explanation": "Do not waste food; take only what you can eat. 不要浪費食物，只拿你吃得完的份量。"
+      },
+      {
+        "id": "waste-2",
+        "target": "waste",
+        "answer": "waste",
+        "sentence": "Leaving the tap running can ____ water.",
+        "translation": "讓水龍頭一直開著會浪費水。",
+        "context": "請填本課用語：浪費。",
+        "explanation": "Leaving the tap running can waste water. 讓水龍頭一直開著會浪費水。"
+      },
+      {
+        "id": "waste-3",
+        "target": "waste",
+        "answer": "waste",
+        "sentence": "Let us start now so we do not ____ time.",
+        "translation": "我們現在就開始，才不會浪費時間。",
+        "context": "請填本課用語：浪費。",
+        "explanation": "Let us start now so we do not waste time. 我們現在就開始，才不會浪費時間。"
+      },
+      {
+        "id": "reduce-1",
+        "target": "reduce",
+        "answer": "reduce",
+        "sentence": "We can ____ garbage by buying fewer disposable items.",
+        "translation": "我們可以少買拋棄式用品來減少垃圾。",
+        "context": "請填本課用語：減少。",
+        "explanation": "We can reduce garbage by buying fewer disposable items. 我們可以少買拋棄式用品來減少垃圾。"
+      },
+      {
+        "id": "reduce-2",
+        "target": "reduce",
+        "answer": "reduce",
+        "sentence": "Turn down the music to ____ the noise.",
+        "translation": "把音樂調小聲來降低噪音。",
+        "context": "請填本課用語：減少。",
+        "explanation": "Turn down the music to reduce the noise. 把音樂調小聲來降低噪音。"
+      },
+      {
+        "id": "reduce-3",
+        "target": "reduce",
+        "answer": "reduce",
+        "sentence": "The school wants to ____ the amount of paper it uses.",
+        "translation": "學校想減少用紙量。",
+        "context": "請填本課用語：減少。",
+        "explanation": "The school wants to reduce the amount of paper it uses. 學校想減少用紙量。"
+      },
+      {
+        "id": "reuse-1",
+        "target": "reuse",
+        "answer": "reuse",
+        "sentence": "We can ____ this jar to keep pencils in.",
+        "translation": "我們可以再利用這個罐子來放鉛筆。",
+        "context": "請填本課用語：重複使用。",
+        "explanation": "We can reuse this jar to keep pencils in. 我們可以再利用這個罐子來放鉛筆。"
+      },
+      {
+        "id": "reuse-2",
+        "target": "reuse",
+        "answer": "reuse",
+        "sentence": "I ____ old boxes to store my toys.",
+        "translation": "我重複使用舊箱子來收納玩具。",
+        "context": "請填本課用語：重複使用。",
+        "explanation": "I reuse old boxes to store my toys. 我重複使用舊箱子來收納玩具。"
+      },
+      {
+        "id": "reuse-3",
+        "target": "reuse",
+        "answer": "reuse",
+        "sentence": "Wash the bag so you can ____ it next time.",
+        "translation": "把袋子洗乾淨，下次就能重複使用。",
+        "context": "請填本課用語：重複使用。",
+        "explanation": "Wash the bag so you can reuse it next time. 把袋子洗乾淨，下次就能重複使用。"
+      },
+      {
+        "id": "harmful-1",
+        "target": "harmful",
+        "answer": "harmful",
+        "sentence": "Dirty water can be ____ to fish.",
+        "translation": "髒水可能對魚有害。",
+        "context": "請填本課用語：有害的。",
+        "explanation": "Dirty water can be harmful to fish. 髒水可能對魚有害。"
+      },
+      {
+        "id": "harmful-2",
+        "target": "harmful",
+        "answer": "harmful",
+        "sentence": "The sign warns us about ____ chemicals.",
+        "translation": "這個標誌提醒我們注意有害的化學物質。",
+        "context": "請填本課用語：有害的。",
+        "explanation": "The sign warns us about harmful chemicals. 這個標誌提醒我們注意有害的化學物質。"
+      },
+      {
+        "id": "harmful-3",
+        "target": "harmful",
+        "answer": "harmful",
+        "sentence": "Too much loud noise can be ____ to your ears.",
+        "translation": "太多巨大的噪音可能對耳朵有害。",
+        "context": "請填本課用語：有害的。",
+        "explanation": "Too much loud noise can be harmful to your ears. 太多巨大的噪音可能對耳朵有害。"
+      },
+      {
+        "id": "products-1",
+        "target": "products",
+        "answer": "products",
+        "sentence": "This shop sells ____ made from recycled paper.",
+        "translation": "這家店販售用回收紙製成的產品。",
+        "context": "請填本課用語：產品。",
+        "explanation": "This shop sells products made from recycled paper. 這家店販售用回收紙製成的產品。"
+      },
+      {
+        "id": "products-2",
+        "target": "products",
+        "answer": "products",
+        "sentence": "We read the labels before buying cleaning ____.",
+        "translation": "我們買清潔產品前會先看標籤。",
+        "context": "請填本課用語：產品。",
+        "explanation": "We read the labels before buying cleaning products. 我們買清潔產品前會先看標籤。"
+      },
+      {
+        "id": "products-3",
+        "target": "products",
+        "answer": "products",
+        "sentence": "The company showed its new ____ at the fair.",
+        "translation": "這家公司在展覽會上展示它的新產品。",
+        "context": "請填本課用語：產品。",
+        "explanation": "The company showed its new products at the fair. 這家公司在展覽會上展示它的新產品。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
