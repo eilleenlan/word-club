@@ -13886,6 +13886,560 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "My sister takes an online art class on her computer. 我姊姊用電腦上線上美術課。"
       }
     ]
+  },
+  {
+    "id": "g6-u5-v1",
+    "grade": 6,
+    "unit": 5,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "發明與生活",
+    "description": "20 個單字與片語，每個 3 種新編情境，共 60 題。練習發明、材料、動力與步驟順序。",
+    "source": "參考家長提供的六年級 U5 單字表與 worksheet 新編，非原卷；invent／invention 分開練習，Internet 依課本大寫。",
+    "questions": [
+      {
+        "id": "invent-1",
+        "target": "invent",
+        "answer": "invent",
+        "sentence": "I want to ____ a machine that folds clothes.",
+        "translation": "我想發明一部會摺衣服的機器。",
+        "context": "請填本課用語：發明。本題練習動詞。",
+        "explanation": "I want to invent a machine that folds clothes. 我想發明一部會摺衣服的機器。"
+      },
+      {
+        "id": "invent-2",
+        "target": "invent",
+        "answer": "invent",
+        "sentence": "Our class will try to ____ a new board game.",
+        "translation": "我們班將嘗試發明一種新的桌遊。",
+        "context": "請填本課用語：發明。本題練習動詞。",
+        "explanation": "Our class will try to invent a new board game. 我們班將嘗試發明一種新的桌遊。"
+      },
+      {
+        "id": "invent-3",
+        "target": "invent",
+        "answer": "invent",
+        "sentence": "Can you ____ a tool to help people carry heavy bags?",
+        "translation": "你能發明一種幫人提重袋子的工具嗎？",
+        "context": "請填本課用語：發明。本題練習動詞。",
+        "explanation": "Can you invent a tool to help people carry heavy bags? 你能發明一種幫人提重袋子的工具嗎？"
+      },
+      {
+        "id": "invention-1",
+        "target": "invention",
+        "answer": "invention",
+        "sentence": "Her new ____ helps people open jars easily.",
+        "translation": "她的新發明幫助人們輕鬆打開罐子。",
+        "context": "請填本課用語：發明。本題練習名詞。",
+        "explanation": "Her new invention helps people open jars easily. 她的新發明幫助人們輕鬆打開罐子。"
+      },
+      {
+        "id": "invention-2",
+        "target": "invention",
+        "answer": "invention",
+        "sentence": "We saw an interesting ____ at the science fair.",
+        "translation": "我們在科展看到一項有趣的發明。",
+        "context": "請填本課用語：發明。本題練習名詞。",
+        "explanation": "We saw an interesting invention at the science fair. 我們在科展看到一項有趣的發明。"
+      },
+      {
+        "id": "invention-3",
+        "target": "invention",
+        "answer": "invention",
+        "sentence": "The ____ of this machine made the work easier.",
+        "translation": "這部機器的發明讓工作更容易。",
+        "context": "請填本課用語：發明。本題練習名詞。",
+        "explanation": "The invention of this machine made the work easier. 這部機器的發明讓工作更容易。"
+      },
+      {
+        "id": "internet-1",
+        "target": "Internet",
+        "answer": "Internet",
+        "sentence": "We use the ____ to send messages around the world.",
+        "translation": "我們使用網際網路把訊息傳到世界各地。",
+        "context": "請填本課用語：網際網路。依課本拼法，I 大寫。",
+        "explanation": "We use the Internet to send messages around the world. 我們使用網際網路把訊息傳到世界各地。"
+      },
+      {
+        "id": "internet-2",
+        "target": "Internet",
+        "answer": "Internet",
+        "sentence": "The computer cannot connect to the ____ today.",
+        "translation": "這台電腦今天無法連上網際網路。",
+        "context": "請填本課用語：網際網路。依課本拼法，I 大寫。",
+        "explanation": "The computer cannot connect to the Internet today. 這台電腦今天無法連上網際網路。"
+      },
+      {
+        "id": "internet-3",
+        "target": "Internet",
+        "answer": "Internet",
+        "sentence": "You can find pictures of old machines on the ____.",
+        "translation": "你可以在網際網路上找到舊機器的圖片。",
+        "context": "請填本課用語：網際網路。依課本拼法，I 大寫。",
+        "explanation": "You can find pictures of old machines on the Internet. 你可以在網際網路上找到舊機器的圖片。"
+      },
+      {
+        "id": "first-1",
+        "target": "first",
+        "answer": "first",
+        "sentence": "There are three steps. The ____ step is to wash your hands.",
+        "translation": "共有三個步驟，第一步是洗手。",
+        "context": "請填本課用語：第一。",
+        "explanation": "There are three steps. The first step is to wash your hands. 共有三個步驟，第一步是洗手。"
+      },
+      {
+        "id": "first-2",
+        "target": "first",
+        "answer": "first",
+        "sentence": "Amy finished before everyone else; she came ____ in the race.",
+        "translation": "Amy 比其他人都早完成，她比賽得了第一名。",
+        "context": "請填本課用語：第一。",
+        "explanation": "Amy finished before everyone else; she came first in the race. Amy 比其他人都早完成，她比賽得了第一名。"
+      },
+      {
+        "id": "first-3",
+        "target": "first",
+        "answer": "first",
+        "sentence": "Before adding any food, ____ heat the pan.",
+        "translation": "放入任何食物前，首先要把鍋子加熱。",
+        "context": "請填本課用語：第一。",
+        "explanation": "Before adding any food, first heat the pan. 放入任何食物前，首先要把鍋子加熱。"
+      },
+      {
+        "id": "wheel-1",
+        "target": "wheel",
+        "answer": "wheel",
+        "sentence": "One ____ on my bicycle has a flat tire.",
+        "translation": "我的腳踏車有一個輪子的輪胎沒氣了。",
+        "context": "請填本課用語：輪子，輪胎。",
+        "explanation": "One wheel on my bicycle has a flat tire. 我的腳踏車有一個輪子的輪胎沒氣了。"
+      },
+      {
+        "id": "wheel-2",
+        "target": "wheel",
+        "answer": "wheel",
+        "sentence": "The cart cannot move because a ____ is broken.",
+        "translation": "推車有一個輪子壞了，所以不能移動。",
+        "context": "請填本課用語：輪子，輪胎。",
+        "explanation": "The cart cannot move because a wheel is broken. 推車有一個輪子壞了，所以不能移動。"
+      },
+      {
+        "id": "wheel-3",
+        "target": "wheel",
+        "answer": "wheel",
+        "sentence": "Watch the ____ spin when I push the toy car.",
+        "translation": "我推玩具車時，看看輪子怎麼轉。",
+        "context": "請填本課用語：輪子，輪胎。",
+        "explanation": "Watch the wheel spin when I push the toy car. 我推玩具車時，看看輪子怎麼轉。"
+      },
+      {
+        "id": "stone-1",
+        "target": "stone",
+        "answer": "stone",
+        "sentence": "The old bridge is made of ____.",
+        "translation": "這座老橋是石頭造的。",
+        "context": "請填本課用語：石頭。",
+        "explanation": "The old bridge is made of stone. 這座老橋是石頭造的。"
+      },
+      {
+        "id": "stone-2",
+        "target": "stone",
+        "answer": "stone",
+        "sentence": "I found a smooth ____ beside the river.",
+        "translation": "我在河邊找到一塊光滑的石頭。",
+        "context": "請填本課用語：石頭。",
+        "explanation": "I found a smooth stone beside the river. 我在河邊找到一塊光滑的石頭。"
+      },
+      {
+        "id": "stone-3",
+        "target": "stone",
+        "answer": "stone",
+        "sentence": "He placed a small ____ on the paper to keep it from blowing away.",
+        "translation": "他在紙上放一塊小石頭，防止它被吹走。",
+        "context": "請填本課用語：石頭。",
+        "explanation": "He placed a small stone on the paper to keep it from blowing away. 他在紙上放一塊小石頭，防止它被吹走。"
+      },
+      {
+        "id": "clay-1",
+        "target": "clay",
+        "answer": "clay",
+        "sentence": "We shaped the soft ____ into a bowl.",
+        "translation": "我們把柔軟的黏土塑成一個碗。",
+        "context": "請填本課用語：黏土，泥土。",
+        "explanation": "We shaped the soft clay into a bowl. 我們把柔軟的黏土塑成一個碗。"
+      },
+      {
+        "id": "clay-2",
+        "target": "clay",
+        "answer": "clay",
+        "sentence": "The potter uses ____ to make cups and plates.",
+        "translation": "陶藝家用黏土製作杯子和盤子。",
+        "context": "請填本課用語：黏土，泥土。",
+        "explanation": "The potter uses clay to make cups and plates. 陶藝家用黏土製作杯子和盤子。"
+      },
+      {
+        "id": "clay-3",
+        "target": "clay",
+        "answer": "clay",
+        "sentence": "My hands were covered with ____ after pottery class.",
+        "translation": "陶藝課後，我的手沾滿了黏土。",
+        "context": "請填本課用語：黏土，泥土。",
+        "explanation": "My hands were covered with clay after pottery class. 陶藝課後，我的手沾滿了黏土。"
+      },
+      {
+        "id": "turbine-1",
+        "target": "turbine",
+        "answer": "turbine",
+        "sentence": "The model wind ____ has three long blades.",
+        "translation": "這個風力渦輪機模型有三片長葉片。",
+        "context": "請填本課用語：渦輪機。",
+        "explanation": "The model wind turbine has three long blades. 這個風力渦輪機模型有三片長葉片。"
+      },
+      {
+        "id": "turbine-2",
+        "target": "turbine",
+        "answer": "turbine",
+        "sentence": "The engineer checked the ____ inside the power station.",
+        "translation": "工程師檢查發電廠裡的渦輪機。",
+        "context": "請填本課用語：渦輪機。",
+        "explanation": "The engineer checked the turbine inside the power station. 工程師檢查發電廠裡的渦輪機。"
+      },
+      {
+        "id": "turbine-3",
+        "target": "turbine",
+        "answer": "turbine",
+        "sentence": "We watched the blades of the ____ turn.",
+        "translation": "我們看著渦輪機的葉片轉動。",
+        "context": "請填本課用語：渦輪機。",
+        "explanation": "We watched the blades of the turbine turn. 我們看著渦輪機的葉片轉動。"
+      },
+      {
+        "id": "steam-1",
+        "target": "steam",
+        "answer": "steam",
+        "sentence": "Hot ____ rose from the pot of soup.",
+        "translation": "熱蒸汽從湯鍋升起。",
+        "context": "請填本課用語：蒸汽。",
+        "explanation": "Hot steam rose from the pot of soup. 熱蒸汽從湯鍋升起。"
+      },
+      {
+        "id": "steam-2",
+        "target": "steam",
+        "answer": "steam",
+        "sentence": "Keep your face away from the ____ coming out of the kettle.",
+        "translation": "讓臉遠離水壺冒出的蒸汽。",
+        "context": "請填本課用語：蒸汽。",
+        "explanation": "Keep your face away from the steam coming out of the kettle. 讓臉遠離水壺冒出的蒸汽。"
+      },
+      {
+        "id": "steam-3",
+        "target": "steam",
+        "answer": "steam",
+        "sentence": "The mirror became foggy because of the ____ from the hot shower.",
+        "translation": "熱水淋浴產生的蒸汽讓鏡子起霧。",
+        "context": "請填本課用語：蒸汽。",
+        "explanation": "The mirror became foggy because of the steam from the hot shower. 熱水淋浴產生的蒸汽讓鏡子起霧。"
+      },
+      {
+        "id": "question-1",
+        "target": "question",
+        "answer": "question",
+        "sentence": "May I ask a ____ about your model?",
+        "translation": "我可以問一個關於你模型的問題嗎？",
+        "context": "請填本課用語：問題。",
+        "explanation": "May I ask a question about your model? 我可以問一個關於你模型的問題嗎？"
+      },
+      {
+        "id": "question-2",
+        "target": "question",
+        "answer": "question",
+        "sentence": "Please read each ____ before writing your answer.",
+        "translation": "寫答案前請先讀每一個問題。",
+        "context": "請填本課用語：問題。",
+        "explanation": "Please read each question before writing your answer. 寫答案前請先讀每一個問題。"
+      },
+      {
+        "id": "question-3",
+        "target": "question",
+        "answer": "question",
+        "sentence": "The teacher answered my ____ after class.",
+        "translation": "老師下課後回答了我的問題。",
+        "context": "請填本課用語：問題。",
+        "explanation": "The teacher answered my question after class. 老師下課後回答了我的問題。"
+      },
+      {
+        "id": "powered-by-1",
+        "target": "powered by",
+        "answer": "powered by",
+        "sentence": "This toy car is ____ batteries.",
+        "translation": "這輛玩具車由電池驅動。",
+        "context": "請填本課用語：用……發動。",
+        "explanation": "This toy car is powered by batteries. 這輛玩具車由電池驅動。"
+      },
+      {
+        "id": "powered-by-2",
+        "target": "powered by",
+        "answer": "powered by",
+        "sentence": "The small boat is ____ an electric motor.",
+        "translation": "這艘小船由電動馬達驅動。",
+        "context": "請填本課用語：用……發動。",
+        "explanation": "The small boat is powered by an electric motor. 這艘小船由電動馬達驅動。"
+      },
+      {
+        "id": "powered-by-3",
+        "target": "powered by",
+        "answer": "powered by",
+        "sentence": "Our model fan is ____ a solar panel.",
+        "translation": "我們的風扇模型由太陽能板供電。",
+        "context": "請填本課用語：用……發動。",
+        "explanation": "Our model fan is powered by a solar panel. 我們的風扇模型由太陽能板供電。"
+      },
+      {
+        "id": "procedure-1",
+        "target": "procedure",
+        "answer": "procedure",
+        "sentence": "Follow the ____ carefully when you use this machine.",
+        "translation": "使用這部機器時，請仔細遵循程序。",
+        "context": "請填本課用語：程序。",
+        "explanation": "Follow the procedure carefully when you use this machine. 使用這部機器時，請仔細遵循程序。"
+      },
+      {
+        "id": "procedure-2",
+        "target": "procedure",
+        "answer": "procedure",
+        "sentence": "The teacher explained the ____ for the experiment step by step.",
+        "translation": "老師逐步解釋實驗程序。",
+        "context": "請填本課用語：程序。",
+        "explanation": "The teacher explained the procedure for the experiment step by step. 老師逐步解釋實驗程序。"
+      },
+      {
+        "id": "procedure-3",
+        "target": "procedure",
+        "answer": "procedure",
+        "sentence": "Write down the ____ so others can repeat your work.",
+        "translation": "寫下程序，讓別人能重做你的工作。",
+        "context": "請填本課用語：程序。",
+        "explanation": "Write down the procedure so others can repeat your work. 寫下程序，讓別人能重做你的工作。"
+      },
+      {
+        "id": "second-1",
+        "target": "second",
+        "answer": "second",
+        "sentence": "Wash the apples first. The ____ step is to cut them.",
+        "translation": "先洗蘋果，第二步是切蘋果。",
+        "context": "請填本課用語：第二。",
+        "explanation": "Wash the apples first. The second step is to cut them. 先洗蘋果，第二步是切蘋果。"
+      },
+      {
+        "id": "second-2",
+        "target": "second",
+        "answer": "second",
+        "sentence": "I have one older brother and one younger sister, so I am the ____ child.",
+        "translation": "我有一個哥哥和一個妹妹，所以我是第二個孩子。",
+        "context": "請填本課用語：第二。",
+        "explanation": "I have one older brother and one younger sister, so I am the second child. 我有一個哥哥和一個妹妹，所以我是第二個孩子。"
+      },
+      {
+        "id": "second-3",
+        "target": "second",
+        "answer": "second",
+        "sentence": "Ben came after Amy but before everyone else, so he finished ____.",
+        "translation": "Ben 在 Amy 之後、其他人之前完成，所以他得了第二名。",
+        "context": "請填本課用語：第二。",
+        "explanation": "Ben came after Amy but before everyone else, so he finished second. Ben 在 Amy 之後、其他人之前完成，所以他得了第二名。"
+      },
+      {
+        "id": "third-1",
+        "target": "third",
+        "answer": "third",
+        "sentence": "After the first two steps, read the ____ step.",
+        "translation": "完成前兩個步驟後，讀第三個步驟。",
+        "context": "請填本課用語：第三。",
+        "explanation": "After the first two steps, read the third step. 完成前兩個步驟後，讀第三個步驟。"
+      },
+      {
+        "id": "third-2",
+        "target": "third",
+        "answer": "third",
+        "sentence": "I have two older sisters, so I am the ____ child in my family.",
+        "translation": "我有兩個姊姊，所以我是家中第三個孩子。",
+        "context": "請填本課用語：第三。",
+        "explanation": "I have two older sisters, so I am the third child in my family. 我有兩個姊姊，所以我是家中第三個孩子。"
+      },
+      {
+        "id": "third-3",
+        "target": "third",
+        "answer": "third",
+        "sentence": "Two runners finished before me, so I came ____.",
+        "translation": "有兩位跑者比我先完成，所以我得了第三名。",
+        "context": "請填本課用語：第三。",
+        "explanation": "Two runners finished before me, so I came third. 有兩位跑者比我先完成，所以我得了第三名。"
+      },
+      {
+        "id": "last-1",
+        "target": "last",
+        "answer": "last",
+        "sentence": "After all the other steps, the ____ step is to clean the table.",
+        "translation": "完成其他所有步驟後，最後一步是清理桌子。",
+        "context": "請填本課用語：最後。",
+        "explanation": "After all the other steps, the last step is to clean the table. 完成其他所有步驟後，最後一步是清理桌子。"
+      },
+      {
+        "id": "last-2",
+        "target": "last",
+        "answer": "last",
+        "sentence": "Everyone else left before me; I was the ____ person to leave.",
+        "translation": "其他人都比我早走，我是最後離開的人。",
+        "context": "請填本課用語：最後。",
+        "explanation": "Everyone else left before me; I was the last person to leave. 其他人都比我早走，我是最後離開的人。"
+      },
+      {
+        "id": "last-3",
+        "target": "last",
+        "answer": "last",
+        "sentence": "We reached the ____ page and finished the book.",
+        "translation": "我們讀到了最後一頁，讀完了這本書。",
+        "context": "請填本課用語：最後。",
+        "explanation": "We reached the last page and finished the book. 我們讀到了最後一頁，讀完了這本書。"
+      },
+      {
+        "id": "spread-1",
+        "target": "spread",
+        "answer": "spread",
+        "sentence": "Please ____ some butter on the toast.",
+        "translation": "請在吐司上塗一些奶油。",
+        "context": "請填本課用語：塗抹。",
+        "explanation": "Please spread some butter on the toast. 請在吐司上塗一些奶油。"
+      },
+      {
+        "id": "spread-2",
+        "target": "spread",
+        "answer": "spread",
+        "sentence": "Use a knife to ____ the jam evenly.",
+        "translation": "用刀子把果醬塗均勻。",
+        "context": "請填本課用語：塗抹。",
+        "explanation": "Use a knife to spread the jam evenly. 用刀子把果醬塗均勻。"
+      },
+      {
+        "id": "spread-3",
+        "target": "spread",
+        "answer": "spread",
+        "sentence": "I like to ____ peanut butter on my bread.",
+        "translation": "我喜歡在麵包上塗花生醬。",
+        "context": "請填本課用語：塗抹。",
+        "explanation": "I like to spread peanut butter on my bread. 我喜歡在麵包上塗花生醬。"
+      },
+      {
+        "id": "useful-1",
+        "target": "useful",
+        "answer": "useful",
+        "sentence": "This small tool is ____ for opening boxes.",
+        "translation": "這個小工具對開箱子很有用。",
+        "context": "請填本課用語：有用的。",
+        "explanation": "This small tool is useful for opening boxes. 這個小工具對開箱子很有用。"
+      },
+      {
+        "id": "useful-2",
+        "target": "useful",
+        "answer": "useful",
+        "sentence": "The map was ____ when we got lost.",
+        "translation": "我們迷路時，這張地圖很有用。",
+        "context": "請填本課用語：有用的。",
+        "explanation": "The map was useful when we got lost. 我們迷路時，這張地圖很有用。"
+      },
+      {
+        "id": "useful-3",
+        "target": "useful",
+        "answer": "useful",
+        "sentence": "She gave me some ____ advice about building the model.",
+        "translation": "她給了我一些製作模型的實用建議。",
+        "context": "請填本課用語：有用的。",
+        "explanation": "She gave me some useful advice about building the model. 她給了我一些製作模型的實用建議。"
+      },
+      {
+        "id": "ground-1",
+        "target": "ground",
+        "answer": "ground",
+        "sentence": "I dropped my pencil on the ____.",
+        "translation": "我把鉛筆掉在地上。",
+        "context": "請填本課用語：地面。",
+        "explanation": "I dropped my pencil on the ground. 我把鉛筆掉在地上。"
+      },
+      {
+        "id": "ground-2",
+        "target": "ground",
+        "answer": "ground",
+        "sentence": "The children sat on the ____ under a tree.",
+        "translation": "孩子們坐在樹下的地面上。",
+        "context": "請填本課用語：地面。",
+        "explanation": "The children sat on the ground under a tree. 孩子們坐在樹下的地面上。"
+      },
+      {
+        "id": "ground-3",
+        "target": "ground",
+        "answer": "ground",
+        "sentence": "The ____ was wet after the rain.",
+        "translation": "下雨後地面濕濕的。",
+        "context": "請填本課用語：地面。",
+        "explanation": "The ground was wet after the rain. 下雨後地面濕濕的。"
+      },
+      {
+        "id": "turn-1",
+        "target": "turn",
+        "answer": "turn",
+        "sentence": "Please ____ the handle to open the door.",
+        "translation": "請轉動把手來開門。",
+        "context": "請填本課用語：轉動。",
+        "explanation": "Please turn the handle to open the door. 請轉動把手來開門。"
+      },
+      {
+        "id": "turn-2",
+        "target": "turn",
+        "answer": "turn",
+        "sentence": "The wheels ____ when the cart moves.",
+        "translation": "推車移動時，輪子會轉動。",
+        "context": "請填本課用語：轉動。",
+        "explanation": "The wheels turn when the cart moves. 推車移動時，輪子會轉動。"
+      },
+      {
+        "id": "turn-3",
+        "target": "turn",
+        "answer": "turn",
+        "sentence": "Can you ____ this knob to the left?",
+        "translation": "你能把這個旋鈕向左轉嗎？",
+        "context": "請填本課用語：轉動。",
+        "explanation": "Can you turn this knob to the left? 你能把這個旋鈕向左轉嗎？"
+      },
+      {
+        "id": "along-1",
+        "target": "along",
+        "answer": "along",
+        "sentence": "We walked ____ the river after lunch.",
+        "translation": "午餐後我們沿著河邊散步。",
+        "context": "請填本課用語：沿著，循著。",
+        "explanation": "We walked along the river after lunch. 午餐後我們沿著河邊散步。"
+      },
+      {
+        "id": "along-2",
+        "target": "along",
+        "answer": "along",
+        "sentence": "There are tall trees ____ both sides of the road.",
+        "translation": "道路兩旁都有高大的樹。",
+        "context": "請填本課用語：沿著，循著。",
+        "explanation": "There are tall trees along both sides of the road. 道路兩旁都有高大的樹。"
+      },
+      {
+        "id": "along-3",
+        "target": "along",
+        "answer": "along",
+        "sentence": "Follow the signs ____ the path to the museum.",
+        "translation": "沿著小路的標誌走到博物館。",
+        "context": "請填本課用語：沿著，循著。",
+        "explanation": "Follow the signs along the path to the museum. 沿著小路的標誌走到博物館。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

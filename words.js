@@ -1915,6 +1915,97 @@ globalThis.WORD_UNITS = [
       "線上"
     ]
   ]
+},
+{
+  "grade": 6,
+  "id": "u5",
+  "number": "05",
+  "title": "發明與生活",
+  "subtitle": "invent, invention, powered by…",
+  "words": [
+    [
+      "invent",
+      "發明",
+      "本題練習動詞。"
+    ],
+    [
+      "invention",
+      "發明",
+      "本題練習名詞。"
+    ],
+    [
+      "Internet",
+      "網際網路"
+    ],
+    [
+      "first",
+      "第一"
+    ],
+    [
+      "wheel",
+      "輪子，輪胎"
+    ],
+    [
+      "stone",
+      "石頭"
+    ],
+    [
+      "clay",
+      "黏土，泥土"
+    ],
+    [
+      "turbine",
+      "渦輪機"
+    ],
+    [
+      "steam",
+      "蒸汽"
+    ],
+    [
+      "question",
+      "問題"
+    ],
+    [
+      "powered by",
+      "用……發動"
+    ],
+    [
+      "procedure",
+      "程序"
+    ],
+    [
+      "second",
+      "第二"
+    ],
+    [
+      "third",
+      "第三"
+    ],
+    [
+      "last",
+      "最後"
+    ],
+    [
+      "spread",
+      "塗抹"
+    ],
+    [
+      "useful",
+      "有用的"
+    ],
+    [
+      "ground",
+      "地面"
+    ],
+    [
+      "turn",
+      "轉動"
+    ],
+    [
+      "along",
+      "沿著，循著"
+    ]
+  ]
 }
 ];
 

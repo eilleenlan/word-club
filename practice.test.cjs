@@ -48,15 +48,15 @@ test('real grade 5 range includes 363 supplied questions and grade 5 alone has 1
   assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 363);
   assert.equal(s.eligible(WORD_UNITS, 5, false).length, 5);
   assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 100);
-  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 4);
+  assert.equal(s.eligible(WORD_UNITS, 6, false).length, 5);
 });
 
-test('grade 6 includes 81 prompts, full phrases and separate verb tenses', () => {
+test('grade 6 includes 101 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 444);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 464);
   const own = s.build(WORD_UNITS, 6, false, selected);
-  assert.equal(own.words.length, 81);
+  assert.equal(own.words.length, 101);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
   assert.equal(WORD_UNITS.find(u => u.grade === 6 && u.id === 'u1').words.length, 21);
 });
@@ -80,7 +80,7 @@ test('proper names and I require textbook case while whitespace remains forgivin
     ['ISLAND','island','correct'], ['National Park','national park','correct'],
     ['Taiwn','Taiwan','spelling'], ['   ','Taiwan','empty']
   ]) assert.equal(s.checkAnswer(answer, target), verdict, `${answer} => ${target}`);
-  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ['Mexico','China','Egypt','England','France','I am','India','Pacific Ocean','Taipei','Taiwan','the United States','January','February','March','April','May','June','July','August','September','October','November','December','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'].sort());
+  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ['Internet','Mexico','China','Egypt','England','France','I am','India','Pacific Ocean','Taipei','Taiwan','the United States','January','February','March','April','May','June','July','August','September','October','November','December','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'].sort());
 });
 
 test('grade 3 has 72 textbook prompts, preserves phrases and excludes higher grades', () => {
