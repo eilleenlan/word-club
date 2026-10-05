@@ -123,6 +123,6 @@
  $('cloze-review').onclick=()=>start(session.missed,true);$('cloze-back').onclick=home;
  $('cloze-exit').onclick=()=>{if(confirm('回到練習介紹嗎？這輪尚未完成的成績不會儲存。'))home();};
  $('cloze-round-size').insertBefore(new Option('隨機 20 題','20'),$('cloze-round-size').lastElementChild);
- if(!lesson.mixed){const container=document.createElement('div');$('cloze-round-settings').before(container);makePracticePicker(container,targets.map(target=>{const q=lesson.questions.find(q=>q.target===target);return {id:target,label:q.answer+' · '+q.sentence};}),ids=>{activeTargets=ids;fullCount=ids.length;previousRound=[];updateSummary();});}
+ if(!lesson.mixed){const container=document.createElement('div');$('cloze-round-settings').before(container);makePracticePicker(container,targets.map(target=>{const forms=[...new Set(lesson.questions.filter(q=>q.target===target).map(q=>q.answer))];return {id:target,label:forms.join(' / ')};}),ids=>{activeTargets=ids;fullCount=ids.length;previousRound=[];updateSummary();},{title:'自選單字／片語',unit:'個單字／片語目標'});const help=document.createElement('p');help.className='cloze-description';help.textContent='先選想練習的單字、片語或句型，再由系統抽出對應情境；每個已選目標每輪至多一題。';container.prepend(help);}
  home();
 })();
