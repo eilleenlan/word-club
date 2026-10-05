@@ -13332,6 +13332,560 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "The bottle is almost empty, with just a little water left. 瓶子幾乎空了，只剩一點水。"
       }
     ]
+  },
+  {
+    "id": "g5-u5-v1",
+    "grade": 5,
+    "unit": 5,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "嗜好與休閒",
+    "description": "20 個單字與片語，每個 3 種新編情境，共 60 題。練習嗜好、收藏、旅行與網路用語。",
+    "source": "參考家長提供的五年級 U5 單字表與 worksheet 新編，非原卷；保留 hike／hiking、Mexico 與 e-mail account 的課本拼法。",
+    "questions": [
+      {
+        "id": "hobby-1",
+        "target": "hobby",
+        "answer": "hobby",
+        "sentence": "My favorite ____ is painting pictures.",
+        "translation": "我最喜歡的嗜好是畫畫。",
+        "context": "請填本課用語：嗜好。",
+        "explanation": "My favorite hobby is painting pictures. 我最喜歡的嗜好是畫畫。"
+      },
+      {
+        "id": "hobby-2",
+        "target": "hobby",
+        "answer": "hobby",
+        "sentence": "Do you have a ____ that you can enjoy indoors?",
+        "translation": "你有可以在室內享受的嗜好嗎？",
+        "context": "請填本課用語：嗜好。",
+        "explanation": "Do you have a hobby that you can enjoy indoors? 你有可以在室內享受的嗜好嗎？"
+      },
+      {
+        "id": "hobby-3",
+        "target": "hobby",
+        "answer": "hobby",
+        "sentence": "Collecting shells is a fun ____ for my sister.",
+        "translation": "收集貝殼是我姊姊一項有趣的嗜好。",
+        "context": "請填本課用語：嗜好。",
+        "explanation": "Collecting shells is a fun hobby for my sister. 收集貝殼是我姊姊一項有趣的嗜好。"
+      },
+      {
+        "id": "stamp-1",
+        "target": "stamp",
+        "answer": "stamp",
+        "sentence": "Put a ____ on the envelope before you mail it.",
+        "translation": "寄信前在信封上貼一張郵票。",
+        "context": "請填本課用語：郵票。",
+        "explanation": "Put a stamp on the envelope before you mail it. 寄信前在信封上貼一張郵票。"
+      },
+      {
+        "id": "stamp-2",
+        "target": "stamp",
+        "answer": "stamp",
+        "sentence": "This ____ has a picture of a bird on it.",
+        "translation": "這張郵票上有一隻鳥的圖片。",
+        "context": "請填本課用語：郵票。",
+        "explanation": "This stamp has a picture of a bird on it. 這張郵票上有一隻鳥的圖片。"
+      },
+      {
+        "id": "stamp-3",
+        "target": "stamp",
+        "answer": "stamp",
+        "sentence": "My grandfather gave me an old ____ for my collection.",
+        "translation": "我爺爺給我一張舊郵票作為收藏。",
+        "context": "請填本課用語：郵票。",
+        "explanation": "My grandfather gave me an old stamp for my collection. 我爺爺給我一張舊郵票作為收藏。"
+      },
+      {
+        "id": "rip-1",
+        "target": "rip",
+        "answer": "rip",
+        "sentence": "Be careful not to ____ the paper when you erase.",
+        "translation": "擦掉字的時候，小心不要把紙撕破。",
+        "context": "請填本課用語：撕。",
+        "explanation": "Be careful not to rip the paper when you erase. 擦掉字的時候，小心不要把紙撕破。"
+      },
+      {
+        "id": "rip-2",
+        "target": "rip",
+        "answer": "rip",
+        "sentence": "Please do not ____ pages out of this book.",
+        "translation": "請不要把這本書的書頁撕下來。",
+        "context": "請填本課用語：撕。",
+        "explanation": "Please do not rip pages out of this book. 請不要把這本書的書頁撕下來。"
+      },
+      {
+        "id": "rip-3",
+        "target": "rip",
+        "answer": "rip",
+        "sentence": "The sharp branch could ____ your jacket.",
+        "translation": "尖銳的樹枝可能會撕破你的外套。",
+        "context": "請填本課用語：撕。",
+        "explanation": "The sharp branch could rip your jacket. 尖銳的樹枝可能會撕破你的外套。"
+      },
+      {
+        "id": "spare-time-1",
+        "target": "spare time",
+        "answer": "spare time",
+        "sentence": "I play chess with my dad in my ____.",
+        "translation": "我在閒暇時間和爸爸下棋。",
+        "context": "請填本課用語：閒暇時間。",
+        "explanation": "I play chess with my dad in my spare time. 我在閒暇時間和爸爸下棋。"
+      },
+      {
+        "id": "spare-time-2",
+        "target": "spare time",
+        "answer": "spare time",
+        "sentence": "What do you like to do in your ____?",
+        "translation": "你在閒暇時間喜歡做什麼？",
+        "context": "請填本課用語：閒暇時間。",
+        "explanation": "What do you like to do in your spare time? 你在閒暇時間喜歡做什麼？"
+      },
+      {
+        "id": "spare-time-3",
+        "target": "spare time",
+        "answer": "spare time",
+        "sentence": "She uses her ____ to draw animals.",
+        "translation": "她利用閒暇時間畫動物。",
+        "context": "請填本課用語：閒暇時間。",
+        "explanation": "She uses her spare time to draw animals. 她利用閒暇時間畫動物。"
+      },
+      {
+        "id": "fishing-1",
+        "target": "fishing",
+        "answer": "fishing",
+        "sentence": "We went ____ by the lake and caught two fish.",
+        "translation": "我們去湖邊釣魚，釣到了兩條魚。",
+        "context": "請填本課用語：釣魚。",
+        "explanation": "We went fishing by the lake and caught two fish. 我們去湖邊釣魚，釣到了兩條魚。"
+      },
+      {
+        "id": "fishing-2",
+        "target": "fishing",
+        "answer": "fishing",
+        "sentence": "My uncle takes a rod when he goes ____.",
+        "translation": "我叔叔去釣魚時會帶釣竿。",
+        "context": "請填本課用語：釣魚。",
+        "explanation": "My uncle takes a rod when he goes fishing. 我叔叔去釣魚時會帶釣竿。"
+      },
+      {
+        "id": "fishing-3",
+        "target": "fishing",
+        "answer": "fishing",
+        "sentence": "There is a sign that says no ____ beside the pond.",
+        "translation": "池塘旁有一個寫著禁止釣魚的標誌。",
+        "context": "請填本課用語：釣魚。",
+        "explanation": "There is a sign that says no fishing beside the pond. 池塘旁有一個寫著禁止釣魚的標誌。"
+      },
+      {
+        "id": "model-1",
+        "target": "model",
+        "answer": "model",
+        "sentence": "I built a ____ of an airplane from a kit.",
+        "translation": "我用組裝套件做了一個飛機模型。",
+        "context": "請填本課用語：模型。",
+        "explanation": "I built a model of an airplane from a kit. 我用組裝套件做了一個飛機模型。"
+      },
+      {
+        "id": "model-2",
+        "target": "model",
+        "answer": "model",
+        "sentence": "This small ____ looks just like the real ship.",
+        "translation": "這個小模型看起來就像真正的船。",
+        "context": "請填本課用語：模型。",
+        "explanation": "This small model looks just like the real ship. 這個小模型看起來就像真正的船。"
+      },
+      {
+        "id": "model-3",
+        "target": "model",
+        "answer": "model",
+        "sentence": "He painted his car ____ bright red.",
+        "translation": "他把汽車模型漆成鮮紅色。",
+        "context": "請填本課用語：模型。",
+        "explanation": "He painted his car model bright red. 他把汽車模型漆成鮮紅色。"
+      },
+      {
+        "id": "coin-1",
+        "target": "coin",
+        "answer": "coin",
+        "sentence": "I found a silver ____ under the sofa.",
+        "translation": "我在沙發底下找到一枚銀色錢幣。",
+        "context": "請填本課用語：錢幣。",
+        "explanation": "I found a silver coin under the sofa. 我在沙發底下找到一枚銀色錢幣。"
+      },
+      {
+        "id": "coin-2",
+        "target": "coin",
+        "answer": "coin",
+        "sentence": "Drop a ____ into the machine to buy a drink.",
+        "translation": "投一枚錢幣到機器裡買飲料。",
+        "context": "請填本課用語：錢幣。",
+        "explanation": "Drop a coin into the machine to buy a drink. 投一枚錢幣到機器裡買飲料。"
+      },
+      {
+        "id": "coin-3",
+        "target": "coin",
+        "answer": "coin",
+        "sentence": "This old ____ has a number on one side.",
+        "translation": "這枚舊錢幣的一面有一個數字。",
+        "context": "請填本課用語：錢幣。",
+        "explanation": "This old coin has a number on one side. 這枚舊錢幣的一面有一個數字。"
+      },
+      {
+        "id": "comic-book-1",
+        "target": "comic book",
+        "answer": "comic book",
+        "sentence": "I borrowed a ____ about a superhero from the library.",
+        "translation": "我從圖書館借了一本關於超級英雄的漫畫書。",
+        "context": "請填本課用語：漫畫書。",
+        "explanation": "I borrowed a comic book about a superhero from the library. 我從圖書館借了一本關於超級英雄的漫畫書。"
+      },
+      {
+        "id": "comic-book-2",
+        "target": "comic book",
+        "answer": "comic book",
+        "sentence": "The pictures in this ____ are very funny.",
+        "translation": "這本漫畫書裡的圖片很有趣。",
+        "context": "請填本課用語：漫畫書。",
+        "explanation": "The pictures in this comic book are very funny. 這本漫畫書裡的圖片很有趣。"
+      },
+      {
+        "id": "comic-book-3",
+        "target": "comic book",
+        "answer": "comic book",
+        "sentence": "My brother is reading a ____ with speech bubbles on every page.",
+        "translation": "我哥哥正在讀一本每頁都有對話框的漫畫書。",
+        "context": "請填本課用語：漫畫書。",
+        "explanation": "My brother is reading a comic book with speech bubbles on every page. 我哥哥正在讀一本每頁都有對話框的漫畫書。"
+      },
+      {
+        "id": "hike-1",
+        "target": "hike",
+        "answer": "hike",
+        "sentence": "We plan to ____ along the mountain trail tomorrow.",
+        "translation": "我們計畫明天沿山間步道健行。",
+        "context": "請填本課用語：健行。本題練習動詞原形。",
+        "explanation": "We plan to hike along the mountain trail tomorrow. 我們計畫明天沿山間步道健行。"
+      },
+      {
+        "id": "hike-2",
+        "target": "hike",
+        "answer": "hike",
+        "sentence": "Do you want to ____ with us this weekend?",
+        "translation": "這個週末你想和我們一起健行嗎？",
+        "context": "請填本課用語：健行。本題練習動詞原形。",
+        "explanation": "Do you want to hike with us this weekend? 這個週末你想和我們一起健行嗎？"
+      },
+      {
+        "id": "hike-3",
+        "target": "hike",
+        "answer": "hike",
+        "sentence": "They often ____ in the hills near their home.",
+        "translation": "他們常在住家附近的山丘健行。",
+        "context": "請填本課用語：健行。本題練習動詞原形。",
+        "explanation": "They often hike in the hills near their home. 他們常在住家附近的山丘健行。"
+      },
+      {
+        "id": "hiking-1",
+        "target": "hiking",
+        "answer": "hiking",
+        "sentence": "We went ____ in the mountains last Sunday.",
+        "translation": "我們上星期日去山裡健行。",
+        "context": "請填本課用語：健行。本題練習動名詞。",
+        "explanation": "We went hiking in the mountains last Sunday. 我們上星期日去山裡健行。"
+      },
+      {
+        "id": "hiking-2",
+        "target": "hiking",
+        "answer": "hiking",
+        "sentence": "She enjoys ____ on forest trails.",
+        "translation": "她喜歡在森林步道健行。",
+        "context": "請填本課用語：健行。本題練習動名詞。",
+        "explanation": "She enjoys hiking on forest trails. 她喜歡在森林步道健行。"
+      },
+      {
+        "id": "hiking-3",
+        "target": "hiking",
+        "answer": "hiking",
+        "sentence": "Bring some water when you go ____.",
+        "translation": "去健行時要帶一些水。",
+        "context": "請填本課用語：健行。本題練習動名詞。",
+        "explanation": "Bring some water when you go hiking. 去健行時要帶一些水。"
+      },
+      {
+        "id": "Mexico-1",
+        "target": "Mexico",
+        "answer": "Mexico",
+        "sentence": "My pen pal lives in ____, and she speaks Spanish.",
+        "translation": "我的筆友住在墨西哥，她說西班牙語。",
+        "context": "請填本課用語：墨西哥。",
+        "explanation": "My pen pal lives in Mexico, and she speaks Spanish. 我的筆友住在墨西哥，她說西班牙語。"
+      },
+      {
+        "id": "Mexico-2",
+        "target": "Mexico",
+        "answer": "Mexico",
+        "sentence": "We sent a postcard to our cousins in ____.",
+        "translation": "我們寄了一張明信片給住在墨西哥的表兄弟姊妹。",
+        "context": "請填本課用語：墨西哥。",
+        "explanation": "We sent a postcard to our cousins in Mexico. 我們寄了一張明信片給住在墨西哥的表兄弟姊妹。"
+      },
+      {
+        "id": "Mexico-3",
+        "target": "Mexico",
+        "answer": "Mexico",
+        "sentence": "Our class is learning about the food and music of ____.",
+        "translation": "我們班正在學習墨西哥的食物和音樂。",
+        "context": "請填本課用語：墨西哥。",
+        "explanation": "Our class is learning about the food and music of Mexico. 我們班正在學習墨西哥的食物和音樂。"
+      },
+      {
+        "id": "collection-1",
+        "target": "collection",
+        "answer": "collection",
+        "sentence": "She showed us her ____ of colorful stones.",
+        "translation": "她向我們展示她收藏的彩色石頭。",
+        "context": "請填本課用語：收藏品，收集。",
+        "explanation": "She showed us her collection of colorful stones. 她向我們展示她收藏的彩色石頭。"
+      },
+      {
+        "id": "collection-2",
+        "target": "collection",
+        "answer": "collection",
+        "sentence": "My stamp ____ fills two albums.",
+        "translation": "我的郵票收藏裝滿了兩本集郵冊。",
+        "context": "請填本課用語：收藏品，收集。",
+        "explanation": "My stamp collection fills two albums. 我的郵票收藏裝滿了兩本集郵冊。"
+      },
+      {
+        "id": "collection-3",
+        "target": "collection",
+        "answer": "collection",
+        "sentence": "This museum has a large ____ of old toys.",
+        "translation": "這座博物館收藏了大量的舊玩具。",
+        "context": "請填本課用語：收藏品，收集。",
+        "explanation": "This museum has a large collection of old toys. 這座博物館收藏了大量的舊玩具。"
+      },
+      {
+        "id": "vacation-1",
+        "target": "vacation",
+        "answer": "vacation",
+        "sentence": "We visited our grandparents during summer ____.",
+        "translation": "我們暑假期間去探望祖父母。",
+        "context": "請填本課用語：假期。",
+        "explanation": "We visited our grandparents during summer vacation. 我們暑假期間去探望祖父母。"
+      },
+      {
+        "id": "vacation-2",
+        "target": "vacation",
+        "answer": "vacation",
+        "sentence": "Where will you go on ____ this year?",
+        "translation": "你今年要去哪裡度假？",
+        "context": "請填本課用語：假期。",
+        "explanation": "Where will you go on vacation this year? 你今年要去哪裡度假？"
+      },
+      {
+        "id": "vacation-3",
+        "target": "vacation",
+        "answer": "vacation",
+        "sentence": "Dad took a week of ____ to spend time with us.",
+        "translation": "爸爸休了一星期的假來陪我們。",
+        "context": "請填本課用語：假期。",
+        "explanation": "Dad took a week of vacation to spend time with us. 爸爸休了一星期的假來陪我們。"
+      },
+      {
+        "id": "travel-1",
+        "target": "travel",
+        "answer": "travel",
+        "sentence": "I want to ____ around Taiwan by train.",
+        "translation": "我想搭火車環遊臺灣。",
+        "context": "請填本課用語：旅行。",
+        "explanation": "I want to travel around Taiwan by train. 我想搭火車環遊臺灣。"
+      },
+      {
+        "id": "travel-2",
+        "target": "travel",
+        "answer": "travel",
+        "sentence": "My parents like to ____ to new places.",
+        "translation": "我父母喜歡到新的地方旅行。",
+        "context": "請填本課用語：旅行。",
+        "explanation": "My parents like to travel to new places. 我父母喜歡到新的地方旅行。"
+      },
+      {
+        "id": "travel-3",
+        "target": "travel",
+        "answer": "travel",
+        "sentence": "We will ____ together during the winter break.",
+        "translation": "我們將在寒假一起旅行。",
+        "context": "請填本課用語：旅行。",
+        "explanation": "We will travel together during the winter break. 我們將在寒假一起旅行。"
+      },
+      {
+        "id": "just-1",
+        "target": "just",
+        "answer": "just",
+        "sentence": "The bus has ____ arrived, so we can get on now.",
+        "translation": "公車剛剛到達，所以我們現在可以上車。",
+        "context": "請填本課用語：正好，剛剛。",
+        "explanation": "The bus has just arrived, so we can get on now. 公車剛剛到達，所以我們現在可以上車。"
+      },
+      {
+        "id": "just-2",
+        "target": "just",
+        "answer": "just",
+        "sentence": "I ____ finished lunch a minute ago.",
+        "translation": "我一分鐘前剛吃完午餐。",
+        "context": "請填本課用語：正好，剛剛。",
+        "explanation": "I just finished lunch a minute ago. 我一分鐘前剛吃完午餐。"
+      },
+      {
+        "id": "just-3",
+        "target": "just",
+        "answer": "just",
+        "sentence": "She has ____ called to say she is coming.",
+        "translation": "她剛剛打電話說她要來。",
+        "context": "請填本課用語：正好，剛剛。",
+        "explanation": "She has just called to say she is coming. 她剛剛打電話說她要來。"
+      },
+      {
+        "id": "horseback-riding-1",
+        "target": "horseback riding",
+        "answer": "horseback riding",
+        "sentence": "We tried ____ on a farm with an instructor.",
+        "translation": "我們在農場由教練指導體驗騎馬。",
+        "context": "請填本課用語：騎馬。",
+        "explanation": "We tried horseback riding on a farm with an instructor. 我們在農場由教練指導體驗騎馬。"
+      },
+      {
+        "id": "horseback-riding-2",
+        "target": "horseback riding",
+        "answer": "horseback riding",
+        "sentence": "You need a helmet for ____ at this riding school.",
+        "translation": "在這間馬術學校騎馬需要戴安全帽。",
+        "context": "請填本課用語：騎馬。",
+        "explanation": "You need a helmet for horseback riding at this riding school. 在這間馬術學校騎馬需要戴安全帽。"
+      },
+      {
+        "id": "horseback-riding-3",
+        "target": "horseback riding",
+        "answer": "horseback riding",
+        "sentence": "My cousin enjoys ____ and visits the stable every week.",
+        "translation": "我的表姊喜歡騎馬，每週都去馬廄。",
+        "context": "請填本課用語：騎馬。",
+        "explanation": "My cousin enjoys horseback riding and visits the stable every week. 我的表姊喜歡騎馬，每週都去馬廄。"
+      },
+      {
+        "id": "ski-1",
+        "target": "ski",
+        "answer": "ski",
+        "sentence": "I want to learn to ____ on the snow.",
+        "translation": "我想學在雪地上滑雪。",
+        "context": "請填本課用語：滑雪。",
+        "explanation": "I want to learn to ski on the snow. 我想學在雪地上滑雪。"
+      },
+      {
+        "id": "ski-2",
+        "target": "ski",
+        "answer": "ski",
+        "sentence": "Can your brother ____ down this snowy hill?",
+        "translation": "你哥哥能滑雪滑下這座雪丘嗎？",
+        "context": "請填本課用語：滑雪。",
+        "explanation": "Can your brother ski down this snowy hill? 你哥哥能滑雪滑下這座雪丘嗎？"
+      },
+      {
+        "id": "ski-3",
+        "target": "ski",
+        "answer": "ski",
+        "sentence": "We plan to ____ at the mountain resort this winter.",
+        "translation": "我們計畫今年冬天在山上的度假村滑雪。",
+        "context": "請填本課用語：滑雪。",
+        "explanation": "We plan to ski at the mountain resort this winter. 我們計畫今年冬天在山上的度假村滑雪。"
+      },
+      {
+        "id": "surf-the-net-1",
+        "target": "surf the net",
+        "answer": "surf the net",
+        "sentence": "I sometimes ____ to find ideas for my art project.",
+        "translation": "我有時上網尋找美術專題的靈感。",
+        "context": "請填本課用語：上網。",
+        "explanation": "I sometimes surf the net to find ideas for my art project. 我有時上網尋找美術專題的靈感。"
+      },
+      {
+        "id": "surf-the-net-2",
+        "target": "surf the net",
+        "answer": "surf the net",
+        "sentence": "You can ____ to look for information about butterflies.",
+        "translation": "你可以上網查蝴蝶的資料。",
+        "context": "請填本課用語：上網。",
+        "explanation": "You can surf the net to look for information about butterflies. 你可以上網查蝴蝶的資料。"
+      },
+      {
+        "id": "surf-the-net-3",
+        "target": "surf the net",
+        "answer": "surf the net",
+        "sentence": "My dad likes to ____ after dinner.",
+        "translation": "我爸爸喜歡晚餐後上網。",
+        "context": "請填本課用語：上網。",
+        "explanation": "My dad likes to surf the net after dinner. 我爸爸喜歡晚餐後上網。"
+      },
+      {
+        "id": "e-mail-account-1",
+        "target": "e-mail account",
+        "answer": "e-mail account",
+        "sentence": "I use my school ____ to send messages to my teacher.",
+        "translation": "我用學校的電子信箱寄訊息給老師。",
+        "context": "請填本課用語：電子信箱。依課本拼法，e-mail 中間有連字號。",
+        "explanation": "I use my school e-mail account to send messages to my teacher. 我用學校的電子信箱寄訊息給老師。"
+      },
+      {
+        "id": "e-mail-account-2",
+        "target": "e-mail account",
+        "answer": "e-mail account",
+        "sentence": "Please choose a strong password for your ____.",
+        "translation": "請為你的電子信箱選一組強密碼。",
+        "context": "請填本課用語：電子信箱。依課本拼法，e-mail 中間有連字號。",
+        "explanation": "Please choose a strong password for your e-mail account. 請為你的電子信箱選一組強密碼。"
+      },
+      {
+        "id": "e-mail-account-3",
+        "target": "e-mail account",
+        "answer": "e-mail account",
+        "sentence": "She checks her ____ for new messages every morning.",
+        "translation": "她每天早上查看電子信箱有沒有新訊息。",
+        "context": "請填本課用語：電子信箱。依課本拼法，e-mail 中間有連字號。",
+        "explanation": "She checks her e-mail account for new messages every morning. 她每天早上查看電子信箱有沒有新訊息。"
+      },
+      {
+        "id": "online-1",
+        "target": "online",
+        "answer": "online",
+        "sentence": "We had an ____ meeting because we could not meet at school.",
+        "translation": "因為無法在學校見面，我們開了一場線上會議。",
+        "context": "請填本課用語：線上。",
+        "explanation": "We had an online meeting because we could not meet at school. 因為無法在學校見面，我們開了一場線上會議。"
+      },
+      {
+        "id": "online-2",
+        "target": "online",
+        "answer": "online",
+        "sentence": "This shop sells books ____ as well as in its store.",
+        "translation": "這家店除了實體店面，也在線上賣書。",
+        "context": "請填本課用語：線上。",
+        "explanation": "This shop sells books online as well as in its store. 這家店除了實體店面，也在線上賣書。"
+      },
+      {
+        "id": "online-3",
+        "target": "online",
+        "answer": "online",
+        "sentence": "My sister takes an ____ art class on her computer.",
+        "translation": "我姊姊用電腦上線上美術課。",
+        "context": "請填本課用語：線上。",
+        "explanation": "My sister takes an online art class on her computer. 我姊姊用電腦上線上美術課。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

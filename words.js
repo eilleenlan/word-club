@@ -1824,6 +1824,97 @@ globalThis.WORD_UNITS = [
       "幾乎"
     ]
   ]
+},
+{
+  "grade": 5,
+  "id": "u5",
+  "number": "05",
+  "title": "嗜好與休閒",
+  "subtitle": "hobby, collection, spare time…",
+  "words": [
+    [
+      "hobby",
+      "嗜好"
+    ],
+    [
+      "stamp",
+      "郵票"
+    ],
+    [
+      "rip",
+      "撕"
+    ],
+    [
+      "spare time",
+      "閒暇時間"
+    ],
+    [
+      "fishing",
+      "釣魚"
+    ],
+    [
+      "model",
+      "模型"
+    ],
+    [
+      "coin",
+      "錢幣"
+    ],
+    [
+      "comic book",
+      "漫畫書"
+    ],
+    [
+      "hike",
+      "健行",
+      "本題練習動詞原形。"
+    ],
+    [
+      "hiking",
+      "健行",
+      "本題練習動名詞。"
+    ],
+    [
+      "Mexico",
+      "墨西哥"
+    ],
+    [
+      "collection",
+      "收藏品，收集"
+    ],
+    [
+      "vacation",
+      "假期"
+    ],
+    [
+      "travel",
+      "旅行"
+    ],
+    [
+      "just",
+      "正好，剛剛"
+    ],
+    [
+      "horseback riding",
+      "騎馬"
+    ],
+    [
+      "ski",
+      "滑雪"
+    ],
+    [
+      "surf the net",
+      "上網"
+    ],
+    [
+      "e-mail account",
+      "電子信箱"
+    ],
+    [
+      "online",
+      "線上"
+    ]
+  ]
 }
 ];
 
