@@ -12886,6 +12886,452 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "The company showed its new products at the fair. 這家公司在展覽會上展示它的新產品。"
       }
     ]
+  },
+  {
+    "id": "g4-u5-v1",
+    "grade": 4,
+    "unit": 5,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "臺灣的野生動物",
+    "description": "16 個單字與詞形，每個 3 種新編情境，共 48 題。練習動物、重量、比較與 live／lived。",
+    "source": "參考家長提供的四年級 U5 單字表與 worksheet 新編，非原卷；live 與 lived 分開練習。",
+    "questions": [
+      {
+        "id": "monkey-1",
+        "target": "monkey",
+        "answer": "monkey",
+        "sentence": "The ____ climbed the tree with its long arms.",
+        "translation": "猴子用牠的長手臂爬樹。",
+        "context": "請填本課用語：猴子。",
+        "explanation": "The monkey climbed the tree with its long arms. 猴子用牠的長手臂爬樹。"
+      },
+      {
+        "id": "monkey-2",
+        "target": "monkey",
+        "answer": "monkey",
+        "sentence": "We saw a ____ holding a banana at the zoo.",
+        "translation": "我們在動物園看到一隻拿著香蕉的猴子。",
+        "context": "請填本課用語：猴子。",
+        "explanation": "We saw a monkey holding a banana at the zoo. 我們在動物園看到一隻拿著香蕉的猴子。"
+      },
+      {
+        "id": "monkey-3",
+        "target": "monkey",
+        "answer": "monkey",
+        "sentence": "The baby ____ stayed close to its mother.",
+        "translation": "小猴子待在媽媽身邊。",
+        "context": "請填本課用語：猴子。",
+        "explanation": "The baby monkey stayed close to its mother. 小猴子待在媽媽身邊。"
+      },
+      {
+        "id": "deer-1",
+        "target": "deer",
+        "answer": "deer",
+        "sentence": "A ____ with antlers stood beside the trees.",
+        "translation": "一隻長著鹿角的鹿站在樹旁。",
+        "context": "請填本課用語：鹿。",
+        "explanation": "A deer with antlers stood beside the trees. 一隻長著鹿角的鹿站在樹旁。"
+      },
+      {
+        "id": "deer-2",
+        "target": "deer",
+        "answer": "deer",
+        "sentence": "We watched a ____ eating grass in the field.",
+        "translation": "我們看著一隻鹿在田野裡吃草。",
+        "context": "請填本課用語：鹿。",
+        "explanation": "We watched a deer eating grass in the field. 我們看著一隻鹿在田野裡吃草。"
+      },
+      {
+        "id": "deer-3",
+        "target": "deer",
+        "answer": "deer",
+        "sentence": "The ____ ran into the forest when it heard us.",
+        "translation": "鹿聽到我們的聲音就跑進森林。",
+        "context": "請填本課用語：鹿。",
+        "explanation": "The deer ran into the forest when it heard us. 鹿聽到我們的聲音就跑進森林。"
+      },
+      {
+        "id": "bear-1",
+        "target": "bear",
+        "answer": "bear",
+        "sentence": "The big brown ____ caught a fish in the river.",
+        "translation": "那隻大棕熊在河裡抓了一條魚。",
+        "context": "請填本課用語：熊。",
+        "explanation": "The big brown bear caught a fish in the river. 那隻大棕熊在河裡抓了一條魚。"
+      },
+      {
+        "id": "bear-2",
+        "target": "bear",
+        "answer": "bear",
+        "sentence": "My little sister sleeps with a toy ____ every night.",
+        "translation": "我妹妹每天晚上抱著玩具熊睡覺。",
+        "context": "請填本課用語：熊。",
+        "explanation": "My little sister sleeps with a toy bear every night. 我妹妹每天晚上抱著玩具熊睡覺。"
+      },
+      {
+        "id": "bear-3",
+        "target": "bear",
+        "answer": "bear",
+        "sentence": "We saw a black ____ in the wildlife video.",
+        "translation": "我們在野生動物影片中看到一隻黑熊。",
+        "context": "請填本課用語：熊。",
+        "explanation": "We saw a black bear in the wildlife video. 我們在野生動物影片中看到一隻黑熊。"
+      },
+      {
+        "id": "centimeters-1",
+        "target": "centimeters",
+        "answer": "centimeters",
+        "sentence": "This ruler is thirty ____ long.",
+        "translation": "這把尺長三十公分。",
+        "context": "請填本課用語：公分。",
+        "explanation": "This ruler is thirty centimeters long. 這把尺長三十公分。"
+      },
+      {
+        "id": "centimeters-2",
+        "target": "centimeters",
+        "answer": "centimeters",
+        "sentence": "The plant grew five ____ taller this month.",
+        "translation": "這株植物這個月長高五公分。",
+        "context": "請填本課用語：公分。",
+        "explanation": "The plant grew five centimeters taller this month. 這株植物這個月長高五公分。"
+      },
+      {
+        "id": "centimeters-3",
+        "target": "centimeters",
+        "answer": "centimeters",
+        "sentence": "The box is twenty ____ wide.",
+        "translation": "這個箱子寬二十公分。",
+        "context": "請填本課用語：公分。",
+        "explanation": "The box is twenty centimeters wide. 這個箱子寬二十公分。"
+      },
+      {
+        "id": "kilograms-1",
+        "target": "kilograms",
+        "answer": "kilograms",
+        "sentence": "The bag of rice weighs five ____.",
+        "translation": "這袋米重五公斤。",
+        "context": "請填本課用語：公斤。",
+        "explanation": "The bag of rice weighs five kilograms. 這袋米重五公斤。"
+      },
+      {
+        "id": "kilograms-2",
+        "target": "kilograms",
+        "answer": "kilograms",
+        "sentence": "Our dog weighs twelve ____.",
+        "translation": "我們的狗重十二公斤。",
+        "context": "請填本課用語：公斤。",
+        "explanation": "Our dog weighs twelve kilograms. 我們的狗重十二公斤。"
+      },
+      {
+        "id": "kilograms-3",
+        "target": "kilograms",
+        "answer": "kilograms",
+        "sentence": "The suitcase weighs eight ____, so I can carry it.",
+        "translation": "行李箱重八公斤，所以我搬得動。",
+        "context": "請填本課用語：公斤。",
+        "explanation": "The suitcase weighs eight kilograms, so I can carry it. 行李箱重八公斤，所以我搬得動。"
+      },
+      {
+        "id": "weight-1",
+        "target": "weight",
+        "answer": "weight",
+        "sentence": "The nurse checked my height and ____.",
+        "translation": "護理師檢查我的身高和體重。",
+        "context": "請填本課用語：重量，體重。",
+        "explanation": "The nurse checked my height and weight. 護理師檢查我的身高和體重。"
+      },
+      {
+        "id": "weight-2",
+        "target": "weight",
+        "answer": "weight",
+        "sentence": "What is the ____ of this package in kilograms?",
+        "translation": "這個包裹的重量是多少公斤？",
+        "context": "請填本課用語：重量，體重。",
+        "explanation": "What is the weight of this package in kilograms? 這個包裹的重量是多少公斤？"
+      },
+      {
+        "id": "weight-3",
+        "target": "weight",
+        "answer": "weight",
+        "sentence": "The label shows the ____ of the bag of rice.",
+        "translation": "標籤顯示這袋米的重量。",
+        "context": "請填本課用語：重量，體重。",
+        "explanation": "The label shows the weight of the bag of rice. 標籤顯示這袋米的重量。"
+      },
+      {
+        "id": "live-1",
+        "target": "live",
+        "answer": "live",
+        "sentence": "Where does your uncle ____ now?",
+        "translation": "你叔叔現在住在哪裡？",
+        "context": "請填本課用語：住。本題練習動詞原形。",
+        "explanation": "Where does your uncle live now? 你叔叔現在住在哪裡？"
+      },
+      {
+        "id": "live-2",
+        "target": "live",
+        "answer": "live",
+        "sentence": "My cousins ____ near the zoo.",
+        "translation": "我的表兄弟姊妹住在動物園附近。",
+        "context": "請填本課用語：住。本題練習動詞原形。",
+        "explanation": "My cousins live near the zoo. 我的表兄弟姊妹住在動物園附近。"
+      },
+      {
+        "id": "live-3",
+        "target": "live",
+        "answer": "live",
+        "sentence": "Some animals ____ in trees.",
+        "translation": "有些動物住在樹上。",
+        "context": "請填本課用語：住。本題練習動詞原形。",
+        "explanation": "Some animals live in trees. 有些動物住在樹上。"
+      },
+      {
+        "id": "lived-1",
+        "target": "lived",
+        "answer": "lived",
+        "sentence": "We ____ in Taipei before we moved to Tainan.",
+        "translation": "我們搬到臺南前住在臺北。",
+        "context": "請填本課用語：住。本題練習 live 的過去式。",
+        "explanation": "We lived in Taipei before we moved to Tainan. 我們搬到臺南前住在臺北。"
+      },
+      {
+        "id": "lived-2",
+        "target": "lived",
+        "answer": "lived",
+        "sentence": "My grandmother ____ near a forest when she was young.",
+        "translation": "我奶奶年輕時住在森林附近。",
+        "context": "請填本課用語：住。本題練習 live 的過去式。",
+        "explanation": "My grandmother lived near a forest when she was young. 我奶奶年輕時住在森林附近。"
+      },
+      {
+        "id": "lived-3",
+        "target": "lived",
+        "answer": "lived",
+        "sentence": "Last year, they ____ in a small house by the river.",
+        "translation": "去年，他們住在河邊的一間小房子裡。",
+        "context": "請填本課用語：住。本題練習 live 的過去式。",
+        "explanation": "Last year, they lived in a small house by the river. 去年，他們住在河邊的一間小房子裡。"
+      },
+      {
+        "id": "butterfly-1",
+        "target": "butterfly",
+        "answer": "butterfly",
+        "sentence": "A colorful ____ landed on the flower.",
+        "translation": "一隻色彩繽紛的蝴蝶停在花上。",
+        "context": "請填本課用語：蝴蝶。",
+        "explanation": "A colorful butterfly landed on the flower. 一隻色彩繽紛的蝴蝶停在花上。"
+      },
+      {
+        "id": "butterfly-2",
+        "target": "butterfly",
+        "answer": "butterfly",
+        "sentence": "The ____ opened its wings in the sunshine.",
+        "translation": "蝴蝶在陽光下展開翅膀。",
+        "context": "請填本課用語：蝴蝶。",
+        "explanation": "The butterfly opened its wings in the sunshine. 蝴蝶在陽光下展開翅膀。"
+      },
+      {
+        "id": "butterfly-3",
+        "target": "butterfly",
+        "answer": "butterfly",
+        "sentence": "I drew a ____ with two large yellow wings.",
+        "translation": "我畫了一隻有兩片大黃翅膀的蝴蝶。",
+        "context": "請填本課用語：蝴蝶。",
+        "explanation": "I drew a butterfly with two large yellow wings. 我畫了一隻有兩片大黃翅膀的蝴蝶。"
+      },
+      {
+        "id": "fierce-1",
+        "target": "fierce",
+        "answer": "fierce",
+        "sentence": "The ____ dog growled and showed its teeth.",
+        "translation": "那隻兇猛的狗低吼並露出牙齒。",
+        "context": "請填本課用語：兇猛的。",
+        "explanation": "The fierce dog growled and showed its teeth. 那隻兇猛的狗低吼並露出牙齒。"
+      },
+      {
+        "id": "fierce-2",
+        "target": "fierce",
+        "answer": "fierce",
+        "sentence": "The story describes a ____ tiger that frightened everyone.",
+        "translation": "故事描述一隻嚇到所有人的兇猛老虎。",
+        "context": "請填本課用語：兇猛的。",
+        "explanation": "The story describes a fierce tiger that frightened everyone. 故事描述一隻嚇到所有人的兇猛老虎。"
+      },
+      {
+        "id": "fierce-3",
+        "target": "fierce",
+        "answer": "fierce",
+        "sentence": "The animal looked ____, so we kept our distance.",
+        "translation": "那隻動物看起來很兇猛，所以我們保持距離。",
+        "context": "請填本課用語：兇猛的。",
+        "explanation": "The animal looked fierce, so we kept our distance. 那隻動物看起來很兇猛，所以我們保持距離。"
+      },
+      {
+        "id": "gentle-1",
+        "target": "gentle",
+        "answer": "gentle",
+        "sentence": "The ____ horse stood calmly while the child touched it.",
+        "translation": "那匹溫和的馬在孩子摸牠時平靜地站著。",
+        "context": "請填本課用語：溫和的。",
+        "explanation": "The gentle horse stood calmly while the child touched it. 那匹溫和的馬在孩子摸牠時平靜地站著。"
+      },
+      {
+        "id": "gentle-2",
+        "target": "gentle",
+        "answer": "gentle",
+        "sentence": "Please be ____ when you hold the tiny kitten.",
+        "translation": "抱這隻小貓時請溫柔一點。",
+        "context": "請填本課用語：溫和的。",
+        "explanation": "Please be gentle when you hold the tiny kitten. 抱這隻小貓時請溫柔一點。"
+      },
+      {
+        "id": "gentle-3",
+        "target": "gentle",
+        "answer": "gentle",
+        "sentence": "Our dog is ____ with small children.",
+        "translation": "我們的狗對小孩子很溫和。",
+        "context": "請填本課用語：溫和的。",
+        "explanation": "Our dog is gentle with small children. 我們的狗對小孩子很溫和。"
+      },
+      {
+        "id": "heavy-1",
+        "target": "heavy",
+        "answer": "heavy",
+        "sentence": "This box is too ____ for me to lift.",
+        "translation": "這個箱子太重，我抬不動。",
+        "context": "請填本課用語：重的。",
+        "explanation": "This box is too heavy for me to lift. 這個箱子太重，我抬不動。"
+      },
+      {
+        "id": "heavy-2",
+        "target": "heavy",
+        "answer": "heavy",
+        "sentence": "My schoolbag feels ____ because it is full of books.",
+        "translation": "我的書包裝滿了書，所以感覺很重。",
+        "context": "請填本課用語：重的。",
+        "explanation": "My schoolbag feels heavy because it is full of books. 我的書包裝滿了書，所以感覺很重。"
+      },
+      {
+        "id": "heavy-3",
+        "target": "heavy",
+        "answer": "heavy",
+        "sentence": "We need two people to move the ____ table.",
+        "translation": "我們需要兩個人搬這張重桌子。",
+        "context": "請填本課用語：重的。",
+        "explanation": "We need two people to move the heavy table. 我們需要兩個人搬這張重桌子。"
+      },
+      {
+        "id": "light-1",
+        "target": "light",
+        "answer": "light",
+        "sentence": "The empty basket is ____ and easy to carry.",
+        "translation": "空籃子很輕，容易攜帶。",
+        "context": "請填本課用語：輕的。",
+        "explanation": "The empty basket is light and easy to carry. 空籃子很輕，容易攜帶。"
+      },
+      {
+        "id": "light-2",
+        "target": "light",
+        "answer": "light",
+        "sentence": "This feather is so ____ that it floats in the air.",
+        "translation": "這根羽毛很輕，可以飄在空中。",
+        "context": "請填本課用語：輕的。",
+        "explanation": "This feather is so light that it floats in the air. 這根羽毛很輕，可以飄在空中。"
+      },
+      {
+        "id": "light-3",
+        "target": "light",
+        "answer": "light",
+        "sentence": "I chose a ____ backpack for our walk.",
+        "translation": "我選了一個輕的背包來散步用。",
+        "context": "請填本課用語：輕的。",
+        "explanation": "I chose a light backpack for our walk. 我選了一個輕的背包來散步用。"
+      },
+      {
+        "id": "fast-1",
+        "target": "fast",
+        "answer": "fast",
+        "sentence": "The rabbit ran so ____ that I could not catch it.",
+        "translation": "兔子跑得很快，我追不上。",
+        "context": "請填本課用語：快的。",
+        "explanation": "The rabbit ran so fast that I could not catch it. 兔子跑得很快，我追不上。"
+      },
+      {
+        "id": "fast-2",
+        "target": "fast",
+        "answer": "fast",
+        "sentence": "This is a ____ train; the trip takes only an hour.",
+        "translation": "這是快車，旅程只要一小時。",
+        "context": "請填本課用語：快的。",
+        "explanation": "This is a fast train; the trip takes only an hour. 這是快車，旅程只要一小時。"
+      },
+      {
+        "id": "fast-3",
+        "target": "fast",
+        "answer": "fast",
+        "sentence": "Do not ride your bike too ____ near the school.",
+        "translation": "在學校附近騎腳踏車不要騎太快。",
+        "context": "請填本課用語：快的。",
+        "explanation": "Do not ride your bike too fast near the school. 在學校附近騎腳踏車不要騎太快。"
+      },
+      {
+        "id": "than-1",
+        "target": "than",
+        "answer": "than",
+        "sentence": "This deer is taller ____ that one.",
+        "translation": "這隻鹿比那隻高。",
+        "context": "請填本課用語：比，比較。",
+        "explanation": "This deer is taller than that one. 這隻鹿比那隻高。"
+      },
+      {
+        "id": "than-2",
+        "target": "than",
+        "answer": "than",
+        "sentence": "My bag is lighter ____ yours.",
+        "translation": "我的袋子比你的輕。",
+        "context": "請填本課用語：比，比較。",
+        "explanation": "My bag is lighter than yours. 我的袋子比你的輕。"
+      },
+      {
+        "id": "than-3",
+        "target": "than",
+        "answer": "than",
+        "sentence": "The blue ruler is longer ____ the red ruler.",
+        "translation": "藍色的尺比紅色的尺長。",
+        "context": "請填本課用語：比，比較。",
+        "explanation": "The blue ruler is longer than the red ruler. 藍色的尺比紅色的尺長。"
+      },
+      {
+        "id": "almost-1",
+        "target": "almost",
+        "answer": "almost",
+        "sentence": "It is ____ noon; the clock says 11:58.",
+        "translation": "快中午了，時鐘顯示十一點五十八分。",
+        "context": "請填本課用語：幾乎。",
+        "explanation": "It is almost noon; the clock says 11:58. 快中午了，時鐘顯示十一點五十八分。"
+      },
+      {
+        "id": "almost-2",
+        "target": "almost",
+        "answer": "almost",
+        "sentence": "I have ____ finished my homework; only one question is left.",
+        "translation": "我的功課幾乎寫完了，只剩一題。",
+        "context": "請填本課用語：幾乎。",
+        "explanation": "I have almost finished my homework; only one question is left. 我的功課幾乎寫完了，只剩一題。"
+      },
+      {
+        "id": "almost-3",
+        "target": "almost",
+        "answer": "almost",
+        "sentence": "The bottle is ____ empty, with just a little water left.",
+        "translation": "瓶子幾乎空了，只剩一點水。",
+        "context": "請填本課用語：幾乎。",
+        "explanation": "The bottle is almost empty, with just a little water left. 瓶子幾乎空了，只剩一點水。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

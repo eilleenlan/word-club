@@ -1749,6 +1749,81 @@ globalThis.WORD_UNITS = [
       "害怕的"
     ]
   ]
+},
+{
+  "grade": 4,
+  "id": "u5",
+  "number": "05",
+  "title": "臺灣的野生動物",
+  "subtitle": "monkey, butterfly, weight…",
+  "words": [
+    [
+      "monkey",
+      "猴子"
+    ],
+    [
+      "deer",
+      "鹿"
+    ],
+    [
+      "bear",
+      "熊"
+    ],
+    [
+      "centimeters",
+      "公分"
+    ],
+    [
+      "kilograms",
+      "公斤"
+    ],
+    [
+      "weight",
+      "重量，體重"
+    ],
+    [
+      "live",
+      "住",
+      "本題練習動詞原形。"
+    ],
+    [
+      "lived",
+      "住",
+      "本題練習 live 的過去式。"
+    ],
+    [
+      "butterfly",
+      "蝴蝶"
+    ],
+    [
+      "fierce",
+      "兇猛的"
+    ],
+    [
+      "gentle",
+      "溫和的"
+    ],
+    [
+      "heavy",
+      "重的"
+    ],
+    [
+      "light",
+      "輕的"
+    ],
+    [
+      "fast",
+      "快的"
+    ],
+    [
+      "than",
+      "比，比較"
+    ],
+    [
+      "almost",
+      "幾乎"
+    ]
+  ]
 }
 ];
 
