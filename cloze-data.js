@@ -14440,6 +14440,409 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Follow the signs along the path to the museum. 沿著小路的標誌走到博物館。"
       }
     ]
+  },
+  {
+    "id": "g1-u6-v1",
+    "grade": 1,
+    "unit": 6,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "我會做什麼？",
+    "description": "10 個單字與句型目標，各 3 種情境，共 30 題二選一。練習能力、動作與 can／cannot／can’t。",
+    "source": "依家長提供的一年級 U6 單字表及 Quiz 相關句型新編，非原卷。",
+    "questions": [
+      {
+        "id": "can-1",
+        "target": "can",
+        "answer": "can",
+        "options": [
+          "can",
+          "cannot"
+        ],
+        "sentence": "I ____ swim. I am a good swimmer.",
+        "translation": "我會游泳。我很會游泳。",
+        "context": "情境：我會游泳。我很會游泳。",
+        "explanation": "I can swim. I am a good swimmer. 我會游泳。我很會游泳。"
+      },
+      {
+        "id": "can-2",
+        "target": "can",
+        "answer": "can",
+        "options": [
+          "cannot",
+          "can"
+        ],
+        "sentence": "She ____ sing. Listen to her song!",
+        "translation": "她會唱歌。聽她唱歌！",
+        "context": "情境：她會唱歌。聽她唱歌！",
+        "explanation": "She can sing. Listen to her song! 她會唱歌。聽她唱歌！"
+      },
+      {
+        "id": "can-3",
+        "target": "can",
+        "answer": "can",
+        "options": [
+          "can",
+          "cannot"
+        ],
+        "sentence": "We ____ help. We can clean the desks.",
+        "translation": "我們能幫忙。我們會擦桌子。",
+        "context": "情境：我們能幫忙。我們會擦桌子。",
+        "explanation": "We can help. We can clean the desks. 我們能幫忙。我們會擦桌子。"
+      },
+      {
+        "id": "read-1",
+        "target": "read",
+        "answer": "read",
+        "options": [
+          "read",
+          "eat"
+        ],
+        "sentence": "I can ____ this book.",
+        "translation": "我會讀這本書。",
+        "context": "情境：我會讀這本書。",
+        "explanation": "I can read this book. 我會讀這本書。"
+      },
+      {
+        "id": "read-2",
+        "target": "read",
+        "answer": "read",
+        "options": [
+          "eat",
+          "read"
+        ],
+        "sentence": "Can you ____ the words on the board?",
+        "translation": "你會讀黑板上的字嗎？",
+        "context": "情境：你會讀黑板上的字嗎？",
+        "explanation": "Can you read the words on the board? 你會讀黑板上的字嗎？"
+      },
+      {
+        "id": "read-3",
+        "target": "read",
+        "answer": "read",
+        "options": [
+          "read",
+          "eat"
+        ],
+        "sentence": "We ____ stories in the library.",
+        "translation": "我們在圖書館讀故事。",
+        "context": "情境：我們在圖書館讀故事。",
+        "explanation": "We read stories in the library. 我們在圖書館讀故事。"
+      },
+      {
+        "id": "draw-1",
+        "target": "draw",
+        "answer": "draw",
+        "options": [
+          "draw",
+          "sleep"
+        ],
+        "sentence": "I can ____ a picture of a cat.",
+        "translation": "我會畫一張貓的圖畫。",
+        "context": "情境：我會畫一張貓的圖畫。",
+        "explanation": "I can draw a picture of a cat. 我會畫一張貓的圖畫。"
+      },
+      {
+        "id": "draw-2",
+        "target": "draw",
+        "answer": "draw",
+        "options": [
+          "sleep",
+          "draw"
+        ],
+        "sentence": "Can you ____ a big circle?",
+        "translation": "你會畫一個大圓圈嗎？",
+        "context": "情境：你會畫一個大圓圈嗎？",
+        "explanation": "Can you draw a big circle? 你會畫一個大圓圈嗎？"
+      },
+      {
+        "id": "draw-3",
+        "target": "draw",
+        "answer": "draw",
+        "options": [
+          "draw",
+          "sleep"
+        ],
+        "sentence": "We ____ flowers with crayons.",
+        "translation": "我們用蠟筆畫花。",
+        "context": "情境：我們用蠟筆畫花。",
+        "explanation": "We draw flowers with crayons. 我們用蠟筆畫花。"
+      },
+      {
+        "id": "run-1",
+        "target": "run",
+        "answer": "run",
+        "options": [
+          "run",
+          "write"
+        ],
+        "sentence": "I can ____ fast on the playground.",
+        "translation": "我會在操場上跑得很快。",
+        "context": "情境：我會在操場上跑得很快。",
+        "explanation": "I can run fast on the playground. 我會在操場上跑得很快。"
+      },
+      {
+        "id": "run-2",
+        "target": "run",
+        "answer": "run",
+        "options": [
+          "write",
+          "run"
+        ],
+        "sentence": "Please do not ____ in the hallway.",
+        "translation": "請不要在走廊跑步。",
+        "context": "情境：請不要在走廊跑步。",
+        "explanation": "Please do not run in the hallway. 請不要在走廊跑步。"
+      },
+      {
+        "id": "run-3",
+        "target": "run",
+        "answer": "run",
+        "options": [
+          "run",
+          "write"
+        ],
+        "sentence": "The children ____ to the finish line.",
+        "translation": "孩子們跑向終點線。",
+        "context": "情境：孩子們跑向終點線。",
+        "explanation": "The children run to the finish line. 孩子們跑向終點線。"
+      },
+      {
+        "id": "eat-1",
+        "target": "eat",
+        "answer": "eat",
+        "options": [
+          "eat",
+          "draw"
+        ],
+        "sentence": "I ____ an apple for a snack.",
+        "translation": "我吃一顆蘋果當點心。",
+        "context": "情境：我吃一顆蘋果當點心。",
+        "explanation": "I eat an apple for a snack. 我吃一顆蘋果當點心。"
+      },
+      {
+        "id": "eat-2",
+        "target": "eat",
+        "answer": "eat",
+        "options": [
+          "draw",
+          "eat"
+        ],
+        "sentence": "We can ____ lunch in the dining room.",
+        "translation": "我們可以在餐廳吃午餐。",
+        "context": "情境：我們可以在餐廳吃午餐。",
+        "explanation": "We can eat lunch in the dining room. 我們可以在餐廳吃午餐。"
+      },
+      {
+        "id": "eat-3",
+        "target": "eat",
+        "answer": "eat",
+        "options": [
+          "eat",
+          "draw"
+        ],
+        "sentence": "Can you ____ with a spoon?",
+        "translation": "你會用湯匙吃東西嗎？",
+        "context": "情境：你會用湯匙吃東西嗎？",
+        "explanation": "Can you eat with a spoon? 你會用湯匙吃東西嗎？"
+      },
+      {
+        "id": "write-1",
+        "target": "write",
+        "answer": "write",
+        "options": [
+          "write",
+          "run"
+        ],
+        "sentence": "I can ____ my name.",
+        "translation": "我會寫我的名字。",
+        "context": "情境：我會寫我的名字。",
+        "explanation": "I can write my name. 我會寫我的名字。"
+      },
+      {
+        "id": "write-2",
+        "target": "write",
+        "answer": "write",
+        "options": [
+          "run",
+          "write"
+        ],
+        "sentence": "Please ____ the word cat on the paper.",
+        "translation": "請在紙上寫 cat 這個字。",
+        "context": "情境：請在紙上寫 cat 這個字。",
+        "explanation": "Please write the word cat on the paper. 請在紙上寫 cat 這個字。"
+      },
+      {
+        "id": "write-3",
+        "target": "write",
+        "answer": "write",
+        "options": [
+          "write",
+          "run"
+        ],
+        "sentence": "We ____ letters with pencils.",
+        "translation": "我們用鉛筆寫字母。",
+        "context": "情境：我們用鉛筆寫字母。",
+        "explanation": "We write letters with pencils. 我們用鉛筆寫字母。"
+      },
+      {
+        "id": "count-1",
+        "target": "count",
+        "answer": "count",
+        "options": [
+          "count",
+          "sleep"
+        ],
+        "sentence": "Can you ____ from one to ten?",
+        "translation": "你會從一數到十嗎？",
+        "context": "情境：你會從一數到十嗎？",
+        "explanation": "Can you count from one to ten? 你會從一數到十嗎？"
+      },
+      {
+        "id": "count-2",
+        "target": "count",
+        "answer": "count",
+        "options": [
+          "sleep",
+          "count"
+        ],
+        "sentence": "Let us ____ the apples: one, two, three!",
+        "translation": "我們來數蘋果：一、二、三！",
+        "context": "情境：我們來數蘋果：一、二、三！",
+        "explanation": "Let us count the apples: one, two, three! 我們來數蘋果：一、二、三！"
+      },
+      {
+        "id": "count-3",
+        "target": "count",
+        "answer": "count",
+        "options": [
+          "count",
+          "sleep"
+        ],
+        "sentence": "I can ____ the stars in this picture.",
+        "translation": "我會數這張圖裡的星星。",
+        "context": "情境：我會數這張圖裡的星星。",
+        "explanation": "I can count the stars in this picture. 我會數這張圖裡的星星。"
+      },
+      {
+        "id": "sleep-1",
+        "target": "sleep",
+        "answer": "sleep",
+        "options": [
+          "sleep",
+          "read"
+        ],
+        "sentence": "I ____ in my bed at night.",
+        "translation": "我晚上在床上睡覺。",
+        "context": "情境：我晚上在床上睡覺。",
+        "explanation": "I sleep in my bed at night. 我晚上在床上睡覺。"
+      },
+      {
+        "id": "sleep-2",
+        "target": "sleep",
+        "answer": "sleep",
+        "options": [
+          "read",
+          "sleep"
+        ],
+        "sentence": "The baby can ____ now. Please be quiet.",
+        "translation": "寶寶現在可以睡覺了。請安靜。",
+        "context": "情境：寶寶現在可以睡覺了。請安靜。",
+        "explanation": "The baby can sleep now. Please be quiet. 寶寶現在可以睡覺了。請安靜。"
+      },
+      {
+        "id": "sleep-3",
+        "target": "sleep",
+        "answer": "sleep",
+        "options": [
+          "sleep",
+          "read"
+        ],
+        "sentence": "We do not ____ in class. We stay awake.",
+        "translation": "我們上課不睡覺。我們保持清醒。",
+        "context": "情境：我們上課不睡覺。我們保持清醒。",
+        "explanation": "We do not sleep in class. We stay awake. 我們上課不睡覺。我們保持清醒。"
+      },
+      {
+        "id": "cannot-1",
+        "target": "cannot",
+        "answer": "cannot",
+        "options": [
+          "cannot",
+          "can"
+        ],
+        "sentence": "Fish ____ ride bikes.",
+        "translation": "魚不會騎腳踏車。",
+        "context": "情境：魚不會騎腳踏車。",
+        "explanation": "Fish cannot ride bikes. 魚不會騎腳踏車。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      },
+      {
+        "id": "cannot-2",
+        "target": "cannot",
+        "answer": "cannot",
+        "options": [
+          "can",
+          "cannot"
+        ],
+        "sentence": "I ____ reach the shelf. It is too high.",
+        "translation": "我碰不到架子。它太高了。",
+        "context": "情境：我碰不到架子。它太高了。",
+        "explanation": "I cannot reach the shelf. It is too high. 我碰不到架子。它太高了。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      },
+      {
+        "id": "cannot-3",
+        "target": "cannot",
+        "answer": "cannot",
+        "options": [
+          "cannot",
+          "can"
+        ],
+        "sentence": "We ____ see in this dark room. Please turn on the light.",
+        "translation": "我們在這個黑暗的房間裡看不見。請開燈。",
+        "context": "情境：我們在這個黑暗的房間裡看不見。請開燈。",
+        "explanation": "We cannot see in this dark room. Please turn on the light. 我們在這個黑暗的房間裡看不見。請開燈。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      },
+      {
+        "id": "can't-1",
+        "target": "can't",
+        "answer": "can't",
+        "options": [
+          "can't",
+          "can"
+        ],
+        "sentence": "I ____ fly like a bird.",
+        "translation": "我不能像鳥一樣飛。",
+        "context": "情境：我不能像鳥一樣飛。",
+        "explanation": "I can't fly like a bird. 我不能像鳥一樣飛。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      },
+      {
+        "id": "can't-2",
+        "target": "can't",
+        "answer": "can't",
+        "options": [
+          "can",
+          "can't"
+        ],
+        "sentence": "She ____ open the box. She needs help.",
+        "translation": "她打不開箱子。她需要幫忙。",
+        "context": "情境：她打不開箱子。她需要幫忙。",
+        "explanation": "She can't open the box. She needs help. 她打不開箱子。她需要幫忙。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      },
+      {
+        "id": "can't-3",
+        "target": "can't",
+        "answer": "can't",
+        "options": [
+          "can't",
+          "can"
+        ],
+        "sentence": "He ____ read the word yet. Please help him.",
+        "translation": "他還不會讀這個字。請幫幫他。",
+        "context": "情境：他還不會讀這個字。請幫幫他。",
+        "explanation": "He can't read the word yet. Please help him. 他還不會讀這個字。請幫幫他。 cannot 和 can’t 意思相同，can’t 是縮寫。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
