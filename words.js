@@ -2163,6 +2163,104 @@ globalThis.WORD_UNITS = [
       "踢"
     ]
   ]
+},
+{
+  "grade": 1,
+  "id": "u9",
+  "number": "09",
+  "title": "現在幾點鐘？",
+  "subtitle": "what time, eleven, twelve…",
+  "words": [
+    [
+      "what time",
+      "幾點鐘"
+    ],
+    [
+      "eleven",
+      "十一"
+    ],
+    [
+      "for",
+      "給，為了"
+    ],
+    [
+      "twelve",
+      "十二"
+    ],
+    [
+      "five",
+      "五"
+    ],
+    [
+      "six",
+      "六"
+    ],
+    [
+      "seven",
+      "七"
+    ],
+    [
+      "eight",
+      "八"
+    ],
+    [
+      "nine",
+      "九"
+    ],
+    [
+      "ten",
+      "十"
+    ]
+  ]
+},
+{
+  "grade": 1,
+  "id": "u10",
+  "number": "10",
+  "title": "天氣與季節",
+  "subtitle": "warm, rainy, sunny…",
+  "words": [
+    [
+      "warm",
+      "溫暖的"
+    ],
+    [
+      "rainy",
+      "下雨的"
+    ],
+    [
+      "or",
+      "或者"
+    ],
+    [
+      "cold",
+      "冷的"
+    ],
+    [
+      "today",
+      "今天"
+    ],
+    [
+      "wet",
+      "濕的"
+    ],
+    [
+      "hot",
+      "熱的"
+    ],
+    [
+      "dry",
+      "乾的"
+    ],
+    [
+      "windy",
+      "風大的"
+    ],
+    [
+      "sunny",
+      "晴天的"
+    ]
+  ]
 }
 ];
 

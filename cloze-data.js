@@ -15727,6 +15727,812 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Can you kick the ball to me? 你能把球踢給我嗎？"
       }
     ]
+  },
+  {
+    "id": "g1-u9-v1",
+    "grade": 1,
+    "unit": 9,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "現在幾點鐘？",
+    "description": "10 個單字與片語，各 3 種情境，共 30 題二選一。數字時間附文字線索。",
+    "source": "依家長提供的一年級 U9 單字表與 Quiz 新編，非原卷。",
+    "questions": [
+      {
+        "id": "what-time-1",
+        "target": "what time",
+        "answer": "What time",
+        "options": [
+          "What time",
+          "Who"
+        ],
+        "sentence": "____ is it? It is two o’clock.",
+        "translation": "現在幾點？現在兩點。",
+        "context": "情境：現在幾點？現在兩點。",
+        "explanation": "What time is it? It is two o’clock. 現在幾點？現在兩點。"
+      },
+      {
+        "id": "what-time-2",
+        "target": "what time",
+        "answer": "What time",
+        "options": [
+          "Who",
+          "What time"
+        ],
+        "sentence": "____ do you eat lunch? At twelve.",
+        "translation": "你幾點吃午餐？十二點。",
+        "context": "情境：你幾點吃午餐？十二點。",
+        "explanation": "What time do you eat lunch? At twelve. 你幾點吃午餐？十二點。"
+      },
+      {
+        "id": "what-time-3",
+        "target": "what time",
+        "answer": "What time",
+        "options": [
+          "What time",
+          "Who"
+        ],
+        "sentence": "____ does she go to bed? At nine.",
+        "translation": "她幾點睡覺？九點。",
+        "context": "情境：她幾點睡覺？九點。",
+        "explanation": "What time does she go to bed? At nine. 她幾點睡覺？九點。"
+      },
+      {
+        "id": "eleven-1",
+        "target": "eleven",
+        "answer": "eleven",
+        "options": [
+          "eleven",
+          "five"
+        ],
+        "sentence": "The clock says 11:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 11:00，現在是十一點。",
+        "context": "情境：時鐘顯示 11:00，現在是十一點。",
+        "explanation": "The clock says 11:00. It is eleven o’clock. 時鐘顯示 11:00，現在是十一點。"
+      },
+      {
+        "id": "eleven-2",
+        "target": "eleven",
+        "answer": "eleven",
+        "options": [
+          "five",
+          "eleven"
+        ],
+        "sentence": "I eat at 11:30. I eat at ____ thirty.",
+        "translation": "我在 11:30 吃東西，也就是十一點半。",
+        "context": "情境：我在 11:30 吃東西，也就是十一點半。",
+        "explanation": "I eat at 11:30. I eat at eleven thirty. 我在 11:30 吃東西，也就是十一點半。"
+      },
+      {
+        "id": "eleven-3",
+        "target": "eleven",
+        "answer": "eleven",
+        "options": [
+          "eleven",
+          "five"
+        ],
+        "sentence": "There are 11 books. There are ____ books.",
+        "translation": "有 11 本書，也就是十一本書。",
+        "context": "情境：有 11 本書，也就是十一本書。",
+        "explanation": "There are 11 books. There are eleven books. 有 11 本書，也就是十一本書。"
+      },
+      {
+        "id": "for-1",
+        "target": "for",
+        "answer": "for",
+        "options": [
+          "for",
+          "to"
+        ],
+        "sentence": "It is time ____ lunch.",
+        "translation": "午餐時間到了。",
+        "context": "情境：午餐時間到了。",
+        "explanation": "It is time for lunch. 午餐時間到了。"
+      },
+      {
+        "id": "for-2",
+        "target": "for",
+        "answer": "for",
+        "options": [
+          "to",
+          "for"
+        ],
+        "sentence": "This gift is ____ you.",
+        "translation": "這份禮物是給你的。",
+        "context": "情境：這份禮物是給你的。",
+        "explanation": "This gift is for you. 這份禮物是給你的。"
+      },
+      {
+        "id": "for-3",
+        "target": "for",
+        "answer": "for",
+        "options": [
+          "for",
+          "to"
+        ],
+        "sentence": "Is it time ____ bed?",
+        "translation": "該睡覺了嗎？",
+        "context": "情境：該睡覺了嗎？",
+        "explanation": "Is it time for bed? 該睡覺了嗎？"
+      },
+      {
+        "id": "twelve-1",
+        "target": "twelve",
+        "answer": "twelve",
+        "options": [
+          "twelve",
+          "five"
+        ],
+        "sentence": "The clock says 12:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 12:00，現在是十二點。",
+        "context": "情境：時鐘顯示 12:00，現在是十二點。",
+        "explanation": "The clock says 12:00. It is twelve o’clock. 時鐘顯示 12:00，現在是十二點。"
+      },
+      {
+        "id": "twelve-2",
+        "target": "twelve",
+        "answer": "twelve",
+        "options": [
+          "five",
+          "twelve"
+        ],
+        "sentence": "I eat at 12:30. I eat at ____ thirty.",
+        "translation": "我在 12:30 吃東西，也就是十二點半。",
+        "context": "情境：我在 12:30 吃東西，也就是十二點半。",
+        "explanation": "I eat at 12:30. I eat at twelve thirty. 我在 12:30 吃東西，也就是十二點半。"
+      },
+      {
+        "id": "twelve-3",
+        "target": "twelve",
+        "answer": "twelve",
+        "options": [
+          "twelve",
+          "five"
+        ],
+        "sentence": "There are 12 books. There are ____ books.",
+        "translation": "有 12 本書，也就是十二本書。",
+        "context": "情境：有 12 本書，也就是十二本書。",
+        "explanation": "There are 12 books. There are twelve books. 有 12 本書，也就是十二本書。"
+      },
+      {
+        "id": "five-1",
+        "target": "five",
+        "answer": "five",
+        "options": [
+          "five",
+          "six"
+        ],
+        "sentence": "The clock says 5:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 5:00，現在是五點。",
+        "context": "情境：時鐘顯示 5:00，現在是五點。",
+        "explanation": "The clock says 5:00. It is five o’clock. 時鐘顯示 5:00，現在是五點。"
+      },
+      {
+        "id": "five-2",
+        "target": "five",
+        "answer": "five",
+        "options": [
+          "six",
+          "five"
+        ],
+        "sentence": "I eat at 5:30. I eat at ____ thirty.",
+        "translation": "我在 5:30 吃東西，也就是五點半。",
+        "context": "情境：我在 5:30 吃東西，也就是五點半。",
+        "explanation": "I eat at 5:30. I eat at five thirty. 我在 5:30 吃東西，也就是五點半。"
+      },
+      {
+        "id": "five-3",
+        "target": "five",
+        "answer": "five",
+        "options": [
+          "five",
+          "six"
+        ],
+        "sentence": "There are 5 books. There are ____ books.",
+        "translation": "有 5 本書，也就是五本書。",
+        "context": "情境：有 5 本書，也就是五本書。",
+        "explanation": "There are 5 books. There are five books. 有 5 本書，也就是五本書。"
+      },
+      {
+        "id": "six-1",
+        "target": "six",
+        "answer": "six",
+        "options": [
+          "six",
+          "five"
+        ],
+        "sentence": "The clock says 6:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 6:00，現在是六點。",
+        "context": "情境：時鐘顯示 6:00，現在是六點。",
+        "explanation": "The clock says 6:00. It is six o’clock. 時鐘顯示 6:00，現在是六點。"
+      },
+      {
+        "id": "six-2",
+        "target": "six",
+        "answer": "six",
+        "options": [
+          "five",
+          "six"
+        ],
+        "sentence": "I eat at 6:30. I eat at ____ thirty.",
+        "translation": "我在 6:30 吃東西，也就是六點半。",
+        "context": "情境：我在 6:30 吃東西，也就是六點半。",
+        "explanation": "I eat at 6:30. I eat at six thirty. 我在 6:30 吃東西，也就是六點半。"
+      },
+      {
+        "id": "six-3",
+        "target": "six",
+        "answer": "six",
+        "options": [
+          "six",
+          "five"
+        ],
+        "sentence": "There are 6 books. There are ____ books.",
+        "translation": "有 6 本書，也就是六本書。",
+        "context": "情境：有 6 本書，也就是六本書。",
+        "explanation": "There are 6 books. There are six books. 有 6 本書，也就是六本書。"
+      },
+      {
+        "id": "seven-1",
+        "target": "seven",
+        "answer": "seven",
+        "options": [
+          "seven",
+          "five"
+        ],
+        "sentence": "The clock says 7:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 7:00，現在是七點。",
+        "context": "情境：時鐘顯示 7:00，現在是七點。",
+        "explanation": "The clock says 7:00. It is seven o’clock. 時鐘顯示 7:00，現在是七點。"
+      },
+      {
+        "id": "seven-2",
+        "target": "seven",
+        "answer": "seven",
+        "options": [
+          "five",
+          "seven"
+        ],
+        "sentence": "I eat at 7:30. I eat at ____ thirty.",
+        "translation": "我在 7:30 吃東西，也就是七點半。",
+        "context": "情境：我在 7:30 吃東西，也就是七點半。",
+        "explanation": "I eat at 7:30. I eat at seven thirty. 我在 7:30 吃東西，也就是七點半。"
+      },
+      {
+        "id": "seven-3",
+        "target": "seven",
+        "answer": "seven",
+        "options": [
+          "seven",
+          "five"
+        ],
+        "sentence": "There are 7 books. There are ____ books.",
+        "translation": "有 7 本書，也就是七本書。",
+        "context": "情境：有 7 本書，也就是七本書。",
+        "explanation": "There are 7 books. There are seven books. 有 7 本書，也就是七本書。"
+      },
+      {
+        "id": "eight-1",
+        "target": "eight",
+        "answer": "eight",
+        "options": [
+          "eight",
+          "five"
+        ],
+        "sentence": "The clock says 8:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 8:00，現在是八點。",
+        "context": "情境：時鐘顯示 8:00，現在是八點。",
+        "explanation": "The clock says 8:00. It is eight o’clock. 時鐘顯示 8:00，現在是八點。"
+      },
+      {
+        "id": "eight-2",
+        "target": "eight",
+        "answer": "eight",
+        "options": [
+          "five",
+          "eight"
+        ],
+        "sentence": "I eat at 8:30. I eat at ____ thirty.",
+        "translation": "我在 8:30 吃東西，也就是八點半。",
+        "context": "情境：我在 8:30 吃東西，也就是八點半。",
+        "explanation": "I eat at 8:30. I eat at eight thirty. 我在 8:30 吃東西，也就是八點半。"
+      },
+      {
+        "id": "eight-3",
+        "target": "eight",
+        "answer": "eight",
+        "options": [
+          "eight",
+          "five"
+        ],
+        "sentence": "There are 8 books. There are ____ books.",
+        "translation": "有 8 本書，也就是八本書。",
+        "context": "情境：有 8 本書，也就是八本書。",
+        "explanation": "There are 8 books. There are eight books. 有 8 本書，也就是八本書。"
+      },
+      {
+        "id": "nine-1",
+        "target": "nine",
+        "answer": "nine",
+        "options": [
+          "nine",
+          "five"
+        ],
+        "sentence": "The clock says 9:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 9:00，現在是九點。",
+        "context": "情境：時鐘顯示 9:00，現在是九點。",
+        "explanation": "The clock says 9:00. It is nine o’clock. 時鐘顯示 9:00，現在是九點。"
+      },
+      {
+        "id": "nine-2",
+        "target": "nine",
+        "answer": "nine",
+        "options": [
+          "five",
+          "nine"
+        ],
+        "sentence": "I eat at 9:30. I eat at ____ thirty.",
+        "translation": "我在 9:30 吃東西，也就是九點半。",
+        "context": "情境：我在 9:30 吃東西，也就是九點半。",
+        "explanation": "I eat at 9:30. I eat at nine thirty. 我在 9:30 吃東西，也就是九點半。"
+      },
+      {
+        "id": "nine-3",
+        "target": "nine",
+        "answer": "nine",
+        "options": [
+          "nine",
+          "five"
+        ],
+        "sentence": "There are 9 books. There are ____ books.",
+        "translation": "有 9 本書，也就是九本書。",
+        "context": "情境：有 9 本書，也就是九本書。",
+        "explanation": "There are 9 books. There are nine books. 有 9 本書，也就是九本書。"
+      },
+      {
+        "id": "ten-1",
+        "target": "ten",
+        "answer": "ten",
+        "options": [
+          "ten",
+          "five"
+        ],
+        "sentence": "The clock says 10:00. It is ____ o’clock.",
+        "translation": "時鐘顯示 10:00，現在是十點。",
+        "context": "情境：時鐘顯示 10:00，現在是十點。",
+        "explanation": "The clock says 10:00. It is ten o’clock. 時鐘顯示 10:00，現在是十點。"
+      },
+      {
+        "id": "ten-2",
+        "target": "ten",
+        "answer": "ten",
+        "options": [
+          "five",
+          "ten"
+        ],
+        "sentence": "I eat at 10:30. I eat at ____ thirty.",
+        "translation": "我在 10:30 吃東西，也就是十點半。",
+        "context": "情境：我在 10:30 吃東西，也就是十點半。",
+        "explanation": "I eat at 10:30. I eat at ten thirty. 我在 10:30 吃東西，也就是十點半。"
+      },
+      {
+        "id": "ten-3",
+        "target": "ten",
+        "answer": "ten",
+        "options": [
+          "ten",
+          "five"
+        ],
+        "sentence": "There are 10 books. There are ____ books.",
+        "translation": "有 10 本書，也就是十本書。",
+        "context": "情境：有 10 本書，也就是十本書。",
+        "explanation": "There are 10 books. There are ten books. 有 10 本書，也就是十本書。"
+      }
+    ]
+  },
+  {
+    "id": "g1-u10-v1",
+    "grade": 1,
+    "unit": 10,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "天氣與季節",
+    "description": "10 個單字與片語，各 3 種情境，共 30 題二選一。練習天氣、冷熱、乾濕與選擇問句。",
+    "source": "依家長提供的一年級 U10 單字表與 Spring 2025 期末考天氣相關題型新編；未提供單獨 U10 Quiz，非原卷。",
+    "questions": [
+      {
+        "id": "warm-1",
+        "target": "warm",
+        "answer": "warm",
+        "options": [
+          "warm",
+          "cold"
+        ],
+        "sentence": "It is ____ today. I feel nice in my light shirt.",
+        "translation": "今天很溫暖。我穿薄上衣覺得很舒服。",
+        "context": "情境：今天很溫暖。我穿薄上衣覺得很舒服。",
+        "explanation": "It is warm today. I feel nice in my light shirt. 今天很溫暖。我穿薄上衣覺得很舒服。"
+      },
+      {
+        "id": "warm-2",
+        "target": "warm",
+        "answer": "warm",
+        "options": [
+          "cold",
+          "warm"
+        ],
+        "sentence": "This blanket keeps me ____.",
+        "translation": "這條毯子讓我保持溫暖。",
+        "context": "情境：這條毯子讓我保持溫暖。",
+        "explanation": "This blanket keeps me warm. 這條毯子讓我保持溫暖。"
+      },
+      {
+        "id": "warm-3",
+        "target": "warm",
+        "answer": "warm",
+        "options": [
+          "warm",
+          "cold"
+        ],
+        "sentence": "The water is ____, not hot or cold.",
+        "translation": "水是溫的，不熱也不冷。",
+        "context": "情境：水是溫的，不熱也不冷。",
+        "explanation": "The water is warm, not hot or cold. 水是溫的，不熱也不冷。"
+      },
+      {
+        "id": "rainy-1",
+        "target": "rainy",
+        "answer": "rainy",
+        "options": [
+          "rainy",
+          "sunny"
+        ],
+        "sentence": "It is ____. Take an umbrella.",
+        "translation": "今天下雨了。帶把傘吧。",
+        "context": "情境：今天下雨了。帶把傘吧。",
+        "explanation": "It is rainy. Take an umbrella. 今天下雨了。帶把傘吧。"
+      },
+      {
+        "id": "rainy-2",
+        "target": "rainy",
+        "answer": "rainy",
+        "options": [
+          "sunny",
+          "rainy"
+        ],
+        "sentence": "On this ____ day, rain falls on the roof.",
+        "translation": "這個下雨天，雨水落在屋頂上。",
+        "context": "情境：這個下雨天，雨水落在屋頂上。",
+        "explanation": "On this rainy day, rain falls on the roof. 這個下雨天，雨水落在屋頂上。"
+      },
+      {
+        "id": "rainy-3",
+        "target": "rainy",
+        "answer": "rainy",
+        "options": [
+          "rainy",
+          "sunny"
+        ],
+        "sentence": "The weather is ____. We can see rain outside.",
+        "translation": "天氣下雨了。我們看到外面在下雨。",
+        "context": "情境：天氣下雨了。我們看到外面在下雨。",
+        "explanation": "The weather is rainy. We can see rain outside. 天氣下雨了。我們看到外面在下雨。"
+      },
+      {
+        "id": "or-1",
+        "target": "or",
+        "answer": "or",
+        "options": [
+          "or",
+          "but"
+        ],
+        "sentence": "Do you want milk ____ juice? Pick one.",
+        "translation": "你想要牛奶還是果汁？選一個。",
+        "context": "情境：你想要牛奶還是果汁？選一個。",
+        "explanation": "Do you want milk or juice? Pick one. 你想要牛奶還是果汁？選一個。"
+      },
+      {
+        "id": "or-2",
+        "target": "or",
+        "answer": "or",
+        "options": [
+          "but",
+          "or"
+        ],
+        "sentence": "Is it hot ____ cold today?",
+        "translation": "今天是熱還是冷？",
+        "context": "情境：今天是熱還是冷？",
+        "explanation": "Is it hot or cold today? 今天是熱還是冷？"
+      },
+      {
+        "id": "or-3",
+        "target": "or",
+        "answer": "or",
+        "options": [
+          "or",
+          "but"
+        ],
+        "sentence": "Would you like a red ____ blue bag? Choose one.",
+        "translation": "你想要紅袋子還是藍袋子？選一個。",
+        "context": "情境：你想要紅袋子還是藍袋子？選一個。",
+        "explanation": "Would you like a red or blue bag? Choose one. 你想要紅袋子還是藍袋子？選一個。"
+      },
+      {
+        "id": "cold-1",
+        "target": "cold",
+        "answer": "cold",
+        "options": [
+          "cold",
+          "hot"
+        ],
+        "sentence": "I am ____. Please give me a coat.",
+        "translation": "我很冷。請給我一件外套。",
+        "context": "情境：我很冷。請給我一件外套。",
+        "explanation": "I am cold. Please give me a coat. 我很冷。請給我一件外套。"
+      },
+      {
+        "id": "cold-2",
+        "target": "cold",
+        "answer": "cold",
+        "options": [
+          "hot",
+          "cold"
+        ],
+        "sentence": "The ice feels ____.",
+        "translation": "冰摸起來很冷。",
+        "context": "情境：冰摸起來很冷。",
+        "explanation": "The ice feels cold. 冰摸起來很冷。"
+      },
+      {
+        "id": "cold-3",
+        "target": "cold",
+        "answer": "cold",
+        "options": [
+          "cold",
+          "hot"
+        ],
+        "sentence": "It is ____ outside. Wear your warm hat.",
+        "translation": "外面很冷。戴上保暖的帽子。",
+        "context": "情境：外面很冷。戴上保暖的帽子。",
+        "explanation": "It is cold outside. Wear your warm hat. 外面很冷。戴上保暖的帽子。"
+      },
+      {
+        "id": "today-1",
+        "target": "today",
+        "answer": "today",
+        "options": [
+          "today",
+          "wet"
+        ],
+        "sentence": "It is sunny ____.",
+        "translation": "今天是晴天。",
+        "context": "情境：今天是晴天。",
+        "explanation": "It is sunny today. 今天是晴天。"
+      },
+      {
+        "id": "today-2",
+        "target": "today",
+        "answer": "today",
+        "options": [
+          "wet",
+          "today"
+        ],
+        "sentence": "What day is it ____?",
+        "translation": "今天星期幾？",
+        "context": "情境：今天星期幾？",
+        "explanation": "What day is it today? 今天星期幾？"
+      },
+      {
+        "id": "today-3",
+        "target": "today",
+        "answer": "today",
+        "options": [
+          "today",
+          "wet"
+        ],
+        "sentence": "We have a class party ____.",
+        "translation": "我們今天有班級派對。",
+        "context": "情境：我們今天有班級派對。",
+        "explanation": "We have a class party today. 我們今天有班級派對。"
+      },
+      {
+        "id": "wet-1",
+        "target": "wet",
+        "answer": "wet",
+        "options": [
+          "wet",
+          "dry"
+        ],
+        "sentence": "My socks are ____ from the rain.",
+        "translation": "我的襪子被雨淋濕了。",
+        "context": "情境：我的襪子被雨淋濕了。",
+        "explanation": "My socks are wet from the rain. 我的襪子被雨淋濕了。"
+      },
+      {
+        "id": "wet-2",
+        "target": "wet",
+        "answer": "wet",
+        "options": [
+          "dry",
+          "wet"
+        ],
+        "sentence": "The floor is ____ after I wash it.",
+        "translation": "我洗過地板後，地板濕濕的。",
+        "context": "情境：我洗過地板後，地板濕濕的。",
+        "explanation": "The floor is wet after I wash it. 我洗過地板後，地板濕濕的。"
+      },
+      {
+        "id": "wet-3",
+        "target": "wet",
+        "answer": "wet",
+        "options": [
+          "wet",
+          "dry"
+        ],
+        "sentence": "This towel is ____. Water is dripping from it.",
+        "translation": "這條毛巾是濕的，水正從上面滴下來。",
+        "context": "情境：這條毛巾是濕的，水正從上面滴下來。",
+        "explanation": "This towel is wet. Water is dripping from it. 這條毛巾是濕的，水正從上面滴下來。"
+      },
+      {
+        "id": "hot-1",
+        "target": "hot",
+        "answer": "hot",
+        "options": [
+          "hot",
+          "cold"
+        ],
+        "sentence": "The soup is ____. Let it cool before you eat.",
+        "translation": "湯很燙。放涼再吃。",
+        "context": "情境：湯很燙。放涼再吃。",
+        "explanation": "The soup is hot. Let it cool before you eat. 湯很燙。放涼再吃。"
+      },
+      {
+        "id": "hot-2",
+        "target": "hot",
+        "answer": "hot",
+        "options": [
+          "cold",
+          "hot"
+        ],
+        "sentence": "It is very ____ today. I need a fan.",
+        "translation": "今天很熱。我需要電風扇。",
+        "context": "情境：今天很熱。我需要電風扇。",
+        "explanation": "It is very hot today. I need a fan. 今天很熱。我需要電風扇。"
+      },
+      {
+        "id": "hot-3",
+        "target": "hot",
+        "answer": "hot",
+        "options": [
+          "hot",
+          "cold"
+        ],
+        "sentence": "Do not touch the ____ pan on the stove.",
+        "translation": "不要碰爐子上燙燙的鍋子。",
+        "context": "情境：不要碰爐子上燙燙的鍋子。",
+        "explanation": "Do not touch the hot pan on the stove. 不要碰爐子上燙燙的鍋子。"
+      },
+      {
+        "id": "dry-1",
+        "target": "dry",
+        "answer": "dry",
+        "options": [
+          "dry",
+          "wet"
+        ],
+        "sentence": "My shoes are ____ now. There is no water on them.",
+        "translation": "我的鞋子現在乾了，上面沒有水。",
+        "context": "情境：我的鞋子現在乾了，上面沒有水。",
+        "explanation": "My shoes are dry now. There is no water on them. 我的鞋子現在乾了，上面沒有水。"
+      },
+      {
+        "id": "dry-2",
+        "target": "dry",
+        "answer": "dry",
+        "options": [
+          "wet",
+          "dry"
+        ],
+        "sentence": "Use a ____ towel to wipe your wet hands.",
+        "translation": "用乾毛巾擦濕手。",
+        "context": "情境：用乾毛巾擦濕手。",
+        "explanation": "Use a dry towel to wipe your wet hands. 用乾毛巾擦濕手。"
+      },
+      {
+        "id": "dry-3",
+        "target": "dry",
+        "answer": "dry",
+        "options": [
+          "dry",
+          "wet"
+        ],
+        "sentence": "The clothes are ____ after a day in the sun.",
+        "translation": "衣服曬了一天太陽後乾了。",
+        "context": "情境：衣服曬了一天太陽後乾了。",
+        "explanation": "The clothes are dry after a day in the sun. 衣服曬了一天太陽後乾了。"
+      },
+      {
+        "id": "windy-1",
+        "target": "windy",
+        "answer": "windy",
+        "options": [
+          "windy",
+          "rainy"
+        ],
+        "sentence": "It is ____. The wind blows my hat away.",
+        "translation": "風很大。風吹走了我的帽子。",
+        "context": "情境：風很大。風吹走了我的帽子。",
+        "explanation": "It is windy. The wind blows my hat away. 風很大。風吹走了我的帽子。"
+      },
+      {
+        "id": "windy-2",
+        "target": "windy",
+        "answer": "windy",
+        "options": [
+          "rainy",
+          "windy"
+        ],
+        "sentence": "On this ____ day, the flags flap in the wind.",
+        "translation": "這個風大的日子，旗子在風中飄動。",
+        "context": "情境：這個風大的日子，旗子在風中飄動。",
+        "explanation": "On this windy day, the flags flap in the wind. 這個風大的日子，旗子在風中飄動。"
+      },
+      {
+        "id": "windy-3",
+        "target": "windy",
+        "answer": "windy",
+        "options": [
+          "windy",
+          "rainy"
+        ],
+        "sentence": "It is ____ outside. I can hear the wind.",
+        "translation": "外面風很大。我聽得到風聲。",
+        "context": "情境：外面風很大。我聽得到風聲。",
+        "explanation": "It is windy outside. I can hear the wind. 外面風很大。我聽得到風聲。"
+      },
+      {
+        "id": "sunny-1",
+        "target": "sunny",
+        "answer": "sunny",
+        "options": [
+          "sunny",
+          "rainy"
+        ],
+        "sentence": "It is ____. The sun is shining in a clear sky.",
+        "translation": "今天是晴天。太陽在晴朗的天空照耀。",
+        "context": "情境：今天是晴天。太陽在晴朗的天空照耀。",
+        "explanation": "It is sunny. The sun is shining in a clear sky. 今天是晴天。太陽在晴朗的天空照耀。"
+      },
+      {
+        "id": "sunny-2",
+        "target": "sunny",
+        "answer": "sunny",
+        "options": [
+          "rainy",
+          "sunny"
+        ],
+        "sentence": "We play outside on this bright, ____ day.",
+        "translation": "我們在這個明亮的晴天到外面玩。",
+        "context": "情境：我們在這個明亮的晴天到外面玩。",
+        "explanation": "We play outside on this bright, sunny day. 我們在這個明亮的晴天到外面玩。"
+      },
+      {
+        "id": "sunny-3",
+        "target": "sunny",
+        "answer": "sunny",
+        "options": [
+          "sunny",
+          "rainy"
+        ],
+        "sentence": "The sky is clear and ____. There are no rain clouds.",
+        "translation": "天空晴朗，是晴天，沒有雨雲。",
+        "context": "情境：天空晴朗，是晴天，沒有雨雲。",
+        "explanation": "The sky is clear and sunny. There are no rain clouds. 天空晴朗，是晴天，沒有雨雲。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
