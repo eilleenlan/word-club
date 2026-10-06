@@ -43,9 +43,9 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range includes 430 supplied questions and grade 5 alone has 100', () => {
+test('real grade 5 range includes 456 supplied questions and grade 5 alone has 100', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 430);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 456);
   assert.equal(s.eligible(WORD_UNITS, 5, false).length, 5);
   assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 100);
   assert.equal(s.eligible(WORD_UNITS, 6, false).length, 5);
@@ -54,7 +54,7 @@ test('real grade 5 range includes 430 supplied questions and grade 5 alone has 1
 test('grade 6 includes 101 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 531);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 557);
   const own = s.build(WORD_UNITS, 6, false, selected);
   assert.equal(own.words.length, 101);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
@@ -65,7 +65,7 @@ test('grade 4 has 88 textbook prompts and its cumulative range excludes grades 5
   const selected = new Set(WORD_UNITS.map(s.unitKey));
   const own = s.build(WORD_UNITS, 4, false, selected);
   assert.equal(own.words.length, 88);
-  assert.equal(s.build(WORD_UNITS, 4, true, selected).words.length, 330);
+  assert.equal(s.build(WORD_UNITS, 4, true, selected).words.length, 356);
   for (const word of ['Taiwan','Taipei','Pacific Ocean','national park','far from','live in','city','cities']) assert.ok(own.words.some(w => w[0] === word));
   assert.equal(WORD_UNITS.find(u => u.grade === 4 && u.id === 'u1').words.length, 16);
 });
@@ -87,17 +87,17 @@ test('grade 3 has 72 textbook prompts, preserves phrases and excludes higher gra
   const selected = new Set(WORD_UNITS.map(s.unitKey));
   const own = s.build(WORD_UNITS, 3, false, selected);
   assert.equal(own.words.length, 72);
-  assert.equal(s.build(WORD_UNITS, 3, true, selected).words.length, 244);
+  assert.equal(s.build(WORD_UNITS, 3, true, selected).words.length, 271);
   assert.equal(WORD_UNITS.find(u => u.grade === 3 && u.id === 'u1').words.length, 13);
   for (const word of ['in front of','convenience store','police officer','fire fighter','fire station','police station']) assert.ok(own.words.some(w => w[0] === word));
   assert.equal(s.checkAnswer('firefighter', 'fire fighter'), 'spelling');
 });
 
-test('grade 2 has 70 textbook prompts, distinct forms and all six grades are represented', () => {
+test('grade 2 has 97 textbook prompts, distinct forms and all six grades are represented', () => {
   const selected = new Set(WORD_UNITS.map(s.unitKey));
   const own = s.build(WORD_UNITS, 2, false, selected);
-  assert.equal(own.words.length, 70);
-  assert.equal(s.build(WORD_UNITS, 2, true, selected).words.length, 172);
+  assert.equal(own.words.length, 97);
+  assert.equal(s.build(WORD_UNITS, 2, true, selected).words.length, 199);
   assert.deepEqual([...new Set(WORD_UNITS.map(u => u.grade))].sort(), [1,2,3,4,5,6]);
   assert.equal(WORD_UNITS.find(u => u.grade === 2 && u.id === 'u1').words.length, 12);
   for (const word of ['foot','feet','have','has']) assert.ok(own.words.find(w => w[0] === word)[2]);

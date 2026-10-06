@@ -17176,6 +17176,1166 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Please tell us a funny story. 請給我們講一個有趣的故事。"
       }
     ]
+  },
+  {
+    "id": "g2-u7-v1",
+    "grade": 2,
+    "unit": 7,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "我的家庭",
+    "description": "13 個單字與詞形，每字 3 種情境，共 39 題三選一。",
+    "source": "依家長提供的二年級 U7 單字表與 Quiz 新編，非原卷；人物關係與動物特徵改為文字線索。",
+    "questions": [
+      {
+        "id": "family-1",
+        "target": "family",
+        "answer": "family",
+        "options": [
+          "family",
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "My parents, my brother, and I are a ____.",
+        "translation": "我的父母、哥哥和我是一個家庭。",
+        "context": "情境：我的父母、哥哥和我是一個家庭。",
+        "explanation": "My parents, my brother, and I are a family. 我的父母、哥哥和我是一個家庭。"
+      },
+      {
+        "id": "family-2",
+        "target": "family",
+        "answer": "family",
+        "options": [
+          "family",
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "This is a photo of my ____. We are all at home.",
+        "translation": "這是我的家庭照片。我們都在家。",
+        "context": "情境：這是我的家庭照片。我們都在家。",
+        "explanation": "This is a photo of my family. We are all at home. 這是我的家庭照片。我們都在家。"
+      },
+      {
+        "id": "family-3",
+        "target": "family",
+        "answer": "family",
+        "options": [
+          "family",
+          "classroom",
+          "pencil"
+        ],
+        "sentence": "I love my ____. We take care of each other.",
+        "translation": "我愛我的家人。我們互相照顧。",
+        "context": "情境：我愛我的家人。我們互相照顧。",
+        "explanation": "I love my family. We take care of each other. 我愛我的家人。我們互相照顧。"
+      },
+      {
+        "id": "brother-1",
+        "target": "brother",
+        "answer": "brother",
+        "options": [
+          "brother",
+          "sister",
+          "aunt"
+        ],
+        "sentence": "My parents have a son named Ben. He is my ____.",
+        "translation": "我父母有個兒子叫 Ben。他是我的兄弟。",
+        "context": "情境：我父母有個兒子叫 Ben。他是我的兄弟。",
+        "explanation": "My parents have a son named Ben. He is my brother. 我父母有個兒子叫 Ben。他是我的兄弟。"
+      },
+      {
+        "id": "brother-2",
+        "target": "brother",
+        "answer": "brother",
+        "options": [
+          "brother",
+          "sister",
+          "aunt"
+        ],
+        "sentence": "Tom is my ____. He and I have the same parents.",
+        "translation": "Tom 是我的兄弟。他和我的父母相同。",
+        "context": "情境：Tom 是我的兄弟。他和我的父母相同。",
+        "explanation": "Tom is my brother. He and I have the same parents. Tom 是我的兄弟。他和我的父母相同。"
+      },
+      {
+        "id": "brother-3",
+        "target": "brother",
+        "answer": "brother",
+        "options": [
+          "brother",
+          "sister",
+          "aunt"
+        ],
+        "sentence": "My younger ____ is a boy of five.",
+        "translation": "我的弟弟是個五歲的男孩。",
+        "context": "情境：我的弟弟是個五歲的男孩。",
+        "explanation": "My younger brother is a boy of five. 我的弟弟是個五歲的男孩。"
+      },
+      {
+        "id": "sister-1",
+        "target": "sister",
+        "answer": "sister",
+        "options": [
+          "sister",
+          "brother",
+          "uncle"
+        ],
+        "sentence": "My parents have a daughter named Amy. She is my ____.",
+        "translation": "我父母有個女兒叫 Amy。她是我的姊妹。",
+        "context": "情境：我父母有個女兒叫 Amy。她是我的姊妹。",
+        "explanation": "My parents have a daughter named Amy. She is my sister. 我父母有個女兒叫 Amy。她是我的姊妹。"
+      },
+      {
+        "id": "sister-2",
+        "target": "sister",
+        "answer": "sister",
+        "options": [
+          "sister",
+          "brother",
+          "uncle"
+        ],
+        "sentence": "My older ____ is a girl of ten.",
+        "translation": "我的姊姊是個十歲的女孩。",
+        "context": "情境：我的姊姊是個十歲的女孩。",
+        "explanation": "My older sister is a girl of ten. 我的姊姊是個十歲的女孩。"
+      },
+      {
+        "id": "sister-3",
+        "target": "sister",
+        "answer": "sister",
+        "options": [
+          "sister",
+          "brother",
+          "uncle"
+        ],
+        "sentence": "Lily and I have the same parents. She is my ____.",
+        "translation": "Lily 和我的父母相同。她是我的姊妹。",
+        "context": "情境：Lily 和我的父母相同。她是我的姊妹。",
+        "explanation": "Lily and I have the same parents. She is my sister. Lily 和我的父母相同。她是我的姊妹。"
+      },
+      {
+        "id": "people-1",
+        "target": "people",
+        "answer": "people",
+        "options": [
+          "people",
+          "person",
+          "peoples"
+        ],
+        "sentence": "There are five ____ in the room.",
+        "translation": "房間裡有五個人。",
+        "context": "情境：房間裡有五個人。",
+        "explanation": "There are five people in the room. 房間裡有五個人。"
+      },
+      {
+        "id": "people-2",
+        "target": "people",
+        "answer": "people",
+        "options": [
+          "people",
+          "person",
+          "peoples"
+        ],
+        "sentence": "How many ____ are on the bus?",
+        "translation": "公車上有多少人？",
+        "context": "情境：公車上有多少人？",
+        "explanation": "How many people are on the bus? 公車上有多少人？"
+      },
+      {
+        "id": "people-3",
+        "target": "people",
+        "answer": "people",
+        "options": [
+          "people",
+          "person",
+          "peoples"
+        ],
+        "sentence": "The park is full of ____ today.",
+        "translation": "公園今天滿是人。",
+        "context": "情境：公園今天滿是人。",
+        "explanation": "The park is full of people today. 公園今天滿是人。"
+      },
+      {
+        "id": "father-1",
+        "target": "father",
+        "answer": "father",
+        "options": [
+          "father",
+          "mother",
+          "sister"
+        ],
+        "sentence": "My dad is my ____.",
+        "translation": "我的爸爸就是我的父親。",
+        "context": "情境：我的爸爸就是我的父親。",
+        "explanation": "My dad is my father. 我的爸爸就是我的父親。"
+      },
+      {
+        "id": "father-2",
+        "target": "father",
+        "answer": "father",
+        "options": [
+          "father",
+          "mother",
+          "sister"
+        ],
+        "sentence": "My ____ is my mother’s husband.",
+        "translation": "我的父親是我母親的丈夫。",
+        "context": "情境：我的父親是我母親的丈夫。",
+        "explanation": "My father is my mother’s husband. 我的父親是我母親的丈夫。"
+      },
+      {
+        "id": "father-3",
+        "target": "father",
+        "answer": "father",
+        "options": [
+          "father",
+          "mother",
+          "sister"
+        ],
+        "sentence": "I call my ____ Dad.",
+        "translation": "我稱呼我的父親為爸爸。",
+        "context": "情境：我稱呼我的父親為爸爸。",
+        "explanation": "I call my father Dad. 我稱呼我的父親為爸爸。"
+      },
+      {
+        "id": "aunt-1",
+        "target": "aunt",
+        "answer": "aunt",
+        "options": [
+          "aunt",
+          "uncle",
+          "brother"
+        ],
+        "sentence": "My mother’s sister is my ____.",
+        "translation": "我媽媽的姊妹是我的阿姨。",
+        "context": "情境：我媽媽的姊妹是我的阿姨。",
+        "explanation": "My mother’s sister is my aunt. 我媽媽的姊妹是我的阿姨。"
+      },
+      {
+        "id": "aunt-2",
+        "target": "aunt",
+        "answer": "aunt",
+        "options": [
+          "aunt",
+          "uncle",
+          "brother"
+        ],
+        "sentence": "My father’s sister is my ____.",
+        "translation": "我爸爸的姊妹是我的姑姑。",
+        "context": "情境：我爸爸的姊妹是我的姑姑。",
+        "explanation": "My father’s sister is my aunt. 我爸爸的姊妹是我的姑姑。"
+      },
+      {
+        "id": "aunt-3",
+        "target": "aunt",
+        "answer": "aunt",
+        "options": [
+          "aunt",
+          "uncle",
+          "brother"
+        ],
+        "sentence": "My ____ is my mother’s younger sister.",
+        "translation": "我的阿姨是我媽媽的妹妹。",
+        "context": "情境：我的阿姨是我媽媽的妹妹。",
+        "explanation": "My aunt is my mother’s younger sister. 我的阿姨是我媽媽的妹妹。"
+      },
+      {
+        "id": "mother-1",
+        "target": "mother",
+        "answer": "mother",
+        "options": [
+          "mother",
+          "father",
+          "uncle"
+        ],
+        "sentence": "My mom is my ____.",
+        "translation": "我的媽媽就是我的母親。",
+        "context": "情境：我的媽媽就是我的母親。",
+        "explanation": "My mom is my mother. 我的媽媽就是我的母親。"
+      },
+      {
+        "id": "mother-2",
+        "target": "mother",
+        "answer": "mother",
+        "options": [
+          "mother",
+          "father",
+          "uncle"
+        ],
+        "sentence": "My ____ is my father’s wife.",
+        "translation": "我的母親是我父親的妻子。",
+        "context": "情境：我的母親是我父親的妻子。",
+        "explanation": "My mother is my father’s wife. 我的母親是我父親的妻子。"
+      },
+      {
+        "id": "mother-3",
+        "target": "mother",
+        "answer": "mother",
+        "options": [
+          "mother",
+          "father",
+          "uncle"
+        ],
+        "sentence": "I call my ____ Mom.",
+        "translation": "我稱呼我的母親為媽媽。",
+        "context": "情境：我稱呼我的母親為媽媽。",
+        "explanation": "I call my mother Mom. 我稱呼我的母親為媽媽。"
+      },
+      {
+        "id": "uncle-1",
+        "target": "uncle",
+        "answer": "uncle",
+        "options": [
+          "uncle",
+          "aunt",
+          "sister"
+        ],
+        "sentence": "My father’s brother is my ____.",
+        "translation": "我爸爸的兄弟是我的伯父或叔叔。",
+        "context": "情境：我爸爸的兄弟是我的伯父或叔叔。",
+        "explanation": "My father’s brother is my uncle. 我爸爸的兄弟是我的伯父或叔叔。"
+      },
+      {
+        "id": "uncle-2",
+        "target": "uncle",
+        "answer": "uncle",
+        "options": [
+          "uncle",
+          "aunt",
+          "sister"
+        ],
+        "sentence": "My mother’s brother is my ____.",
+        "translation": "我媽媽的兄弟是我的舅舅。",
+        "context": "情境：我媽媽的兄弟是我的舅舅。",
+        "explanation": "My mother’s brother is my uncle. 我媽媽的兄弟是我的舅舅。"
+      },
+      {
+        "id": "uncle-3",
+        "target": "uncle",
+        "answer": "uncle",
+        "options": [
+          "uncle",
+          "aunt",
+          "sister"
+        ],
+        "sentence": "My ____ is my father’s younger brother.",
+        "translation": "我的叔叔是我爸爸的弟弟。",
+        "context": "情境：我的叔叔是我爸爸的弟弟。",
+        "explanation": "My uncle is my father’s younger brother. 我的叔叔是我爸爸的弟弟。"
+      },
+      {
+        "id": "cousin-1",
+        "target": "cousin",
+        "answer": "cousin",
+        "options": [
+          "cousin",
+          "sister",
+          "grandfather"
+        ],
+        "sentence": "My aunt’s son is my ____.",
+        "translation": "我阿姨的兒子是我的表兄弟。",
+        "context": "情境：我阿姨的兒子是我的表兄弟。",
+        "explanation": "My aunt’s son is my cousin. 我阿姨的兒子是我的表兄弟。"
+      },
+      {
+        "id": "cousin-2",
+        "target": "cousin",
+        "answer": "cousin",
+        "options": [
+          "cousin",
+          "sister",
+          "grandfather"
+        ],
+        "sentence": "My uncle’s daughter is my ____.",
+        "translation": "我叔叔的女兒是我的堂姊妹。",
+        "context": "情境：我叔叔的女兒是我的堂姊妹。",
+        "explanation": "My uncle’s daughter is my cousin. 我叔叔的女兒是我的堂姊妹。"
+      },
+      {
+        "id": "cousin-3",
+        "target": "cousin",
+        "answer": "cousin",
+        "options": [
+          "cousin",
+          "sister",
+          "grandfather"
+        ],
+        "sentence": "My ____ and I have mothers who are sisters.",
+        "translation": "我和我的表兄弟姊妹的媽媽是姊妹。",
+        "context": "情境：我和我的表兄弟姊妹的媽媽是姊妹。",
+        "explanation": "My cousin and I have mothers who are sisters. 我和我的表兄弟姊妹的媽媽是姊妹。"
+      },
+      {
+        "id": "grandfather-1",
+        "target": "grandfather",
+        "answer": "grandfather",
+        "options": [
+          "grandfather",
+          "grandmother",
+          "cousin"
+        ],
+        "sentence": "My father’s father is my ____.",
+        "translation": "我爸爸的爸爸是我的祖父。",
+        "context": "情境：我爸爸的爸爸是我的祖父。",
+        "explanation": "My father’s father is my grandfather. 我爸爸的爸爸是我的祖父。"
+      },
+      {
+        "id": "grandfather-2",
+        "target": "grandfather",
+        "answer": "grandfather",
+        "options": [
+          "grandfather",
+          "grandmother",
+          "cousin"
+        ],
+        "sentence": "My mother’s father is my ____.",
+        "translation": "我媽媽的爸爸是我的外祖父。",
+        "context": "情境：我媽媽的爸爸是我的外祖父。",
+        "explanation": "My mother’s father is my grandfather. 我媽媽的爸爸是我的外祖父。"
+      },
+      {
+        "id": "grandfather-3",
+        "target": "grandfather",
+        "answer": "grandfather",
+        "options": [
+          "grandfather",
+          "grandmother",
+          "cousin"
+        ],
+        "sentence": "My ____ is my dad’s dad.",
+        "translation": "我的祖父是我爸爸的爸爸。",
+        "context": "情境：我的祖父是我爸爸的爸爸。",
+        "explanation": "My grandfather is my dad’s dad. 我的祖父是我爸爸的爸爸。"
+      },
+      {
+        "id": "grandmother-1",
+        "target": "grandmother",
+        "answer": "grandmother",
+        "options": [
+          "grandmother",
+          "grandfather",
+          "brother"
+        ],
+        "sentence": "My father’s mother is my ____.",
+        "translation": "我爸爸的媽媽是我的祖母。",
+        "context": "情境：我爸爸的媽媽是我的祖母。",
+        "explanation": "My father’s mother is my grandmother. 我爸爸的媽媽是我的祖母。"
+      },
+      {
+        "id": "grandmother-2",
+        "target": "grandmother",
+        "answer": "grandmother",
+        "options": [
+          "grandmother",
+          "grandfather",
+          "brother"
+        ],
+        "sentence": "My mother’s mother is my ____.",
+        "translation": "我媽媽的媽媽是我的外祖母。",
+        "context": "情境：我媽媽的媽媽是我的外祖母。",
+        "explanation": "My mother’s mother is my grandmother. 我媽媽的媽媽是我的外祖母。"
+      },
+      {
+        "id": "grandmother-3",
+        "target": "grandmother",
+        "answer": "grandmother",
+        "options": [
+          "grandmother",
+          "grandfather",
+          "brother"
+        ],
+        "sentence": "My ____ is my mom’s mom.",
+        "translation": "我的外祖母是我媽媽的媽媽。",
+        "context": "情境：我的外祖母是我媽媽的媽媽。",
+        "explanation": "My grandmother is my mom’s mom. 我的外祖母是我媽媽的媽媽。"
+      },
+      {
+        "id": "many-1",
+        "target": "many",
+        "answer": "many",
+        "options": [
+          "many",
+          "much",
+          "any"
+        ],
+        "sentence": "How ____ cousins do you have?",
+        "translation": "你有多少堂表兄弟姊妹？",
+        "context": "情境：你有多少堂表兄弟姊妹？",
+        "explanation": "How many cousins do you have? 你有多少堂表兄弟姊妹？"
+      },
+      {
+        "id": "many-2",
+        "target": "many",
+        "answer": "many",
+        "options": [
+          "many",
+          "much",
+          "any"
+        ],
+        "sentence": "There are ____ books on this shelf.",
+        "translation": "這個書架上有很多書。",
+        "context": "情境：這個書架上有很多書。",
+        "explanation": "There are many books on this shelf. 這個書架上有很多書。"
+      },
+      {
+        "id": "many-3",
+        "target": "many",
+        "answer": "many",
+        "options": [
+          "many",
+          "much",
+          "any"
+        ],
+        "sentence": "She has ____ friends at school.",
+        "translation": "她在學校有很多朋友。",
+        "context": "情境：她在學校有很多朋友。",
+        "explanation": "She has many friends at school. 她在學校有很多朋友。"
+      },
+      {
+        "id": "because-1",
+        "target": "because",
+        "answer": "because",
+        "options": [
+          "because",
+          "but",
+          "or"
+        ],
+        "sentence": "I wear a coat ____ it is cold.",
+        "translation": "我穿外套，因為天氣冷。",
+        "context": "情境：我穿外套，因為天氣冷。",
+        "explanation": "I wear a coat because it is cold. 我穿外套，因為天氣冷。"
+      },
+      {
+        "id": "because-2",
+        "target": "because",
+        "answer": "because",
+        "options": [
+          "because",
+          "but",
+          "or"
+        ],
+        "sentence": "He drinks water ____ he is thirsty.",
+        "translation": "他喝水，因為他口渴了。",
+        "context": "情境：他喝水，因為他口渴了。",
+        "explanation": "He drinks water because he is thirsty. 他喝水，因為他口渴了。"
+      },
+      {
+        "id": "because-3",
+        "target": "because",
+        "answer": "because",
+        "options": [
+          "because",
+          "but",
+          "or"
+        ],
+        "sentence": "We stay inside ____ it is raining.",
+        "translation": "我們待在室內，因為正在下雨。",
+        "context": "情境：我們待在室內，因為正在下雨。",
+        "explanation": "We stay inside because it is raining. 我們待在室內，因為正在下雨。"
+      }
+    ]
+  },
+  {
+    "id": "g2-u8-v1",
+    "grade": 2,
+    "unit": 8,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "我的寵物",
+    "description": "14 個單字與詞形，每字 3 種情境，共 42 題三選一。",
+    "source": "依家長提供的二年級 U8 單字表與 Quiz 新編，非原卷；人物關係與動物特徵改為文字線索。",
+    "questions": [
+      {
+        "id": "afraid-1",
+        "target": "afraid",
+        "answer": "afraid",
+        "options": [
+          "afraid",
+          "happy",
+          "hungry"
+        ],
+        "sentence": "I am ____ of the big dog. I feel scared.",
+        "translation": "我害怕那隻大狗。我覺得害怕。",
+        "context": "情境：我害怕那隻大狗。我覺得害怕。",
+        "explanation": "I am afraid of the big dog. I feel scared. 我害怕那隻大狗。我覺得害怕。"
+      },
+      {
+        "id": "afraid-2",
+        "target": "afraid",
+        "answer": "afraid",
+        "options": [
+          "afraid",
+          "happy",
+          "hungry"
+        ],
+        "sentence": "She is ____ of the dark and wants a light.",
+        "translation": "她怕黑，想要一盞燈。",
+        "context": "情境：她怕黑，想要一盞燈。",
+        "explanation": "She is afraid of the dark and wants a light. 她怕黑，想要一盞燈。"
+      },
+      {
+        "id": "afraid-3",
+        "target": "afraid",
+        "answer": "afraid",
+        "options": [
+          "afraid",
+          "happy",
+          "hungry"
+        ],
+        "sentence": "He is not ____ of snakes. He feels safe near them.",
+        "translation": "他不怕蛇。在牠們附近他覺得安全。",
+        "context": "情境：他不怕蛇。在牠們附近他覺得安全。",
+        "explanation": "He is not afraid of snakes. He feels safe near them. 他不怕蛇。在牠們附近他覺得安全。"
+      },
+      {
+        "id": "pet-1",
+        "target": "pet",
+        "answer": "pet",
+        "options": [
+          "pet",
+          "desk",
+          "song"
+        ],
+        "sentence": "We keep a rabbit as a ____.",
+        "translation": "我們養了一隻兔子當寵物。",
+        "context": "情境：我們養了一隻兔子當寵物。",
+        "explanation": "We keep a rabbit as a pet. 我們養了一隻兔子當寵物。"
+      },
+      {
+        "id": "pet-2",
+        "target": "pet",
+        "answer": "pet",
+        "options": [
+          "pet",
+          "desk",
+          "song"
+        ],
+        "sentence": "Do you have a ____ at home? I have a cat.",
+        "translation": "你家有寵物嗎？我有一隻貓。",
+        "context": "情境：你家有寵物嗎？我有一隻貓。",
+        "explanation": "Do you have a pet at home? I have a cat. 你家有寵物嗎？我有一隻貓。"
+      },
+      {
+        "id": "pet-3",
+        "target": "pet",
+        "answer": "pet",
+        "options": [
+          "pet",
+          "desk",
+          "song"
+        ],
+        "sentence": "My ____ lives with us. We feed it every day.",
+        "translation": "我的寵物和我們住在一起。我們每天餵牠。",
+        "context": "情境：我的寵物和我們住在一起。我們每天餵牠。",
+        "explanation": "My pet lives with us. We feed it every day. 我的寵物和我們住在一起。我們每天餵牠。"
+      },
+      {
+        "id": "dog-1",
+        "target": "dog",
+        "answer": "dog",
+        "options": [
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "sentence": "My ____ barks when someone knocks.",
+        "translation": "有人敲門時，我的狗會叫。",
+        "context": "情境：有人敲門時，我的狗會叫。",
+        "explanation": "My dog barks when someone knocks. 有人敲門時，我的狗會叫。"
+      },
+      {
+        "id": "dog-2",
+        "target": "dog",
+        "answer": "dog",
+        "options": [
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "sentence": "We take our ____ for a walk on a leash.",
+        "translation": "我們用牽繩帶狗散步。",
+        "context": "情境：我們用牽繩帶狗散步。",
+        "explanation": "We take our dog for a walk on a leash. 我們用牽繩帶狗散步。"
+      },
+      {
+        "id": "dog-3",
+        "target": "dog",
+        "answer": "dog",
+        "options": [
+          "dog",
+          "fish",
+          "bird"
+        ],
+        "sentence": "The ____ says woof!",
+        "translation": "狗汪汪叫！",
+        "context": "情境：狗汪汪叫！",
+        "explanation": "The dog says woof! 狗汪汪叫！"
+      },
+      {
+        "id": "but-1",
+        "target": "but",
+        "answer": "but",
+        "options": [
+          "but",
+          "because",
+          "or"
+        ],
+        "sentence": "I like cats, ____ my brother does not.",
+        "translation": "我喜歡貓，但是我哥哥不喜歡。",
+        "context": "情境：我喜歡貓，但是我哥哥不喜歡。",
+        "explanation": "I like cats, but my brother does not. 我喜歡貓，但是我哥哥不喜歡。"
+      },
+      {
+        "id": "but-2",
+        "target": "but",
+        "answer": "but",
+        "options": [
+          "but",
+          "because",
+          "or"
+        ],
+        "sentence": "The dog is big, ____ it is gentle.",
+        "translation": "狗很大隻，但是牠很溫和。",
+        "context": "情境：狗很大隻，但是牠很溫和。",
+        "explanation": "The dog is big, but it is gentle. 狗很大隻，但是牠很溫和。"
+      },
+      {
+        "id": "but-3",
+        "target": "but",
+        "answer": "but",
+        "options": [
+          "but",
+          "because",
+          "or"
+        ],
+        "sentence": "I want a pet, ____ I am too busy to care for one.",
+        "translation": "我想養寵物，但是我太忙，無法照顧。",
+        "context": "情境：我想養寵物，但是我太忙，無法照顧。",
+        "explanation": "I want a pet, but I am too busy to care for one. 我想養寵物，但是我太忙，無法照顧。"
+      },
+      {
+        "id": "like-1",
+        "target": "like",
+        "answer": "like",
+        "options": [
+          "like",
+          "likes",
+          "liking"
+        ],
+        "sentence": "I ____ rabbits.",
+        "translation": "我喜歡兔子。",
+        "context": "情境：我喜歡兔子。",
+        "explanation": "I like rabbits. 我喜歡兔子。"
+      },
+      {
+        "id": "like-2",
+        "target": "like",
+        "answer": "like",
+        "options": [
+          "like",
+          "likes",
+          "liking"
+        ],
+        "sentence": "Do you ____ turtles?",
+        "translation": "你喜歡烏龜嗎？",
+        "context": "情境：你喜歡烏龜嗎？",
+        "explanation": "Do you like turtles? 你喜歡烏龜嗎？"
+      },
+      {
+        "id": "like-3",
+        "target": "like",
+        "answer": "like",
+        "options": [
+          "like",
+          "likes",
+          "liking"
+        ],
+        "sentence": "They ____ to play with their dog.",
+        "translation": "他們喜歡和狗玩。",
+        "context": "情境：他們喜歡和狗玩。",
+        "explanation": "They like to play with their dog. 他們喜歡和狗玩。"
+      },
+      {
+        "id": "likes-1",
+        "target": "likes",
+        "answer": "likes",
+        "options": [
+          "likes",
+          "like",
+          "liking"
+        ],
+        "sentence": "She ____ cats.",
+        "translation": "她喜歡貓。",
+        "context": "情境：她喜歡貓。",
+        "explanation": "She likes cats. 她喜歡貓。"
+      },
+      {
+        "id": "likes-2",
+        "target": "likes",
+        "answer": "likes",
+        "options": [
+          "likes",
+          "like",
+          "liking"
+        ],
+        "sentence": "My brother ____ fish.",
+        "translation": "我哥哥喜歡魚。",
+        "context": "情境：我哥哥喜歡魚。",
+        "explanation": "My brother likes fish. 我哥哥喜歡魚。"
+      },
+      {
+        "id": "likes-3",
+        "target": "likes",
+        "answer": "likes",
+        "options": [
+          "likes",
+          "like",
+          "liking"
+        ],
+        "sentence": "Ben ____ to feed his pet.",
+        "translation": "Ben 喜歡餵他的寵物。",
+        "context": "情境：Ben 喜歡餵他的寵物。",
+        "explanation": "Ben likes to feed his pet. Ben 喜歡餵他的寵物。"
+      },
+      {
+        "id": "cat-1",
+        "target": "cat",
+        "answer": "cat",
+        "options": [
+          "cat",
+          "dog",
+          "fish"
+        ],
+        "sentence": "My ____ says meow.",
+        "translation": "我的貓喵喵叫。",
+        "context": "情境：我的貓喵喵叫。",
+        "explanation": "My cat says meow. 我的貓喵喵叫。"
+      },
+      {
+        "id": "cat-2",
+        "target": "cat",
+        "answer": "cat",
+        "options": [
+          "cat",
+          "dog",
+          "fish"
+        ],
+        "sentence": "The ____ purrs on my lap.",
+        "translation": "貓在我的腿上呼嚕呼嚕叫。",
+        "context": "情境：貓在我的腿上呼嚕呼嚕叫。",
+        "explanation": "The cat purrs on my lap. 貓在我的腿上呼嚕呼嚕叫。"
+      },
+      {
+        "id": "cat-3",
+        "target": "cat",
+        "answer": "cat",
+        "options": [
+          "cat",
+          "dog",
+          "fish"
+        ],
+        "sentence": "The kitten is a baby ____.",
+        "translation": "小貓是貓的寶寶。",
+        "context": "情境：小貓是貓的寶寶。",
+        "explanation": "The kitten is a baby cat. 小貓是貓的寶寶。"
+      },
+      {
+        "id": "animal-1",
+        "target": "animal",
+        "answer": "animal",
+        "options": [
+          "animal",
+          "plant",
+          "toy"
+        ],
+        "sentence": "A rabbit is an ____.",
+        "translation": "兔子是一種動物。",
+        "context": "情境：兔子是一種動物。",
+        "explanation": "A rabbit is an animal. 兔子是一種動物。"
+      },
+      {
+        "id": "animal-2",
+        "target": "animal",
+        "answer": "animal",
+        "options": [
+          "animal",
+          "plant",
+          "toy"
+        ],
+        "sentence": "What ____ is that? It is a dog.",
+        "translation": "那是什麼動物？是一隻狗。",
+        "context": "情境：那是什麼動物？是一隻狗。",
+        "explanation": "What animal is that? It is a dog. 那是什麼動物？是一隻狗。"
+      },
+      {
+        "id": "animal-3",
+        "target": "animal",
+        "answer": "animal",
+        "options": [
+          "animal",
+          "plant",
+          "toy"
+        ],
+        "sentence": "A cat is an ____, not a plant.",
+        "translation": "貓是動物，不是植物。",
+        "context": "情境：貓是動物，不是植物。",
+        "explanation": "A cat is an animal, not a plant. 貓是動物，不是植物。"
+      },
+      {
+        "id": "hamster-1",
+        "target": "hamster",
+        "answer": "hamster",
+        "options": [
+          "hamster",
+          "snake",
+          "fish"
+        ],
+        "sentence": "My ____ is a tiny furry pet with cheek pouches.",
+        "translation": "我的倉鼠是有頰囊的小毛茸茸寵物。",
+        "context": "情境：我的倉鼠是有頰囊的小毛茸茸寵物。",
+        "explanation": "My hamster is a tiny furry pet with cheek pouches. 我的倉鼠是有頰囊的小毛茸茸寵物。"
+      },
+      {
+        "id": "hamster-2",
+        "target": "hamster",
+        "answer": "hamster",
+        "options": [
+          "hamster",
+          "snake",
+          "fish"
+        ],
+        "sentence": "The ____ runs on a wheel in its cage.",
+        "translation": "倉鼠在籠子裡的滾輪上跑。",
+        "context": "情境：倉鼠在籠子裡的滾輪上跑。",
+        "explanation": "The hamster runs on a wheel in its cage. 倉鼠在籠子裡的滾輪上跑。"
+      },
+      {
+        "id": "hamster-3",
+        "target": "hamster",
+        "answer": "hamster",
+        "options": [
+          "hamster",
+          "snake",
+          "fish"
+        ],
+        "sentence": "This ____ stores food in its cheeks.",
+        "translation": "這隻倉鼠把食物存放在臉頰裡。",
+        "context": "情境：這隻倉鼠把食物存放在臉頰裡。",
+        "explanation": "This hamster stores food in its cheeks. 這隻倉鼠把食物存放在臉頰裡。"
+      },
+      {
+        "id": "turtle-1",
+        "target": "turtle",
+        "answer": "turtle",
+        "options": [
+          "turtle",
+          "cat",
+          "bird"
+        ],
+        "sentence": "The ____ has a hard shell on its back.",
+        "translation": "烏龜背上有硬殼。",
+        "context": "情境：烏龜背上有硬殼。",
+        "explanation": "The turtle has a hard shell on its back. 烏龜背上有硬殼。"
+      },
+      {
+        "id": "turtle-2",
+        "target": "turtle",
+        "answer": "turtle",
+        "options": [
+          "turtle",
+          "cat",
+          "bird"
+        ],
+        "sentence": "My ____ pulls its head into its shell.",
+        "translation": "我的烏龜把頭縮進殼裡。",
+        "context": "情境：我的烏龜把頭縮進殼裡。",
+        "explanation": "My turtle pulls its head into its shell. 我的烏龜把頭縮進殼裡。"
+      },
+      {
+        "id": "turtle-3",
+        "target": "turtle",
+        "answer": "turtle",
+        "options": [
+          "turtle",
+          "cat",
+          "bird"
+        ],
+        "sentence": "We saw a ____ with four legs and a shell.",
+        "translation": "我們看到一隻有四條腿和殼的烏龜。",
+        "context": "情境：我們看到一隻有四條腿和殼的烏龜。",
+        "explanation": "We saw a turtle with four legs and a shell. 我們看到一隻有四條腿和殼的烏龜。"
+      },
+      {
+        "id": "snake-1",
+        "target": "snake",
+        "answer": "snake",
+        "options": [
+          "snake",
+          "dog",
+          "bird"
+        ],
+        "sentence": "The ____ has a long body and no legs.",
+        "translation": "蛇身體很長，沒有腿。",
+        "context": "情境：蛇身體很長，沒有腿。",
+        "explanation": "The snake has a long body and no legs. 蛇身體很長，沒有腿。"
+      },
+      {
+        "id": "snake-2",
+        "target": "snake",
+        "answer": "snake",
+        "options": [
+          "snake",
+          "dog",
+          "bird"
+        ],
+        "sentence": "We saw a ____ slither across the path.",
+        "translation": "我們看到一條蛇滑行穿過小路。",
+        "context": "情境：我們看到一條蛇滑行穿過小路。",
+        "explanation": "We saw a snake slither across the path. 我們看到一條蛇滑行穿過小路。"
+      },
+      {
+        "id": "snake-3",
+        "target": "snake",
+        "answer": "snake",
+        "options": [
+          "snake",
+          "dog",
+          "bird"
+        ],
+        "sentence": "The ____ flicks its forked tongue.",
+        "translation": "蛇吐出分岔的舌頭。",
+        "context": "情境：蛇吐出分岔的舌頭。",
+        "explanation": "The snake flicks its forked tongue. 蛇吐出分岔的舌頭。"
+      },
+      {
+        "id": "fish-1",
+        "target": "fish",
+        "answer": "fish",
+        "options": [
+          "fish",
+          "cat",
+          "hamster"
+        ],
+        "sentence": "My ____ swims in a tank and has fins.",
+        "translation": "我的魚有鰭，在魚缸裡游泳。",
+        "context": "情境：我的魚有鰭，在魚缸裡游泳。",
+        "explanation": "My fish swims in a tank and has fins. 我的魚有鰭，在魚缸裡游泳。"
+      },
+      {
+        "id": "fish-2",
+        "target": "fish",
+        "answer": "fish",
+        "options": [
+          "fish",
+          "cat",
+          "hamster"
+        ],
+        "sentence": "We watch the ____ move its tail underwater.",
+        "translation": "我們看著魚在水下擺尾。",
+        "context": "情境：我們看著魚在水下擺尾。",
+        "explanation": "We watch the fish move its tail underwater. 我們看著魚在水下擺尾。"
+      },
+      {
+        "id": "fish-3",
+        "target": "fish",
+        "answer": "fish",
+        "options": [
+          "fish",
+          "cat",
+          "hamster"
+        ],
+        "sentence": "This ____ has shiny scales and gills.",
+        "translation": "這條魚有閃亮的鱗片和鰓。",
+        "context": "情境：這條魚有閃亮的鱗片和鰓。",
+        "explanation": "This fish has shiny scales and gills. 這條魚有閃亮的鱗片和鰓。"
+      },
+      {
+        "id": "bird-1",
+        "target": "bird",
+        "answer": "bird",
+        "options": [
+          "bird",
+          "fish",
+          "snake"
+        ],
+        "sentence": "The ____ has feathers and a beak.",
+        "translation": "鳥有羽毛和鳥喙。",
+        "context": "情境：鳥有羽毛和鳥喙。",
+        "explanation": "The bird has feathers and a beak. 鳥有羽毛和鳥喙。"
+      },
+      {
+        "id": "bird-2",
+        "target": "bird",
+        "answer": "bird",
+        "options": [
+          "bird",
+          "fish",
+          "snake"
+        ],
+        "sentence": "A ____ sings in the tree.",
+        "translation": "一隻鳥在樹上唱歌。",
+        "context": "情境：一隻鳥在樹上唱歌。",
+        "explanation": "A bird sings in the tree. 一隻鳥在樹上唱歌。"
+      },
+      {
+        "id": "bird-3",
+        "target": "bird",
+        "answer": "bird",
+        "options": [
+          "bird",
+          "fish",
+          "snake"
+        ],
+        "sentence": "The ____ spreads its wings and flies.",
+        "translation": "鳥張開翅膀飛翔。",
+        "context": "情境：鳥張開翅膀飛翔。",
+        "explanation": "The bird spreads its wings and flies. 鳥張開翅膀飛翔。"
+      },
+      {
+        "id": "lizard-1",
+        "target": "lizard",
+        "answer": "lizard",
+        "options": [
+          "lizard",
+          "fish",
+          "bird"
+        ],
+        "sentence": "The ____ is a reptile with four legs and a long tail.",
+        "translation": "蜥蜴是有四條腿和長尾巴的爬蟲類。",
+        "context": "情境：蜥蜴是有四條腿和長尾巴的爬蟲類。",
+        "explanation": "The lizard is a reptile with four legs and a long tail. 蜥蜴是有四條腿和長尾巴的爬蟲類。"
+      },
+      {
+        "id": "lizard-2",
+        "target": "lizard",
+        "answer": "lizard",
+        "options": [
+          "lizard",
+          "fish",
+          "bird"
+        ],
+        "sentence": "We saw a ____ with scales, legs, and no shell.",
+        "translation": "我們看到一隻有鱗片、有腳而沒有殼的蜥蜴。",
+        "context": "情境：我們看到一隻有鱗片、有腳而沒有殼的蜥蜴。",
+        "explanation": "We saw a lizard with scales, legs, and no shell. 我們看到一隻有鱗片、有腳而沒有殼的蜥蜴。"
+      },
+      {
+        "id": "lizard-3",
+        "target": "lizard",
+        "answer": "lizard",
+        "options": [
+          "lizard",
+          "fish",
+          "bird"
+        ],
+        "sentence": "This small ____ runs on four legs across a warm rock.",
+        "translation": "這隻小蜥蜴用四條腿跑過溫暖的岩石。",
+        "context": "情境：這隻小蜥蜴用四條腿跑過溫暖的岩石。",
+        "explanation": "This small lizard runs on four legs across a warm rock. 這隻小蜥蜴用四條腿跑過溫暖的岩石。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

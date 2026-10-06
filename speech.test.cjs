@@ -62,7 +62,7 @@ test('all eight Unit 1 prompts use their own supplied recording, including phras
   }
   assert.equal(calls.length, 0);
 });
-test('all other 532 prompts keep their lesson recordings at both speeds', async () => {
+test('all other 559 prompts keep their lesson recordings at both speeds', async () => {
   require('./words.js');
   const { player, clips, calls } = setup();
   const sources = new Set();
@@ -78,7 +78,7 @@ test('all other 532 prompts keep their lesson recordings at both speeds', async 
     assert.ok(require('node:fs').statSync(expected).size > 1000);
     sources.add(expected);
   }
-  assert.equal(sources.size, 532); assert.equal(calls.length, 0);
+  assert.equal(sources.size, 559); assert.equal(calls.length, 0);
 });
 
 test('mountain replacement plays even without speech synthesis, at both speeds', async () => {

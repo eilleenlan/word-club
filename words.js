@@ -2330,6 +2330,134 @@ globalThis.WORD_UNITS = [
       "故事"
     ]
   ]
+},
+{
+  "grade": 2,
+  "id": "u7",
+  "number": "07",
+  "title": "我的家庭",
+  "subtitle": "family, cousin, because…",
+  "words": [
+    [
+      "family",
+      "家庭"
+    ],
+    [
+      "brother",
+      "兄弟"
+    ],
+    [
+      "sister",
+      "姊妹"
+    ],
+    [
+      "people",
+      "人們"
+    ],
+    [
+      "father",
+      "父親"
+    ],
+    [
+      "aunt",
+      "姑姑或阿姨"
+    ],
+    [
+      "mother",
+      "母親"
+    ],
+    [
+      "uncle",
+      "伯父或叔叔"
+    ],
+    [
+      "cousin",
+      "堂表兄弟姊妹"
+    ],
+    [
+      "grandfather",
+      "祖父"
+    ],
+    [
+      "grandmother",
+      "祖母"
+    ],
+    [
+      "many",
+      "很多的"
+    ],
+    [
+      "because",
+      "因為"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u8",
+  "number": "08",
+  "title": "我的寵物",
+  "subtitle": "pet, like, likes…",
+  "words": [
+    [
+      "afraid",
+      "害怕"
+    ],
+    [
+      "pet",
+      "寵物"
+    ],
+    [
+      "dog",
+      "狗"
+    ],
+    [
+      "but",
+      "但是"
+    ],
+    [
+      "like",
+      "喜歡",
+      "本題練習動詞原形。"
+    ],
+    [
+      "likes",
+      "喜歡",
+      "本題練習第三人稱單數。"
+    ],
+    [
+      "cat",
+      "貓"
+    ],
+    [
+      "animal",
+      "動物"
+    ],
+    [
+      "hamster",
+      "倉鼠"
+    ],
+    [
+      "turtle",
+      "烏龜"
+    ],
+    [
+      "snake",
+      "蛇"
+    ],
+    [
+      "fish",
+      "魚"
+    ],
+    [
+      "bird",
+      "鳥"
+    ],
+    [
+      "lizard",
+      "蜥蜴"
+    ]
+  ]
 }
 ];
 
