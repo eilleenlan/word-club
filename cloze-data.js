@@ -18336,6 +18336,1208 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "This small lizard runs on four legs across a warm rock. 這隻小蜥蜴用四條腿跑過溫暖的岩石。"
       }
     ]
+  },
+  {
+    "id": "g2-u9-v1",
+    "grade": 2,
+    "unit": 9,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "我的家",
+    "description": "15 個單字與片語，每字 3 種情境，共 45 題三選一。",
+    "source": "依家長提供的二年級 U9 單字表與 Quiz 新編，非原卷。",
+    "questions": [
+      {
+        "id": "kitchen-1",
+        "target": "kitchen",
+        "answer": "kitchen",
+        "options": [
+          "kitchen",
+          "bedroom",
+          "study"
+        ],
+        "sentence": "Dad cooks dinner in the ____.",
+        "translation": "爸爸在廚房煮晚餐。",
+        "context": "情境：爸爸在廚房煮晚餐。",
+        "explanation": "Dad cooks dinner in the kitchen. 爸爸在廚房煮晚餐。"
+      },
+      {
+        "id": "kitchen-2",
+        "target": "kitchen",
+        "answer": "kitchen",
+        "options": [
+          "kitchen",
+          "bedroom",
+          "study"
+        ],
+        "sentence": "The stove is in the ____.",
+        "translation": "爐子在廚房裡。",
+        "context": "情境：爐子在廚房裡。",
+        "explanation": "The stove is in the kitchen. 爐子在廚房裡。"
+      },
+      {
+        "id": "kitchen-3",
+        "target": "kitchen",
+        "answer": "kitchen",
+        "options": [
+          "kitchen",
+          "bedroom",
+          "study"
+        ],
+        "sentence": "We prepare our meals in the ____.",
+        "translation": "我們在廚房準備餐點。",
+        "context": "情境：我們在廚房準備餐點。",
+        "explanation": "We prepare our meals in the kitchen. 我們在廚房準備餐點。"
+      },
+      {
+        "id": "doing-1",
+        "target": "doing",
+        "answer": "doing",
+        "options": [
+          "doing",
+          "do",
+          "does"
+        ],
+        "sentence": "What are you ____ now?",
+        "translation": "你現在正在做什麼？",
+        "context": "情境：你現在正在做什麼？",
+        "explanation": "What are you doing now? 你現在正在做什麼？"
+      },
+      {
+        "id": "doing-2",
+        "target": "doing",
+        "answer": "doing",
+        "options": [
+          "doing",
+          "do",
+          "does"
+        ],
+        "sentence": "I am ____ my homework.",
+        "translation": "我正在做作業。",
+        "context": "情境：我正在做作業。",
+        "explanation": "I am doing my homework. 我正在做作業。"
+      },
+      {
+        "id": "doing-3",
+        "target": "doing",
+        "answer": "doing",
+        "options": [
+          "doing",
+          "do",
+          "does"
+        ],
+        "sentence": "They are ____ a puzzle together.",
+        "translation": "他們正在一起拼拼圖。",
+        "context": "情境：他們正在一起拼拼圖。",
+        "explanation": "They are doing a puzzle together. 他們正在一起拼拼圖。"
+      },
+      {
+        "id": "bedroom-1",
+        "target": "bedroom",
+        "answer": "bedroom",
+        "options": [
+          "bedroom",
+          "kitchen",
+          "bathroom"
+        ],
+        "sentence": "My bed is in my ____.",
+        "translation": "我的床在我的臥室裡。",
+        "context": "情境：我的床在我的臥室裡。",
+        "explanation": "My bed is in my bedroom. 我的床在我的臥室裡。"
+      },
+      {
+        "id": "bedroom-2",
+        "target": "bedroom",
+        "answer": "bedroom",
+        "options": [
+          "bedroom",
+          "kitchen",
+          "bathroom"
+        ],
+        "sentence": "I sleep in my ____ at night.",
+        "translation": "我晚上在臥室睡覺。",
+        "context": "情境：我晚上在臥室睡覺。",
+        "explanation": "I sleep in my bedroom at night. 我晚上在臥室睡覺。"
+      },
+      {
+        "id": "bedroom-3",
+        "target": "bedroom",
+        "answer": "bedroom",
+        "options": [
+          "bedroom",
+          "kitchen",
+          "bathroom"
+        ],
+        "sentence": "This ____ has a bed and a closet.",
+        "translation": "這間臥室有床和衣櫃。",
+        "context": "情境：這間臥室有床和衣櫃。",
+        "explanation": "This bedroom has a bed and a closet. 這間臥室有床和衣櫃。"
+      },
+      {
+        "id": "bathroom-1",
+        "target": "bathroom",
+        "answer": "bathroom",
+        "options": [
+          "bathroom",
+          "study",
+          "dining room"
+        ],
+        "sentence": "I take a bath in the ____.",
+        "translation": "我在浴室洗澡。",
+        "context": "情境：我在浴室洗澡。",
+        "explanation": "I take a bath in the bathroom. 我在浴室洗澡。"
+      },
+      {
+        "id": "bathroom-2",
+        "target": "bathroom",
+        "answer": "bathroom",
+        "options": [
+          "bathroom",
+          "study",
+          "dining room"
+        ],
+        "sentence": "The toilet is in the ____.",
+        "translation": "馬桶在浴室裡。",
+        "context": "情境：馬桶在浴室裡。",
+        "explanation": "The toilet is in the bathroom. 馬桶在浴室裡。"
+      },
+      {
+        "id": "bathroom-3",
+        "target": "bathroom",
+        "answer": "bathroom",
+        "options": [
+          "bathroom",
+          "study",
+          "dining room"
+        ],
+        "sentence": "There is a bathtub in our ____.",
+        "translation": "我們的浴室有浴缸。",
+        "context": "情境：我們的浴室有浴缸。",
+        "explanation": "There is a bathtub in our bathroom. 我們的浴室有浴缸。"
+      },
+      {
+        "id": "dining-room-1",
+        "target": "dining room",
+        "answer": "dining room",
+        "options": [
+          "dining room",
+          "bathroom",
+          "bedroom"
+        ],
+        "sentence": "We eat dinner at the table in the ____.",
+        "translation": "我們在飯廳的桌邊吃晚餐。",
+        "context": "情境：我們在飯廳的桌邊吃晚餐。",
+        "explanation": "We eat dinner at the table in the dining room. 我們在飯廳的桌邊吃晚餐。"
+      },
+      {
+        "id": "dining-room-2",
+        "target": "dining room",
+        "answer": "dining room",
+        "options": [
+          "dining room",
+          "bathroom",
+          "bedroom"
+        ],
+        "sentence": "Our ____ has a big table for family meals.",
+        "translation": "我們的飯廳有一張供家人用餐的大桌子。",
+        "context": "情境：我們的飯廳有一張供家人用餐的大桌子。",
+        "explanation": "Our dining room has a big table for family meals. 我們的飯廳有一張供家人用餐的大桌子。"
+      },
+      {
+        "id": "dining-room-3",
+        "target": "dining room",
+        "answer": "dining room",
+        "options": [
+          "dining room",
+          "bathroom",
+          "bedroom"
+        ],
+        "sentence": "Please bring the plates to the ____ for lunch.",
+        "translation": "請把盤子拿到飯廳準備吃午餐。",
+        "context": "情境：請把盤子拿到飯廳準備吃午餐。",
+        "explanation": "Please bring the plates to the dining room for lunch. 請把盤子拿到飯廳準備吃午餐。"
+      },
+      {
+        "id": "study-1",
+        "target": "study",
+        "answer": "study",
+        "options": [
+          "study",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "Dad reads at his desk in the ____.",
+        "translation": "爸爸在書房的書桌前閱讀。",
+        "context": "情境：爸爸在書房的書桌前閱讀。",
+        "explanation": "Dad reads at his desk in the study. 爸爸在書房的書桌前閱讀。"
+      },
+      {
+        "id": "study-2",
+        "target": "study",
+        "answer": "study",
+        "options": [
+          "study",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "Our ____ is a quiet room for reading and homework.",
+        "translation": "我們的書房是讀書和做功課的安靜房間。",
+        "context": "情境：我們的書房是讀書和做功課的安靜房間。",
+        "explanation": "Our study is a quiet room for reading and homework. 我們的書房是讀書和做功課的安靜房間。"
+      },
+      {
+        "id": "study-3",
+        "target": "study",
+        "answer": "study",
+        "options": [
+          "study",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "The ____ has a desk and shelves full of books.",
+        "translation": "書房有書桌和放滿書的書架。",
+        "context": "情境：書房有書桌和放滿書的書架。",
+        "explanation": "The study has a desk and shelves full of books. 書房有書桌和放滿書的書架。"
+      },
+      {
+        "id": "living-room-1",
+        "target": "living room",
+        "answer": "living room",
+        "options": [
+          "living room",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "We sit on the sofa in the ____.",
+        "translation": "我們坐在客廳的沙發上。",
+        "context": "情境：我們坐在客廳的沙發上。",
+        "explanation": "We sit on the sofa in the living room. 我們坐在客廳的沙發上。"
+      },
+      {
+        "id": "living-room-2",
+        "target": "living room",
+        "answer": "living room",
+        "options": [
+          "living room",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "Our family watches TV in the ____.",
+        "translation": "我們一家人在客廳看電視。",
+        "context": "情境：我們一家人在客廳看電視。",
+        "explanation": "Our family watches TV in the living room. 我們一家人在客廳看電視。"
+      },
+      {
+        "id": "living-room-3",
+        "target": "living room",
+        "answer": "living room",
+        "options": [
+          "living room",
+          "bathroom",
+          "kitchen"
+        ],
+        "sentence": "The ____ has a sofa and a TV for our family.",
+        "translation": "客廳有供我們家人使用的沙發和電視。",
+        "context": "情境：客廳有供我們家人使用的沙發和電視。",
+        "explanation": "The living room has a sofa and a TV for our family. 客廳有供我們家人使用的沙發和電視。"
+      },
+      {
+        "id": "reading-1",
+        "target": "reading",
+        "answer": "reading",
+        "options": [
+          "reading",
+          "read",
+          "reads"
+        ],
+        "sentence": "She is ____ a storybook.",
+        "translation": "她正在讀故事書。",
+        "context": "情境：她正在讀故事書。",
+        "explanation": "She is reading a storybook. 她正在讀故事書。"
+      },
+      {
+        "id": "reading-2",
+        "target": "reading",
+        "answer": "reading",
+        "options": [
+          "reading",
+          "read",
+          "reads"
+        ],
+        "sentence": "We are ____ the words on the board.",
+        "translation": "我們正在讀黑板上的字。",
+        "context": "情境：我們正在讀黑板上的字。",
+        "explanation": "We are reading the words on the board. 我們正在讀黑板上的字。"
+      },
+      {
+        "id": "reading-3",
+        "target": "reading",
+        "answer": "reading",
+        "options": [
+          "reading",
+          "read",
+          "reads"
+        ],
+        "sentence": "Dad is ____ a newspaper.",
+        "translation": "爸爸正在讀報紙。",
+        "context": "情境：爸爸正在讀報紙。",
+        "explanation": "Dad is reading a newspaper. 爸爸正在讀報紙。"
+      },
+      {
+        "id": "cooking-1",
+        "target": "cooking",
+        "answer": "cooking",
+        "options": [
+          "cooking",
+          "cook",
+          "cooks"
+        ],
+        "sentence": "Mom is ____ soup on the stove.",
+        "translation": "媽媽正在爐子上煮湯。",
+        "context": "情境：媽媽正在爐子上煮湯。",
+        "explanation": "Mom is cooking soup on the stove. 媽媽正在爐子上煮湯。"
+      },
+      {
+        "id": "cooking-2",
+        "target": "cooking",
+        "answer": "cooking",
+        "options": [
+          "cooking",
+          "cook",
+          "cooks"
+        ],
+        "sentence": "They are ____ dinner in the kitchen.",
+        "translation": "他們正在廚房煮晚餐。",
+        "context": "情境：他們正在廚房煮晚餐。",
+        "explanation": "They are cooking dinner in the kitchen. 他們正在廚房煮晚餐。"
+      },
+      {
+        "id": "cooking-3",
+        "target": "cooking",
+        "answer": "cooking",
+        "options": [
+          "cooking",
+          "cook",
+          "cooks"
+        ],
+        "sentence": "I am ____ rice with Dad.",
+        "translation": "我正在和爸爸煮飯。",
+        "context": "情境：我正在和爸爸煮飯。",
+        "explanation": "I am cooking rice with Dad. 我正在和爸爸煮飯。"
+      },
+      {
+        "id": "watching-1",
+        "target": "watching",
+        "answer": "watching",
+        "options": [
+          "watching",
+          "watch",
+          "watches"
+        ],
+        "sentence": "He is ____ TV.",
+        "translation": "他正在看電視。",
+        "context": "情境：他正在看電視。",
+        "explanation": "He is watching TV. 他正在看電視。"
+      },
+      {
+        "id": "watching-2",
+        "target": "watching",
+        "answer": "watching",
+        "options": [
+          "watching",
+          "watch",
+          "watches"
+        ],
+        "sentence": "We are ____ a movie together.",
+        "translation": "我們正在一起看電影。",
+        "context": "情境：我們正在一起看電影。",
+        "explanation": "We are watching a movie together. 我們正在一起看電影。"
+      },
+      {
+        "id": "watching-3",
+        "target": "watching",
+        "answer": "watching",
+        "options": [
+          "watching",
+          "watch",
+          "watches"
+        ],
+        "sentence": "She is ____ the birds outside.",
+        "translation": "她正在看外面的鳥。",
+        "context": "情境：她正在看外面的鳥。",
+        "explanation": "She is watching the birds outside. 她正在看外面的鳥。"
+      },
+      {
+        "id": "TV-1",
+        "target": "TV",
+        "answer": "TV",
+        "options": [
+          "TV",
+          "bed",
+          "sink"
+        ],
+        "sentence": "We watch cartoons on ____.",
+        "translation": "我們在電視上看卡通。",
+        "context": "情境：我們在電視上看卡通。",
+        "explanation": "We watch cartoons on TV. 我們在電視上看卡通。"
+      },
+      {
+        "id": "TV-2",
+        "target": "TV",
+        "answer": "TV",
+        "options": [
+          "TV",
+          "bed",
+          "sink"
+        ],
+        "sentence": "Please turn off the ____ after the show.",
+        "translation": "節目結束後請關電視。",
+        "context": "情境：節目結束後請關電視。",
+        "explanation": "Please turn off the TV after the show. 節目結束後請關電視。"
+      },
+      {
+        "id": "TV-3",
+        "target": "TV",
+        "answer": "TV",
+        "options": [
+          "TV",
+          "bed",
+          "sink"
+        ],
+        "sentence": "Dad watches the news on ____.",
+        "translation": "爸爸在電視上看新聞。",
+        "context": "情境：爸爸在電視上看新聞。",
+        "explanation": "Dad watches the news on TV. 爸爸在電視上看新聞。"
+      },
+      {
+        "id": "sleeping-1",
+        "target": "sleeping",
+        "answer": "sleeping",
+        "options": [
+          "sleeping",
+          "sleep",
+          "sleeps"
+        ],
+        "sentence": "The baby is ____ in bed.",
+        "translation": "寶寶正在床上睡覺。",
+        "context": "情境：寶寶正在床上睡覺。",
+        "explanation": "The baby is sleeping in bed. 寶寶正在床上睡覺。"
+      },
+      {
+        "id": "sleeping-2",
+        "target": "sleeping",
+        "answer": "sleeping",
+        "options": [
+          "sleeping",
+          "sleep",
+          "sleeps"
+        ],
+        "sentence": "My dog is ____ with its eyes closed.",
+        "translation": "我的狗正閉著眼睛睡覺。",
+        "context": "情境：我的狗正閉著眼睛睡覺。",
+        "explanation": "My dog is sleeping with its eyes closed. 我的狗正閉著眼睛睡覺。"
+      },
+      {
+        "id": "sleeping-3",
+        "target": "sleeping",
+        "answer": "sleeping",
+        "options": [
+          "sleeping",
+          "sleep",
+          "sleeps"
+        ],
+        "sentence": "Be quiet. Grandpa is ____.",
+        "translation": "安靜一點。爺爺正在睡覺。",
+        "context": "情境：安靜一點。爺爺正在睡覺。",
+        "explanation": "Be quiet. Grandpa is sleeping. 安靜一點。爺爺正在睡覺。"
+      },
+      {
+        "id": "eating-1",
+        "target": "eating",
+        "answer": "eating",
+        "options": [
+          "eating",
+          "eat",
+          "eats"
+        ],
+        "sentence": "I am ____ an apple.",
+        "translation": "我正在吃蘋果。",
+        "context": "情境：我正在吃蘋果。",
+        "explanation": "I am eating an apple. 我正在吃蘋果。"
+      },
+      {
+        "id": "eating-2",
+        "target": "eating",
+        "answer": "eating",
+        "options": [
+          "eating",
+          "eat",
+          "eats"
+        ],
+        "sentence": "They are ____ lunch.",
+        "translation": "他們正在吃午餐。",
+        "context": "情境：他們正在吃午餐。",
+        "explanation": "They are eating lunch. 他們正在吃午餐。"
+      },
+      {
+        "id": "eating-3",
+        "target": "eating",
+        "answer": "eating",
+        "options": [
+          "eating",
+          "eat",
+          "eats"
+        ],
+        "sentence": "The rabbit is ____ a carrot.",
+        "translation": "兔子正在吃紅蘿蔔。",
+        "context": "情境：兔子正在吃紅蘿蔔。",
+        "explanation": "The rabbit is eating a carrot. 兔子正在吃紅蘿蔔。"
+      },
+      {
+        "id": "washing-1",
+        "target": "washing",
+        "answer": "washing",
+        "options": [
+          "washing",
+          "wash",
+          "washes"
+        ],
+        "sentence": "He is ____ his hands with soap.",
+        "translation": "他正在用肥皂洗手。",
+        "context": "情境：他正在用肥皂洗手。",
+        "explanation": "He is washing his hands with soap. 他正在用肥皂洗手。"
+      },
+      {
+        "id": "washing-2",
+        "target": "washing",
+        "answer": "washing",
+        "options": [
+          "washing",
+          "wash",
+          "washes"
+        ],
+        "sentence": "We are ____ the dirty plates.",
+        "translation": "我們正在洗髒盤子。",
+        "context": "情境：我們正在洗髒盤子。",
+        "explanation": "We are washing the dirty plates. 我們正在洗髒盤子。"
+      },
+      {
+        "id": "washing-3",
+        "target": "washing",
+        "answer": "washing",
+        "options": [
+          "washing",
+          "wash",
+          "washes"
+        ],
+        "sentence": "She is ____ her shoes with water.",
+        "translation": "她正在用水洗鞋子。",
+        "context": "情境：她正在用水洗鞋子。",
+        "explanation": "She is washing her shoes with water. 她正在用水洗鞋子。"
+      },
+      {
+        "id": "writing-1",
+        "target": "writing",
+        "answer": "writing",
+        "options": [
+          "writing",
+          "write",
+          "writes"
+        ],
+        "sentence": "I am ____ a letter.",
+        "translation": "我正在寫信。",
+        "context": "情境：我正在寫信。",
+        "explanation": "I am writing a letter. 我正在寫信。"
+      },
+      {
+        "id": "writing-2",
+        "target": "writing",
+        "answer": "writing",
+        "options": [
+          "writing",
+          "write",
+          "writes"
+        ],
+        "sentence": "Ben is ____ his name on the paper.",
+        "translation": "Ben 正在紙上寫名字。",
+        "context": "情境：Ben 正在紙上寫名字。",
+        "explanation": "Ben is writing his name on the paper. Ben 正在紙上寫名字。"
+      },
+      {
+        "id": "writing-3",
+        "target": "writing",
+        "answer": "writing",
+        "options": [
+          "writing",
+          "write",
+          "writes"
+        ],
+        "sentence": "They are ____ sentences in their notebooks.",
+        "translation": "他們正在筆記本上寫句子。",
+        "context": "情境：他們正在筆記本上寫句子。",
+        "explanation": "They are writing sentences in their notebooks. 他們正在筆記本上寫句子。"
+      }
+    ]
+  },
+  {
+    "id": "g2-u10-v1",
+    "grade": 2,
+    "unit": 10,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "它在哪裡？",
+    "description": "13 個單字與片語，每字 3 種情境，共 39 題三選一。",
+    "source": "依二年級 U10 單字表及家長提供的 Spring 2024 Written Test 3 家具、位置題型新編；未提供單課 Quiz，非原卷。",
+    "questions": [
+      {
+        "id": "desk-1",
+        "target": "desk",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "bathtub",
+          "bed"
+        ],
+        "sentence": "I do homework at my ____.",
+        "translation": "我在書桌前做作業。",
+        "context": "情境：我在書桌前做作業。",
+        "explanation": "I do homework at my desk. 我在書桌前做作業。"
+      },
+      {
+        "id": "desk-2",
+        "target": "desk",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "bathtub",
+          "bed"
+        ],
+        "sentence": "My ____ has a drawer for pencils.",
+        "translation": "我的書桌有放鉛筆的抽屜。",
+        "context": "情境：我的書桌有放鉛筆的抽屜。",
+        "explanation": "My desk has a drawer for pencils. 我的書桌有放鉛筆的抽屜。"
+      },
+      {
+        "id": "desk-3",
+        "target": "desk",
+        "answer": "desk",
+        "options": [
+          "desk",
+          "bathtub",
+          "bed"
+        ],
+        "sentence": "There is a computer on my ____.",
+        "translation": "我的書桌上有電腦。",
+        "context": "情境：我的書桌上有電腦。",
+        "explanation": "There is a computer on my desk. 我的書桌上有電腦。"
+      },
+      {
+        "id": "under-1",
+        "target": "under",
+        "answer": "under",
+        "options": [
+          "under",
+          "on",
+          "beside"
+        ],
+        "sentence": "The cat is ____ the table, between its legs.",
+        "translation": "貓在桌子下面、桌腳之間。",
+        "context": "情境：貓在桌子下面、桌腳之間。",
+        "explanation": "The cat is under the table, between its legs. 貓在桌子下面、桌腳之間。"
+      },
+      {
+        "id": "under-2",
+        "target": "under",
+        "answer": "under",
+        "options": [
+          "under",
+          "on",
+          "beside"
+        ],
+        "sentence": "My shoes are ____ the bed, below the mattress.",
+        "translation": "我的鞋子在床下、床墊下方。",
+        "context": "情境：我的鞋子在床下、床墊下方。",
+        "explanation": "My shoes are under the bed, below the mattress. 我的鞋子在床下、床墊下方。"
+      },
+      {
+        "id": "under-3",
+        "target": "under",
+        "answer": "under",
+        "options": [
+          "under",
+          "on",
+          "beside"
+        ],
+        "sentence": "I stand ____ an umbrella to stay dry.",
+        "translation": "我站在傘下保持乾燥。",
+        "context": "情境：我站在傘下保持乾燥。",
+        "explanation": "I stand under an umbrella to stay dry. 我站在傘下保持乾燥。"
+      },
+      {
+        "id": "bed-1",
+        "target": "bed",
+        "answer": "bed",
+        "options": [
+          "bed",
+          "stove",
+          "sink"
+        ],
+        "sentence": "I sleep in my ____ at night.",
+        "translation": "我晚上在床上睡覺。",
+        "context": "情境：我晚上在床上睡覺。",
+        "explanation": "I sleep in my bed at night. 我晚上在床上睡覺。"
+      },
+      {
+        "id": "bed-2",
+        "target": "bed",
+        "answer": "bed",
+        "options": [
+          "bed",
+          "stove",
+          "sink"
+        ],
+        "sentence": "There is a pillow on my ____.",
+        "translation": "我的床上有枕頭。",
+        "context": "情境：我的床上有枕頭。",
+        "explanation": "There is a pillow on my bed. 我的床上有枕頭。"
+      },
+      {
+        "id": "bed-3",
+        "target": "bed",
+        "answer": "bed",
+        "options": [
+          "bed",
+          "stove",
+          "sink"
+        ],
+        "sentence": "Please make your ____ after you get up.",
+        "translation": "起床後請整理你的床。",
+        "context": "情境：起床後請整理你的床。",
+        "explanation": "Please make your bed after you get up. 起床後請整理你的床。"
+      },
+      {
+        "id": "table-1",
+        "target": "table",
+        "answer": "table",
+        "options": [
+          "table",
+          "closet",
+          "bathtub"
+        ],
+        "sentence": "We eat at the dining ____.",
+        "translation": "我們在餐桌旁吃飯。",
+        "context": "情境：我們在餐桌旁吃飯。",
+        "explanation": "We eat at the dining table. 我們在餐桌旁吃飯。"
+      },
+      {
+        "id": "table-2",
+        "target": "table",
+        "answer": "table",
+        "options": [
+          "table",
+          "closet",
+          "bathtub"
+        ],
+        "sentence": "Put the plates on the ____ for dinner.",
+        "translation": "把盤子放在桌上準備吃晚餐。",
+        "context": "情境：把盤子放在桌上準備吃晚餐。",
+        "explanation": "Put the plates on the table for dinner. 把盤子放在桌上準備吃晚餐。"
+      },
+      {
+        "id": "table-3",
+        "target": "table",
+        "answer": "table",
+        "options": [
+          "table",
+          "closet",
+          "bathtub"
+        ],
+        "sentence": "The dining ____ is big enough for six people.",
+        "translation": "這張餐桌夠大，可以坐六個人。",
+        "context": "情境：這張餐桌夠大，可以坐六個人。",
+        "explanation": "The dining table is big enough for six people. 這張餐桌夠大，可以坐六個人。"
+      },
+      {
+        "id": "closet-1",
+        "target": "closet",
+        "answer": "closet",
+        "options": [
+          "closet",
+          "stove",
+          "sink"
+        ],
+        "sentence": "My clothes hang in the ____.",
+        "translation": "我的衣服掛在衣櫃裡。",
+        "context": "情境：我的衣服掛在衣櫃裡。",
+        "explanation": "My clothes hang in the closet. 我的衣服掛在衣櫃裡。"
+      },
+      {
+        "id": "closet-2",
+        "target": "closet",
+        "answer": "closet",
+        "options": [
+          "closet",
+          "stove",
+          "sink"
+        ],
+        "sentence": "I open the ____ to choose a shirt.",
+        "translation": "我打開衣櫃挑選上衣。",
+        "context": "情境：我打開衣櫃挑選上衣。",
+        "explanation": "I open the closet to choose a shirt. 我打開衣櫃挑選上衣。"
+      },
+      {
+        "id": "closet-3",
+        "target": "closet",
+        "answer": "closet",
+        "options": [
+          "closet",
+          "stove",
+          "sink"
+        ],
+        "sentence": "Please put your coat in the ____.",
+        "translation": "請把外套放進衣櫃。",
+        "context": "情境：請把外套放進衣櫃。",
+        "explanation": "Please put your coat in the closet. 請把外套放進衣櫃。"
+      },
+      {
+        "id": "bathtub-1",
+        "target": "bathtub",
+        "answer": "bathtub",
+        "options": [
+          "bathtub",
+          "desk",
+          "sofa"
+        ],
+        "sentence": "I take a bath in the ____.",
+        "translation": "我在浴缸裡泡澡。",
+        "context": "情境：我在浴缸裡泡澡。",
+        "explanation": "I take a bath in the bathtub. 我在浴缸裡泡澡。"
+      },
+      {
+        "id": "bathtub-2",
+        "target": "bathtub",
+        "answer": "bathtub",
+        "options": [
+          "bathtub",
+          "desk",
+          "sofa"
+        ],
+        "sentence": "The ____ is full of warm bathwater.",
+        "translation": "浴缸裡裝滿溫暖的洗澡水。",
+        "context": "情境：浴缸裡裝滿溫暖的洗澡水。",
+        "explanation": "The bathtub is full of warm bathwater. 浴缸裡裝滿溫暖的洗澡水。"
+      },
+      {
+        "id": "bathtub-3",
+        "target": "bathtub",
+        "answer": "bathtub",
+        "options": [
+          "bathtub",
+          "desk",
+          "sofa"
+        ],
+        "sentence": "My rubber duck floats in the ____.",
+        "translation": "我的橡皮鴨浮在浴缸裡。",
+        "context": "情境：我的橡皮鴨浮在浴缸裡。",
+        "explanation": "My rubber duck floats in the bathtub. 我的橡皮鴨浮在浴缸裡。"
+      },
+      {
+        "id": "sink-1",
+        "target": "sink",
+        "answer": "sink",
+        "options": [
+          "sink",
+          "sofa",
+          "closet"
+        ],
+        "sentence": "We wash the plates in the kitchen ____.",
+        "translation": "我們在廚房水槽洗盤子。",
+        "context": "情境：我們在廚房水槽洗盤子。",
+        "explanation": "We wash the plates in the kitchen sink. 我們在廚房水槽洗盤子。"
+      },
+      {
+        "id": "sink-2",
+        "target": "sink",
+        "answer": "sink",
+        "options": [
+          "sink",
+          "sofa",
+          "closet"
+        ],
+        "sentence": "Turn on the tap above the ____.",
+        "translation": "打開水槽上方的水龍頭。",
+        "context": "情境：打開水槽上方的水龍頭。",
+        "explanation": "Turn on the tap above the sink. 打開水槽上方的水龍頭。"
+      },
+      {
+        "id": "sink-3",
+        "target": "sink",
+        "answer": "sink",
+        "options": [
+          "sink",
+          "sofa",
+          "closet"
+        ],
+        "sentence": "The ____ has a drain for the water.",
+        "translation": "水槽有讓水流走的排水孔。",
+        "context": "情境：水槽有讓水流走的排水孔。",
+        "explanation": "The sink has a drain for the water. 水槽有讓水流走的排水孔。"
+      },
+      {
+        "id": "chair-1",
+        "target": "chair",
+        "answer": "chair",
+        "options": [
+          "chair",
+          "refrigerator",
+          "bathtub"
+        ],
+        "sentence": "Please sit on this ____.",
+        "translation": "請坐這張椅子。",
+        "context": "情境：請坐這張椅子。",
+        "explanation": "Please sit on this chair. 請坐這張椅子。"
+      },
+      {
+        "id": "chair-2",
+        "target": "chair",
+        "answer": "chair",
+        "options": [
+          "chair",
+          "refrigerator",
+          "bathtub"
+        ],
+        "sentence": "I pull a ____ up to my desk.",
+        "translation": "我把椅子拉到書桌前。",
+        "context": "情境：我把椅子拉到書桌前。",
+        "explanation": "I pull a chair up to my desk. 我把椅子拉到書桌前。"
+      },
+      {
+        "id": "chair-3",
+        "target": "chair",
+        "answer": "chair",
+        "options": [
+          "chair",
+          "refrigerator",
+          "bathtub"
+        ],
+        "sentence": "This ____ has a seat and a back.",
+        "translation": "這張椅子有座位和椅背。",
+        "context": "情境：這張椅子有座位和椅背。",
+        "explanation": "This chair has a seat and a back. 這張椅子有座位和椅背。"
+      },
+      {
+        "id": "refrigerator-1",
+        "target": "refrigerator",
+        "answer": "refrigerator",
+        "options": [
+          "refrigerator",
+          "stove",
+          "sofa"
+        ],
+        "sentence": "We keep milk cold in the ____.",
+        "translation": "我們把牛奶放在冰箱裡保冷。",
+        "context": "情境：我們把牛奶放在冰箱裡保冷。",
+        "explanation": "We keep milk cold in the refrigerator. 我們把牛奶放在冰箱裡保冷。"
+      },
+      {
+        "id": "refrigerator-2",
+        "target": "refrigerator",
+        "answer": "refrigerator",
+        "options": [
+          "refrigerator",
+          "stove",
+          "sofa"
+        ],
+        "sentence": "Put the cheese in the ____ to keep it cold.",
+        "translation": "把起司放進冰箱保冷。",
+        "context": "情境：把起司放進冰箱保冷。",
+        "explanation": "Put the cheese in the refrigerator to keep it cold. 把起司放進冰箱保冷。"
+      },
+      {
+        "id": "refrigerator-3",
+        "target": "refrigerator",
+        "answer": "refrigerator",
+        "options": [
+          "refrigerator",
+          "stove",
+          "sofa"
+        ],
+        "sentence": "I open the ____ to get a cold drink.",
+        "translation": "我打開冰箱拿冷飲。",
+        "context": "情境：我打開冰箱拿冷飲。",
+        "explanation": "I open the refrigerator to get a cold drink. 我打開冰箱拿冷飲。"
+      },
+      {
+        "id": "stove-1",
+        "target": "stove",
+        "answer": "stove",
+        "options": [
+          "stove",
+          "closet",
+          "bed"
+        ],
+        "sentence": "Dad cooks soup on the ____.",
+        "translation": "爸爸在爐子上煮湯。",
+        "context": "情境：爸爸在爐子上煮湯。",
+        "explanation": "Dad cooks soup on the stove. 爸爸在爐子上煮湯。"
+      },
+      {
+        "id": "stove-2",
+        "target": "stove",
+        "answer": "stove",
+        "options": [
+          "stove",
+          "closet",
+          "bed"
+        ],
+        "sentence": "The pot is heating on the ____.",
+        "translation": "鍋子正在爐子上加熱。",
+        "context": "情境：鍋子正在爐子上加熱。",
+        "explanation": "The pot is heating on the stove. 鍋子正在爐子上加熱。"
+      },
+      {
+        "id": "stove-3",
+        "target": "stove",
+        "answer": "stove",
+        "options": [
+          "stove",
+          "closet",
+          "bed"
+        ],
+        "sentence": "Turn off the ____ when you finish cooking.",
+        "translation": "煮完飯後把爐子關掉。",
+        "context": "情境：煮完飯後把爐子關掉。",
+        "explanation": "Turn off the stove when you finish cooking. 煮完飯後把爐子關掉。"
+      },
+      {
+        "id": "sofa-1",
+        "target": "sofa",
+        "answer": "sofa",
+        "options": [
+          "sofa",
+          "sink",
+          "stove"
+        ],
+        "sentence": "We sit together on the soft ____ in the living room.",
+        "translation": "我們一起坐在客廳柔軟的沙發上。",
+        "context": "情境：我們一起坐在客廳柔軟的沙發上。",
+        "explanation": "We sit together on the soft sofa in the living room. 我們一起坐在客廳柔軟的沙發上。"
+      },
+      {
+        "id": "sofa-2",
+        "target": "sofa",
+        "answer": "sofa",
+        "options": [
+          "sofa",
+          "sink",
+          "stove"
+        ],
+        "sentence": "The ____ is a long soft seat for three people.",
+        "translation": "沙發是一張可以坐三個人的柔軟長座椅。",
+        "context": "情境：沙發是一張可以坐三個人的柔軟長座椅。",
+        "explanation": "The sofa is a long soft seat for three people. 沙發是一張可以坐三個人的柔軟長座椅。"
+      },
+      {
+        "id": "sofa-3",
+        "target": "sofa",
+        "answer": "sofa",
+        "options": [
+          "sofa",
+          "sink",
+          "stove"
+        ],
+        "sentence": "Grandma rests on the ____ while we watch TV.",
+        "translation": "我們看電視時，奶奶在沙發上休息。",
+        "context": "情境：我們看電視時，奶奶在沙發上休息。",
+        "explanation": "Grandma rests on the sofa while we watch TV. 我們看電視時，奶奶在沙發上休息。"
+      },
+      {
+        "id": "beside-1",
+        "target": "beside",
+        "answer": "beside",
+        "options": [
+          "beside",
+          "under",
+          "in"
+        ],
+        "sentence": "My bag is ____ me, right next to my chair.",
+        "translation": "我的袋子在我旁邊，緊鄰我的椅子。",
+        "context": "情境：我的袋子在我旁邊，緊鄰我的椅子。",
+        "explanation": "My bag is beside me, right next to my chair. 我的袋子在我旁邊，緊鄰我的椅子。"
+      },
+      {
+        "id": "beside-2",
+        "target": "beside",
+        "answer": "beside",
+        "options": [
+          "beside",
+          "under",
+          "in"
+        ],
+        "sentence": "The lamp is ____ the bed, not on it.",
+        "translation": "燈在床旁邊，不在床上。",
+        "context": "情境：燈在床旁邊，不在床上。",
+        "explanation": "The lamp is beside the bed, not on it. 燈在床旁邊，不在床上。"
+      },
+      {
+        "id": "beside-3",
+        "target": "beside",
+        "answer": "beside",
+        "options": [
+          "beside",
+          "under",
+          "in"
+        ],
+        "sentence": "Please sit ____ me, in the next seat.",
+        "translation": "請坐在我旁邊的座位。",
+        "context": "情境：請坐在我旁邊的座位。",
+        "explanation": "Please sit beside me, in the next seat. 請坐在我旁邊的座位。"
+      },
+      {
+        "id": "put-1",
+        "target": "put",
+        "answer": "put",
+        "options": [
+          "put",
+          "puts",
+          "putting"
+        ],
+        "sentence": "Please ____ your book on the desk.",
+        "translation": "請把書放在書桌上。",
+        "context": "情境：請把書放在書桌上。",
+        "explanation": "Please put your book on the desk. 請把書放在書桌上。"
+      },
+      {
+        "id": "put-2",
+        "target": "put",
+        "answer": "put",
+        "options": [
+          "put",
+          "puts",
+          "putting"
+        ],
+        "sentence": "Can you ____ the toys in the box?",
+        "translation": "你可以把玩具放進盒子嗎？",
+        "context": "情境：你可以把玩具放進盒子嗎？",
+        "explanation": "Can you put the toys in the box? 你可以把玩具放進盒子嗎？"
+      },
+      {
+        "id": "put-3",
+        "target": "put",
+        "answer": "put",
+        "options": [
+          "put",
+          "puts",
+          "putting"
+        ],
+        "sentence": "Let us ____ the chairs beside the table.",
+        "translation": "我們把椅子放在桌子旁吧。",
+        "context": "情境：我們把椅子放在桌子旁吧。",
+        "explanation": "Let us put the chairs beside the table. 我們把椅子放在桌子旁吧。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

@@ -2458,6 +2458,136 @@ globalThis.WORD_UNITS = [
       "蜥蜴"
     ]
   ]
+},
+{
+  "grade": 2,
+  "id": "u9",
+  "number": "09",
+  "title": "我的家",
+  "subtitle": "kitchen, reading, cooking…",
+  "words": [
+    [
+      "kitchen",
+      "廚房"
+    ],
+    [
+      "doing",
+      "做"
+    ],
+    [
+      "bedroom",
+      "臥室"
+    ],
+    [
+      "bathroom",
+      "浴室"
+    ],
+    [
+      "dining room",
+      "飯廳"
+    ],
+    [
+      "study",
+      "書房"
+    ],
+    [
+      "living room",
+      "客廳"
+    ],
+    [
+      "reading",
+      "閱讀"
+    ],
+    [
+      "cooking",
+      "煮飯"
+    ],
+    [
+      "watching",
+      "看"
+    ],
+    [
+      "TV",
+      "電視"
+    ],
+    [
+      "sleeping",
+      "睡覺"
+    ],
+    [
+      "eating",
+      "吃"
+    ],
+    [
+      "washing",
+      "洗"
+    ],
+    [
+      "writing",
+      "寫"
+    ]
+  ]
+},
+{
+  "grade": 2,
+  "id": "u10",
+  "number": "10",
+  "title": "它在哪裡？",
+  "subtitle": "desk, under, beside…",
+  "words": [
+    [
+      "desk",
+      "書桌"
+    ],
+    [
+      "under",
+      "在下面"
+    ],
+    [
+      "bed",
+      "床"
+    ],
+    [
+      "table",
+      "桌子"
+    ],
+    [
+      "closet",
+      "衣櫃"
+    ],
+    [
+      "bathtub",
+      "浴缸"
+    ],
+    [
+      "sink",
+      "水槽"
+    ],
+    [
+      "chair",
+      "椅子"
+    ],
+    [
+      "refrigerator",
+      "冰箱"
+    ],
+    [
+      "stove",
+      "火爐"
+    ],
+    [
+      "sofa",
+      "沙發"
+    ],
+    [
+      "beside",
+      "在旁邊"
+    ],
+    [
+      "put",
+      "放"
+    ]
+  ]
 }
 ];
 
