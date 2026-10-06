@@ -2057,6 +2057,112 @@ globalThis.WORD_UNITS = [
       "本題練習縮寫。"
     ]
   ]
+},
+{
+  "grade": 1,
+  "id": "u7",
+  "number": "07",
+  "title": "交通與數量",
+  "subtitle": "how, by bus, these…",
+  "words": [
+    [
+      "how",
+      "如何"
+    ],
+    [
+      "come to",
+      "來"
+    ],
+    [
+      "by bus",
+      "搭公車"
+    ],
+    [
+      "walk to",
+      "走到"
+    ],
+    [
+      "one",
+      "一"
+    ],
+    [
+      "two",
+      "二"
+    ],
+    [
+      "three",
+      "三"
+    ],
+    [
+      "four",
+      "四"
+    ],
+    [
+      "these",
+      "這些"
+    ],
+    [
+      "those",
+      "那些"
+    ]
+  ]
+},
+{
+  "grade": 1,
+  "id": "u8",
+  "number": "08",
+  "title": "一起在操場玩",
+  "subtitle": "want to, Let's, play…",
+  "words": [
+    [
+      "do",
+      "做，作"
+    ],
+    [
+      "want to",
+      "想要"
+    ],
+    [
+      "Let's",
+      "讓我們"
+    ],
+    [
+      "play",
+      "玩"
+    ],
+    [
+      "jump",
+      "跳"
+    ],
+    [
+      "homework",
+      "作業"
+    ],
+    [
+      "don't",
+      "不"
+    ],
+    [
+      "does",
+      "do 的第三人稱單數"
+    ],
+    [
+      "doesn't",
+      "不"
+    ],
+    [
+      "know",
+      "知道"
+    ],
+    [
+      "with",
+      "和"
+    ],
+    [
+      "kick",
+      "踢"
+    ]
+  ]
 }
 ];
 

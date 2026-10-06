@@ -14843,6 +14843,890 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "He can't read the word yet. Please help him. 他還不會讀這個字。請幫幫他。 cannot 和 can’t 意思相同，can’t 是縮寫。"
       }
     ]
+  },
+  {
+    "id": "g1-u7-v1",
+    "grade": 1,
+    "unit": 7,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "交通與數量",
+    "description": "10 個單字與片語，每個 3 種情境，共 30 題二選一。",
+    "source": "依家長提供的一年級 U7 單字表及 Quiz 新編，非原卷；圖片線索改為明確文字情境。",
+    "questions": [
+      {
+        "id": "how-1",
+        "target": "how",
+        "answer": "How",
+        "options": [
+          "How",
+          "Who"
+        ],
+        "sentence": "____ do you go to school? By bus.",
+        "translation": "你如何去上學？搭公車。",
+        "context": "情境：你如何去上學？搭公車。",
+        "explanation": "How do you go to school? By bus. 你如何去上學？搭公車。"
+      },
+      {
+        "id": "how-2",
+        "target": "how",
+        "answer": "How",
+        "options": [
+          "Who",
+          "How"
+        ],
+        "sentence": "____ does Dad go to work? He walks.",
+        "translation": "爸爸如何去上班？他走路。",
+        "context": "情境：爸爸如何去上班？他走路。",
+        "explanation": "How does Dad go to work? He walks. 爸爸如何去上班？他走路。"
+      },
+      {
+        "id": "how-3",
+        "target": "how",
+        "answer": "How",
+        "options": [
+          "How",
+          "Who"
+        ],
+        "sentence": "____ do you come here? By car.",
+        "translation": "你如何來這裡？搭車。",
+        "context": "情境：你如何來這裡？搭車。",
+        "explanation": "How do you come here? By car. 你如何來這裡？搭車。"
+      },
+      {
+        "id": "come-to-1",
+        "target": "come to",
+        "answer": "come to",
+        "options": [
+          "come to",
+          "comes to"
+        ],
+        "sentence": "I ____ school early.",
+        "translation": "我很早來學校。",
+        "context": "情境：我很早來學校。",
+        "explanation": "I come to school early. 我很早來學校。"
+      },
+      {
+        "id": "come-to-2",
+        "target": "come to",
+        "answer": "come to",
+        "options": [
+          "comes to",
+          "come to"
+        ],
+        "sentence": "Can you ____ my party?",
+        "translation": "你可以來我的派對嗎？",
+        "context": "情境：你可以來我的派對嗎？",
+        "explanation": "Can you come to my party? 你可以來我的派對嗎？"
+      },
+      {
+        "id": "come-to-3",
+        "target": "come to",
+        "answer": "come to",
+        "options": [
+          "come to",
+          "comes to"
+        ],
+        "sentence": "My friends ____ my house on Sundays.",
+        "translation": "我的朋友星期日來我家。",
+        "context": "情境：我的朋友星期日來我家。",
+        "explanation": "My friends come to my house on Sundays. 我的朋友星期日來我家。"
+      },
+      {
+        "id": "by-bus-1",
+        "target": "by bus",
+        "answer": "by bus",
+        "options": [
+          "by bus",
+          "on bus"
+        ],
+        "sentence": "I go to school ____.",
+        "translation": "我搭公車上學。",
+        "context": "情境：我搭公車上學。",
+        "explanation": "I go to school by bus. 我搭公車上學。"
+      },
+      {
+        "id": "by-bus-2",
+        "target": "by bus",
+        "answer": "by bus",
+        "options": [
+          "on bus",
+          "by bus"
+        ],
+        "sentence": "We go to the zoo ____.",
+        "translation": "我們搭公車去動物園。",
+        "context": "情境：我們搭公車去動物園。",
+        "explanation": "We go to the zoo by bus. 我們搭公車去動物園。"
+      },
+      {
+        "id": "by-bus-3",
+        "target": "by bus",
+        "answer": "by bus",
+        "options": [
+          "by bus",
+          "on bus"
+        ],
+        "sentence": "She comes here ____.",
+        "translation": "她搭公車來這裡。",
+        "context": "情境：她搭公車來這裡。",
+        "explanation": "She comes here by bus. 她搭公車來這裡。"
+      },
+      {
+        "id": "walk-to-1",
+        "target": "walk to",
+        "answer": "walk to",
+        "options": [
+          "walk to",
+          "walks to"
+        ],
+        "sentence": "I ____ school with my sister.",
+        "translation": "我和姊姊走路上學。",
+        "context": "情境：我和姊姊走路上學。",
+        "explanation": "I walk to school with my sister. 我和姊姊走路上學。"
+      },
+      {
+        "id": "walk-to-2",
+        "target": "walk to",
+        "answer": "walk to",
+        "options": [
+          "walks to",
+          "walk to"
+        ],
+        "sentence": "We ____ the park after lunch.",
+        "translation": "我們午餐後走路去公園。",
+        "context": "情境：我們午餐後走路去公園。",
+        "explanation": "We walk to the park after lunch. 我們午餐後走路去公園。"
+      },
+      {
+        "id": "walk-to-3",
+        "target": "walk to",
+        "answer": "walk to",
+        "options": [
+          "walk to",
+          "walks to"
+        ],
+        "sentence": "They ____ the library together.",
+        "translation": "他們一起走路去圖書館。",
+        "context": "情境：他們一起走路去圖書館。",
+        "explanation": "They walk to the library together. 他們一起走路去圖書館。"
+      },
+      {
+        "id": "one-1",
+        "target": "one",
+        "answer": "one",
+        "options": [
+          "one",
+          "two"
+        ],
+        "sentence": "There is ____ bike by the door.",
+        "translation": "門邊有一輛腳踏車。",
+        "context": "情境：門邊有一輛腳踏車。",
+        "explanation": "There is one bike by the door. 門邊有一輛腳踏車。"
+      },
+      {
+        "id": "one-2",
+        "target": "one",
+        "answer": "one",
+        "options": [
+          "two",
+          "one"
+        ],
+        "sentence": "I have only ____ pencil.",
+        "translation": "我只有一枝鉛筆。",
+        "context": "情境：我只有一枝鉛筆。",
+        "explanation": "I have only one pencil. 我只有一枝鉛筆。"
+      },
+      {
+        "id": "one-3",
+        "target": "one",
+        "answer": "one",
+        "options": [
+          "one",
+          "two"
+        ],
+        "sentence": "There is ____ bus at the stop.",
+        "translation": "站牌有一輛公車。",
+        "context": "情境：站牌有一輛公車。",
+        "explanation": "There is one bus at the stop. 站牌有一輛公車。"
+      },
+      {
+        "id": "two-1",
+        "target": "two",
+        "answer": "two",
+        "options": [
+          "two",
+          "four"
+        ],
+        "sentence": "One and one make ____.",
+        "translation": "一加一等於二。",
+        "context": "情境：一加一等於二。",
+        "explanation": "One and one make two. 一加一等於二。"
+      },
+      {
+        "id": "two-2",
+        "target": "two",
+        "answer": "two",
+        "options": [
+          "four",
+          "two"
+        ],
+        "sentence": "I have ____ hands.",
+        "translation": "我有兩隻手。",
+        "context": "情境：我有兩隻手。",
+        "explanation": "I have two hands. 我有兩隻手。"
+      },
+      {
+        "id": "two-3",
+        "target": "two",
+        "answer": "two",
+        "options": [
+          "two",
+          "four"
+        ],
+        "sentence": "There are ____ bags: one red bag and one blue bag.",
+        "translation": "有兩個袋子：一個紅袋子和一個藍袋子。",
+        "context": "情境：有兩個袋子：一個紅袋子和一個藍袋子。",
+        "explanation": "There are two bags: one red bag and one blue bag. 有兩個袋子：一個紅袋子和一個藍袋子。"
+      },
+      {
+        "id": "three-1",
+        "target": "three",
+        "answer": "three",
+        "options": [
+          "three",
+          "one"
+        ],
+        "sentence": "One and two make ____.",
+        "translation": "一加二等於三。",
+        "context": "情境：一加二等於三。",
+        "explanation": "One and two make three. 一加二等於三。"
+      },
+      {
+        "id": "three-2",
+        "target": "three",
+        "answer": "three",
+        "options": [
+          "one",
+          "three"
+        ],
+        "sentence": "I see ____ cars: a red car, a blue car, and a white car.",
+        "translation": "我看到三輛車：紅車、藍車和白車。",
+        "context": "情境：我看到三輛車：紅車、藍車和白車。",
+        "explanation": "I see three cars: a red car, a blue car, and a white car. 我看到三輛車：紅車、藍車和白車。"
+      },
+      {
+        "id": "three-3",
+        "target": "three",
+        "answer": "three",
+        "options": [
+          "three",
+          "one"
+        ],
+        "sentence": "We have ____ cups: one for Mom, one for Dad, and one for me.",
+        "translation": "我們有三個杯子：媽媽、爸爸和我各一個。",
+        "context": "情境：我們有三個杯子：媽媽、爸爸和我各一個。",
+        "explanation": "We have three cups: one for Mom, one for Dad, and one for me. 我們有三個杯子：媽媽、爸爸和我各一個。"
+      },
+      {
+        "id": "four-1",
+        "target": "four",
+        "answer": "four",
+        "options": [
+          "four",
+          "two"
+        ],
+        "sentence": "Two and two make ____.",
+        "translation": "二加二等於四。",
+        "context": "情境：二加二等於四。",
+        "explanation": "Two and two make four. 二加二等於四。"
+      },
+      {
+        "id": "four-2",
+        "target": "four",
+        "answer": "four",
+        "options": [
+          "two",
+          "four"
+        ],
+        "sentence": "A car has ____ wheels.",
+        "translation": "一輛汽車有四個輪子。",
+        "context": "情境：一輛汽車有四個輪子。",
+        "explanation": "A car has four wheels. 一輛汽車有四個輪子。"
+      },
+      {
+        "id": "four-3",
+        "target": "four",
+        "answer": "four",
+        "options": [
+          "four",
+          "two"
+        ],
+        "sentence": "One, two, three, ____!",
+        "translation": "一、二、三、四！",
+        "context": "情境：一、二、三、四！",
+        "explanation": "One, two, three, four! 一、二、三、四！"
+      },
+      {
+        "id": "these-1",
+        "target": "these",
+        "answer": "these",
+        "options": [
+          "these",
+          "those"
+        ],
+        "sentence": "Look at ____ books right here in my hands.",
+        "translation": "看看我手裡這些書。",
+        "context": "情境：看看我手裡這些書。",
+        "explanation": "Look at these books right here in my hands. 看看我手裡這些書。"
+      },
+      {
+        "id": "these-2",
+        "target": "these",
+        "answer": "these",
+        "options": [
+          "those",
+          "these"
+        ],
+        "sentence": "I like ____ flowers here beside me.",
+        "translation": "我喜歡我身邊這些花。",
+        "context": "情境：我喜歡我身邊這些花。",
+        "explanation": "I like these flowers here beside me. 我喜歡我身邊這些花。"
+      },
+      {
+        "id": "these-3",
+        "target": "these",
+        "answer": "these",
+        "options": [
+          "these",
+          "those"
+        ],
+        "sentence": "Are ____ bags here on my desk yours?",
+        "translation": "我桌上這些袋子是你的嗎？",
+        "context": "情境：我桌上這些袋子是你的嗎？",
+        "explanation": "Are these bags here on my desk yours? 我桌上這些袋子是你的嗎？"
+      },
+      {
+        "id": "those-1",
+        "target": "those",
+        "answer": "those",
+        "options": [
+          "those",
+          "these"
+        ],
+        "sentence": "Look at ____ birds far away in the sky.",
+        "translation": "看看遠處天空中的那些鳥。",
+        "context": "情境：看看遠處天空中的那些鳥。",
+        "explanation": "Look at those birds far away in the sky. 看看遠處天空中的那些鳥。"
+      },
+      {
+        "id": "those-2",
+        "target": "those",
+        "answer": "those",
+        "options": [
+          "these",
+          "those"
+        ],
+        "sentence": "Can you see ____ buses over there?",
+        "translation": "你看得到那邊的那些公車嗎？",
+        "context": "情境：你看得到那邊的那些公車嗎？",
+        "explanation": "Can you see those buses over there? 你看得到那邊的那些公車嗎？"
+      },
+      {
+        "id": "those-3",
+        "target": "those",
+        "answer": "those",
+        "options": [
+          "those",
+          "these"
+        ],
+        "sentence": "I like ____ trees far across the river.",
+        "translation": "我喜歡遠處河對岸的那些樹。",
+        "context": "情境：我喜歡遠處河對岸的那些樹。",
+        "explanation": "I like those trees far across the river. 我喜歡遠處河對岸的那些樹。"
+      }
+    ]
+  },
+  {
+    "id": "g1-u8-v1",
+    "grade": 1,
+    "unit": 8,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "一起在操場玩",
+    "description": "12 個單字與片語，每個 3 種情境，共 36 題二選一。",
+    "source": "依家長提供的一年級 U8 單字表及 Quiz 新編，非原卷；圖片線索改為明確文字情境。",
+    "questions": [
+      {
+        "id": "do-1",
+        "target": "do",
+        "answer": "do",
+        "options": [
+          "do",
+          "does"
+        ],
+        "sentence": "What can you ____?",
+        "translation": "你會做什麼？",
+        "context": "情境：你會做什麼？",
+        "explanation": "What can you do? 你會做什麼？"
+      },
+      {
+        "id": "do-2",
+        "target": "do",
+        "answer": "do",
+        "options": [
+          "does",
+          "do"
+        ],
+        "sentence": "I ____ my homework after school.",
+        "translation": "我放學後做作業。",
+        "context": "情境：我放學後做作業。",
+        "explanation": "I do my homework after school. 我放學後做作業。"
+      },
+      {
+        "id": "do-3",
+        "target": "do",
+        "answer": "do",
+        "options": [
+          "do",
+          "does"
+        ],
+        "sentence": "Let us ____ the work together.",
+        "translation": "我們一起做這份工作吧。",
+        "context": "情境：我們一起做這份工作吧。",
+        "explanation": "Let us do the work together. 我們一起做這份工作吧。"
+      },
+      {
+        "id": "want-to-1",
+        "target": "want to",
+        "answer": "want to",
+        "options": [
+          "want to",
+          "wants to"
+        ],
+        "sentence": "I ____ play on the slide.",
+        "translation": "我想玩溜滑梯。",
+        "context": "情境：我想玩溜滑梯。",
+        "explanation": "I want to play on the slide. 我想玩溜滑梯。"
+      },
+      {
+        "id": "want-to-2",
+        "target": "want to",
+        "answer": "want to",
+        "options": [
+          "wants to",
+          "want to"
+        ],
+        "sentence": "We ____ read a book.",
+        "translation": "我們想讀一本書。",
+        "context": "情境：我們想讀一本書。",
+        "explanation": "We want to read a book. 我們想讀一本書。"
+      },
+      {
+        "id": "want-to-3",
+        "target": "want to",
+        "answer": "want to",
+        "options": [
+          "want to",
+          "wants to"
+        ],
+        "sentence": "Do you ____ jump rope?",
+        "translation": "你想跳繩嗎？",
+        "context": "情境：你想跳繩嗎？",
+        "explanation": "Do you want to jump rope? 你想跳繩嗎？"
+      },
+      {
+        "id": "Let's-1",
+        "target": "Let's",
+        "answer": "Let's",
+        "options": [
+          "Let's",
+          "Let"
+        ],
+        "sentence": "____ play a game!",
+        "translation": "我們來玩遊戲吧！",
+        "context": "情境：我們來玩遊戲吧！",
+        "explanation": "Let's play a game! 我們來玩遊戲吧！"
+      },
+      {
+        "id": "Let's-2",
+        "target": "Let's",
+        "answer": "Let's",
+        "options": [
+          "Let",
+          "Let's"
+        ],
+        "sentence": "____ clean the classroom!",
+        "translation": "我們來打掃教室吧！",
+        "context": "情境：我們來打掃教室吧！",
+        "explanation": "Let's clean the classroom! 我們來打掃教室吧！"
+      },
+      {
+        "id": "Let's-3",
+        "target": "Let's",
+        "answer": "Let's",
+        "options": [
+          "Let's",
+          "Let"
+        ],
+        "sentence": "____ go to the playground!",
+        "translation": "我們去操場吧！",
+        "context": "情境：我們去操場吧！",
+        "explanation": "Let's go to the playground! 我們去操場吧！"
+      },
+      {
+        "id": "play-1",
+        "target": "play",
+        "answer": "play",
+        "options": [
+          "play",
+          "eat"
+        ],
+        "sentence": "We can ____ with a yo-yo.",
+        "translation": "我們會玩溜溜球。",
+        "context": "情境：我們會玩溜溜球。",
+        "explanation": "We can play with a yo-yo. 我們會玩溜溜球。"
+      },
+      {
+        "id": "play-2",
+        "target": "play",
+        "answer": "play",
+        "options": [
+          "eat",
+          "play"
+        ],
+        "sentence": "I like to ____ ball with my friends.",
+        "translation": "我喜歡和朋友玩球。",
+        "context": "情境：我喜歡和朋友玩球。",
+        "explanation": "I like to play ball with my friends. 我喜歡和朋友玩球。"
+      },
+      {
+        "id": "play-3",
+        "target": "play",
+        "answer": "play",
+        "options": [
+          "play",
+          "eat"
+        ],
+        "sentence": "Can we ____ on the swings?",
+        "translation": "我們可以玩盪鞦韆嗎？",
+        "context": "情境：我們可以玩盪鞦韆嗎？",
+        "explanation": "Can we play on the swings? 我們可以玩盪鞦韆嗎？"
+      },
+      {
+        "id": "jump-1",
+        "target": "jump",
+        "answer": "jump",
+        "options": [
+          "jump",
+          "write"
+        ],
+        "sentence": "I can ____ rope.",
+        "translation": "我會跳繩。",
+        "context": "情境：我會跳繩。",
+        "explanation": "I can jump rope. 我會跳繩。"
+      },
+      {
+        "id": "jump-2",
+        "target": "jump",
+        "answer": "jump",
+        "options": [
+          "write",
+          "jump"
+        ],
+        "sentence": "Can you ____ over this line?",
+        "translation": "你能跳過這條線嗎？",
+        "context": "情境：你能跳過這條線嗎？",
+        "explanation": "Can you jump over this line? 你能跳過這條線嗎？"
+      },
+      {
+        "id": "jump-3",
+        "target": "jump",
+        "answer": "jump",
+        "options": [
+          "jump",
+          "write"
+        ],
+        "sentence": "The frogs can ____ high.",
+        "translation": "青蛙會跳得很高。",
+        "context": "情境：青蛙會跳得很高。",
+        "explanation": "The frogs can jump high. 青蛙會跳得很高。"
+      },
+      {
+        "id": "homework-1",
+        "target": "homework",
+        "answer": "homework",
+        "options": [
+          "homework",
+          "playground"
+        ],
+        "sentence": "I do my ____ at my desk.",
+        "translation": "我在書桌前做作業。",
+        "context": "情境：我在書桌前做作業。",
+        "explanation": "I do my homework at my desk. 我在書桌前做作業。"
+      },
+      {
+        "id": "homework-2",
+        "target": "homework",
+        "answer": "homework",
+        "options": [
+          "playground",
+          "homework"
+        ],
+        "sentence": "My teacher gives us ____ to do at home.",
+        "translation": "老師給我們在家做的作業。",
+        "context": "情境：老師給我們在家做的作業。",
+        "explanation": "My teacher gives us homework to do at home. 老師給我們在家做的作業。"
+      },
+      {
+        "id": "homework-3",
+        "target": "homework",
+        "answer": "homework",
+        "options": [
+          "homework",
+          "playground"
+        ],
+        "sentence": "I finish my ____ before I play.",
+        "translation": "我先完成作業再玩。",
+        "context": "情境：我先完成作業再玩。",
+        "explanation": "I finish my homework before I play. 我先完成作業再玩。"
+      },
+      {
+        "id": "don't-1",
+        "target": "don't",
+        "answer": "don't",
+        "options": [
+          "don't",
+          "doesn't"
+        ],
+        "sentence": "I ____ want to swim today.",
+        "translation": "我今天不想游泳。",
+        "context": "情境：我今天不想游泳。",
+        "explanation": "I don't want to swim today. 我今天不想游泳。"
+      },
+      {
+        "id": "don't-2",
+        "target": "don't",
+        "answer": "don't",
+        "options": [
+          "doesn't",
+          "don't"
+        ],
+        "sentence": "We ____ play in the hallway.",
+        "translation": "我們不在走廊玩。",
+        "context": "情境：我們不在走廊玩。",
+        "explanation": "We don't play in the hallway. 我們不在走廊玩。"
+      },
+      {
+        "id": "don't-3",
+        "target": "don't",
+        "answer": "don't",
+        "options": [
+          "don't",
+          "doesn't"
+        ],
+        "sentence": "They ____ like this game.",
+        "translation": "他們不喜歡這個遊戲。",
+        "context": "情境：他們不喜歡這個遊戲。",
+        "explanation": "They don't like this game. 他們不喜歡這個遊戲。"
+      },
+      {
+        "id": "does-1",
+        "target": "does",
+        "answer": "does",
+        "options": [
+          "does",
+          "do"
+        ],
+        "sentence": "What ____ she want to do?",
+        "translation": "她想做什麼？",
+        "context": "情境：她想做什麼？",
+        "explanation": "What does she want to do? 她想做什麼？"
+      },
+      {
+        "id": "does-2",
+        "target": "does",
+        "answer": "does",
+        "options": [
+          "do",
+          "does"
+        ],
+        "sentence": "How ____ Ben go to school?",
+        "translation": "Ben 如何去上學？",
+        "context": "情境：Ben 如何去上學？",
+        "explanation": "How does Ben go to school? Ben 如何去上學？"
+      },
+      {
+        "id": "does-3",
+        "target": "does",
+        "answer": "does",
+        "options": [
+          "does",
+          "do"
+        ],
+        "sentence": "Where ____ your brother play?",
+        "translation": "你哥哥在哪裡玩？",
+        "context": "情境：你哥哥在哪裡玩？",
+        "explanation": "Where does your brother play? 你哥哥在哪裡玩？"
+      },
+      {
+        "id": "doesn't-1",
+        "target": "doesn't",
+        "answer": "doesn't",
+        "options": [
+          "doesn't",
+          "don't"
+        ],
+        "sentence": "He ____ want to play now.",
+        "translation": "他現在不想玩。",
+        "context": "情境：他現在不想玩。",
+        "explanation": "He doesn't want to play now. 他現在不想玩。"
+      },
+      {
+        "id": "doesn't-2",
+        "target": "doesn't",
+        "answer": "doesn't",
+        "options": [
+          "don't",
+          "doesn't"
+        ],
+        "sentence": "She ____ like to jump rope.",
+        "translation": "她不喜歡跳繩。",
+        "context": "情境：她不喜歡跳繩。",
+        "explanation": "She doesn't like to jump rope. 她不喜歡跳繩。"
+      },
+      {
+        "id": "doesn't-3",
+        "target": "doesn't",
+        "answer": "doesn't",
+        "options": [
+          "doesn't",
+          "don't"
+        ],
+        "sentence": "My brother ____ play ball in the classroom.",
+        "translation": "我哥哥不在教室玩球。",
+        "context": "情境：我哥哥不在教室玩球。",
+        "explanation": "My brother doesn't play ball in the classroom. 我哥哥不在教室玩球。"
+      },
+      {
+        "id": "know-1",
+        "target": "know",
+        "answer": "know",
+        "options": [
+          "know",
+          "kick"
+        ],
+        "sentence": "Do you ____ my name?",
+        "translation": "你知道我的名字嗎？",
+        "context": "情境：你知道我的名字嗎？",
+        "explanation": "Do you know my name? 你知道我的名字嗎？"
+      },
+      {
+        "id": "know-2",
+        "target": "know",
+        "answer": "know",
+        "options": [
+          "kick",
+          "know"
+        ],
+        "sentence": "I ____ how to swim.",
+        "translation": "我知道如何游泳。",
+        "context": "情境：我知道如何游泳。",
+        "explanation": "I know how to swim. 我知道如何游泳。"
+      },
+      {
+        "id": "know-3",
+        "target": "know",
+        "answer": "know",
+        "options": [
+          "know",
+          "kick"
+        ],
+        "sentence": "We ____ the answer.",
+        "translation": "我們知道答案。",
+        "context": "情境：我們知道答案。",
+        "explanation": "We know the answer. 我們知道答案。"
+      },
+      {
+        "id": "with-1",
+        "target": "with",
+        "answer": "with",
+        "options": [
+          "with",
+          "under"
+        ],
+        "sentence": "I play ____ my friends.",
+        "translation": "我和朋友一起玩。",
+        "context": "情境：我和朋友一起玩。",
+        "explanation": "I play with my friends. 我和朋友一起玩。"
+      },
+      {
+        "id": "with-2",
+        "target": "with",
+        "answer": "with",
+        "options": [
+          "under",
+          "with"
+        ],
+        "sentence": "She reads ____ her mom.",
+        "translation": "她和媽媽一起閱讀。",
+        "context": "情境：她和媽媽一起閱讀。",
+        "explanation": "She reads with her mom. 她和媽媽一起閱讀。"
+      },
+      {
+        "id": "with-3",
+        "target": "with",
+        "answer": "with",
+        "options": [
+          "with",
+          "under"
+        ],
+        "sentence": "Do you want to come ____ us?",
+        "translation": "你想和我們一起來嗎？",
+        "context": "情境：你想和我們一起來嗎？",
+        "explanation": "Do you want to come with us? 你想和我們一起來嗎？"
+      },
+      {
+        "id": "kick-1",
+        "target": "kick",
+        "answer": "kick",
+        "options": [
+          "kick",
+          "read"
+        ],
+        "sentence": "I can ____ the ball with my foot.",
+        "translation": "我會用腳踢球。",
+        "context": "情境：我會用腳踢球。",
+        "explanation": "I can kick the ball with my foot. 我會用腳踢球。"
+      },
+      {
+        "id": "kick-2",
+        "target": "kick",
+        "answer": "kick",
+        "options": [
+          "read",
+          "kick"
+        ],
+        "sentence": "Please do not ____ the door.",
+        "translation": "請不要踢門。",
+        "context": "情境：請不要踢門。",
+        "explanation": "Please do not kick the door. 請不要踢門。"
+      },
+      {
+        "id": "kick-3",
+        "target": "kick",
+        "answer": "kick",
+        "options": [
+          "kick",
+          "read"
+        ],
+        "sentence": "Can you ____ the ball to me?",
+        "translation": "你能把球踢給我嗎？",
+        "context": "情境：你能把球踢給我嗎？",
+        "explanation": "Can you kick the ball to me? 你能把球踢給我嗎？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
