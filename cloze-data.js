@@ -16533,6 +16533,649 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "The sky is clear and sunny. There are no rain clouds. 天空晴朗，是晴天，沒有雨雲。"
       }
     ]
+  },
+  {
+    "id": "g2-u6-v1",
+    "grade": 2,
+    "unit": 6,
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "生日禮物",
+    "description": "15 個單字，每字 3 種新編情境，共 45 題三選一。練習生日、禮物及受格代名詞。",
+    "source": "依家長提供的二年級 U6 單字表與 Quiz 新編，非原卷；受格代名詞附明確人物線索。",
+    "questions": [
+      {
+        "id": "birthday-1",
+        "target": "birthday",
+        "answer": "birthday",
+        "options": [
+          "birthday",
+          "game",
+          "computer"
+        ],
+        "sentence": "My ____ is on June 5th.",
+        "translation": "我的生日是六月五日。",
+        "context": "情境：我的生日是六月五日。",
+        "explanation": "My birthday is on June 5th. 我的生日是六月五日。"
+      },
+      {
+        "id": "birthday-2",
+        "target": "birthday",
+        "answer": "birthday",
+        "options": [
+          "birthday",
+          "game",
+          "computer"
+        ],
+        "sentence": "We have a cake for her ____.",
+        "translation": "我們為她的生日準備了蛋糕。",
+        "context": "情境：我們為她的生日準備了蛋糕。",
+        "explanation": "We have a cake for her birthday. 我們為她的生日準備了蛋糕。"
+      },
+      {
+        "id": "birthday-3",
+        "target": "birthday",
+        "answer": "birthday",
+        "options": [
+          "birthday",
+          "game",
+          "computer"
+        ],
+        "sentence": "What do you want for your ____?",
+        "translation": "你生日想要什麼？",
+        "context": "情境：你生日想要什麼？",
+        "explanation": "What do you want for your birthday? 你生日想要什麼？"
+      },
+      {
+        "id": "gift-1",
+        "target": "gift",
+        "answer": "gift",
+        "options": [
+          "gift",
+          "song",
+          "story"
+        ],
+        "sentence": "This wrapped box is a ____ for you.",
+        "translation": "這個包裝好的盒子是送你的禮物。",
+        "context": "情境：這個包裝好的盒子是送你的禮物。",
+        "explanation": "This wrapped box is a gift for you. 這個包裝好的盒子是送你的禮物。"
+      },
+      {
+        "id": "gift-2",
+        "target": "gift",
+        "answer": "gift",
+        "options": [
+          "gift",
+          "song",
+          "story"
+        ],
+        "sentence": "I bought a ____ for my brother’s birthday.",
+        "translation": "我買了一份禮物給哥哥過生日。",
+        "context": "情境：我買了一份禮物給哥哥過生日。",
+        "explanation": "I bought a gift for my brother’s birthday. 我買了一份禮物給哥哥過生日。"
+      },
+      {
+        "id": "gift-3",
+        "target": "gift",
+        "answer": "gift",
+        "options": [
+          "gift",
+          "song",
+          "story"
+        ],
+        "sentence": "She opens her ____ and finds a toy car.",
+        "translation": "她打開禮物，發現一輛玩具車。",
+        "context": "情境：她打開禮物，發現一輛玩具車。",
+        "explanation": "She opens her gift and finds a toy car. 她打開禮物，發現一輛玩具車。"
+      },
+      {
+        "id": "thanks-1",
+        "target": "thanks",
+        "answer": "thanks",
+        "options": [
+          "thanks",
+          "from",
+          "them"
+        ],
+        "sentence": "Many ____ for your help!",
+        "translation": "非常謝謝你的幫忙！",
+        "context": "情境：非常謝謝你的幫忙！",
+        "explanation": "Many thanks for your help! 非常謝謝你的幫忙！"
+      },
+      {
+        "id": "thanks-2",
+        "target": "thanks",
+        "answer": "thanks",
+        "options": [
+          "thanks",
+          "from",
+          "them"
+        ],
+        "sentence": "I say ____ when someone helps me.",
+        "translation": "有人幫我時，我會說謝謝。",
+        "context": "情境：有人幫我時，我會說謝謝。",
+        "explanation": "I say thanks when someone helps me. 有人幫我時，我會說謝謝。"
+      },
+      {
+        "id": "thanks-3",
+        "target": "thanks",
+        "answer": "thanks",
+        "options": [
+          "thanks",
+          "from",
+          "them"
+        ],
+        "sentence": "She smiles and says ____ for the lovely gift.",
+        "translation": "她微笑著，為這份可愛的禮物說謝謝。",
+        "context": "情境：她微笑著，為這份可愛的禮物說謝謝。",
+        "explanation": "She smiles and says thanks for the lovely gift. 她微笑著，為這份可愛的禮物說謝謝。"
+      },
+      {
+        "id": "from-1",
+        "target": "from",
+        "answer": "from",
+        "options": [
+          "from",
+          "under",
+          "with"
+        ],
+        "sentence": "This card is ____ Ben. He sent it to me.",
+        "translation": "這張卡片來自 Ben，是他寄給我的。",
+        "context": "情境：這張卡片來自 Ben，是他寄給我的。",
+        "explanation": "This card is from Ben. He sent it to me. 這張卡片來自 Ben，是他寄給我的。"
+      },
+      {
+        "id": "from-2",
+        "target": "from",
+        "answer": "from",
+        "options": [
+          "from",
+          "under",
+          "with"
+        ],
+        "sentence": "I got a letter ____ my aunt.",
+        "translation": "我收到一封阿姨寄來的信。",
+        "context": "情境：我收到一封阿姨寄來的信。",
+        "explanation": "I got a letter from my aunt. 我收到一封阿姨寄來的信。"
+      },
+      {
+        "id": "from-3",
+        "target": "from",
+        "answer": "from",
+        "options": [
+          "from",
+          "under",
+          "with"
+        ],
+        "sentence": "The gift is ____ Dad. He bought it for me.",
+        "translation": "禮物來自爸爸，是他買給我的。",
+        "context": "情境：禮物來自爸爸，是他買給我的。",
+        "explanation": "The gift is from Dad. He bought it for me. 禮物來自爸爸，是他買給我的。"
+      },
+      {
+        "id": "us-1",
+        "target": "us",
+        "answer": "us",
+        "options": [
+          "us",
+          "we",
+          "our"
+        ],
+        "sentence": "My sister and I are here. Please play with ____.",
+        "translation": "我和姊姊在這裡。請和我們一起玩。",
+        "context": "情境：我和姊姊在這裡。請和我們一起玩。",
+        "explanation": "My sister and I are here. Please play with us. 我和姊姊在這裡。請和我們一起玩。"
+      },
+      {
+        "id": "us-2",
+        "target": "us",
+        "answer": "us",
+        "options": [
+          "us",
+          "we",
+          "our"
+        ],
+        "sentence": "We are hungry. Mom makes lunch for ____.",
+        "translation": "我們餓了。媽媽為我們做午餐。",
+        "context": "情境：我們餓了。媽媽為我們做午餐。",
+        "explanation": "We are hungry. Mom makes lunch for us. 我們餓了。媽媽為我們做午餐。"
+      },
+      {
+        "id": "us-3",
+        "target": "us",
+        "answer": "us",
+        "options": [
+          "us",
+          "we",
+          "our"
+        ],
+        "sentence": "We need help. Can you help ____?",
+        "translation": "我們需要幫忙。你可以幫我們嗎？",
+        "context": "情境：我們需要幫忙。你可以幫我們嗎？",
+        "explanation": "We need help. Can you help us? 我們需要幫忙。你可以幫我們嗎？"
+      },
+      {
+        "id": "computer-1",
+        "target": "computer",
+        "answer": "computer",
+        "options": [
+          "computer",
+          "cake",
+          "ball"
+        ],
+        "sentence": "I type on a keyboard and look at my ____ screen.",
+        "translation": "我在鍵盤上打字，看著電腦螢幕。",
+        "context": "情境：我在鍵盤上打字，看著電腦螢幕。",
+        "explanation": "I type on a keyboard and look at my computer screen. 我在鍵盤上打字，看著電腦螢幕。"
+      },
+      {
+        "id": "computer-2",
+        "target": "computer",
+        "answer": "computer",
+        "options": [
+          "computer",
+          "cake",
+          "ball"
+        ],
+        "sentence": "Dad uses a ____ to send e-mail.",
+        "translation": "爸爸用電腦寄電子郵件。",
+        "context": "情境：爸爸用電腦寄電子郵件。",
+        "explanation": "Dad uses a computer to send e-mail. 爸爸用電腦寄電子郵件。"
+      },
+      {
+        "id": "computer-3",
+        "target": "computer",
+        "answer": "computer",
+        "options": [
+          "computer",
+          "cake",
+          "ball"
+        ],
+        "sentence": "We turn on the ____ to play a video game.",
+        "translation": "我們打開電腦玩電玩遊戲。",
+        "context": "情境：我們打開電腦玩電玩遊戲。",
+        "explanation": "We turn on the computer to play a video game. 我們打開電腦玩電玩遊戲。"
+      },
+      {
+        "id": "game-1",
+        "target": "game",
+        "answer": "game",
+        "options": [
+          "game",
+          "gift",
+          "birthday"
+        ],
+        "sentence": "Let us play a board ____.",
+        "translation": "我們來玩桌上遊戲吧。",
+        "context": "情境：我們來玩桌上遊戲吧。",
+        "explanation": "Let us play a board game. 我們來玩桌上遊戲吧。"
+      },
+      {
+        "id": "game-2",
+        "target": "game",
+        "answer": "game",
+        "options": [
+          "game",
+          "gift",
+          "birthday"
+        ],
+        "sentence": "This ____ has rules and two teams.",
+        "translation": "這個遊戲有規則和兩個隊伍。",
+        "context": "情境：這個遊戲有規則和兩個隊伍。",
+        "explanation": "This game has rules and two teams. 這個遊戲有規則和兩個隊伍。"
+      },
+      {
+        "id": "game-3",
+        "target": "game",
+        "answer": "game",
+        "options": [
+          "game",
+          "gift",
+          "birthday"
+        ],
+        "sentence": "Do you want to play a guessing ____?",
+        "translation": "你想玩猜謎遊戲嗎？",
+        "context": "情境：你想玩猜謎遊戲嗎？",
+        "explanation": "Do you want to play a guessing game? 你想玩猜謎遊戲嗎？"
+      },
+      {
+        "id": "me-1",
+        "target": "me",
+        "answer": "me",
+        "options": [
+          "me",
+          "I",
+          "my"
+        ],
+        "sentence": "I cannot open this box. Please help ____.",
+        "translation": "我打不開這個盒子。請幫我。",
+        "context": "情境：我打不開這個盒子。請幫我。",
+        "explanation": "I cannot open this box. Please help me. 我打不開這個盒子。請幫我。"
+      },
+      {
+        "id": "me-2",
+        "target": "me",
+        "answer": "me",
+        "options": [
+          "me",
+          "I",
+          "my"
+        ],
+        "sentence": "It is my birthday. This cake is for ____.",
+        "translation": "今天是我的生日。這個蛋糕是給我的。",
+        "context": "情境：今天是我的生日。這個蛋糕是給我的。",
+        "explanation": "It is my birthday. This cake is for me. 今天是我的生日。這個蛋糕是給我的。"
+      },
+      {
+        "id": "me-3",
+        "target": "me",
+        "answer": "me",
+        "options": [
+          "me",
+          "I",
+          "my"
+        ],
+        "sentence": "I am going to the park. Come with ____!",
+        "translation": "我要去公園。和我一起來吧！",
+        "context": "情境：我要去公園。和我一起來吧！",
+        "explanation": "I am going to the park. Come with me! 我要去公園。和我一起來吧！"
+      },
+      {
+        "id": "you-1",
+        "target": "you",
+        "answer": "you",
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "sentence": "This is your gift. It is for ____.",
+        "translation": "這是你的禮物。它是給你的。",
+        "context": "情境：這是你的禮物。它是給你的。",
+        "explanation": "This is your gift. It is for you. 這是你的禮物。它是給你的。"
+      },
+      {
+        "id": "you-2",
+        "target": "you",
+        "answer": "you",
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "sentence": "Do you need help? I can help ____.",
+        "translation": "你需要幫忙嗎？我可以幫你。",
+        "context": "情境：你需要幫忙嗎？我可以幫你。",
+        "explanation": "Do you need help? I can help you. 你需要幫忙嗎？我可以幫你。"
+      },
+      {
+        "id": "you-3",
+        "target": "you",
+        "answer": "you",
+        "options": [
+          "you",
+          "your",
+          "yours"
+        ],
+        "sentence": "Are you going to the party? I want to go with ____.",
+        "translation": "你要去派對嗎？我想和你一起去。",
+        "context": "情境：你要去派對嗎？我想和你一起去。",
+        "explanation": "Are you going to the party? I want to go with you. 你要去派對嗎？我想和你一起去。"
+      },
+      {
+        "id": "him-1",
+        "target": "him",
+        "answer": "him",
+        "options": [
+          "him",
+          "he",
+          "his"
+        ],
+        "sentence": "Ben is my friend. I play with ____.",
+        "translation": "Ben 是我的朋友。我和他一起玩。",
+        "context": "情境：Ben 是我的朋友。我和他一起玩。",
+        "explanation": "Ben is my friend. I play with him. Ben 是我的朋友。我和他一起玩。"
+      },
+      {
+        "id": "him-2",
+        "target": "him",
+        "answer": "him",
+        "options": [
+          "him",
+          "he",
+          "his"
+        ],
+        "sentence": "My brother is hungry. This sandwich is for ____.",
+        "translation": "我哥哥餓了。這個三明治是給他的。",
+        "context": "情境：我哥哥餓了。這個三明治是給他的。",
+        "explanation": "My brother is hungry. This sandwich is for him. 我哥哥餓了。這個三明治是給他的。"
+      },
+      {
+        "id": "him-3",
+        "target": "him",
+        "answer": "him",
+        "options": [
+          "him",
+          "he",
+          "his"
+        ],
+        "sentence": "Dad is calling. Please talk to ____.",
+        "translation": "爸爸來電了。請和他說話。",
+        "context": "情境：爸爸來電了。請和他說話。",
+        "explanation": "Dad is calling. Please talk to him. 爸爸來電了。請和他說話。"
+      },
+      {
+        "id": "them-1",
+        "target": "them",
+        "answer": "them",
+        "options": [
+          "them",
+          "they",
+          "their"
+        ],
+        "sentence": "The boys are here. Let us play with ____.",
+        "translation": "男孩們來了。我們和他們一起玩吧。",
+        "context": "情境：男孩們來了。我們和他們一起玩吧。",
+        "explanation": "The boys are here. Let us play with them. 男孩們來了。我們和他們一起玩吧。"
+      },
+      {
+        "id": "them-2",
+        "target": "them",
+        "answer": "them",
+        "options": [
+          "them",
+          "they",
+          "their"
+        ],
+        "sentence": "My friends need pencils. I will give these to ____.",
+        "translation": "我的朋友需要鉛筆。我會把這些給他們。",
+        "context": "情境：我的朋友需要鉛筆。我會把這些給他們。",
+        "explanation": "My friends need pencils. I will give these to them. 我的朋友需要鉛筆。我會把這些給他們。"
+      },
+      {
+        "id": "them-3",
+        "target": "them",
+        "answer": "them",
+        "options": [
+          "them",
+          "they",
+          "their"
+        ],
+        "sentence": "The children are hungry. These cakes are for ____.",
+        "translation": "孩子們餓了。這些蛋糕是給他們的。",
+        "context": "情境：孩子們餓了。這些蛋糕是給他們的。",
+        "explanation": "The children are hungry. These cakes are for them. 孩子們餓了。這些蛋糕是給他們的。"
+      },
+      {
+        "id": "talk-1",
+        "target": "talk",
+        "answer": "talk",
+        "options": [
+          "talk",
+          "sing",
+          "draw"
+        ],
+        "sentence": "Please ____ quietly in the library.",
+        "translation": "在圖書館請小聲說話。",
+        "context": "情境：在圖書館請小聲說話。",
+        "explanation": "Please talk quietly in the library. 在圖書館請小聲說話。"
+      },
+      {
+        "id": "talk-2",
+        "target": "talk",
+        "answer": "talk",
+        "options": [
+          "talk",
+          "sing",
+          "draw"
+        ],
+        "sentence": "Can I ____ to you about the party?",
+        "translation": "我可以和你談談派對的事嗎？",
+        "context": "情境：我可以和你談談派對的事嗎？",
+        "explanation": "Can I talk to you about the party? 我可以和你談談派對的事嗎？"
+      },
+      {
+        "id": "talk-3",
+        "target": "talk",
+        "answer": "talk",
+        "options": [
+          "talk",
+          "sing",
+          "draw"
+        ],
+        "sentence": "We ____ about our favorite toys.",
+        "translation": "我們談論最喜歡的玩具。",
+        "context": "情境：我們談論最喜歡的玩具。",
+        "explanation": "We talk about our favorite toys. 我們談論最喜歡的玩具。"
+      },
+      {
+        "id": "sing-1",
+        "target": "sing",
+        "answer": "sing",
+        "options": [
+          "sing",
+          "song",
+          "story"
+        ],
+        "sentence": "Can you ____ a birthday song?",
+        "translation": "你會唱生日歌嗎？",
+        "context": "情境：你會唱生日歌嗎？",
+        "explanation": "Can you sing a birthday song? 你會唱生日歌嗎？"
+      },
+      {
+        "id": "sing-2",
+        "target": "sing",
+        "answer": "sing",
+        "options": [
+          "sing",
+          "song",
+          "story"
+        ],
+        "sentence": "The children ____ together in music class.",
+        "translation": "孩子們在音樂課一起唱歌。",
+        "context": "情境：孩子們在音樂課一起唱歌。",
+        "explanation": "The children sing together in music class. 孩子們在音樂課一起唱歌。"
+      },
+      {
+        "id": "sing-3",
+        "target": "sing",
+        "answer": "sing",
+        "options": [
+          "sing",
+          "song",
+          "story"
+        ],
+        "sentence": "I like to ____ for my family.",
+        "translation": "我喜歡唱歌給家人聽。",
+        "context": "情境：我喜歡唱歌給家人聽。",
+        "explanation": "I like to sing for my family. 我喜歡唱歌給家人聽。"
+      },
+      {
+        "id": "song-1",
+        "target": "song",
+        "answer": "song",
+        "options": [
+          "song",
+          "sing",
+          "computer"
+        ],
+        "sentence": "This ____ has beautiful music and words.",
+        "translation": "這首歌有美麗的音樂和歌詞。",
+        "context": "情境：這首歌有美麗的音樂和歌詞。",
+        "explanation": "This song has beautiful music and words. 這首歌有美麗的音樂和歌詞。"
+      },
+      {
+        "id": "song-2",
+        "target": "song",
+        "answer": "song",
+        "options": [
+          "song",
+          "sing",
+          "computer"
+        ],
+        "sentence": "We sing a ____ for Grandma.",
+        "translation": "我們唱一首歌給奶奶聽。",
+        "context": "情境：我們唱一首歌給奶奶聽。",
+        "explanation": "We sing a song for Grandma. 我們唱一首歌給奶奶聽。"
+      },
+      {
+        "id": "song-3",
+        "target": "song",
+        "answer": "song",
+        "options": [
+          "song",
+          "sing",
+          "computer"
+        ],
+        "sentence": "What is your favorite ____ to sing?",
+        "translation": "你最喜歡唱哪首歌？",
+        "context": "情境：你最喜歡唱哪首歌？",
+        "explanation": "What is your favorite song to sing? 你最喜歡唱哪首歌？"
+      },
+      {
+        "id": "story-1",
+        "target": "story",
+        "answer": "story",
+        "options": [
+          "story",
+          "stamp",
+          "gift"
+        ],
+        "sentence": "Mom reads a ____ about a dragon.",
+        "translation": "媽媽讀一個關於龍的故事。",
+        "context": "情境：媽媽讀一個關於龍的故事。",
+        "explanation": "Mom reads a story about a dragon. 媽媽讀一個關於龍的故事。"
+      },
+      {
+        "id": "story-2",
+        "target": "story",
+        "answer": "story",
+        "options": [
+          "story",
+          "stamp",
+          "gift"
+        ],
+        "sentence": "This ____ begins with a little girl in a forest.",
+        "translation": "這個故事以森林裡的一個小女孩開始。",
+        "context": "情境：這個故事以森林裡的一個小女孩開始。",
+        "explanation": "This story begins with a little girl in a forest. 這個故事以森林裡的一個小女孩開始。"
+      },
+      {
+        "id": "story-3",
+        "target": "story",
+        "answer": "story",
+        "options": [
+          "story",
+          "stamp",
+          "gift"
+        ],
+        "sentence": "Please tell us a funny ____.",
+        "translation": "請給我們講一個有趣的故事。",
+        "context": "情境：請給我們講一個有趣的故事。",
+        "explanation": "Please tell us a funny story. 請給我們講一個有趣的故事。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
