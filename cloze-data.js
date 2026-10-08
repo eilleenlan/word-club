@@ -22944,6 +22944,898 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "He drank his juice ten minutes ago. 他十分鐘前喝了果汁。"
       }
     ]
+  },
+  {
+    "id": "g4-u9-v1",
+    "grade": 4,
+    "unit": 9,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "參觀博物館",
+    "description": "15 個單字與形式，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的四年級 U9 單字表與Quiz新編，非原卷。",
+    "questions": [
+      {
+        "id": "pottery-1",
+        "target": "pottery",
+        "answer": "pottery",
+        "sentence": "These clay bowls are examples of ____.",
+        "translation": "這些陶土碗是陶器的例子。",
+        "context": "請填本課單字或片語：陶器。",
+        "explanation": "These clay bowls are examples of pottery. 這些陶土碗是陶器的例子。"
+      },
+      {
+        "id": "pottery-2",
+        "target": "pottery",
+        "answer": "pottery",
+        "sentence": "We saw some beautiful ____ made from clay.",
+        "translation": "我們看見一些用陶土做的美麗陶器。",
+        "context": "請填本課單字或片語：陶器。",
+        "explanation": "We saw some beautiful pottery made from clay. 我們看見一些用陶土做的美麗陶器。"
+      },
+      {
+        "id": "pottery-3",
+        "target": "pottery",
+        "answer": "pottery",
+        "sentence": "The artist makes ____ on a wheel.",
+        "translation": "這位藝術家在陶輪上製作陶器。",
+        "context": "請填本課單字或片語：陶器。",
+        "explanation": "The artist makes pottery on a wheel. 這位藝術家在陶輪上製作陶器。"
+      },
+      {
+        "id": "painting-1",
+        "target": "painting",
+        "answer": "painting",
+        "sentence": "A colorful ____ hangs on the wall.",
+        "translation": "牆上掛著一幅色彩繽紛的畫。",
+        "context": "請填本課單字或片語：繪畫，畫作。",
+        "explanation": "A colorful painting hangs on the wall. 牆上掛著一幅色彩繽紛的畫。"
+      },
+      {
+        "id": "painting-2",
+        "target": "painting",
+        "answer": "painting",
+        "sentence": "This ____ shows a boat on a lake.",
+        "translation": "這幅畫描繪湖上的一艘船。",
+        "context": "請填本課單字或片語：繪畫，畫作。",
+        "explanation": "This painting shows a boat on a lake. 這幅畫描繪湖上的一艘船。"
+      },
+      {
+        "id": "painting-3",
+        "target": "painting",
+        "answer": "painting",
+        "sentence": "She used blue paint to finish her ____.",
+        "translation": "她用藍色顏料完成她的畫作。",
+        "context": "請填本課單字或片語：繪畫，畫作。",
+        "explanation": "She used blue paint to finish her painting. 她用藍色顏料完成她的畫作。"
+      },
+      {
+        "id": "antique-1",
+        "target": "antique",
+        "answer": "antique",
+        "sentence": "This very old clock is an ____.",
+        "translation": "這個年代久遠的時鐘是古董。",
+        "context": "請填本課單字或片語：古物，古董。",
+        "explanation": "This very old clock is an antique. 這個年代久遠的時鐘是古董。"
+      },
+      {
+        "id": "antique-2",
+        "target": "antique",
+        "answer": "antique",
+        "sentence": "We found an ____ in the old shop.",
+        "translation": "我們在老店裡找到一件古董。",
+        "context": "請填本課單字或片語：古物，古董。",
+        "explanation": "We found an antique in the old shop. 我們在老店裡找到一件古董。"
+      },
+      {
+        "id": "antique-3",
+        "target": "antique",
+        "answer": "antique",
+        "sentence": "The dealer says this bowl is a valuable ____.",
+        "translation": "商人說這個碗是一件珍貴的古董。",
+        "context": "請填本課單字或片語：古物，古董。",
+        "explanation": "The dealer says this bowl is a valuable antique. 商人說這個碗是一件珍貴的古董。"
+      },
+      {
+        "id": "jewelry-1",
+        "target": "jewelry",
+        "answer": "jewelry",
+        "sentence": "Rings and necklaces are kinds of ____.",
+        "translation": "戒指和項鍊都是珠寶的一種。",
+        "context": "請填本課單字或片語：珠寶。",
+        "explanation": "Rings and necklaces are kinds of jewelry. 戒指和項鍊都是珠寶的一種。"
+      },
+      {
+        "id": "jewelry-2",
+        "target": "jewelry",
+        "answer": "jewelry",
+        "sentence": "Her ____ includes gold earrings.",
+        "translation": "她的珠寶包括金耳環。",
+        "context": "請填本課單字或片語：珠寶。",
+        "explanation": "Her jewelry includes gold earrings. 她的珠寶包括金耳環。"
+      },
+      {
+        "id": "jewelry-3",
+        "target": "jewelry",
+        "answer": "jewelry",
+        "sentence": "The museum keeps its precious ____ in a glass case.",
+        "translation": "博物館把珍貴的珠寶放在玻璃櫃裡。",
+        "context": "請填本課單字或片語：珠寶。",
+        "explanation": "The museum keeps its precious jewelry in a glass case. 博物館把珍貴的珠寶放在玻璃櫃裡。"
+      },
+      {
+        "id": "exhibit-1",
+        "target": "exhibit",
+        "answer": "exhibit",
+        "sentence": "We visited a dinosaur ____ at the museum.",
+        "translation": "我們參觀了博物館的恐龍展覽。",
+        "context": "請填本課單字或片語：展覽。",
+        "explanation": "We visited a dinosaur exhibit at the museum. 我們參觀了博物館的恐龍展覽。"
+      },
+      {
+        "id": "exhibit-2",
+        "target": "exhibit",
+        "answer": "exhibit",
+        "sentence": "This ____ displays toys from long ago.",
+        "translation": "這個展覽展示很久以前的玩具。",
+        "context": "請填本課單字或片語：展覽。",
+        "explanation": "This exhibit displays toys from long ago. 這個展覽展示很久以前的玩具。"
+      },
+      {
+        "id": "exhibit-3",
+        "target": "exhibit",
+        "answer": "exhibit",
+        "sentence": "The new art ____ opens tomorrow.",
+        "translation": "新的藝術展覽明天開幕。",
+        "context": "請填本課單字或片語：展覽。",
+        "explanation": "The new art exhibit opens tomorrow. 新的藝術展覽明天開幕。"
+      },
+      {
+        "id": "statue-1",
+        "target": "statue",
+        "answer": "statue",
+        "sentence": "A stone ____ of a lion stands by the gate.",
+        "translation": "門邊立著一座石獅雕像。",
+        "context": "請填本課單字或片語：雕像。",
+        "explanation": "A stone statue of a lion stands by the gate. 門邊立著一座石獅雕像。"
+      },
+      {
+        "id": "statue-2",
+        "target": "statue",
+        "answer": "statue",
+        "sentence": "The artist carved a ____ from wood.",
+        "translation": "藝術家用木頭雕刻了一座雕像。",
+        "context": "請填本課單字或片語：雕像。",
+        "explanation": "The artist carved a statue from wood. 藝術家用木頭雕刻了一座雕像。"
+      },
+      {
+        "id": "statue-3",
+        "target": "statue",
+        "answer": "statue",
+        "sentence": "We walked around the tall bronze ____.",
+        "translation": "我們繞著高大的銅雕像走。",
+        "context": "請填本課單字或片語：雕像。",
+        "explanation": "We walked around the tall bronze statue. 我們繞著高大的銅雕像走。"
+      },
+      {
+        "id": "furniture-1",
+        "target": "furniture",
+        "answer": "furniture",
+        "sentence": "Beds and tables are pieces of ____.",
+        "translation": "床和桌子都是家具。",
+        "context": "請填本課單字或片語：家具。",
+        "explanation": "Beds and tables are pieces of furniture. 床和桌子都是家具。"
+      },
+      {
+        "id": "furniture-2",
+        "target": "furniture",
+        "answer": "furniture",
+        "sentence": "We moved the ____ into our new home.",
+        "translation": "我們把家具搬進新家。",
+        "context": "請填本課單字或片語：家具。",
+        "explanation": "We moved the furniture into our new home. 我們把家具搬進新家。"
+      },
+      {
+        "id": "furniture-3",
+        "target": "furniture",
+        "answer": "furniture",
+        "sentence": "This room has wooden ____, including two chairs.",
+        "translation": "這個房間有木製家具，包括兩張椅子。",
+        "context": "請填本課單字或片語：家具。",
+        "explanation": "This room has wooden furniture, including two chairs. 這個房間有木製家具，包括兩張椅子。"
+      },
+      {
+        "id": "should-1",
+        "target": "should",
+        "answer": "should",
+        "sentence": "You ____ speak quietly in the museum.",
+        "translation": "你應該在博物館輕聲說話。",
+        "context": "請填本課單字或片語：應該。",
+        "explanation": "You should speak quietly in the museum. 你應該在博物館輕聲說話。"
+      },
+      {
+        "id": "should-2",
+        "target": "should",
+        "answer": "should",
+        "sentence": "We ____ follow the guide’s instructions.",
+        "translation": "我們應該遵守導覽員的指示。",
+        "context": "請填本課單字或片語：應該。",
+        "explanation": "We should follow the guide’s instructions. 我們應該遵守導覽員的指示。"
+      },
+      {
+        "id": "should-3",
+        "target": "should",
+        "answer": "should",
+        "sentence": "Visitors ____ keep the hall clean.",
+        "translation": "訪客應該保持大廳乾淨。",
+        "context": "請填本課單字或片語：應該。",
+        "explanation": "Visitors should keep the hall clean. 訪客應該保持大廳乾淨。"
+      },
+      {
+        "id": "cell-phone-1",
+        "target": "cell phone",
+        "answer": "cell phone",
+        "sentence": "Please silence your ____ before the tour.",
+        "translation": "導覽前請把手機調成靜音。",
+        "context": "請填本課單字或片語：手機。",
+        "explanation": "Please silence your cell phone before the tour. 導覽前請把手機調成靜音。"
+      },
+      {
+        "id": "cell-phone-2",
+        "target": "cell phone",
+        "answer": "cell phone",
+        "sentence": "She called her dad on her ____.",
+        "translation": "她用手機打電話給爸爸。",
+        "context": "請填本課單字或片語：手機。",
+        "explanation": "She called her dad on her cell phone. 她用手機打電話給爸爸。"
+      },
+      {
+        "id": "cell-phone-3",
+        "target": "cell phone",
+        "answer": "cell phone",
+        "sentence": "My ____ fits in my pocket and lets me make calls.",
+        "translation": "我的手機放得進口袋，也能讓我打電話。",
+        "context": "請填本課單字或片語：手機。",
+        "explanation": "My cell phone fits in my pocket and lets me make calls. 我的手機放得進口袋，也能讓我打電話。"
+      },
+      {
+        "id": "touch-1",
+        "target": "touch",
+        "answer": "touch",
+        "sentence": "Please do not ____ the old vase.",
+        "translation": "請不要觸摸古老的花瓶。",
+        "context": "請填本課單字或片語：觸摸。",
+        "explanation": "Please do not touch the old vase. 請不要觸摸古老的花瓶。"
+      },
+      {
+        "id": "touch-2",
+        "target": "touch",
+        "answer": "touch",
+        "sentence": "You may ____ this sample with your fingers.",
+        "translation": "你可以用手指觸摸這個樣品。",
+        "context": "請填本課單字或片語：觸摸。",
+        "explanation": "You may touch this sample with your fingers. 你可以用手指觸摸這個樣品。"
+      },
+      {
+        "id": "touch-3",
+        "target": "touch",
+        "answer": "touch",
+        "sentence": "Keep your hands back and do not ____ the painting.",
+        "translation": "把手收回來，不要觸摸畫作。",
+        "context": "請填本課單字或片語：觸摸。",
+        "explanation": "Keep your hands back and do not touch the painting. 把手收回來，不要觸摸畫作。"
+      },
+      {
+        "id": "lean-1",
+        "target": "lean",
+        "answer": "lean",
+        "sentence": "Do not ____ against the glass case.",
+        "translation": "不要倚靠玻璃櫃。",
+        "context": "請填本課單字或片語：倚靠。",
+        "explanation": "Do not lean against the glass case. 不要倚靠玻璃櫃。"
+      },
+      {
+        "id": "lean-2",
+        "target": "lean",
+        "answer": "lean",
+        "sentence": "You can ____ against this wall while you rest.",
+        "translation": "休息時你可以倚靠這面牆。",
+        "context": "請填本課單字或片語：倚靠。",
+        "explanation": "You can lean against this wall while you rest. 休息時你可以倚靠這面牆。"
+      },
+      {
+        "id": "lean-3",
+        "target": "lean",
+        "answer": "lean",
+        "sentence": "Please do not ____ on the display table.",
+        "translation": "請不要倚靠展示桌。",
+        "context": "請填本課單字或片語：倚靠。",
+        "explanation": "Please do not lean on the display table. 請不要倚靠展示桌。"
+      },
+      {
+        "id": "camera-1",
+        "target": "camera",
+        "answer": "camera",
+        "sentence": "He uses a ____ with a large lens to take photos.",
+        "translation": "他用一台有大鏡頭的相機拍照。",
+        "context": "請填本課單字或片語：相機。",
+        "explanation": "He uses a camera with a large lens to take photos. 他用一台有大鏡頭的相機拍照。"
+      },
+      {
+        "id": "camera-2",
+        "target": "camera",
+        "answer": "camera",
+        "sentence": "I packed my ____ for the photography trip.",
+        "translation": "我為攝影旅行裝好相機。",
+        "context": "請填本課單字或片語：相機。",
+        "explanation": "I packed my camera for the photography trip. 我為攝影旅行裝好相機。"
+      },
+      {
+        "id": "camera-3",
+        "target": "camera",
+        "answer": "camera",
+        "sentence": "She put a new memory card in her ____.",
+        "translation": "她把新的記憶卡放進相機。",
+        "context": "請填本課單字或片語：相機。",
+        "explanation": "She put a new memory card in her camera. 她把新的記憶卡放進相機。"
+      },
+      {
+        "id": "litter-1",
+        "target": "litter",
+        "answer": "litter",
+        "sentence": "Do not ____ in the park. Use the trash can.",
+        "translation": "不要在公園亂丟垃圾，請用垃圾桶。",
+        "context": "請填本課單字或片語：亂丟垃圾。",
+        "explanation": "Do not litter in the park. Use the trash can. 不要在公園亂丟垃圾，請用垃圾桶。"
+      },
+      {
+        "id": "litter-2",
+        "target": "litter",
+        "answer": "litter",
+        "sentence": "Visitors must not ____ on the museum floor.",
+        "translation": "訪客不可以在博物館地板上亂丟垃圾。",
+        "context": "請填本課單字或片語：亂丟垃圾。",
+        "explanation": "Visitors must not litter on the museum floor. 訪客不可以在博物館地板上亂丟垃圾。"
+      },
+      {
+        "id": "litter-3",
+        "target": "litter",
+        "answer": "litter",
+        "sentence": "Please never ____ along the path.",
+        "translation": "請不要沿路亂丟垃圾。",
+        "context": "請填本課單字或片語：亂丟垃圾。",
+        "explanation": "Please never litter along the path. 請不要沿路亂丟垃圾。"
+      },
+      {
+        "id": "chew-1",
+        "target": "chew",
+        "answer": "chew",
+        "sentence": "Please ____ your food slowly.",
+        "translation": "請慢慢咀嚼食物。",
+        "context": "請填本課單字或片語：咀嚼。",
+        "explanation": "Please chew your food slowly. 請慢慢咀嚼食物。"
+      },
+      {
+        "id": "chew-2",
+        "target": "chew",
+        "answer": "chew",
+        "sentence": "You should not ____ gum in this gallery.",
+        "translation": "你不應該在這間展覽室嚼口香糖。",
+        "context": "請填本課單字或片語：咀嚼。",
+        "explanation": "You should not chew gum in this gallery. 你不應該在這間展覽室嚼口香糖。"
+      },
+      {
+        "id": "chew-3",
+        "target": "chew",
+        "answer": "chew",
+        "sentence": "We use our teeth to ____ food.",
+        "translation": "我們用牙齒咀嚼食物。",
+        "context": "請填本課單字或片語：咀嚼。",
+        "explanation": "We use our teeth to chew food. 我們用牙齒咀嚼食物。"
+      },
+      {
+        "id": "each-1",
+        "target": "each",
+        "answer": "each",
+        "sentence": "The guide gives ____ visitor a map.",
+        "translation": "導覽員給每位訪客一張地圖。",
+        "context": "請填本課單字或片語：每，各。",
+        "explanation": "The guide gives each visitor a map. 導覽員給每位訪客一張地圖。"
+      },
+      {
+        "id": "each-2",
+        "target": "each",
+        "answer": "each",
+        "sentence": "There is a label beside ____ painting.",
+        "translation": "每幅畫旁邊都有標籤。",
+        "context": "請填本課單字或片語：每，各。",
+        "explanation": "There is a label beside each painting. 每幅畫旁邊都有標籤。"
+      },
+      {
+        "id": "each-3",
+        "target": "each",
+        "answer": "each",
+        "sentence": "Please read ____ rule before entering.",
+        "translation": "進入前請閱讀每一條規則。",
+        "context": "請填本課單字或片語：每，各。",
+        "explanation": "Please read each rule before entering. 進入前請閱讀每一條規則。"
+      }
+    ]
+  },
+  {
+    "id": "g4-u10-v1",
+    "grade": 4,
+    "unit": 10,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "參加音樂會",
+    "description": "17 個單字與形式，各 3 種新編情境，共 51 題填空拼字。",
+    "source": "依家長提供的四年級 U10 單字表與Quiz新編，非原卷。",
+    "questions": [
+      {
+        "id": "concert-1",
+        "target": "concert",
+        "answer": "concert",
+        "sentence": "We listened to live music at the ____.",
+        "translation": "我們在音樂會聆聽現場音樂。",
+        "context": "請填本課單字或片語：音樂會。",
+        "explanation": "We listened to live music at the concert. 我們在音樂會聆聽現場音樂。"
+      },
+      {
+        "id": "concert-2",
+        "target": "concert",
+        "answer": "concert",
+        "sentence": "The school band will give a ____ tonight.",
+        "translation": "學校樂團今晚將舉辦音樂會。",
+        "context": "請填本課單字或片語：音樂會。",
+        "explanation": "The school band will give a concert tonight. 學校樂團今晚將舉辦音樂會。"
+      },
+      {
+        "id": "concert-3",
+        "target": "concert",
+        "answer": "concert",
+        "sentence": "I bought two tickets for the ____.",
+        "translation": "我買了兩張音樂會門票。",
+        "context": "請填本課單字或片語：音樂會。",
+        "explanation": "I bought two tickets for the concert. 我買了兩張音樂會門票。"
+      },
+      {
+        "id": "instructor-1",
+        "target": "instructor",
+        "answer": "instructor",
+        "sentence": "My piano ____ teaches me every Tuesday.",
+        "translation": "我的鋼琴指導老師每週二教我。",
+        "context": "請填本課單字或片語：指導老師。",
+        "explanation": "My piano instructor teaches me every Tuesday. 我的鋼琴指導老師每週二教我。"
+      },
+      {
+        "id": "instructor-2",
+        "target": "instructor",
+        "answer": "instructor",
+        "sentence": "The dance ____ shows us the steps.",
+        "translation": "舞蹈指導老師示範舞步給我們看。",
+        "context": "請填本課單字或片語：指導老師。",
+        "explanation": "The dance instructor shows us the steps. 舞蹈指導老師示範舞步給我們看。"
+      },
+      {
+        "id": "instructor-3",
+        "target": "instructor",
+        "answer": "instructor",
+        "sentence": "Ask your swimming ____ how to move your arms.",
+        "translation": "問你的游泳指導老師如何擺動手臂。",
+        "context": "請填本課單字或片語：指導老師。",
+        "explanation": "Ask your swimming instructor how to move your arms. 問你的游泳指導老師如何擺動手臂。"
+      },
+      {
+        "id": "find-1",
+        "target": "find",
+        "answer": "find",
+        "sentence": "Can you ____ my missing music book?",
+        "translation": "你能找到我不見的樂譜本嗎？",
+        "context": "請填本課單字或片語：找到，發現。",
+        "explanation": "Can you find my missing music book? 你能找到我不見的樂譜本嗎？"
+      },
+      {
+        "id": "find-2",
+        "target": "find",
+        "answer": "find",
+        "sentence": "I cannot ____ my violin case.",
+        "translation": "我找不到小提琴盒。",
+        "context": "請填本課單字或片語：找到，發現。",
+        "explanation": "I cannot find my violin case. 我找不到小提琴盒。"
+      },
+      {
+        "id": "find-3",
+        "target": "find",
+        "answer": "find",
+        "sentence": "We hope to ____ a good guitar teacher.",
+        "translation": "我們希望找到一位好的吉他老師。",
+        "context": "請填本課單字或片語：找到，發現。",
+        "explanation": "We hope to find a good guitar teacher. 我們希望找到一位好的吉他老師。"
+      },
+      {
+        "id": "found-1",
+        "target": "found",
+        "answer": "found",
+        "sentence": "I ____ my keys under the chair yesterday.",
+        "translation": "我昨天在椅子下找到鑰匙。",
+        "context": "請填本課單字或片語：找到，發現（過去式）。",
+        "explanation": "I found my keys under the chair yesterday. 我昨天在椅子下找到鑰匙。"
+      },
+      {
+        "id": "found-2",
+        "target": "found",
+        "answer": "found",
+        "sentence": "She ____ her music book last night.",
+        "translation": "她昨晚找到了樂譜本。",
+        "context": "請填本課單字或片語：找到，發現（過去式）。",
+        "explanation": "She found her music book last night. 她昨晚找到了樂譜本。"
+      },
+      {
+        "id": "found-3",
+        "target": "found",
+        "answer": "found",
+        "sentence": "We ____ a new practice room last week.",
+        "translation": "我們上星期找到了一間新的練習室。",
+        "context": "請填本課單字或片語：找到，發現（過去式）。",
+        "explanation": "We found a new practice room last week. 我們上星期找到了一間新的練習室。"
+      },
+      {
+        "id": "musical-instrument-1",
+        "target": "musical instrument",
+        "answer": "musical instrument",
+        "sentence": "A piano is a ____.",
+        "translation": "鋼琴是一種樂器。",
+        "context": "請填本課單字或片語：樂器。",
+        "explanation": "A piano is a musical instrument. 鋼琴是一種樂器。"
+      },
+      {
+        "id": "musical-instrument-2",
+        "target": "musical instrument",
+        "answer": "musical instrument",
+        "sentence": "Which ____ would you like to learn to play?",
+        "translation": "你想學習演奏哪一種樂器？",
+        "context": "請填本課單字或片語：樂器。",
+        "explanation": "Which musical instrument would you like to learn to play? 你想學習演奏哪一種樂器？"
+      },
+      {
+        "id": "musical-instrument-3",
+        "target": "musical instrument",
+        "answer": "musical instrument",
+        "sentence": "She brought a ____ to band practice.",
+        "translation": "她帶了一件樂器去樂團練習。",
+        "context": "請填本課單字或片語：樂器。",
+        "explanation": "She brought a musical instrument to band practice. 她帶了一件樂器去樂團練習。"
+      },
+      {
+        "id": "piano-1",
+        "target": "piano",
+        "answer": "piano",
+        "sentence": "She plays a ____ with black and white keys.",
+        "translation": "她彈奏有黑白琴鍵的鋼琴。",
+        "context": "請填本課單字或片語：鋼琴。",
+        "explanation": "She plays a piano with black and white keys. 她彈奏有黑白琴鍵的鋼琴。"
+      },
+      {
+        "id": "piano-2",
+        "target": "piano",
+        "answer": "piano",
+        "sentence": "The grand ____ takes up much of the room.",
+        "translation": "平台鋼琴占了房間很大的空間。",
+        "context": "請填本課單字或片語：鋼琴。",
+        "explanation": "The grand piano takes up much of the room. 平台鋼琴占了房間很大的空間。"
+      },
+      {
+        "id": "piano-3",
+        "target": "piano",
+        "answer": "piano",
+        "sentence": "I press the keys of the ____ to make music.",
+        "translation": "我按鋼琴的琴鍵來演奏音樂。",
+        "context": "請填本課單字或片語：鋼琴。",
+        "explanation": "I press the keys of the piano to make music. 我按鋼琴的琴鍵來演奏音樂。"
+      },
+      {
+        "id": "guitar-1",
+        "target": "guitar",
+        "answer": "guitar",
+        "sentence": "He strums his six-string ____.",
+        "translation": "他撥奏他的六弦吉他。",
+        "context": "請填本課單字或片語：吉他。",
+        "explanation": "He strums his six-string guitar. 他撥奏他的六弦吉他。"
+      },
+      {
+        "id": "guitar-2",
+        "target": "guitar",
+        "answer": "guitar",
+        "sentence": "She sings while playing an acoustic ____.",
+        "translation": "她邊彈木吉他邊唱歌。",
+        "context": "請填本課單字或片語：吉他。",
+        "explanation": "She sings while playing an acoustic guitar. 她邊彈木吉他邊唱歌。"
+      },
+      {
+        "id": "guitar-3",
+        "target": "guitar",
+        "answer": "guitar",
+        "sentence": "I use a pick to play my electric ____.",
+        "translation": "我用撥片彈奏電吉他。",
+        "context": "請填本課單字或片語：吉他。",
+        "explanation": "I use a pick to play my electric guitar. 我用撥片彈奏電吉他。"
+      },
+      {
+        "id": "drum-1",
+        "target": "drum",
+        "answer": "drum",
+        "sentence": "He hits the ____ with two sticks.",
+        "translation": "他用兩根鼓棒打鼓。",
+        "context": "請填本課單字或片語：鼓。",
+        "explanation": "He hits the drum with two sticks. 他用兩根鼓棒打鼓。"
+      },
+      {
+        "id": "drum-2",
+        "target": "drum",
+        "answer": "drum",
+        "sentence": "The big bass ____ makes a deep sound.",
+        "translation": "大低音鼓發出低沉的聲音。",
+        "context": "請填本課單字或片語：鼓。",
+        "explanation": "The big bass drum makes a deep sound. 大低音鼓發出低沉的聲音。"
+      },
+      {
+        "id": "drum-3",
+        "target": "drum",
+        "answer": "drum",
+        "sentence": "I tap the ____ to keep the beat.",
+        "translation": "我敲鼓來保持節拍。",
+        "context": "請填本課單字或片語：鼓。",
+        "explanation": "I tap the drum to keep the beat. 我敲鼓來保持節拍。"
+      },
+      {
+        "id": "violin-1",
+        "target": "violin",
+        "answer": "violin",
+        "sentence": "She holds the ____ under her chin and plays with a bow.",
+        "translation": "她把小提琴放在下巴下，用弓演奏。",
+        "context": "請填本課單字或片語：小提琴。",
+        "explanation": "She holds the violin under her chin and plays with a bow. 她把小提琴放在下巴下，用弓演奏。"
+      },
+      {
+        "id": "violin-2",
+        "target": "violin",
+        "answer": "violin",
+        "sentence": "This four-string ____ is played with a bow.",
+        "translation": "這把四弦小提琴是用弓演奏的。",
+        "context": "請填本課單字或片語：小提琴。",
+        "explanation": "This four-string violin is played with a bow. 這把四弦小提琴是用弓演奏的。"
+      },
+      {
+        "id": "violin-3",
+        "target": "violin",
+        "answer": "violin",
+        "sentence": "He practices the ____ with the instrument resting on his shoulder.",
+        "translation": "他把小提琴放在肩膀上練習。",
+        "context": "請填本課單字或片語：小提琴。",
+        "explanation": "He practices the violin with the instrument resting on his shoulder. 他把小提琴放在肩膀上練習。"
+      },
+      {
+        "id": "recorder-1",
+        "target": "recorder",
+        "answer": "recorder",
+        "sentence": "I cover the finger holes of my ____ and blow gently.",
+        "translation": "我按住直笛的指孔，輕輕吹氣。",
+        "context": "請填本課單字或片語：直笛。",
+        "explanation": "I cover the finger holes of my recorder and blow gently. 我按住直笛的指孔，輕輕吹氣。"
+      },
+      {
+        "id": "recorder-2",
+        "target": "recorder",
+        "answer": "recorder",
+        "sentence": "Our class plays a plastic ____ in music lessons.",
+        "translation": "我們班在音樂課吹塑膠直笛。",
+        "context": "請填本課單字或片語：直笛。",
+        "explanation": "Our class plays a plastic recorder in music lessons. 我們班在音樂課吹塑膠直笛。"
+      },
+      {
+        "id": "recorder-3",
+        "target": "recorder",
+        "answer": "recorder",
+        "sentence": "This ____ has seven holes in front and one in back.",
+        "translation": "這支直笛前面有七個孔，後面有一個孔。",
+        "context": "請填本課單字或片語：直笛。",
+        "explanation": "This recorder has seven holes in front and one in back. 這支直笛前面有七個孔，後面有一個孔。"
+      },
+      {
+        "id": "yours-1",
+        "target": "yours",
+        "answer": "yours",
+        "sentence": "This is your guitar. It is ____.",
+        "translation": "這是你的吉他，它是你的。",
+        "context": "請填本課單字或片語：你的。",
+        "explanation": "This is your guitar. It is yours. 這是你的吉他，它是你的。"
+      },
+      {
+        "id": "yours-2",
+        "target": "yours",
+        "answer": "yours",
+        "sentence": "My bag is red; your bag is blue. The blue one is ____.",
+        "translation": "我的袋子是紅色，你的是藍色，藍色的是你的。",
+        "context": "請填本課單字或片語：你的。",
+        "explanation": "My bag is red; your bag is blue. The blue one is yours. 我的袋子是紅色，你的是藍色，藍色的是你的。"
+      },
+      {
+        "id": "yours-3",
+        "target": "yours",
+        "answer": "yours",
+        "sentence": "You own this recorder, so it is ____.",
+        "translation": "這支直笛屬於你，所以它是你的。",
+        "context": "請填本課單字或片語：你的。",
+        "explanation": "You own this recorder, so it is yours. 這支直笛屬於你，所以它是你的。"
+      },
+      {
+        "id": "hers-1",
+        "target": "hers",
+        "answer": "hers",
+        "sentence": "This is Amy’s violin. It is ____.",
+        "translation": "這是艾咪的小提琴，它是她的。",
+        "context": "請填本課單字或片語：她的。",
+        "explanation": "This is Amy’s violin. It is hers. 這是艾咪的小提琴，它是她的。"
+      },
+      {
+        "id": "hers-2",
+        "target": "hers",
+        "answer": "hers",
+        "sentence": "She owns the red bag. The red bag is ____.",
+        "translation": "她擁有紅色袋子，紅色袋子是她的。",
+        "context": "請填本課單字或片語：她的。",
+        "explanation": "She owns the red bag. The red bag is hers. 她擁有紅色袋子，紅色袋子是她的。"
+      },
+      {
+        "id": "hers-3",
+        "target": "hers",
+        "answer": "hers",
+        "sentence": "That music book belongs to my sister. It is ____.",
+        "translation": "那本樂譜屬於我姊姊，是她的。",
+        "context": "請填本課單字或片語：她的。",
+        "explanation": "That music book belongs to my sister. It is hers. 那本樂譜屬於我姊姊，是她的。"
+      },
+      {
+        "id": "ours-1",
+        "target": "ours",
+        "answer": "ours",
+        "sentence": "This is our piano. It is ____.",
+        "translation": "這是我們的鋼琴，它是我們的。",
+        "context": "請填本課單字或片語：我們的。",
+        "explanation": "This is our piano. It is ours. 這是我們的鋼琴，它是我們的。"
+      },
+      {
+        "id": "ours-2",
+        "target": "ours",
+        "answer": "ours",
+        "sentence": "We own these drums. They are ____.",
+        "translation": "我們擁有這些鼓，它們是我們的。",
+        "context": "請填本課單字或片語：我們的。",
+        "explanation": "We own these drums. They are ours. 我們擁有這些鼓，它們是我們的。"
+      },
+      {
+        "id": "ours-3",
+        "target": "ours",
+        "answer": "ours",
+        "sentence": "That room belongs to my brother and me. It is ____.",
+        "translation": "那間房間屬於哥哥和我，是我們的。",
+        "context": "請填本課單字或片語：我們的。",
+        "explanation": "That room belongs to my brother and me. It is ours. 那間房間屬於哥哥和我，是我們的。"
+      },
+      {
+        "id": "theirs-1",
+        "target": "theirs",
+        "answer": "theirs",
+        "sentence": "These are their guitars. They are ____.",
+        "translation": "這些是他們的吉他，是他們的。",
+        "context": "請填本課單字或片語：他們的。",
+        "explanation": "These are their guitars. They are theirs. 這些是他們的吉他，是他們的。"
+      },
+      {
+        "id": "theirs-2",
+        "target": "theirs",
+        "answer": "theirs",
+        "sentence": "The twins own that piano. It is ____.",
+        "translation": "那對雙胞胎擁有那架鋼琴，它是他們的。",
+        "context": "請填本課單字或片語：他們的。",
+        "explanation": "The twins own that piano. It is theirs. 那對雙胞胎擁有那架鋼琴，它是他們的。"
+      },
+      {
+        "id": "theirs-3",
+        "target": "theirs",
+        "answer": "theirs",
+        "sentence": "Those seats belong to Tom and Amy. They are ____.",
+        "translation": "那些座位屬於湯姆和艾咪，是他們的。",
+        "context": "請填本課單字或片語：他們的。",
+        "explanation": "Those seats belong to Tom and Amy. They are theirs. 那些座位屬於湯姆和艾咪，是他們的。"
+      },
+      {
+        "id": "borrow-1",
+        "target": "borrow",
+        "answer": "borrow",
+        "sentence": "May I ____ your pencil? I will return it soon.",
+        "translation": "我可以借你的鉛筆嗎？我很快會歸還。",
+        "context": "請填本課單字或片語：借。",
+        "explanation": "May I borrow your pencil? I will return it soon. 我可以借你的鉛筆嗎？我很快會歸還。"
+      },
+      {
+        "id": "borrow-2",
+        "target": "borrow",
+        "answer": "borrow",
+        "sentence": "We can ____ books from the library.",
+        "translation": "我們可以向圖書館借書。",
+        "context": "請填本課單字或片語：借。",
+        "explanation": "We can borrow books from the library. 我們可以向圖書館借書。"
+      },
+      {
+        "id": "borrow-3",
+        "target": "borrow",
+        "answer": "borrow",
+        "sentence": "I need to ____ a music stand for today’s lesson.",
+        "translation": "今天上課我需要借一個譜架。",
+        "context": "請填本課單字或片語：借。",
+        "explanation": "I need to borrow a music stand for today’s lesson. 今天上課我需要借一個譜架。"
+      },
+      {
+        "id": "mine-1",
+        "target": "mine",
+        "answer": "mine",
+        "sentence": "This is my violin. It is ____.",
+        "translation": "這是我的小提琴，它是我的。",
+        "context": "請填本課單字或片語：我的。",
+        "explanation": "This is my violin. It is mine. 這是我的小提琴，它是我的。"
+      },
+      {
+        "id": "mine-2",
+        "target": "mine",
+        "answer": "mine",
+        "sentence": "I own the black bag. The black one is ____.",
+        "translation": "我擁有黑色袋子，黑色的是我的。",
+        "context": "請填本課單字或片語：我的。",
+        "explanation": "I own the black bag. The black one is mine. 我擁有黑色袋子，黑色的是我的。"
+      },
+      {
+        "id": "mine-3",
+        "target": "mine",
+        "answer": "mine",
+        "sentence": "That seat belongs to me. It is ____.",
+        "translation": "那個座位屬於我，是我的。",
+        "context": "請填本課單字或片語：我的。",
+        "explanation": "That seat belongs to me. It is mine. 那個座位屬於我，是我的。"
+      },
+      {
+        "id": "means-1",
+        "target": "means",
+        "answer": "means",
+        "sentence": "This sign ____ we must be quiet.",
+        "translation": "這個標誌的意思是我們必須安靜。",
+        "context": "請填本課單字或片語：意思是……。",
+        "explanation": "This sign means we must be quiet. 這個標誌的意思是我們必須安靜。"
+      },
+      {
+        "id": "means-2",
+        "target": "means",
+        "answer": "means",
+        "sentence": "The word borrow ____ to take and return something.",
+        "translation": "borrow 這個字的意思是借用後歸還某物。",
+        "context": "請填本課單字或片語：意思是……。",
+        "explanation": "The word borrow means to take and return something. borrow 這個字的意思是借用後歸還某物。"
+      },
+      {
+        "id": "means-3",
+        "target": "means",
+        "answer": "means",
+        "sentence": "A red light ____ stop.",
+        "translation": "紅燈的意思是停下。",
+        "context": "請填本課單字或片語：意思是……。",
+        "explanation": "A red light means stop. 紅燈的意思是停下。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

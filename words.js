@@ -3148,6 +3148,152 @@ globalThis.WORD_UNITS = [
       "喝（過去式）"
     ]
   ]
+},
+{
+  "grade": 4,
+  "id": "u9",
+  "number": "09",
+  "title": "參觀博物館",
+  "subtitle": "pottery, exhibit, should…",
+  "words": [
+    [
+      "pottery",
+      "陶器"
+    ],
+    [
+      "painting",
+      "繪畫，畫作"
+    ],
+    [
+      "antique",
+      "古物，古董"
+    ],
+    [
+      "jewelry",
+      "珠寶"
+    ],
+    [
+      "exhibit",
+      "展覽"
+    ],
+    [
+      "statue",
+      "雕像"
+    ],
+    [
+      "furniture",
+      "家具"
+    ],
+    [
+      "should",
+      "應該"
+    ],
+    [
+      "cell phone",
+      "手機"
+    ],
+    [
+      "touch",
+      "觸摸"
+    ],
+    [
+      "lean",
+      "倚靠"
+    ],
+    [
+      "camera",
+      "相機"
+    ],
+    [
+      "litter",
+      "亂丟垃圾"
+    ],
+    [
+      "chew",
+      "咀嚼"
+    ],
+    [
+      "each",
+      "每，各"
+    ]
+  ]
+},
+{
+  "grade": 4,
+  "id": "u10",
+  "number": "10",
+  "title": "參加音樂會",
+  "subtitle": "concert, found, yours…",
+  "words": [
+    [
+      "concert",
+      "音樂會"
+    ],
+    [
+      "instructor",
+      "指導老師"
+    ],
+    [
+      "find",
+      "找到，發現"
+    ],
+    [
+      "found",
+      "找到，發現（過去式）"
+    ],
+    [
+      "musical instrument",
+      "樂器"
+    ],
+    [
+      "piano",
+      "鋼琴"
+    ],
+    [
+      "guitar",
+      "吉他"
+    ],
+    [
+      "drum",
+      "鼓"
+    ],
+    [
+      "violin",
+      "小提琴"
+    ],
+    [
+      "recorder",
+      "直笛"
+    ],
+    [
+      "yours",
+      "你的"
+    ],
+    [
+      "hers",
+      "她的"
+    ],
+    [
+      "ours",
+      "我們的"
+    ],
+    [
+      "theirs",
+      "他們的"
+    ],
+    [
+      "borrow",
+      "借"
+    ],
+    [
+      "mine",
+      "我的"
+    ],
+    [
+      "means",
+      "意思是……"
+    ]
+  ]
 }
 ];
 

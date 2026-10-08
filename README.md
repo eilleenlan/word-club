@@ -308,3 +308,7 @@ U9 我的家：15 個目標、45 種三選一情境；U10 它在哪裡：13 個�
 ## 四年級 U7、U8
 
 U7 參考單字 worksheet：15 個目標、45 種情境，保留 Chinese、English 大寫。U8 參考 Quiz：17 個目標、51 種情境，order／ordered、drink／drank 分開練習；someone／somebody、anyone／anybody 以字尾提示區分。32 段教材錄音位於 audio/grade4/unit7、unit8。支援單字自選、綜合、跨年級及情境輪替。全站共 48 課、712 個目標、2136 種情境。
+
+## 四年級 U9、U10
+
+U9：15 個目標、45 種博物館與禮儀情境。U10：17 個目標、51 種音樂與所有格代名詞情境，find／found 分開練習，保留 musical instrument 與 drum 單數。32 段教材錄音位於 audio/grade4/unit9、unit10。支援單字自選、綜合、跨年級及情境輪替。四年級 U1～U10 已齊，全站共 50 課、744 個目標、2232 種情境。
