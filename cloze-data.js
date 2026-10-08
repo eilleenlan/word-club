@@ -20795,6 +20795,844 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "This bag is cheap, so I can afford it. 這個袋子便宜，所以我買得起。"
       }
     ]
+  },
+  {
+    "id": "g3-u9-v1",
+    "grade": 3,
+    "unit": 9,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "時間與昨天的活動",
+    "description": "15 個單字與片語，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的三年級 U9 單字表與 Quiz 新編，非原卷；鐘面及天氣圖改為明確文字線索。",
+    "questions": [
+      {
+        "id": "last-1",
+        "target": "last",
+        "answer": "last",
+        "sentence": "We visited Grandma ____ Sunday.",
+        "translation": "我們上星期日去探望奶奶。",
+        "context": "請填本課用語：上一個。",
+        "explanation": "We visited Grandma last Sunday. 我們上星期日去探望奶奶。"
+      },
+      {
+        "id": "last-2",
+        "target": "last",
+        "answer": "last",
+        "sentence": "I was reading at eight ____ night.",
+        "translation": "我昨晚八點正在閱讀。",
+        "context": "請填本課用語：上一個。",
+        "explanation": "I was reading at eight last night. 我昨晚八點正在閱讀。"
+      },
+      {
+        "id": "last-3",
+        "target": "last",
+        "answer": "last",
+        "sentence": "She bought this bag ____ week.",
+        "translation": "她上星期買了這個袋子。",
+        "context": "請填本課用語：上一個。",
+        "explanation": "She bought this bag last week. 她上星期買了這個袋子。"
+      },
+      {
+        "id": "were-1",
+        "target": "were",
+        "answer": "were",
+        "sentence": "They ____ playing at five yesterday.",
+        "translation": "他們昨天五點正在玩。",
+        "context": "請填本課用語：are 的過去式。",
+        "explanation": "They were playing at five yesterday. 他們昨天五點正在玩。"
+      },
+      {
+        "id": "were-2",
+        "target": "were",
+        "answer": "were",
+        "sentence": "We ____ at home last night.",
+        "translation": "我們昨晚在家。",
+        "context": "請填本課用語：are 的過去式。",
+        "explanation": "We were at home last night. 我們昨晚在家。"
+      },
+      {
+        "id": "were-3",
+        "target": "were",
+        "answer": "were",
+        "sentence": "You ____ reading when I called.",
+        "translation": "我打電話時，你正在閱讀。",
+        "context": "請填本課用語：are 的過去式。",
+        "explanation": "You were reading when I called. 我打電話時，你正在閱讀。"
+      },
+      {
+        "id": "quarter-1",
+        "target": "quarter",
+        "answer": "quarter",
+        "sentence": "It is 7:15, a ____ after seven.",
+        "translation": "現在是七點十五分，也就是七點過一刻。",
+        "context": "請填本課用語：一刻鐘。",
+        "explanation": "It is 7:15, a quarter after seven. 現在是七點十五分，也就是七點過一刻。"
+      },
+      {
+        "id": "quarter-2",
+        "target": "quarter",
+        "answer": "quarter",
+        "sentence": "It is 8:45, a ____ to nine.",
+        "translation": "現在是八點四十五分，也就是差一刻九點。",
+        "context": "請填本課用語：一刻鐘。",
+        "explanation": "It is 8:45, a quarter to nine. 現在是八點四十五分，也就是差一刻九點。"
+      },
+      {
+        "id": "quarter-3",
+        "target": "quarter",
+        "answer": "quarter",
+        "sentence": "A ____ of an hour is fifteen minutes.",
+        "translation": "一刻鐘是十五分鐘。",
+        "context": "請填本課用語：一刻鐘。",
+        "explanation": "A quarter of an hour is fifteen minutes. 一刻鐘是十五分鐘。"
+      },
+      {
+        "id": "after-1",
+        "target": "after",
+        "answer": "after",
+        "sentence": "It is 3:05, five ____ three.",
+        "translation": "現在三點五分，也就是三點過五分。",
+        "context": "請填本課用語：超過，後。",
+        "explanation": "It is 3:05, five after three. 現在三點五分，也就是三點過五分。"
+      },
+      {
+        "id": "after-2",
+        "target": "after",
+        "answer": "after",
+        "sentence": "We go home ____ school ends.",
+        "translation": "我們放學後回家。",
+        "context": "請填本課用語：超過，後。",
+        "explanation": "We go home after school ends. 我們放學後回家。"
+      },
+      {
+        "id": "after-3",
+        "target": "after",
+        "answer": "after",
+        "sentence": "It is 6:10, ten ____ six.",
+        "translation": "現在六點十分，也就是六點過十分。",
+        "context": "請填本課用語：超過，後。",
+        "explanation": "It is 6:10, ten after six. 現在六點十分，也就是六點過十分。"
+      },
+      {
+        "id": "was-1",
+        "target": "was",
+        "answer": "was",
+        "sentence": "I ____ sleeping at nine last night.",
+        "translation": "我昨晚九點正在睡覺。",
+        "context": "請填本課用語：is、am 的過去式。",
+        "explanation": "I was sleeping at nine last night. 我昨晚九點正在睡覺。"
+      },
+      {
+        "id": "was-2",
+        "target": "was",
+        "answer": "was",
+        "sentence": "She ____ at the park yesterday.",
+        "translation": "她昨天在公園。",
+        "context": "請填本課用語：is、am 的過去式。",
+        "explanation": "She was at the park yesterday. 她昨天在公園。"
+      },
+      {
+        "id": "was-3",
+        "target": "was",
+        "answer": "was",
+        "sentence": "He ____ eating lunch when I arrived.",
+        "translation": "我到達時，他正在吃午餐。",
+        "context": "請填本課用語：is、am 的過去式。",
+        "explanation": "He was eating lunch when I arrived. 我到達時，他正在吃午餐。"
+      },
+      {
+        "id": "home-1",
+        "target": "home",
+        "answer": "home",
+        "sentence": "I go ____ after school.",
+        "translation": "我放學後回家。",
+        "context": "請填本課用語：家。",
+        "explanation": "I go home after school. 我放學後回家。"
+      },
+      {
+        "id": "home-2",
+        "target": "home",
+        "answer": "home",
+        "sentence": "We stayed at ____ yesterday.",
+        "translation": "我們昨天待在家。",
+        "context": "請填本課用語：家。",
+        "explanation": "We stayed at home yesterday. 我們昨天待在家。"
+      },
+      {
+        "id": "home-3",
+        "target": "home",
+        "answer": "home",
+        "sentence": "Is your mother at ____ now?",
+        "translation": "你媽媽現在在家嗎？",
+        "context": "請填本課用語：家。",
+        "explanation": "Is your mother at home now? 你媽媽現在在家嗎？"
+      },
+      {
+        "id": "to-1",
+        "target": "to",
+        "answer": "to",
+        "sentence": "It is 7:50, ten ____ eight.",
+        "translation": "現在七點五十分，也就是差十分八點。",
+        "context": "請填本課用語：到。",
+        "explanation": "It is 7:50, ten to eight. 現在七點五十分，也就是差十分八點。"
+      },
+      {
+        "id": "to-2",
+        "target": "to",
+        "answer": "to",
+        "sentence": "It is 4:45, a quarter ____ five.",
+        "translation": "現在四點四十五分，也就是差一刻五點。",
+        "context": "請填本課用語：到。",
+        "explanation": "It is 4:45, a quarter to five. 現在四點四十五分，也就是差一刻五點。"
+      },
+      {
+        "id": "to-3",
+        "target": "to",
+        "answer": "to",
+        "sentence": "We walk ____ school every morning.",
+        "translation": "我們每天早上走路到學校。",
+        "context": "請填本課用語：到。",
+        "explanation": "We walk to school every morning. 我們每天早上走路到學校。"
+      },
+      {
+        "id": "twenty-1",
+        "target": "twenty",
+        "answer": "twenty",
+        "sentence": "It is 7:20, seven ____.",
+        "translation": "現在是七點二十分。",
+        "context": "請填本課用語：二十。",
+        "explanation": "It is 7:20, seven twenty. 現在是七點二十分。"
+      },
+      {
+        "id": "twenty-2",
+        "target": "twenty",
+        "answer": "twenty",
+        "sentence": "Ten and ten make ____.",
+        "translation": "十加十等於二十。",
+        "context": "請填本課用語：二十。",
+        "explanation": "Ten and ten make twenty. 十加十等於二十。"
+      },
+      {
+        "id": "twenty-3",
+        "target": "twenty",
+        "answer": "twenty",
+        "sentence": "There are ____ students: 20 in all.",
+        "translation": "有二十位學生，共 20 位。",
+        "context": "請填本課用語：二十。",
+        "explanation": "There are twenty students: 20 in all. 有二十位學生，共 20 位。"
+      },
+      {
+        "id": "thirty-1",
+        "target": "thirty",
+        "answer": "thirty",
+        "sentence": "It is 8:30, eight ____.",
+        "translation": "現在是八點三十分。",
+        "context": "請填本課用語：三十。",
+        "explanation": "It is 8:30, eight thirty. 現在是八點三十分。"
+      },
+      {
+        "id": "thirty-2",
+        "target": "thirty",
+        "answer": "thirty",
+        "sentence": "Ten and twenty make ____.",
+        "translation": "十加二十等於三十。",
+        "context": "請填本課用語：三十。",
+        "explanation": "Ten and twenty make thirty. 十加二十等於三十。"
+      },
+      {
+        "id": "thirty-3",
+        "target": "thirty",
+        "answer": "thirty",
+        "sentence": "Half an hour is ____ minutes.",
+        "translation": "半小時是三十分鐘。",
+        "context": "請填本課用語：三十。",
+        "explanation": "Half an hour is thirty minutes. 半小時是三十分鐘。"
+      },
+      {
+        "id": "get-up-1",
+        "target": "get up",
+        "answer": "get up",
+        "sentence": "I ____ at seven every morning.",
+        "translation": "我每天早上七點起床。",
+        "context": "請填本課用語：起床。",
+        "explanation": "I get up at seven every morning. 我每天早上七點起床。"
+      },
+      {
+        "id": "get-up-2",
+        "target": "get up",
+        "answer": "get up",
+        "sentence": "What time do you ____?",
+        "translation": "你幾點起床？",
+        "context": "請填本課用語：起床。",
+        "explanation": "What time do you get up? 你幾點起床？"
+      },
+      {
+        "id": "get-up-3",
+        "target": "get up",
+        "answer": "get up",
+        "sentence": "We must ____ early tomorrow.",
+        "translation": "我們明天必須早起。",
+        "context": "請填本課用語：起床。",
+        "explanation": "We must get up early tomorrow. 我們明天必須早起。"
+      },
+      {
+        "id": "brush-1",
+        "target": "brush",
+        "answer": "brush",
+        "sentence": "I ____ my teeth after breakfast.",
+        "translation": "我早餐後刷牙。",
+        "context": "請填本課用語：刷。",
+        "explanation": "I brush my teeth after breakfast. 我早餐後刷牙。"
+      },
+      {
+        "id": "brush-2",
+        "target": "brush",
+        "answer": "brush",
+        "sentence": "Please ____ your teeth before bed.",
+        "translation": "睡前請刷牙。",
+        "context": "請填本課用語：刷。",
+        "explanation": "Please brush your teeth before bed. 睡前請刷牙。"
+      },
+      {
+        "id": "brush-3",
+        "target": "brush",
+        "answer": "brush",
+        "sentence": "We use toothbrushes to ____ our teeth.",
+        "translation": "我們用牙刷刷牙。",
+        "context": "請填本課用語：刷。",
+        "explanation": "We use toothbrushes to brush our teeth. 我們用牙刷刷牙。"
+      },
+      {
+        "id": "comb-1",
+        "target": "comb",
+        "answer": "comb",
+        "sentence": "I ____ my hair before school.",
+        "translation": "我上學前梳頭髮。",
+        "context": "請填本課用語：梳。",
+        "explanation": "I comb my hair before school. 我上學前梳頭髮。"
+      },
+      {
+        "id": "comb-2",
+        "target": "comb",
+        "answer": "comb",
+        "sentence": "Please ____ your hair neatly.",
+        "translation": "請把頭髮梳整齊。",
+        "context": "請填本課用語：梳。",
+        "explanation": "Please comb your hair neatly. 請把頭髮梳整齊。"
+      },
+      {
+        "id": "comb-3",
+        "target": "comb",
+        "answer": "comb",
+        "sentence": "Can you ____ the doll’s hair?",
+        "translation": "你能梳娃娃的頭髮嗎？",
+        "context": "請填本課用語：梳。",
+        "explanation": "Can you comb the doll’s hair? 你能梳娃娃的頭髮嗎？"
+      },
+      {
+        "id": "get-dressed-1",
+        "target": "get dressed",
+        "answer": "get dressed",
+        "sentence": "I ____ after I get out of bed.",
+        "translation": "我下床後穿衣服。",
+        "context": "請填本課用語：穿衣。",
+        "explanation": "I get dressed after I get out of bed. 我下床後穿衣服。"
+      },
+      {
+        "id": "get-dressed-2",
+        "target": "get dressed",
+        "answer": "get dressed",
+        "sentence": "Please ____ before we leave the house.",
+        "translation": "離開家以前請穿好衣服。",
+        "context": "請填本課用語：穿衣。",
+        "explanation": "Please get dressed before we leave the house. 離開家以前請穿好衣服。"
+      },
+      {
+        "id": "get-dressed-3",
+        "target": "get dressed",
+        "answer": "get dressed",
+        "sentence": "We need to ____ for the party.",
+        "translation": "我們需要穿好衣服去派對。",
+        "context": "請填本課用語：穿衣。",
+        "explanation": "We need to get dressed for the party. 我們需要穿好衣服去派對。"
+      },
+      {
+        "id": "wait-1",
+        "target": "wait",
+        "answer": "wait",
+        "sentence": "Please ____ here until I come back.",
+        "translation": "請在這裡等我回來。",
+        "context": "請填本課用語：等待。",
+        "explanation": "Please wait here until I come back. 請在這裡等我回來。"
+      },
+      {
+        "id": "wait-2",
+        "target": "wait",
+        "answer": "wait",
+        "sentence": "We ____ for the bus at the stop.",
+        "translation": "我們在站牌等公車。",
+        "context": "請填本課用語：等待。",
+        "explanation": "We wait for the bus at the stop. 我們在站牌等公車。"
+      },
+      {
+        "id": "wait-3",
+        "target": "wait",
+        "answer": "wait",
+        "sentence": "Can you ____ a minute?",
+        "translation": "你可以等一分鐘嗎？",
+        "context": "請填本課用語：等待。",
+        "explanation": "Can you wait a minute? 你可以等一分鐘嗎？"
+      },
+      {
+        "id": "yesterday-1",
+        "target": "yesterday",
+        "answer": "yesterday",
+        "sentence": "Today is Tuesday. ____ was Monday.",
+        "translation": "今天星期二，昨天星期一。",
+        "context": "請填本課用語：昨天。",
+        "explanation": "Today is Tuesday. Yesterday was Monday. 今天星期二，昨天星期一。"
+      },
+      {
+        "id": "yesterday-2",
+        "target": "yesterday",
+        "answer": "yesterday",
+        "sentence": "I went to the park ____, the day before today.",
+        "translation": "我昨天去公園，也就是今天的前一天。",
+        "context": "請填本課用語：昨天。",
+        "explanation": "I went to the park yesterday, the day before today. 我昨天去公園，也就是今天的前一天。"
+      },
+      {
+        "id": "yesterday-3",
+        "target": "yesterday",
+        "answer": "yesterday",
+        "sentence": "We were at school ____ morning.",
+        "translation": "我們昨天早上在學校。",
+        "context": "請填本課用語：昨天。",
+        "explanation": "We were at school yesterday morning. 我們昨天早上在學校。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u10-v1",
+    "grade": 3,
+    "unit": 10,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "昨天、今天與明天的天氣",
+    "description": "15 個單字與片語，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的三年級 U10 單字表與 Quiz 新編，非原卷；鐘面及天氣圖改為明確文字線索。",
+    "questions": [
+      {
+        "id": "cloudy-1",
+        "target": "cloudy",
+        "answer": "cloudy",
+        "sentence": "The sky is ____ and covered with gray clouds.",
+        "translation": "天空是陰天，布滿灰雲。",
+        "context": "請填本課用語：陰天的。",
+        "explanation": "The sky is cloudy and covered with gray clouds. 天空是陰天，布滿灰雲。"
+      },
+      {
+        "id": "cloudy-2",
+        "target": "cloudy",
+        "answer": "cloudy",
+        "sentence": "It was ____ yesterday. We could not see the sun.",
+        "translation": "昨天陰天，我們看不到太陽。",
+        "context": "請填本課用語：陰天的。",
+        "explanation": "It was cloudy yesterday. We could not see the sun. 昨天陰天，我們看不到太陽。"
+      },
+      {
+        "id": "cloudy-3",
+        "target": "cloudy",
+        "answer": "cloudy",
+        "sentence": "The forecast says it will be ____ all day.",
+        "translation": "預報說一整天都會是陰天。",
+        "context": "請填本課用語：陰天的。",
+        "explanation": "The forecast says it will be cloudy all day. 預報說一整天都會是陰天。"
+      },
+      {
+        "id": "partly-cloudy-1",
+        "target": "partly cloudy",
+        "answer": "partly cloudy",
+        "sentence": "It is ____. Some blue sky shows between the clouds.",
+        "translation": "天氣晴時多雲，雲之間露出部分藍天。",
+        "context": "請填本課用語：晴時多雲。",
+        "explanation": "It is partly cloudy. Some blue sky shows between the clouds. 天氣晴時多雲，雲之間露出部分藍天。"
+      },
+      {
+        "id": "partly-cloudy-2",
+        "target": "partly cloudy",
+        "answer": "partly cloudy",
+        "sentence": "The forecast says ____, with both sunshine and clouds.",
+        "translation": "預報說晴時多雲，會有陽光也有雲。",
+        "context": "請填本課用語：晴時多雲。",
+        "explanation": "The forecast says partly cloudy, with both sunshine and clouds. 預報說晴時多雲，會有陽光也有雲。"
+      },
+      {
+        "id": "partly-cloudy-3",
+        "target": "partly cloudy",
+        "answer": "partly cloudy",
+        "sentence": "The picture shows a sun behind a few clouds. It means ____.",
+        "translation": "圖片是太陽在幾朵雲後面，表示晴時多雲。",
+        "context": "請填本課用語：晴時多雲。",
+        "explanation": "The picture shows a sun behind a few clouds. It means partly cloudy. 圖片是太陽在幾朵雲後面，表示晴時多雲。"
+      },
+      {
+        "id": "snowy-1",
+        "target": "snowy",
+        "answer": "snowy",
+        "sentence": "It is ____ today. Snow is falling.",
+        "translation": "今天下雪，雪正落下。",
+        "context": "請填本課用語：下雪的。",
+        "explanation": "It is snowy today. Snow is falling. 今天下雪，雪正落下。"
+      },
+      {
+        "id": "snowy-2",
+        "target": "snowy",
+        "answer": "snowy",
+        "sentence": "We make a snowman on this ____ day.",
+        "translation": "我們在這個下雪天堆雪人。",
+        "context": "請填本課用語：下雪的。",
+        "explanation": "We make a snowman on this snowy day. 我們在這個下雪天堆雪人。"
+      },
+      {
+        "id": "snowy-3",
+        "target": "snowy",
+        "answer": "snowy",
+        "sentence": "The forecast says tomorrow will be ____ with fresh snow.",
+        "translation": "預報說明天會下雪，有新雪。",
+        "context": "請填本課用語：下雪的。",
+        "explanation": "The forecast says tomorrow will be snowy with fresh snow. 預報說明天會下雪，有新雪。"
+      },
+      {
+        "id": "weather-1",
+        "target": "weather",
+        "answer": "weather",
+        "sentence": "How is the ____ today?",
+        "translation": "今天天氣如何？",
+        "context": "請填本課用語：天氣。",
+        "explanation": "How is the weather today? 今天天氣如何？"
+      },
+      {
+        "id": "weather-2",
+        "target": "weather",
+        "answer": "weather",
+        "sentence": "We check the ____ before our picnic.",
+        "translation": "野餐前我們查看天氣。",
+        "context": "請填本課用語：天氣。",
+        "explanation": "We check the weather before our picnic. 野餐前我們查看天氣。"
+      },
+      {
+        "id": "weather-3",
+        "target": "weather",
+        "answer": "weather",
+        "sentence": "The ____ was sunny yesterday.",
+        "translation": "昨天天氣晴朗。",
+        "context": "請填本課用語：天氣。",
+        "explanation": "The weather was sunny yesterday. 昨天天氣晴朗。"
+      },
+      {
+        "id": "beautiful-1",
+        "target": "beautiful",
+        "answer": "beautiful",
+        "sentence": "What a ____ day! The sky looks lovely.",
+        "translation": "多麼美好的一天！天空很美。",
+        "context": "請填本課用語：美好的。",
+        "explanation": "What a beautiful day! The sky looks lovely. 多麼美好的一天！天空很美。"
+      },
+      {
+        "id": "beautiful-2",
+        "target": "beautiful",
+        "answer": "beautiful",
+        "sentence": "The garden is full of ____ flowers.",
+        "translation": "花園裡滿是漂亮的花。",
+        "context": "請填本課用語：美好的。",
+        "explanation": "The garden is full of beautiful flowers. 花園裡滿是漂亮的花。"
+      },
+      {
+        "id": "beautiful-3",
+        "target": "beautiful",
+        "answer": "beautiful",
+        "sentence": "We enjoyed the ____ view from the hill.",
+        "translation": "我們欣賞山丘上的美麗景色。",
+        "context": "請填本課用語：美好的。",
+        "explanation": "We enjoyed the beautiful view from the hill. 我們欣賞山丘上的美麗景色。"
+      },
+      {
+        "id": "high-1",
+        "target": "high",
+        "answer": "high",
+        "sentence": "Today’s ____ is 30°C, the warmest temperature of the day.",
+        "translation": "今天最高溫是 30°C，也就是一天中最暖的溫度。",
+        "context": "請填本課用語：最高溫。",
+        "explanation": "Today’s high is 30°C, the warmest temperature of the day. 今天最高溫是 30°C，也就是一天中最暖的溫度。"
+      },
+      {
+        "id": "high-2",
+        "target": "high",
+        "answer": "high",
+        "sentence": "The ____ is 28°C and the low is 20°C.",
+        "translation": "最高溫是 28°C，最低溫是 20°C。",
+        "context": "請填本課用語：最高溫。",
+        "explanation": "The high is 28°C and the low is 20°C. 最高溫是 28°C，最低溫是 20°C。"
+      },
+      {
+        "id": "high-3",
+        "target": "high",
+        "answer": "high",
+        "sentence": "The forecast gives a ____ of 32°C for tomorrow.",
+        "translation": "預報說明天最高溫是 32°C。",
+        "context": "請填本課用語：最高溫。",
+        "explanation": "The forecast gives a high of 32°C for tomorrow. 預報說明天最高溫是 32°C。"
+      },
+      {
+        "id": "degree-1",
+        "target": "degree",
+        "answer": "degree",
+        "sentence": "The temperature rose by one ____.",
+        "translation": "溫度上升一度。",
+        "context": "請填本課用語：度。",
+        "explanation": "The temperature rose by one degree. 溫度上升一度。"
+      },
+      {
+        "id": "degree-2",
+        "target": "degree",
+        "answer": "degree",
+        "sentence": "It is one ____ Celsius today.",
+        "translation": "今天是攝氏一度。",
+        "context": "請填本課用語：度。",
+        "explanation": "It is one degree Celsius today. 今天是攝氏一度。"
+      },
+      {
+        "id": "degree-3",
+        "target": "degree",
+        "answer": "degree",
+        "sentence": "The room is one ____ warmer now.",
+        "translation": "房間現在暖了一度。",
+        "context": "請填本課用語：度。",
+        "explanation": "The room is one degree warmer now. 房間現在暖了一度。"
+      },
+      {
+        "id": "celsius-1",
+        "target": "Celsius",
+        "answer": "Celsius",
+        "sentence": "The C in °C stands for ____.",
+        "translation": "°C 裡的 C 代表攝氏。",
+        "context": "請填本課用語：攝氏。",
+        "explanation": "The C in °C stands for Celsius. °C 裡的 C 代表攝氏。"
+      },
+      {
+        "id": "celsius-2",
+        "target": "Celsius",
+        "answer": "Celsius",
+        "sentence": "It is twenty degrees ____ today.",
+        "translation": "今天是攝氏二十度。",
+        "context": "請填本課用語：攝氏。",
+        "explanation": "It is twenty degrees Celsius today. 今天是攝氏二十度。"
+      },
+      {
+        "id": "celsius-3",
+        "target": "Celsius",
+        "answer": "Celsius",
+        "sentence": "This thermometer shows degrees ____.",
+        "translation": "這支溫度計顯示攝氏度數。",
+        "context": "請填本課用語：攝氏。",
+        "explanation": "This thermometer shows degrees Celsius. 這支溫度計顯示攝氏度數。"
+      },
+      {
+        "id": "morning-1",
+        "target": "morning",
+        "answer": "morning",
+        "sentence": "I eat breakfast in the ____.",
+        "translation": "我在早上吃早餐。",
+        "context": "請填本課用語：上午。",
+        "explanation": "I eat breakfast in the morning. 我在早上吃早餐。"
+      },
+      {
+        "id": "morning-2",
+        "target": "morning",
+        "answer": "morning",
+        "sentence": "It is 9 a.m., nine in the ____.",
+        "translation": "現在是上午九點。",
+        "context": "請填本課用語：上午。",
+        "explanation": "It is 9 a.m., nine in the morning. 現在是上午九點。"
+      },
+      {
+        "id": "morning-3",
+        "target": "morning",
+        "answer": "morning",
+        "sentence": "We get up early in the ____.",
+        "translation": "我們早上很早起床。",
+        "context": "請填本課用語：上午。",
+        "explanation": "We get up early in the morning. 我們早上很早起床。"
+      },
+      {
+        "id": "low-1",
+        "target": "low",
+        "answer": "low",
+        "sentence": "Today’s ____ is 18°C, the coolest temperature of the day.",
+        "translation": "今天最低溫是 18°C，也就是一天中最涼的溫度。",
+        "context": "請填本課用語：最低溫。",
+        "explanation": "Today’s low is 18°C, the coolest temperature of the day. 今天最低溫是 18°C，也就是一天中最涼的溫度。"
+      },
+      {
+        "id": "low-2",
+        "target": "low",
+        "answer": "low",
+        "sentence": "The high is 25°C and the ____ is 17°C.",
+        "translation": "最高溫是 25°C，最低溫是 17°C。",
+        "context": "請填本課用語：最低溫。",
+        "explanation": "The high is 25°C and the low is 17°C. 最高溫是 25°C，最低溫是 17°C。"
+      },
+      {
+        "id": "low-3",
+        "target": "low",
+        "answer": "low",
+        "sentence": "The forecast gives a ____ of 15°C for tomorrow.",
+        "translation": "預報說明天最低溫是 15°C。",
+        "context": "請填本課用語：最低溫。",
+        "explanation": "The forecast gives a low of 15°C for tomorrow. 預報說明天最低溫是 15°C。"
+      },
+      {
+        "id": "afternoon-1",
+        "target": "afternoon",
+        "answer": "afternoon",
+        "sentence": "It is 2 p.m., two in the ____.",
+        "translation": "現在是下午兩點。",
+        "context": "請填本課用語：下午。",
+        "explanation": "It is 2 p.m., two in the afternoon. 現在是下午兩點。"
+      },
+      {
+        "id": "afternoon-2",
+        "target": "afternoon",
+        "answer": "afternoon",
+        "sentence": "We play in the park in the ____ after lunch.",
+        "translation": "我們午餐後在下午到公園玩。",
+        "context": "請填本課用語：下午。",
+        "explanation": "We play in the park in the afternoon after lunch. 我們午餐後在下午到公園玩。"
+      },
+      {
+        "id": "afternoon-3",
+        "target": "afternoon",
+        "answer": "afternoon",
+        "sentence": "The class starts at three in the ____.",
+        "translation": "課程下午三點開始。",
+        "context": "請填本課用語：下午。",
+        "explanation": "The class starts at three in the afternoon. 課程下午三點開始。"
+      },
+      {
+        "id": "evening-1",
+        "target": "evening",
+        "answer": "evening",
+        "sentence": "We eat dinner in the ____.",
+        "translation": "我們在傍晚吃晚餐。",
+        "context": "請填本課用語：傍晚。",
+        "explanation": "We eat dinner in the evening. 我們在傍晚吃晚餐。"
+      },
+      {
+        "id": "evening-2",
+        "target": "evening",
+        "answer": "evening",
+        "sentence": "It is 6 p.m., six in the ____.",
+        "translation": "現在是傍晚六點。",
+        "context": "請填本課用語：傍晚。",
+        "explanation": "It is 6 p.m., six in the evening. 現在是傍晚六點。"
+      },
+      {
+        "id": "evening-3",
+        "target": "evening",
+        "answer": "evening",
+        "sentence": "The sun is setting. It is early ____.",
+        "translation": "太陽正在下山，現在是傍晚。",
+        "context": "請填本課用語：傍晚。",
+        "explanation": "The sun is setting. It is early evening. 太陽正在下山，現在是傍晚。"
+      },
+      {
+        "id": "umbrella-1",
+        "target": "umbrella",
+        "answer": "umbrella",
+        "sentence": "Take an ____ because it is raining.",
+        "translation": "正在下雨，帶把雨傘。",
+        "context": "請填本課用語：雨傘。",
+        "explanation": "Take an umbrella because it is raining. 正在下雨，帶把雨傘。"
+      },
+      {
+        "id": "umbrella-2",
+        "target": "umbrella",
+        "answer": "umbrella",
+        "sentence": "I open my ____ to keep the rain off.",
+        "translation": "我打開雨傘擋雨。",
+        "context": "請填本課用語：雨傘。",
+        "explanation": "I open my umbrella to keep the rain off. 我打開雨傘擋雨。"
+      },
+      {
+        "id": "umbrella-3",
+        "target": "umbrella",
+        "answer": "umbrella",
+        "sentence": "She closes her ____ when she goes inside.",
+        "translation": "她進屋時收起雨傘。",
+        "context": "請填本課用語：雨傘。",
+        "explanation": "She closes her umbrella when she goes inside. 她進屋時收起雨傘。"
+      },
+      {
+        "id": "temperature-1",
+        "target": "temperature",
+        "answer": "temperature",
+        "sentence": "What is the ____ today? It is 24°C.",
+        "translation": "今天溫度多少？24°C。",
+        "context": "請填本課用語：溫度。",
+        "explanation": "What is the temperature today? It is 24°C. 今天溫度多少？24°C。"
+      },
+      {
+        "id": "temperature-2",
+        "target": "temperature",
+        "answer": "temperature",
+        "sentence": "The thermometer shows the ____.",
+        "translation": "溫度計顯示溫度。",
+        "context": "請填本課用語：溫度。",
+        "explanation": "The thermometer shows the temperature. 溫度計顯示溫度。"
+      },
+      {
+        "id": "temperature-3",
+        "target": "temperature",
+        "answer": "temperature",
+        "sentence": "The ____ fell from 25°C to 20°C.",
+        "translation": "溫度從 25°C 降到 20°C。",
+        "context": "請填本課用語：溫度。",
+        "explanation": "The temperature fell from 25°C to 20°C. 溫度從 25°C 降到 20°C。"
+      },
+      {
+        "id": "change-1",
+        "target": "change",
+        "answer": "change",
+        "sentence": "The weather can ____ quickly.",
+        "translation": "天氣可能很快改變。",
+        "context": "請填本課用語：改變。",
+        "explanation": "The weather can change quickly. 天氣可能很快改變。"
+      },
+      {
+        "id": "change-2",
+        "target": "change",
+        "answer": "change",
+        "sentence": "Let us ____ our plan because of the rain.",
+        "translation": "因為下雨，我們改變計畫吧。",
+        "context": "請填本課用語：改變。",
+        "explanation": "Let us change our plan because of the rain. 因為下雨，我們改變計畫吧。"
+      },
+      {
+        "id": "change-3",
+        "target": "change",
+        "answer": "change",
+        "sentence": "Leaves ____ color in fall.",
+        "translation": "葉子在秋天變色。",
+        "context": "請填本課用語：改變。",
+        "explanation": "Leaves change color in fall. 葉子在秋天變色。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

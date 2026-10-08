@@ -2795,6 +2795,144 @@ globalThis.WORD_UNITS = [
       "便宜的"
     ]
   ]
+},
+{
+  "grade": 3,
+  "id": "u9",
+  "number": "09",
+  "title": "時間與昨天的活動",
+  "subtitle": "quarter, were, yesterday…",
+  "words": [
+    [
+      "last",
+      "上一個"
+    ],
+    [
+      "were",
+      "are 的過去式"
+    ],
+    [
+      "quarter",
+      "一刻鐘"
+    ],
+    [
+      "after",
+      "超過，後"
+    ],
+    [
+      "was",
+      "is、am 的過去式"
+    ],
+    [
+      "home",
+      "家"
+    ],
+    [
+      "to",
+      "到"
+    ],
+    [
+      "twenty",
+      "二十"
+    ],
+    [
+      "thirty",
+      "三十"
+    ],
+    [
+      "get up",
+      "起床"
+    ],
+    [
+      "brush",
+      "刷"
+    ],
+    [
+      "comb",
+      "梳"
+    ],
+    [
+      "get dressed",
+      "穿衣"
+    ],
+    [
+      "wait",
+      "等待"
+    ],
+    [
+      "yesterday",
+      "昨天"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u10",
+  "number": "10",
+  "title": "昨天、今天與明天的天氣",
+  "subtitle": "weather, Celsius, temperature…",
+  "words": [
+    [
+      "cloudy",
+      "陰天的"
+    ],
+    [
+      "partly cloudy",
+      "晴時多雲"
+    ],
+    [
+      "snowy",
+      "下雪的"
+    ],
+    [
+      "weather",
+      "天氣"
+    ],
+    [
+      "beautiful",
+      "美好的"
+    ],
+    [
+      "high",
+      "最高溫"
+    ],
+    [
+      "degree",
+      "度"
+    ],
+    [
+      "Celsius",
+      "攝氏"
+    ],
+    [
+      "morning",
+      "上午"
+    ],
+    [
+      "low",
+      "最低溫"
+    ],
+    [
+      "afternoon",
+      "下午"
+    ],
+    [
+      "evening",
+      "傍晚"
+    ],
+    [
+      "umbrella",
+      "雨傘"
+    ],
+    [
+      "temperature",
+      "溫度"
+    ],
+    [
+      "change",
+      "改變"
+    ]
+  ]
 }
 ];
 
