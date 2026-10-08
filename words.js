@@ -2933,6 +2933,75 @@ globalThis.WORD_UNITS = [
       "改變"
     ]
   ]
+},
+{
+  "grade": 4,
+  "id": "u6",
+  "number": "06",
+  "title": "家中來了訪客",
+  "subtitle": "visitor, offer, a cup of tea…",
+  "words": [
+    [
+      "visitor",
+      "訪客，探望者"
+    ],
+    [
+      "help",
+      "幫忙，協助"
+    ],
+    [
+      "please",
+      "請"
+    ],
+    [
+      "offer",
+      "提供"
+    ],
+    [
+      "would",
+      "想……"
+    ],
+    [
+      "cup",
+      "茶杯"
+    ],
+    [
+      "glass",
+      "玻璃杯"
+    ],
+    [
+      "can",
+      "罐"
+    ],
+    [
+      "bag",
+      "包，袋"
+    ],
+    [
+      "bottle",
+      "瓶"
+    ],
+    [
+      "water",
+      "水"
+    ],
+    [
+      "piece",
+      "片"
+    ],
+    [
+      "cake",
+      "蛋糕"
+    ],
+    [
+      "sugar",
+      "糖"
+    ],
+    [
+      "house",
+      "房子"
+    ]
+  ]
 }
 ];
 

@@ -21633,6 +21633,425 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Leaves change color in fall. 葉子在秋天變色。"
       }
     ]
+  },
+  {
+    "id": "g4-u6-v1",
+    "grade": 4,
+    "unit": 6,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "家中來了訪客",
+    "description": "15 個單字，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的四年級 U6 單字表與考卷新編，非原卷；容器圖片改為文字與中文線索。",
+    "questions": [
+      {
+        "id": "visitor-1",
+        "target": "visitor",
+        "answer": "visitor",
+        "sentence": "A ____ from Japan is staying with our family.",
+        "translation": "一位來自日本的訪客正住在我們家。",
+        "context": "請填本課單字：訪客，探望者。",
+        "explanation": "A visitor from Japan is staying with our family. 一位來自日本的訪客正住在我們家。"
+      },
+      {
+        "id": "visitor-2",
+        "target": "visitor",
+        "answer": "visitor",
+        "sentence": "Please welcome our ____ at the door.",
+        "translation": "請在門口歡迎我們的訪客。",
+        "context": "請填本課單字：訪客，探望者。",
+        "explanation": "Please welcome our visitor at the door. 請在門口歡迎我們的訪客。"
+      },
+      {
+        "id": "visitor-3",
+        "target": "visitor",
+        "answer": "visitor",
+        "sentence": "Each ____ writes a name in the guest book.",
+        "translation": "每位訪客在訪客簿上寫下名字。",
+        "context": "請填本課單字：訪客，探望者。",
+        "explanation": "Each visitor writes a name in the guest book. 每位訪客在訪客簿上寫下名字。"
+      },
+      {
+        "id": "help-1",
+        "target": "help",
+        "answer": "help",
+        "sentence": "Thank you for your ____ with dinner.",
+        "translation": "謝謝你幫忙準備晚餐。",
+        "context": "請填本課單字：幫忙，協助。",
+        "explanation": "Thank you for your help with dinner. 謝謝你幫忙準備晚餐。"
+      },
+      {
+        "id": "help-2",
+        "target": "help",
+        "answer": "help",
+        "sentence": "Can you ____ me carry these bags?",
+        "translation": "你能幫我提這些袋子嗎？",
+        "context": "請填本課單字：幫忙，協助。",
+        "explanation": "Can you help me carry these bags? 你能幫我提這些袋子嗎？"
+      },
+      {
+        "id": "help-3",
+        "target": "help",
+        "answer": "help",
+        "sentence": "I need some ____ with this heavy box.",
+        "translation": "這個沉重的箱子讓我需要一些協助。",
+        "context": "請填本課單字：幫忙，協助。",
+        "explanation": "I need some help with this heavy box. 這個沉重的箱子讓我需要一些協助。"
+      },
+      {
+        "id": "please-1",
+        "target": "please",
+        "answer": "please",
+        "sentence": "May I have some tea, ____?",
+        "translation": "請問我可以喝點茶嗎？",
+        "context": "請填本課單字：請。",
+        "explanation": "May I have some tea, please? 請問我可以喝點茶嗎？"
+      },
+      {
+        "id": "please-2",
+        "target": "please",
+        "answer": "please",
+        "sentence": "Would you like some juice? Yes, ____.",
+        "translation": "你想喝點果汁嗎？好的，麻煩你。",
+        "context": "請填本課單字：請。",
+        "explanation": "Would you like some juice? Yes, please. 你想喝點果汁嗎？好的，麻煩你。"
+      },
+      {
+        "id": "please-3",
+        "target": "please",
+        "answer": "please",
+        "sentence": "Come in, ____, and sit down.",
+        "translation": "請進來坐下。",
+        "context": "請填本課單字：請。",
+        "explanation": "Come in, please, and sit down. 請進來坐下。"
+      },
+      {
+        "id": "offer-1",
+        "target": "offer",
+        "answer": "offer",
+        "sentence": "Let us ____ our guest a cold drink.",
+        "translation": "讓我們提供冷飲給客人。",
+        "context": "請填本課單字：提供。",
+        "explanation": "Let us offer our guest a cold drink. 讓我們提供冷飲給客人。"
+      },
+      {
+        "id": "offer-2",
+        "target": "offer",
+        "answer": "offer",
+        "sentence": "We can ____ you a seat by the window.",
+        "translation": "我們可以提供靠窗的座位給你。",
+        "context": "請填本課單字：提供。",
+        "explanation": "We can offer you a seat by the window. 我們可以提供靠窗的座位給你。"
+      },
+      {
+        "id": "offer-3",
+        "target": "offer",
+        "answer": "offer",
+        "sentence": "Please ____ Grandma some fruit.",
+        "translation": "請拿些水果招待奶奶。",
+        "context": "請填本課單字：提供。",
+        "explanation": "Please offer Grandma some fruit. 請拿些水果招待奶奶。"
+      },
+      {
+        "id": "would-1",
+        "target": "would",
+        "answer": "would",
+        "sentence": "I ____ like a sandwich, please.",
+        "translation": "我想要一份三明治，麻煩你。",
+        "context": "請填本課單字：想……。",
+        "explanation": "I would like a sandwich, please. 我想要一份三明治，麻煩你。"
+      },
+      {
+        "id": "would-2",
+        "target": "would",
+        "answer": "would",
+        "sentence": "What ____ you like to drink?",
+        "translation": "你想喝什麼？",
+        "context": "請填本課單字：想……。",
+        "explanation": "What would you like to drink? 你想喝什麼？"
+      },
+      {
+        "id": "would-3",
+        "target": "would",
+        "answer": "would",
+        "sentence": "She ____ like some tea with her cake.",
+        "translation": "她想要一些茶搭配蛋糕。",
+        "context": "請填本課單字：想……。",
+        "explanation": "She would like some tea with her cake. 她想要一些茶搭配蛋糕。"
+      },
+      {
+        "id": "cup-1",
+        "target": "cup",
+        "answer": "cup",
+        "sentence": "This ____ of tea has a handle and a matching saucer.",
+        "translation": "這杯茶的茶杯有把手和配套的茶碟。",
+        "context": "請填本課單字：茶杯。",
+        "explanation": "This cup of tea has a handle and a matching saucer. 這杯茶的茶杯有把手和配套的茶碟。"
+      },
+      {
+        "id": "cup-2",
+        "target": "cup",
+        "answer": "cup",
+        "sentence": "Put the tea ____ on its saucer.",
+        "translation": "把茶杯放在它的茶碟上。",
+        "context": "請填本課單字：茶杯。",
+        "explanation": "Put the tea cup on its saucer. 把茶杯放在它的茶碟上。"
+      },
+      {
+        "id": "cup-3",
+        "target": "cup",
+        "answer": "cup",
+        "sentence": "Grandpa drinks from a small china ____.",
+        "translation": "爺爺用小瓷茶杯喝東西。",
+        "context": "請填本課單字：茶杯。",
+        "explanation": "Grandpa drinks from a small china cup. 爺爺用小瓷茶杯喝東西。"
+      },
+      {
+        "id": "glass-1",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "Pour the juice into this drinking ____.",
+        "translation": "把果汁倒進這個玻璃杯。",
+        "context": "請填本課單字：玻璃杯。",
+        "explanation": "Pour the juice into this drinking glass. 把果汁倒進這個玻璃杯。"
+      },
+      {
+        "id": "glass-2",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "I can see the milk through the clear ____.",
+        "translation": "我能透過透明玻璃杯看到牛奶。",
+        "context": "請填本課單字：玻璃杯。",
+        "explanation": "I can see the milk through the clear glass. 我能透過透明玻璃杯看到牛奶。"
+      },
+      {
+        "id": "glass-3",
+        "target": "glass",
+        "answer": "glass",
+        "sentence": "She put a ____ of lemonade on the table.",
+        "translation": "她在桌上放了一玻璃杯檸檬水。",
+        "context": "請填本課單字：玻璃杯。",
+        "explanation": "She put a glass of lemonade on the table. 她在桌上放了一玻璃杯檸檬水。"
+      },
+      {
+        "id": "can-1",
+        "target": "can",
+        "answer": "can",
+        "sentence": "He opened a metal ____ of soda.",
+        "translation": "他打開一罐金屬罐裝汽水。",
+        "context": "請填本課單字：罐。",
+        "explanation": "He opened a metal can of soda. 他打開一罐金屬罐裝汽水。"
+      },
+      {
+        "id": "can-2",
+        "target": "can",
+        "answer": "can",
+        "sentence": "Please recycle this empty aluminum ____.",
+        "translation": "請回收這個空鋁罐。",
+        "context": "請填本課單字：罐。",
+        "explanation": "Please recycle this empty aluminum can. 請回收這個空鋁罐。"
+      },
+      {
+        "id": "can-3",
+        "target": "can",
+        "answer": "can",
+        "sentence": "There is one ____ of cola in the fridge.",
+        "translation": "冰箱裡有一罐可樂。",
+        "context": "請填本課單字：罐。",
+        "explanation": "There is one can of cola in the fridge. 冰箱裡有一罐可樂。"
+      },
+      {
+        "id": "bag-1",
+        "target": "bag",
+        "answer": "bag",
+        "sentence": "I carry my books in a school ____.",
+        "translation": "我用書包帶課本。",
+        "context": "請填本課單字：包，袋。",
+        "explanation": "I carry my books in a school bag. 我用書包帶課本。"
+      },
+      {
+        "id": "bag-2",
+        "target": "bag",
+        "answer": "bag",
+        "sentence": "Put the apples in this paper ____.",
+        "translation": "把蘋果放進這個紙袋。",
+        "context": "請填本課單字：包，袋。",
+        "explanation": "Put the apples in this paper bag. 把蘋果放進這個紙袋。"
+      },
+      {
+        "id": "bag-3",
+        "target": "bag",
+        "answer": "bag",
+        "sentence": "She bought a ____ of rice at the store.",
+        "translation": "她在商店買了一袋米。",
+        "context": "請填本課單字：包，袋。",
+        "explanation": "She bought a bag of rice at the store. 她在商店買了一袋米。"
+      },
+      {
+        "id": "bottle-1",
+        "target": "bottle",
+        "answer": "bottle",
+        "sentence": "Screw the cap back onto the water ____.",
+        "translation": "把瓶蓋旋回水瓶上。",
+        "context": "請填本課單字：瓶。",
+        "explanation": "Screw the cap back onto the water bottle. 把瓶蓋旋回水瓶上。"
+      },
+      {
+        "id": "bottle-2",
+        "target": "bottle",
+        "answer": "bottle",
+        "sentence": "Take a ____ of water on the walk.",
+        "translation": "散步時帶一瓶水。",
+        "context": "請填本課單字：瓶。",
+        "explanation": "Take a bottle of water on the walk. 散步時帶一瓶水。"
+      },
+      {
+        "id": "bottle-3",
+        "target": "bottle",
+        "answer": "bottle",
+        "sentence": "This glass ____ has a narrow neck and a cap.",
+        "translation": "這個玻璃瓶有狹窄的瓶頸和瓶蓋。",
+        "context": "請填本課單字：瓶。",
+        "explanation": "This glass bottle has a narrow neck and a cap. 這個玻璃瓶有狹窄的瓶頸和瓶蓋。"
+      },
+      {
+        "id": "water-1",
+        "target": "water",
+        "answer": "water",
+        "sentence": "I fill my bottle with drinking ____.",
+        "translation": "我把飲用水裝進瓶子裡。",
+        "context": "請填本課單字：水。",
+        "explanation": "I fill my bottle with drinking water. 我把飲用水裝進瓶子裡。"
+      },
+      {
+        "id": "water-2",
+        "target": "water",
+        "answer": "water",
+        "sentence": "Please give the thirsty dog some ____.",
+        "translation": "請給口渴的狗一些水。",
+        "context": "請填本課單字：水。",
+        "explanation": "Please give the thirsty dog some water. 請給口渴的狗一些水。"
+      },
+      {
+        "id": "water-3",
+        "target": "water",
+        "answer": "water",
+        "sentence": "We use clean ____ to wash fruit.",
+        "translation": "我們用乾淨的水洗水果。",
+        "context": "請填本課單字：水。",
+        "explanation": "We use clean water to wash fruit. 我們用乾淨的水洗水果。"
+      },
+      {
+        "id": "piece-1",
+        "target": "piece",
+        "answer": "piece",
+        "sentence": "Would you like a ____ of cake?",
+        "translation": "你想要一片蛋糕嗎？",
+        "context": "請填本課單字：片。",
+        "explanation": "Would you like a piece of cake? 你想要一片蛋糕嗎？"
+      },
+      {
+        "id": "piece-2",
+        "target": "piece",
+        "answer": "piece",
+        "sentence": "I cut a small ____ of pizza for my sister.",
+        "translation": "我切了一小片披薩給妹妹。",
+        "context": "請填本課單字：片。",
+        "explanation": "I cut a small piece of pizza for my sister. 我切了一小片披薩給妹妹。"
+      },
+      {
+        "id": "piece-3",
+        "target": "piece",
+        "answer": "piece",
+        "sentence": "There is one ____ of bread left on the plate.",
+        "translation": "盤子裡還剩一片麵包。",
+        "context": "請填本課單字：片。",
+        "explanation": "There is one piece of bread left on the plate. 盤子裡還剩一片麵包。"
+      },
+      {
+        "id": "cake-1",
+        "target": "cake",
+        "answer": "cake",
+        "sentence": "We put candles on the birthday ____.",
+        "translation": "我們把蠟燭放在生日蛋糕上。",
+        "context": "請填本課單字：蛋糕。",
+        "explanation": "We put candles on the birthday cake. 我們把蠟燭放在生日蛋糕上。"
+      },
+      {
+        "id": "cake-2",
+        "target": "cake",
+        "answer": "cake",
+        "sentence": "Dad baked a chocolate ____ for the party.",
+        "translation": "爸爸為派對烤了一個巧克力蛋糕。",
+        "context": "請填本課單字：蛋糕。",
+        "explanation": "Dad baked a chocolate cake for the party. 爸爸為派對烤了一個巧克力蛋糕。"
+      },
+      {
+        "id": "cake-3",
+        "target": "cake",
+        "answer": "cake",
+        "sentence": "Would you like some ____ with your tea?",
+        "translation": "你想要一些蛋糕配茶嗎？",
+        "context": "請填本課單字：蛋糕。",
+        "explanation": "Would you like some cake with your tea? 你想要一些蛋糕配茶嗎？"
+      },
+      {
+        "id": "sugar-1",
+        "target": "sugar",
+        "answer": "sugar",
+        "sentence": "Add a spoonful of ____ to make the tea sweet.",
+        "translation": "加一匙糖讓茶變甜。",
+        "context": "請填本課單字：糖。",
+        "explanation": "Add a spoonful of sugar to make the tea sweet. 加一匙糖讓茶變甜。"
+      },
+      {
+        "id": "sugar-2",
+        "target": "sugar",
+        "answer": "sugar",
+        "sentence": "This coffee has no ____ in it.",
+        "translation": "這杯咖啡裡沒有糖。",
+        "context": "請填本課單字：糖。",
+        "explanation": "This coffee has no sugar in it. 這杯咖啡裡沒有糖。"
+      },
+      {
+        "id": "sugar-3",
+        "target": "sugar",
+        "answer": "sugar",
+        "sentence": "We need flour, eggs, and ____ to bake the cake.",
+        "translation": "我們需要麵粉、蛋和糖來烤蛋糕。",
+        "context": "請填本課單字：糖。",
+        "explanation": "We need flour, eggs, and sugar to bake the cake. 我們需要麵粉、蛋和糖來烤蛋糕。"
+      },
+      {
+        "id": "house-1",
+        "target": "house",
+        "answer": "house",
+        "sentence": "Our ____ has a red roof and a garden.",
+        "translation": "我們的房子有紅色屋頂和花園。",
+        "context": "請填本課單字：房子。",
+        "explanation": "Our house has a red roof and a garden. 我們的房子有紅色屋頂和花園。"
+      },
+      {
+        "id": "house-2",
+        "target": "house",
+        "answer": "house",
+        "sentence": "The family lives in a two-story ____.",
+        "translation": "這一家人住在一棟兩層樓的房子裡。",
+        "context": "請填本課單字：房子。",
+        "explanation": "The family lives in a two-story house. 這一家人住在一棟兩層樓的房子裡。"
+      },
+      {
+        "id": "house-3",
+        "target": "house",
+        "answer": "house",
+        "sentence": "There is a small ____ beside the river.",
+        "translation": "河邊有一棟小房子。",
+        "context": "請填本課單字：房子。",
+        "explanation": "There is a small house beside the river. 河邊有一棟小房子。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
