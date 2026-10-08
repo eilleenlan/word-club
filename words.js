@@ -3002,6 +3002,152 @@ globalThis.WORD_UNITS = [
       "房子"
     ]
   ]
+},
+{
+  "grade": 4,
+  "id": "u7",
+  "number": "07",
+  "title": "最喜歡的科目",
+  "subtitle": "subject, Chinese, social studies…",
+  "words": [
+    [
+      "subject",
+      "科目"
+    ],
+    [
+      "grade",
+      "年級"
+    ],
+    [
+      "favorite",
+      "最喜歡的"
+    ],
+    [
+      "math",
+      "數學"
+    ],
+    [
+      "class",
+      "班級，課堂"
+    ],
+    [
+      "science",
+      "科學"
+    ],
+    [
+      "music",
+      "音樂"
+    ],
+    [
+      "history",
+      "歷史"
+    ],
+    [
+      "health",
+      "健康教育"
+    ],
+    [
+      "art",
+      "美勞，藝術"
+    ],
+    [
+      "Chinese",
+      "中文"
+    ],
+    [
+      "social studies",
+      "社會"
+    ],
+    [
+      "English",
+      "英文"
+    ],
+    [
+      "semester",
+      "學期"
+    ],
+    [
+      "best",
+      "最好的"
+    ]
+  ]
+},
+{
+  "grade": 4,
+  "id": "u8",
+  "number": "08",
+  "title": "在餐廳用餐",
+  "subtitle": "order, ordered, menu, bill…",
+  "words": [
+    [
+      "allergic to",
+      "對……過敏"
+    ],
+    [
+      "anything",
+      "任何東西"
+    ],
+    [
+      "order",
+      "點菜"
+    ],
+    [
+      "ordered",
+      "點菜（過去式）"
+    ],
+    [
+      "menu",
+      "菜單"
+    ],
+    [
+      "food",
+      "食物"
+    ],
+    [
+      "bill",
+      "帳單"
+    ],
+    [
+      "spicy",
+      "辣的"
+    ],
+    [
+      "pork",
+      "豬肉"
+    ],
+    [
+      "chicken",
+      "雞肉"
+    ],
+    [
+      "something",
+      "某事物"
+    ],
+    [
+      "someone",
+      "某人（以 one 結尾）"
+    ],
+    [
+      "somebody",
+      "某人（以 body 結尾）"
+    ],
+    [
+      "anyone",
+      "任何人（以 one 結尾）"
+    ],
+    [
+      "anybody",
+      "任何人（以 body 結尾）"
+    ],
+    [
+      "drink",
+      "喝"
+    ],
+    [
+      "drank",
+      "喝（過去式）"
+    ]
+  ]
 }
 ];
 

@@ -22052,6 +22052,898 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "There is a small house beside the river. 河邊有一棟小房子。"
       }
     ]
+  },
+  {
+    "id": "g4-u7-v1",
+    "grade": 4,
+    "unit": 7,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "最喜歡的科目",
+    "description": "15 個單字與形式，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的四年級 U7 單字表與單字 worksheet新編，非原卷。",
+    "questions": [
+      {
+        "id": "subject-1",
+        "target": "subject",
+        "answer": "subject",
+        "sentence": "What is your favorite ____ at school?",
+        "translation": "你在學校最喜歡的科目是什麼？",
+        "context": "請填本課單字或片語：科目。",
+        "explanation": "What is your favorite subject at school? 你在學校最喜歡的科目是什麼？"
+      },
+      {
+        "id": "subject-2",
+        "target": "subject",
+        "answer": "subject",
+        "sentence": "Math is the ____ I enjoy most.",
+        "translation": "數學是我最喜歡的科目。",
+        "context": "請填本課單字或片語：科目。",
+        "explanation": "Math is the subject I enjoy most. 數學是我最喜歡的科目。"
+      },
+      {
+        "id": "subject-3",
+        "target": "subject",
+        "answer": "subject",
+        "sentence": "We study a different ____ after lunch.",
+        "translation": "午餐後我們學習另一個科目。",
+        "context": "請填本課單字或片語：科目。",
+        "explanation": "We study a different subject after lunch. 午餐後我們學習另一個科目。"
+      },
+      {
+        "id": "grade-1",
+        "target": "grade",
+        "answer": "grade",
+        "sentence": "My sister is in third ____.",
+        "translation": "我妹妹讀三年級。",
+        "context": "請填本課單字或片語：年級。",
+        "explanation": "My sister is in third grade. 我妹妹讀三年級。"
+      },
+      {
+        "id": "grade-2",
+        "target": "grade",
+        "answer": "grade",
+        "sentence": "What ____ are you in this year?",
+        "translation": "你今年讀幾年級？",
+        "context": "請填本課單字或片語：年級。",
+        "explanation": "What grade are you in this year? 你今年讀幾年級？"
+      },
+      {
+        "id": "grade-3",
+        "target": "grade",
+        "answer": "grade",
+        "sentence": "Students in fourth ____ use this book.",
+        "translation": "四年級學生使用這本書。",
+        "context": "請填本課單字或片語：年級。",
+        "explanation": "Students in fourth grade use this book. 四年級學生使用這本書。"
+      },
+      {
+        "id": "favorite-1",
+        "target": "favorite",
+        "answer": "favorite",
+        "sentence": "Blue is my ____ color.",
+        "translation": "藍色是我最喜歡的顏色。",
+        "context": "請填本課單字或片語：最喜歡的。",
+        "explanation": "Blue is my favorite color. 藍色是我最喜歡的顏色。"
+      },
+      {
+        "id": "favorite-2",
+        "target": "favorite",
+        "answer": "favorite",
+        "sentence": "What is your ____ school subject?",
+        "translation": "你最喜歡的學校科目是什麼？",
+        "context": "請填本課單字或片語：最喜歡的。",
+        "explanation": "What is your favorite school subject? 你最喜歡的學校科目是什麼？"
+      },
+      {
+        "id": "favorite-3",
+        "target": "favorite",
+        "answer": "favorite",
+        "sentence": "This is my ____ song. I love it most.",
+        "translation": "這是我最喜歡的歌，我最愛它。",
+        "context": "請填本課單字或片語：最喜歡的。",
+        "explanation": "This is my favorite song. I love it most. 這是我最喜歡的歌，我最愛它。"
+      },
+      {
+        "id": "math-1",
+        "target": "math",
+        "answer": "math",
+        "sentence": "We add and subtract numbers in ____ class.",
+        "translation": "我們在數學課做加減運算。",
+        "context": "請填本課單字或片語：數學。",
+        "explanation": "We add and subtract numbers in math class. 我們在數學課做加減運算。"
+      },
+      {
+        "id": "math-2",
+        "target": "math",
+        "answer": "math",
+        "sentence": "I solve number problems in ____.",
+        "translation": "我在數學課解數字題。",
+        "context": "請填本課單字或片語：數學。",
+        "explanation": "I solve number problems in math. 我在數學課解數字題。"
+      },
+      {
+        "id": "math-3",
+        "target": "math",
+        "answer": "math",
+        "sentence": "Our ____ teacher shows us how to multiply.",
+        "translation": "我們的數學老師教我們如何做乘法。",
+        "context": "請填本課單字或片語：數學。",
+        "explanation": "Our math teacher shows us how to multiply. 我們的數學老師教我們如何做乘法。"
+      },
+      {
+        "id": "class-1",
+        "target": "class",
+        "answer": "class",
+        "sentence": "There are twenty students in our ____.",
+        "translation": "我們班有二十位學生。",
+        "context": "請填本課單字或片語：班級，課堂。",
+        "explanation": "There are twenty students in our class. 我們班有二十位學生。"
+      },
+      {
+        "id": "class-2",
+        "target": "class",
+        "answer": "class",
+        "sentence": "Our English ____ starts at nine.",
+        "translation": "我們的英文課九點開始。",
+        "context": "請填本課單字或片語：班級，課堂。",
+        "explanation": "Our English class starts at nine. 我們的英文課九點開始。"
+      },
+      {
+        "id": "class-3",
+        "target": "class",
+        "answer": "class",
+        "sentence": "Please listen to the teacher during ____.",
+        "translation": "上課時請聽老師說話。",
+        "context": "請填本課單字或片語：班級，課堂。",
+        "explanation": "Please listen to the teacher during class. 上課時請聽老師說話。"
+      },
+      {
+        "id": "science-1",
+        "target": "science",
+        "answer": "science",
+        "sentence": "We do experiments in ____ class.",
+        "translation": "我們在科學課做實驗。",
+        "context": "請填本課單字或片語：科學。",
+        "explanation": "We do experiments in science class. 我們在科學課做實驗。"
+      },
+      {
+        "id": "science-2",
+        "target": "science",
+        "answer": "science",
+        "sentence": "Our ____ teacher explains how plants grow.",
+        "translation": "我們的科學老師解釋植物如何生長。",
+        "context": "請填本課單字或片語：科學。",
+        "explanation": "Our science teacher explains how plants grow. 我們的科學老師解釋植物如何生長。"
+      },
+      {
+        "id": "science-3",
+        "target": "science",
+        "answer": "science",
+        "sentence": "I learn about magnets in ____.",
+        "translation": "我在科學課學習磁鐵的知識。",
+        "context": "請填本課單字或片語：科學。",
+        "explanation": "I learn about magnets in science. 我在科學課學習磁鐵的知識。"
+      },
+      {
+        "id": "music-1",
+        "target": "music",
+        "answer": "music",
+        "sentence": "We sing and play instruments in ____ class.",
+        "translation": "我們在音樂課唱歌和演奏樂器。",
+        "context": "請填本課單字或片語：音樂。",
+        "explanation": "We sing and play instruments in music class. 我們在音樂課唱歌和演奏樂器。"
+      },
+      {
+        "id": "music-2",
+        "target": "music",
+        "answer": "music",
+        "sentence": "Our ____ teacher plays the piano.",
+        "translation": "我們的音樂老師彈鋼琴。",
+        "context": "請填本課單字或片語：音樂。",
+        "explanation": "Our music teacher plays the piano. 我們的音樂老師彈鋼琴。"
+      },
+      {
+        "id": "music-3",
+        "target": "music",
+        "answer": "music",
+        "sentence": "I enjoy listening to ____ after school.",
+        "translation": "我喜歡放學後聽音樂。",
+        "context": "請填本課單字或片語：音樂。",
+        "explanation": "I enjoy listening to music after school. 我喜歡放學後聽音樂。"
+      },
+      {
+        "id": "history-1",
+        "target": "history",
+        "answer": "history",
+        "sentence": "We study events from long ago in ____.",
+        "translation": "我們在歷史課學習很久以前的事件。",
+        "context": "請填本課單字或片語：歷史。",
+        "explanation": "We study events from long ago in history. 我們在歷史課學習很久以前的事件。"
+      },
+      {
+        "id": "history-2",
+        "target": "history",
+        "answer": "history",
+        "sentence": "Our ____ book tells stories about the past.",
+        "translation": "我們的歷史課本講述過去的故事。",
+        "context": "請填本課單字或片語：歷史。",
+        "explanation": "Our history book tells stories about the past. 我們的歷史課本講述過去的故事。"
+      },
+      {
+        "id": "history-3",
+        "target": "history",
+        "answer": "history",
+        "sentence": "I enjoy learning about ancient cities in ____ class.",
+        "translation": "我喜歡在歷史課學習古代城市。",
+        "context": "請填本課單字或片語：歷史。",
+        "explanation": "I enjoy learning about ancient cities in history class. 我喜歡在歷史課學習古代城市。"
+      },
+      {
+        "id": "health-1",
+        "target": "health",
+        "answer": "health",
+        "sentence": "We learn about caring for our bodies in ____ class.",
+        "translation": "我們在健康教育課學習照顧身體。",
+        "context": "請填本課單字或片語：健康教育。",
+        "explanation": "We learn about caring for our bodies in health class. 我們在健康教育課學習照顧身體。"
+      },
+      {
+        "id": "health-2",
+        "target": "health",
+        "answer": "health",
+        "sentence": "Our ____ lesson is about good eating habits.",
+        "translation": "我們的健康教育課在教良好的飲食習慣。",
+        "context": "請填本課單字或片語：健康教育。",
+        "explanation": "Our health lesson is about good eating habits. 我們的健康教育課在教良好的飲食習慣。"
+      },
+      {
+        "id": "health-3",
+        "target": "health",
+        "answer": "health",
+        "sentence": "Today we discuss sleep habits in ____ class.",
+        "translation": "今天我們在健康教育課討論睡眠習慣。",
+        "context": "請填本課單字或片語：健康教育。",
+        "explanation": "Today we discuss sleep habits in health class. 今天我們在健康教育課討論睡眠習慣。"
+      },
+      {
+        "id": "art-1",
+        "target": "art",
+        "answer": "art",
+        "sentence": "We paint pictures in ____ class.",
+        "translation": "我們在美術課畫畫。",
+        "context": "請填本課單字或片語：美勞，藝術。",
+        "explanation": "We paint pictures in art class. 我們在美術課畫畫。"
+      },
+      {
+        "id": "art-2",
+        "target": "art",
+        "answer": "art",
+        "sentence": "Our ____ teacher shows us how to mix colors.",
+        "translation": "我們的美術老師教我們如何調色。",
+        "context": "請填本課單字或片語：美勞，藝術。",
+        "explanation": "Our art teacher shows us how to mix colors. 我們的美術老師教我們如何調色。"
+      },
+      {
+        "id": "art-3",
+        "target": "art",
+        "answer": "art",
+        "sentence": "I make a clay bowl in ____ class.",
+        "translation": "我在美勞課做一個陶土碗。",
+        "context": "請填本課單字或片語：美勞，藝術。",
+        "explanation": "I make a clay bowl in art class. 我在美勞課做一個陶土碗。"
+      },
+      {
+        "id": "chinese-1",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "We practice writing ____ characters.",
+        "translation": "我們練習寫中文字。",
+        "context": "請填本課單字或片語：中文。",
+        "explanation": "We practice writing Chinese characters. 我們練習寫中文字。"
+      },
+      {
+        "id": "chinese-2",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "She reads a poem in ____ class.",
+        "translation": "她在國文課讀一首中文詩。",
+        "context": "請填本課單字或片語：中文。",
+        "explanation": "She reads a poem in Chinese class. 她在國文課讀一首中文詩。"
+      },
+      {
+        "id": "chinese-3",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "This story is written in ____.",
+        "translation": "這篇故事是用中文寫的。",
+        "context": "請填本課單字或片語：中文。",
+        "explanation": "This story is written in Chinese. 這篇故事是用中文寫的。"
+      },
+      {
+        "id": "social-studies-1",
+        "target": "social studies",
+        "answer": "social studies",
+        "sentence": "We learn about communities in ____.",
+        "translation": "我們在社會課學習社區的知識。",
+        "context": "請填本課單字或片語：社會。",
+        "explanation": "We learn about communities in social studies. 我們在社會課學習社區的知識。"
+      },
+      {
+        "id": "social-studies-2",
+        "target": "social studies",
+        "answer": "social studies",
+        "sentence": "Our ____ lesson is about life in different places.",
+        "translation": "我們的社會課介紹不同地方的生活。",
+        "context": "請填本課單字或片語：社會。",
+        "explanation": "Our social studies lesson is about life in different places. 我們的社會課介紹不同地方的生活。"
+      },
+      {
+        "id": "social-studies-3",
+        "target": "social studies",
+        "answer": "social studies",
+        "sentence": "We discuss local traditions in ____ class.",
+        "translation": "我們在社會課討論地方傳統。",
+        "context": "請填本課單字或片語：社會。",
+        "explanation": "We discuss local traditions in social studies class. 我們在社會課討論地方傳統。"
+      },
+      {
+        "id": "english-1",
+        "target": "English",
+        "answer": "English",
+        "sentence": "We practice saying hello in ____ class.",
+        "translation": "我們在英文課練習用英文打招呼。",
+        "context": "請填本課單字或片語：英文。",
+        "explanation": "We practice saying hello in English class. 我們在英文課練習用英文打招呼。"
+      },
+      {
+        "id": "english-2",
+        "target": "English",
+        "answer": "English",
+        "sentence": "This book teaches us ____ words.",
+        "translation": "這本書教我們英文單字。",
+        "context": "請填本課單字或片語：英文。",
+        "explanation": "This book teaches us English words. 這本書教我們英文單字。"
+      },
+      {
+        "id": "english-3",
+        "target": "English",
+        "answer": "English",
+        "sentence": "She writes a short story in ____.",
+        "translation": "她用英文寫一篇短篇故事。",
+        "context": "請填本課單字或片語：英文。",
+        "explanation": "She writes a short story in English. 她用英文寫一篇短篇故事。"
+      },
+      {
+        "id": "semester-1",
+        "target": "semester",
+        "answer": "semester",
+        "sentence": "A new ____ begins after the winter vacation.",
+        "translation": "寒假後新學期開始。",
+        "context": "請填本課單字或片語：學期。",
+        "explanation": "A new semester begins after the winter vacation. 寒假後新學期開始。"
+      },
+      {
+        "id": "semester-2",
+        "target": "semester",
+        "answer": "semester",
+        "sentence": "We have many projects this ____.",
+        "translation": "我們這學期有很多專題作業。",
+        "context": "請填本課單字或片語：學期。",
+        "explanation": "We have many projects this semester. 我們這學期有很多專題作業。"
+      },
+      {
+        "id": "semester-3",
+        "target": "semester",
+        "answer": "semester",
+        "sentence": "The school year has a first and a second ____.",
+        "translation": "一學年有第一學期和第二學期。",
+        "context": "請填本課單字或片語：學期。",
+        "explanation": "The school year has a first and a second semester. 一學年有第一學期和第二學期。"
+      },
+      {
+        "id": "best-1",
+        "target": "best",
+        "answer": "best",
+        "sentence": "Which subject do you like the ____?",
+        "translation": "你最喜歡哪個科目？",
+        "context": "請填本課單字或片語：最好的。",
+        "explanation": "Which subject do you like the best? 你最喜歡哪個科目？"
+      },
+      {
+        "id": "best-2",
+        "target": "best",
+        "answer": "best",
+        "sentence": "I will do my ____ on the test.",
+        "translation": "我會在考試中盡最大的努力。",
+        "context": "請填本課單字或片語：最好的。",
+        "explanation": "I will do my best on the test. 我會在考試中盡最大的努力。"
+      },
+      {
+        "id": "best-3",
+        "target": "best",
+        "answer": "best",
+        "sentence": "This is the ____ drawing in the show.",
+        "translation": "這是展覽中最好的畫。",
+        "context": "請填本課單字或片語：最好的。",
+        "explanation": "This is the best drawing in the show. 這是展覽中最好的畫。"
+      }
+    ]
+  },
+  {
+    "id": "g4-u8-v1",
+    "grade": 4,
+    "unit": 8,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "在餐廳用餐",
+    "description": "17 個單字與形式，各 3 種新編情境，共 51 題填空拼字。",
+    "source": "依家長提供的四年級 U8 單字表與Quiz新編，非原卷。",
+    "questions": [
+      {
+        "id": "allergic-to-1",
+        "target": "allergic to",
+        "answer": "allergic to",
+        "sentence": "She is ____ peanuts, so she tells the waiter.",
+        "translation": "她對花生過敏，所以告訴服務生。",
+        "context": "請填本課單字或片語：對……過敏。",
+        "explanation": "She is allergic to peanuts, so she tells the waiter. 她對花生過敏，所以告訴服務生。"
+      },
+      {
+        "id": "allergic-to-2",
+        "target": "allergic to",
+        "answer": "allergic to",
+        "sentence": "Are you ____ any foods?",
+        "translation": "你對任何食物過敏嗎？",
+        "context": "請填本課單字或片語：對……過敏。",
+        "explanation": "Are you allergic to any foods? 你對任何食物過敏嗎？"
+      },
+      {
+        "id": "allergic-to-3",
+        "target": "allergic to",
+        "answer": "allergic to",
+        "sentence": "He is ____ eggs and asks about the ingredients.",
+        "translation": "他對蛋過敏，並詢問食材。",
+        "context": "請填本課單字或片語：對……過敏。",
+        "explanation": "He is allergic to eggs and asks about the ingredients. 他對蛋過敏，並詢問食材。"
+      },
+      {
+        "id": "anything-1",
+        "target": "anything",
+        "answer": "anything",
+        "sentence": "I did not order ____ for dessert.",
+        "translation": "我沒有點任何甜點。",
+        "context": "請填本課單字或片語：任何東西。",
+        "explanation": "I did not order anything for dessert. 我沒有點任何甜點。"
+      },
+      {
+        "id": "anything-2",
+        "target": "anything",
+        "answer": "anything",
+        "sentence": "Is there ____ you do not eat?",
+        "translation": "有任何你不吃的東西嗎？",
+        "context": "請填本課單字或片語：任何東西。",
+        "explanation": "Is there anything you do not eat? 有任何你不吃的東西嗎？"
+      },
+      {
+        "id": "anything-3",
+        "target": "anything",
+        "answer": "anything",
+        "sentence": "We cannot find ____ on the empty plate.",
+        "translation": "我們在空盤子上找不到任何東西。",
+        "context": "請填本課單字或片語：任何東西。",
+        "explanation": "We cannot find anything on the empty plate. 我們在空盤子上找不到任何東西。"
+      },
+      {
+        "id": "order-1",
+        "target": "order",
+        "answer": "order",
+        "sentence": "May I ____ some noodles, please?",
+        "translation": "請問我可以點些麵嗎？",
+        "context": "請填本課單字或片語：點菜。",
+        "explanation": "May I order some noodles, please? 請問我可以點些麵嗎？"
+      },
+      {
+        "id": "order-2",
+        "target": "order",
+        "answer": "order",
+        "sentence": "Which dish would you like to ____?",
+        "translation": "你想點哪一道菜？",
+        "context": "請填本課單字或片語：點菜。",
+        "explanation": "Which dish would you like to order? 你想點哪一道菜？"
+      },
+      {
+        "id": "order-3",
+        "target": "order",
+        "answer": "order",
+        "sentence": "We usually ____ rice at this restaurant.",
+        "translation": "我們通常在這家餐廳點飯。",
+        "context": "請填本課單字或片語：點菜。",
+        "explanation": "We usually order rice at this restaurant. 我們通常在這家餐廳點飯。"
+      },
+      {
+        "id": "ordered-1",
+        "target": "ordered",
+        "answer": "ordered",
+        "sentence": "We ____ soup at the restaurant yesterday.",
+        "translation": "我們昨天在餐廳點了湯。",
+        "context": "請填本課單字或片語：點菜（過去式）。",
+        "explanation": "We ordered soup at the restaurant yesterday. 我們昨天在餐廳點了湯。"
+      },
+      {
+        "id": "ordered-2",
+        "target": "ordered",
+        "answer": "ordered",
+        "sentence": "She ____ a salad last night.",
+        "translation": "她昨晚點了一份沙拉。",
+        "context": "請填本課單字或片語：點菜（過去式）。",
+        "explanation": "She ordered a salad last night. 她昨晚點了一份沙拉。"
+      },
+      {
+        "id": "ordered-3",
+        "target": "ordered",
+        "answer": "ordered",
+        "sentence": "He ____ lunch an hour ago.",
+        "translation": "他一小時前點了午餐。",
+        "context": "請填本課單字或片語：點菜（過去式）。",
+        "explanation": "He ordered lunch an hour ago. 他一小時前點了午餐。"
+      },
+      {
+        "id": "menu-1",
+        "target": "menu",
+        "answer": "menu",
+        "sentence": "The waiter brings us a ____ to read.",
+        "translation": "服務生拿菜單給我們看。",
+        "context": "請填本課單字或片語：菜單。",
+        "explanation": "The waiter brings us a menu to read. 服務生拿菜單給我們看。"
+      },
+      {
+        "id": "menu-2",
+        "target": "menu",
+        "answer": "menu",
+        "sentence": "Look at the prices on the ____.",
+        "translation": "看看菜單上的價格。",
+        "context": "請填本課單字或片語：菜單。",
+        "explanation": "Look at the prices on the menu. 看看菜單上的價格。"
+      },
+      {
+        "id": "menu-3",
+        "target": "menu",
+        "answer": "menu",
+        "sentence": "This ____ lists noodles, rice, and soup.",
+        "translation": "這份菜單列有麵、飯和湯。",
+        "context": "請填本課單字或片語：菜單。",
+        "explanation": "This menu lists noodles, rice, and soup. 這份菜單列有麵、飯和湯。"
+      },
+      {
+        "id": "food-1",
+        "target": "food",
+        "answer": "food",
+        "sentence": "The restaurant serves delicious ____.",
+        "translation": "這家餐廳供應美味的食物。",
+        "context": "請填本課單字或片語：食物。",
+        "explanation": "The restaurant serves delicious food. 這家餐廳供應美味的食物。"
+      },
+      {
+        "id": "food-2",
+        "target": "food",
+        "answer": "food",
+        "sentence": "Please put the leftover ____ in a box.",
+        "translation": "請把剩下的食物放進盒子。",
+        "context": "請填本課單字或片語：食物。",
+        "explanation": "Please put the leftover food in a box. 請把剩下的食物放進盒子。"
+      },
+      {
+        "id": "food-3",
+        "target": "food",
+        "answer": "food",
+        "sentence": "What kind of ____ do you like?",
+        "translation": "你喜歡哪一種食物？",
+        "context": "請填本課單字或片語：食物。",
+        "explanation": "What kind of food do you like? 你喜歡哪一種食物？"
+      },
+      {
+        "id": "bill-1",
+        "target": "bill",
+        "answer": "bill",
+        "sentence": "May we have the ____, please? We are ready to pay.",
+        "translation": "請給我們帳單，我們準備結帳了。",
+        "context": "請填本課單字或片語：帳單。",
+        "explanation": "May we have the bill, please? We are ready to pay. 請給我們帳單，我們準備結帳了。"
+      },
+      {
+        "id": "bill-2",
+        "target": "bill",
+        "answer": "bill",
+        "sentence": "Dad pays the ____ after dinner.",
+        "translation": "爸爸晚餐後付帳單。",
+        "context": "請填本課單字或片語：帳單。",
+        "explanation": "Dad pays the bill after dinner. 爸爸晚餐後付帳單。"
+      },
+      {
+        "id": "bill-3",
+        "target": "bill",
+        "answer": "bill",
+        "sentence": "The ____ shows that our meal costs 300 dollars.",
+        "translation": "帳單顯示我們這餐要三百元。",
+        "context": "請填本課單字或片語：帳單。",
+        "explanation": "The bill shows that our meal costs 300 dollars. 帳單顯示我們這餐要三百元。"
+      },
+      {
+        "id": "spicy-1",
+        "target": "spicy",
+        "answer": "spicy",
+        "sentence": "This soup is ____ because it has chili peppers.",
+        "translation": "這碗湯加了辣椒，所以很辣。",
+        "context": "請填本課單字或片語：辣的。",
+        "explanation": "This soup is spicy because it has chili peppers. 這碗湯加了辣椒，所以很辣。"
+      },
+      {
+        "id": "spicy-2",
+        "target": "spicy",
+        "answer": "spicy",
+        "sentence": "I would like mild noodles, not ____ ones.",
+        "translation": "我想要溫和不辣的麵，不要辣的。",
+        "context": "請填本課單字或片語：辣的。",
+        "explanation": "I would like mild noodles, not spicy ones. 我想要溫和不辣的麵，不要辣的。"
+      },
+      {
+        "id": "spicy-3",
+        "target": "spicy",
+        "answer": "spicy",
+        "sentence": "Is the curry ____ or mild?",
+        "translation": "這道咖哩是辣的還是溫和不辣的？",
+        "context": "請填本課單字或片語：辣的。",
+        "explanation": "Is the curry spicy or mild? 這道咖哩是辣的還是溫和不辣的？"
+      },
+      {
+        "id": "pork-1",
+        "target": "pork",
+        "answer": "pork",
+        "sentence": "Meat from pigs is called ____.",
+        "translation": "豬的肉稱為豬肉。",
+        "context": "請填本課單字或片語：豬肉。",
+        "explanation": "Meat from pigs is called pork. 豬的肉稱為豬肉。"
+      },
+      {
+        "id": "pork-2",
+        "target": "pork",
+        "answer": "pork",
+        "sentence": "She orders ____ dumplings made with meat from pigs.",
+        "translation": "她點了用豬肉做的豬肉水餃。",
+        "context": "請填本課單字或片語：豬肉。",
+        "explanation": "She orders pork dumplings made with meat from pigs. 她點了用豬肉做的豬肉水餃。"
+      },
+      {
+        "id": "pork-3",
+        "target": "pork",
+        "answer": "pork",
+        "sentence": "This dish has ____, not beef or chicken.",
+        "translation": "這道菜有豬肉，沒有牛肉或雞肉。",
+        "context": "請填本課單字或片語：豬肉。",
+        "explanation": "This dish has pork, not beef or chicken. 這道菜有豬肉，沒有牛肉或雞肉。"
+      },
+      {
+        "id": "chicken-1",
+        "target": "chicken",
+        "answer": "chicken",
+        "sentence": "I would like some fried ____ for lunch.",
+        "translation": "我午餐想吃炸雞肉。",
+        "context": "請填本課單字或片語：雞肉。",
+        "explanation": "I would like some fried chicken for lunch. 我午餐想吃炸雞肉。"
+      },
+      {
+        "id": "chicken-2",
+        "target": "chicken",
+        "answer": "chicken",
+        "sentence": "This soup is made with ____ meat.",
+        "translation": "這道湯是用雞肉煮的。",
+        "context": "請填本課單字或片語：雞肉。",
+        "explanation": "This soup is made with chicken meat. 這道湯是用雞肉煮的。"
+      },
+      {
+        "id": "chicken-3",
+        "target": "chicken",
+        "answer": "chicken",
+        "sentence": "He chooses ____ nuggets instead of pork dumplings.",
+        "translation": "他選擇雞塊而不是豬肉水餃。",
+        "context": "請填本課單字或片語：雞肉。",
+        "explanation": "He chooses chicken nuggets instead of pork dumplings. 他選擇雞塊而不是豬肉水餃。"
+      },
+      {
+        "id": "something-1",
+        "target": "something",
+        "answer": "something",
+        "sentence": "I am hungry. I want ____ to eat.",
+        "translation": "我餓了，我想吃點東西。",
+        "context": "請填本課單字或片語：某事物。",
+        "explanation": "I am hungry. I want something to eat. 我餓了，我想吃點東西。"
+      },
+      {
+        "id": "something-2",
+        "target": "something",
+        "answer": "something",
+        "sentence": "There is ____ sweet inside this box.",
+        "translation": "這個盒子裡有某種甜的東西。",
+        "context": "請填本課單字或片語：某事物。",
+        "explanation": "There is something sweet inside this box. 這個盒子裡有某種甜的東西。"
+      },
+      {
+        "id": "something-3",
+        "target": "something",
+        "answer": "something",
+        "sentence": "She has ____ to tell the waiter.",
+        "translation": "她有事情要告訴服務生。",
+        "context": "請填本課單字或片語：某事物。",
+        "explanation": "She has something to tell the waiter. 她有事情要告訴服務生。"
+      },
+      {
+        "id": "someone-1",
+        "target": "someone",
+        "answer": "someone",
+        "sentence": "I can hear ____ knocking at the door.",
+        "translation": "我聽見有人敲門。",
+        "context": "請填本課單字或片語：某人（以 one 結尾）。",
+        "explanation": "I can hear someone knocking at the door. 我聽見有人敲門。"
+      },
+      {
+        "id": "someone-2",
+        "target": "someone",
+        "answer": "someone",
+        "sentence": "We met ____ from our school at the cafe.",
+        "translation": "我們在咖啡店遇到學校的某個人。",
+        "context": "請填本課單字或片語：某人（以 one 結尾）。",
+        "explanation": "We met someone from our school at the cafe. 我們在咖啡店遇到學校的某個人。"
+      },
+      {
+        "id": "someone-3",
+        "target": "someone",
+        "answer": "someone",
+        "sentence": "There is ____ waiting for a table.",
+        "translation": "有人正在等座位。",
+        "context": "請填本課單字或片語：某人（以 one 結尾）。",
+        "explanation": "There is someone waiting for a table. 有人正在等座位。"
+      },
+      {
+        "id": "somebody-1",
+        "target": "somebody",
+        "answer": "somebody",
+        "sentence": "I saw ____ carrying a tray of food.",
+        "translation": "我看到有人端著一盤食物。",
+        "context": "請填本課單字或片語：某人（以 body 結尾）。",
+        "explanation": "I saw somebody carrying a tray of food. 我看到有人端著一盤食物。"
+      },
+      {
+        "id": "somebody-2",
+        "target": "somebody",
+        "answer": "somebody",
+        "sentence": "There is ____ standing near the kitchen.",
+        "translation": "有人站在廚房附近。",
+        "context": "請填本課單字或片語：某人（以 body 結尾）。",
+        "explanation": "There is somebody standing near the kitchen. 有人站在廚房附近。"
+      },
+      {
+        "id": "somebody-3",
+        "target": "somebody",
+        "answer": "somebody",
+        "sentence": "We need ____ to help set the table.",
+        "translation": "我們需要有人幫忙擺餐具。",
+        "context": "請填本課單字或片語：某人（以 body 結尾）。",
+        "explanation": "We need somebody to help set the table. 我們需要有人幫忙擺餐具。"
+      },
+      {
+        "id": "anyone-1",
+        "target": "anyone",
+        "answer": "anyone",
+        "sentence": "Did you invite ____ to lunch?",
+        "translation": "你有邀請任何人吃午餐嗎？",
+        "context": "請填本課單字或片語：任何人（以 one 結尾）。",
+        "explanation": "Did you invite anyone to lunch? 你有邀請任何人吃午餐嗎？"
+      },
+      {
+        "id": "anyone-2",
+        "target": "anyone",
+        "answer": "anyone",
+        "sentence": "I do not know ____ in this restaurant.",
+        "translation": "我不認識這家餐廳裡的任何人。",
+        "context": "請填本課單字或片語：任何人（以 one 結尾）。",
+        "explanation": "I do not know anyone in this restaurant. 我不認識這家餐廳裡的任何人。"
+      },
+      {
+        "id": "anyone-3",
+        "target": "anyone",
+        "answer": "anyone",
+        "sentence": "Can ____ tell me where the cafe is?",
+        "translation": "有人能告訴我咖啡店在哪裡嗎？",
+        "context": "請填本課單字或片語：任何人（以 one 結尾）。",
+        "explanation": "Can anyone tell me where the cafe is? 有人能告訴我咖啡店在哪裡嗎？"
+      },
+      {
+        "id": "anybody-1",
+        "target": "anybody",
+        "answer": "anybody",
+        "sentence": "Is ____ sitting in this chair?",
+        "translation": "有人坐這張椅子嗎？",
+        "context": "請填本課單字或片語：任何人（以 body 結尾）。",
+        "explanation": "Is anybody sitting in this chair? 有人坐這張椅子嗎？"
+      },
+      {
+        "id": "anybody-2",
+        "target": "anybody",
+        "answer": "anybody",
+        "sentence": "We did not see ____ at the counter.",
+        "translation": "我們沒有在櫃檯看到任何人。",
+        "context": "請填本課單字或片語：任何人（以 body 結尾）。",
+        "explanation": "We did not see anybody at the counter. 我們沒有在櫃檯看到任何人。"
+      },
+      {
+        "id": "anybody-3",
+        "target": "anybody",
+        "answer": "anybody",
+        "sentence": "Does ____ want more rice?",
+        "translation": "有人想再吃點飯嗎？",
+        "context": "請填本課單字或片語：任何人（以 body 結尾）。",
+        "explanation": "Does anybody want more rice? 有人想再吃點飯嗎？"
+      },
+      {
+        "id": "drink-1",
+        "target": "drink",
+        "answer": "drink",
+        "sentence": "I ____ water with lunch every day.",
+        "translation": "我每天午餐時喝水。",
+        "context": "請填本課單字或片語：喝。",
+        "explanation": "I drink water with lunch every day. 我每天午餐時喝水。"
+      },
+      {
+        "id": "drink-2",
+        "target": "drink",
+        "answer": "drink",
+        "sentence": "What would you like to ____?",
+        "translation": "你想喝什麼？",
+        "context": "請填本課單字或片語：喝。",
+        "explanation": "What would you like to drink? 你想喝什麼？"
+      },
+      {
+        "id": "drink-3",
+        "target": "drink",
+        "answer": "drink",
+        "sentence": "Please ____ your juice before we leave.",
+        "translation": "我們離開前請把果汁喝完。",
+        "context": "請填本課單字或片語：喝。",
+        "explanation": "Please drink your juice before we leave. 我們離開前請把果汁喝完。"
+      },
+      {
+        "id": "drank-1",
+        "target": "drank",
+        "answer": "drank",
+        "sentence": "She ____ a glass of milk yesterday.",
+        "translation": "她昨天喝了一杯牛奶。",
+        "context": "請填本課單字或片語：喝（過去式）。",
+        "explanation": "She drank a glass of milk yesterday. 她昨天喝了一杯牛奶。"
+      },
+      {
+        "id": "drank-2",
+        "target": "drank",
+        "answer": "drank",
+        "sentence": "We ____ tea after dinner last night.",
+        "translation": "我們昨晚晚餐後喝了茶。",
+        "context": "請填本課單字或片語：喝（過去式）。",
+        "explanation": "We drank tea after dinner last night. 我們昨晚晚餐後喝了茶。"
+      },
+      {
+        "id": "drank-3",
+        "target": "drank",
+        "answer": "drank",
+        "sentence": "He ____ his juice ten minutes ago.",
+        "translation": "他十分鐘前喝了果汁。",
+        "context": "請填本課單字或片語：喝（過去式）。",
+        "explanation": "He drank his juice ten minutes ago. 他十分鐘前喝了果汁。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

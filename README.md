@@ -304,3 +304,7 @@ U9 我的家：15 個目標、45 種三選一情境；U10 它在哪裡：13 個�
 ## 四年級 U6：家中來了訪客
 
 加入 15 個單字、15 段教材錄音與 45 種新編填空情境，涵蓋禮貌待客、would like、offer 與容器量詞。can 練習「罐」，help 涵蓋名詞與動詞用法；附中文提示並保留單字自選、綜合、跨年級與情境輪替。錄音位於 audio/grade4/unit6。全站共 46 課、680 個目標、2040 種情境。
+
+## 四年級 U7、U8
+
+U7 參考單字 worksheet：15 個目標、45 種情境，保留 Chinese、English 大寫。U8 參考 Quiz：17 個目標、51 種情境，order／ordered、drink／drank 分開練習；someone／somebody、anyone／anybody 以字尾提示區分。32 段教材錄音位於 audio/grade4/unit7、unit8。支援單字自選、綜合、跨年級及情境輪替。全站共 48 課、712 個目標、2136 種情境。
