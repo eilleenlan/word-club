@@ -19538,6 +19538,425 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Let us put the chairs beside the table. 我們把椅子放在桌子旁吧。"
       }
     ]
+  },
+  {
+    "id": "g3-u6-v1",
+    "grade": 3,
+    "unit": 6,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "一起去購物",
+    "description": "15 個單字，每字 3 種新編情境，共 45 題填空拼字。練習購物、食物與 any 的用法。",
+    "source": "依家長提供的三年級 U6 單字表與 Quiz 新編，非原卷；圖片線索改為文字提示。",
+    "questions": [
+      {
+        "id": "buy-1",
+        "target": "buy",
+        "answer": "buy",
+        "sentence": "I want to ____ a notebook at the store.",
+        "translation": "我想在商店買一本筆記本。",
+        "context": "請填本課單字：買。",
+        "explanation": "I want to buy a notebook at the store. 我想在商店買一本筆記本。"
+      },
+      {
+        "id": "buy-2",
+        "target": "buy",
+        "answer": "buy",
+        "sentence": "We need to ____ some food for dinner.",
+        "translation": "我們需要買一些食物做晚餐。",
+        "context": "請填本課單字：買。",
+        "explanation": "We need to buy some food for dinner. 我們需要買一些食物做晚餐。"
+      },
+      {
+        "id": "buy-3",
+        "target": "buy",
+        "answer": "buy",
+        "sentence": "Can you ____ a loaf of bread on your way home?",
+        "translation": "你回家途中可以買一條麵包嗎？",
+        "context": "請填本課單字：買。",
+        "explanation": "Can you buy a loaf of bread on your way home? 你回家途中可以買一條麵包嗎？"
+      },
+      {
+        "id": "milk-1",
+        "target": "milk",
+        "answer": "milk",
+        "sentence": "I pour some ____ into my cereal.",
+        "translation": "我把一些牛奶倒進麥片裡。",
+        "context": "請填本課單字：牛奶。",
+        "explanation": "I pour some milk into my cereal. 我把一些牛奶倒進麥片裡。"
+      },
+      {
+        "id": "milk-2",
+        "target": "milk",
+        "answer": "milk",
+        "sentence": "We keep the ____ cold in the refrigerator.",
+        "translation": "我們把牛奶放在冰箱裡保冷。",
+        "context": "請填本課單字：牛奶。",
+        "explanation": "We keep the milk cold in the refrigerator. 我們把牛奶放在冰箱裡保冷。"
+      },
+      {
+        "id": "milk-3",
+        "target": "milk",
+        "answer": "milk",
+        "sentence": "Does she want any ____ with her cookies?",
+        "translation": "她吃餅乾時想喝牛奶嗎？",
+        "context": "請填本課單字：牛奶。",
+        "explanation": "Does she want any milk with her cookies? 她吃餅乾時想喝牛奶嗎？"
+      },
+      {
+        "id": "cheese-1",
+        "target": "cheese",
+        "answer": "cheese",
+        "sentence": "Put a slice of ____ in my sandwich.",
+        "translation": "在我的三明治裡放一片起司。",
+        "context": "請填本課單字：起司。",
+        "explanation": "Put a slice of cheese in my sandwich. 在我的三明治裡放一片起司。"
+      },
+      {
+        "id": "cheese-2",
+        "target": "cheese",
+        "answer": "cheese",
+        "sentence": "The pizza has melted ____ on top.",
+        "translation": "披薩上面有融化的起司。",
+        "context": "請填本課單字：起司。",
+        "explanation": "The pizza has melted cheese on top. 披薩上面有融化的起司。"
+      },
+      {
+        "id": "cheese-3",
+        "target": "cheese",
+        "answer": "cheese",
+        "sentence": "We do not have any ____ for the burgers.",
+        "translation": "我們沒有起司可以放進漢堡裡。",
+        "context": "請填本課單字：起司。",
+        "explanation": "We do not have any cheese for the burgers. 我們沒有起司可以放進漢堡裡。"
+      },
+      {
+        "id": "meat-1",
+        "target": "meat",
+        "answer": "meat",
+        "sentence": "My uncle does not eat ____ like beef or pork.",
+        "translation": "我叔叔不吃牛肉或豬肉這類的肉。",
+        "context": "請填本課單字：肉。",
+        "explanation": "My uncle does not eat meat like beef or pork. 我叔叔不吃牛肉或豬肉這類的肉。"
+      },
+      {
+        "id": "meat-2",
+        "target": "meat",
+        "answer": "meat",
+        "sentence": "The butcher sells fresh ____.",
+        "translation": "肉販販售新鮮的肉。",
+        "context": "請填本課單字：肉。",
+        "explanation": "The butcher sells fresh meat. 肉販販售新鮮的肉。"
+      },
+      {
+        "id": "meat-3",
+        "target": "meat",
+        "answer": "meat",
+        "sentence": "We cook the ____ before we eat it.",
+        "translation": "我們把肉煮熟才吃。",
+        "context": "請填本課單字：肉。",
+        "explanation": "We cook the meat before we eat it. 我們把肉煮熟才吃。"
+      },
+      {
+        "id": "bread-1",
+        "target": "bread",
+        "answer": "bread",
+        "sentence": "We get fresh ____ from the bakery.",
+        "translation": "我們從麵包店買新鮮麵包。",
+        "context": "請填本課單字：麵包。",
+        "explanation": "We get fresh bread from the bakery. 我們從麵包店買新鮮麵包。"
+      },
+      {
+        "id": "bread-2",
+        "target": "bread",
+        "answer": "bread",
+        "sentence": "I use two slices of ____ to make a sandwich.",
+        "translation": "我用兩片麵包做三明治。",
+        "context": "請填本課單字：麵包。",
+        "explanation": "I use two slices of bread to make a sandwich. 我用兩片麵包做三明治。"
+      },
+      {
+        "id": "bread-3",
+        "target": "bread",
+        "answer": "bread",
+        "sentence": "There is a loaf of ____ on the table.",
+        "translation": "桌上有一條麵包。",
+        "context": "請填本課單字：麵包。",
+        "explanation": "There is a loaf of bread on the table. 桌上有一條麵包。"
+      },
+      {
+        "id": "any-1",
+        "target": "any",
+        "answer": "any",
+        "sentence": "We do not have ____ milk left.",
+        "translation": "我們沒有剩下任何牛奶。",
+        "context": "請填本課單字：任何。",
+        "explanation": "We do not have any milk left. 我們沒有剩下任何牛奶。"
+      },
+      {
+        "id": "any-2",
+        "target": "any",
+        "answer": "any",
+        "sentence": "Are there ____ cookies in the box?",
+        "translation": "盒子裡有餅乾嗎？",
+        "context": "請填本課單字：任何。",
+        "explanation": "Are there any cookies in the box? 盒子裡有餅乾嗎？"
+      },
+      {
+        "id": "any-3",
+        "target": "any",
+        "answer": "any",
+        "sentence": "He does not want ____ cake.",
+        "translation": "他不想要任何蛋糕。",
+        "context": "請填本課單字：任何。",
+        "explanation": "He does not want any cake. 他不想要任何蛋糕。"
+      },
+      {
+        "id": "soda-1",
+        "target": "soda",
+        "answer": "soda",
+        "sentence": "The ____ in my glass is sweet and fizzy.",
+        "translation": "我杯子裡的汽水甜甜的，有氣泡。",
+        "context": "請填本課單字：汽水。",
+        "explanation": "The soda in my glass is sweet and fizzy. 我杯子裡的汽水甜甜的，有氣泡。"
+      },
+      {
+        "id": "soda-2",
+        "target": "soda",
+        "answer": "soda",
+        "sentence": "Dad opens a can of ____ for the picnic.",
+        "translation": "爸爸為野餐開了一罐汽水。",
+        "context": "請填本課單字：汽水。",
+        "explanation": "Dad opens a can of soda for the picnic. 爸爸為野餐開了一罐汽水。"
+      },
+      {
+        "id": "soda-3",
+        "target": "soda",
+        "answer": "soda",
+        "sentence": "We choose water instead of ____ today.",
+        "translation": "我們今天選擇喝水，不喝汽水。",
+        "context": "請填本課單字：汽水。",
+        "explanation": "We choose water instead of soda today. 我們今天選擇喝水，不喝汽水。"
+      },
+      {
+        "id": "coffee-1",
+        "target": "coffee",
+        "answer": "coffee",
+        "sentence": "Dad makes ____ with ground coffee beans.",
+        "translation": "爸爸用磨好的咖啡豆煮咖啡。",
+        "context": "請填本課單字：咖啡。",
+        "explanation": "Dad makes coffee with ground coffee beans. 爸爸用磨好的咖啡豆煮咖啡。"
+      },
+      {
+        "id": "coffee-2",
+        "target": "coffee",
+        "answer": "coffee",
+        "sentence": "My aunt drinks a cup of ____ in the morning.",
+        "translation": "我阿姨早上喝一杯咖啡。",
+        "context": "請填本課單字：咖啡。",
+        "explanation": "My aunt drinks a cup of coffee in the morning. 我阿姨早上喝一杯咖啡。"
+      },
+      {
+        "id": "coffee-3",
+        "target": "coffee",
+        "answer": "coffee",
+        "sentence": "The cafe smells of freshly brewed ____.",
+        "translation": "咖啡館裡有剛煮好的咖啡香味。",
+        "context": "請填本課單字：咖啡。",
+        "explanation": "The cafe smells of freshly brewed coffee. 咖啡館裡有剛煮好的咖啡香味。"
+      },
+      {
+        "id": "tea-1",
+        "target": "tea",
+        "answer": "tea",
+        "sentence": "Grandma puts a ____ bag in her cup.",
+        "translation": "奶奶在杯子裡放一個茶包。",
+        "context": "請填本課單字：茶。",
+        "explanation": "Grandma puts a tea bag in her cup. 奶奶在杯子裡放一個茶包。"
+      },
+      {
+        "id": "tea-2",
+        "target": "tea",
+        "answer": "tea",
+        "sentence": "We make ____ by putting tea leaves in hot water.",
+        "translation": "我們把茶葉放進熱水裡泡茶。",
+        "context": "請填本課單字：茶。",
+        "explanation": "We make tea by putting tea leaves in hot water. 我們把茶葉放進熱水裡泡茶。"
+      },
+      {
+        "id": "tea-3",
+        "target": "tea",
+        "answer": "tea",
+        "sentence": "Would you like a cup of green ____?",
+        "translation": "你想喝一杯綠茶嗎？",
+        "context": "請填本課單字：茶。",
+        "explanation": "Would you like a cup of green tea? 你想喝一杯綠茶嗎？"
+      },
+      {
+        "id": "juice-1",
+        "target": "juice",
+        "answer": "juice",
+        "sentence": "We squeeze oranges to make ____.",
+        "translation": "我們擠橘子來製作果汁。",
+        "context": "請填本課單字：果汁。",
+        "explanation": "We squeeze oranges to make juice. 我們擠橘子來製作果汁。"
+      },
+      {
+        "id": "juice-2",
+        "target": "juice",
+        "answer": "juice",
+        "sentence": "I drink a glass of apple ____.",
+        "translation": "我喝一杯蘋果汁。",
+        "context": "請填本課單字：果汁。",
+        "explanation": "I drink a glass of apple juice. 我喝一杯蘋果汁。"
+      },
+      {
+        "id": "juice-3",
+        "target": "juice",
+        "answer": "juice",
+        "sentence": "There is some grape ____ in the bottle.",
+        "translation": "瓶子裡有一些葡萄汁。",
+        "context": "請填本課單字：果汁。",
+        "explanation": "There is some grape juice in the bottle. 瓶子裡有一些葡萄汁。"
+      },
+      {
+        "id": "noodles-1",
+        "target": "noodles",
+        "answer": "noodles",
+        "sentence": "She eats a bowl of long ____ with chopsticks.",
+        "translation": "她用筷子吃一碗長長的麵。",
+        "context": "請填本課單字：麵。",
+        "explanation": "She eats a bowl of long noodles with chopsticks. 她用筷子吃一碗長長的麵。"
+      },
+      {
+        "id": "noodles-2",
+        "target": "noodles",
+        "answer": "noodles",
+        "sentence": "We put ____ in the soup.",
+        "translation": "我們把麵放進湯裡。",
+        "context": "請填本課單字：麵。",
+        "explanation": "We put noodles in the soup. 我們把麵放進湯裡。"
+      },
+      {
+        "id": "noodles-3",
+        "target": "noodles",
+        "answer": "noodles",
+        "sentence": "Do you want ____ or rice for lunch?",
+        "translation": "你午餐想吃麵還是飯？",
+        "context": "請填本課單字：麵。",
+        "explanation": "Do you want noodles or rice for lunch? 你午餐想吃麵還是飯？"
+      },
+      {
+        "id": "rice-1",
+        "target": "rice",
+        "answer": "rice",
+        "sentence": "We use a rice cooker to cook ____.",
+        "translation": "我們用電鍋煮飯。",
+        "context": "請填本課單字：飯。",
+        "explanation": "We use a rice cooker to cook rice. 我們用電鍋煮飯。"
+      },
+      {
+        "id": "rice-2",
+        "target": "rice",
+        "answer": "rice",
+        "sentence": "I eat a bowl of ____ with vegetables.",
+        "translation": "我吃一碗配蔬菜的飯。",
+        "context": "請填本課單字：飯。",
+        "explanation": "I eat a bowl of rice with vegetables. 我吃一碗配蔬菜的飯。"
+      },
+      {
+        "id": "rice-3",
+        "target": "rice",
+        "answer": "rice",
+        "sentence": "Dad makes fried ____ for lunch.",
+        "translation": "爸爸午餐做炒飯。",
+        "context": "請填本課單字：飯。",
+        "explanation": "Dad makes fried rice for lunch. 爸爸午餐做炒飯。"
+      },
+      {
+        "id": "vegetables-1",
+        "target": "vegetables",
+        "answer": "vegetables",
+        "sentence": "Carrots and cabbage are ____.",
+        "translation": "紅蘿蔔和高麗菜是蔬菜。",
+        "context": "請填本課單字：蔬菜。",
+        "explanation": "Carrots and cabbage are vegetables. 紅蘿蔔和高麗菜是蔬菜。"
+      },
+      {
+        "id": "vegetables-2",
+        "target": "vegetables",
+        "answer": "vegetables",
+        "sentence": "We wash the ____ before making a salad.",
+        "translation": "做沙拉前，我們先洗蔬菜。",
+        "context": "請填本課單字：蔬菜。",
+        "explanation": "We wash the vegetables before making a salad. 做沙拉前，我們先洗蔬菜。"
+      },
+      {
+        "id": "vegetables-3",
+        "target": "vegetables",
+        "answer": "vegetables",
+        "sentence": "Mom grows ____ in the garden.",
+        "translation": "媽媽在花園種蔬菜。",
+        "context": "請填本課單字：蔬菜。",
+        "explanation": "Mom grows vegetables in the garden. 媽媽在花園種蔬菜。"
+      },
+      {
+        "id": "fruit-1",
+        "target": "fruit",
+        "answer": "fruit",
+        "sentence": "Apples and bananas are kinds of ____.",
+        "translation": "蘋果和香蕉都是水果。",
+        "context": "請填本課單字：水果。",
+        "explanation": "Apples and bananas are kinds of fruit. 蘋果和香蕉都是水果。"
+      },
+      {
+        "id": "fruit-2",
+        "target": "fruit",
+        "answer": "fruit",
+        "sentence": "We make a ____ salad with grapes and oranges.",
+        "translation": "我們用葡萄和橘子做水果沙拉。",
+        "context": "請填本課單字：水果。",
+        "explanation": "We make a fruit salad with grapes and oranges. 我們用葡萄和橘子做水果沙拉。"
+      },
+      {
+        "id": "fruit-3",
+        "target": "fruit",
+        "answer": "fruit",
+        "sentence": "I like fresh ____ after lunch.",
+        "translation": "我喜歡午餐後吃新鮮水果。",
+        "context": "請填本課單字：水果。",
+        "explanation": "I like fresh fruit after lunch. 我喜歡午餐後吃新鮮水果。"
+      },
+      {
+        "id": "cookies-1",
+        "target": "cookies",
+        "answer": "cookies",
+        "sentence": "We bake chocolate chip ____ in the oven.",
+        "translation": "我們在烤箱裡烤巧克力豆餅乾。",
+        "context": "請填本課單字：餅乾。",
+        "explanation": "We bake chocolate chip cookies in the oven. 我們在烤箱裡烤巧克力豆餅乾。"
+      },
+      {
+        "id": "cookies-2",
+        "target": "cookies",
+        "answer": "cookies",
+        "sentence": "There are six round ____ in the cookie jar.",
+        "translation": "餅乾罐裡有六塊圓餅乾。",
+        "context": "請填本課單字：餅乾。",
+        "explanation": "There are six round cookies in the cookie jar. 餅乾罐裡有六塊圓餅乾。"
+      },
+      {
+        "id": "cookies-3",
+        "target": "cookies",
+        "answer": "cookies",
+        "sentence": "She shares a plate of ____ with her friends.",
+        "translation": "她和朋友分享一盤餅乾。",
+        "context": "請填本課單字：餅乾。",
+        "explanation": "She shares a plate of cookies with her friends. 她和朋友分享一盤餅乾。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

@@ -2588,6 +2588,75 @@ globalThis.WORD_UNITS = [
       "放"
     ]
   ]
+},
+{
+  "grade": 3,
+  "id": "u6",
+  "number": "06",
+  "title": "一起去購物",
+  "subtitle": "buy, milk, any…",
+  "words": [
+    [
+      "buy",
+      "買"
+    ],
+    [
+      "milk",
+      "牛奶"
+    ],
+    [
+      "cheese",
+      "起司"
+    ],
+    [
+      "meat",
+      "肉"
+    ],
+    [
+      "bread",
+      "麵包"
+    ],
+    [
+      "any",
+      "任何"
+    ],
+    [
+      "soda",
+      "汽水"
+    ],
+    [
+      "coffee",
+      "咖啡"
+    ],
+    [
+      "tea",
+      "茶"
+    ],
+    [
+      "juice",
+      "果汁"
+    ],
+    [
+      "noodles",
+      "麵"
+    ],
+    [
+      "rice",
+      "飯"
+    ],
+    [
+      "vegetables",
+      "蔬菜"
+    ],
+    [
+      "fruit",
+      "水果"
+    ],
+    [
+      "cookies",
+      "餅乾"
+    ]
+  ]
 }
 ];
 
