@@ -2657,6 +2657,144 @@ globalThis.WORD_UNITS = [
       "餅乾"
     ]
   ]
+},
+{
+  "grade": 3,
+  "id": "u7",
+  "number": "07",
+  "title": "去診所看醫生",
+  "subtitle": "feel, sore throat, tissue…",
+  "words": [
+    [
+      "doctor's office",
+      "診所"
+    ],
+    [
+      "wrong",
+      "不對勁的"
+    ],
+    [
+      "feel",
+      "感覺"
+    ],
+    [
+      "fever",
+      "發燒"
+    ],
+    [
+      "sore throat",
+      "喉嚨痛"
+    ],
+    [
+      "headache",
+      "頭痛"
+    ],
+    [
+      "cough",
+      "咳嗽"
+    ],
+    [
+      "stomachache",
+      "胃痛"
+    ],
+    [
+      "cold",
+      "感冒"
+    ],
+    [
+      "runny nose",
+      "流鼻水"
+    ],
+    [
+      "stuffy nose",
+      "鼻塞"
+    ],
+    [
+      "band-aid",
+      "OK 繃"
+    ],
+    [
+      "aspirin",
+      "阿斯匹靈"
+    ],
+    [
+      "tissue",
+      "衛生紙"
+    ],
+    [
+      "medicine",
+      "藥"
+    ]
+  ]
+},
+{
+  "grade": 3,
+  "id": "u8",
+  "number": "08",
+  "title": "一起買衣服",
+  "subtitle": "size, tight, just right…",
+  "words": [
+    [
+      "expensive",
+      "昂貴的"
+    ],
+    [
+      "tight",
+      "緊的"
+    ],
+    [
+      "size",
+      "尺寸"
+    ],
+    [
+      "How much",
+      "多少錢"
+    ],
+    [
+      "hundred",
+      "百"
+    ],
+    [
+      "dollar",
+      "元"
+    ],
+    [
+      "thousand",
+      "千"
+    ],
+    [
+      "small",
+      "小的"
+    ],
+    [
+      "loose",
+      "鬆的"
+    ],
+    [
+      "just right",
+      "剛剛好的"
+    ],
+    [
+      "medium",
+      "中號"
+    ],
+    [
+      "T-shirt",
+      "短袖圓領衫"
+    ],
+    [
+      "jacket",
+      "夾克"
+    ],
+    [
+      "large",
+      "大的"
+    ],
+    [
+      "cheap",
+      "便宜的"
+    ]
+  ]
 }
 ];
 

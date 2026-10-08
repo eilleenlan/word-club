@@ -19957,6 +19957,844 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "She shares a plate of cookies with her friends. 她和朋友分享一盤餅乾。"
       }
     ]
+  },
+  {
+    "id": "g3-u7-v1",
+    "grade": 3,
+    "unit": 7,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "去診所看醫生",
+    "description": "15 個單字與片語，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的三年級 U7 單字表與 Quiz 新編，非原卷；圖片線索改為文字提示。",
+    "questions": [
+      {
+        "id": "doctor's-office-1",
+        "target": "doctor's office",
+        "answer": "doctor's office",
+        "sentence": "We wait at the ____ for our appointment.",
+        "translation": "我們在診所等候看診。",
+        "context": "請填本課用語：診所。",
+        "explanation": "We wait at the doctor's office for our appointment. 我們在診所等候看診。"
+      },
+      {
+        "id": "doctor's-office-2",
+        "target": "doctor's office",
+        "answer": "doctor's office",
+        "sentence": "The nurse works at the ____.",
+        "translation": "護理師在診所工作。",
+        "context": "請填本課用語：診所。",
+        "explanation": "The nurse works at the doctor's office. 護理師在診所工作。"
+      },
+      {
+        "id": "doctor's-office-3",
+        "target": "doctor's office",
+        "answer": "doctor's office",
+        "sentence": "Mom calls the ____ to make an appointment.",
+        "translation": "媽媽打電話到診所預約。",
+        "context": "請填本課用語：診所。",
+        "explanation": "Mom calls the doctor's office to make an appointment. 媽媽打電話到診所預約。"
+      },
+      {
+        "id": "wrong-1",
+        "target": "wrong",
+        "answer": "wrong",
+        "sentence": "What is ____? You look upset.",
+        "translation": "怎麼了？你看起來很難過。",
+        "context": "請填本課用語：不對勁的。",
+        "explanation": "What is wrong? You look upset. 怎麼了？你看起來很難過。"
+      },
+      {
+        "id": "wrong-2",
+        "target": "wrong",
+        "answer": "wrong",
+        "sentence": "Something is ____ with this clock. It has stopped.",
+        "translation": "這個時鐘不對勁，它停了。",
+        "context": "請填本課用語：不對勁的。",
+        "explanation": "Something is wrong with this clock. It has stopped. 這個時鐘不對勁，它停了。"
+      },
+      {
+        "id": "wrong-3",
+        "target": "wrong",
+        "answer": "wrong",
+        "sentence": "This is the ____ answer. Please try again.",
+        "translation": "這是錯誤的答案，請再試一次。",
+        "context": "請填本課用語：不對勁的。",
+        "explanation": "This is the wrong answer. Please try again. 這是錯誤的答案，請再試一次。"
+      },
+      {
+        "id": "feel-1",
+        "target": "feel",
+        "answer": "feel",
+        "sentence": "How do you ____ today?",
+        "translation": "你今天感覺如何？",
+        "context": "請填本課用語：感覺。",
+        "explanation": "How do you feel today? 你今天感覺如何？"
+      },
+      {
+        "id": "feel-2",
+        "target": "feel",
+        "answer": "feel",
+        "sentence": "I ____ happy when I see my friends.",
+        "translation": "看到朋友時，我感到開心。",
+        "context": "請填本課用語：感覺。",
+        "explanation": "I feel happy when I see my friends. 看到朋友時，我感到開心。"
+      },
+      {
+        "id": "feel-3",
+        "target": "feel",
+        "answer": "feel",
+        "sentence": "Do you ____ tired after the game?",
+        "translation": "比賽後你覺得累嗎？",
+        "context": "請填本課用語：感覺。",
+        "explanation": "Do you feel tired after the game? 比賽後你覺得累嗎？"
+      },
+      {
+        "id": "fever-1",
+        "target": "fever",
+        "answer": "fever",
+        "sentence": "The nurse says I have a ____.",
+        "translation": "護理師說我發燒了。",
+        "context": "請填本課用語：發燒。",
+        "explanation": "The nurse says I have a fever. 護理師說我發燒了。"
+      },
+      {
+        "id": "fever-2",
+        "target": "fever",
+        "answer": "fever",
+        "sentence": "Ben has a ____ and stays home today.",
+        "translation": "Ben 發燒了，今天待在家。",
+        "context": "請填本課用語：發燒。",
+        "explanation": "Ben has a fever and stays home today. Ben 發燒了，今天待在家。"
+      },
+      {
+        "id": "fever-3",
+        "target": "fever",
+        "answer": "fever",
+        "sentence": "The doctor asks if she has a ____.",
+        "translation": "醫生問她是否發燒。",
+        "context": "請填本課用語：發燒。",
+        "explanation": "The doctor asks if she has a fever. 醫生問她是否發燒。"
+      },
+      {
+        "id": "sore-throat-1",
+        "target": "sore throat",
+        "answer": "sore throat",
+        "sentence": "My throat hurts. I have a ____.",
+        "translation": "我的喉嚨痛。我有喉嚨痛。",
+        "context": "請填本課用語：喉嚨痛。",
+        "explanation": "My throat hurts. I have a sore throat. 我的喉嚨痛。我有喉嚨痛。"
+      },
+      {
+        "id": "sore-throat-2",
+        "target": "sore throat",
+        "answer": "sore throat",
+        "sentence": "She tells the doctor about her ____.",
+        "translation": "她告訴醫生她喉嚨痛。",
+        "context": "請填本課用語：喉嚨痛。",
+        "explanation": "She tells the doctor about her sore throat. 她告訴醫生她喉嚨痛。"
+      },
+      {
+        "id": "sore-throat-3",
+        "target": "sore throat",
+        "answer": "sore throat",
+        "sentence": "He has a ____ and does not want to sing.",
+        "translation": "他喉嚨痛，不想唱歌。",
+        "context": "請填本課用語：喉嚨痛。",
+        "explanation": "He has a sore throat and does not want to sing. 他喉嚨痛，不想唱歌。"
+      },
+      {
+        "id": "headache-1",
+        "target": "headache",
+        "answer": "headache",
+        "sentence": "My head hurts. I have a ____.",
+        "translation": "我的頭很痛。我頭痛。",
+        "context": "請填本課用語：頭痛。",
+        "explanation": "My head hurts. I have a headache. 我的頭很痛。我頭痛。"
+      },
+      {
+        "id": "headache-2",
+        "target": "headache",
+        "answer": "headache",
+        "sentence": "She tells Mom that she has a ____.",
+        "translation": "她告訴媽媽她頭痛。",
+        "context": "請填本課用語：頭痛。",
+        "explanation": "She tells Mom that she has a headache. 她告訴媽媽她頭痛。"
+      },
+      {
+        "id": "headache-3",
+        "target": "headache",
+        "answer": "headache",
+        "sentence": "The doctor asks when my ____ started.",
+        "translation": "醫生問我的頭痛何時開始。",
+        "context": "請填本課用語：頭痛。",
+        "explanation": "The doctor asks when my headache started. 醫生問我的頭痛何時開始。"
+      },
+      {
+        "id": "cough-1",
+        "target": "cough",
+        "answer": "cough",
+        "sentence": "He has a ____ and keeps coughing.",
+        "translation": "他有咳嗽，一直在咳。",
+        "context": "請填本課用語：咳嗽。",
+        "explanation": "He has a cough and keeps coughing. 他有咳嗽，一直在咳。"
+      },
+      {
+        "id": "cough-2",
+        "target": "cough",
+        "answer": "cough",
+        "sentence": "The nurse asks about my ____.",
+        "translation": "護理師問我的咳嗽情況。",
+        "context": "請填本課用語：咳嗽。",
+        "explanation": "The nurse asks about my cough. 護理師問我的咳嗽情況。"
+      },
+      {
+        "id": "cough-3",
+        "target": "cough",
+        "answer": "cough",
+        "sentence": "Her loud ____ woke her brother.",
+        "translation": "她大聲的咳嗽吵醒了弟弟。",
+        "context": "請填本課用語：咳嗽。",
+        "explanation": "Her loud cough woke her brother. 她大聲的咳嗽吵醒了弟弟。"
+      },
+      {
+        "id": "stomachache-1",
+        "target": "stomachache",
+        "answer": "stomachache",
+        "sentence": "My stomach hurts. I have a ____.",
+        "translation": "我的胃很痛。我胃痛。",
+        "context": "請填本課用語：胃痛。",
+        "explanation": "My stomach hurts. I have a stomachache. 我的胃很痛。我胃痛。"
+      },
+      {
+        "id": "stomachache-2",
+        "target": "stomachache",
+        "answer": "stomachache",
+        "sentence": "She stays home because she has a ____.",
+        "translation": "她因為胃痛而待在家。",
+        "context": "請填本課用語：胃痛。",
+        "explanation": "She stays home because she has a stomachache. 她因為胃痛而待在家。"
+      },
+      {
+        "id": "stomachache-3",
+        "target": "stomachache",
+        "answer": "stomachache",
+        "sentence": "He tells the doctor about his ____.",
+        "translation": "他告訴醫生他胃痛。",
+        "context": "請填本課用語：胃痛。",
+        "explanation": "He tells the doctor about his stomachache. 他告訴醫生他胃痛。"
+      },
+      {
+        "id": "cold-1",
+        "target": "cold",
+        "answer": "cold",
+        "sentence": "The doctor says I have a ____.",
+        "translation": "醫生說我感冒了。",
+        "context": "請填本課用語：感冒。",
+        "explanation": "The doctor says I have a cold. 醫生說我感冒了。"
+      },
+      {
+        "id": "cold-2",
+        "target": "cold",
+        "answer": "cold",
+        "sentence": "My brother has a ____ and is resting at home.",
+        "translation": "我哥哥感冒了，正在家裡休息。",
+        "context": "請填本課用語：感冒。",
+        "explanation": "My brother has a cold and is resting at home. 我哥哥感冒了，正在家裡休息。"
+      },
+      {
+        "id": "cold-3",
+        "target": "cold",
+        "answer": "cold",
+        "sentence": "She missed school because of a ____.",
+        "translation": "她因為感冒沒有上學。",
+        "context": "請填本課用語：感冒。",
+        "explanation": "She missed school because of a cold. 她因為感冒沒有上學。"
+      },
+      {
+        "id": "runny-nose-1",
+        "target": "runny nose",
+        "answer": "runny nose",
+        "sentence": "I keep wiping my ____.",
+        "translation": "我一直擦流著鼻水的鼻子。",
+        "context": "請填本課用語：流鼻水。",
+        "explanation": "I keep wiping my runny nose. 我一直擦流著鼻水的鼻子。"
+      },
+      {
+        "id": "runny-nose-2",
+        "target": "runny nose",
+        "answer": "runny nose",
+        "sentence": "She has a ____ and needs a tissue.",
+        "translation": "她流鼻水，需要衛生紙。",
+        "context": "請填本課用語：流鼻水。",
+        "explanation": "She has a runny nose and needs a tissue. 她流鼻水，需要衛生紙。"
+      },
+      {
+        "id": "runny-nose-3",
+        "target": "runny nose",
+        "answer": "runny nose",
+        "sentence": "He tells the nurse that he has a ____.",
+        "translation": "他告訴護理師他流鼻水。",
+        "context": "請填本課用語：流鼻水。",
+        "explanation": "He tells the nurse that he has a runny nose. 他告訴護理師他流鼻水。"
+      },
+      {
+        "id": "stuffy-nose-1",
+        "target": "stuffy nose",
+        "answer": "stuffy nose",
+        "sentence": "My nose feels blocked. I have a ____.",
+        "translation": "我的鼻子感覺塞住了。我鼻塞。",
+        "context": "請填本課用語：鼻塞。",
+        "explanation": "My nose feels blocked. I have a stuffy nose. 我的鼻子感覺塞住了。我鼻塞。"
+      },
+      {
+        "id": "stuffy-nose-2",
+        "target": "stuffy nose",
+        "answer": "stuffy nose",
+        "sentence": "She cannot breathe easily through her ____.",
+        "translation": "她鼻塞，無法輕鬆用鼻子呼吸。",
+        "context": "請填本課用語：鼻塞。",
+        "explanation": "She cannot breathe easily through her stuffy nose. 她鼻塞，無法輕鬆用鼻子呼吸。"
+      },
+      {
+        "id": "stuffy-nose-3",
+        "target": "stuffy nose",
+        "answer": "stuffy nose",
+        "sentence": "The doctor asks about his ____.",
+        "translation": "醫生問他的鼻塞情況。",
+        "context": "請填本課用語：鼻塞。",
+        "explanation": "The doctor asks about his stuffy nose. 醫生問他的鼻塞情況。"
+      },
+      {
+        "id": "band-aid-1",
+        "target": "band-aid",
+        "answer": "band-aid",
+        "sentence": "The nurse puts a ____ over the small cut.",
+        "translation": "護理師在小傷口上貼了 OK 繃。",
+        "context": "請填本課用語：OK 繃。",
+        "explanation": "The nurse puts a band-aid over the small cut. 護理師在小傷口上貼了 OK 繃。"
+      },
+      {
+        "id": "band-aid-2",
+        "target": "band-aid",
+        "answer": "band-aid",
+        "sentence": "There is a ____ on his knee.",
+        "translation": "他的膝蓋上貼著 OK 繃。",
+        "context": "請填本課用語：OK 繃。",
+        "explanation": "There is a band-aid on his knee. 他的膝蓋上貼著 OK 繃。"
+      },
+      {
+        "id": "band-aid-3",
+        "target": "band-aid",
+        "answer": "band-aid",
+        "sentence": "Mom opens the wrapper of a ____.",
+        "translation": "媽媽打開 OK 繃的包裝。",
+        "context": "請填本課用語：OK 繃。",
+        "explanation": "Mom opens the wrapper of a band-aid. 媽媽打開 OK 繃的包裝。"
+      },
+      {
+        "id": "aspirin-1",
+        "target": "aspirin",
+        "answer": "aspirin",
+        "sentence": "The bottle has the word ____ on its label.",
+        "translation": "瓶子的標籤上寫著阿斯匹靈。",
+        "context": "請填本課用語：阿斯匹靈。",
+        "explanation": "The bottle has the word aspirin on its label. 瓶子的標籤上寫著阿斯匹靈。"
+      },
+      {
+        "id": "aspirin-2",
+        "target": "aspirin",
+        "answer": "aspirin",
+        "sentence": "We learned how to spell ____ in English class.",
+        "translation": "我們在英文課學了如何拼阿斯匹靈。",
+        "context": "請填本課用語：阿斯匹靈。",
+        "explanation": "We learned how to spell aspirin in English class. 我們在英文課學了如何拼阿斯匹靈。"
+      },
+      {
+        "id": "aspirin-3",
+        "target": "aspirin",
+        "answer": "aspirin",
+        "sentence": "The pharmacist points to the ____ label.",
+        "translation": "藥師指著阿斯匹靈的標籤。",
+        "context": "請填本課用語：阿斯匹靈。",
+        "explanation": "The pharmacist points to the aspirin label. 藥師指著阿斯匹靈的標籤。"
+      },
+      {
+        "id": "tissue-1",
+        "target": "tissue",
+        "answer": "tissue",
+        "sentence": "Please give me a ____ to wipe my nose.",
+        "translation": "請給我一張衛生紙擦鼻子。",
+        "context": "請填本課用語：衛生紙。",
+        "explanation": "Please give me a tissue to wipe my nose. 請給我一張衛生紙擦鼻子。"
+      },
+      {
+        "id": "tissue-2",
+        "target": "tissue",
+        "answer": "tissue",
+        "sentence": "She takes a ____ from the box.",
+        "translation": "她從盒子裡拿出一張衛生紙。",
+        "context": "請填本課用語：衛生紙。",
+        "explanation": "She takes a tissue from the box. 她從盒子裡拿出一張衛生紙。"
+      },
+      {
+        "id": "tissue-3",
+        "target": "tissue",
+        "answer": "tissue",
+        "sentence": "I use a ____ to wipe the ink off my finger.",
+        "translation": "我用衛生紙擦掉手指上的墨水。",
+        "context": "請填本課用語：衛生紙。",
+        "explanation": "I use a tissue to wipe the ink off my finger. 我用衛生紙擦掉手指上的墨水。"
+      },
+      {
+        "id": "medicine-1",
+        "target": "medicine",
+        "answer": "medicine",
+        "sentence": "The pharmacist checks the name of the ____.",
+        "translation": "藥師核對藥的名稱。",
+        "context": "請填本課用語：藥。",
+        "explanation": "The pharmacist checks the name of the medicine. 藥師核對藥的名稱。"
+      },
+      {
+        "id": "medicine-2",
+        "target": "medicine",
+        "answer": "medicine",
+        "sentence": "Mom reads the label on the ____ bottle.",
+        "translation": "媽媽閱讀藥瓶上的標籤。",
+        "context": "請填本課用語：藥。",
+        "explanation": "Mom reads the label on the medicine bottle. 媽媽閱讀藥瓶上的標籤。"
+      },
+      {
+        "id": "medicine-3",
+        "target": "medicine",
+        "answer": "medicine",
+        "sentence": "The doctor explains what the ____ is for.",
+        "translation": "醫生解釋這個藥的用途。",
+        "context": "請填本課用語：藥。",
+        "explanation": "The doctor explains what the medicine is for. 醫生解釋這個藥的用途。"
+      }
+    ]
+  },
+  {
+    "id": "g3-u8-v1",
+    "grade": 3,
+    "unit": 8,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "一起買衣服",
+    "description": "15 個單字與片語，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的三年級 U8 單字表與 Quiz 新編，非原卷；圖片線索改為文字提示。",
+    "questions": [
+      {
+        "id": "expensive-1",
+        "target": "expensive",
+        "answer": "expensive",
+        "sentence": "This coat costs too much. It is ____.",
+        "translation": "這件外套太貴了。它很昂貴。",
+        "context": "請填本課用語：昂貴的。",
+        "explanation": "This coat costs too much. It is expensive. 這件外套太貴了。它很昂貴。"
+      },
+      {
+        "id": "expensive-2",
+        "target": "expensive",
+        "answer": "expensive",
+        "sentence": "The ____ shoes cost more than I can pay.",
+        "translation": "這雙昂貴的鞋超過我能付的錢。",
+        "context": "請填本課用語：昂貴的。",
+        "explanation": "The expensive shoes cost more than I can pay. 這雙昂貴的鞋超過我能付的錢。"
+      },
+      {
+        "id": "expensive-3",
+        "target": "expensive",
+        "answer": "expensive",
+        "sentence": "That bag is very ____, so I will not buy it.",
+        "translation": "那個袋子很昂貴，所以我不買。",
+        "context": "請填本課用語：昂貴的。",
+        "explanation": "That bag is very expensive, so I will not buy it. 那個袋子很昂貴，所以我不買。"
+      },
+      {
+        "id": "tight-1",
+        "target": "tight",
+        "answer": "tight",
+        "sentence": "These pants are too ____. I need a bigger pair.",
+        "translation": "這條褲子太緊。我需要大一點的。",
+        "context": "請填本課用語：緊的。",
+        "explanation": "These pants are too tight. I need a bigger pair. 這條褲子太緊。我需要大一點的。"
+      },
+      {
+        "id": "tight-2",
+        "target": "tight",
+        "answer": "tight",
+        "sentence": "The sleeves feel ____ around my arms.",
+        "translation": "袖子包著手臂，感覺很緊。",
+        "context": "請填本課用語：緊的。",
+        "explanation": "The sleeves feel tight around my arms. 袖子包著手臂，感覺很緊。"
+      },
+      {
+        "id": "tight-3",
+        "target": "tight",
+        "answer": "tight",
+        "sentence": "My shoes are so ____ that my toes feel squeezed.",
+        "translation": "我的鞋太緊，腳趾感覺被擠壓。",
+        "context": "請填本課用語：緊的。",
+        "explanation": "My shoes are so tight that my toes feel squeezed. 我的鞋太緊，腳趾感覺被擠壓。"
+      },
+      {
+        "id": "size-1",
+        "target": "size",
+        "answer": "size",
+        "sentence": "What ____ do you wear?",
+        "translation": "你穿什麼尺寸？",
+        "context": "請填本課用語：尺寸。",
+        "explanation": "What size do you wear? 你穿什麼尺寸？"
+      },
+      {
+        "id": "size-2",
+        "target": "size",
+        "answer": "size",
+        "sentence": "This shirt is the wrong ____ for me.",
+        "translation": "這件上衣的尺寸不適合我。",
+        "context": "請填本課用語：尺寸。",
+        "explanation": "This shirt is the wrong size for me. 這件上衣的尺寸不適合我。"
+      },
+      {
+        "id": "size-3",
+        "target": "size",
+        "answer": "size",
+        "sentence": "Please check the ____ on the label.",
+        "translation": "請確認標籤上的尺寸。",
+        "context": "請填本課用語：尺寸。",
+        "explanation": "Please check the size on the label. 請確認標籤上的尺寸。"
+      },
+      {
+        "id": "how-much-1",
+        "target": "How much",
+        "answer": "How much",
+        "sentence": "____ is this hat? It is fifty dollars.",
+        "translation": "這頂帽子多少錢？五十元。",
+        "context": "請填本課用語：多少錢。",
+        "explanation": "How much is this hat? It is fifty dollars. 這頂帽子多少錢？五十元。"
+      },
+      {
+        "id": "how-much-2",
+        "target": "How much",
+        "answer": "How much",
+        "sentence": "____ are these shoes? They are six hundred dollars.",
+        "translation": "這雙鞋多少錢？六百元。",
+        "context": "請填本課用語：多少錢。",
+        "explanation": "How much are these shoes? They are six hundred dollars. 這雙鞋多少錢？六百元。"
+      },
+      {
+        "id": "how-much-3",
+        "target": "How much",
+        "answer": "How much",
+        "sentence": "____ does this jacket cost?",
+        "translation": "這件夾克多少錢？",
+        "context": "請填本課用語：多少錢。",
+        "explanation": "How much does this jacket cost? 這件夾克多少錢？"
+      },
+      {
+        "id": "hundred-1",
+        "target": "hundred",
+        "answer": "hundred",
+        "sentence": "This shirt costs one ____ dollars: $100.",
+        "translation": "這件上衣一百元，也就是 $100。",
+        "context": "請填本課用語：百。",
+        "explanation": "This shirt costs one hundred dollars: $100. 這件上衣一百元，也就是 $100。"
+      },
+      {
+        "id": "hundred-2",
+        "target": "hundred",
+        "answer": "hundred",
+        "sentence": "Two ____ is 200.",
+        "translation": "二百就是 200。",
+        "context": "請填本課用語：百。",
+        "explanation": "Two hundred is 200. 二百就是 200。"
+      },
+      {
+        "id": "hundred-3",
+        "target": "hundred",
+        "answer": "hundred",
+        "sentence": "The bag is three ____ dollars: $300.",
+        "translation": "袋子三百元，也就是 $300。",
+        "context": "請填本課用語：百。",
+        "explanation": "The bag is three hundred dollars: $300. 袋子三百元，也就是 $300。"
+      },
+      {
+        "id": "dollar-1",
+        "target": "dollar",
+        "answer": "dollar",
+        "sentence": "This pencil costs one ____.",
+        "translation": "這枝鉛筆一元。",
+        "context": "請填本課用語：元。",
+        "explanation": "This pencil costs one dollar. 這枝鉛筆一元。"
+      },
+      {
+        "id": "dollar-2",
+        "target": "dollar",
+        "answer": "dollar",
+        "sentence": "I have one ____ in my pocket.",
+        "translation": "我口袋裡有一元。",
+        "context": "請填本課用語：元。",
+        "explanation": "I have one dollar in my pocket. 我口袋裡有一元。"
+      },
+      {
+        "id": "dollar-3",
+        "target": "dollar",
+        "answer": "dollar",
+        "sentence": "The price went up by one ____.",
+        "translation": "價格漲了一元。",
+        "context": "請填本課用語：元。",
+        "explanation": "The price went up by one dollar. 價格漲了一元。"
+      },
+      {
+        "id": "thousand-1",
+        "target": "thousand",
+        "answer": "thousand",
+        "sentence": "One ____ is 1,000.",
+        "translation": "一千就是 1,000。",
+        "context": "請填本課用語：千。",
+        "explanation": "One thousand is 1,000. 一千就是 1,000。"
+      },
+      {
+        "id": "thousand-2",
+        "target": "thousand",
+        "answer": "thousand",
+        "sentence": "The coat costs two ____ dollars: $2,000.",
+        "translation": "這件外套兩千元，也就是 $2,000。",
+        "context": "請填本課用語：千。",
+        "explanation": "The coat costs two thousand dollars: $2,000. 這件外套兩千元，也就是 $2,000。"
+      },
+      {
+        "id": "thousand-3",
+        "target": "thousand",
+        "answer": "thousand",
+        "sentence": "Three ____ is 3,000.",
+        "translation": "三千就是 3,000。",
+        "context": "請填本課用語：千。",
+        "explanation": "Three thousand is 3,000. 三千就是 3,000。"
+      },
+      {
+        "id": "small-1",
+        "target": "small",
+        "answer": "small",
+        "sentence": "This shirt is too ____. I need a bigger one.",
+        "translation": "這件上衣太小。我需要大一點的。",
+        "context": "請填本課用語：小的。",
+        "explanation": "This shirt is too small. I need a bigger one. 這件上衣太小。我需要大一點的。"
+      },
+      {
+        "id": "small-2",
+        "target": "small",
+        "answer": "small",
+        "sentence": "The bag is ____ and holds only one book.",
+        "translation": "袋子很小，只能裝一本書。",
+        "context": "請填本課用語：小的。",
+        "explanation": "The bag is small and holds only one book. 袋子很小，只能裝一本書。"
+      },
+      {
+        "id": "small-3",
+        "target": "small",
+        "answer": "small",
+        "sentence": "The label says S for ____.",
+        "translation": "標籤上的 S 表示小號。",
+        "context": "請填本課用語：小的。",
+        "explanation": "The label says S for small. 標籤上的 S 表示小號。"
+      },
+      {
+        "id": "loose-1",
+        "target": "loose",
+        "answer": "loose",
+        "sentence": "These pants are too ____ and keep falling down.",
+        "translation": "這條褲子太鬆，一直往下掉。",
+        "context": "請填本課用語：鬆的。",
+        "explanation": "These pants are too loose and keep falling down. 這條褲子太鬆，一直往下掉。"
+      },
+      {
+        "id": "loose-2",
+        "target": "loose",
+        "answer": "loose",
+        "sentence": "The sleeves are ____ around my arms, not tight.",
+        "translation": "袖子在手臂周圍很鬆，不緊。",
+        "context": "請填本課用語：鬆的。",
+        "explanation": "The sleeves are loose around my arms, not tight. 袖子在手臂周圍很鬆，不緊。"
+      },
+      {
+        "id": "loose-3",
+        "target": "loose",
+        "answer": "loose",
+        "sentence": "This belt is too ____. I need to tighten it.",
+        "translation": "這條皮帶太鬆。我需要把它拉緊。",
+        "context": "請填本課用語：鬆的。",
+        "explanation": "This belt is too loose. I need to tighten it. 這條皮帶太鬆。我需要把它拉緊。"
+      },
+      {
+        "id": "just-right-1",
+        "target": "just right",
+        "answer": "just right",
+        "sentence": "This shirt is not too big or too small. It is ____.",
+        "translation": "這件上衣不太大也不太小。它剛剛好。",
+        "context": "請填本課用語：剛剛好的。",
+        "explanation": "This shirt is not too big or too small. It is just right. 這件上衣不太大也不太小。它剛剛好。"
+      },
+      {
+        "id": "just-right-2",
+        "target": "just right",
+        "answer": "just right",
+        "sentence": "The shoes fit ____. They are neither tight nor loose.",
+        "translation": "鞋子穿起來剛剛好，不緊也不鬆。",
+        "context": "請填本課用語：剛剛好的。",
+        "explanation": "The shoes fit just right. They are neither tight nor loose. 鞋子穿起來剛剛好，不緊也不鬆。"
+      },
+      {
+        "id": "just-right-3",
+        "target": "just right",
+        "answer": "just right",
+        "sentence": "This jacket feels ____, so I will buy it.",
+        "translation": "這件夾克感覺剛剛好，所以我要買。",
+        "context": "請填本課用語：剛剛好的。",
+        "explanation": "This jacket feels just right, so I will buy it. 這件夾克感覺剛剛好，所以我要買。"
+      },
+      {
+        "id": "medium-1",
+        "target": "medium",
+        "answer": "medium",
+        "sentence": "The label says M for ____.",
+        "translation": "標籤上的 M 表示中號。",
+        "context": "請填本課用語：中號。",
+        "explanation": "The label says M for medium. 標籤上的 M 表示中號。"
+      },
+      {
+        "id": "medium-2",
+        "target": "medium",
+        "answer": "medium",
+        "sentence": "Small is too small and large is too big. I need ____.",
+        "translation": "小號太小，大號太大。我需要中號。",
+        "context": "請填本課用語：中號。",
+        "explanation": "Small is too small and large is too big. I need medium. 小號太小，大號太大。我需要中號。"
+      },
+      {
+        "id": "medium-3",
+        "target": "medium",
+        "answer": "medium",
+        "sentence": "This shirt comes in small, ____, and large.",
+        "translation": "這件上衣有小號、中號和大號。",
+        "context": "請填本課用語：中號。",
+        "explanation": "This shirt comes in small, medium, and large. 這件上衣有小號、中號和大號。"
+      },
+      {
+        "id": "t-shirt-1",
+        "target": "T-shirt",
+        "answer": "T-shirt",
+        "sentence": "I wear a short-sleeved ____ with jeans.",
+        "translation": "我穿短袖圓領衫配牛仔褲。",
+        "context": "請填本課用語：短袖圓領衫。",
+        "explanation": "I wear a short-sleeved T-shirt with jeans. 我穿短袖圓領衫配牛仔褲。"
+      },
+      {
+        "id": "t-shirt-2",
+        "target": "T-shirt",
+        "answer": "T-shirt",
+        "sentence": "This ____ has a round neck and a picture on the front.",
+        "translation": "這件短袖圓領衫有圓領，正面有圖案。",
+        "context": "請填本課用語：短袖圓領衫。",
+        "explanation": "This T-shirt has a round neck and a picture on the front. 這件短袖圓領衫有圓領，正面有圖案。"
+      },
+      {
+        "id": "t-shirt-3",
+        "target": "T-shirt",
+        "answer": "T-shirt",
+        "sentence": "My cotton ____ has short sleeves.",
+        "translation": "我的棉質短袖圓領衫有短袖。",
+        "context": "請填本課用語：短袖圓領衫。",
+        "explanation": "My cotton T-shirt has short sleeves. 我的棉質短袖圓領衫有短袖。"
+      },
+      {
+        "id": "jacket-1",
+        "target": "jacket",
+        "answer": "jacket",
+        "sentence": "I wear a ____ over my shirt when it is cool.",
+        "translation": "天氣涼時，我在上衣外穿夾克。",
+        "context": "請填本課用語：夾克。",
+        "explanation": "I wear a jacket over my shirt when it is cool. 天氣涼時，我在上衣外穿夾克。"
+      },
+      {
+        "id": "jacket-2",
+        "target": "jacket",
+        "answer": "jacket",
+        "sentence": "He zips up his ____ before going outside.",
+        "translation": "他出門前拉好夾克的拉鍊。",
+        "context": "請填本課用語：夾克。",
+        "explanation": "He zips up his jacket before going outside. 他出門前拉好夾克的拉鍊。"
+      },
+      {
+        "id": "jacket-3",
+        "target": "jacket",
+        "answer": "jacket",
+        "sentence": "She hangs her ____ on a hook by the door.",
+        "translation": "她把夾克掛在門旁的掛鉤上。",
+        "context": "請填本課用語：夾克。",
+        "explanation": "She hangs her jacket on a hook by the door. 她把夾克掛在門旁的掛鉤上。"
+      },
+      {
+        "id": "large-1",
+        "target": "large",
+        "answer": "large",
+        "sentence": "The label says L for ____.",
+        "translation": "標籤上的 L 表示大號。",
+        "context": "請填本課用語：大的。",
+        "explanation": "The label says L for large. 標籤上的 L 表示大號。"
+      },
+      {
+        "id": "large-2",
+        "target": "large",
+        "answer": "large",
+        "sentence": "This bag is ____ enough to hold all my clothes.",
+        "translation": "這個袋子夠大，可以裝我所有衣服。",
+        "context": "請填本課用語：大的。",
+        "explanation": "This bag is large enough to hold all my clothes. 這個袋子夠大，可以裝我所有衣服。"
+      },
+      {
+        "id": "large-3",
+        "target": "large",
+        "answer": "large",
+        "sentence": "I need a ____ box, not a small one.",
+        "translation": "我需要大箱子，不是小箱子。",
+        "context": "請填本課用語：大的。",
+        "explanation": "I need a large box, not a small one. 我需要大箱子，不是小箱子。"
+      },
+      {
+        "id": "cheap-1",
+        "target": "cheap",
+        "answer": "cheap",
+        "sentence": "This pen costs very little. It is ____.",
+        "translation": "這枝筆花費很少。它很便宜。",
+        "context": "請填本課用語：便宜的。",
+        "explanation": "This pen costs very little. It is cheap. 這枝筆花費很少。它很便宜。"
+      },
+      {
+        "id": "cheap-2",
+        "target": "cheap",
+        "answer": "cheap",
+        "sentence": "The ____ socks cost only ten dollars a pair.",
+        "translation": "這些便宜的襪子一雙只要十元。",
+        "context": "請填本課用語：便宜的。",
+        "explanation": "The cheap socks cost only ten dollars a pair. 這些便宜的襪子一雙只要十元。"
+      },
+      {
+        "id": "cheap-3",
+        "target": "cheap",
+        "answer": "cheap",
+        "sentence": "This bag is ____, so I can afford it.",
+        "translation": "這個袋子便宜，所以我買得起。",
+        "context": "請填本課用語：便宜的。",
+        "explanation": "This bag is cheap, so I can afford it. 這個袋子便宜，所以我買得起。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
