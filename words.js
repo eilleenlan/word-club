@@ -3723,6 +3723,277 @@ globalThis.WORD_UNITS = [
       "使用"
     ]
   ]
+},
+{
+  "grade": 6,
+  "id": "u6",
+  "number": "06",
+  "title": "電力與能源",
+  "subtitle": "electricity, finish, interest…",
+  "words": [
+    [
+      "electricity",
+      "電力"
+    ],
+    [
+      "finish",
+      "完成，結束"
+    ],
+    [
+      "interest",
+      "興趣"
+    ],
+    [
+      "interesting",
+      "有趣的"
+    ],
+    [
+      "battery",
+      "電池"
+    ],
+    [
+      "of course",
+      "當然"
+    ],
+    [
+      "energy",
+      "能量"
+    ],
+    [
+      "power",
+      "能源，電力"
+    ],
+    [
+      "power plant",
+      "發電廠"
+    ],
+    [
+      "fuel",
+      "燃料"
+    ],
+    [
+      "wind",
+      "風"
+    ],
+    [
+      "create",
+      "製造，創造"
+    ],
+    [
+      "pollution",
+      "污染"
+    ],
+    [
+      "petroleum",
+      "石油"
+    ],
+    [
+      "natural gas",
+      "天然氣"
+    ],
+    [
+      "nobody",
+      "沒有人"
+    ],
+    [
+      "everyone",
+      "每個人（以 one 結尾）"
+    ],
+    [
+      "everybody",
+      "每個人（以 body 結尾）"
+    ],
+    [
+      "miss",
+      "錯過"
+    ],
+    [
+      "missing",
+      "失蹤的，缺少的"
+    ],
+    [
+      "stop",
+      "停止"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u7",
+  "number": "07",
+  "title": "太陽系",
+  "subtitle": "solar system, astronaut, person…",
+  "words": [
+    [
+      "solar system",
+      "太陽系"
+    ],
+    [
+      "astronaut",
+      "太空人"
+    ],
+    [
+      "person",
+      "人"
+    ],
+    [
+      "Mars",
+      "火星"
+    ],
+    [
+      "moon",
+      "衛星"
+    ],
+    [
+      "Jupiter",
+      "木星"
+    ],
+    [
+      "guess",
+      "猜測"
+    ],
+    [
+      "planet",
+      "行星"
+    ],
+    [
+      "the Sun",
+      "太陽"
+    ],
+    [
+      "Mercury",
+      "水星"
+    ],
+    [
+      "Venus",
+      "金星"
+    ],
+    [
+      "Earth",
+      "地球"
+    ],
+    [
+      "Saturn",
+      "土星"
+    ],
+    [
+      "Uranus",
+      "天王星"
+    ],
+    [
+      "Neptune",
+      "海王星"
+    ],
+    [
+      "asteroid",
+      "小行星"
+    ],
+    [
+      "before",
+      "在……之前"
+    ],
+    [
+      "orbit",
+      "繞著……公轉"
+    ],
+    [
+      "rotate",
+      "自轉"
+    ],
+    [
+      "rotation",
+      "自轉"
+    ]
+  ]
+},
+{
+  "grade": 6,
+  "id": "u8",
+  "number": "08",
+  "title": "星空與天文",
+  "subtitle": "invite, shooting star, telescope…",
+  "words": [
+    [
+      "invite",
+      "邀請"
+    ],
+    [
+      "shooting star",
+      "流星"
+    ],
+    [
+      "telescope",
+      "望遠鏡"
+    ],
+    [
+      "astronomy",
+      "天文學"
+    ],
+    [
+      "star sign",
+      "星座"
+    ],
+    [
+      "lunar",
+      "農曆的，月亮的"
+    ],
+    [
+      "calendar",
+      "日曆，月曆"
+    ],
+    [
+      "purpose",
+      "目標，目的"
+    ],
+    [
+      "space shuttle",
+      "太空梭"
+    ],
+    [
+      "universe",
+      "宇宙"
+    ],
+    [
+      "different",
+      "不同的"
+    ],
+    [
+      "galaxy",
+      "星系，銀河"
+    ],
+    [
+      "comet",
+      "彗星"
+    ],
+    [
+      "move",
+      "移動"
+    ],
+    [
+      "space",
+      "太空"
+    ],
+    [
+      "understand",
+      "了解"
+    ],
+    [
+      "satellite",
+      "人造衛星"
+    ],
+    [
+      "ancient",
+      "古代的"
+    ],
+    [
+      "technology",
+      "科技"
+    ],
+    [
+      "improve",
+      "進步，改進"
+    ]
+  ]
 }
 ];
 

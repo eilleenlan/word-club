@@ -324,3 +324,7 @@ U7 依 Quiz 新編：21 個目標、63 種情境，country／countries 分開練
 ## 五年級 U9、U10
 
 U9 參考 Quiz：20 個單字與形式、20 段錄音、60 種新編情境，涵蓋材質、clothing／clothes、wear 的四種形式及 made of。U10 已加入 15 個單字與錄音，並依 Spring 2025 期末考卷及解答補齊 45 種情境，涵蓋 break 三種形式、許願與附加問句。錄音位於 audio/grade5/unit9、unit10。五年級 U1～U10 已齊；目前填空共 55 課、840 個目標、2520 種情境。
+
+## 六年級 U6～U8
+
+U6 電力：21 個目標、63 種情境，miss／missing 分開，everyone／everybody 提供字尾提示。U7 太陽系與 U8 星空各 20 個目標、60 種情境，保留行星名稱大小寫和完整片語。共 61 段教材錄音，U8 satellite 按音檔最後一項定位。天文內容避免固定衛星數量，並區分彗星與流星，參考 NASA：https://science.nasa.gov/solar-system/solar-system-facts/ 及 https://science.nasa.gov/solar-system/meteors-meteorites/facts/ 。全站共 58 課、901 個目標、2703 種填空情境。

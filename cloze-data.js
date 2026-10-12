@@ -26498,6 +26498,1695 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "You use this cup every day, don’t you? 你每天都用這個杯子，對吧？"
       }
     ]
+  },
+  {
+    "id": "g6-u6-v1",
+    "grade": 6,
+    "unit": 6,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "電力與能源",
+    "description": "21 個單字與形式，各 3 種情境，共 63 題填空拼字。",
+    "source": "依家長提供的六年級 U6 單字表與Quiz新編，非原卷。天文情境不使用會變動的衛星數量；彗星與流星分開說明。",
+    "questions": [
+      {
+        "id": "electricity-1",
+        "target": "electricity",
+        "answer": "electricity",
+        "sentence": "We use ____ to run this computer.",
+        "translation": "我們用電力運作這台電腦。",
+        "context": "請填本課單字或片語：電力。",
+        "explanation": "We use electricity to run this computer. 我們用電力運作這台電腦。"
+      },
+      {
+        "id": "electricity-2",
+        "target": "electricity",
+        "answer": "electricity",
+        "sentence": "The lights went out when the ____ supply failed.",
+        "translation": "電力供應中斷時燈熄滅了。",
+        "context": "請填本課單字或片語：電力。",
+        "explanation": "The lights went out when the electricity supply failed. 電力供應中斷時燈熄滅了。"
+      },
+      {
+        "id": "electricity-3",
+        "target": "electricity",
+        "answer": "electricity",
+        "sentence": "This cable carries ____ to the house.",
+        "translation": "這條電纜把電力送到房子。",
+        "context": "請填本課單字或片語：電力。",
+        "explanation": "This cable carries electricity to the house. 這條電纜把電力送到房子。"
+      },
+      {
+        "id": "finish-1",
+        "target": "finish",
+        "answer": "finish",
+        "sentence": "Please ____ your homework before dinner.",
+        "translation": "請在晚餐前完成作業。",
+        "context": "請填本課單字或片語：完成，結束。",
+        "explanation": "Please finish your homework before dinner. 請在晚餐前完成作業。"
+      },
+      {
+        "id": "finish-2",
+        "target": "finish",
+        "answer": "finish",
+        "sentence": "We hope to ____ the project today.",
+        "translation": "我們希望今天完成專題。",
+        "context": "請填本課單字或片語：完成，結束。",
+        "explanation": "We hope to finish the project today. 我們希望今天完成專題。"
+      },
+      {
+        "id": "finish-3",
+        "target": "finish",
+        "answer": "finish",
+        "sentence": "Can you ____ reading this chapter tonight?",
+        "translation": "你今晚能讀完這一章嗎？",
+        "context": "請填本課單字或片語：完成，結束。",
+        "explanation": "Can you finish reading this chapter tonight? 你今晚能讀完這一章嗎？"
+      },
+      {
+        "id": "interest-1",
+        "target": "interest",
+        "answer": "interest",
+        "sentence": "She has an ____ in science.",
+        "translation": "她對科學有興趣。",
+        "context": "請填本課單字或片語：興趣。",
+        "explanation": "She has an interest in science. 她對科學有興趣。"
+      },
+      {
+        "id": "interest-2",
+        "target": "interest",
+        "answer": "interest",
+        "sentence": "The students showed ____ in renewable energy.",
+        "translation": "學生對再生能源表現出興趣。",
+        "context": "請填本課單字或片語：興趣。",
+        "explanation": "The students showed interest in renewable energy. 學生對再生能源表現出興趣。"
+      },
+      {
+        "id": "interest-3",
+        "target": "interest",
+        "answer": "interest",
+        "sentence": "His main ____ is building models.",
+        "translation": "他的主要興趣是做模型。",
+        "context": "請填本課單字或片語：興趣。",
+        "explanation": "His main interest is building models. 他的主要興趣是做模型。"
+      },
+      {
+        "id": "interesting-1",
+        "target": "interesting",
+        "answer": "interesting",
+        "sentence": "This book about energy is ____.",
+        "translation": "這本關於能源的書很有趣。",
+        "context": "請填本課單字或片語：有趣的。",
+        "explanation": "This book about energy is interesting. 這本關於能源的書很有趣。"
+      },
+      {
+        "id": "interesting-2",
+        "target": "interesting",
+        "answer": "interesting",
+        "sentence": "We watched an ____ science demonstration.",
+        "translation": "我們看了一場有趣的科學示範。",
+        "context": "請填本課單字或片語：有趣的。",
+        "explanation": "We watched an interesting science demonstration. 我們看了一場有趣的科學示範。"
+      },
+      {
+        "id": "interesting-3",
+        "target": "interesting",
+        "answer": "interesting",
+        "sentence": "She told us an ____ story.",
+        "translation": "她告訴我們一個有趣的故事。",
+        "context": "請填本課單字或片語：有趣的。",
+        "explanation": "She told us an interesting story. 她告訴我們一個有趣的故事。"
+      },
+      {
+        "id": "battery-1",
+        "target": "battery",
+        "answer": "battery",
+        "sentence": "The flashlight needs a new ____.",
+        "translation": "手電筒需要一顆新電池。",
+        "context": "請填本課單字或片語：電池。",
+        "explanation": "The flashlight needs a new battery. 手電筒需要一顆新電池。"
+      },
+      {
+        "id": "battery-2",
+        "target": "battery",
+        "answer": "battery",
+        "sentence": "I charged the ____ in my camera.",
+        "translation": "我替相機的電池充電。",
+        "context": "請填本課單字或片語：電池。",
+        "explanation": "I charged the battery in my camera. 我替相機的電池充電。"
+      },
+      {
+        "id": "battery-3",
+        "target": "battery",
+        "answer": "battery",
+        "sentence": "This toy runs on a small ____.",
+        "translation": "這個玩具靠一顆小電池運作。",
+        "context": "請填本課單字或片語：電池。",
+        "explanation": "This toy runs on a small battery. 這個玩具靠一顆小電池運作。"
+      },
+      {
+        "id": "of-course-1",
+        "target": "of course",
+        "answer": "of course",
+        "sentence": "Can I join your group? Yes, ____.",
+        "translation": "我能加入你們這組嗎？當然可以。",
+        "context": "請填本課單字或片語：當然。",
+        "explanation": "Can I join your group? Yes, of course. 我能加入你們這組嗎？當然可以。"
+      },
+      {
+        "id": "of-course-2",
+        "target": "of course",
+        "answer": "of course",
+        "sentence": "You can borrow my ruler, ____.",
+        "translation": "你當然可以借我的尺。",
+        "context": "請填本課單字或片語：當然。",
+        "explanation": "You can borrow my ruler, of course. 你當然可以借我的尺。"
+      },
+      {
+        "id": "of-course-3",
+        "target": "of course",
+        "answer": "of course",
+        "sentence": "Will you help me? Yes, ____.",
+        "translation": "你會幫我嗎？當然會。",
+        "context": "請填本課單字或片語：當然。",
+        "explanation": "Will you help me? Yes, of course. 你會幫我嗎？當然會。"
+      },
+      {
+        "id": "energy-1",
+        "target": "energy",
+        "answer": "energy",
+        "sentence": "Food gives our bodies ____.",
+        "translation": "食物給我們身體能量。",
+        "context": "請填本課單字或片語：能量。",
+        "explanation": "Food gives our bodies energy. 食物給我們身體能量。"
+      },
+      {
+        "id": "energy-2",
+        "target": "energy",
+        "answer": "energy",
+        "sentence": "Light is a form of ____.",
+        "translation": "光是一種能量。",
+        "context": "請填本課單字或片語：能量。",
+        "explanation": "Light is a form of energy. 光是一種能量。"
+      },
+      {
+        "id": "energy-3",
+        "target": "energy",
+        "answer": "energy",
+        "sentence": "We can save ____ by switching off unused lights.",
+        "translation": "我們可以關掉不用的燈來節省能源。",
+        "context": "請填本課單字或片語：能量。",
+        "explanation": "We can save energy by switching off unused lights. 我們可以關掉不用的燈來節省能源。"
+      },
+      {
+        "id": "power-1",
+        "target": "power",
+        "answer": "power",
+        "sentence": "The storm caused a ____ outage.",
+        "translation": "暴風雨造成停電。",
+        "context": "請填本課單字或片語：能源，電力。",
+        "explanation": "The storm caused a power outage. 暴風雨造成停電。"
+      },
+      {
+        "id": "power-2",
+        "target": "power",
+        "answer": "power",
+        "sentence": "Wind ____ is used to generate electricity.",
+        "translation": "風力能源被用來發電。",
+        "context": "請填本課單字或片語：能源，電力。",
+        "explanation": "Wind power is used to generate electricity. 風力能源被用來發電。"
+      },
+      {
+        "id": "power-3",
+        "target": "power",
+        "answer": "power",
+        "sentence": "The town’s ____ supply was restored.",
+        "translation": "小鎮的電力供應恢復了。",
+        "context": "請填本課單字或片語：能源，電力。",
+        "explanation": "The town’s power supply was restored. 小鎮的電力供應恢復了。"
+      },
+      {
+        "id": "power-plant-1",
+        "target": "power plant",
+        "answer": "power plant",
+        "sentence": "The town gets electricity from a nearby ____.",
+        "translation": "小鎮從附近的發電廠取得電力。",
+        "context": "請填本課單字或片語：發電廠。",
+        "explanation": "The town gets electricity from a nearby power plant. 小鎮從附近的發電廠取得電力。"
+      },
+      {
+        "id": "power-plant-2",
+        "target": "power plant",
+        "answer": "power plant",
+        "sentence": "Our class visited a ____ to learn how electricity is generated.",
+        "translation": "我們班參觀發電廠來了解如何發電。",
+        "context": "請填本課單字或片語：發電廠。",
+        "explanation": "Our class visited a power plant to learn how electricity is generated. 我們班參觀發電廠來了解如何發電。"
+      },
+      {
+        "id": "power-plant-3",
+        "target": "power plant",
+        "answer": "power plant",
+        "sentence": "Engineers work at this ____.",
+        "translation": "工程師在這座發電廠工作。",
+        "context": "請填本課單字或片語：發電廠。",
+        "explanation": "Engineers work at this power plant. 工程師在這座發電廠工作。"
+      },
+      {
+        "id": "fuel-1",
+        "target": "fuel",
+        "answer": "fuel",
+        "sentence": "The bus needs ____ to run.",
+        "translation": "公車需要燃料才能行駛。",
+        "context": "請填本課單字或片語：燃料。",
+        "explanation": "The bus needs fuel to run. 公車需要燃料才能行駛。"
+      },
+      {
+        "id": "fuel-2",
+        "target": "fuel",
+        "answer": "fuel",
+        "sentence": "Wood can be used as ____ for a fire.",
+        "translation": "木材可以當作生火的燃料。",
+        "context": "請填本課單字或片語：燃料。",
+        "explanation": "Wood can be used as fuel for a fire. 木材可以當作生火的燃料。"
+      },
+      {
+        "id": "fuel-3",
+        "target": "fuel",
+        "answer": "fuel",
+        "sentence": "The engine stopped when its ____ ran out.",
+        "translation": "燃料用盡時，引擎停止了。",
+        "context": "請填本課單字或片語：燃料。",
+        "explanation": "The engine stopped when its fuel ran out. 燃料用盡時，引擎停止了。"
+      },
+      {
+        "id": "wind-1",
+        "target": "wind",
+        "answer": "wind",
+        "sentence": "The ____ blew the leaves across the road.",
+        "translation": "風吹得葉子越過馬路。",
+        "context": "請填本課單字或片語：風。",
+        "explanation": "The wind blew the leaves across the road. 風吹得葉子越過馬路。"
+      },
+      {
+        "id": "wind-2",
+        "target": "wind",
+        "answer": "wind",
+        "sentence": "Strong ____ filled the boat’s sails.",
+        "translation": "強風吹滿了船帆。",
+        "context": "請填本課單字或片語：風。",
+        "explanation": "Strong wind filled the boat’s sails. 強風吹滿了船帆。"
+      },
+      {
+        "id": "wind-3",
+        "target": "wind",
+        "answer": "wind",
+        "sentence": "The flags moved in the ____.",
+        "translation": "旗子在風中飄動。",
+        "context": "請填本課單字或片語：風。",
+        "explanation": "The flags moved in the wind. 旗子在風中飄動。"
+      },
+      {
+        "id": "create-1",
+        "target": "create",
+        "answer": "create",
+        "sentence": "We can ____ a model using recycled materials.",
+        "translation": "我們可以用回收材料製作模型。",
+        "context": "請填本課單字或片語：製造，創造。",
+        "explanation": "We can create a model using recycled materials. 我們可以用回收材料製作模型。"
+      },
+      {
+        "id": "create-2",
+        "target": "create",
+        "answer": "create",
+        "sentence": "The students will ____ a poster about saving energy.",
+        "translation": "學生將製作節能海報。",
+        "context": "請填本課單字或片語：製造，創造。",
+        "explanation": "The students will create a poster about saving energy. 學生將製作節能海報。"
+      },
+      {
+        "id": "create-3",
+        "target": "create",
+        "answer": "create",
+        "sentence": "Artists ____ new works in this studio.",
+        "translation": "藝術家在這間工作室創作新作品。",
+        "context": "請填本課單字或片語：製造，創造。",
+        "explanation": "Artists create new works in this studio. 藝術家在這間工作室創作新作品。"
+      },
+      {
+        "id": "pollution-1",
+        "target": "pollution",
+        "answer": "pollution",
+        "sentence": "Smoke from burning fuels can cause air ____.",
+        "translation": "燃燒燃料的煙可能造成空氣污染。",
+        "context": "請填本課單字或片語：污染。",
+        "explanation": "Smoke from burning fuels can cause air pollution. 燃燒燃料的煙可能造成空氣污染。"
+      },
+      {
+        "id": "pollution-2",
+        "target": "pollution",
+        "answer": "pollution",
+        "sentence": "We want to reduce ____ in the river.",
+        "translation": "我們想減少河川污染。",
+        "context": "請填本課單字或片語：污染。",
+        "explanation": "We want to reduce pollution in the river. 我們想減少河川污染。"
+      },
+      {
+        "id": "pollution-3",
+        "target": "pollution",
+        "answer": "pollution",
+        "sentence": "The class made a poster about plastic ____.",
+        "translation": "全班做了一張關於塑膠污染的海報。",
+        "context": "請填本課單字或片語：污染。",
+        "explanation": "The class made a poster about plastic pollution. 全班做了一張關於塑膠污染的海報。"
+      },
+      {
+        "id": "petroleum-1",
+        "target": "petroleum",
+        "answer": "petroleum",
+        "sentence": "Gasoline is made from ____.",
+        "translation": "汽油由石油製成。",
+        "context": "請填本課單字或片語：石油。",
+        "explanation": "Gasoline is made from petroleum. 汽油由石油製成。"
+      },
+      {
+        "id": "petroleum-2",
+        "target": "petroleum",
+        "answer": "petroleum",
+        "sentence": "Crude oil is another name for ____.",
+        "translation": "原油是石油的另一種名稱。",
+        "context": "請填本課單字或片語：石油。",
+        "explanation": "Crude oil is another name for petroleum. 原油是石油的另一種名稱。"
+      },
+      {
+        "id": "petroleum-3",
+        "target": "petroleum",
+        "answer": "petroleum",
+        "sentence": "This refinery processes ____.",
+        "translation": "這座煉油廠加工石油。",
+        "context": "請填本課單字或片語：石油。",
+        "explanation": "This refinery processes petroleum. 這座煉油廠加工石油。"
+      },
+      {
+        "id": "natural-gas-1",
+        "target": "natural gas",
+        "answer": "natural gas",
+        "sentence": "This stove burns ____.",
+        "translation": "這個爐子燃燒天然氣。",
+        "context": "請填本課單字或片語：天然氣。",
+        "explanation": "This stove burns natural gas. 這個爐子燃燒天然氣。"
+      },
+      {
+        "id": "natural-gas-2",
+        "target": "natural gas",
+        "answer": "natural gas",
+        "sentence": "Coal, oil, and ____ are fossil fuels.",
+        "translation": "煤、石油和天然氣都是化石燃料。",
+        "context": "請填本課單字或片語：天然氣。",
+        "explanation": "Coal, oil, and natural gas are fossil fuels. 煤、石油和天然氣都是化石燃料。"
+      },
+      {
+        "id": "natural-gas-3",
+        "target": "natural gas",
+        "answer": "natural gas",
+        "sentence": "The pipeline carries ____ to homes.",
+        "translation": "管線把天然氣送到住家。",
+        "context": "請填本課單字或片語：天然氣。",
+        "explanation": "The pipeline carries natural gas to homes. 管線把天然氣送到住家。"
+      },
+      {
+        "id": "nobody-1",
+        "target": "nobody",
+        "answer": "nobody",
+        "sentence": "The room was empty; ____ was inside.",
+        "translation": "房間是空的，裡面沒有人。",
+        "context": "請填本課單字或片語：沒有人。",
+        "explanation": "The room was empty; nobody was inside. 房間是空的，裡面沒有人。"
+      },
+      {
+        "id": "nobody-2",
+        "target": "nobody",
+        "answer": "nobody",
+        "sentence": "Who was late? ____ was late today.",
+        "translation": "誰遲到了？今天沒有人遲到。",
+        "context": "請填本課單字或片語：沒有人。",
+        "explanation": "Who was late? nobody was late today. 誰遲到了？今天沒有人遲到。"
+      },
+      {
+        "id": "nobody-3",
+        "target": "nobody",
+        "answer": "nobody",
+        "sentence": "The question was so difficult that ____ knew the answer.",
+        "translation": "問題太難，沒有人知道答案。",
+        "context": "請填本課單字或片語：沒有人。",
+        "explanation": "The question was so difficult that nobody knew the answer. 問題太難，沒有人知道答案。"
+      },
+      {
+        "id": "everyone-1",
+        "target": "everyone",
+        "answer": "everyone",
+        "sentence": "The teacher checked that ____ had a book.",
+        "translation": "老師確認每個人都有課本。",
+        "context": "請填本課單字或片語：每個人（以 one 結尾）。",
+        "explanation": "The teacher checked that everyone had a book. 老師確認每個人都有課本。"
+      },
+      {
+        "id": "everyone-2",
+        "target": "everyone",
+        "answer": "everyone",
+        "sentence": "Is ____ ready for the lesson?",
+        "translation": "每個人都準備好上課了嗎？",
+        "context": "請填本課單字或片語：每個人（以 one 結尾）。",
+        "explanation": "Is everyone ready for the lesson? 每個人都準備好上課了嗎？"
+      },
+      {
+        "id": "everyone-3",
+        "target": "everyone",
+        "answer": "everyone",
+        "sentence": "The guide asked ____ to stay together.",
+        "translation": "導覽員請每個人待在一起。",
+        "context": "請填本課單字或片語：每個人（以 one 結尾）。",
+        "explanation": "The guide asked everyone to stay together. 導覽員請每個人待在一起。"
+      },
+      {
+        "id": "everybody-1",
+        "target": "everybody",
+        "answer": "everybody",
+        "sentence": "The coach thanked ____ for helping.",
+        "translation": "教練感謝每個人幫忙。",
+        "context": "請填本課單字或片語：每個人（以 body 結尾）。",
+        "explanation": "The coach thanked everybody for helping. 教練感謝每個人幫忙。"
+      },
+      {
+        "id": "everybody-2",
+        "target": "everybody",
+        "answer": "everybody",
+        "sentence": "Does ____ have a pencil?",
+        "translation": "每個人都有鉛筆嗎？",
+        "context": "請填本課單字或片語：每個人（以 body 結尾）。",
+        "explanation": "Does everybody have a pencil? 每個人都有鉛筆嗎？"
+      },
+      {
+        "id": "everybody-3",
+        "target": "everybody",
+        "answer": "everybody",
+        "sentence": "At the end of the game, ____ was happy.",
+        "translation": "比賽結束時，每個人都很開心。",
+        "context": "請填本課單字或片語：每個人（以 body 結尾）。",
+        "explanation": "At the end of the game, everybody was happy. 比賽結束時，每個人都很開心。"
+      },
+      {
+        "id": "miss-1",
+        "target": "miss",
+        "answer": "miss",
+        "sentence": "Hurry, or we will ____ the bus.",
+        "translation": "快點，否則我們會錯過公車。",
+        "context": "請填本課單字或片語：錯過。",
+        "explanation": "Hurry, or we will miss the bus. 快點，否則我們會錯過公車。"
+      },
+      {
+        "id": "miss-2",
+        "target": "miss",
+        "answer": "miss",
+        "sentence": "I do not want to ____ the science show.",
+        "translation": "我不想錯過科學表演。",
+        "context": "請填本課單字或片語：錯過。",
+        "explanation": "I do not want to miss the science show. 我不想錯過科學表演。"
+      },
+      {
+        "id": "miss-3",
+        "target": "miss",
+        "answer": "miss",
+        "sentence": "If you arrive late, you may ____ the beginning.",
+        "translation": "如果遲到，你可能會錯過開頭。",
+        "context": "請填本課單字或片語：錯過。",
+        "explanation": "If you arrive late, you may miss the beginning. 如果遲到，你可能會錯過開頭。"
+      },
+      {
+        "id": "missing-1",
+        "target": "missing",
+        "answer": "missing",
+        "sentence": "One piece of the puzzle is ____.",
+        "translation": "拼圖缺少一片。",
+        "context": "請填本課單字或片語：失蹤的，缺少的。",
+        "explanation": "One piece of the puzzle is missing. 拼圖缺少一片。"
+      },
+      {
+        "id": "missing-2",
+        "target": "missing",
+        "answer": "missing",
+        "sentence": "We are looking for the ____ notebook.",
+        "translation": "我們正在找失蹤的筆記本。",
+        "context": "請填本課單字或片語：失蹤的，缺少的。",
+        "explanation": "We are looking for the missing notebook. 我們正在找失蹤的筆記本。"
+      },
+      {
+        "id": "missing-3",
+        "target": "missing",
+        "answer": "missing",
+        "sentence": "Is anything ____ from your bag?",
+        "translation": "你的袋子裡有缺少任何東西嗎？",
+        "context": "請填本課單字或片語：失蹤的，缺少的。",
+        "explanation": "Is anything missing from your bag? 你的袋子裡有缺少任何東西嗎？"
+      },
+      {
+        "id": "stop-1",
+        "target": "stop",
+        "answer": "stop",
+        "sentence": "Please ____ talking and listen.",
+        "translation": "請停止說話並聽講。",
+        "context": "請填本課單字或片語：停止。",
+        "explanation": "Please stop talking and listen. 請停止說話並聽講。"
+      },
+      {
+        "id": "stop-2",
+        "target": "stop",
+        "answer": "stop",
+        "sentence": "The machine will ____ when you press this button.",
+        "translation": "按下這個按鈕時機器會停止。",
+        "context": "請填本課單字或片語：停止。",
+        "explanation": "The machine will stop when you press this button. 按下這個按鈕時機器會停止。"
+      },
+      {
+        "id": "stop-3",
+        "target": "stop",
+        "answer": "stop",
+        "sentence": "We must ____ at the red light.",
+        "translation": "我們必須在紅燈時停下。",
+        "context": "請填本課單字或片語：停止。",
+        "explanation": "We must stop at the red light. 我們必須在紅燈時停下。"
+      }
+    ]
+  },
+  {
+    "id": "g6-u7-v1",
+    "grade": 6,
+    "unit": 7,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "太陽系",
+    "description": "20 個單字與形式，各 3 種情境，共 60 題填空拼字。",
+    "source": "依家長提供的六年級 U7 單字表與SW Worksheet新編，非原卷。天文情境不使用會變動的衛星數量；彗星與流星分開說明。",
+    "questions": [
+      {
+        "id": "solar-system-1",
+        "target": "solar system",
+        "answer": "solar system",
+        "sentence": "The Sun and its planets are part of our ____.",
+        "translation": "太陽和它的行星是我們太陽系的一部分。",
+        "context": "請填本課單字或片語：太陽系。",
+        "explanation": "The Sun and its planets are part of our solar system. 太陽和它的行星是我們太陽系的一部分。"
+      },
+      {
+        "id": "solar-system-2",
+        "target": "solar system",
+        "answer": "solar system",
+        "sentence": "We built a model of the ____.",
+        "translation": "我們做了一個太陽系模型。",
+        "context": "請填本課單字或片語：太陽系。",
+        "explanation": "We built a model of the solar system. 我們做了一個太陽系模型。"
+      },
+      {
+        "id": "solar-system-3",
+        "target": "solar system",
+        "answer": "solar system",
+        "sentence": "Our ____ contains eight planets.",
+        "translation": "我們的太陽系有八顆行星。",
+        "context": "請填本課單字或片語：太陽系。",
+        "explanation": "Our solar system contains eight planets. 我們的太陽系有八顆行星。"
+      },
+      {
+        "id": "astronaut-1",
+        "target": "astronaut",
+        "answer": "astronaut",
+        "sentence": "She dreams of becoming an ____.",
+        "translation": "她夢想成為太空人。",
+        "context": "請填本課單字或片語：太空人。",
+        "explanation": "She dreams of becoming an astronaut. 她夢想成為太空人。"
+      },
+      {
+        "id": "astronaut-2",
+        "target": "astronaut",
+        "answer": "astronaut",
+        "sentence": "The ____ trained for a space mission.",
+        "translation": "太空人為太空任務接受訓練。",
+        "context": "請填本課單字或片語：太空人。",
+        "explanation": "The astronaut trained for a space mission. 太空人為太空任務接受訓練。"
+      },
+      {
+        "id": "astronaut-3",
+        "target": "astronaut",
+        "answer": "astronaut",
+        "sentence": "An ____ visited our school to talk about space.",
+        "translation": "一位太空人到學校談太空。",
+        "context": "請填本課單字或片語：太空人。",
+        "explanation": "An astronaut visited our school to talk about space. 一位太空人到學校談太空。"
+      },
+      {
+        "id": "person-1",
+        "target": "person",
+        "answer": "person",
+        "sentence": "Only one ____ can use this telescope at a time.",
+        "translation": "一次只能有一個人使用這台望遠鏡。",
+        "context": "請填本課單字或片語：人。",
+        "explanation": "Only one person can use this telescope at a time. 一次只能有一個人使用這台望遠鏡。"
+      },
+      {
+        "id": "person-2",
+        "target": "person",
+        "answer": "person",
+        "sentence": "Who is the ____ standing by the door?",
+        "translation": "站在門邊的人是誰？",
+        "context": "請填本課單字或片語：人。",
+        "explanation": "Who is the person standing by the door? 站在門邊的人是誰？"
+      },
+      {
+        "id": "person-3",
+        "target": "person",
+        "answer": "person",
+        "sentence": "Each ____ received a map of the museum.",
+        "translation": "每個人都收到一張博物館地圖。",
+        "context": "請填本課單字或片語：人。",
+        "explanation": "Each person received a map of the museum. 每個人都收到一張博物館地圖。"
+      },
+      {
+        "id": "mars-1",
+        "target": "Mars",
+        "answer": "Mars",
+        "sentence": "The red planet is called ____.",
+        "translation": "紅色的行星叫火星。",
+        "context": "請填本課單字或片語：火星。",
+        "explanation": "The red planet is called Mars. 紅色的行星叫火星。"
+      },
+      {
+        "id": "mars-2",
+        "target": "Mars",
+        "answer": "Mars",
+        "sentence": "We looked at pictures of ____ in class.",
+        "translation": "我們在課堂上看火星的圖片。",
+        "context": "請填本課單字或片語：火星。",
+        "explanation": "We looked at pictures of Mars in class. 我們在課堂上看火星的圖片。"
+      },
+      {
+        "id": "mars-3",
+        "target": "Mars",
+        "answer": "Mars",
+        "sentence": "The model of ____ is painted red.",
+        "translation": "火星模型被塗成紅色。",
+        "context": "請填本課單字或片語：火星。",
+        "explanation": "The model of Mars is painted red. 火星模型被塗成紅色。"
+      },
+      {
+        "id": "moon-1",
+        "target": "moon",
+        "answer": "moon",
+        "sentence": "A natural object that orbits a planet can be called a ____.",
+        "translation": "繞行星運行的天然天體可以稱為衛星。",
+        "context": "請填本課單字或片語：衛星。",
+        "explanation": "A natural object that orbits a planet can be called a moon. 繞行星運行的天然天體可以稱為衛星。"
+      },
+      {
+        "id": "moon-2",
+        "target": "moon",
+        "answer": "moon",
+        "sentence": "The diagram shows a ____ orbiting a planet.",
+        "translation": "圖表顯示一顆衛星繞行星運行。",
+        "context": "請填本課單字或片語：衛星。",
+        "explanation": "The diagram shows a moon orbiting a planet. 圖表顯示一顆衛星繞行星運行。"
+      },
+      {
+        "id": "moon-3",
+        "target": "moon",
+        "answer": "moon",
+        "sentence": "Earth has one natural ____.",
+        "translation": "地球有一顆天然衛星。",
+        "context": "請填本課單字或片語：衛星。",
+        "explanation": "Earth has one natural moon. 地球有一顆天然衛星。"
+      },
+      {
+        "id": "jupiter-1",
+        "target": "Jupiter",
+        "answer": "Jupiter",
+        "sentence": "The largest planet in our solar system is ____.",
+        "translation": "太陽系最大的行星是木星。",
+        "context": "請填本課單字或片語：木星。",
+        "explanation": "The largest planet in our solar system is Jupiter. 太陽系最大的行星是木星。"
+      },
+      {
+        "id": "jupiter-2",
+        "target": "Jupiter",
+        "answer": "Jupiter",
+        "sentence": "We studied a picture of ____ and its cloud bands.",
+        "translation": "我們研究木星及其雲帶的圖片。",
+        "context": "請填本課單字或片語：木星。",
+        "explanation": "We studied a picture of Jupiter and its cloud bands. 我們研究木星及其雲帶的圖片。"
+      },
+      {
+        "id": "jupiter-3",
+        "target": "Jupiter",
+        "answer": "Jupiter",
+        "sentence": "My report is about ____, the fifth planet from the Sun.",
+        "translation": "我的報告介紹木星，它是離太陽第五近的行星。",
+        "context": "請填本課單字或片語：木星。",
+        "explanation": "My report is about Jupiter, the fifth planet from the Sun. 我的報告介紹木星，它是離太陽第五近的行星。"
+      },
+      {
+        "id": "guess-1",
+        "target": "guess",
+        "answer": "guess",
+        "sentence": "Can you ____ which planet I am describing?",
+        "translation": "你能猜出我正在描述哪顆行星嗎？",
+        "context": "請填本課單字或片語：猜測。",
+        "explanation": "Can you guess which planet I am describing? 你能猜出我正在描述哪顆行星嗎？"
+      },
+      {
+        "id": "guess-2",
+        "target": "guess",
+        "answer": "guess",
+        "sentence": "I do not know, but I can ____.",
+        "translation": "我不知道，但是我可以猜測。",
+        "context": "請填本課單字或片語：猜測。",
+        "explanation": "I do not know, but I can guess. 我不知道，但是我可以猜測。"
+      },
+      {
+        "id": "guess-3",
+        "target": "guess",
+        "answer": "guess",
+        "sentence": "Try to ____ the answer before I tell you.",
+        "translation": "在我告訴你之前，試著猜答案。",
+        "context": "請填本課單字或片語：猜測。",
+        "explanation": "Try to guess the answer before I tell you. 在我告訴你之前，試著猜答案。"
+      },
+      {
+        "id": "planet-1",
+        "target": "planet",
+        "answer": "planet",
+        "sentence": "Earth is a ____ that orbits the Sun.",
+        "translation": "地球是一顆繞太陽公轉的行星。",
+        "context": "請填本課單字或片語：行星。",
+        "explanation": "Earth is a planet that orbits the Sun. 地球是一顆繞太陽公轉的行星。"
+      },
+      {
+        "id": "planet-2",
+        "target": "planet",
+        "answer": "planet",
+        "sentence": "Which ____ would you like to study?",
+        "translation": "你想研究哪顆行星？",
+        "context": "請填本課單字或片語：行星。",
+        "explanation": "Which planet would you like to study? 你想研究哪顆行星？"
+      },
+      {
+        "id": "planet-3",
+        "target": "planet",
+        "answer": "planet",
+        "sentence": "This model represents a ____, not a star.",
+        "translation": "這個模型代表一顆行星，不是恆星。",
+        "context": "請填本課單字或片語：行星。",
+        "explanation": "This model represents a planet, not a star. 這個模型代表一顆行星，不是恆星。"
+      },
+      {
+        "id": "the-sun-1",
+        "target": "the Sun",
+        "answer": "the Sun",
+        "sentence": "Earth travels around ____.",
+        "translation": "地球繞太陽運行。",
+        "context": "請填本課單字或片語：太陽。",
+        "explanation": "Earth travels around the Sun. 地球繞太陽運行。"
+      },
+      {
+        "id": "the-sun-2",
+        "target": "the Sun",
+        "answer": "the Sun",
+        "sentence": "We receive light and heat from ____.",
+        "translation": "我們從太陽得到光和熱。",
+        "context": "請填本課單字或片語：太陽。",
+        "explanation": "We receive light and heat from the Sun. 我們從太陽得到光和熱。"
+      },
+      {
+        "id": "the-sun-3",
+        "target": "the Sun",
+        "answer": "the Sun",
+        "sentence": "All eight planets orbit ____.",
+        "translation": "八顆行星都繞太陽公轉。",
+        "context": "請填本課單字或片語：太陽。",
+        "explanation": "All eight planets orbit the Sun. 八顆行星都繞太陽公轉。"
+      },
+      {
+        "id": "mercury-1",
+        "target": "Mercury",
+        "answer": "Mercury",
+        "sentence": "The closest planet to the Sun is ____.",
+        "translation": "離太陽最近的行星是水星。",
+        "context": "請填本課單字或片語：水星。",
+        "explanation": "The closest planet to the Sun is Mercury. 離太陽最近的行星是水星。"
+      },
+      {
+        "id": "mercury-2",
+        "target": "Mercury",
+        "answer": "Mercury",
+        "sentence": "The smallest of the eight planets is ____.",
+        "translation": "八顆行星中最小的是水星。",
+        "context": "請填本課單字或片語：水星。",
+        "explanation": "The smallest of the eight planets is Mercury. 八顆行星中最小的是水星。"
+      },
+      {
+        "id": "mercury-3",
+        "target": "Mercury",
+        "answer": "Mercury",
+        "sentence": "My model places ____ before Venus in order from the Sun.",
+        "translation": "我的模型依離太陽的順序把水星放在金星前面。",
+        "context": "請填本課單字或片語：水星。",
+        "explanation": "My model places Mercury before Venus in order from the Sun. 我的模型依離太陽的順序把水星放在金星前面。"
+      },
+      {
+        "id": "venus-1",
+        "target": "Venus",
+        "answer": "Venus",
+        "sentence": "The second planet from the Sun is ____.",
+        "translation": "離太陽第二近的行星是金星。",
+        "context": "請填本課單字或片語：金星。",
+        "explanation": "The second planet from the Sun is Venus. 離太陽第二近的行星是金星。"
+      },
+      {
+        "id": "venus-2",
+        "target": "Venus",
+        "answer": "Venus",
+        "sentence": "Our class made a poster about ____.",
+        "translation": "我們班做了一張金星海報。",
+        "context": "請填本課單字或片語：金星。",
+        "explanation": "Our class made a poster about Venus. 我們班做了一張金星海報。"
+      },
+      {
+        "id": "venus-3",
+        "target": "Venus",
+        "answer": "Venus",
+        "sentence": "The model of ____ is between Mercury and Earth.",
+        "translation": "金星模型在水星和地球之間。",
+        "context": "請填本課單字或片語：金星。",
+        "explanation": "The model of Venus is between Mercury and Earth. 金星模型在水星和地球之間。"
+      },
+      {
+        "id": "earth-1",
+        "target": "Earth",
+        "answer": "Earth",
+        "sentence": "We all live on ____.",
+        "translation": "我們都住在地球上。",
+        "context": "請填本課單字或片語：地球。",
+        "explanation": "We all live on Earth. 我們都住在地球上。"
+      },
+      {
+        "id": "earth-2",
+        "target": "Earth",
+        "answer": "Earth",
+        "sentence": "Our home planet is ____.",
+        "translation": "我們的家園行星是地球。",
+        "context": "請填本課單字或片語：地球。",
+        "explanation": "Our home planet is Earth. 我們的家園行星是地球。"
+      },
+      {
+        "id": "earth-3",
+        "target": "Earth",
+        "answer": "Earth",
+        "sentence": "The third planet from the Sun is ____.",
+        "translation": "離太陽第三近的行星是地球。",
+        "context": "請填本課單字或片語：地球。",
+        "explanation": "The third planet from the Sun is Earth. 離太陽第三近的行星是地球。"
+      },
+      {
+        "id": "saturn-1",
+        "target": "Saturn",
+        "answer": "Saturn",
+        "sentence": "The sixth planet from the Sun is ____.",
+        "translation": "離太陽第六近的行星是土星。",
+        "context": "請填本課單字或片語：土星。",
+        "explanation": "The sixth planet from the Sun is Saturn. 離太陽第六近的行星是土星。"
+      },
+      {
+        "id": "saturn-2",
+        "target": "Saturn",
+        "answer": "Saturn",
+        "sentence": "We drew the famous rings of ____.",
+        "translation": "我們畫了土星著名的環。",
+        "context": "請填本課單字或片語：土星。",
+        "explanation": "We drew the famous rings of Saturn. 我們畫了土星著名的環。"
+      },
+      {
+        "id": "saturn-3",
+        "target": "Saturn",
+        "answer": "Saturn",
+        "sentence": "My science project is about ____ and its rings.",
+        "translation": "我的科學專題介紹土星和它的環。",
+        "context": "請填本課單字或片語：土星。",
+        "explanation": "My science project is about Saturn and its rings. 我的科學專題介紹土星和它的環。"
+      },
+      {
+        "id": "uranus-1",
+        "target": "Uranus",
+        "answer": "Uranus",
+        "sentence": "The seventh planet from the Sun is ____.",
+        "translation": "離太陽第七近的行星是天王星。",
+        "context": "請填本課單字或片語：天王星。",
+        "explanation": "The seventh planet from the Sun is Uranus. 離太陽第七近的行星是天王星。"
+      },
+      {
+        "id": "uranus-2",
+        "target": "Uranus",
+        "answer": "Uranus",
+        "sentence": "We read a chapter about ____.",
+        "translation": "我們讀了一章關於天王星的內容。",
+        "context": "請填本課單字或片語：天王星。",
+        "explanation": "We read a chapter about Uranus. 我們讀了一章關於天王星的內容。"
+      },
+      {
+        "id": "uranus-3",
+        "target": "Uranus",
+        "answer": "Uranus",
+        "sentence": "My chart places ____ between Saturn and Neptune.",
+        "translation": "我的圖表把天王星放在土星和海王星之間。",
+        "context": "請填本課單字或片語：天王星。",
+        "explanation": "My chart places Uranus between Saturn and Neptune. 我的圖表把天王星放在土星和海王星之間。"
+      },
+      {
+        "id": "neptune-1",
+        "target": "Neptune",
+        "answer": "Neptune",
+        "sentence": "The eighth planet from the Sun is ____.",
+        "translation": "離太陽第八近的行星是海王星。",
+        "context": "請填本課單字或片語：海王星。",
+        "explanation": "The eighth planet from the Sun is Neptune. 離太陽第八近的行星是海王星。"
+      },
+      {
+        "id": "neptune-2",
+        "target": "Neptune",
+        "answer": "Neptune",
+        "sentence": "Of the eight planets, ____ is farthest from the Sun.",
+        "translation": "八顆行星中，海王星離太陽最遠。",
+        "context": "請填本課單字或片語：海王星。",
+        "explanation": "Of the eight planets, Neptune is farthest from the Sun. 八顆行星中，海王星離太陽最遠。"
+      },
+      {
+        "id": "neptune-3",
+        "target": "Neptune",
+        "answer": "Neptune",
+        "sentence": "She labeled the last planet in her model ____.",
+        "translation": "她把模型中最後一顆行星標為海王星。",
+        "context": "請填本課單字或片語：海王星。",
+        "explanation": "She labeled the last planet in her model Neptune. 她把模型中最後一顆行星標為海王星。"
+      },
+      {
+        "id": "asteroid-1",
+        "target": "asteroid",
+        "answer": "asteroid",
+        "sentence": "A small rocky body orbiting the Sun can be an ____.",
+        "translation": "繞太陽運行的小型岩石天體可能是小行星。",
+        "context": "請填本課單字或片語：小行星。",
+        "explanation": "A small rocky body orbiting the Sun can be an asteroid. 繞太陽運行的小型岩石天體可能是小行星。"
+      },
+      {
+        "id": "asteroid-2",
+        "target": "asteroid",
+        "answer": "asteroid",
+        "sentence": "We saw a picture of an ____ with many craters.",
+        "translation": "我們看了一張有許多坑洞的小行星圖片。",
+        "context": "請填本課單字或片語：小行星。",
+        "explanation": "We saw a picture of an asteroid with many craters. 我們看了一張有許多坑洞的小行星圖片。"
+      },
+      {
+        "id": "asteroid-3",
+        "target": "asteroid",
+        "answer": "asteroid",
+        "sentence": "The spacecraft studied a rocky ____.",
+        "translation": "太空船研究了一顆岩石小行星。",
+        "context": "請填本課單字或片語：小行星。",
+        "explanation": "The spacecraft studied a rocky asteroid. 太空船研究了一顆岩石小行星。"
+      },
+      {
+        "id": "before-1",
+        "target": "before",
+        "answer": "before",
+        "sentence": "Wash your hands ____ eating.",
+        "translation": "吃東西之前要洗手。",
+        "context": "請填本課單字或片語：在……之前。",
+        "explanation": "Wash your hands before eating. 吃東西之前要洗手。"
+      },
+      {
+        "id": "before-2",
+        "target": "before",
+        "answer": "before",
+        "sentence": "Please read the instructions ____ you begin.",
+        "translation": "開始之前請讀說明。",
+        "context": "請填本課單字或片語：在……之前。",
+        "explanation": "Please read the instructions before you begin. 開始之前請讀說明。"
+      },
+      {
+        "id": "before-3",
+        "target": "before",
+        "answer": "before",
+        "sentence": "Mercury comes ____ Venus in order from the Sun.",
+        "translation": "依離太陽的順序，水星在金星之前。",
+        "context": "請填本課單字或片語：在……之前。",
+        "explanation": "Mercury comes before Venus in order from the Sun. 依離太陽的順序，水星在金星之前。"
+      },
+      {
+        "id": "orbit-1",
+        "target": "orbit",
+        "answer": "orbit",
+        "sentence": "The planets ____ the Sun.",
+        "translation": "行星繞太陽公轉。",
+        "context": "請填本課單字或片語：繞著……公轉。",
+        "explanation": "The planets orbit the Sun. 行星繞太陽公轉。"
+      },
+      {
+        "id": "orbit-2",
+        "target": "orbit",
+        "answer": "orbit",
+        "sentence": "Natural moons ____ planets.",
+        "translation": "天然衛星繞行星公轉。",
+        "context": "請填本課單字或片語：繞著……公轉。",
+        "explanation": "Natural moons orbit planets. 天然衛星繞行星公轉。"
+      },
+      {
+        "id": "orbit-3",
+        "target": "orbit",
+        "answer": "orbit",
+        "sentence": "These satellites ____ Earth.",
+        "translation": "這些衛星繞地球公轉。",
+        "context": "請填本課單字或片語：繞著……公轉。",
+        "explanation": "These satellites orbit Earth. 這些衛星繞地球公轉。"
+      },
+      {
+        "id": "rotate-1",
+        "target": "rotate",
+        "answer": "rotate",
+        "sentence": "Planets ____ on their axes.",
+        "translation": "行星繞自己的軸自轉。",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "Planets rotate on their axes. 行星繞自己的軸自轉。"
+      },
+      {
+        "id": "rotate-2",
+        "target": "rotate",
+        "answer": "rotate",
+        "sentence": "Watch the model ____ on its axis.",
+        "translation": "看模型繞著自己的軸自轉。",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "Watch the model rotate on its axis. 看模型繞著自己的軸自轉。"
+      },
+      {
+        "id": "rotate-3",
+        "target": "rotate",
+        "answer": "rotate",
+        "sentence": "Can this globe ____ freely?",
+        "translation": "這個地球儀能自由自轉嗎？",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "Can this globe rotate freely? 這個地球儀能自由自轉嗎？"
+      },
+      {
+        "id": "rotation-1",
+        "target": "rotation",
+        "answer": "rotation",
+        "sentence": "Earth’s ____ causes day and night.",
+        "translation": "地球的自轉造成晝夜。",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "Earth’s rotation causes day and night. 地球的自轉造成晝夜。"
+      },
+      {
+        "id": "rotation-2",
+        "target": "rotation",
+        "answer": "rotation",
+        "sentence": "The spinning motion is called ____.",
+        "translation": "這種旋轉運動稱為自轉。",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "The spinning motion is called rotation. 這種旋轉運動稱為自轉。"
+      },
+      {
+        "id": "rotation-3",
+        "target": "rotation",
+        "answer": "rotation",
+        "sentence": "This arrow shows the direction of the planet’s ____.",
+        "translation": "這個箭頭顯示行星自轉的方向。",
+        "context": "請填本課單字或片語：自轉。",
+        "explanation": "This arrow shows the direction of the planet’s rotation. 這個箭頭顯示行星自轉的方向。"
+      }
+    ]
+  },
+  {
+    "id": "g6-u8-v1",
+    "grade": 6,
+    "unit": 8,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "星空與天文",
+    "description": "20 個單字與形式，各 3 種情境，共 60 題填空拼字。",
+    "source": "依家長提供的六年級 U8 單字表與SW Worksheet新編，非原卷。天文情境不使用會變動的衛星數量；彗星與流星分開說明。",
+    "questions": [
+      {
+        "id": "invite-1",
+        "target": "invite",
+        "answer": "invite",
+        "sentence": "We will ____ our friends to watch the stars.",
+        "translation": "我們會邀請朋友一起看星星。",
+        "context": "請填本課單字或片語：邀請。",
+        "explanation": "We will invite our friends to watch the stars. 我們會邀請朋友一起看星星。"
+      },
+      {
+        "id": "invite-2",
+        "target": "invite",
+        "answer": "invite",
+        "sentence": "May I ____ you to our science fair?",
+        "translation": "我可以邀請你參加科展嗎？",
+        "context": "請填本課單字或片語：邀請。",
+        "explanation": "May I invite you to our science fair? 我可以邀請你參加科展嗎？"
+      },
+      {
+        "id": "invite-3",
+        "target": "invite",
+        "answer": "invite",
+        "sentence": "They plan to ____ an astronomer to speak.",
+        "translation": "他們計畫邀請天文學家演講。",
+        "context": "請填本課單字或片語：邀請。",
+        "explanation": "They plan to invite an astronomer to speak. 他們計畫邀請天文學家演講。"
+      },
+      {
+        "id": "shooting-star-1",
+        "target": "shooting star",
+        "answer": "shooting star",
+        "sentence": "We saw a ____ streak across the night sky.",
+        "translation": "我們看到流星劃過夜空。",
+        "context": "請填本課單字或片語：流星。",
+        "explanation": "We saw a shooting star streak across the night sky. 我們看到流星劃過夜空。"
+      },
+      {
+        "id": "shooting-star-2",
+        "target": "shooting star",
+        "answer": "shooting star",
+        "sentence": "A meteor is often called a ____.",
+        "translation": "流星常被稱為 shooting star。",
+        "context": "請填本課單字或片語：流星。",
+        "explanation": "A meteor is often called a shooting star. 流星常被稱為 shooting star。"
+      },
+      {
+        "id": "shooting-star-3",
+        "target": "shooting star",
+        "answer": "shooting star",
+        "sentence": "She made a wish when she saw a ____.",
+        "translation": "她看到流星時許了願。",
+        "context": "請填本課單字或片語：流星。",
+        "explanation": "She made a wish when she saw a shooting star. 她看到流星時許了願。"
+      },
+      {
+        "id": "telescope-1",
+        "target": "telescope",
+        "answer": "telescope",
+        "sentence": "We looked at the Moon through a ____.",
+        "translation": "我們透過望遠鏡看月球。",
+        "context": "請填本課單字或片語：望遠鏡。",
+        "explanation": "We looked at the Moon through a telescope. 我們透過望遠鏡看月球。"
+      },
+      {
+        "id": "telescope-2",
+        "target": "telescope",
+        "answer": "telescope",
+        "sentence": "The astronomer adjusted the ____ to see distant objects.",
+        "translation": "天文學家調整望遠鏡來看遠方天體。",
+        "context": "請填本課單字或片語：望遠鏡。",
+        "explanation": "The astronomer adjusted the telescope to see distant objects. 天文學家調整望遠鏡來看遠方天體。"
+      },
+      {
+        "id": "telescope-3",
+        "target": "telescope",
+        "answer": "telescope",
+        "sentence": "This ____ makes distant stars easier to observe.",
+        "translation": "這台望遠鏡讓遠方星星更容易觀察。",
+        "context": "請填本課單字或片語：望遠鏡。",
+        "explanation": "This telescope makes distant stars easier to observe. 這台望遠鏡讓遠方星星更容易觀察。"
+      },
+      {
+        "id": "astronomy-1",
+        "target": "astronomy",
+        "answer": "astronomy",
+        "sentence": "The study of stars and planets is called ____.",
+        "translation": "研究恆星和行星的學問稱為天文學。",
+        "context": "請填本課單字或片語：天文學。",
+        "explanation": "The study of stars and planets is called astronomy. 研究恆星和行星的學問稱為天文學。"
+      },
+      {
+        "id": "astronomy-2",
+        "target": "astronomy",
+        "answer": "astronomy",
+        "sentence": "She studies ____ because she loves learning about space.",
+        "translation": "她因為喜歡了解太空而研究天文學。",
+        "context": "請填本課單字或片語：天文學。",
+        "explanation": "She studies astronomy because she loves learning about space. 她因為喜歡了解太空而研究天文學。"
+      },
+      {
+        "id": "astronomy-3",
+        "target": "astronomy",
+        "answer": "astronomy",
+        "sentence": "Our ____ club meets to observe the night sky.",
+        "translation": "我們的天文學社聚會觀察夜空。",
+        "context": "請填本課單字或片語：天文學。",
+        "explanation": "Our astronomy club meets to observe the night sky. 我們的天文學社聚會觀察夜空。"
+      },
+      {
+        "id": "star-sign-1",
+        "target": "star sign",
+        "answer": "star sign",
+        "sentence": "What is your ____? Mine is Leo.",
+        "translation": "你的星座是什麼？我的是獅子座。",
+        "context": "請填本課單字或片語：星座。",
+        "explanation": "What is your star sign? Mine is Leo. 你的星座是什麼？我的是獅子座。"
+      },
+      {
+        "id": "star-sign-2",
+        "target": "star sign",
+        "answer": "star sign",
+        "sentence": "She says her ____ is Scorpio.",
+        "translation": "她說她的星座是天蠍座。",
+        "context": "請填本課單字或片語：星座。",
+        "explanation": "She says her star sign is Scorpio. 她說她的星座是天蠍座。"
+      },
+      {
+        "id": "star-sign-3",
+        "target": "star sign",
+        "answer": "star sign",
+        "sentence": "This magazine has a page about each ____.",
+        "translation": "這本雜誌有介紹每個星座的頁面。",
+        "context": "請填本課單字或片語：星座。",
+        "explanation": "This magazine has a page about each star sign. 這本雜誌有介紹每個星座的頁面。"
+      },
+      {
+        "id": "lunar-1",
+        "target": "lunar",
+        "answer": "lunar",
+        "sentence": "A ____ calendar follows the phases of the Moon.",
+        "translation": "農曆依循月相。",
+        "context": "請填本課單字或片語：農曆的，月亮的。",
+        "explanation": "A lunar calendar follows the phases of the Moon. 農曆依循月相。"
+      },
+      {
+        "id": "lunar-2",
+        "target": "lunar",
+        "answer": "lunar",
+        "sentence": "We talked about the ____ New Year celebration.",
+        "translation": "我們談到了農曆新年慶祝活動。",
+        "context": "請填本課單字或片語：農曆的，月亮的。",
+        "explanation": "We talked about the lunar New Year celebration. 我們談到了農曆新年慶祝活動。"
+      },
+      {
+        "id": "lunar-3",
+        "target": "lunar",
+        "answer": "lunar",
+        "sentence": "The diagram shows a ____ eclipse.",
+        "translation": "圖表顯示月食。",
+        "context": "請填本課單字或片語：農曆的，月亮的。",
+        "explanation": "The diagram shows a lunar eclipse. 圖表顯示月食。"
+      },
+      {
+        "id": "calendar-1",
+        "target": "calendar",
+        "answer": "calendar",
+        "sentence": "I marked the date on my ____.",
+        "translation": "我在日曆上標記日期。",
+        "context": "請填本課單字或片語：日曆，月曆。",
+        "explanation": "I marked the date on my calendar. 我在日曆上標記日期。"
+      },
+      {
+        "id": "calendar-2",
+        "target": "calendar",
+        "answer": "calendar",
+        "sentence": "Look at the ____ to check the day.",
+        "translation": "看日曆確認日期。",
+        "context": "請填本課單字或片語：日曆，月曆。",
+        "explanation": "Look at the calendar to check the day. 看日曆確認日期。"
+      },
+      {
+        "id": "calendar-3",
+        "target": "calendar",
+        "answer": "calendar",
+        "sentence": "A new ____ hangs on the wall.",
+        "translation": "牆上掛著新的月曆。",
+        "context": "請填本課單字或片語：日曆，月曆。",
+        "explanation": "A new calendar hangs on the wall. 牆上掛著新的月曆。"
+      },
+      {
+        "id": "purpose-1",
+        "target": "purpose",
+        "answer": "purpose",
+        "sentence": "The ____ of this trip is to observe stars.",
+        "translation": "這趟旅行的目的是觀星。",
+        "context": "請填本課單字或片語：目標，目的。",
+        "explanation": "The purpose of this trip is to observe stars. 這趟旅行的目的是觀星。"
+      },
+      {
+        "id": "purpose-2",
+        "target": "purpose",
+        "answer": "purpose",
+        "sentence": "What is the ____ of this experiment?",
+        "translation": "這個實驗的目的是什麼？",
+        "context": "請填本課單字或片語：目標，目的。",
+        "explanation": "What is the purpose of this experiment? 這個實驗的目的是什麼？"
+      },
+      {
+        "id": "purpose-3",
+        "target": "purpose",
+        "answer": "purpose",
+        "sentence": "She explained the ____ of the meeting.",
+        "translation": "她解釋了會議的目的。",
+        "context": "請填本課單字或片語：目標，目的。",
+        "explanation": "She explained the purpose of the meeting. 她解釋了會議的目的。"
+      },
+      {
+        "id": "space-shuttle-1",
+        "target": "space shuttle",
+        "answer": "space shuttle",
+        "sentence": "The museum displays a model of a ____.",
+        "translation": "博物館展示太空梭模型。",
+        "context": "請填本課單字或片語：太空梭。",
+        "explanation": "The museum displays a model of a space shuttle. 博物館展示太空梭模型。"
+      },
+      {
+        "id": "space-shuttle-2",
+        "target": "space shuttle",
+        "answer": "space shuttle",
+        "sentence": "We watched a video of a ____ landing on a runway.",
+        "translation": "我們看了太空梭在跑道降落的影片。",
+        "context": "請填本課單字或片語：太空梭。",
+        "explanation": "We watched a video of a space shuttle landing on a runway. 我們看了太空梭在跑道降落的影片。"
+      },
+      {
+        "id": "space-shuttle-3",
+        "target": "space shuttle",
+        "answer": "space shuttle",
+        "sentence": "A ____ carried astronauts into space and back.",
+        "translation": "太空梭曾載太空人往返太空。",
+        "context": "請填本課單字或片語：太空梭。",
+        "explanation": "A space shuttle carried astronauts into space and back. 太空梭曾載太空人往返太空。"
+      },
+      {
+        "id": "universe-1",
+        "target": "universe",
+        "answer": "universe",
+        "sentence": "The ____ includes all space and everything in it.",
+        "translation": "宇宙包括所有空間及其中的一切。",
+        "context": "請填本課單字或片語：宇宙。",
+        "explanation": "The universe includes all space and everything in it. 宇宙包括所有空間及其中的一切。"
+      },
+      {
+        "id": "universe-2",
+        "target": "universe",
+        "answer": "universe",
+        "sentence": "Scientists study the history of the ____.",
+        "translation": "科學家研究宇宙的歷史。",
+        "context": "請填本課單字或片語：宇宙。",
+        "explanation": "Scientists study the history of the universe. 科學家研究宇宙的歷史。"
+      },
+      {
+        "id": "universe-3",
+        "target": "universe",
+        "answer": "universe",
+        "sentence": "We read a book about the vast ____.",
+        "translation": "我們讀了一本關於浩瀚宇宙的書。",
+        "context": "請填本課單字或片語：宇宙。",
+        "explanation": "We read a book about the vast universe. 我們讀了一本關於浩瀚宇宙的書。"
+      },
+      {
+        "id": "different-1",
+        "target": "different",
+        "answer": "different",
+        "sentence": "These two stars have ____ colors.",
+        "translation": "這兩顆星星有不同的顏色。",
+        "context": "請填本課單字或片語：不同的。",
+        "explanation": "These two stars have different colors. 這兩顆星星有不同的顏色。"
+      },
+      {
+        "id": "different-2",
+        "target": "different",
+        "answer": "different",
+        "sentence": "My answer is ____ from yours.",
+        "translation": "我的答案和你的不同。",
+        "context": "請填本課單字或片語：不同的。",
+        "explanation": "My answer is different from yours. 我的答案和你的不同。"
+      },
+      {
+        "id": "different-3",
+        "target": "different",
+        "answer": "different",
+        "sentence": "We tried a ____ way to solve the problem.",
+        "translation": "我們嘗試了不同的方法來解題。",
+        "context": "請填本課單字或片語：不同的。",
+        "explanation": "We tried a different way to solve the problem. 我們嘗試了不同的方法來解題。"
+      },
+      {
+        "id": "galaxy-1",
+        "target": "galaxy",
+        "answer": "galaxy",
+        "sentence": "The Milky Way is the ____ that contains our solar system.",
+        "translation": "銀河系是包含我們太陽系的星系。",
+        "context": "請填本課單字或片語：星系，銀河。",
+        "explanation": "The Milky Way is the galaxy that contains our solar system. 銀河系是包含我們太陽系的星系。"
+      },
+      {
+        "id": "galaxy-2",
+        "target": "galaxy",
+        "answer": "galaxy",
+        "sentence": "A ____ contains many stars.",
+        "translation": "星系包含許多恆星。",
+        "context": "請填本課單字或片語：星系，銀河。",
+        "explanation": "A galaxy contains many stars. 星系包含許多恆星。"
+      },
+      {
+        "id": "galaxy-3",
+        "target": "galaxy",
+        "answer": "galaxy",
+        "sentence": "The telescope photographed a distant ____.",
+        "translation": "望遠鏡拍攝了一個遙遠星系。",
+        "context": "請填本課單字或片語：星系，銀河。",
+        "explanation": "The telescope photographed a distant galaxy. 望遠鏡拍攝了一個遙遠星系。"
+      },
+      {
+        "id": "comet-1",
+        "target": "comet",
+        "answer": "comet",
+        "sentence": "An icy body orbiting the Sun can be a ____.",
+        "translation": "繞太陽運行的冰質天體可能是彗星。",
+        "context": "請填本課單字或片語：彗星。",
+        "explanation": "An icy body orbiting the Sun can be a comet. 繞太陽運行的冰質天體可能是彗星。"
+      },
+      {
+        "id": "comet-2",
+        "target": "comet",
+        "answer": "comet",
+        "sentence": "The ____ developed a tail as it approached the Sun.",
+        "translation": "彗星接近太陽時形成了尾巴。",
+        "context": "請填本課單字或片語：彗星。",
+        "explanation": "The comet developed a tail as it approached the Sun. 彗星接近太陽時形成了尾巴。"
+      },
+      {
+        "id": "comet-3",
+        "target": "comet",
+        "answer": "comet",
+        "sentence": "We saw a picture of a ____ with a bright tail.",
+        "translation": "我們看到了一張有明亮尾巴的彗星圖片。",
+        "context": "請填本課單字或片語：彗星。",
+        "explanation": "We saw a picture of a comet with a bright tail. 我們看到了一張有明亮尾巴的彗星圖片。"
+      },
+      {
+        "id": "move-1",
+        "target": "move",
+        "answer": "move",
+        "sentence": "Please ____ the chair closer to the window.",
+        "translation": "請把椅子移到窗邊一點。",
+        "context": "請填本課單字或片語：移動。",
+        "explanation": "Please move the chair closer to the window. 請把椅子移到窗邊一點。"
+      },
+      {
+        "id": "move-2",
+        "target": "move",
+        "answer": "move",
+        "sentence": "Do not ____ while I take the photo.",
+        "translation": "我拍照時不要移動。",
+        "context": "請填本課單字或片語：移動。",
+        "explanation": "Do not move while I take the photo. 我拍照時不要移動。"
+      },
+      {
+        "id": "move-3",
+        "target": "move",
+        "answer": "move",
+        "sentence": "We can watch the clouds ____ across the sky.",
+        "translation": "我們可以看雲在天空中移動。",
+        "context": "請填本課單字或片語：移動。",
+        "explanation": "We can watch the clouds move across the sky. 我們可以看雲在天空中移動。"
+      },
+      {
+        "id": "space-1",
+        "target": "space",
+        "answer": "space",
+        "sentence": "Astronauts travel into ____.",
+        "translation": "太空人前往太空。",
+        "context": "請填本課單字或片語：太空。",
+        "explanation": "Astronauts travel into space. 太空人前往太空。"
+      },
+      {
+        "id": "space-2",
+        "target": "space",
+        "answer": "space",
+        "sentence": "This book describes life in ____.",
+        "translation": "這本書描述太空生活。",
+        "context": "請填本課單字或片語：太空。",
+        "explanation": "This book describes life in space. 這本書描述太空生活。"
+      },
+      {
+        "id": "space-3",
+        "target": "space",
+        "answer": "space",
+        "sentence": "She hopes to explore ____ someday.",
+        "translation": "她希望有一天探索太空。",
+        "context": "請填本課單字或片語：太空。",
+        "explanation": "She hopes to explore space someday. 她希望有一天探索太空。"
+      },
+      {
+        "id": "understand-1",
+        "target": "understand",
+        "answer": "understand",
+        "sentence": "I do not ____ this question.",
+        "translation": "我不了解這個問題。",
+        "context": "請填本課單字或片語：了解。",
+        "explanation": "I do not understand this question. 我不了解這個問題。"
+      },
+      {
+        "id": "understand-2",
+        "target": "understand",
+        "answer": "understand",
+        "sentence": "The model helps us ____ how planets move.",
+        "translation": "模型幫助我們了解行星如何移動。",
+        "context": "請填本課單字或片語：了解。",
+        "explanation": "The model helps us understand how planets move. 模型幫助我們了解行星如何移動。"
+      },
+      {
+        "id": "understand-3",
+        "target": "understand",
+        "answer": "understand",
+        "sentence": "Please explain it again so I can ____.",
+        "translation": "請再解釋一次，讓我能了解。",
+        "context": "請填本課單字或片語：了解。",
+        "explanation": "Please explain it again so I can understand. 請再解釋一次，讓我能了解。"
+      },
+      {
+        "id": "satellite-1",
+        "target": "satellite",
+        "answer": "satellite",
+        "sentence": "The rocket carried a weather ____ into orbit.",
+        "translation": "火箭把氣象衛星送入軌道。",
+        "context": "請填本課單字或片語：人造衛星。",
+        "explanation": "The rocket carried a weather satellite into orbit. 火箭把氣象衛星送入軌道。"
+      },
+      {
+        "id": "satellite-2",
+        "target": "satellite",
+        "answer": "satellite",
+        "sentence": "This artificial ____ sends pictures of clouds to Earth.",
+        "translation": "這顆人造衛星把雲的照片傳回地球。",
+        "context": "請填本課單字或片語：人造衛星。",
+        "explanation": "This artificial satellite sends pictures of clouds to Earth. 這顆人造衛星把雲的照片傳回地球。"
+      },
+      {
+        "id": "satellite-3",
+        "target": "satellite",
+        "answer": "satellite",
+        "sentence": "A communications ____ relays signals.",
+        "translation": "通訊衛星轉傳訊號。",
+        "context": "請填本課單字或片語：人造衛星。",
+        "explanation": "A communications satellite relays signals. 通訊衛星轉傳訊號。"
+      },
+      {
+        "id": "ancient-1",
+        "target": "ancient",
+        "answer": "ancient",
+        "sentence": "We learned how ____ people observed the sky.",
+        "translation": "我們學習古代人如何觀察天空。",
+        "context": "請填本課單字或片語：古代的。",
+        "explanation": "We learned how ancient people observed the sky. 我們學習古代人如何觀察天空。"
+      },
+      {
+        "id": "ancient-2",
+        "target": "ancient",
+        "answer": "ancient",
+        "sentence": "The museum has an ____ star chart.",
+        "translation": "博物館有一張古代星圖。",
+        "context": "請填本課單字或片語：古代的。",
+        "explanation": "The museum has an ancient star chart. 博物館有一張古代星圖。"
+      },
+      {
+        "id": "ancient-3",
+        "target": "ancient",
+        "answer": "ancient",
+        "sentence": "These ruins are from an ____ city.",
+        "translation": "這些遺跡來自一座古代城市。",
+        "context": "請填本課單字或片語：古代的。",
+        "explanation": "These ruins are from an ancient city. 這些遺跡來自一座古代城市。"
+      },
+      {
+        "id": "technology-1",
+        "target": "technology",
+        "answer": "technology",
+        "sentence": "New ____ helps scientists study space.",
+        "translation": "新科技幫助科學家研究太空。",
+        "context": "請填本課單字或片語：科技。",
+        "explanation": "New technology helps scientists study space. 新科技幫助科學家研究太空。"
+      },
+      {
+        "id": "technology-2",
+        "target": "technology",
+        "answer": "technology",
+        "sentence": "This company develops camera ____.",
+        "translation": "這家公司開發相機科技。",
+        "context": "請填本課單字或片語：科技。",
+        "explanation": "This company develops camera technology. 這家公司開發相機科技。"
+      },
+      {
+        "id": "technology-3",
+        "target": "technology",
+        "answer": "technology",
+        "sentence": "We discussed how ____ changes daily life.",
+        "translation": "我們討論科技如何改變日常生活。",
+        "context": "請填本課單字或片語：科技。",
+        "explanation": "We discussed how technology changes daily life. 我們討論科技如何改變日常生活。"
+      },
+      {
+        "id": "improve-1",
+        "target": "improve",
+        "answer": "improve",
+        "sentence": "Practice can ____ your English.",
+        "translation": "練習可以改進你的英文。",
+        "context": "請填本課單字或片語：進步，改進。",
+        "explanation": "Practice can improve your English. 練習可以改進你的英文。"
+      },
+      {
+        "id": "improve-2",
+        "target": "improve",
+        "answer": "improve",
+        "sentence": "Engineers want to ____ the telescope’s design.",
+        "translation": "工程師想改進望遠鏡的設計。",
+        "context": "請填本課單字或片語：進步，改進。",
+        "explanation": "Engineers want to improve the telescope’s design. 工程師想改進望遠鏡的設計。"
+      },
+      {
+        "id": "improve-3",
+        "target": "improve",
+        "answer": "improve",
+        "sentence": "How can we ____ our science project?",
+        "translation": "我們可以如何改進科學專題？",
+        "context": "請填本課單字或片語：進步，改進。",
+        "explanation": "How can we improve our science project? 我們可以如何改進科學專題？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
