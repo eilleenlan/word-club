@@ -312,3 +312,7 @@ U7 參考單字 worksheet：15 個目標、45 種情境，保留 Chinese、Engli
 ## 四年級 U9、U10
 
 U9：15 個目標、45 種博物館與禮儀情境。U10：17 個目標、51 種音樂與所有格代名詞情境，find／found 分開練習，保留 musical instrument 與 drum 單數。32 段教材錄音位於 audio/grade4/unit9、unit10。支援單字自選、綜合、跨年級及情境輪替。四年級 U1～U10 已齊，全站共 50 課、744 個目標、2232 種情境。
+
+## 五年級 U6：從機場出發
+
+加入 20 個單字與片語、20 段教材錄音及 60 種原創填空情境，參考 SW Worksheet。保留 check-in 連字號與 boarding pass 等完整片語，lost／found 涵蓋失物招領及過去式用法。錄音位於 audio/grade5/unit6。全站共 51 課、764 個目標、2292 種情境。

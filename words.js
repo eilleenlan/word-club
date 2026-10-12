@@ -3294,6 +3294,95 @@ globalThis.WORD_UNITS = [
       "意思是……"
     ]
   ]
+},
+{
+  "grade": 5,
+  "id": "u6",
+  "number": "06",
+  "title": "從機場出發",
+  "subtitle": "airport, baggage claim, boarding pass…",
+  "words": [
+    [
+      "airport",
+      "機場"
+    ],
+    [
+      "flight",
+      "航班"
+    ],
+    [
+      "baggage claim",
+      "行李提領處"
+    ],
+    [
+      "arrival",
+      "抵達"
+    ],
+    [
+      "departure",
+      "出發，出境"
+    ],
+    [
+      "immigration",
+      "入境，移民"
+    ],
+    [
+      "passport",
+      "護照"
+    ],
+    [
+      "metal detector",
+      "金屬探測器"
+    ],
+    [
+      "customs",
+      "海關"
+    ],
+    [
+      "lost",
+      "遺失"
+    ],
+    [
+      "found",
+      "找到，招領"
+    ],
+    [
+      "department",
+      "處，局，部門"
+    ],
+    [
+      "counter",
+      "櫃檯"
+    ],
+    [
+      "machine",
+      "機器"
+    ],
+    [
+      "leave",
+      "離開"
+    ],
+    [
+      "check-in",
+      "報到，登記"
+    ],
+    [
+      "luggage",
+      "行李"
+    ],
+    [
+      "visa",
+      "簽證"
+    ],
+    [
+      "enter",
+      "進入"
+    ],
+    [
+      "boarding pass",
+      "登機證"
+    ]
+  ]
 }
 ];
 

@@ -23836,6 +23836,560 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "A red light means stop. 紅燈的意思是停下。"
       }
     ]
+  },
+  {
+    "id": "g5-u6-v1",
+    "grade": 5,
+    "unit": 6,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "從機場出發",
+    "description": "20 個單字與片語，各 3 種新編情境，共 60 題填空拼字。",
+    "source": "依家長提供的五年級 U6 單字表與 SW Worksheet 新編，非原卷；lost／found 涵蓋失物招領與過去式用法。",
+    "questions": [
+      {
+        "id": "airport-1",
+        "target": "airport",
+        "answer": "airport",
+        "sentence": "We went to the ____ to catch our plane.",
+        "translation": "我們去機場搭飛機。",
+        "context": "請填本課單字或片語：機場。",
+        "explanation": "We went to the airport to catch our plane. 我們去機場搭飛機。"
+      },
+      {
+        "id": "airport-2",
+        "target": "airport",
+        "answer": "airport",
+        "sentence": "Many planes land at this ____ every day.",
+        "translation": "每天有很多飛機在這座機場降落。",
+        "context": "請填本課單字或片語：機場。",
+        "explanation": "Many planes land at this airport every day. 每天有很多飛機在這座機場降落。"
+      },
+      {
+        "id": "airport-3",
+        "target": "airport",
+        "answer": "airport",
+        "sentence": "The bus takes travelers from the city to the ____.",
+        "translation": "這輛公車把旅客從城市載到機場。",
+        "context": "請填本課單字或片語：機場。",
+        "explanation": "The bus takes travelers from the city to the airport. 這輛公車把旅客從城市載到機場。"
+      },
+      {
+        "id": "flight-1",
+        "target": "flight",
+        "answer": "flight",
+        "sentence": "Our ____ to London leaves at noon.",
+        "translation": "我們前往倫敦的航班中午出發。",
+        "context": "請填本課單字或片語：航班。",
+        "explanation": "Our flight to London leaves at noon. 我們前往倫敦的航班中午出發。"
+      },
+      {
+        "id": "flight-2",
+        "target": "flight",
+        "answer": "flight",
+        "sentence": "The storm delayed our ____.",
+        "translation": "暴風雨延誤了我們的航班。",
+        "context": "請填本課單字或片語：航班。",
+        "explanation": "The storm delayed our flight. 暴風雨延誤了我們的航班。"
+      },
+      {
+        "id": "flight-3",
+        "target": "flight",
+        "answer": "flight",
+        "sentence": "What is your ____ number?",
+        "translation": "你的航班號碼是多少？",
+        "context": "請填本課單字或片語：航班。",
+        "explanation": "What is your flight number? 你的航班號碼是多少？"
+      },
+      {
+        "id": "baggage-claim-1",
+        "target": "baggage claim",
+        "answer": "baggage claim",
+        "sentence": "We collect our suitcases at ____.",
+        "translation": "我們在行李提領處領取行李箱。",
+        "context": "請填本課單字或片語：行李提領處。",
+        "explanation": "We collect our suitcases at baggage claim. 我們在行李提領處領取行李箱。"
+      },
+      {
+        "id": "baggage-claim-2",
+        "target": "baggage claim",
+        "answer": "baggage claim",
+        "sentence": "Follow the signs to ____ after you land.",
+        "translation": "降落後沿著標誌走到行李提領處。",
+        "context": "請填本課單字或片語：行李提領處。",
+        "explanation": "Follow the signs to baggage claim after you land. 降落後沿著標誌走到行李提領處。"
+      },
+      {
+        "id": "baggage-claim-3",
+        "target": "baggage claim",
+        "answer": "baggage claim",
+        "sentence": "My suitcase is on the belt in ____.",
+        "translation": "我的行李箱在行李提領處的輸送帶上。",
+        "context": "請填本課單字或片語：行李提領處。",
+        "explanation": "My suitcase is on the belt in baggage claim. 我的行李箱在行李提領處的輸送帶上。"
+      },
+      {
+        "id": "arrival-1",
+        "target": "arrival",
+        "answer": "arrival",
+        "sentence": "The screen shows the plane’s ____ time.",
+        "translation": "螢幕顯示飛機的抵達時間。",
+        "context": "請填本課單字或片語：抵達。",
+        "explanation": "The screen shows the plane’s arrival time. 螢幕顯示飛機的抵達時間。"
+      },
+      {
+        "id": "arrival-2",
+        "target": "arrival",
+        "answer": "arrival",
+        "sentence": "We waited for Grandma’s ____ at the airport.",
+        "translation": "我們在機場等奶奶抵達。",
+        "context": "請填本課單字或片語：抵達。",
+        "explanation": "We waited for Grandma’s arrival at the airport. 我們在機場等奶奶抵達。"
+      },
+      {
+        "id": "arrival-3",
+        "target": "arrival",
+        "answer": "arrival",
+        "sentence": "Please call me after your ____ in Taipei.",
+        "translation": "你抵達臺北後請打電話給我。",
+        "context": "請填本課單字或片語：抵達。",
+        "explanation": "Please call me after your arrival in Taipei. 你抵達臺北後請打電話給我。"
+      },
+      {
+        "id": "departure-1",
+        "target": "departure",
+        "answer": "departure",
+        "sentence": "Please be at the gate before the ____ time.",
+        "translation": "請在出發時間前到登機門。",
+        "context": "請填本課單字或片語：出發，出境。",
+        "explanation": "Please be at the gate before the departure time. 請在出發時間前到登機門。"
+      },
+      {
+        "id": "departure-2",
+        "target": "departure",
+        "answer": "departure",
+        "sentence": "The plane’s ____ was delayed by an hour.",
+        "translation": "飛機出發延誤了一小時。",
+        "context": "請填本課單字或片語：出發，出境。",
+        "explanation": "The plane’s departure was delayed by an hour. 飛機出發延誤了一小時。"
+      },
+      {
+        "id": "departure-3",
+        "target": "departure",
+        "answer": "departure",
+        "sentence": "We checked the ____ board to see when our plane would leave.",
+        "translation": "我們查看出發航班看板，確認飛機何時離開。",
+        "context": "請填本課單字或片語：出發，出境。",
+        "explanation": "We checked the departure board to see when our plane would leave. 我們查看出發航班看板，確認飛機何時離開。"
+      },
+      {
+        "id": "immigration-1",
+        "target": "immigration",
+        "answer": "immigration",
+        "sentence": "The ____ officer checked my passport.",
+        "translation": "入境審查官檢查了我的護照。",
+        "context": "請填本課單字或片語：入境，移民。",
+        "explanation": "The immigration officer checked my passport. 入境審查官檢查了我的護照。"
+      },
+      {
+        "id": "immigration-2",
+        "target": "immigration",
+        "answer": "immigration",
+        "sentence": "We waited in line at ____ for a passport check.",
+        "translation": "我們在入境審查處排隊等候查驗護照。",
+        "context": "請填本課單字或片語：入境，移民。",
+        "explanation": "We waited in line at immigration for a passport check. 我們在入境審查處排隊等候查驗護照。"
+      },
+      {
+        "id": "immigration-3",
+        "target": "immigration",
+        "answer": "immigration",
+        "sentence": "The sign points to ____ and passport control.",
+        "translation": "標誌指向入境審查與護照查驗處。",
+        "context": "請填本課單字或片語：入境，移民。",
+        "explanation": "The sign points to immigration and passport control. 標誌指向入境審查與護照查驗處。"
+      },
+      {
+        "id": "passport-1",
+        "target": "passport",
+        "answer": "passport",
+        "sentence": "My ____ has my photo and nationality in it.",
+        "translation": "我的護照裡有照片和國籍。",
+        "context": "請填本課單字或片語：護照。",
+        "explanation": "My passport has my photo and nationality in it. 我的護照裡有照片和國籍。"
+      },
+      {
+        "id": "passport-2",
+        "target": "passport",
+        "answer": "passport",
+        "sentence": "Keep your ____ safe when you travel abroad.",
+        "translation": "出國旅行時要保管好護照。",
+        "context": "請填本課單字或片語：護照。",
+        "explanation": "Keep your passport safe when you travel abroad. 出國旅行時要保管好護照。"
+      },
+      {
+        "id": "passport-3",
+        "target": "passport",
+        "answer": "passport",
+        "sentence": "The officer looked at the photo in my ____.",
+        "translation": "官員看了我護照裡的照片。",
+        "context": "請填本課單字或片語：護照。",
+        "explanation": "The officer looked at the photo in my passport. 官員看了我護照裡的照片。"
+      },
+      {
+        "id": "metal-detector-1",
+        "target": "metal detector",
+        "answer": "metal detector",
+        "sentence": "We walked through a ____ at the security checkpoint.",
+        "translation": "我們在安全檢查站走過金屬探測器。",
+        "context": "請填本課單字或片語：金屬探測器。",
+        "explanation": "We walked through a metal detector at the security checkpoint. 我們在安全檢查站走過金屬探測器。"
+      },
+      {
+        "id": "metal-detector-2",
+        "target": "metal detector",
+        "answer": "metal detector",
+        "sentence": "The ____ beeped when it detected my metal belt buckle.",
+        "translation": "金屬探測器偵測到我的金屬皮帶扣時發出嗶聲。",
+        "context": "請填本課單字或片語：金屬探測器。",
+        "explanation": "The metal detector beeped when it detected my metal belt buckle. 金屬探測器偵測到我的金屬皮帶扣時發出嗶聲。"
+      },
+      {
+        "id": "metal-detector-3",
+        "target": "metal detector",
+        "answer": "metal detector",
+        "sentence": "This ____ helps security staff detect metal objects.",
+        "translation": "這台金屬探測器協助安檢人員偵測金屬物品。",
+        "context": "請填本課單字或片語：金屬探測器。",
+        "explanation": "This metal detector helps security staff detect metal objects. 這台金屬探測器協助安檢人員偵測金屬物品。"
+      },
+      {
+        "id": "customs-1",
+        "target": "customs",
+        "answer": "customs",
+        "sentence": "The ____ officer asked about the goods in my suitcase.",
+        "translation": "海關人員詢問我行李箱裡的物品。",
+        "context": "請填本課單字或片語：海關。",
+        "explanation": "The customs officer asked about the goods in my suitcase. 海關人員詢問我行李箱裡的物品。"
+      },
+      {
+        "id": "customs-2",
+        "target": "customs",
+        "answer": "customs",
+        "sentence": "We declared our goods at ____.",
+        "translation": "我們在海關申報物品。",
+        "context": "請填本課單字或片語：海關。",
+        "explanation": "We declared our goods at customs. 我們在海關申報物品。"
+      },
+      {
+        "id": "customs-3",
+        "target": "customs",
+        "answer": "customs",
+        "sentence": "My bag was inspected at ____.",
+        "translation": "我的袋子在海關接受檢查。",
+        "context": "請填本課單字或片語：海關。",
+        "explanation": "My bag was inspected at customs. 我的袋子在海關接受檢查。"
+      },
+      {
+        "id": "lost-1",
+        "target": "lost",
+        "answer": "lost",
+        "sentence": "I ____ my scarf yesterday and cannot find it.",
+        "translation": "我昨天遺失了圍巾，現在找不到。",
+        "context": "請填本課單字或片語：遺失。",
+        "explanation": "I lost my scarf yesterday and cannot find it. 我昨天遺失了圍巾，現在找不到。"
+      },
+      {
+        "id": "lost-2",
+        "target": "lost",
+        "answer": "lost",
+        "sentence": "Please take this ____ bag to the information desk.",
+        "translation": "請把這個遺失的袋子拿到服務台。",
+        "context": "請填本課單字或片語：遺失。",
+        "explanation": "Please take this lost bag to the information desk. 請把這個遺失的袋子拿到服務台。"
+      },
+      {
+        "id": "lost-3",
+        "target": "lost",
+        "answer": "lost",
+        "sentence": "We asked about our missing umbrella at the ____ and found office.",
+        "translation": "我們到失物招領處詢問不見的雨傘。",
+        "context": "請填本課單字或片語：遺失。",
+        "explanation": "We asked about our missing umbrella at the lost and found office. 我們到失物招領處詢問不見的雨傘。"
+      },
+      {
+        "id": "found-1",
+        "target": "found",
+        "answer": "found",
+        "sentence": "She ____ her ticket in her pocket last night.",
+        "translation": "她昨晚在口袋裡找到了車票。",
+        "context": "請填本課單字或片語：找到，招領。",
+        "explanation": "She found her ticket in her pocket last night. 她昨晚在口袋裡找到了車票。"
+      },
+      {
+        "id": "found-2",
+        "target": "found",
+        "answer": "found",
+        "sentence": "I ____ a wallet under the seat yesterday.",
+        "translation": "我昨天在座位下找到了錢包。",
+        "context": "請填本課單字或片語：找到，招領。",
+        "explanation": "I found a wallet under the seat yesterday. 我昨天在座位下找到了錢包。"
+      },
+      {
+        "id": "found-3",
+        "target": "found",
+        "answer": "found",
+        "sentence": "He took the missing keys to the lost and ____ office.",
+        "translation": "他把遺失的鑰匙拿到失物招領處。",
+        "context": "請填本課單字或片語：找到，招領。",
+        "explanation": "He took the missing keys to the lost and found office. 他把遺失的鑰匙拿到失物招領處。"
+      },
+      {
+        "id": "department-1",
+        "target": "department",
+        "answer": "department",
+        "sentence": "She works in the sales ____ of this company.",
+        "translation": "她在這家公司的銷售部門工作。",
+        "context": "請填本課單字或片語：處，局，部門。",
+        "explanation": "She works in the sales department of this company. 她在這家公司的銷售部門工作。"
+      },
+      {
+        "id": "department-2",
+        "target": "department",
+        "answer": "department",
+        "sentence": "The police ____ helped us report the missing bag.",
+        "translation": "警察局協助我們報案尋找遺失的袋子。",
+        "context": "請填本課單字或片語：處，局，部門。",
+        "explanation": "The police department helped us report the missing bag. 警察局協助我們報案尋找遺失的袋子。"
+      },
+      {
+        "id": "department-3",
+        "target": "department",
+        "answer": "department",
+        "sentence": "Please ask the customer service ____ for help.",
+        "translation": "請向客服部門求助。",
+        "context": "請填本課單字或片語：處，局，部門。",
+        "explanation": "Please ask the customer service department for help. 請向客服部門求助。"
+      },
+      {
+        "id": "counter-1",
+        "target": "counter",
+        "answer": "counter",
+        "sentence": "The clerk is standing behind the ____.",
+        "translation": "店員站在櫃檯後面。",
+        "context": "請填本課單字或片語：櫃檯。",
+        "explanation": "The clerk is standing behind the counter. 店員站在櫃檯後面。"
+      },
+      {
+        "id": "counter-2",
+        "target": "counter",
+        "answer": "counter",
+        "sentence": "We put our bags beside the airline ____.",
+        "translation": "我們把袋子放在航空公司櫃檯旁。",
+        "context": "請填本課單字或片語：櫃檯。",
+        "explanation": "We put our bags beside the airline counter. 我們把袋子放在航空公司櫃檯旁。"
+      },
+      {
+        "id": "counter-3",
+        "target": "counter",
+        "answer": "counter",
+        "sentence": "Please ask the person at the information ____.",
+        "translation": "請詢問服務櫃檯的人員。",
+        "context": "請填本課單字或片語：櫃檯。",
+        "explanation": "Please ask the person at the information counter. 請詢問服務櫃檯的人員。"
+      },
+      {
+        "id": "machine-1",
+        "target": "machine",
+        "answer": "machine",
+        "sentence": "This ticket ____ prints train tickets.",
+        "translation": "這台售票機會印出火車票。",
+        "context": "請填本課單字或片語：機器。",
+        "explanation": "This ticket machine prints train tickets. 這台售票機會印出火車票。"
+      },
+      {
+        "id": "machine-2",
+        "target": "machine",
+        "answer": "machine",
+        "sentence": "Our washing ____ is broken.",
+        "translation": "我們的洗衣機壞了。",
+        "context": "請填本課單字或片語：機器。",
+        "explanation": "Our washing machine is broken. 我們的洗衣機壞了。"
+      },
+      {
+        "id": "machine-3",
+        "target": "machine",
+        "answer": "machine",
+        "sentence": "Put a coin into the vending ____.",
+        "translation": "把硬幣放進自動販賣機。",
+        "context": "請填本課單字或片語：機器。",
+        "explanation": "Put a coin into the vending machine. 把硬幣放進自動販賣機。"
+      },
+      {
+        "id": "leave-1",
+        "target": "leave",
+        "answer": "leave",
+        "sentence": "We must ____ home early to catch the plane.",
+        "translation": "我們必須早點離開家才能趕上飛機。",
+        "context": "請填本課單字或片語：離開。",
+        "explanation": "We must leave home early to catch the plane. 我們必須早點離開家才能趕上飛機。"
+      },
+      {
+        "id": "leave-2",
+        "target": "leave",
+        "answer": "leave",
+        "sentence": "What time will the train ____?",
+        "translation": "火車幾點離開？",
+        "context": "請填本課單字或片語：離開。",
+        "explanation": "What time will the train leave? 火車幾點離開？"
+      },
+      {
+        "id": "leave-3",
+        "target": "leave",
+        "answer": "leave",
+        "sentence": "Please take your bag when you ____ the room.",
+        "translation": "離開房間時請帶走你的袋子。",
+        "context": "請填本課單字或片語：離開。",
+        "explanation": "Please take your bag when you leave the room. 離開房間時請帶走你的袋子。"
+      },
+      {
+        "id": "check-in-1",
+        "target": "check-in",
+        "answer": "check-in",
+        "sentence": "We went to the ____ counter to register for our flight.",
+        "translation": "我們到報到櫃檯辦理航班報到。",
+        "context": "請填本課單字或片語：報到，登記。",
+        "explanation": "We went to the check-in counter to register for our flight. 我們到報到櫃檯辦理航班報到。"
+      },
+      {
+        "id": "check-in-2",
+        "target": "check-in",
+        "answer": "check-in",
+        "sentence": "Online ____ lets us register before reaching the airport.",
+        "translation": "線上報到讓我們抵達機場前就能完成登記。",
+        "context": "請填本課單字或片語：報到，登記。",
+        "explanation": "Online check-in lets us register before reaching the airport. 線上報到讓我們抵達機場前就能完成登記。"
+      },
+      {
+        "id": "check-in-3",
+        "target": "check-in",
+        "answer": "check-in",
+        "sentence": "Hotel ____ begins at three in the afternoon.",
+        "translation": "飯店入住登記下午三點開始。",
+        "context": "請填本課單字或片語：報到，登記。",
+        "explanation": "Hotel check-in begins at three in the afternoon. 飯店入住登記下午三點開始。"
+      },
+      {
+        "id": "luggage-1",
+        "target": "luggage",
+        "answer": "luggage",
+        "sentence": "How many pieces of ____ are you taking?",
+        "translation": "你要帶幾件行李？",
+        "context": "請填本課單字或片語：行李。",
+        "explanation": "How many pieces of luggage are you taking? 你要帶幾件行李？"
+      },
+      {
+        "id": "luggage-2",
+        "target": "luggage",
+        "answer": "luggage",
+        "sentence": "Our ____ includes two suitcases and a bag.",
+        "translation": "我們的行李包括兩個行李箱和一個袋子。",
+        "context": "請填本課單字或片語：行李。",
+        "explanation": "Our luggage includes two suitcases and a bag. 我們的行李包括兩個行李箱和一個袋子。"
+      },
+      {
+        "id": "luggage-3",
+        "target": "luggage",
+        "answer": "luggage",
+        "sentence": "Please keep your ____ with you.",
+        "translation": "請把行李留在身邊。",
+        "context": "請填本課單字或片語：行李。",
+        "explanation": "Please keep your luggage with you. 請把行李留在身邊。"
+      },
+      {
+        "id": "visa-1",
+        "target": "visa",
+        "answer": "visa",
+        "sentence": "The traveler applied for a ____ before the trip.",
+        "translation": "旅客在出發前申請了簽證。",
+        "context": "請填本課單字或片語：簽證。",
+        "explanation": "The traveler applied for a visa before the trip. 旅客在出發前申請了簽證。"
+      },
+      {
+        "id": "visa-2",
+        "target": "visa",
+        "answer": "visa",
+        "sentence": "She showed her student ____ to the officer.",
+        "translation": "她向官員出示學生簽證。",
+        "context": "請填本課單字或片語：簽證。",
+        "explanation": "She showed her student visa to the officer. 她向官員出示學生簽證。"
+      },
+      {
+        "id": "visa-3",
+        "target": "visa",
+        "answer": "visa",
+        "sentence": "His ____ allows him to study in that country.",
+        "translation": "他的簽證允許他在那個國家讀書。",
+        "context": "請填本課單字或片語：簽證。",
+        "explanation": "His visa allows him to study in that country. 他的簽證允許他在那個國家讀書。"
+      },
+      {
+        "id": "enter-1",
+        "target": "enter",
+        "answer": "enter",
+        "sentence": "Please show your ticket before you ____ the hall.",
+        "translation": "進入大廳前請出示票券。",
+        "context": "請填本課單字或片語：進入。",
+        "explanation": "Please show your ticket before you enter the hall. 進入大廳前請出示票券。"
+      },
+      {
+        "id": "enter-2",
+        "target": "enter",
+        "answer": "enter",
+        "sentence": "We can ____ the museum through this door.",
+        "translation": "我們可以從這扇門進入博物館。",
+        "context": "請填本課單字或片語：進入。",
+        "explanation": "We can enter the museum through this door. 我們可以從這扇門進入博物館。"
+      },
+      {
+        "id": "enter-3",
+        "target": "enter",
+        "answer": "enter",
+        "sentence": "Do not ____ the room until the teacher arrives.",
+        "translation": "老師到之前不要進入房間。",
+        "context": "請填本課單字或片語：進入。",
+        "explanation": "Do not enter the room until the teacher arrives. 老師到之前不要進入房間。"
+      },
+      {
+        "id": "boarding-pass-1",
+        "target": "boarding pass",
+        "answer": "boarding pass",
+        "sentence": "The gate agent scanned my ____ before I got on the plane.",
+        "translation": "登機門人員在我上飛機前掃描我的登機證。",
+        "context": "請填本課單字或片語：登機證。",
+        "explanation": "The gate agent scanned my boarding pass before I got on the plane. 登機門人員在我上飛機前掃描我的登機證。"
+      },
+      {
+        "id": "boarding-pass-2",
+        "target": "boarding pass",
+        "answer": "boarding pass",
+        "sentence": "Your seat number is printed on your ____.",
+        "translation": "你的座位號碼印在登機證上。",
+        "context": "請填本課單字或片語：登機證。",
+        "explanation": "Your seat number is printed on your boarding pass. 你的座位號碼印在登機證上。"
+      },
+      {
+        "id": "boarding-pass-3",
+        "target": "boarding pass",
+        "answer": "boarding pass",
+        "sentence": "Keep your ____ ready at the boarding gate.",
+        "translation": "在登機門請準備好登機證。",
+        "context": "請填本課單字或片語：登機證。",
+        "explanation": "Keep your boarding pass ready at the boarding gate. 在登機門請準備好登機證。"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

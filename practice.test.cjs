@@ -43,18 +43,18 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range includes 637 supplied questions and grade 5 alone has 100', () => {
+test('real grade 5 range includes 657 supplied questions and grade 5 alone has 120', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 637);
-  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 5);
-  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 100);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 657);
+  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 6);
+  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 120);
   assert.equal(s.eligible(WORD_UNITS, 6, false).length, 5);
 });
 
 test('grade 6 includes 101 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 738);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 758);
   const own = s.build(WORD_UNITS, 6, false, selected);
   assert.equal(own.words.length, 101);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
