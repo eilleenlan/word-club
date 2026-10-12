@@ -316,3 +316,7 @@ U9：15 個目標、45 種博物館與禮儀情境。U10：17 個目標、51 種
 ## 五年級 U6：從機場出發
 
 加入 20 個單字與片語、20 段教材錄音及 60 種原創填空情境，參考 SW Worksheet。保留 check-in 連字號與 boarding pass 等完整片語，lost／found 涵蓋失物招領及過去式用法。錄音位於 audio/grade5/unit6。全站共 51 課、764 個目標、2292 種情境。
+
+## 五年級 U7、U8
+
+U7 依 Quiz 新編：21 個目標、63 種情境，country／countries 分開練習。U8 依 SW Worksheet 新編：20 個目標、60 種情境。保留國名與國籍用語大寫、完整片語及 try／tried。41 段教材錄音位於 audio/grade5/unit7、unit8。全站共 53 課、805 個目標、2415 種情境。

@@ -24390,6 +24390,1141 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Keep your boarding pass ready at the boarding gate. 在登機門請準備好登機證。"
       }
     ]
+  },
+  {
+    "id": "g5-u7-v1",
+    "grade": 5,
+    "unit": 7,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "你去過哪裡？",
+    "description": "21 個單字與形式，各 3 種情境，共 63 題填空拼字。",
+    "source": "依家長提供的五年級 U7 單字表與Quiz新編，非原卷。",
+    "questions": [
+      {
+        "id": "been-1",
+        "target": "been",
+        "answer": "been",
+        "sentence": "Have you ever ____ to Canada?",
+        "translation": "你曾經去過加拿大嗎？",
+        "context": "請填本課單字或片語：be 的過去分詞。",
+        "explanation": "Have you ever been to Canada? 你曾經去過加拿大嗎？"
+      },
+      {
+        "id": "been-2",
+        "target": "been",
+        "answer": "been",
+        "sentence": "She has ____ sick for two days.",
+        "translation": "她已經病了兩天。",
+        "context": "請填本課單字或片語：be 的過去分詞。",
+        "explanation": "She has been sick for two days. 她已經病了兩天。"
+      },
+      {
+        "id": "been-3",
+        "target": "been",
+        "answer": "been",
+        "sentence": "We have never ____ here before.",
+        "translation": "我們以前從未來過這裡。",
+        "context": "請填本課單字或片語：be 的過去分詞。",
+        "explanation": "We have never been here before. 我們以前從未來過這裡。"
+      },
+      {
+        "id": "holland-1",
+        "target": "Holland",
+        "answer": "Holland",
+        "sentence": "My uncle sent a postcard from ____.",
+        "translation": "叔叔從荷蘭寄來一張明信片。",
+        "context": "請填本課單字或片語：荷蘭。",
+        "explanation": "My uncle sent a postcard from Holland. 叔叔從荷蘭寄來一張明信片。"
+      },
+      {
+        "id": "holland-2",
+        "target": "Holland",
+        "answer": "Holland",
+        "sentence": "Have you ever visited ____?",
+        "translation": "你曾經遊覽過荷蘭嗎？",
+        "context": "請填本課單字或片語：荷蘭。",
+        "explanation": "Have you ever visited Holland? 你曾經遊覽過荷蘭嗎？"
+      },
+      {
+        "id": "holland-3",
+        "target": "Holland",
+        "answer": "Holland",
+        "sentence": "She took photos of windmills in ____.",
+        "translation": "她在荷蘭拍了風車的照片。",
+        "context": "請填本課單字或片語：荷蘭。",
+        "explanation": "She took photos of windmills in Holland. 她在荷蘭拍了風車的照片。"
+      },
+      {
+        "id": "australia-1",
+        "target": "Australia",
+        "answer": "Australia",
+        "sentence": "We visited ____ during our vacation.",
+        "translation": "我們假期時遊覽了澳洲。",
+        "context": "請填本課單字或片語：澳洲。",
+        "explanation": "We visited Australia during our vacation. 我們假期時遊覽了澳洲。"
+      },
+      {
+        "id": "australia-2",
+        "target": "Australia",
+        "answer": "Australia",
+        "sentence": "My cousin lives in ____.",
+        "translation": "我的表哥住在澳洲。",
+        "context": "請填本課單字或片語：澳洲。",
+        "explanation": "My cousin lives in Australia. 我的表哥住在澳洲。"
+      },
+      {
+        "id": "australia-3",
+        "target": "Australia",
+        "answer": "Australia",
+        "sentence": "She has been to ____ twice.",
+        "translation": "她去過澳洲兩次。",
+        "context": "請填本課單字或片語：澳洲。",
+        "explanation": "She has been to Australia twice. 她去過澳洲兩次。"
+      },
+      {
+        "id": "foreign-1",
+        "target": "foreign",
+        "answer": "foreign",
+        "sentence": "He wants to learn a ____ language.",
+        "translation": "他想學一門外國語言。",
+        "context": "請填本課單字或片語：外國的。",
+        "explanation": "He wants to learn a foreign language. 他想學一門外國語言。"
+      },
+      {
+        "id": "foreign-2",
+        "target": "foreign",
+        "answer": "foreign",
+        "sentence": "This is my first visit to a ____ country.",
+        "translation": "這是我第一次遊覽外國。",
+        "context": "請填本課單字或片語：外國的。",
+        "explanation": "This is my first visit to a foreign country. 這是我第一次遊覽外國。"
+      },
+      {
+        "id": "foreign-3",
+        "target": "foreign",
+        "answer": "foreign",
+        "sentence": "We met several ____ visitors at the museum.",
+        "translation": "我們在博物館遇到幾位外國訪客。",
+        "context": "請填本課單字或片語：外國的。",
+        "explanation": "We met several foreign visitors at the museum. 我們在博物館遇到幾位外國訪客。"
+      },
+      {
+        "id": "country-1",
+        "target": "country",
+        "answer": "country",
+        "sentence": "Which ____ would you like to visit?",
+        "translation": "你想遊覽哪一個國家？",
+        "context": "請填本課單字或片語：國家。",
+        "explanation": "Which country would you like to visit? 你想遊覽哪一個國家？"
+      },
+      {
+        "id": "country-2",
+        "target": "country",
+        "answer": "country",
+        "sentence": "Japan is a ____ in Asia.",
+        "translation": "日本是亞洲的一個國家。",
+        "context": "請填本課單字或片語：國家。",
+        "explanation": "Japan is a country in Asia. 日本是亞洲的一個國家。"
+      },
+      {
+        "id": "country-3",
+        "target": "country",
+        "answer": "country",
+        "sentence": "She plans to visit one ____ this summer.",
+        "translation": "她計畫今年夏天遊覽一個國家。",
+        "context": "請填本課單字或片語：國家。",
+        "explanation": "She plans to visit one country this summer. 她計畫今年夏天遊覽一個國家。"
+      },
+      {
+        "id": "countries-1",
+        "target": "countries",
+        "answer": "countries",
+        "sentence": "We visited three ____ last year.",
+        "translation": "我們去年遊覽了三個國家。",
+        "context": "請填本課單字或片語：國家（複數）。",
+        "explanation": "We visited three countries last year. 我們去年遊覽了三個國家。"
+      },
+      {
+        "id": "countries-2",
+        "target": "countries",
+        "answer": "countries",
+        "sentence": "How many ____ have you been to?",
+        "translation": "你去過多少個國家？",
+        "context": "請填本課單字或片語：國家（複數）。",
+        "explanation": "How many countries have you been to? 你去過多少個國家？"
+      },
+      {
+        "id": "countries-3",
+        "target": "countries",
+        "answer": "countries",
+        "sentence": "Students from different ____ joined the camp.",
+        "translation": "來自不同國家的學生參加了營隊。",
+        "context": "請填本課單字或片語：國家（複數）。",
+        "explanation": "Students from different countries joined the camp. 來自不同國家的學生參加了營隊。"
+      },
+      {
+        "id": "canada-1",
+        "target": "Canada",
+        "answer": "Canada",
+        "sentence": "My aunt lives in ____.",
+        "translation": "我的阿姨住在加拿大。",
+        "context": "請填本課單字或片語：加拿大。",
+        "explanation": "My aunt lives in Canada. 我的阿姨住在加拿大。"
+      },
+      {
+        "id": "canada-2",
+        "target": "Canada",
+        "answer": "Canada",
+        "sentence": "We flew to ____ last winter.",
+        "translation": "我們去年冬天搭飛機去加拿大。",
+        "context": "請填本課單字或片語：加拿大。",
+        "explanation": "We flew to Canada last winter. 我們去年冬天搭飛機去加拿大。"
+      },
+      {
+        "id": "canada-3",
+        "target": "Canada",
+        "answer": "Canada",
+        "sentence": "Have you ever been to ____?",
+        "translation": "你曾經去過加拿大嗎？",
+        "context": "請填本課單字或片語：加拿大。",
+        "explanation": "Have you ever been to Canada? 你曾經去過加拿大嗎？"
+      },
+      {
+        "id": "new-zealand-1",
+        "target": "New Zealand",
+        "answer": "New Zealand",
+        "sentence": "We spent our holiday in ____.",
+        "translation": "我們在紐西蘭度過假期。",
+        "context": "請填本課單字或片語：紐西蘭。",
+        "explanation": "We spent our holiday in New Zealand. 我們在紐西蘭度過假期。"
+      },
+      {
+        "id": "new-zealand-2",
+        "target": "New Zealand",
+        "answer": "New Zealand",
+        "sentence": "My friend sent me photos from ____.",
+        "translation": "我的朋友從紐西蘭傳照片給我。",
+        "context": "請填本課單字或片語：紐西蘭。",
+        "explanation": "My friend sent me photos from New Zealand. 我的朋友從紐西蘭傳照片給我。"
+      },
+      {
+        "id": "new-zealand-3",
+        "target": "New Zealand",
+        "answer": "New Zealand",
+        "sentence": "She wants to visit ____ next year.",
+        "translation": "她想明年遊覽紐西蘭。",
+        "context": "請填本課單字或片語：紐西蘭。",
+        "explanation": "She wants to visit New Zealand next year. 她想明年遊覽紐西蘭。"
+      },
+      {
+        "id": "japan-1",
+        "target": "Japan",
+        "answer": "Japan",
+        "sentence": "We traveled to ____ last spring.",
+        "translation": "我們去年春天到日本旅行。",
+        "context": "請填本課單字或片語：日本。",
+        "explanation": "We traveled to Japan last spring. 我們去年春天到日本旅行。"
+      },
+      {
+        "id": "japan-2",
+        "target": "Japan",
+        "answer": "Japan",
+        "sentence": "My brother has been to ____ before.",
+        "translation": "我哥哥以前去過日本。",
+        "context": "請填本課單字或片語：日本。",
+        "explanation": "My brother has been to Japan before. 我哥哥以前去過日本。"
+      },
+      {
+        "id": "japan-3",
+        "target": "Japan",
+        "answer": "Japan",
+        "sentence": "This postcard came from ____.",
+        "translation": "這張明信片來自日本。",
+        "context": "請填本課單字或片語：日本。",
+        "explanation": "This postcard came from Japan. 這張明信片來自日本。"
+      },
+      {
+        "id": "south-africa-1",
+        "target": "South Africa",
+        "answer": "South Africa",
+        "sentence": "They visited ____ during their trip.",
+        "translation": "他們旅行時遊覽了南非。",
+        "context": "請填本課單字或片語：南非。",
+        "explanation": "They visited South Africa during their trip. 他們旅行時遊覽了南非。"
+      },
+      {
+        "id": "south-africa-2",
+        "target": "South Africa",
+        "answer": "South Africa",
+        "sentence": "My pen pal lives in ____.",
+        "translation": "我的筆友住在南非。",
+        "context": "請填本課單字或片語：南非。",
+        "explanation": "My pen pal lives in South Africa. 我的筆友住在南非。"
+      },
+      {
+        "id": "south-africa-3",
+        "target": "South Africa",
+        "answer": "South Africa",
+        "sentence": "We read a book about ____.",
+        "translation": "我們讀了一本介紹南非的書。",
+        "context": "請填本課單字或片語：南非。",
+        "explanation": "We read a book about South Africa. 我們讀了一本介紹南非的書。"
+      },
+      {
+        "id": "brazil-1",
+        "target": "Brazil",
+        "answer": "Brazil",
+        "sentence": "He would like to visit ____.",
+        "translation": "他想遊覽巴西。",
+        "context": "請填本課單字或片語：巴西。",
+        "explanation": "He would like to visit Brazil. 他想遊覽巴西。"
+      },
+      {
+        "id": "brazil-2",
+        "target": "Brazil",
+        "answer": "Brazil",
+        "sentence": "My friend brought this gift from ____.",
+        "translation": "我的朋友從巴西帶來這份禮物。",
+        "context": "請填本課單字或片語：巴西。",
+        "explanation": "My friend brought this gift from Brazil. 我的朋友從巴西帶來這份禮物。"
+      },
+      {
+        "id": "brazil-3",
+        "target": "Brazil",
+        "answer": "Brazil",
+        "sentence": "She has never been to ____.",
+        "translation": "她從未去過巴西。",
+        "context": "請填本課單字或片語：巴西。",
+        "explanation": "She has never been to Brazil. 她從未去過巴西。"
+      },
+      {
+        "id": "singapore-1",
+        "target": "Singapore",
+        "answer": "Singapore",
+        "sentence": "We stopped in ____ on our trip.",
+        "translation": "我們旅行途中在新加坡停留。",
+        "context": "請填本課單字或片語：新加坡。",
+        "explanation": "We stopped in Singapore on our trip. 我們旅行途中在新加坡停留。"
+      },
+      {
+        "id": "singapore-2",
+        "target": "Singapore",
+        "answer": "Singapore",
+        "sentence": "My grandparents live in ____.",
+        "translation": "我的祖父母住在新加坡。",
+        "context": "請填本課單字或片語：新加坡。",
+        "explanation": "My grandparents live in Singapore. 我的祖父母住在新加坡。"
+      },
+      {
+        "id": "singapore-3",
+        "target": "Singapore",
+        "answer": "Singapore",
+        "sentence": "He flew to ____ yesterday.",
+        "translation": "他昨天搭飛機去新加坡。",
+        "context": "請填本課單字或片語：新加坡。",
+        "explanation": "He flew to Singapore yesterday. 他昨天搭飛機去新加坡。"
+      },
+      {
+        "id": "abroad-1",
+        "target": "abroad",
+        "answer": "abroad",
+        "sentence": "She wants to study ____ next year.",
+        "translation": "她明年想出國留學。",
+        "context": "請填本課單字或片語：往國外。",
+        "explanation": "She wants to study abroad next year. 她明年想出國留學。"
+      },
+      {
+        "id": "abroad-2",
+        "target": "abroad",
+        "answer": "abroad",
+        "sentence": "Have you ever traveled ____?",
+        "translation": "你曾經出國旅行嗎？",
+        "context": "請填本課單字或片語：往國外。",
+        "explanation": "Have you ever traveled abroad? 你曾經出國旅行嗎？"
+      },
+      {
+        "id": "abroad-3",
+        "target": "abroad",
+        "answer": "abroad",
+        "sentence": "My uncle works ____ and visits us in summer.",
+        "translation": "叔叔在國外工作，夏天會來探望我們。",
+        "context": "請填本課單字或片語：往國外。",
+        "explanation": "My uncle works abroad and visits us in summer. 叔叔在國外工作，夏天會來探望我們。"
+      },
+      {
+        "id": "seen-1",
+        "target": "seen",
+        "answer": "seen",
+        "sentence": "I have never ____ a real kangaroo.",
+        "translation": "我從未看過真正的袋鼠。",
+        "context": "請填本課單字或片語：看（過去分詞）。",
+        "explanation": "I have never seen a real kangaroo. 我從未看過真正的袋鼠。"
+      },
+      {
+        "id": "seen-2",
+        "target": "seen",
+        "answer": "seen",
+        "sentence": "Have you ____ this movie before?",
+        "translation": "你以前看過這部電影嗎？",
+        "context": "請填本課單字或片語：看（過去分詞）。",
+        "explanation": "Have you seen this movie before? 你以前看過這部電影嗎？"
+      },
+      {
+        "id": "seen-3",
+        "target": "seen",
+        "answer": "seen",
+        "sentence": "She has ____ the fireworks show twice.",
+        "translation": "她已經看過這場煙火秀兩次。",
+        "context": "請填本課單字或片語：看（過去分詞）。",
+        "explanation": "She has seen the fireworks show twice. 她已經看過這場煙火秀兩次。"
+      },
+      {
+        "id": "theme-1",
+        "target": "theme",
+        "answer": "theme",
+        "sentence": "The ____ of our party is space.",
+        "translation": "我們派對的主題是太空。",
+        "context": "請填本課單字或片語：主題。",
+        "explanation": "The theme of our party is space. 我們派對的主題是太空。"
+      },
+      {
+        "id": "theme-2",
+        "target": "theme",
+        "answer": "theme",
+        "sentence": "This ____ park has rides about fairy tales.",
+        "translation": "這座主題樂園有以童話為題的遊樂設施。",
+        "context": "請填本課單字或片語：主題。",
+        "explanation": "This theme park has rides about fairy tales. 這座主題樂園有以童話為題的遊樂設施。"
+      },
+      {
+        "id": "theme-3",
+        "target": "theme",
+        "answer": "theme",
+        "sentence": "What is the main ____ of this story?",
+        "translation": "這個故事的主要主題是什麼？",
+        "context": "請填本課單字或片語：主題。",
+        "explanation": "What is the main theme of this story? 這個故事的主要主題是什麼？"
+      },
+      {
+        "id": "idea-1",
+        "target": "idea",
+        "answer": "idea",
+        "sentence": "I have an ____ for our next trip.",
+        "translation": "我對下一次旅行有個想法。",
+        "context": "請填本課單字或片語：想法。",
+        "explanation": "I have an idea for our next trip. 我對下一次旅行有個想法。"
+      },
+      {
+        "id": "idea-2",
+        "target": "idea",
+        "answer": "idea",
+        "sentence": "That is a good ____ for a birthday party.",
+        "translation": "那是個辦生日派對的好想法。",
+        "context": "請填本課單字或片語：想法。",
+        "explanation": "That is a good idea for a birthday party. 那是個辦生日派對的好想法。"
+      },
+      {
+        "id": "idea-3",
+        "target": "idea",
+        "answer": "idea",
+        "sentence": "Can you share your ____ with the class?",
+        "translation": "你能和全班分享你的想法嗎？",
+        "context": "請填本課單字或片語：想法。",
+        "explanation": "Can you share your idea with the class? 你能和全班分享你的想法嗎？"
+      },
+      {
+        "id": "cartoon-1",
+        "target": "cartoon",
+        "answer": "cartoon",
+        "sentence": "The children are watching a funny ____.",
+        "translation": "孩子們正在看一部有趣的卡通。",
+        "context": "請填本課單字或片語：卡通。",
+        "explanation": "The children are watching a funny cartoon. 孩子們正在看一部有趣的卡通。"
+      },
+      {
+        "id": "cartoon-2",
+        "target": "cartoon",
+        "answer": "cartoon",
+        "sentence": "She drew a ____ character in her notebook.",
+        "translation": "她在筆記本裡畫了一個卡通人物。",
+        "context": "請填本課單字或片語：卡通。",
+        "explanation": "She drew a cartoon character in her notebook. 她在筆記本裡畫了一個卡通人物。"
+      },
+      {
+        "id": "cartoon-3",
+        "target": "cartoon",
+        "answer": "cartoon",
+        "sentence": "This ____ has a talking rabbit.",
+        "translation": "這部卡通有一隻會說話的兔子。",
+        "context": "請填本課單字或片語：卡通。",
+        "explanation": "This cartoon has a talking rabbit. 這部卡通有一隻會說話的兔子。"
+      },
+      {
+        "id": "open-1",
+        "target": "open",
+        "answer": "open",
+        "sentence": "Please ____ the door for me.",
+        "translation": "請幫我開門。",
+        "context": "請填本課單字或片語：開。",
+        "explanation": "Please open the door for me. 請幫我開門。"
+      },
+      {
+        "id": "open-2",
+        "target": "open",
+        "answer": "open",
+        "sentence": "We will ____ the gift after dinner.",
+        "translation": "我們晚餐後會打開禮物。",
+        "context": "請填本課單字或片語：開。",
+        "explanation": "We will open the gift after dinner. 我們晚餐後會打開禮物。"
+      },
+      {
+        "id": "open-3",
+        "target": "open",
+        "answer": "open",
+        "sentence": "Can you ____ this box?",
+        "translation": "你能打開這個盒子嗎？",
+        "context": "請填本課單字或片語：開。",
+        "explanation": "Can you open this box? 你能打開這個盒子嗎？"
+      },
+      {
+        "id": "show-1",
+        "target": "show",
+        "answer": "show",
+        "sentence": "We watched a magic ____ at the park.",
+        "translation": "我們在公園看了一場魔術秀。",
+        "context": "請填本課單字或片語：秀，表演。",
+        "explanation": "We watched a magic show at the park. 我們在公園看了一場魔術秀。"
+      },
+      {
+        "id": "show-2",
+        "target": "show",
+        "answer": "show",
+        "sentence": "The fireworks ____ begins at eight.",
+        "translation": "煙火秀八點開始。",
+        "context": "請填本課單字或片語：秀，表演。",
+        "explanation": "The fireworks show begins at eight. 煙火秀八點開始。"
+      },
+      {
+        "id": "show-3",
+        "target": "show",
+        "answer": "show",
+        "sentence": "I bought tickets for the puppet ____.",
+        "translation": "我買了木偶表演的票。",
+        "context": "請填本課單字或片語：秀，表演。",
+        "explanation": "I bought tickets for the puppet show. 我買了木偶表演的票。"
+      },
+      {
+        "id": "no-longer-1",
+        "target": "no longer",
+        "answer": "no longer",
+        "sentence": "He sold his car, so he ____ drives to work.",
+        "translation": "他賣了車，所以不再開車上班。",
+        "context": "請填本課單字或片語：不再。",
+        "explanation": "He sold his car, so he no longer drives to work. 他賣了車，所以不再開車上班。"
+      },
+      {
+        "id": "no-longer-2",
+        "target": "no longer",
+        "answer": "no longer",
+        "sentence": "This old shop is ____ open.",
+        "translation": "這間老店不再營業。",
+        "context": "請填本課單字或片語：不再。",
+        "explanation": "This old shop is no longer open. 這間老店不再營業。"
+      },
+      {
+        "id": "no-longer-3",
+        "target": "no longer",
+        "answer": "no longer",
+        "sentence": "She is ____ afraid of flying.",
+        "translation": "她不再害怕搭飛機。",
+        "context": "請填本課單字或片語：不再。",
+        "explanation": "She is no longer afraid of flying. 她不再害怕搭飛機。"
+      },
+      {
+        "id": "after-all-1",
+        "target": "after all",
+        "answer": "after all",
+        "sentence": "We should help him; he is our friend, ____.",
+        "translation": "我們應該幫他，畢竟他是我們的朋友。",
+        "context": "請填本課單字或片語：畢竟。",
+        "explanation": "We should help him; he is our friend, after all. 我們應該幫他，畢竟他是我們的朋友。"
+      },
+      {
+        "id": "after-all-2",
+        "target": "after all",
+        "answer": "after all",
+        "sentence": "Be patient with her. She is only six, ____.",
+        "translation": "對她有耐心一點，畢竟她才六歲。",
+        "context": "請填本課單字或片語：畢竟。",
+        "explanation": "Be patient with her. She is only six, after all. 對她有耐心一點，畢竟她才六歲。"
+      },
+      {
+        "id": "after-all-3",
+        "target": "after all",
+        "answer": "after all",
+        "sentence": "Let us take a break. We have walked all day, ____.",
+        "translation": "我們休息一下吧，畢竟已經走了一整天。",
+        "context": "請填本課單字或片語：畢竟。",
+        "explanation": "Let us take a break. We have walked all day, after all. 我們休息一下吧，畢竟已經走了一整天。"
+      }
+    ]
+  },
+  {
+    "id": "g5-u8-v1",
+    "grade": 5,
+    "unit": 8,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "世界各地的美食",
+    "description": "20 個單字與形式，各 3 種情境，共 60 題填空拼字。",
+    "source": "依家長提供的五年級 U8 單字表與SW Worksheet新編，非原卷。",
+    "questions": [
+      {
+        "id": "fast-food-1",
+        "target": "fast food",
+        "answer": "fast food",
+        "sentence": "We bought burgers at a ____ restaurant.",
+        "translation": "我們在速食餐廳買了漢堡。",
+        "context": "請填本課單字或片語：速食。",
+        "explanation": "We bought burgers at a fast food restaurant. 我們在速食餐廳買了漢堡。"
+      },
+      {
+        "id": "fast-food-2",
+        "target": "fast food",
+        "answer": "fast food",
+        "sentence": "This shop serves ____ for busy travelers.",
+        "translation": "這家店供應速食給忙碌的旅客。",
+        "context": "請填本課單字或片語：速食。",
+        "explanation": "This shop serves fast food for busy travelers. 這家店供應速食給忙碌的旅客。"
+      },
+      {
+        "id": "fast-food-3",
+        "target": "fast food",
+        "answer": "fast food",
+        "sentence": "They chose ____ because they were in a hurry.",
+        "translation": "他們因為趕時間而選擇速食。",
+        "context": "請填本課單字或片語：速食。",
+        "explanation": "They chose fast food because they were in a hurry. 他們因為趕時間而選擇速食。"
+      },
+      {
+        "id": "mexican-1",
+        "target": "Mexican",
+        "answer": "Mexican",
+        "sentence": "We had dinner at a ____ restaurant.",
+        "translation": "我們在墨西哥餐廳吃晚餐。",
+        "context": "請填本課單字或片語：墨西哥的。",
+        "explanation": "We had dinner at a Mexican restaurant. 我們在墨西哥餐廳吃晚餐。"
+      },
+      {
+        "id": "mexican-2",
+        "target": "Mexican",
+        "answer": "Mexican",
+        "sentence": "She wants to learn about ____ cooking.",
+        "translation": "她想學習墨西哥料理。",
+        "context": "請填本課單字或片語：墨西哥的。",
+        "explanation": "She wants to learn about Mexican cooking. 她想學習墨西哥料理。"
+      },
+      {
+        "id": "mexican-3",
+        "target": "Mexican",
+        "answer": "Mexican",
+        "sentence": "This cookbook has many ____ recipes.",
+        "translation": "這本食譜有許多墨西哥食譜。",
+        "context": "請填本課單字或片語：墨西哥的。",
+        "explanation": "This cookbook has many Mexican recipes. 這本食譜有許多墨西哥食譜。"
+      },
+      {
+        "id": "eaten-1",
+        "target": "eaten",
+        "answer": "eaten",
+        "sentence": "Have you ever ____ this dish?",
+        "translation": "你曾經吃過這道菜嗎？",
+        "context": "請填本課單字或片語：吃（過去分詞）。",
+        "explanation": "Have you ever eaten this dish? 你曾經吃過這道菜嗎？"
+      },
+      {
+        "id": "eaten-2",
+        "target": "eaten",
+        "answer": "eaten",
+        "sentence": "She has already ____ lunch.",
+        "translation": "她已經吃過午餐了。",
+        "context": "請填本課單字或片語：吃（過去分詞）。",
+        "explanation": "She has already eaten lunch. 她已經吃過午餐了。"
+      },
+      {
+        "id": "eaten-3",
+        "target": "eaten",
+        "answer": "eaten",
+        "sentence": "We have never ____ here before.",
+        "translation": "我們以前從未在這裡吃過飯。",
+        "context": "請填本課單字或片語：吃（過去分詞）。",
+        "explanation": "We have never eaten here before. 我們以前從未在這裡吃過飯。"
+      },
+      {
+        "id": "chinese-1",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "They ordered ____ food for dinner.",
+        "translation": "他們晚餐點了中國料理。",
+        "context": "請填本課單字或片語：中國的。",
+        "explanation": "They ordered Chinese food for dinner. 他們晚餐點了中國料理。"
+      },
+      {
+        "id": "chinese-2",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "My aunt teaches ____ cooking.",
+        "translation": "阿姨教中國料理。",
+        "context": "請填本課單字或片語：中國的。",
+        "explanation": "My aunt teaches Chinese cooking. 阿姨教中國料理。"
+      },
+      {
+        "id": "chinese-3",
+        "target": "Chinese",
+        "answer": "Chinese",
+        "sentence": "This book explains ____ food traditions.",
+        "translation": "這本書介紹中國的飲食傳統。",
+        "context": "請填本課單字或片語：中國的。",
+        "explanation": "This book explains Chinese food traditions. 這本書介紹中國的飲食傳統。"
+      },
+      {
+        "id": "indian-1",
+        "target": "Indian",
+        "answer": "Indian",
+        "sentence": "We visited an ____ restaurant.",
+        "translation": "我們去了一家印度餐廳。",
+        "context": "請填本課單字或片語：印度的。",
+        "explanation": "We visited an Indian restaurant. 我們去了一家印度餐廳。"
+      },
+      {
+        "id": "indian-2",
+        "target": "Indian",
+        "answer": "Indian",
+        "sentence": "She is learning to make ____ bread.",
+        "translation": "她正在學做印度麵包。",
+        "context": "請填本課單字或片語：印度的。",
+        "explanation": "She is learning to make Indian bread. 她正在學做印度麵包。"
+      },
+      {
+        "id": "indian-3",
+        "target": "Indian",
+        "answer": "Indian",
+        "sentence": "The chef shared an ____ recipe.",
+        "translation": "廚師分享了一道印度食譜。",
+        "context": "請填本課單字或片語：印度的。",
+        "explanation": "The chef shared an Indian recipe. 廚師分享了一道印度食譜。"
+      },
+      {
+        "id": "thai-1",
+        "target": "Thai",
+        "answer": "Thai",
+        "sentence": "My family enjoys ____ food.",
+        "translation": "我的家人喜歡泰國料理。",
+        "context": "請填本課單字或片語：泰國的。",
+        "explanation": "My family enjoys Thai food. 我的家人喜歡泰國料理。"
+      },
+      {
+        "id": "thai-2",
+        "target": "Thai",
+        "answer": "Thai",
+        "sentence": "We tried a ____ dessert yesterday.",
+        "translation": "我們昨天嘗了泰國甜點。",
+        "context": "請填本課單字或片語：泰國的。",
+        "explanation": "We tried a Thai dessert yesterday. 我們昨天嘗了泰國甜點。"
+      },
+      {
+        "id": "thai-3",
+        "target": "Thai",
+        "answer": "Thai",
+        "sentence": "This restaurant serves ____ dishes.",
+        "translation": "這家餐廳供應泰國菜。",
+        "context": "請填本課單字或片語：泰國的。",
+        "explanation": "This restaurant serves Thai dishes. 這家餐廳供應泰國菜。"
+      },
+      {
+        "id": "japanese-1",
+        "target": "Japanese",
+        "answer": "Japanese",
+        "sentence": "He ordered a ____ lunch.",
+        "translation": "他點了一份日式午餐。",
+        "context": "請填本課單字或片語：日本的。",
+        "explanation": "He ordered a Japanese lunch. 他點了一份日式午餐。"
+      },
+      {
+        "id": "japanese-2",
+        "target": "Japanese",
+        "answer": "Japanese",
+        "sentence": "She reads a book about ____ cooking.",
+        "translation": "她讀一本關於日本料理的書。",
+        "context": "請填本課單字或片語：日本的。",
+        "explanation": "She reads a book about Japanese cooking. 她讀一本關於日本料理的書。"
+      },
+      {
+        "id": "japanese-3",
+        "target": "Japanese",
+        "answer": "Japanese",
+        "sentence": "We visited a ____ bakery.",
+        "translation": "我們去了一家日式麵包店。",
+        "context": "請填本課單字或片語：日本的。",
+        "explanation": "We visited a Japanese bakery. 我們去了一家日式麵包店。"
+      },
+      {
+        "id": "middle-eastern-1",
+        "target": "Middle Eastern",
+        "answer": "Middle Eastern",
+        "sentence": "We tried ____ food at the festival.",
+        "translation": "我們在節慶嘗了中東料理。",
+        "context": "請填本課單字或片語：中東的。",
+        "explanation": "We tried Middle Eastern food at the festival. 我們在節慶嘗了中東料理。"
+      },
+      {
+        "id": "middle-eastern-2",
+        "target": "Middle Eastern",
+        "answer": "Middle Eastern",
+        "sentence": "This cookbook introduces ____ dishes.",
+        "translation": "這本食譜介紹中東菜餚。",
+        "context": "請填本課單字或片語：中東的。",
+        "explanation": "This cookbook introduces Middle Eastern dishes. 這本食譜介紹中東菜餚。"
+      },
+      {
+        "id": "middle-eastern-3",
+        "target": "Middle Eastern",
+        "answer": "Middle Eastern",
+        "sentence": "The menu includes ____ desserts.",
+        "translation": "菜單包含中東甜點。",
+        "context": "請填本課單字或片語：中東的。",
+        "explanation": "The menu includes Middle Eastern desserts. 菜單包含中東甜點。"
+      },
+      {
+        "id": "french-1",
+        "target": "French",
+        "answer": "French",
+        "sentence": "They ate at a ____ restaurant.",
+        "translation": "他們在法國餐廳用餐。",
+        "context": "請填本課單字或片語：法國的。",
+        "explanation": "They ate at a French restaurant. 他們在法國餐廳用餐。"
+      },
+      {
+        "id": "french-2",
+        "target": "French",
+        "answer": "French",
+        "sentence": "She is learning ____ cooking.",
+        "translation": "她正在學習法國料理。",
+        "context": "請填本課單字或片語：法國的。",
+        "explanation": "She is learning French cooking. 她正在學習法國料理。"
+      },
+      {
+        "id": "french-3",
+        "target": "French",
+        "answer": "French",
+        "sentence": "We bought bread from a ____ bakery.",
+        "translation": "我們在法式麵包店買了麵包。",
+        "context": "請填本課單字或片語：法國的。",
+        "explanation": "We bought bread from a French bakery. 我們在法式麵包店買了麵包。"
+      },
+      {
+        "id": "western-1",
+        "target": "Western",
+        "answer": "Western",
+        "sentence": "The hotel serves ____ food as well as local dishes.",
+        "translation": "飯店供應西式料理和當地菜餚。",
+        "context": "請填本課單字或片語：西方的。",
+        "explanation": "The hotel serves Western food as well as local dishes. 飯店供應西式料理和當地菜餚。"
+      },
+      {
+        "id": "western-2",
+        "target": "Western",
+        "answer": "Western",
+        "sentence": "She wants to learn about ____ dining customs.",
+        "translation": "她想了解西方的用餐習俗。",
+        "context": "請填本課單字或片語：西方的。",
+        "explanation": "She wants to learn about Western dining customs. 她想了解西方的用餐習俗。"
+      },
+      {
+        "id": "western-3",
+        "target": "Western",
+        "answer": "Western",
+        "sentence": "This menu has a section for ____ meals.",
+        "translation": "這份菜單有一區是西式餐點。",
+        "context": "請填本課單字或片語：西方的。",
+        "explanation": "This menu has a section for Western meals. 這份菜單有一區是西式餐點。"
+      },
+      {
+        "id": "korean-1",
+        "target": "Korean",
+        "answer": "Korean",
+        "sentence": "We had ____ food for lunch.",
+        "translation": "我們午餐吃韓國料理。",
+        "context": "請填本課單字或片語：韓國的。",
+        "explanation": "We had Korean food for lunch. 我們午餐吃韓國料理。"
+      },
+      {
+        "id": "korean-2",
+        "target": "Korean",
+        "answer": "Korean",
+        "sentence": "He is reading a ____ cookbook.",
+        "translation": "他正在讀韓國食譜。",
+        "context": "請填本課單字或片語：韓國的。",
+        "explanation": "He is reading a Korean cookbook. 他正在讀韓國食譜。"
+      },
+      {
+        "id": "korean-3",
+        "target": "Korean",
+        "answer": "Korean",
+        "sentence": "My friend recommended a ____ restaurant.",
+        "translation": "我的朋友推薦一家韓國餐廳。",
+        "context": "請填本課單字或片語：韓國的。",
+        "explanation": "My friend recommended a Korean restaurant. 我的朋友推薦一家韓國餐廳。"
+      },
+      {
+        "id": "try-1",
+        "target": "try",
+        "answer": "try",
+        "sentence": "Would you like to ____ this soup?",
+        "translation": "你想嘗試這道湯嗎？",
+        "context": "請填本課單字或片語：嘗試。",
+        "explanation": "Would you like to try this soup? 你想嘗試這道湯嗎？"
+      },
+      {
+        "id": "try-2",
+        "target": "try",
+        "answer": "try",
+        "sentence": "I want to ____ a new recipe.",
+        "translation": "我想嘗試新食譜。",
+        "context": "請填本課單字或片語：嘗試。",
+        "explanation": "I want to try a new recipe. 我想嘗試新食譜。"
+      },
+      {
+        "id": "try-3",
+        "target": "try",
+        "answer": "try",
+        "sentence": "Let us ____ a different restaurant.",
+        "translation": "我們嘗試另一家餐廳吧。",
+        "context": "請填本課單字或片語：嘗試。",
+        "explanation": "Let us try a different restaurant. 我們嘗試另一家餐廳吧。"
+      },
+      {
+        "id": "tried-1",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "We ____ a new dish yesterday.",
+        "translation": "我們昨天嘗試了一道新菜。",
+        "context": "請填本課單字或片語：嘗試（過去式）。",
+        "explanation": "We tried a new dish yesterday. 我們昨天嘗試了一道新菜。"
+      },
+      {
+        "id": "tried-2",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "She ____ making bread last weekend.",
+        "translation": "她上週末嘗試做麵包。",
+        "context": "請填本課單字或片語：嘗試（過去式）。",
+        "explanation": "She tried making bread last weekend. 她上週末嘗試做麵包。"
+      },
+      {
+        "id": "tried-3",
+        "target": "tried",
+        "answer": "tried",
+        "sentence": "He ____ the spicy soup last night.",
+        "translation": "他昨晚嘗了辣湯。",
+        "context": "請填本課單字或片語：嘗試（過去式）。",
+        "explanation": "He tried the spicy soup last night. 他昨晚嘗了辣湯。"
+      },
+      {
+        "id": "speak-1",
+        "target": "speak",
+        "answer": "speak",
+        "sentence": "Please ____ clearly so we can hear you.",
+        "translation": "請說清楚，讓我們能聽見。",
+        "context": "請填本課單字或片語：說。",
+        "explanation": "Please speak clearly so we can hear you. 請說清楚，讓我們能聽見。"
+      },
+      {
+        "id": "speak-2",
+        "target": "speak",
+        "answer": "speak",
+        "sentence": "Can you ____ English?",
+        "translation": "你會說英文嗎？",
+        "context": "請填本課單字或片語：說。",
+        "explanation": "Can you speak English? 你會說英文嗎？"
+      },
+      {
+        "id": "speak-3",
+        "target": "speak",
+        "answer": "speak",
+        "sentence": "I want to ____ to the chef.",
+        "translation": "我想和廚師說話。",
+        "context": "請填本課單字或片語：說。",
+        "explanation": "I want to speak to the chef. 我想和廚師說話。"
+      },
+      {
+        "id": "italian-1",
+        "target": "Italian",
+        "answer": "Italian",
+        "sentence": "They chose an ____ restaurant.",
+        "translation": "他們選了一家義大利餐廳。",
+        "context": "請填本課單字或片語：義大利的。",
+        "explanation": "They chose an Italian restaurant. 他們選了一家義大利餐廳。"
+      },
+      {
+        "id": "italian-2",
+        "target": "Italian",
+        "answer": "Italian",
+        "sentence": "She made an ____ dessert for us.",
+        "translation": "她做了一道義大利甜點給我們。",
+        "context": "請填本課單字或片語：義大利的。",
+        "explanation": "She made an Italian dessert for us. 她做了一道義大利甜點給我們。"
+      },
+      {
+        "id": "italian-3",
+        "target": "Italian",
+        "answer": "Italian",
+        "sentence": "This book has ____ recipes.",
+        "translation": "這本書有義大利食譜。",
+        "context": "請填本課單字或片語：義大利的。",
+        "explanation": "This book has Italian recipes. 這本書有義大利食譜。"
+      },
+      {
+        "id": "american-1",
+        "target": "American",
+        "answer": "American",
+        "sentence": "He likes ____ cooking.",
+        "translation": "他喜歡美國料理。",
+        "context": "請填本課單字或片語：美國的。",
+        "explanation": "He likes American cooking. 他喜歡美國料理。"
+      },
+      {
+        "id": "american-2",
+        "target": "American",
+        "answer": "American",
+        "sentence": "We visited an ____ restaurant near the station.",
+        "translation": "我們去了一家車站附近的美式餐廳。",
+        "context": "請填本課單字或片語：美國的。",
+        "explanation": "We visited an American restaurant near the station. 我們去了一家車站附近的美式餐廳。"
+      },
+      {
+        "id": "american-3",
+        "target": "American",
+        "answer": "American",
+        "sentence": "She shared an ____ recipe with the class.",
+        "translation": "她和全班分享了一道美國食譜。",
+        "context": "請填本課單字或片語：美國的。",
+        "explanation": "She shared an American recipe with the class. 她和全班分享了一道美國食譜。"
+      },
+      {
+        "id": "english-1",
+        "target": "English",
+        "answer": "English",
+        "sentence": "May I see the ____ menu?",
+        "translation": "我可以看英文菜單嗎？",
+        "context": "請填本課單字或片語：英語的。",
+        "explanation": "May I see the English menu? 我可以看英文菜單嗎？"
+      },
+      {
+        "id": "english-2",
+        "target": "English",
+        "answer": "English",
+        "sentence": "This cookbook has ____ instructions.",
+        "translation": "這本食譜有英文說明。",
+        "context": "請填本課單字或片語：英語的。",
+        "explanation": "This cookbook has English instructions. 這本食譜有英文說明。"
+      },
+      {
+        "id": "english-3",
+        "target": "English",
+        "answer": "English",
+        "sentence": "She wrote an ____ description of the dish.",
+        "translation": "她寫了一段這道菜的英文介紹。",
+        "context": "請填本課單字或片語：英語的。",
+        "explanation": "She wrote an English description of the dish. 她寫了一段這道菜的英文介紹。"
+      },
+      {
+        "id": "style-1",
+        "target": "style",
+        "answer": "style",
+        "sentence": "I like the ____ of this bright dining room.",
+        "translation": "我喜歡這間明亮餐廳的風格。",
+        "context": "請填本課單字或片語：風格。",
+        "explanation": "I like the style of this bright dining room. 我喜歡這間明亮餐廳的風格。"
+      },
+      {
+        "id": "style-2",
+        "target": "style",
+        "answer": "style",
+        "sentence": "Each chef has a different cooking ____.",
+        "translation": "每位廚師都有不同的烹飪風格。",
+        "context": "請填本課單字或片語：風格。",
+        "explanation": "Each chef has a different cooking style. 每位廚師都有不同的烹飪風格。"
+      },
+      {
+        "id": "style-3",
+        "target": "style",
+        "answer": "style",
+        "sentence": "The cafe has a modern ____.",
+        "translation": "這家咖啡店有現代風格。",
+        "context": "請填本課單字或片語：風格。",
+        "explanation": "The cafe has a modern style. 這家咖啡店有現代風格。"
+      },
+      {
+        "id": "influence-1",
+        "target": "influence",
+        "answer": "influence",
+        "sentence": "Our friends can ____ the foods we choose.",
+        "translation": "朋友可能影響我們選擇的食物。",
+        "context": "請填本課單字或片語：影響。",
+        "explanation": "Our friends can influence the foods we choose. 朋友可能影響我們選擇的食物。"
+      },
+      {
+        "id": "influence-2",
+        "target": "influence",
+        "answer": "influence",
+        "sentence": "The weather may ____ our picnic plans.",
+        "translation": "天氣可能影響我們的野餐計畫。",
+        "context": "請填本課單字或片語：影響。",
+        "explanation": "The weather may influence our picnic plans. 天氣可能影響我們的野餐計畫。"
+      },
+      {
+        "id": "influence-3",
+        "target": "influence",
+        "answer": "influence",
+        "sentence": "Advertisements can ____ what people buy.",
+        "translation": "廣告可能影響人們買什麼。",
+        "context": "請填本課單字或片語：影響。",
+        "explanation": "Advertisements can influence what people buy. 廣告可能影響人們買什麼。"
+      },
+      {
+        "id": "consider-1",
+        "target": "consider",
+        "answer": "consider",
+        "sentence": "Please ____ the price before you order.",
+        "translation": "點餐前請考慮價格。",
+        "context": "請填本課單字或片語：考慮，思考。",
+        "explanation": "Please consider the price before you order. 點餐前請考慮價格。"
+      },
+      {
+        "id": "consider-2",
+        "target": "consider",
+        "answer": "consider",
+        "sentence": "We should ____ everyone’s ideas.",
+        "translation": "我們應該考慮每個人的想法。",
+        "context": "請填本課單字或片語：考慮，思考。",
+        "explanation": "We should consider everyone’s ideas. 我們應該考慮每個人的想法。"
+      },
+      {
+        "id": "consider-3",
+        "target": "consider",
+        "answer": "consider",
+        "sentence": "Would you ____ trying a new dish?",
+        "translation": "你會考慮嘗試一道新菜嗎？",
+        "context": "請填本課單字或片語：考慮，思考。",
+        "explanation": "Would you consider trying a new dish? 你會考慮嘗試一道新菜嗎？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

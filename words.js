@@ -3383,6 +3383,188 @@ globalThis.WORD_UNITS = [
       "登機證"
     ]
   ]
+},
+{
+  "grade": 5,
+  "id": "u7",
+  "number": "07",
+  "title": "你去過哪裡？",
+  "subtitle": "been, countries, abroad…",
+  "words": [
+    [
+      "been",
+      "be 的過去分詞"
+    ],
+    [
+      "Holland",
+      "荷蘭"
+    ],
+    [
+      "Australia",
+      "澳洲"
+    ],
+    [
+      "foreign",
+      "外國的"
+    ],
+    [
+      "country",
+      "國家"
+    ],
+    [
+      "countries",
+      "國家（複數）"
+    ],
+    [
+      "Canada",
+      "加拿大"
+    ],
+    [
+      "New Zealand",
+      "紐西蘭"
+    ],
+    [
+      "Japan",
+      "日本"
+    ],
+    [
+      "South Africa",
+      "南非"
+    ],
+    [
+      "Brazil",
+      "巴西"
+    ],
+    [
+      "Singapore",
+      "新加坡"
+    ],
+    [
+      "abroad",
+      "往國外"
+    ],
+    [
+      "seen",
+      "看（過去分詞）"
+    ],
+    [
+      "theme",
+      "主題"
+    ],
+    [
+      "idea",
+      "想法"
+    ],
+    [
+      "cartoon",
+      "卡通"
+    ],
+    [
+      "open",
+      "開"
+    ],
+    [
+      "show",
+      "秀，表演"
+    ],
+    [
+      "no longer",
+      "不再"
+    ],
+    [
+      "after all",
+      "畢竟"
+    ]
+  ]
+},
+{
+  "grade": 5,
+  "id": "u8",
+  "number": "08",
+  "title": "世界各地的美食",
+  "subtitle": "eaten, cuisine, try, tried…",
+  "words": [
+    [
+      "fast food",
+      "速食"
+    ],
+    [
+      "Mexican",
+      "墨西哥的"
+    ],
+    [
+      "eaten",
+      "吃（過去分詞）"
+    ],
+    [
+      "Chinese",
+      "中國的"
+    ],
+    [
+      "Indian",
+      "印度的"
+    ],
+    [
+      "Thai",
+      "泰國的"
+    ],
+    [
+      "Japanese",
+      "日本的"
+    ],
+    [
+      "Middle Eastern",
+      "中東的"
+    ],
+    [
+      "French",
+      "法國的"
+    ],
+    [
+      "Western",
+      "西方的"
+    ],
+    [
+      "Korean",
+      "韓國的"
+    ],
+    [
+      "try",
+      "嘗試"
+    ],
+    [
+      "tried",
+      "嘗試（過去式）"
+    ],
+    [
+      "speak",
+      "說"
+    ],
+    [
+      "Italian",
+      "義大利的"
+    ],
+    [
+      "American",
+      "美國的"
+    ],
+    [
+      "English",
+      "英語的"
+    ],
+    [
+      "style",
+      "風格"
+    ],
+    [
+      "influence",
+      "影響"
+    ],
+    [
+      "consider",
+      "考慮，思考"
+    ]
+  ]
 }
 ];
 
