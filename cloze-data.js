@@ -25525,6 +25525,560 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Would you consider trying a new dish? 你會考慮嘗試一道新菜嗎？"
       }
     ]
+  },
+  {
+    "id": "g5-u9-v1",
+    "grade": 5,
+    "unit": 9,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "傳統服裝",
+    "description": "20 個單字與形式，各 3 種情境，共 60 題填空拼字。",
+    "source": "依家長提供的五年級 U9 單字表與 Quiz 新編，非原卷。",
+    "questions": [
+      {
+        "id": "traditional-1",
+        "target": "traditional",
+        "answer": "traditional",
+        "sentence": "People wear ____ clothing at this festival.",
+        "translation": "人們在這個節慶穿傳統服裝。",
+        "context": "請填本課單字：傳統的。",
+        "explanation": "People wear traditional clothing at this festival. 人們在這個節慶穿傳統服裝。"
+      },
+      {
+        "id": "traditional-2",
+        "target": "traditional",
+        "answer": "traditional",
+        "sentence": "My grandmother taught me a ____ dance.",
+        "translation": "奶奶教我一支傳統舞蹈。",
+        "context": "請填本課單字：傳統的。",
+        "explanation": "My grandmother taught me a traditional dance. 奶奶教我一支傳統舞蹈。"
+      },
+      {
+        "id": "traditional-3",
+        "target": "traditional",
+        "answer": "traditional",
+        "sentence": "This is a ____ dish passed down through generations.",
+        "translation": "這是一道代代相傳的傳統菜餚。",
+        "context": "請填本課單字：傳統的。",
+        "explanation": "This is a traditional dish passed down through generations. 這是一道代代相傳的傳統菜餚。"
+      },
+      {
+        "id": "remember-1",
+        "target": "remember",
+        "answer": "remember",
+        "sentence": "Do you ____ what she wore yesterday?",
+        "translation": "你記得她昨天穿什麼嗎？",
+        "context": "請填本課單字：記得。",
+        "explanation": "Do you remember what she wore yesterday? 你記得她昨天穿什麼嗎？"
+      },
+      {
+        "id": "remember-2",
+        "target": "remember",
+        "answer": "remember",
+        "sentence": "Please ____ to bring your jacket.",
+        "translation": "請記得帶外套。",
+        "context": "請填本課單字：記得。",
+        "explanation": "Please remember to bring your jacket. 請記得帶外套。"
+      },
+      {
+        "id": "remember-3",
+        "target": "remember",
+        "answer": "remember",
+        "sentence": "I still ____ my first school uniform.",
+        "translation": "我仍記得我的第一套校服。",
+        "context": "請填本課單字：記得。",
+        "explanation": "I still remember my first school uniform. 我仍記得我的第一套校服。"
+      },
+      {
+        "id": "international-1",
+        "target": "international",
+        "answer": "international",
+        "sentence": "Students from many countries attend this ____ school.",
+        "translation": "來自許多國家的學生就讀這所國際學校。",
+        "context": "請填本課單字：國際的。",
+        "explanation": "Students from many countries attend this international school. 來自許多國家的學生就讀這所國際學校。"
+      },
+      {
+        "id": "international-2",
+        "target": "international",
+        "answer": "international",
+        "sentence": "The city hosts an ____ clothing exhibition.",
+        "translation": "這座城市舉辦國際服裝展。",
+        "context": "請填本課單字：國際的。",
+        "explanation": "The city hosts an international clothing exhibition. 這座城市舉辦國際服裝展。"
+      },
+      {
+        "id": "international-3",
+        "target": "international",
+        "answer": "international",
+        "sentence": "She joined an ____ art contest.",
+        "translation": "她參加了國際美術比賽。",
+        "context": "請填本課單字：國際的。",
+        "explanation": "She joined an international art contest. 她參加了國際美術比賽。"
+      },
+      {
+        "id": "clothing-1",
+        "target": "clothing",
+        "answer": "clothing",
+        "sentence": "Warm ____ is important in winter.",
+        "translation": "保暖衣物在冬天很重要。",
+        "context": "請填本課單字：衣服（集合名詞）。",
+        "explanation": "Warm clothing is important in winter. 保暖衣物在冬天很重要。"
+      },
+      {
+        "id": "clothing-2",
+        "target": "clothing",
+        "answer": "clothing",
+        "sentence": "This shop sells traditional ____.",
+        "translation": "這家店販售傳統服裝。",
+        "context": "請填本課單字：衣服（集合名詞）。",
+        "explanation": "This shop sells traditional clothing. 這家店販售傳統服裝。"
+      },
+      {
+        "id": "clothing-3",
+        "target": "clothing",
+        "answer": "clothing",
+        "sentence": "All of the ____ in this box is clean.",
+        "translation": "這個箱子裡所有衣物都是乾淨的。",
+        "context": "請填本課單字：衣服（集合名詞）。",
+        "explanation": "All of the clothing in this box is clean. 這個箱子裡所有衣物都是乾淨的。"
+      },
+      {
+        "id": "clothes-1",
+        "target": "clothes",
+        "answer": "clothes",
+        "sentence": "My ____ are in the closet.",
+        "translation": "我的衣服在衣櫥裡。",
+        "context": "請填本課單字：衣服（複數）。",
+        "explanation": "My clothes are in the closet. 我的衣服在衣櫥裡。"
+      },
+      {
+        "id": "clothes-2",
+        "target": "clothes",
+        "answer": "clothes",
+        "sentence": "These ____ are too small for me.",
+        "translation": "這些衣服對我來說太小了。",
+        "context": "請填本課單字：衣服（複數）。",
+        "explanation": "These clothes are too small for me. 這些衣服對我來說太小了。"
+      },
+      {
+        "id": "clothes-3",
+        "target": "clothes",
+        "answer": "clothes",
+        "sentence": "Please put your dirty ____ in the basket.",
+        "translation": "請把髒衣服放進籃子。",
+        "context": "請填本課單字：衣服（複數）。",
+        "explanation": "Please put your dirty clothes in the basket. 請把髒衣服放進籃子。"
+      },
+      {
+        "id": "wear-1",
+        "target": "wear",
+        "answer": "wear",
+        "sentence": "I usually ____ a hat in summer.",
+        "translation": "我夏天通常戴帽子。",
+        "context": "請填本課單字：穿。",
+        "explanation": "I usually wear a hat in summer. 我夏天通常戴帽子。"
+      },
+      {
+        "id": "wear-2",
+        "target": "wear",
+        "answer": "wear",
+        "sentence": "What will you ____ to the party?",
+        "translation": "你會穿什麼去派對？",
+        "context": "請填本課單字：穿。",
+        "explanation": "What will you wear to the party? 你會穿什麼去派對？"
+      },
+      {
+        "id": "wear-3",
+        "target": "wear",
+        "answer": "wear",
+        "sentence": "We must ____ uniforms at school.",
+        "translation": "我們在學校必須穿制服。",
+        "context": "請填本課單字：穿。",
+        "explanation": "We must wear uniforms at school. 我們在學校必須穿制服。"
+      },
+      {
+        "id": "wearing-1",
+        "target": "wearing",
+        "answer": "wearing",
+        "sentence": "She is ____ a red dress now.",
+        "translation": "她現在穿著紅色洋裝。",
+        "context": "請填本課單字：穿（現在分詞）。",
+        "explanation": "She is wearing a red dress now. 她現在穿著紅色洋裝。"
+      },
+      {
+        "id": "wearing-2",
+        "target": "wearing",
+        "answer": "wearing",
+        "sentence": "They are ____ boots because it is raining.",
+        "translation": "因為下雨，他們正穿著靴子。",
+        "context": "請填本課單字：穿（現在分詞）。",
+        "explanation": "They are wearing boots because it is raining. 因為下雨，他們正穿著靴子。"
+      },
+      {
+        "id": "wearing-3",
+        "target": "wearing",
+        "answer": "wearing",
+        "sentence": "Who is ____ the blue jacket?",
+        "translation": "誰正穿著藍色外套？",
+        "context": "請填本課單字：穿（現在分詞）。",
+        "explanation": "Who is wearing the blue jacket? 誰正穿著藍色外套？"
+      },
+      {
+        "id": "wore-1",
+        "target": "wore",
+        "answer": "wore",
+        "sentence": "He ____ a coat yesterday.",
+        "translation": "他昨天穿了外套。",
+        "context": "請填本課單字：穿（過去式）。",
+        "explanation": "He wore a coat yesterday. 他昨天穿了外套。"
+      },
+      {
+        "id": "wore-2",
+        "target": "wore",
+        "answer": "wore",
+        "sentence": "We ____ costumes to the party last night.",
+        "translation": "我們昨晚穿了變裝服去派對。",
+        "context": "請填本課單字：穿（過去式）。",
+        "explanation": "We wore costumes to the party last night. 我們昨晚穿了變裝服去派對。"
+      },
+      {
+        "id": "wore-3",
+        "target": "wore",
+        "answer": "wore",
+        "sentence": "She ____ her new shoes last Sunday.",
+        "translation": "她上星期日穿了新鞋。",
+        "context": "請填本課單字：穿（過去式）。",
+        "explanation": "She wore her new shoes last Sunday. 她上星期日穿了新鞋。"
+      },
+      {
+        "id": "worn-1",
+        "target": "worn",
+        "answer": "worn",
+        "sentence": "Have you ever ____ a kimono?",
+        "translation": "你曾經穿過和服嗎？",
+        "context": "請填本課單字：穿（過去分詞）。",
+        "explanation": "Have you ever worn a kimono? 你曾經穿過和服嗎？"
+      },
+      {
+        "id": "worn-2",
+        "target": "worn",
+        "answer": "worn",
+        "sentence": "I have ____ this sweater many times.",
+        "translation": "我已經穿過這件毛衣很多次。",
+        "context": "請填本課單字：穿（過去分詞）。",
+        "explanation": "I have worn this sweater many times. 我已經穿過這件毛衣很多次。"
+      },
+      {
+        "id": "worn-3",
+        "target": "worn",
+        "answer": "worn",
+        "sentence": "She has never ____ these boots before.",
+        "translation": "她以前從未穿過這雙靴子。",
+        "context": "請填本課單字：穿（過去分詞）。",
+        "explanation": "She has never worn these boots before. 她以前從未穿過這雙靴子。"
+      },
+      {
+        "id": "wool-1",
+        "target": "wool",
+        "answer": "wool",
+        "sentence": "This sweater is made of sheep’s ____.",
+        "translation": "這件毛衣由羊毛製成。",
+        "context": "請填本課單字：羊毛。",
+        "explanation": "This sweater is made of sheep’s wool. 這件毛衣由羊毛製成。"
+      },
+      {
+        "id": "wool-2",
+        "target": "wool",
+        "answer": "wool",
+        "sentence": "We use ____ from sheep to make warm scarves.",
+        "translation": "我們用羊的羊毛做保暖圍巾。",
+        "context": "請填本課單字：羊毛。",
+        "explanation": "We use wool from sheep to make warm scarves. 我們用羊的羊毛做保暖圍巾。"
+      },
+      {
+        "id": "wool-3",
+        "target": "wool",
+        "answer": "wool",
+        "sentence": "The label says this blanket is pure ____.",
+        "translation": "標籤寫著這條毯子是純羊毛。",
+        "context": "請填本課單字：羊毛。",
+        "explanation": "The label says this blanket is pure wool. 標籤寫著這條毯子是純羊毛。"
+      },
+      {
+        "id": "cotton-1",
+        "target": "cotton",
+        "answer": "cotton",
+        "sentence": "This shirt is made of ____.",
+        "translation": "這件襯衫由棉製成。",
+        "context": "請填本課單字：棉。",
+        "explanation": "This shirt is made of cotton. 這件襯衫由棉製成。"
+      },
+      {
+        "id": "cotton-2",
+        "target": "cotton",
+        "answer": "cotton",
+        "sentence": "The farmer grows ____ for making fabric.",
+        "translation": "農夫種植棉花來製作布料。",
+        "context": "請填本課單字：棉。",
+        "explanation": "The farmer grows cotton for making fabric. 農夫種植棉花來製作布料。"
+      },
+      {
+        "id": "cotton-3",
+        "target": "cotton",
+        "answer": "cotton",
+        "sentence": "I prefer soft ____ pajamas.",
+        "translation": "我比較喜歡柔軟的棉睡衣。",
+        "context": "請填本課單字：棉。",
+        "explanation": "I prefer soft cotton pajamas. 我比較喜歡柔軟的棉睡衣。"
+      },
+      {
+        "id": "silk-1",
+        "target": "silk",
+        "answer": "silk",
+        "sentence": "The smooth scarf is made of ____.",
+        "translation": "這條光滑的圍巾由絲製成。",
+        "context": "請填本課單字：絲。",
+        "explanation": "The smooth scarf is made of silk. 這條光滑的圍巾由絲製成。"
+      },
+      {
+        "id": "silk-2",
+        "target": "silk",
+        "answer": "silk",
+        "sentence": "Silkworms produce fibers used to make ____.",
+        "translation": "蠶產生用來製作絲的纖維。",
+        "context": "請填本課單字：絲。",
+        "explanation": "Silkworms produce fibers used to make silk. 蠶產生用來製作絲的纖維。"
+      },
+      {
+        "id": "silk-3",
+        "target": "silk",
+        "answer": "silk",
+        "sentence": "She bought a beautiful ____ dress.",
+        "translation": "她買了一件漂亮的絲質洋裝。",
+        "context": "請填本課單字：絲。",
+        "explanation": "She bought a beautiful silk dress. 她買了一件漂亮的絲質洋裝。"
+      },
+      {
+        "id": "wood-1",
+        "target": "wood",
+        "answer": "wood",
+        "sentence": "This chair is made of ____.",
+        "translation": "這張椅子由木材製成。",
+        "context": "請填本課單字：木材。",
+        "explanation": "This chair is made of wood. 這張椅子由木材製成。"
+      },
+      {
+        "id": "wood-2",
+        "target": "wood",
+        "answer": "wood",
+        "sentence": "The carpenter cut a piece of ____.",
+        "translation": "木匠切了一塊木材。",
+        "context": "請填本課單字：木材。",
+        "explanation": "The carpenter cut a piece of wood. 木匠切了一塊木材。"
+      },
+      {
+        "id": "wood-3",
+        "target": "wood",
+        "answer": "wood",
+        "sentence": "We need some ____ to build the shelf.",
+        "translation": "我們需要一些木材來做架子。",
+        "context": "請填本課單字：木材。",
+        "explanation": "We need some wood to build the shelf. 我們需要一些木材來做架子。"
+      },
+      {
+        "id": "wooden-1",
+        "target": "wooden",
+        "answer": "wooden",
+        "sentence": "This ____ chair is made of wood.",
+        "translation": "這張木椅由木材製成。",
+        "context": "請填本課單字：木製的。",
+        "explanation": "This wooden chair is made of wood. 這張木椅由木材製成。"
+      },
+      {
+        "id": "wooden-2",
+        "target": "wooden",
+        "answer": "wooden",
+        "sentence": "She put her toys in a ____ box.",
+        "translation": "她把玩具放進木製盒子裡。",
+        "context": "請填本課單字：木製的。",
+        "explanation": "She put her toys in a wooden box. 她把玩具放進木製盒子裡。"
+      },
+      {
+        "id": "wooden-3",
+        "target": "wooden",
+        "answer": "wooden",
+        "sentence": "The artist carved a ____ horse.",
+        "translation": "藝術家雕刻了一匹木馬。",
+        "context": "請填本課單字：木製的。",
+        "explanation": "The artist carved a wooden horse. 藝術家雕刻了一匹木馬。"
+      },
+      {
+        "id": "straw-1",
+        "target": "straw",
+        "answer": "straw",
+        "sentence": "This hat is woven from dry ____.",
+        "translation": "這頂帽子由乾稻草編成。",
+        "context": "請填本課單字：稻草。",
+        "explanation": "This hat is woven from dry straw. 這頂帽子由乾稻草編成。"
+      },
+      {
+        "id": "straw-2",
+        "target": "straw",
+        "answer": "straw",
+        "sentence": "The farmer gathered ____ after harvesting the grain.",
+        "translation": "農夫收割穀物後收集稻草。",
+        "context": "請填本課單字：稻草。",
+        "explanation": "The farmer gathered straw after harvesting the grain. 農夫收割穀物後收集稻草。"
+      },
+      {
+        "id": "straw-3",
+        "target": "straw",
+        "answer": "straw",
+        "sentence": "They used ____ to make a scarecrow.",
+        "translation": "他們用稻草做稻草人。",
+        "context": "請填本課單字：稻草。",
+        "explanation": "They used straw to make a scarecrow. 他們用稻草做稻草人。"
+      },
+      {
+        "id": "leather-1",
+        "target": "leather",
+        "answer": "leather",
+        "sentence": "This bag is made of ____, a material from animal skin.",
+        "translation": "這個袋子由皮革製成，是一種來自動物皮的材料。",
+        "context": "請填本課單字：皮革。",
+        "explanation": "This bag is made of leather, a material from animal skin. 這個袋子由皮革製成，是一種來自動物皮的材料。"
+      },
+      {
+        "id": "leather-2",
+        "target": "leather",
+        "answer": "leather",
+        "sentence": "He bought a brown ____ belt.",
+        "translation": "他買了一條棕色皮革腰帶。",
+        "context": "請填本課單字：皮革。",
+        "explanation": "He bought a brown leather belt. 他買了一條棕色皮革腰帶。"
+      },
+      {
+        "id": "leather-3",
+        "target": "leather",
+        "answer": "leather",
+        "sentence": "The label says these shoes are made of real ____.",
+        "translation": "標籤寫著這雙鞋由真皮製成。",
+        "context": "請填本課單字：皮革。",
+        "explanation": "The label says these shoes are made of real leather. 標籤寫著這雙鞋由真皮製成。"
+      },
+      {
+        "id": "nylon-1",
+        "target": "nylon",
+        "answer": "nylon",
+        "sentence": "This lightweight bag is made of ____.",
+        "translation": "這個輕巧的袋子由尼龍製成。",
+        "context": "請填本課單字：尼龍。",
+        "explanation": "This lightweight bag is made of nylon. 這個輕巧的袋子由尼龍製成。"
+      },
+      {
+        "id": "nylon-2",
+        "target": "nylon",
+        "answer": "nylon",
+        "sentence": "The label says the jacket is made of ____.",
+        "translation": "標籤寫著這件外套由尼龍製成。",
+        "context": "請填本課單字：尼龍。",
+        "explanation": "The label says the jacket is made of nylon. 標籤寫著這件外套由尼龍製成。"
+      },
+      {
+        "id": "nylon-3",
+        "target": "nylon",
+        "answer": "nylon",
+        "sentence": "They use ____ thread to sew the backpack.",
+        "translation": "他們用尼龍線縫製背包。",
+        "context": "請填本課單字：尼龍。",
+        "explanation": "They use nylon thread to sew the backpack. 他們用尼龍線縫製背包。"
+      },
+      {
+        "id": "rubber-1",
+        "target": "rubber",
+        "answer": "rubber",
+        "sentence": "These rain boots are made of ____.",
+        "translation": "這雙雨靴由橡膠製成。",
+        "context": "請填本課單字：橡膠。",
+        "explanation": "These rain boots are made of rubber. 這雙雨靴由橡膠製成。"
+      },
+      {
+        "id": "rubber-2",
+        "target": "rubber",
+        "answer": "rubber",
+        "sentence": "A ____ band stretches when you pull it.",
+        "translation": "橡皮筋拉開時會伸長。",
+        "context": "請填本課單字：橡膠。",
+        "explanation": "A rubber band stretches when you pull it. 橡皮筋拉開時會伸長。"
+      },
+      {
+        "id": "rubber-3",
+        "target": "rubber",
+        "answer": "rubber",
+        "sentence": "The toy duck is made of soft ____.",
+        "translation": "玩具鴨由柔軟的橡膠製成。",
+        "context": "請填本課單字：橡膠。",
+        "explanation": "The toy duck is made of soft rubber. 玩具鴨由柔軟的橡膠製成。"
+      },
+      {
+        "id": "make-1",
+        "target": "make",
+        "answer": "make",
+        "sentence": "Can you ____ a scarf for me?",
+        "translation": "你能為我做一條圍巾嗎？",
+        "context": "請填本課單字：做。",
+        "explanation": "Can you make a scarf for me? 你能為我做一條圍巾嗎？"
+      },
+      {
+        "id": "make-2",
+        "target": "make",
+        "answer": "make",
+        "sentence": "We will ____ costumes for the show.",
+        "translation": "我們將為表演做服裝。",
+        "context": "請填本課單字：做。",
+        "explanation": "We will make costumes for the show. 我們將為表演做服裝。"
+      },
+      {
+        "id": "make-3",
+        "target": "make",
+        "answer": "make",
+        "sentence": "They ____ bags by hand.",
+        "translation": "他們手工製作袋子。",
+        "context": "請填本課單字：做。",
+        "explanation": "They make bags by hand. 他們手工製作袋子。"
+      },
+      {
+        "id": "made-1",
+        "target": "made",
+        "answer": "made",
+        "sentence": "This jacket is ____ of nylon.",
+        "translation": "這件外套由尼龍製成。",
+        "context": "請填本課單字：做（過去分詞）。",
+        "explanation": "This jacket is made of nylon. 這件外套由尼龍製成。"
+      },
+      {
+        "id": "made-2",
+        "target": "made",
+        "answer": "made",
+        "sentence": "These shoes are ____ of leather.",
+        "translation": "這些鞋子由皮革製成。",
+        "context": "請填本課單字：做（過去分詞）。",
+        "explanation": "These shoes are made of leather. 這些鞋子由皮革製成。"
+      },
+      {
+        "id": "made-3",
+        "target": "made",
+        "answer": "made",
+        "sentence": "Have you ever ____ your own clothes?",
+        "translation": "你曾經做過自己的衣服嗎？",
+        "context": "請填本課單字：做（過去分詞）。",
+        "explanation": "Have you ever made your own clothes? 你曾經做過自己的衣服嗎？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];

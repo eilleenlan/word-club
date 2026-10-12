@@ -43,18 +43,18 @@ test('history keys preserve grade 1 single/mixed records and isolate cumulative 
   assert.equal(legacy.id, 'mixed:g1:u1+u2'); assert.equal(legacy.words.length, 20);
   assert.notEqual(s.build(fixture, 5, true, all).id, s.build(fixture, 6, true, all).id);
 });
-test('real grade 5 range includes 697 supplied questions and grade 5 alone has 161', () => {
+test('real grade 5 range includes 732 supplied questions and grade 5 alone has 196', () => {
   const available = s.eligible(WORD_UNITS, 5, true);
-  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 697);
-  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 8);
-  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 161);
+  assert.equal(s.build(WORD_UNITS, 5, true, new Set(available.map(s.unitKey))).words.length, 732);
+  assert.equal(s.eligible(WORD_UNITS, 5, false).length, 10);
+  assert.equal(s.build(WORD_UNITS, 5, false, new Set(available.map(s.unitKey))).words.length, 196);
   assert.equal(s.eligible(WORD_UNITS, 6, false).length, 5);
 });
 
 test('grade 6 includes 101 prompts, full phrases and separate verb tenses', () => {
   const available = s.eligible(WORD_UNITS, 6, true);
   const selected = new Set(available.map(s.unitKey));
-  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 798);
+  assert.equal(s.build(WORD_UNITS, 6, true, selected).words.length, 833);
   const own = s.build(WORD_UNITS, 6, false, selected);
   assert.equal(own.words.length, 101);
   for (const word of ['die','died','grow up','rain shower','plenty of','a lot of','a little']) assert.ok(own.words.some(item => item[0] === word));
@@ -80,7 +80,7 @@ test('proper names and I require textbook case while whitespace remains forgivin
     ['ISLAND','island','correct'], ['National Park','national park','correct'],
     ['Taiwn','Taiwan','spelling'], ['   ','Taiwan','empty']
   ]) assert.equal(s.checkAnswer(answer, target), verdict, `${answer} => ${target}`);
-  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ["American","April","August","Australia","Brazil","Canada","Celsius","China","Chinese","Chinese","December","Egypt","England","English","English","February","France","French","Friday","Holland","How much","I am","India","Indian","Internet","Italian","January","Japan","Japanese","July","June","Korean","Let's","March","May","Mexican","Mexico","Middle Eastern","Monday","New Zealand","November","October","Pacific Ocean","Saturday","September","Singapore","South Africa","Sunday","T-shirt","TV","Taipei","Taiwan","Thai","Thursday","Tuesday","Wednesday","Western","the United States"].sort());
+  assert.deepEqual(WORD_UNITS.flatMap(u => u.words).filter(w => /[A-Z]/.test(w[0])).map(w => w[0]).sort(), ["American","April","August","Australia","Brazil","Canada","Celsius","China","Chinese","Chinese","December","Egypt","England","English","English","February","France","French","Friday","European","Holland","How much","I am","India","Indian","Internet","Italian","January","Japan","Japanese","July","June","Korean","Let's","March","May","Mexican","Mexico","Middle Eastern","Monday","New Zealand","November","October","Pacific Ocean","Saturday","September","Singapore","South Africa","Sunday","T-shirt","TV","Taipei","Taiwan","Thai","Thursday","Tuesday","Wednesday","Western","the United States"].sort());
 });
 
 test('grade 3 has 147 textbook prompts, preserves phrases and excludes higher grades', () => {

@@ -3565,6 +3565,164 @@ globalThis.WORD_UNITS = [
       "考慮，思考"
     ]
   ]
+},
+{
+  "grade": 5,
+  "id": "u9",
+  "number": "09",
+  "title": "傳統服裝",
+  "subtitle": "clothing, wore, worn, made…",
+  "words": [
+    [
+      "traditional",
+      "傳統的"
+    ],
+    [
+      "remember",
+      "記得"
+    ],
+    [
+      "international",
+      "國際的"
+    ],
+    [
+      "clothing",
+      "衣服（集合名詞）"
+    ],
+    [
+      "clothes",
+      "衣服（複數）"
+    ],
+    [
+      "wear",
+      "穿"
+    ],
+    [
+      "wearing",
+      "穿（現在分詞）"
+    ],
+    [
+      "wore",
+      "穿（過去式）"
+    ],
+    [
+      "worn",
+      "穿（過去分詞）"
+    ],
+    [
+      "wool",
+      "羊毛"
+    ],
+    [
+      "cotton",
+      "棉"
+    ],
+    [
+      "silk",
+      "絲"
+    ],
+    [
+      "wood",
+      "木材"
+    ],
+    [
+      "wooden",
+      "木製的"
+    ],
+    [
+      "straw",
+      "稻草"
+    ],
+    [
+      "leather",
+      "皮革"
+    ],
+    [
+      "nylon",
+      "尼龍"
+    ],
+    [
+      "rubber",
+      "橡膠"
+    ],
+    [
+      "make",
+      "做"
+    ],
+    [
+      "made",
+      "做（過去分詞）"
+    ]
+  ]
+},
+{
+  "grade": 5,
+  "id": "u10",
+  "number": "10",
+  "title": "迷信與幸運",
+  "subtitle": "superstition, luck, broken…",
+  "words": [
+    [
+      "superstition",
+      "迷信"
+    ],
+    [
+      "luck",
+      "幸運"
+    ],
+    [
+      "mirror",
+      "鏡子"
+    ],
+    [
+      "break",
+      "打破"
+    ],
+    [
+      "broke",
+      "打破（過去式）"
+    ],
+    [
+      "broken",
+      "打破（過去分詞）"
+    ],
+    [
+      "charm",
+      "護身符"
+    ],
+    [
+      "superstitious",
+      "迷信的"
+    ],
+    [
+      "ghost",
+      "鬼魂"
+    ],
+    [
+      "lucky",
+      "幸運的"
+    ],
+    [
+      "European",
+      "歐洲的"
+    ],
+    [
+      "wish",
+      "願望"
+    ],
+    [
+      "throw",
+      "丟，擲"
+    ],
+    [
+      "blow",
+      "吹"
+    ],
+    [
+      "use",
+      "使用"
+    ]
+  ]
 }
 ];
 
