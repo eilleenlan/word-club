@@ -26079,6 +26079,425 @@ globalThis.CLOZE_LESSONS = [
         "explanation": "Have you ever made your own clothes? 你曾經做過自己的衣服嗎？"
       }
     ]
+  },
+  {
+    "id": "g5-u10-v1",
+    "grade": 5,
+    "unit": 10,
+    "mode": "typed",
+    "rounds": true,
+    "variants": true,
+    "revision": 1,
+    "title": "迷信與幸運",
+    "description": "15 個單字與形式，各 3 種新編情境，共 45 題填空拼字。",
+    "source": "依家長提供的 U10 單字表與 Spring 2025 Grade 5 Final Test（PDF 第13–16頁，解答第23–24頁）新編，非原卷。",
+    "questions": [
+      {
+        "id": "superstition-1",
+        "target": "superstition",
+        "answer": "superstition",
+        "sentence": "The belief that a broken mirror brings bad luck is a ____.",
+        "translation": "相信打破鏡子會帶來厄運是一種迷信。",
+        "context": "請填本課單字：迷信。",
+        "explanation": "The belief that a broken mirror brings bad luck is a superstition. 相信打破鏡子會帶來厄運是一種迷信。"
+      },
+      {
+        "id": "superstition-2",
+        "target": "superstition",
+        "answer": "superstition",
+        "sentence": "She read about an old ____ concerning black cats.",
+        "translation": "她讀到一種與黑貓有關的古老迷信。",
+        "context": "請填本課單字：迷信。",
+        "explanation": "She read about an old superstition concerning black cats. 她讀到一種與黑貓有關的古老迷信。"
+      },
+      {
+        "id": "superstition-3",
+        "target": "superstition",
+        "answer": "superstition",
+        "sentence": "You do not believe in that ____, do you?",
+        "translation": "你不相信那個迷信，對吧？",
+        "context": "請填本課單字：迷信。",
+        "explanation": "You do not believe in that superstition, do you? 你不相信那個迷信，對吧？"
+      },
+      {
+        "id": "luck-1",
+        "target": "luck",
+        "answer": "luck",
+        "sentence": "Good ____ with your test tomorrow!",
+        "translation": "祝你明天考試好運！",
+        "context": "請填本課單字：幸運。",
+        "explanation": "Good luck with your test tomorrow! 祝你明天考試好運！"
+      },
+      {
+        "id": "luck-2",
+        "target": "luck",
+        "answer": "luck",
+        "sentence": "Some people carry a charm for good ____.",
+        "translation": "有些人帶著護身符求好運。",
+        "context": "請填本課單字：幸運。",
+        "explanation": "Some people carry a charm for good luck. 有些人帶著護身符求好運。"
+      },
+      {
+        "id": "luck-3",
+        "target": "luck",
+        "answer": "luck",
+        "sentence": "Winning the prize was a matter of ____.",
+        "translation": "贏得獎品是運氣的結果。",
+        "context": "請填本課單字：幸運。",
+        "explanation": "Winning the prize was a matter of luck. 贏得獎品是運氣的結果。"
+      },
+      {
+        "id": "mirror-1",
+        "target": "mirror",
+        "answer": "mirror",
+        "sentence": "She looked at her face in the ____.",
+        "translation": "她在鏡子裡看自己的臉。",
+        "context": "請填本課單字：鏡子。",
+        "explanation": "She looked at her face in the mirror. 她在鏡子裡看自己的臉。"
+      },
+      {
+        "id": "mirror-2",
+        "target": "mirror",
+        "answer": "mirror",
+        "sentence": "A ____ hangs above the bathroom sink.",
+        "translation": "浴室洗手台上方掛著一面鏡子。",
+        "context": "請填本課單字：鏡子。",
+        "explanation": "A mirror hangs above the bathroom sink. 浴室洗手台上方掛著一面鏡子。"
+      },
+      {
+        "id": "mirror-3",
+        "target": "mirror",
+        "answer": "mirror",
+        "sentence": "You can see your reflection in this ____, can’t you?",
+        "translation": "你可以在這面鏡子裡看見自己的倒影，對吧？",
+        "context": "請填本課單字：鏡子。",
+        "explanation": "You can see your reflection in this mirror, can’t you? 你可以在這面鏡子裡看見自己的倒影，對吧？"
+      },
+      {
+        "id": "break-1",
+        "target": "break",
+        "answer": "break",
+        "sentence": "Be careful not to ____ the glass.",
+        "translation": "小心不要打破玻璃杯。",
+        "context": "請填本課單字：打破。",
+        "explanation": "Be careful not to break the glass. 小心不要打破玻璃杯。"
+      },
+      {
+        "id": "break-2",
+        "target": "break",
+        "answer": "break",
+        "sentence": "Did you ____ this cup?",
+        "translation": "你打破了這個杯子嗎？",
+        "context": "請填本課單字：打破。",
+        "explanation": "Did you break this cup? 你打破了這個杯子嗎？"
+      },
+      {
+        "id": "break-3",
+        "target": "break",
+        "answer": "break",
+        "sentence": "A hard hit can ____ the window.",
+        "translation": "重擊可能打破窗戶。",
+        "context": "請填本課單字：打破。",
+        "explanation": "A hard hit can break the window. 重擊可能打破窗戶。"
+      },
+      {
+        "id": "broke-1",
+        "target": "broke",
+        "answer": "broke",
+        "sentence": "He ____ a plate yesterday.",
+        "translation": "他昨天打破了一個盤子。",
+        "context": "請填本課單字：打破（過去式）。",
+        "explanation": "He broke a plate yesterday. 他昨天打破了一個盤子。"
+      },
+      {
+        "id": "broke-2",
+        "target": "broke",
+        "answer": "broke",
+        "sentence": "She ____ the vase last night, didn’t she?",
+        "translation": "她昨晚打破了花瓶，對吧？",
+        "context": "請填本課單字：打破（過去式）。",
+        "explanation": "She broke the vase last night, didn’t she? 她昨晚打破了花瓶，對吧？"
+      },
+      {
+        "id": "broke-3",
+        "target": "broke",
+        "answer": "broke",
+        "sentence": "The ball ____ the window an hour ago.",
+        "translation": "球一小時前打破了窗戶。",
+        "context": "請填本課單字：打破（過去式）。",
+        "explanation": "The ball broke the window an hour ago. 球一小時前打破了窗戶。"
+      },
+      {
+        "id": "broken-1",
+        "target": "broken",
+        "answer": "broken",
+        "sentence": "I have never ____ a mirror.",
+        "translation": "我從未打破過鏡子。",
+        "context": "請填本課單字：打破（過去分詞）。",
+        "explanation": "I have never broken a mirror. 我從未打破過鏡子。"
+      },
+      {
+        "id": "broken-2",
+        "target": "broken",
+        "answer": "broken",
+        "sentence": "She has ____ two cups this week.",
+        "translation": "她這星期已經打破兩個杯子。",
+        "context": "請填本課單字：打破（過去分詞）。",
+        "explanation": "She has broken two cups this week. 她這星期已經打破兩個杯子。"
+      },
+      {
+        "id": "broken-3",
+        "target": "broken",
+        "answer": "broken",
+        "sentence": "You have not ____ anything, have you?",
+        "translation": "你沒有打破任何東西，對吧？",
+        "context": "請填本課單字：打破（過去分詞）。",
+        "explanation": "You have not broken anything, have you? 你沒有打破任何東西，對吧？"
+      },
+      {
+        "id": "charm-1",
+        "target": "charm",
+        "answer": "charm",
+        "sentence": "He keeps a lucky ____ in his pocket.",
+        "translation": "他把幸運護身符放在口袋裡。",
+        "context": "請填本課單字：護身符。",
+        "explanation": "He keeps a lucky charm in his pocket. 他把幸運護身符放在口袋裡。"
+      },
+      {
+        "id": "charm-2",
+        "target": "charm",
+        "answer": "charm",
+        "sentence": "She believes this small ____ brings good luck.",
+        "translation": "她相信這個小護身符會帶來好運。",
+        "context": "請填本課單字：護身符。",
+        "explanation": "She believes this small charm brings good luck. 她相信這個小護身符會帶來好運。"
+      },
+      {
+        "id": "charm-3",
+        "target": "charm",
+        "answer": "charm",
+        "sentence": "My aunt gave me a ____ to carry for luck.",
+        "translation": "阿姨給我一個護身符，讓我帶著求好運。",
+        "context": "請填本課單字：護身符。",
+        "explanation": "My aunt gave me a charm to carry for luck. 阿姨給我一個護身符，讓我帶著求好運。"
+      },
+      {
+        "id": "superstitious-1",
+        "target": "superstitious",
+        "answer": "superstitious",
+        "sentence": "He is ____ and believes certain numbers bring bad luck.",
+        "translation": "他很迷信，相信某些數字會帶來厄運。",
+        "context": "請填本課單字：迷信的。",
+        "explanation": "He is superstitious and believes certain numbers bring bad luck. 他很迷信，相信某些數字會帶來厄運。"
+      },
+      {
+        "id": "superstitious-2",
+        "target": "superstitious",
+        "answer": "superstitious",
+        "sentence": "She is not ____, so she does not worry about unlucky signs.",
+        "translation": "她不迷信，所以不擔心不吉利的徵兆。",
+        "context": "請填本課單字：迷信的。",
+        "explanation": "She is not superstitious, so she does not worry about unlucky signs. 她不迷信，所以不擔心不吉利的徵兆。"
+      },
+      {
+        "id": "superstitious-3",
+        "target": "superstitious",
+        "answer": "superstitious",
+        "sentence": "You are not ____, are you?",
+        "translation": "你不迷信，對吧？",
+        "context": "請填本課單字：迷信的。",
+        "explanation": "You are not superstitious, are you? 你不迷信，對吧？"
+      },
+      {
+        "id": "ghost-1",
+        "target": "ghost",
+        "answer": "ghost",
+        "sentence": "The story is about a friendly ____.",
+        "translation": "這個故事在說一個友善的鬼魂。",
+        "context": "請填本課單字：鬼魂。",
+        "explanation": "The story is about a friendly ghost. 這個故事在說一個友善的鬼魂。"
+      },
+      {
+        "id": "ghost-2",
+        "target": "ghost",
+        "answer": "ghost",
+        "sentence": "He dressed as a ____ for the costume party.",
+        "translation": "他在變裝派對扮成鬼。",
+        "context": "請填本課單字：鬼魂。",
+        "explanation": "He dressed as a ghost for the costume party. 他在變裝派對扮成鬼。"
+      },
+      {
+        "id": "ghost-3",
+        "target": "ghost",
+        "answer": "ghost",
+        "sentence": "A ____ appears in the spooky cartoon.",
+        "translation": "一個鬼魂出現在恐怖卡通裡。",
+        "context": "請填本課單字：鬼魂。",
+        "explanation": "A ghost appears in the spooky cartoon. 一個鬼魂出現在恐怖卡通裡。"
+      },
+      {
+        "id": "lucky-1",
+        "target": "lucky",
+        "answer": "lucky",
+        "sentence": "I was ____ to find my lost bag.",
+        "translation": "我很幸運找到了遺失的袋子。",
+        "context": "請填本課單字：幸運的。",
+        "explanation": "I was lucky to find my lost bag. 我很幸運找到了遺失的袋子。"
+      },
+      {
+        "id": "lucky-2",
+        "target": "lucky",
+        "answer": "lucky",
+        "sentence": "She thinks this is her ____ pencil.",
+        "translation": "她認為這是她的幸運鉛筆。",
+        "context": "請填本課單字：幸運的。",
+        "explanation": "She thinks this is her lucky pencil. 她認為這是她的幸運鉛筆。"
+      },
+      {
+        "id": "lucky-3",
+        "target": "lucky",
+        "answer": "lucky",
+        "sentence": "We were ____ to get the last two tickets, weren’t we?",
+        "translation": "我們很幸運買到最後兩張票，對吧？",
+        "context": "請填本課單字：幸運的。",
+        "explanation": "We were lucky to get the last two tickets, weren’t we? 我們很幸運買到最後兩張票，對吧？"
+      },
+      {
+        "id": "european-1",
+        "target": "European",
+        "answer": "European",
+        "sentence": "She has visited several ____ countries.",
+        "translation": "她遊覽過幾個歐洲國家。",
+        "context": "請填本課單字：歐洲的。",
+        "explanation": "She has visited several European countries. 她遊覽過幾個歐洲國家。"
+      },
+      {
+        "id": "european-2",
+        "target": "European",
+        "answer": "European",
+        "sentence": "This book introduces ____ traditions.",
+        "translation": "這本書介紹歐洲傳統。",
+        "context": "請填本課單字：歐洲的。",
+        "explanation": "This book introduces European traditions. 這本書介紹歐洲傳統。"
+      },
+      {
+        "id": "european-3",
+        "target": "European",
+        "answer": "European",
+        "sentence": "He is interested in ____ art.",
+        "translation": "他對歐洲藝術感興趣。",
+        "context": "請填本課單字：歐洲的。",
+        "explanation": "He is interested in European art. 他對歐洲藝術感興趣。"
+      },
+      {
+        "id": "wish-1",
+        "target": "wish",
+        "answer": "wish",
+        "sentence": "Make a ____ before you blow out the candles.",
+        "translation": "吹熄蠟燭前許個願。",
+        "context": "請填本課單字：願望。",
+        "explanation": "Make a wish before you blow out the candles. 吹熄蠟燭前許個願。"
+      },
+      {
+        "id": "wish-2",
+        "target": "wish",
+        "answer": "wish",
+        "sentence": "She wrote her ____ on a piece of paper.",
+        "translation": "她把願望寫在一張紙上。",
+        "context": "請填本課單字：願望。",
+        "explanation": "She wrote her wish on a piece of paper. 她把願望寫在一張紙上。"
+      },
+      {
+        "id": "wish-3",
+        "target": "wish",
+        "answer": "wish",
+        "sentence": "His birthday ____ is to travel with his family.",
+        "translation": "他的生日願望是和家人一起旅行。",
+        "context": "請填本課單字：願望。",
+        "explanation": "His birthday wish is to travel with his family. 他的生日願望是和家人一起旅行。"
+      },
+      {
+        "id": "throw-1",
+        "target": "throw",
+        "answer": "throw",
+        "sentence": "Please ____ the ball to me.",
+        "translation": "請把球丟給我。",
+        "context": "請填本課單字：丟，擲。",
+        "explanation": "Please throw the ball to me. 請把球丟給我。"
+      },
+      {
+        "id": "throw-2",
+        "target": "throw",
+        "answer": "throw",
+        "sentence": "Do not ____ stones at the window.",
+        "translation": "不要向窗戶丟石頭。",
+        "context": "請填本課單字：丟，擲。",
+        "explanation": "Do not throw stones at the window. 不要向窗戶丟石頭。"
+      },
+      {
+        "id": "throw-3",
+        "target": "throw",
+        "answer": "throw",
+        "sentence": "Some people ____ a coin into a fountain and make a wish.",
+        "translation": "有些人把硬幣投進噴水池並許願。",
+        "context": "請填本課單字：丟，擲。",
+        "explanation": "Some people throw a coin into a fountain and make a wish. 有些人把硬幣投進噴水池並許願。"
+      },
+      {
+        "id": "blow-1",
+        "target": "blow",
+        "answer": "blow",
+        "sentence": "Can you ____ out all the birthday candles?",
+        "translation": "你能吹熄所有生日蠟燭嗎？",
+        "context": "請填本課單字：吹。",
+        "explanation": "Can you blow out all the birthday candles? 你能吹熄所有生日蠟燭嗎？"
+      },
+      {
+        "id": "blow-2",
+        "target": "blow",
+        "answer": "blow",
+        "sentence": "Please ____ gently through the straw.",
+        "translation": "請輕輕地向吸管吹氣。",
+        "context": "請填本課單字：吹。",
+        "explanation": "Please blow gently through the straw. 請輕輕地向吸管吹氣。"
+      },
+      {
+        "id": "blow-3",
+        "target": "blow",
+        "answer": "blow",
+        "sentence": "The wind may ____ the papers off the table.",
+        "translation": "風可能把紙吹離桌面。",
+        "context": "請填本課單字：吹。",
+        "explanation": "The wind may blow the papers off the table. 風可能把紙吹離桌面。"
+      },
+      {
+        "id": "use-1",
+        "target": "use",
+        "answer": "use",
+        "sentence": "May I ____ your pen to write my wish?",
+        "translation": "我可以用你的筆寫願望嗎？",
+        "context": "請填本課單字：使用。",
+        "explanation": "May I use your pen to write my wish? 我可以用你的筆寫願望嗎？"
+      },
+      {
+        "id": "use-2",
+        "target": "use",
+        "answer": "use",
+        "sentence": "We ____ a dictionary to check new words.",
+        "translation": "我們用字典查新單字。",
+        "context": "請填本課單字：使用。",
+        "explanation": "We use a dictionary to check new words. 我們用字典查新單字。"
+      },
+      {
+        "id": "use-3",
+        "target": "use",
+        "answer": "use",
+        "sentence": "You ____ this cup every day, don’t you?",
+        "translation": "你每天都用這個杯子，對吧？",
+        "context": "請填本課單字：使用。",
+        "explanation": "You use this cup every day, don’t you? 你每天都用這個杯子，對吧？"
+      }
+    ]
   }
 ];
 globalThis.CLOZE_LESSON = globalThis.CLOZE_LESSONS[0];
