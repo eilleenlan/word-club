@@ -191,7 +191,7 @@ globalThis.WORD_UNITS = [
     ['she is', '她是'], ['I am', '我是'], ['what', '什麼'], ['name', '名字'], ['he is', '他是'], ['you are', '你是']
   ]},
   { grade: 1, id: 'u2', number: '02', title: '我們和大家', subtitle: 'we, your, open…', words: [
-    ['they', '他們'], ['we', '我們'], ['and', '和'], ['your', '你的'], ['his', '他的'], ['her', '她的'], ['that', '那個'], ['our', '我們的'], ['their', '他們的'], ['my', '我的'], ['open', '打開'], ['close', '關上']
+    ['they', '他們'], ['we', '我們'], ['and', '和', '連接兩個詞：Amy ____ Ben。'], ['your', '你的', '放在名詞前：____ book。'], ['his', '他的'], ['her', '她的', '表示「她的」，放在名詞前：____ book。'], ['that', '那個'], ['our', '我們的', '放在名詞前：____ books。'], ['their', '他們的', '放在名詞前：____ books。'], ['my', '我的', '放在名詞前：____ book。'], ['open', '打開'], ['close', '關上']
   ]},
   { grade: 1, id: 'u3', number: '03', title: '學校裡的招呼', subtitle: 'school, hello, good…', words: [
     ['in', '在', '表示「在……裡面」。'], ['school', '學校'], ['who', '誰'], ['hello', '哈囉'], ['good', '好的'], ['too', '也是'], ['first grade', '一年級'], ['yes', '是'], ['no', '不', '用來回答「不／不是」。例：____, thank you.'], ['not', '不……', '放在句子裡表示否定。例：I am ____ a teacher.']
@@ -308,7 +308,7 @@ globalThis.WORD_UNITS = [
     [
       "mine",
       "我的",
-      "表示「我的東西」，是 I 的所有代名詞。"
+      "單獨使用，代替「我的東西」：This book is ____。"
     ],
     [
       "follow",
@@ -366,12 +366,13 @@ globalThis.WORD_UNITS = [
     ],
     [
       "confused",
-      "令人混淆的",
-      "課本中文為「令人混淆的」；confused 通常表示「感到困惑的」。"
+      "感到困惑的",
+      "描述人感到困惑；confusing 才是「令人困惑的」。"
     ],
     [
       "kinds",
-      "種類"
+      "種類",
+      "本題練習 k 開頭、表示「種類」的複數名詞。"
     ],
     [
       "bottom",
@@ -379,7 +380,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "types",
-      "類型"
+      "類型",
+      "本題練習 t 開頭、表示「類型」的複數名詞。"
     ]
   ]
 },
@@ -424,7 +426,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "nearly",
-      "接近"
+      "接近",
+      "本題練習 n 開頭的「幾乎、接近」。"
     ],
     [
       "horn",
@@ -432,7 +435,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "plants",
-      "植物"
+      "植物",
+      "本題練習複數名詞，字尾保留 s。"
     ],
     [
       "bone",
@@ -851,7 +855,7 @@ globalThis.WORD_UNITS = [
     ],
     [
       "thumb",
-      "大拇頭"
+      "大拇指"
     ],
     [
       "body",
@@ -929,11 +933,13 @@ globalThis.WORD_UNITS = [
     ],
     [
       "big",
-      "大的"
+      "大的",
+      "本題練習 b 開頭的「大的」。"
     ],
     [
       "little",
-      "小的"
+      "小的",
+      "本題練習 l 開頭的「小的」。"
     ],
     [
       "short",
@@ -1099,7 +1105,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "oil",
-      "石油"
+      "石油",
+      "本題練習 o 開頭的「石油」。"
     ],
     [
       "forest",
@@ -1123,7 +1130,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "products",
-      "產品"
+      "產品",
+      "本題練習複數名詞，字尾保留 s。"
     ]
   ]
 },
@@ -1160,7 +1168,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "fun",
-      "有趣的"
+      "有趣的",
+      "表示好玩、令人愉快；本題練習 f 開頭的字。"
     ],
     [
       "the United States",
@@ -1173,7 +1182,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "England",
-      "英國"
+      "英格蘭",
+      "英國的一部分；與指整個英國的 the United Kingdom 區分。"
     ],
     [
       "China",
@@ -1296,7 +1306,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "problem",
-      "問題"
+      "問題",
+      "指需要解決的難題或麻煩，字首 p。"
     ],
     [
       "cost",
@@ -1821,7 +1832,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "almost",
-      "幾乎"
+      "幾乎",
+      "本題練習 a 開頭的「幾乎」。"
     ]
   ]
 },
@@ -1963,7 +1975,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "question",
-      "問題"
+      "問題",
+      "指提出來詢問的問題，字首 q。"
     ],
     [
       "powered by",
@@ -2156,7 +2169,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "with",
-      "和"
+      "和",
+      "表示「和……一起」：play ____ Amy。"
     ],
     [
       "kick",
@@ -2646,7 +2660,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "vegetables",
-      "蔬菜"
+      "蔬菜",
+      "本題練習複數名詞，字尾保留 s。"
     ],
     [
       "fruit",
@@ -2764,7 +2779,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "small",
-      "小的"
+      "小的",
+      "本題練習 s 開頭的「小的」。"
     ],
     [
       "loose",
@@ -2788,7 +2804,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "large",
-      "大的"
+      "大的",
+      "本題練習 l 開頭的「大的」。"
     ],
     [
       "cheap",
@@ -3267,19 +3284,23 @@ globalThis.WORD_UNITS = [
     ],
     [
       "yours",
-      "你的"
+      "你的",
+      "單獨使用，代替「你的東西」：This book is ____。"
     ],
     [
       "hers",
-      "她的"
+      "她的",
+      "單獨使用，代替「她的東西」：This book is ____。"
     ],
     [
       "ours",
-      "我們的"
+      "我們的",
+      "單獨使用，代替「我們的東西」：These books are ____。"
     ],
     [
       "theirs",
-      "他們的"
+      "他們的",
+      "單獨使用，代替「他們的東西」：These books are ____。"
     ],
     [
       "borrow",
@@ -3287,7 +3308,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "mine",
-      "我的"
+      "我的",
+      "單獨使用，代替「我的東西」：This book is ____。"
     ],
     [
       "means",
@@ -3587,7 +3609,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "clothing",
-      "衣服（集合名詞）"
+      "衣服（不可數名詞）",
+      "不可數，搭配單數動詞；clothes 則搭配複數動詞。"
     ],
     [
       "clothes",
@@ -3733,7 +3756,8 @@ globalThis.WORD_UNITS = [
   "words": [
     [
       "electricity",
-      "電力"
+      "電力",
+      "電力；本題練習 e 開頭、11 個字母的名詞。"
     ],
     [
       "finish",
@@ -3745,7 +3769,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "interesting",
-      "有趣的"
+      "有趣的",
+      "表示引起興趣、有趣的；本題練習 i 開頭的形容詞。"
     ],
     [
       "battery",
@@ -3757,11 +3782,13 @@ globalThis.WORD_UNITS = [
     ],
     [
       "energy",
-      "能量"
+      "能量",
+      "能量；本題練習 e 開頭、6 個字母的名詞。"
     ],
     [
       "power",
-      "能源，電力"
+      "能源，電力",
+      "電力、動力；本題練習 p 開頭的名詞。"
     ],
     [
       "power plant",
@@ -3785,7 +3812,8 @@ globalThis.WORD_UNITS = [
     ],
     [
       "petroleum",
-      "石油"
+      "石油",
+      "本題練習 p 開頭的「石油」。"
     ],
     [
       "natural gas",
@@ -3898,11 +3926,13 @@ globalThis.WORD_UNITS = [
     ],
     [
       "rotate",
-      "自轉"
+      "自轉",
+      "本題練習動詞原形，表示「自轉」。"
     ],
     [
       "rotation",
-      "自轉"
+      "自轉",
+      "本題練習名詞，表示「自轉」。"
     ]
   ]
 },

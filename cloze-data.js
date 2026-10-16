@@ -3787,7 +3787,7 @@ globalThis.CLOZE_LESSONS = [
         "id": "vocab-plants",
         "answer": "plants",
         "sentence": "These dinosaurs ate ____ instead of meat.",
-        "context": "植物；填入本課複數名詞。",
+        "context": "植物；填入本課複數名詞。 本題請填複數名詞。",
         "translation": "這些恐龍吃植物而不吃肉。",
         "explanation": "這題使用 plants，表示「植物」。",
         "target": "vocab-plants"
@@ -3796,7 +3796,7 @@ globalThis.CLOZE_LESSONS = [
         "id": "vocab-plants-v2",
         "answer": "plants",
         "sentence": "The gardener waters the ____ every morning.",
-        "context": "情境：園丁每天早上澆灌植物。 請填本課用語，字首 p，共 1 個字，依句意使用正確詞形。",
+        "context": "情境：園丁每天早上澆灌植物。 請填本課用語，字首 p，共 1 個字，依句意使用正確詞形。 本題請填複數名詞。",
         "translation": "園丁每天早上澆灌植物。",
         "explanation": "完整句子：The gardener waters the plants every morning. 園丁每天早上澆灌植物。",
         "target": "vocab-plants"
@@ -3805,7 +3805,7 @@ globalThis.CLOZE_LESSONS = [
         "id": "vocab-plants-v3",
         "answer": "plants",
         "sentence": "These ____ need sunlight to grow.",
-        "context": "情境：這些植物需要陽光才能生長。 請填本課用語，字首 p，共 1 個字，依句意使用正確詞形。",
+        "context": "情境：這些植物需要陽光才能生長。 請填本課用語，字首 p，共 1 個字，依句意使用正確詞形。 本題請填複數名詞。",
         "translation": "這些植物需要陽光才能生長。",
         "explanation": "完整句子：These plants need sunlight to grow. 這些植物需要陽光才能生長。",
         "target": "vocab-plants"
@@ -5321,7 +5321,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "fun",
         "sentence": "This is a ____ game. We all enjoy playing it.",
         "translation": "這是個有趣的遊戲，我們都喜歡玩。",
-        "context": "請填本課用語：有趣的。",
+        "context": "請依句意填入本課用語。表示好玩、令人愉快；本題練習 f 開頭的字。",
         "explanation": "This is a fun game. We all enjoy playing it. 這是個有趣的遊戲，我們都喜歡玩。"
       },
       {
@@ -5330,7 +5330,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "fun",
         "sentence": "The teacher planned a ____ activity for our class.",
         "translation": "老師為我們班安排了一個有趣的活動。",
-        "context": "請填本課用語：有趣的。",
+        "context": "請依句意填入本課用語。表示好玩、令人愉快；本題練習 f 開頭的字。",
         "explanation": "The teacher planned a fun activity for our class. 老師為我們班安排了一個有趣的活動。"
       },
       {
@@ -5339,7 +5339,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "fun",
         "sentence": "What a ____ trip! I want to go again.",
         "translation": "多麼有趣的旅行！我想再去一次。",
-        "context": "請填本課用語：有趣的。",
+        "context": "請依句意填入本課用語。表示好玩、令人愉快；本題練習 f 開頭的字。",
         "explanation": "What a fun trip! I want to go again. 多麼有趣的旅行！我想再去一次。"
       },
       {
@@ -12702,7 +12702,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "oil",
         "sentence": "The ship carries ____ from one port to another.",
         "translation": "這艘船把石油從一個港口運到另一個港口。",
-        "context": "請填本課用語：石油。",
+        "context": "請依句意填入本課用語。本題練習 o 開頭的「石油」。",
         "explanation": "The ship carries oil from one port to another. 這艘船把石油從一個港口運到另一個港口。"
       },
       {
@@ -12711,7 +12711,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "oil",
         "sentence": "The workers found ____ deep under the ground.",
         "translation": "工人在地底深處發現石油。",
-        "context": "請填本課用語：石油。",
+        "context": "請依句意填入本課用語。本題練習 o 開頭的「石油」。",
         "explanation": "The workers found oil deep under the ground. 工人在地底深處發現石油。"
       },
       {
@@ -12720,7 +12720,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "oil",
         "sentence": "The company stores ____ in large tanks.",
         "translation": "這家公司把石油儲存在大型儲存槽裡。",
-        "context": "請填本課用語：石油。",
+        "context": "請依句意填入本課用語。本題練習 o 開頭的「石油」。",
         "explanation": "The company stores oil in large tanks. 這家公司把石油儲存在大型儲存槽裡。"
       },
       {
@@ -12864,7 +12864,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "products",
         "sentence": "This shop sells ____ made from recycled paper.",
         "translation": "這家店販售用回收紙製成的產品。",
-        "context": "請填本課用語：產品。",
+        "context": "請填本課用語：產品。 本題請填複數名詞。",
         "explanation": "This shop sells products made from recycled paper. 這家店販售用回收紙製成的產品。"
       },
       {
@@ -12873,7 +12873,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "products",
         "sentence": "We read the labels before buying cleaning ____.",
         "translation": "我們買清潔產品前會先看標籤。",
-        "context": "請填本課用語：產品。",
+        "context": "請填本課用語：產品。 本題請填複數名詞。",
         "explanation": "We read the labels before buying cleaning products. 我們買清潔產品前會先看標籤。"
       },
       {
@@ -12882,7 +12882,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "products",
         "sentence": "The company showed its new ____ at the fair.",
         "translation": "這家公司在展覽會上展示它的新產品。",
-        "context": "請填本課用語：產品。",
+        "context": "請填本課用語：產品。 本題請填複數名詞。",
         "explanation": "The company showed its new products at the fair. 這家公司在展覽會上展示它的新產品。"
       }
     ]
@@ -13310,7 +13310,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "almost",
         "sentence": "It is ____ noon; the clock says 11:58.",
         "translation": "快中午了，時鐘顯示十一點五十八分。",
-        "context": "請填本課用語：幾乎。",
+        "context": "請依句意填入本課用語。本題練習 a 開頭的「幾乎」。",
         "explanation": "It is almost noon; the clock says 11:58. 快中午了，時鐘顯示十一點五十八分。"
       },
       {
@@ -13319,7 +13319,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "almost",
         "sentence": "I have ____ finished my homework; only one question is left.",
         "translation": "我的功課幾乎寫完了，只剩一題。",
-        "context": "請填本課用語：幾乎。",
+        "context": "請依句意填入本課用語。本題練習 a 開頭的「幾乎」。",
         "explanation": "I have almost finished my homework; only one question is left. 我的功課幾乎寫完了，只剩一題。"
       },
       {
@@ -13328,7 +13328,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "almost",
         "sentence": "The bottle is ____ empty, with just a little water left.",
         "translation": "瓶子幾乎空了，只剩一點水。",
-        "context": "請填本課用語：幾乎。",
+        "context": "請依句意填入本課用語。本題練習 a 開頭的「幾乎」。",
         "explanation": "The bottle is almost empty, with just a little water left. 瓶子幾乎空了，只剩一點水。"
       }
     ]
@@ -19881,7 +19881,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "vegetables",
         "sentence": "Carrots and cabbage are ____.",
         "translation": "紅蘿蔔和高麗菜是蔬菜。",
-        "context": "請填本課單字：蔬菜。",
+        "context": "請填本課單字：蔬菜。 本題請填複數名詞。",
         "explanation": "Carrots and cabbage are vegetables. 紅蘿蔔和高麗菜是蔬菜。"
       },
       {
@@ -19890,7 +19890,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "vegetables",
         "sentence": "We wash the ____ before making a salad.",
         "translation": "做沙拉前，我們先洗蔬菜。",
-        "context": "請填本課單字：蔬菜。",
+        "context": "請填本課單字：蔬菜。 本題請填複數名詞。",
         "explanation": "We wash the vegetables before making a salad. 做沙拉前，我們先洗蔬菜。"
       },
       {
@@ -19899,7 +19899,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "vegetables",
         "sentence": "Mom grows ____ in the garden.",
         "translation": "媽媽在花園種蔬菜。",
-        "context": "請填本課單字：蔬菜。",
+        "context": "請填本課單字：蔬菜。 本題請填複數名詞。",
         "explanation": "Mom grows vegetables in the garden. 媽媽在花園種蔬菜。"
       },
       {
@@ -20584,7 +20584,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "small",
         "sentence": "This shirt is too ____. I need a bigger one.",
         "translation": "這件上衣太小。我需要大一點的。",
-        "context": "請填本課用語：小的。",
+        "context": "請依句意填入本課用語。本題練習 s 開頭的「小的」。",
         "explanation": "This shirt is too small. I need a bigger one. 這件上衣太小。我需要大一點的。"
       },
       {
@@ -20593,7 +20593,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "small",
         "sentence": "The bag is ____ and holds only one book.",
         "translation": "袋子很小，只能裝一本書。",
-        "context": "請填本課用語：小的。",
+        "context": "請依句意填入本課用語。本題練習 s 開頭的「小的」。",
         "explanation": "The bag is small and holds only one book. 袋子很小，只能裝一本書。"
       },
       {
@@ -20602,7 +20602,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "small",
         "sentence": "The label says S for ____.",
         "translation": "標籤上的 S 表示小號。",
-        "context": "請填本課用語：小的。",
+        "context": "請依句意填入本課用語。本題練習 s 開頭的「小的」。",
         "explanation": "The label says S for small. 標籤上的 S 表示小號。"
       },
       {
@@ -20746,7 +20746,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "large",
         "sentence": "The label says L for ____.",
         "translation": "標籤上的 L 表示大號。",
-        "context": "請填本課用語：大的。",
+        "context": "請依句意填入本課用語。本題練習 l 開頭的「大的」。",
         "explanation": "The label says L for large. 標籤上的 L 表示大號。"
       },
       {
@@ -20755,7 +20755,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "large",
         "sentence": "This bag is ____ enough to hold all my clothes.",
         "translation": "這個袋子夠大，可以裝我所有衣服。",
-        "context": "請填本課用語：大的。",
+        "context": "請依句意填入本課用語。本題練習 l 開頭的「大的」。",
         "explanation": "This bag is large enough to hold all my clothes. 這個袋子夠大，可以裝我所有衣服。"
       },
       {
@@ -20764,7 +20764,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "large",
         "sentence": "I need a ____ box, not a small one.",
         "translation": "我需要大箱子，不是小箱子。",
-        "context": "請填本課用語：大的。",
+        "context": "請依句意填入本課用語。本題練習 l 開頭的「大的」。",
         "explanation": "I need a large box, not a small one. 我需要大箱子，不是小箱子。"
       },
       {
@@ -21949,7 +21949,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "piece",
         "sentence": "Would you like a ____ of cake?",
         "translation": "你想要一片蛋糕嗎？",
-        "context": "請填本課單字：片。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭、表示「片、塊」的單字。",
         "explanation": "Would you like a piece of cake? 你想要一片蛋糕嗎？"
       },
       {
@@ -21958,7 +21958,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "piece",
         "sentence": "I cut a small ____ of pizza for my sister.",
         "translation": "我切了一小片披薩給妹妹。",
-        "context": "請填本課單字：片。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭、表示「片、塊」的單字。",
         "explanation": "I cut a small piece of pizza for my sister. 我切了一小片披薩給妹妹。"
       },
       {
@@ -21967,7 +21967,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "piece",
         "sentence": "There is one ____ of bread left on the plate.",
         "translation": "盤子裡還剩一片麵包。",
-        "context": "請填本課單字：片。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭、表示「片、塊」的單字。",
         "explanation": "There is one piece of bread left on the plate. 盤子裡還剩一片麵包。"
       },
       {
@@ -25625,7 +25625,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "clothing",
         "sentence": "Warm ____ is important in winter.",
         "translation": "保暖衣物在冬天很重要。",
-        "context": "請填本課單字：衣服（集合名詞）。",
+        "context": "請填本課單字：衣服（不可數名詞）。",
         "explanation": "Warm clothing is important in winter. 保暖衣物在冬天很重要。"
       },
       {
@@ -25634,7 +25634,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "clothing",
         "sentence": "This shop sells traditional ____.",
         "translation": "這家店販售傳統服裝。",
-        "context": "請填本課單字：衣服（集合名詞）。",
+        "context": "請填本課單字：衣服（不可數名詞）。",
         "explanation": "This shop sells traditional clothing. 這家店販售傳統服裝。"
       },
       {
@@ -25643,7 +25643,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "clothing",
         "sentence": "All of the ____ in this box is clean.",
         "translation": "這個箱子裡所有衣物都是乾淨的。",
-        "context": "請填本課單字：衣服（集合名詞）。",
+        "context": "請填本課單字：衣服（不可數名詞）。",
         "explanation": "All of the clothing in this box is clean. 這個箱子裡所有衣物都是乾淨的。"
       },
       {
@@ -26517,7 +26517,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "electricity",
         "sentence": "We use ____ to run this computer.",
         "translation": "我們用電力運作這台電腦。",
-        "context": "請填本課單字或片語：電力。",
+        "context": "請依句意填入本課用語。電力；本題練習 e 開頭、11 個字母的名詞。",
         "explanation": "We use electricity to run this computer. 我們用電力運作這台電腦。"
       },
       {
@@ -26526,7 +26526,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "electricity",
         "sentence": "The lights went out when the ____ supply failed.",
         "translation": "電力供應中斷時燈熄滅了。",
-        "context": "請填本課單字或片語：電力。",
+        "context": "請依句意填入本課用語。電力；本題練習 e 開頭、11 個字母的名詞。",
         "explanation": "The lights went out when the electricity supply failed. 電力供應中斷時燈熄滅了。"
       },
       {
@@ -26535,7 +26535,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "electricity",
         "sentence": "This cable carries ____ to the house.",
         "translation": "這條電纜把電力送到房子。",
-        "context": "請填本課單字或片語：電力。",
+        "context": "請依句意填入本課用語。電力；本題練習 e 開頭、11 個字母的名詞。",
         "explanation": "This cable carries electricity to the house. 這條電纜把電力送到房子。"
       },
       {
@@ -26598,7 +26598,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "interesting",
         "sentence": "This book about energy is ____.",
         "translation": "這本關於能源的書很有趣。",
-        "context": "請填本課單字或片語：有趣的。",
+        "context": "請依句意填入本課用語。表示引起興趣、有趣的；本題練習 i 開頭的形容詞。",
         "explanation": "This book about energy is interesting. 這本關於能源的書很有趣。"
       },
       {
@@ -26607,7 +26607,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "interesting",
         "sentence": "We watched an ____ science demonstration.",
         "translation": "我們看了一場有趣的科學示範。",
-        "context": "請填本課單字或片語：有趣的。",
+        "context": "請依句意填入本課用語。表示引起興趣、有趣的；本題練習 i 開頭的形容詞。",
         "explanation": "We watched an interesting science demonstration. 我們看了一場有趣的科學示範。"
       },
       {
@@ -26616,7 +26616,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "interesting",
         "sentence": "She told us an ____ story.",
         "translation": "她告訴我們一個有趣的故事。",
-        "context": "請填本課單字或片語：有趣的。",
+        "context": "請依句意填入本課用語。表示引起興趣、有趣的；本題練習 i 開頭的形容詞。",
         "explanation": "She told us an interesting story. 她告訴我們一個有趣的故事。"
       },
       {
@@ -26679,7 +26679,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "energy",
         "sentence": "Food gives our bodies ____.",
         "translation": "食物給我們身體能量。",
-        "context": "請填本課單字或片語：能量。",
+        "context": "請依句意填入本課用語。能量；本題練習 e 開頭、6 個字母的名詞。",
         "explanation": "Food gives our bodies energy. 食物給我們身體能量。"
       },
       {
@@ -26688,7 +26688,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "energy",
         "sentence": "Light is a form of ____.",
         "translation": "光是一種能量。",
-        "context": "請填本課單字或片語：能量。",
+        "context": "請依句意填入本課用語。能量；本題練習 e 開頭、6 個字母的名詞。",
         "explanation": "Light is a form of energy. 光是一種能量。"
       },
       {
@@ -26697,7 +26697,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "energy",
         "sentence": "We can save ____ by switching off unused lights.",
         "translation": "我們可以關掉不用的燈來節省能源。",
-        "context": "請填本課單字或片語：能量。",
+        "context": "請依句意填入本課用語。能量；本題練習 e 開頭、6 個字母的名詞。",
         "explanation": "We can save energy by switching off unused lights. 我們可以關掉不用的燈來節省能源。"
       },
       {
@@ -26706,7 +26706,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "power",
         "sentence": "The storm caused a ____ outage.",
         "translation": "暴風雨造成停電。",
-        "context": "請填本課單字或片語：能源，電力。",
+        "context": "請依句意填入本課用語。電力、動力；本題練習 p 開頭的名詞。",
         "explanation": "The storm caused a power outage. 暴風雨造成停電。"
       },
       {
@@ -26715,7 +26715,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "power",
         "sentence": "Wind ____ is used to generate electricity.",
         "translation": "風力能源被用來發電。",
-        "context": "請填本課單字或片語：能源，電力。",
+        "context": "請依句意填入本課用語。電力、動力；本題練習 p 開頭的名詞。",
         "explanation": "Wind power is used to generate electricity. 風力能源被用來發電。"
       },
       {
@@ -26724,7 +26724,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "power",
         "sentence": "The town’s ____ supply was restored.",
         "translation": "小鎮的電力供應恢復了。",
-        "context": "請填本課單字或片語：能源，電力。",
+        "context": "請依句意填入本課用語。電力、動力；本題練習 p 開頭的名詞。",
         "explanation": "The town’s power supply was restored. 小鎮的電力供應恢復了。"
       },
       {
@@ -26868,7 +26868,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "petroleum",
         "sentence": "Gasoline is made from ____.",
         "translation": "汽油由石油製成。",
-        "context": "請填本課單字或片語：石油。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭的「石油」。",
         "explanation": "Gasoline is made from petroleum. 汽油由石油製成。"
       },
       {
@@ -26877,7 +26877,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "petroleum",
         "sentence": "Crude oil is another name for ____.",
         "translation": "原油是石油的另一種名稱。",
-        "context": "請填本課單字或片語：石油。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭的「石油」。",
         "explanation": "Crude oil is another name for petroleum. 原油是石油的另一種名稱。"
       },
       {
@@ -26886,7 +26886,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "petroleum",
         "sentence": "This refinery processes ____.",
         "translation": "這座煉油廠加工石油。",
-        "context": "請填本課單字或片語：石油。",
+        "context": "請依句意填入本課用語。本題練習 p 開頭的「石油」。",
         "explanation": "This refinery processes petroleum. 這座煉油廠加工石油。"
       },
       {
@@ -27584,7 +27584,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotate",
         "sentence": "Planets ____ on their axes.",
         "translation": "行星繞自己的軸自轉。",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習動詞原形，表示「自轉」。",
         "explanation": "Planets rotate on their axes. 行星繞自己的軸自轉。"
       },
       {
@@ -27593,7 +27593,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotate",
         "sentence": "Watch the model ____ on its axis.",
         "translation": "看模型繞著自己的軸自轉。",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習動詞原形，表示「自轉」。",
         "explanation": "Watch the model rotate on its axis. 看模型繞著自己的軸自轉。"
       },
       {
@@ -27602,7 +27602,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotate",
         "sentence": "Can this globe ____ freely?",
         "translation": "這個地球儀能自由自轉嗎？",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習動詞原形，表示「自轉」。",
         "explanation": "Can this globe rotate freely? 這個地球儀能自由自轉嗎？"
       },
       {
@@ -27611,7 +27611,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotation",
         "sentence": "Earth’s ____ causes day and night.",
         "translation": "地球的自轉造成晝夜。",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習名詞，表示「自轉」。",
         "explanation": "Earth’s rotation causes day and night. 地球的自轉造成晝夜。"
       },
       {
@@ -27620,7 +27620,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotation",
         "sentence": "The spinning motion is called ____.",
         "translation": "這種旋轉運動稱為自轉。",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習名詞，表示「自轉」。",
         "explanation": "The spinning motion is called rotation. 這種旋轉運動稱為自轉。"
       },
       {
@@ -27629,7 +27629,7 @@ globalThis.CLOZE_LESSONS = [
         "answer": "rotation",
         "sentence": "This arrow shows the direction of the planet’s ____.",
         "translation": "這個箭頭顯示行星自轉的方向。",
-        "context": "請填本課單字或片語：自轉。",
+        "context": "請依句意填入本課用語。本題練習名詞，表示「自轉」。",
         "explanation": "This arrow shows the direction of the planet’s rotation. 這個箭頭顯示行星自轉的方向。"
       }
     ]
@@ -27794,10 +27794,10 @@ globalThis.CLOZE_LESSONS = [
         "id": "lunar-2",
         "target": "lunar",
         "answer": "lunar",
-        "sentence": "We talked about the ____ New Year celebration.",
-        "translation": "我們談到了農曆新年慶祝活動。",
+        "sentence": "The museum displayed an old ____ calendar.",
+        "translation": "博物館展示了一本古老的陰曆曆本。",
         "context": "請填本課單字或片語：農曆的，月亮的。",
-        "explanation": "We talked about the lunar New Year celebration. 我們談到了農曆新年慶祝活動。"
+        "explanation": "The museum displayed an old lunar calendar. 博物館展示了一本古老的陰曆曆本。"
       },
       {
         "id": "lunar-3",

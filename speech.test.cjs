@@ -62,13 +62,13 @@ test('all eight Unit 1 prompts use their own supplied recording, including phras
   }
   assert.equal(calls.length, 0);
 });
-test('all other 898 prompts keep their lesson recordings at both speeds', async () => {
+test('all other 896 prompts keep their lesson recordings at both speeds', async () => {
   require('./words.js');
   const { player, clips, calls } = setup();
   const sources = new Set();
   for (const unit of WORD_UNITS) for (const prompt of unit.words) {
     const [word] = prompt;
-    if (word === 'mountain') continue;
+    if (word === 'mountain' || ['audio/grade6/unit7/the-sun.mp3', 'audio/grade6/unit7/asteroid.mp3'].includes(prompt.audio)) continue;
     const expected = `audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word.toLowerCase().replace(/ /g, '-')}.mp3`;
     for (const slow of [false, true]) {
       await player.speak(word, { slow, recording: prompt.audio });
@@ -78,7 +78,7 @@ test('all other 898 prompts keep their lesson recordings at both speeds', async 
     assert.ok(require('node:fs').statSync(expected).size > 1000);
     sources.add(expected);
   }
-  assert.equal(sources.size, 898); assert.equal(calls.length, 0);
+  assert.equal(sources.size, 896); assert.equal(calls.length, 0);
 });
 
 test('mountain replacement plays even without speech synthesis, at both speeds', async () => {
@@ -92,3 +92,25 @@ test('mountain replacement plays even without speech synthesis, at both speeds',
  assert.equal(calls.length,0);
  assert.ok(require('node:fs').statSync('audio/overrides/mountain.mp3').size>1000);
 });
+
+const ukMale = { name: 'Google UK English Male', lang: 'en-GB', voiceURI: 'uk-male' };
+for (const [word, recording] of [['the Sun','audio/grade6/unit7/the-sun.mp3'], ['asteroid','audio/grade6/unit7/asteroid.mp3']]) {
+ test(`${word}: recommended TTS prefers UK male and preserves both speeds`, async () => {
+  const {player,calls,clips,statuses}=setup([...voices,ukMale]);
+  for(const slow of [false,true]) {await player.speak(word,{recording,slow});assert.equal(calls.at(-1).voice,ukMale);assert.equal(calls.at(-1).lang,'en-GB');assert.equal(calls.at(-1).rate,slow?.65:1);assert.equal(calls.at(-1).text,word);assert.match(statuses.at(-1),/Google UK English Male/);}
+  assert.equal(clips.length,0);
+ });
+ test(`${word}: manual voice wins, missing preferred voice uses English fallback`,async()=>{
+  const t=setup([...voices,ukMale]);await t.player.speak(word,{recording,voiceURI:'zira'});assert.equal(t.calls[0].voice.voiceURI,'zira');assert.equal(t.clips.length,0);
+  const f=setup();await f.player.speak(word,{recording});assert.equal(f.calls[0].voice.voiceURI,'natural');assert.equal(f.clips.length,0);
+ });
+ test(`${word}: unavailable TTS and failures never return to MP3`,async()=>{
+  const t=setup([voices[0]]);t.player.waitForVoices=async()=>{};await t.player.speak(word,{recording});assert.match(t.statuses.at(-1),/尚未提供英文聲音/);assert.equal(t.calls.length,0);
+  t.player.synth=undefined;await t.player.speak(word,{recording});assert.match(t.statuses.at(-1),/無法播放英文語音/);assert.equal(t.clips.length,0);
+  const f=setup([ukMale]);await f.player.speak(word,{recording});f.calls[0].onerror({error:'network'});assert.match(f.statuses.at(-1),/換一個英文聲音/);
+  f.synth.speak=()=>{throw Error('unavailable')};await f.player.speak(word,{recording});assert.match(f.statuses.at(-1),/换|換/);assert.equal(f.clips.length,0);
+ });
+ test(`${word}: another lesson path keeps its original recording`,async()=>{
+  const t=setup([ukMale]);await t.player.speak(word,{recording:'audio/another-lesson/'+word+'.mp3'});assert.equal(t.clips.length,1);assert.equal(t.calls.length,0);
+ });
+}

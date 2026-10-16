@@ -18,6 +18,11 @@
   grade3Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade3/unit${i + 1}/${word.replace(/ /g, "-")}.mp3`; }));
   const grade2Recordings = [["finger", "thumb", "body", "foot", "feet", "toe", "leg", "back", "arm", "hand", "have", "has"], ["eye", "ear", "hair", "mouth", "nose", "big", "little", "short", "long", "now"], ["coat", "shirt", "pants", "shorts", "skirt", "socks", "shoes", "dress", "sweater", "glasses"], ["tired", "happy", "sad", "bored", "angry", "crazy", "hungry", "thirsty", "sick", "scared"]];
   grade2Recordings.forEach((words, i) => words.forEach(word => { recordings[word] = `audio/grade2/unit${i + 1}/${word}.mp3`; }));
+  // Only these lesson recordings bypass MP3 playback in recommended mode.
+  const ttsOnlyRecordings = new Set([
+    'audio/grade6/unit7/the-sun.mp3',
+    'audio/grade6/unit7/asteroid.mp3'
+  ]);
   class WordSpeaker {
     constructor({ synth = globalThis.speechSynthesis, Utterance = globalThis.SpeechSynthesisUtterance, makeAudio = source => new Audio(source), onStatus = () => {} } = {}) {
       this.synth = synth; this.Utterance = Utterance; this.makeAudio = makeAudio; this.onStatus = onStatus; this.token = 0;
@@ -49,7 +54,8 @@
       let fallback = '';
       const replacement = text.trim().toLowerCase() === 'mountain';
       const source = replacement ? 'audio/overrides/mountain.mp3' : recording || recordings[text.toLowerCase()];
-      if (!voiceURI && source) {
+      const ttsOnly = ttsOnlyRecordings.has(recording);
+      if (!voiceURI && source && !ttsOnly) {
         const clip = this.makeAudio(source); this.audio = clip;
         clip.playbackRate = rate; clip.preservesPitch = true;
         try {
@@ -71,7 +77,9 @@
       await this.waitForVoices();
       if (token !== this.token) return;
       const voices = this.voices();
-      const voice = voices.find(v => v.voiceURI === voiceURI) || voices[0];
+      const preferred = ttsOnly && !voiceURI
+        ? voices.find(v => v.name === 'Google UK English Male') : undefined;
+      const voice = voices.find(v => v.voiceURI === voiceURI) || preferred || voices[0];
       if (!voice) { this.onStatus('裝置尚未提供英文聲音。請安裝英文語音，或用 Chrome／Edge 開啟。'); return; }
       const utterance = new this.Utterance(text);
       this.utterance = utterance; utterance.voice = voice; utterance.lang = voice.lang; utterance.rate = rate; utterance.pitch = 1; utterance.volume = 1;
