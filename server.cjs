@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const allowed = new Set(['index.html', 'styles.css', 'words.js', 'app.js', 'speech.js', 'audio/this.ogg', 'audio-credits.html']);
 allowed.add('practice.js');
+for (const name of ['learning-store.js','learning-catalog.js','learning-targets.json','learner-ui.js','learner.css']) allowed.add(name);
 for (const name of ['cloze.html', 'cloze.css', 'cloze.js', 'cloze-data.js', 'scope-picker.js', 'cloze-scope.js']) allowed.add(name);
 allowed.add('audio/overrides/mountain.mp3');
 allowed.add('assets/share-card.png');
@@ -10,7 +11,7 @@ require('./words.js');
 for (const unit of globalThis.WORD_UNITS) {
   for (const word of unit.words) allowed.add(`audio/${unit.grade === 1 ? '' : `grade${unit.grade}/`}unit${Number(unit.number)}/${word[0].toLowerCase().replace(/ /g, '-')}.mp3`);
 }
-const types = { '.png': 'image/png', '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.ogg': 'audio/ogg', '.mp3': 'audio/mpeg' };
+const types = { '.json': 'application/json; charset=utf-8', '.png': 'image/png', '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.ogg': 'audio/ogg', '.mp3': 'audio/mpeg' };
 http.createServer((req, res) => {
   const url = new URL(req.url, 'http://127.0.0.1');
   const name = url.pathname === '/' ? 'index.html' : url.pathname.slice(1);

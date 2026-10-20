@@ -1,8 +1,8 @@
-(() => {
+(async () => {
   'use strict';
   const $ = id => document.getElementById(id);
   const units = globalThis.WORD_UNITS;
-  const key = 'word-club-progress-v1';
+  const people = await LearnerUI.ready;
   let grade = 1, session = null, history = {};
   let practiceMode = 'single';
   let activity = new URLSearchParams(location.search).get('activity') === 'cloze' ? 'cloze' : 'spelling';
@@ -22,7 +22,7 @@
     return selections.get(id);
   }
   const speaker = new WordSpeaker({ onStatus: message => { (!$('home').hidden ? $('home-speech-status') : $('results').hidden ? $('speech-status') : $('result-speech-status')).textContent = message; } });
-  try { const saved = JSON.parse(localStorage.getItem(key) || '{}'); if (saved && typeof saved === 'object' && !Array.isArray(saved)) history = saved; } catch { storageNotice(); }
+  history = people.scoreMap('spelling');
   function storageNotice() { $('storage-status').textContent = '這個瀏覽器暫時無法儲存紀錄，仍然可以繼續練習。'; $('storage-status').hidden = false; }
   function show(view) { for (const id of ['home', 'quiz', 'results']) $(id).hidden = id !== view; window.scrollTo({ top: 0, behavior: 'instant' }); }
   function cancelSpeech() { speaker.cancel(); }
@@ -174,8 +174,9 @@
   function chooseGrade(value) { grade = value; document.querySelectorAll('.grade').forEach(button => { const selected = Number(button.dataset.grade) === grade; button.classList.toggle('selected', selected); button.setAttribute('aria-pressed', String(selected)); }); renderUnits(); }
   function shuffled(items) { const result = [...items]; for (let i = result.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [result[i], result[j]] = [result[j], result[i]]; } return result; }
   function start(unit, words = unit.words, review = false) {
+    if (!people.ensure()) return;
     cancelSpeech();
-    session = { unit, words: $('shuffle').checked ? shuffled(words) : [...words], index: 0, missed: [], firstCorrect: 0, review, mode: document.querySelector('input[name="mode"]:checked').value };
+    session = { learnerId: people.current().id, completionId: WordClubLearningStore.newId(), label: `${scope.gradeName(grade)} · ${unit.title}${unit.mixed ? ' · '+unit.range : ''}${unit.id.includes(':selected:') ? ' · 自選：'+words.map(w=>w[0]).join('、') : ''}`, unit, words: $('shuffle').checked ? shuffled(words) : [...words], index: 0, missed: [], firstCorrect: 0, review, mode: document.querySelector('input[name="mode"]:checked').value };
     $('quiz-title').textContent = unit.mixed ? `${unit.title}${review ? ' · 錯題再挑戰' : ''}` : `Unit ${unit.number} · ${review ? '錯題再挑戰' : unit.title}`;
     $('quiz-scope').hidden = !unit.mixed;
     $('quiz-scope').textContent = unit.mixed ? `${unit.sampled ? `本輪 ${words.length} 題 · 題庫 ${unit.poolSize} 題。` : ''}練習範圍：${unit.range}` : '';
@@ -240,8 +241,9 @@
       const list = document.createElement('div'); list.className = 'review-words'; const heading = document.createElement('h2'); heading.textContent = '再熟悉一下這些單字'; list.append(heading);
       session.missed.forEach(word => { const row = document.createElement('div'); row.className = 'review-word'; const en = document.createElement('strong'); en.textContent = word[0]; const zh = document.createElement('span'); zh.textContent = word[1]; const button = document.createElement('button'); button.textContent = '♫'; button.setAttribute('aria-label', `聽 ${word[0]} 的發音`); button.onclick = () => speak(word); row.append(en, zh, button); list.append(row); }); $('review-list').append(list);
     }
-    if (!session.review && session.unit.sampled) { history[session.unit.id] = { last: session.firstCorrect, total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
-    if (!session.review && !session.unit.sampled) { const previous = history[session.unit.id]; history[session.unit.id] = { best: Math.max(Number.isInteger(previous?.best) ? Math.min(previous.best, session.words.length) : 0, session.firstCorrect), total: session.words.length }; try { localStorage.setItem(key, JSON.stringify(history)); } catch { storageNotice(); } }
+    let savedStatus=$('personal-save-status');if(!savedStatus){savedStatus=document.createElement('p');savedStatus.id='personal-save-status';savedStatus.className='save-status';savedStatus.setAttribute('role','status');$('results-title').after(savedStatus);}
+    savedStatus.className='save-status';savedStatus.textContent=session.review?'本次為錯題再練習，不覆蓋正式成績。':'正在儲存個人成績…';
+    if(!session.review){const completed=session;void people.save({learnerId:completed.learnerId,completionId:completed.completionId,activity:'spelling',scopeKey:completed.unit.id,label:completed.label,correct:completed.firstCorrect,total:completed.words.length,random:!!completed.unit.sampled}).then(()=>{if(people.current()?.id===completed.learnerId){history=people.scoreMap('spelling');if(!session&&!$('home').hidden)renderUnits();}if(session===completed)savedStatus.textContent='已儲存個人成績，可從頁首「我的成績」查看。';}).catch(()=>{if(session===completed){savedStatus.className='save-status failed';savedStatus.textContent='成績未能儲存，請勿離開此頁。可重新嘗試儲存。';const retry=document.createElement('button');retry.textContent='重試儲存';retry.onclick=()=>{if(session===completed)finish();};savedStatus.append(retry);}});}
     $('results-title').focus();
   }
   function home() { cancelSpeech(); session = null; show('home'); renderUnits(); document.querySelector('.grade.selected').focus(); }
@@ -271,6 +273,8 @@
   $('next').onclick = () => { if (!session?.resolved) return; if (++session.index < session.words.length) { cancelSpeech(); renderQuestion(); speakCurrent(); } else finish(); };
   $('exit').onclick = () => { if (confirm('要回到單元選單嗎？這次尚未完成的練習不會儲存。')) home(); };
   $('back').onclick = home;
+  people.setBeforeSwitch(()=>!session||$('quiz').hidden||confirm('切換學習者將結束目前未完成的練習，這輪成績不會儲存。要切換嗎？'));
+  people.subscribe(()=>{history=people.scoreMap('spelling');previousRounds.clear();home();});
   $('review').onclick = () => { const { unit, missed } = session; start(unit, missed, true); };
   window.addEventListener('pagehide', cancelSpeech);
   document.querySelectorAll('input[name="activity"]').forEach(input => { input.checked = input.value === activity; input.onchange = () => { activity = input.value; renderUnits(); }; });
@@ -278,6 +282,6 @@
   if (activity === 'cloze' && Number.isInteger(requestedGrade) && requestedGrade >= 1 && requestedGrade <= 6) chooseGrade(requestedGrade);
   else renderUnits();
   if (document.modelContext?.registerTool) {
-    try { Promise.resolve(document.modelContext.registerTool({ name: 'start_spelling_unit', description: '選擇已加入的單元並開始拼字練習，會重設目前尚未完成的練習。', inputSchema: { type: 'object', properties: { unit: { type: 'string', enum: units.map(scope.singleId) } }, required: ['unit'], additionalProperties: false }, annotations: { readOnlyHint: false }, execute(input) { const unit = units.find(u => scope.singleId(u) === input?.unit); if (!unit) throw new Error('找不到這個單元'); chooseGrade(scope.gradeOf(unit)); start({ ...unit, id: scope.singleId(unit) }); return { unit: scope.singleId(unit), questions: unit.words.length, view: 'quiz' }; } })).catch(() => {}); } catch { /* Optional browser API. */ }
+    try { Promise.resolve(document.modelContext.registerTool({ name: 'start_spelling_unit', description: '選擇已加入的單元並開始拼字練習，會重設目前尚未完成的練習。', inputSchema: { type: 'object', properties: { unit: { type: 'string', enum: units.map(scope.singleId) } }, required: ['unit'], additionalProperties: false }, annotations: { readOnlyHint: false }, execute(input) { if(!people.ensure())throw new Error('請先選擇學習者'); const unit = units.find(u => scope.singleId(u) === input?.unit); if (!unit) throw new Error('找不到這個單元'); chooseGrade(scope.gradeOf(unit)); start({ ...unit, id: scope.singleId(unit) }); return { unit: scope.singleId(unit), questions: unit.words.length, view: 'quiz' }; } })).catch(() => {}); } catch { /* Optional browser API. */ }
   }
 })();

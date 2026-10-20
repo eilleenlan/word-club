@@ -1,7 +1,7 @@
-/* Stage 0 only: neither practice page loads this module. */
+/* Local learner profiles and round summaries. Per-question recording stays disabled. */
 (function(root){
 'use strict';
-const DB_VERSION=1,FORMAT_VERSION=1;
+const DB_VERSION=2,FORMAT_VERSION=1;
 const fail=code=>Object.assign(new Error(code),{code});
 const required=v=>{if(typeof v!=='string'||!v.trim())throw fail('INVALID_ID');return v;};
 const equal=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
@@ -23,6 +23,7 @@ function open({indexedDB=root.indexedDB,name='word-club-learning',catalog,onStat
     db.createObjectStore('legacy',{keyPath:'id'});
     req.transaction.objectStore('meta').add({id:'schema',version:DB_VERSION,formatVersion:FORMAT_VERSION,migrations:['initial-v1']});
    }
+   if(e.oldVersion<2){for(const name of ['summaries','completions','rotations']){const store=req.result.createObjectStore(name,{keyPath:['learnerId','id']});store.createIndex('learnerId','learnerId');}req.transaction.objectStore('meta').put({id:'schema',version:2,formatVersion:FORMAT_VERSION,migrations:['initial-v1','learner-summaries-v2']});}
   };
   req.onsuccess=()=>{
    const db=req.result;if(abandoned){db.close();return;}
@@ -43,6 +44,30 @@ function open({indexedDB=root.indexedDB,name='word-club-learning',catalog,onStat
     close:()=>db.close(),
     async createLearner({id,nickname,avatarId}){required(id);profile(nickname,avatarId);const row={id,nickname,avatarId,revision:1};return run(['learners'],'readwrite',c=>c.get('learners',id,old=>{if(old){if(!equal(old,row))throw fail('ID_CONFLICT');c.done(old);return;}c.tx.objectStore('learners').add(row);c.done(row);}));},
     async updateLearner({learnerId,nickname,avatarId,expectedRevision}){profile(nickname,avatarId);return run(['learners'],'readwrite',c=>learner(c,learnerId,old=>{if(old.revision!==expectedRevision)throw fail('STALE_REVISION');const row={...old,nickname,avatarId,revision:old.revision+1};c.tx.objectStore('learners').put(row);c.done(row);}));},
+    async listLearners(){return run(['learners'],'readonly',c=>{const r=c.tx.objectStore('learners').getAll();r.onsuccess=()=>c.done(r.result);});},
+    async getLastLearner(){return run(['meta'],'readonly',c=>c.get('meta','lastLearner',row=>c.done(row?.learnerId||null)));},
+    async rememberLearner(learnerId){return run(['learners','meta'],'readwrite',c=>learner(c,learnerId,()=>{c.tx.objectStore('meta').put({id:'lastLearner',learnerId});c.done(true);}));},
+    async saveSummary({learnerId,completionId,activity,scopeKey,label,correct,total,random}){
+     required(completionId);required(scopeKey);required(label);
+     if(!['spelling','cloze'].includes(activity)||!Number.isInteger(total)||total<1||!Number.isInteger(correct)||correct<0||correct>total||typeof random!=='boolean')throw fail('INVALID_SUMMARY');
+     const id=activity+':'+scopeKey,receipt={learnerId,id:completionId,activity,scopeKey,label,correct,total,random};
+     return run(['learners','summaries','completions'],'readwrite',c=>learner(c,learnerId,()=>c.get('completions',[learnerId,completionId],old=>{
+      if(old&&!equal(old,receipt))throw fail('ID_CONFLICT');
+      c.get('summaries',[learnerId,id],previous=>{if(old){if(!previous)throw fail('CLEARED_COMPLETION');c.done(previous);return;}const row={learnerId,id,activity,scopeKey,label,total,random,updatedAt:Date.now(),...(random?{last:correct}:{best:Math.max(previous?.total===total&&Number.isInteger(previous.best)?previous.best:0,correct)})};c.tx.objectStore('summaries').put(row);c.tx.objectStore('completions').add(receipt);c.done(row);});
+     })));
+    },
+    async saveRotation(learnerId,id,changes){required(id);return run(['learners','rotations'],'readwrite',c=>learner(c,learnerId,()=>c.get('rotations',[learnerId,id],old=>{const row={learnerId,id,bank:{...old?.bank,...structuredClone(changes)}};c.tx.objectStore('rotations').put(row);c.done(row);})));},
+    async manageLearner({learnerId,action,confirmed}){
+     if(confirmed!==true)throw fail('CONFIRMATION_REQUIRED');
+     if(!['clear','remove'].includes(action))throw fail('INVALID_ACTION');
+     // Explicit allowlists: clearing scores preserves completion receipts and all other data.
+     const stores=action==='clear'?['summaries']:['summaries','completions','rotations','sessions','events','mastery','mistakes','rewards','wardrobe'];
+     return run(['learners','meta',...stores],'readwrite',c=>learner(c,learnerId,()=>{
+      for(const name of stores){const r=c.tx.objectStore(name).index('learnerId').openCursor(learnerId);r.onsuccess=()=>{const cursor=r.result;if(cursor){cursor.delete();cursor.continue();}};}
+      if(action==='remove'){c.tx.objectStore('learners').delete(learnerId);c.get('meta','lastLearner',row=>{if(row?.learnerId===learnerId)c.tx.objectStore('meta').delete('lastLearner');});}
+      c.done(true);
+     }));
+    },
     async getLearner(id){return run(['learners'],'readonly',c=>learner(c,id,c.done));},
     async createSession({learnerId,id,activity,targetIds}){
      required(id);if(!['spelling','cloze'].includes(activity)||!Array.isArray(targetIds)||!targetIds.length||new Set(targetIds).size!==targetIds.length||targetIds.some(t=>targets.get(t)?.activity!==activity))throw fail('INVALID_SCOPE');
@@ -50,7 +75,7 @@ function open({indexedDB=root.indexedDB,name='word-club-learning',catalog,onStat
      return run(['learners','sessions'],'readwrite',c=>learner(c,learnerId,()=>c.get('sessions',[learnerId,id],old=>{if(old&&!equal(old,row))throw fail('ID_CONFLICT');if(!old)c.tx.objectStore('sessions').add(row);c.done(old||row);})));},
     // No opt-in switch: phase 0 cannot write outcomes, even with a valid learner.
     async recordOutcome(){throw fail('RECORDING_NOT_ENABLED');},
-    async readLearnerRecords(learnerId,store){if(!['sessions','events','mastery','mistakes','rewards','wardrobe'].includes(store))throw fail('INVALID_STORE');return run(['learners',store],'readonly',c=>learner(c,learnerId,()=>{const r=c.tx.objectStore(store).index('learnerId').getAll(learnerId);r.onsuccess=()=>c.done(r.result);}));},
+    async readLearnerRecords(learnerId,store){if(!['sessions','events','mastery','mistakes','rewards','wardrobe','summaries','rotations'].includes(store))throw fail('INVALID_STORE');return run(['learners',store],'readonly',c=>learner(c,learnerId,()=>{const r=c.tx.objectStore(store).index('learnerId').getAll(learnerId);r.onsuccess=()=>c.done(r.result);}));},
     // Caller supplies storage explicitly. Original values are never changed or removed.
     async preserveLegacy(storage){const entries=[];for(let i=0;i<storage.length;i++){const key=storage.key(i);if(key==='word-club-progress-v1'||key?.startsWith('word-club-cloze:')){const value=storage.getItem(key);if(value===null)throw fail('LEGACY_CHANGED');entries.push([key,value]);}}entries.sort((a,b)=>a[0].localeCompare(b[0]));return run(['legacy'],'readwrite',c=>c.get('legacy','shared-v1',old=>{if(old){c.done(old);return;}const row={id:'shared-v1',entries,learnerId:null,formatVersion:FORMAT_VERSION};c.tx.objectStore('legacy').add(row);c.done(row);}));},
     async getLegacy(){return run(['legacy'],'readonly',c=>c.get('legacy','shared-v1',c.done));},

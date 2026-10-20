@@ -1,5 +1,7 @@
-(() => {
+(async () => {
  'use strict';
+ const people=await LearnerUI.ready;
+ let scoreRecords=people.scoreMap('cloze'),rotationBanks=people.rotationMap();
  const $ = id => document.getElementById(id), params=new URLSearchParams(location.search);
  const isMixed=['mixed','cross'].includes(params.get('mode'));
  const requestedGrade=Number(params.get('grade'));
@@ -24,8 +26,7 @@
  const targets = [...new Set(lesson.questions.map(q => q.target || q.id))];
  let activeTargets=[...targets], fullCount=targets.length;
  const rotationKey = `${key}:variants:r${lesson.revision || 1}`;
- let rotation = {};
- if (lesson.variants) {try { const saved=JSON.parse(localStorage.getItem(rotationKey)||'{}'); if(saved && typeof saved==='object' && !Array.isArray(saved)) rotation=saved; } catch { $('cloze-storage').hidden=false; }}
+ let rotation = rotationBanks[rotationKey] || {};
  if (lesson.variants) $('cloze-round-size').querySelector('option[value="all"]').textContent=`整課練習（${fullCount} 個目標各一題）`;
  let session, previousRound = [];
  const roundMode = () => lesson.rounds ? $('cloze-round-size').value : 'all';
@@ -33,7 +34,7 @@
  $('cloze-round-settings').hidden = !lesson.rounds;
  function shuffle(items) { const result=[...items]; for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result; }
  function show(view) { for(const name of ['home','quiz','result']) $('cloze-'+name).hidden=name!==view;window.scrollTo({top:0,behavior:'instant'}); }
- function stored() { try {return JSON.parse(localStorage.getItem(recordKey())||'null');}catch{$('cloze-storage').hidden=false;return null;} }
+ function stored() { return scoreRecords[recordKey()] || null; }
  function updateSummary() {
   const count=roundMode()==='all'?fullCount:Math.min(Number(roundMode()),fullCount);
   $('cloze-start').disabled=!fullCount;
@@ -44,6 +45,8 @@
  }
  function home() {session=null;show('home');updateSummary();$('cloze-start').focus();}
  function start(questions,review=false) {
+  if(!people.ensure())return;
+  const roundLearner=people.current().id,rotationChanges={};
   let selected;
   if(review) selected=shuffle(questions);
   else if(lesson.variants) {
@@ -57,22 +60,22 @@
       const example=variants[0];
       const storeKey=lesson.mixed?`word-club-cloze:${example.origin}:variants:r${example.revision||1}`:rotationKey;
       let bank=rotation;
-      if(lesson.mixed){try{bank=JSON.parse(localStorage.getItem(storeKey)||'{}');if(!bank||typeof bank!=='object'||Array.isArray(bank))bank={};}catch{bank={};$('cloze-storage').hidden=false;}}
+      if(lesson.mixed)bank=rotationBanks[storeKey] || {};
       const targetKey=example.originTarget||target;
       const saved=bank[targetKey] || {};
       const originalId=q=>q.originId||q.id;
       let remaining=Array.isArray(saved.remaining)?saved.remaining.filter(id=>variants.some(q=>originalId(q)===id)):[];
       if(!remaining.length){remaining=shuffle(variants.map(originalId));if(remaining.length>1 && remaining[0]===saved.last)[remaining[0],remaining[1]]=[remaining[1],remaining[0]];}
-      const id=remaining.shift();bank[targetKey]={remaining,last:id};if(lesson.mixed){try{localStorage.setItem(storeKey,JSON.stringify(bank));}catch{$('cloze-storage').hidden=false;}}return variants.find(q=>originalId(q)===id);
+      const id=remaining.shift();bank[targetKey]={remaining,last:id};rotationBanks[storeKey]=bank;(rotationChanges[storeKey] ||= {})[targetKey]=bank[targetKey];return variants.find(q=>originalId(q)===id);
     });
-    try {if(!lesson.mixed)localStorage.setItem(rotationKey,JSON.stringify(rotation));}catch{$('cloze-storage').hidden=false;}
+    for(const [id,changes]of Object.entries(rotationChanges))void people.saveRotation(roundLearner,id,changes).catch(()=>{people.notice('情境輪替未能儲存；練習可繼續，成績將另外儲存。');});
   }
   else {selected=shuffle(lesson.questions);if(roundMode()==='10'){
     const rest=selected.slice(10);selected=selected.slice(0,10);
     if(rest.length&&previousRound.length===selected.length&&selected.every(q=>previousRound.includes(q)))selected[selected.length-1]=rest[0];
     previousRound=selected;
   }}
-  session={questions:selected,index:0,correct:0,missed:[],review,resolved:false,key:recordKey(),random:roundMode()!=='all'};
+  session={learnerId:roundLearner,completionId:WordClubLearningStore.newId(),label:gradeName+' · '+lesson.title+' · '+(roundMode()==='all'?'全部已選目標':roundMode()+' 題隨機')+(activeTargets.length===targets.length?'':' · 自選：'+activeTargets.map(t=>lesson.questions.find(q=>(q.target||q.id)===t).answer).join('、')),questions:selected,index:0,correct:0,missed:[],review,resolved:false,key:recordKey(),random:roundMode()!=='all'};
   $('cloze-again').textContent=session.random?`再抽 ${Math.min(Number(roundMode()),fullCount)} 題`:`再練完整 ${fullCount} 題`;
   show('quiz');render();
  }
@@ -113,7 +116,8 @@
   $('cloze-result-message').textContent=session.missed.length?'看看這些句子，再練一次會更熟悉。':'每一題都答對了！';
   $('cloze-review').hidden=!session.missed.length;$('cloze-review-list').replaceChildren();
   const list=document.createElement('ul');for(const q of session.missed){const li=document.createElement('li');li.textContent=q.sentence.replace('____',q.answer);const explanation=document.createElement('small');explanation.textContent=q.explanation;li.append(explanation);list.append(li);}$('cloze-review-list').append(list);
-  if(!session.review){const record=stored();const total=session.questions.length;const best=Number.isInteger(record?.best)&&record.total===total?Math.max(0,Math.min(record.best,total)):0;try{localStorage.setItem(session.key,JSON.stringify(session.random?{last:session.correct,total}:{best:Math.max(best,session.correct),total}));}catch{$('cloze-storage').hidden=false;}}
+  let status=$('cloze-save-status');if(!status){status=document.createElement('p');status.id='cloze-save-status';status.className='save-status';status.setAttribute('role','status');$('cloze-result-title').after(status);}status.className='save-status';status.textContent=session.review?'本次為錯題再練習，不覆蓋正式成績。':'正在儲存個人成績…';
+  if(!session.review){const completed=session;void people.save({learnerId:completed.learnerId,completionId:completed.completionId,activity:'cloze',scopeKey:completed.key,label:completed.label,correct:completed.correct,total:completed.questions.length,random:completed.random}).then(()=>{if(people.current()?.id===completed.learnerId){scoreRecords=people.scoreMap('cloze');if(!session&&!$('cloze-home').hidden)updateSummary();}if(session===completed)status.textContent='已儲存個人成績，可從頁首「我的成績」查看。';}).catch(()=>{if(session===completed){status.className='save-status failed';status.textContent='成績未能儲存，請勿離開此頁。可重新嘗試儲存。';const retry=document.createElement('button');retry.textContent='重試儲存';retry.onclick=()=>{if(session===completed)finish();};status.append(retry);}});}
 
   $('cloze-result-title').focus();
  }
@@ -124,5 +128,7 @@
  $('cloze-exit').onclick=()=>{if(confirm('回到練習介紹嗎？這輪尚未完成的成績不會儲存。'))home();};
  $('cloze-round-size').insertBefore(new Option('隨機 20 題','20'),$('cloze-round-size').lastElementChild);
  if(!lesson.mixed){const container=document.createElement('div');$('cloze-round-settings').before(container);makePracticePicker(container,targets.map(target=>{const forms=[...new Set(lesson.questions.filter(q=>q.target===target).map(q=>q.answer))];return {id:target,label:forms.join(' / ')};}),ids=>{activeTargets=ids;fullCount=ids.length;previousRound=[];updateSummary();},{title:'自選單字／片語',unit:'個單字／片語目標'});const help=document.createElement('p');help.className='cloze-description';help.textContent='先選想練習的單字、片語或句型，再由系統抽出對應情境；每個已選目標每輪至多一題。';container.prepend(help);}
+ people.setBeforeSwitch(()=>!session||$('cloze-quiz').hidden||confirm('切換學習者將結束目前未完成的練習，這輪成績不會儲存。要切換嗎？'));
+ people.subscribe(()=>{scoreRecords=people.scoreMap('cloze');rotationBanks=people.rotationMap();rotation=rotationBanks[rotationKey]||{};previousRound=[];home();});
  home();
 })();
